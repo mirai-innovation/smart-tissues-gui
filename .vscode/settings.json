@@ -1,0 +1,8 @@
+{
+    "python.analysis.extraPaths": [
+        "./smarttissues/smts"
+    ],
+    "cSpell.words": [
+        "pdfplumber"
+    ]
+}

@@ -1,0 +1,19 @@
+import csv
+
+filename = "smarttissues\smts\static\database.csv"
+
+bio = input("nombre del tejido \n")
+x=0
+results = []
+cells =[]
+with open(filename, 'r', encoding='cp932', errors='ignore') as csvfile:
+    reader = csv.reader(csvfile ) # change contents to floattissiues
+    for row in reader: # each row is a list
+        cells.append(row[15])
+        if row[15] == (bio):
+            x += 1
+            results = row
+            print(x,row)
+    for i in cells:
+        print(cells)
+        

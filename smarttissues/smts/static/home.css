@@ -1,0 +1,11 @@
+.container {
+    background-color: bisque;
+    display: flex;
+    padding-left: 30px; /* or inline-flex */
+  }
+
+.search{
+    background-color: aliceblue;
+    padding-left: 20px;
+    
+}
