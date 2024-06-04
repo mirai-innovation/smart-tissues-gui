@@ -1,0 +1,2305 @@
+UCLA
+UCLA Previously Published Works
+Title
+Bioinks for 3D bioprinting: an overview
+Permalink
+https://escholarship.org/uc/item/4520s2n6
+Journal
+Biomaterials Science, 6(5)
+ISSN
+2047-4830
+Authors
+Gungor-Ozkerim, P Selcan
+Inci, Ilyas
+Zhang, Yu Shrike
+et al.
+Publication Date
+2018-05-01
+DOI
+10.1039/c7bm00765e
+ 
+Peer reviewed
+eScholarship.org Powered by the California Digital Library
+University of CaliforniaBiomaterials
+Science
+REVIEW
+Cite this: DOI: 10.1039/c7bm00765e
+Received 22nd August 2017,
+Accepted 12th January 2018
+DOI: 10.1039/c7bm00765e
+rsc.li/biomaterials-scienceBioinks for 3D bioprinting: an overview
+P. Selcan Gungor-Ozkerim, †a,b,cIlyas Inci,
+ †a,bYu Shrike Zhang,
+ †a,b,d
+Ali Khademhosseini
+a,b,d,e,f,g,h,i,jand Mehmet Remzi Dokmeci
+ *a,b,d,e,f
+Bioprinting is an emerging technology with various applications in making functional tissue constructs to
+replace injured or diseased tissues. It is a relatively new approach that provides high reproducibility and
+precise control over the fabricated constructs in an automated manner, potentially enabling high-
+throughput production. During the bioprinting process, a solution of a biomaterial or a mixture of severalbiomaterials in the hydrogel form, usually encapsulating the desired cell types, termed the bioink, is used
+for creating tissue constructs. This bioink can be cross-linked or stabilized during or immediately after
+bioprinting to generate the ﬁnal shape, structure, and architecture of the designed construct. Bioinks may
+be made from natural or synthetic biomaterials alone, or a combination of the two as hybrid materials. In
+certain cases, cell aggregates without any additional biomaterials can also be adopted for use as a bioink
+for bioprinting processes. An ideal bioink should possess proper mechanical, rheological, and biologicalproperties of the target tissues, which are essential to ensure correct functionality of the bioprinted
+tissues and organs. In this review, we provide an in-depth discussion of the di ﬀerent bioinks currently
+employed for bioprinting, and outline some future perspectives in their further development.
+1. Introduction
+Biofabrication is an emerging research area and includes the
+creation of tissue constructs with a hierarchical architecture.Conventional biofabrication techniques include, for example,
+particulate leaching, freeze-drying, electrospinning, and micro-
+engineering.
+1Although these techniques can all generatethree-dimensional (3D) structures with a wide range of bioma-
+terials, they typically possess limited reproducibility and versa-
+tility in their fabrication procedures. The most recent defi-
+nition of biofabrication is the generation of biologically func-tional products in an automated manner with structural
+organization by using bioactive molecules, living cells, and cell
+aggregates, such as micro-tissues, biomaterials, or hybrid cell-material constructs viabioassembly or bioprinting, and sub-
+sequent tissue maturation processes.
+2More recently, 3D bio-
+printing has emerged as a novel biofabrication method,oﬀering significantly improved control over the architecture of
+the fabricated tissue constructs with high reproducibility
+endowed by the automated deposition process.
+3–5Essentially,
+bioprinting allows for the fabrication of 3D tissue constructs
+with pre-programmed structures and geometries containing
+biomaterials and/or living cells (together termed the bioink)by synchronizing the bioink deposition/cross-linking with the
+motorized stage movement. Although bioprinting is still in its
+early developmental stages, its versatility has continued toaccelerate the applications in tissue engineering.
+6
+The main 3D bioprinting modalities (Fig. 1),3in general
+can be classified as: laser-assisted bioprinting (LaBP), inkjetbioprinting/droplet bioprinting, and extrusion-based
+bioprinting.
+7–10In addition, the use of multi-head deposition
+systems (MHDSs) allows the simultaneous or subsequentprinting of multiple materials. Besides, there are several
+custom-made bioprinting systems developed with various
+application-specific functions.
+7–10In these methods, 3D con- †These authors contributed equally to this work.aBiomaterials Innovation Research Center, Division of Engineering in Medicine,
+Department of Medicine, Brigham and Women ’s Hospital, Harvard Medical School,
+Cambridge, MA 02139, USA
+bHarvard-MIT Division of Health Sciences and Technology, Massachusetts Institute
+of Technology, Cambridge, MA 02139, USA.
+E-mail: mdokmeci@rics.bwh.harvard.edu
+cDepartment of Biomedical Engineering, Faculty of Engineering and Natural Sciences,
+Biruni University, Istanbul 34010, Turkey
+dWyss Institute for Biologically Inspired Engineering, Harvard University, Boston,
+MA 02115, USA
+eDepartment of Radiology, David Ge ﬀen School of Medicine, University of California-
+Los Angeles, Los Angeles, CA 90095, USA
+fCenter for Minimally Invasive Therapeutics (C-MIT), University of California-Los
+Angeles, Los Angeles, CA 90095, USA
+gDepartment of Bioindustrial Technologies, College of Animal Bioscience and
+Technology, Konkuk University, Seoul 143-701, Republic of Korea
+hCenter for Nanotechnology, King Abdulaziz University, Jeddah 21569, Saudi Arabia
+iDepartment of Bioengineering, Department of Chemical and Biomolecular
+Engineering, Henry Samueli School of Engineering and Applied Sciences, University
+of California-Los Angeles, Los Angeles, CA 90095, USA
+jCalifornia NanoSystems Institute (CNSI), University of California-Los Angeles,
+Los Angeles, CA 90095, USA
+This journal is © The Royal Society of Chemistry 2018 Biomater. Sci.
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Online
+View Journalstructs are programmed in a computer-aided design/computer-
+aided manufacturing (CAD/CAM) system. In all of these
+diﬀerent bioprinting strategies, however, the bioinks are an
+essential component, and are cross-linked or stabilized duringor immediately after the bioprinting to create the final shapes
+of the intended tissue constructs. The selection of the bioink
+depends on the specific application ( e.g., target tissue) and the
+type of cells as well as the bioprinter to be used. While the
+field has seen significant development in the bioprinting mod-
+alities (reviewed elsewhere),
+7–10their applications have been
+limited by the lack of appropriate bioinks, which both need to
+meet the requirements for bioprinting and to have the proper
+bioactivity of the di ﬀerent cell types.
+An ideal bioink should possess the desired physicochemical
+properties, such as proper mechanical, rheological, chemical,
+and biological characteristics.11These properties should lead
+to: (i) the generation of tissue constructs with adequate
+mechanical strength and robustness, while retaining the
+tissue-matching mechanics, preferably in a tunable manner;(ii) adjustable gelation and stabilization to aid the bioprinting
+of structures with high shape fidelity; (iii) biocompatibilityand, if necessary, biodegradability mimicking the natural
+microenvironment of the tissues; (iv) suitability for chemical
+modifications to meet tissue-specific needs; and (v) the poten-
+tial for large-scale production with minimum batch-to-batchvariations.
+12Since determining the optimal cell-laden bioink
+formulation is the vital step toward successful bioprinting, to
+date, various natural and synthetic biomaterials with specificfeatures have been utilized as bioinks.
+13Moreover, standar-
+dized bioink formulations are urgently needed that allow for
+their use in di ﬀerent bioprinting applications.
+The goal of this review is therefore to present an in-depth
+overview of the state of the art in existing bioinks. The review
+includes both natural and synthetic biomaterials used eitheralone or in combination, and in certain cases, multicellular
+spheroids used as bioinks (Table 1). Those studies in which
+biopolymers are printed without embedded cells and thosewhere the cells are seeded post-printing are excluded from the
+review, and only bioinks that contain cells are discussed. We
+first describe natural bioinks and then move on to syntheticbioinks and multicellular spheroids, followed by several com-
+mercial bioinks, where the main advantages and drawbacks of
+P. Selcan Gungor-OzkerimSelcan Gungor Ozkerim is a
+bioengineer and holds an MSc inBiomedical Engineering. Her
+PhD was based on designing
+complex 3D tissue sca ﬀolds for
+tissue engineering purposes. She
+developed a novel multilayered
+nanofibrous sca ﬀold system by
+using various polymeric bioma-
+terials in combination with con-
+trolled release systems. Sheworked at Harvard –
+Massachusetts Institute of
+Technology (MIT) in the Health
+Sciences & Technology (HST) division as a postdoctoral research
+fellow and studied the 3D bioprinting of cell-laden tissue con-
+structs. She generated viable and perfusable functional vascularconstructs that could be utilized for the vascularization of various
+tissue sca ﬀolds.
+Ilyas InciIlyas Inci received his Ph.D in
+Bioengineering at HacettepeUniversity in Turkey. His Ph.D
+study was on the e ﬀect of cryogel
+scaﬀolds for calvarial defect
+repair. After his Ph.D, he worked
+as a post-doctoral research
+fellow in Sabanci University inTurkey and then he attended
+Harvard-Massachusetts Institute
+of Technology (MIT), HealthSciences and Technology division
+to do research on tissue engin-
+eering as a post-doctoral
+research fellow. His research interests mainly focus on using bio-
+compatible sca ﬀolds to develop therapeutic methods in tissue
+engineering and analyzing the e ﬀects of applied tissue engineering
+methods on molecular signaling during tissue regeneration.
+Fig. 1 Schematic representation of the main 3D bioprinting technologies. (a) Inkjet/droplet bioprinting. (b) Extrusion-based bioprinting. (c) Laser-
+assisted bioprinting.3Reproduced with permission Copyright Nature Publishing Group, 2014.Review Biomaterials Science
+Biomater. Sci. This journal is © The Royal Society of Chemistry 2018
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlineeach category are discussed. We subsequently provide a short
+section to elaborate on some of the new bioink formulation
+strategies that are not mentioned in the preceding sections.We finally conclude with future perspectives on the remaining
+challenges associated with the current bioinks and the further
+need for standardization.
+2. Hydrogel-based bioinks
+Hydrogels have numerous attractive features for use as tissuescaﬀolds. For example, they are biocompatible and typically
+biodegradable, and a majority of them possess specific cell-
+binding sites that are desirable for cell attachment, spreading,
+growth, and di ﬀerentiation. In addition, some of these bio-
+materials in their modified forms can be readily photocross-
+linked.
+14Hydrogel biomaterials, including alginate, gelatin,
+collagen, fibrin/fibrinogen, gellan gum, hyaluronic acid (HA),agarose, chitosan, silk, decellularized extracellular matrix
+(dECM), poly(ethylene glycol) (PEG), and Pluronic, and their
+use as bioinks will be discussed in the following section.
+2.1. Protein-based bioinks
+Collagen is the main structural protein in the extracellular
+matrix (ECM) of mammalian cells. Collagen thus possesses
+tissue-matching physicochemical properties, together withsuperior in vitro /in vivo biocompatibility, and has been widely
+used in biomedical applications.
+15Koch et al. used collagen as
+a bioink formulation with encapsulated keratinocytes andfibroblasts and bioprinted multilayer 3D skin tissue constructs
+viaLaBP.
+16They investigated the viability and morphological
+functions of both cell types following bioprinting. Their find-ings demonstrated the presence of intercellular communi-cations between di ﬀerent cell types and suggested that the fab-
+ricated skin grafts had tissue-specific functions, which are
+promising for fabricating complex multicellular tissue con-structs. The same group further evaluated the in vivo appli-
+cations of these constructs and demonstrated the formation of
+3D skin-like tissue viaproliferation and proper di ﬀerentiation
+of the cells.
+17Another study also utilized a collagen bioink for
+skin tissue engineering and created mature tissues with dis-
+tinct cell layers.18Moon et al. developed a valve-based droplet
+ejector system to bioprint smooth muscle cells (SMCs)-laden
+collagen droplets, which formed line patterns with layer-by-
+layer deposition and demonstrated uniform cell seeding withcontrolled resolution.
+19In another study, the di ﬀerentiation
+potential of bioprinted mesenchymal stem cells (MSCs) was
+investigated.20Here, MSCs were encapsulated in collagen
+alone or collagen –agarose blend bioink and were bioprinted
+using an extrusion-based platform. The collagen-only matrix
+supported the spreading of the cells following printing, in con-trast to the behavior of the cells in the hybrid matrix made
+with agarose, which kept its structural integrity but did not
+allow cell spreading. The results revealed that the anisotropicsoft collagen-rich matrices were better suited for osteogenesis,
+whereas the isotropic sti ﬀagarose-rich matrices supported adi-
+pogenesis of the bioprinted 3D constructs. Collagen may alsobe combined with alginate for use as a composite bioink. Also,
+preosteoblasts and human adipose tissue-derived stem cells
+(ASCs) were encapsulated in this bioink to bioprint 3D porouscellular blocks.
+11Here, the cells were first cultured on a col-
+lagen gel and then the cell-laden collagen gel was combined
+with alginate. The results showed that the osteogenic potentialof the collagen-alginate bioink was higher than the one with
+alginate alone. Moreover, hepatic lineage di ﬀerentiation of the
+ASCs was also achieved in the bioprinted blocks, implying that
+Yu Shrike ZhangYu Shrike Zhang received his Ph.
+D. from Georgia Institute of
+Technology in the WallaceH. Coulter Department of
+Biomedical Engineering in 2013.
+He is currently a Faculty andAssociate Bioengineer in the
+Division of Engineering in
+Medicine at the Brigham andWomen ’s Hospital, Harvard
+Medical School. Dr Zhang ’s
+research is focused on innovatingmedical engineering technologies
+to recreate functional biomimetic
+tissues and tissue models, including biomaterials, bioprinting,organs-on-chips, medical devices, biomedical imaging, and biosen-
+sing. He is actively collaborating with a multidisciplinary team
+encompassing biomedical, mechanical, electrical, and computerengineers as well as biologists and clinicians to ultimately trans-
+late these cutting-edge technologies into clinics.
+Ali KhademhosseiniAli Khademhosseini is the Levi
+Knight Professor of
+Bioengineering, ChemicalEngineering and Radiology at
+the University of California-Los
+Angeles (UCLA). He is theFounding Director of the Center
+for Minimally Invasive
+Therapeutics (C-MIT) at UCLAand the Associate Director of
+the California NanoSystems
+Institute. Previously, he was aProfessor of Medicine at Harvard
+Medical School. He is recognized
+as a leader in combining micro- and nano-engineering approacheswith advanced biomaterials for regenerative medicine applications
+and has authored ∼500 journal papers (H-index >98 & >35 000
+citations). He is a fellow of AIMBE, BMES, RSC, FBSE, and AAAS.Read more at: http://www.tissueeng.net/.Biomaterials Science Review
+This journal is © The Royal Society of Chemistry 2018 Biomater. Sci.
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlinethis new bioink could be used in various tissue engineering
+applications. Collagen is also widely used as a biopaper in bio-
+printing applications. Biopaper is the substrate used in bio-printing and is the analog of the media used in standard print-
+ing processes and it is commonly referred to the hydrogel
+surface on which the cell-laden bioink or cell spheroids can bebioprinted.
+21–23
+Gelatin is produced by the denaturation of collagen.24It
+can be derived from bones, tendons, or skins of animals via
+acidic or basic hydrolysis. Its solution is thermosensitive and
+can form a hydrogel at lower temperatures in a concentration-
+dependent manner, and consequently it is one of the mostwidely used natural polymers for many biomedical appli-
+cations. Some of the superior advantages of gelatin include
+biocompatibility, biodegradability, low antigenicity, inclusionof intrinsic Arg-Gly-Asp (RGD) motifs, accessible active groups,
+absence of harmful byproducts, ease of processing, and low
+cost.
+25–27All of these properties, and especially its cellular
+aﬃnity, make it a versatile material for applications in tissue
+engineering and bioprinting. For bioprinting applications,
+gelatin with a wide range of concentrations has been used as abioink material and/or as a composite with other polymers. In
+addition, its modified forms, which can be chemically cross-
+linked, have also been adapted for bioprinting, such as gelatinmethacryloyl (GelMA).
+28
+Zhang et al. used gelatin –alginate composite bioinks to
+encapsulate myoblasts and investigated the mechanical pro-perties of the bioprinted soft tissue constructs.
+29By using a
+dual-nozzle system, they bioprinted 3D filaments with
+diﬀerent structural configurations, such as layers with specific
+angles. The process consisted of a two-step cross-linking pro-
+cedure; the physical cross-linking of gelatin at a low tempera-
+ture during bioprinting and ionic cross-linking of the alginatewith Ca
+2+ions following the bioprinting step. They observedthat the mechanical strength of the cell-laden constructs
+decreased during the culture period but the low-porosity and
+the angled geometry of the structures supported their mechan-ical durability. Although bioprinting at low temperatures
+resulted in a drastic decrease in cell viability during the
+first few days, cell proliferation increased over culture. Inanother study, a gelatin –alginate composite bioink was used
+for bioprinting hard tissue constructs.
+30The authors reported
+that human osteosarcoma cells remained in a non-proliferat-ing state within this composite bioink matrix, so they pro-
+posed filling the construct with an agarose overlay following
+bioprinting. Moreover, they added [polyphosphate (polyp).Ca
+2+-complex] into the overlay for better mineral deposition.
+This combined system significantly improved both the cellular
+proliferation and mechanical properties of the cell-laden con-structs, indicating that this system could be extended for other
+tissue engineering applications by adapting it for specific
+tissue needs. Another study utilized gelatin –alginate hydrogels
+for bioprinting cell-laden aortic valve conduits designed from
+micro-computed tomography images.
+31They simultaneously
+bioprinted encapsulated SMCs in the valve root part and valveleaflet interstitial cells in the leaflet part of the constructs in
+line with their anatomical regions by using an extrusion-based
+bioprinter. The bioprinted constructs were close to clinicaldimensions and were cross-linked in a CaCl
+2solution post-
+printing. It was noted that the optimal ratio of the gelatin and
+alginate combination in the blend was crucial for the printingquality for enabling proper cell growth, spreading, and pheno-
+typic maturation. Using the same bioprinting system, Wüst
+et al. fabricated 3D tubular constructs using a composite
+hydrogel with tunable properties.
+32Additionally, they used
+syringe tip heaters to control the temperature of the bioink,
+which prevented clogging and hence improved the bioprintingprocess. They supplemented the gelatin/alginate bioink with
+hydroxyapatite (HAp), which is an osteoinductive agent with
+numerous applications in bone tissue engineering.
+Due to its thermoresponsive property, gelatin can be tuned
+and physically cross-linked during bioprinting by thermal gela-
+tion, which helps to maintain the shapes of the bioprintedstructures. However, temperature-induced gelation is typically
+slow and unstable. To address this problem, gelatin has been
+further modified with photopolymerizable methacryloylgroups, enabling covalent cross-linking by UV light under mild
+conditions following the bioprinting process.
+33–37This function-
+alized form of gelatin, namely GelMA, is a promising bioinkmaterial because its cross-linking density can be easily con-
+trolled during methacryloyl group activation or during photo-
+polymerization, which determines the physicochemical pro-perties of the final construct. In bioprinting, since preservation
+of the integrity and mechanical strength of the bioprinted
+constructs are two of the most important criteria, GelMA isa suitable material for meeting these requirements. Our
+group reported a strategy for bioprinting cell-laden GelMA
+bioinks by using an extrusion-based bioprinter.
+38Various
+GelMA and cell concentrations and di ﬀerent UV exposure
+times were explored to evaluate the printability of cell-laden
+Mehmet Remzi DokmeciMehmet Remzi Dokmeci is an
+Associate Adjunct Professor ofRadiology at the University of
+California-Los Angeles (UCLA).
+Previously, he was an Instructorof Medicine at Brigham and
+Women ’s Hospital, Harvard
+Medical School. He has alsoworked at Corning-Intellisense, a
+MEMS foundry and was a faculty
+member in the Department ofElectrical and Computer
+Engineering at Northeastern
+University. Dr Dokmeci has long
+standing expertise in micro- and nanoscale sensors and devices
+and related applications to biomedical devices, organs on a chip,
+regenerative medicine and implantable biosensors. He has writtenover 116 journal articles, 110 conference publications, 4 book
+chapters, and has 4 patents.Review Biomaterials Science
+Biomater. Sci. This journal is © The Royal Society of Chemistry 2018
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article OnlineTable 1 Summary of various bioinks used to date
+Natural biomaterial-based bioinks
+Biomaterial Bioprinting method Cell typeTarget
+tissue Cellular response Ref.
+Alginate Extrusion-based
+printingCartilage progenitor cells (CPCs) Vascular 89% cell viability, after 12 h to 72 h
+incubation59
+Extrusion-based
+printingCPCs Vascular 95% cell viability, up to day 7; better
+diﬀerentiation60
+Extrusion-based
+printingHuman umbilical vein SMCs Vascular High proliferation up to day 7; ECM
+formation54
+Extrusion-based
+printingL929 mouse fibroblasts Vascular >90% cell viability in day 1, >70% cell
+viability up to day 761
+Laser-assisted cell
+printingNIH-3T3 fibroblasts Cell viability after 24 h decreased with
+increased gelation, alginate, Ca2+or
+laser exposure62
+Laser-assisted cell
+printingRabbit carcinoma cell line B16 and
+human umbilical vein endothelial
+cells (HUVECs) cell line Eahy926High cell density and cell level
+organization63
+Laser-assisted cell
+printingHuman breast cancer cells 85% or higher cell viability up to day 5 64
+Extrusion-based
+printingNIH-3T3 mouse fibroblasts Microscopic evaluation: similar viability
+between day 1 and day 765
+Extrusion-based
+printingASCs >90% cell viability on day 9 66
+MHDS Rat heart endothelial cells Around 80% cell viability up to day 21 9
+MHDS Rat adrenal medulla endothelial
+cellsIncreased printing pressure decreased
+cell viability at around 40%67
+MHDS Liver cells, human hepatic
+carcinoma cells cell line HepG2Liver Enhanced metabolic drug conversion 68
+Inkjet bioprinting NIH-3T3 mouse fibroblasts Vascular >80% cell viability in 72 h 71
+Inkjet bioprinting NIH-3T3 mouse fibroblasts Increasing cell concentration increased
+droplet breakup time72
+Extrusion-based
+printingHuman ASCs (hASCs) Proliferation, spreading and structure
+integrity up to 8 days of incubation55
+Gelatin Cell assembler C2C12 mouse myoblasts 55% cell viability 2 h after printing and
+increased up to day 429
+Rapid prototyping
+with 3D BioplotterHuman osteogenic sarcoma cells
+SaOS-2Non-proliferating state; addition of
+[polyp.Ca2+complex] and agarose
+improved proliferation30
+Extrusion-based
+printingAortic root sinus SMCs and aortic
+valve leaflet interstitial cellsAortic valve >80% cell viability on day 7; good
+spreading and phenotype retention31
+Extrusion-based
+printingHepG2 and NIH-3T3 cells Vascular >80% cell viability up to day 8 after
+printing38
+MHDS HUVECs and human neonatal
+dermal fibroblastsVascular Around 70% cell viability on day 0;
+>80% cell viability on day 7 after
+printing39
+Extrusion-based
+printingMSCs Cartilage Cell viability of all the bioinks (agarose,
+alginate, GelMA and BioINK) werearound 80%42
+Extrusion-based
+printingACPCs, MSCs, chondrocytes Cartilage Cell viabilities were around 75% and
+90% at days 1 and 14 after bioprinting,respectively43
+Collagen Laser-assisted
+bioprintingNIH-3T3 fibroblasts and human
+keratinocyte cell line (HaCaT)Skin Intercellular interactions between
+diﬀerent cell types; viability up to 10
+days16
+Laser-assisted
+bioprintingNIH-3T3 fibroblasts and HaCaT Skin Proliferation and di ﬀerentiation profiles
+were similar to native tissue17
+Robotic dispensing Fibroblasts (HFF-1) and HaCaT Skin Matured distinct multiple cell layers on
+day 14; >80% cell viability up to day 718
+Droplet ejector
+printingBladder SMCs >90% cell viability following printing;
+proliferation up to 14 days; successful
+cell patterning19
+Custom-made drop-
+on-demandbioprintingMSCs Bone >95% cell viability on day 21; osteogenic
+diﬀerentiation20
+Extrusion-based
+printinghASCs and preosteoblasts (MC3T3-
+E1)Bone and
+liver>85% cell viability on day 1,
+proliferation up to day 7; higherosteogenic activity and hepatogenicdiﬀerentiation11Biomaterials Science Review
+This journal is © The Royal Society of Chemistry 2018 Biomater. Sci.
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article OnlineTable 1 (Contd.)
+Natural biomaterial-based bioinks
+Biomaterial Bioprinting method Cell typeTarget
+tissue Cellular response Ref.
+Fibrinogen/
+fibrinCustom-made inkjet
+bioprinterNot specified Good expansion and proliferation up to
+day 746
+Inkjet printing Rabbit articular chondrocytes Cartilage >80% cell viability up to day 7; tissue-
+specific ECM formation47
+Laser-assisted
+bioprintingASCs and endothelial colony-forming
+cellsVascular Interaction between di ﬀerent cells in
+diﬀerent layers48
+Gellan gum Extrusion-based
+printingMC3T3 Addition of gellan gum did not a ﬀect
+cell viability77
+Extrusion-based
+printingEquine chondrocytes and MSCs 75 –86% viability after 1 –3 days post
+printing80
+Extrusion-based
+printingRat bone marrow MSCs Bone/
+cartilageMicrocarriers supported cell viability,
+spread and osteogenic di ﬀerentiation81
+Extrusion-based,
+hand-heldbioprintingPrimary neural cells Brain >70% viability up to day 5; RGD
+improved cell growth and networkformation79
+Silk Robotic dispensing BALB/3T3 mouse fibroblasts Average viability of 71% after 48 h of
+incubation51
+MHDS Human nasal inferior turbinate-
+derived MSCsHydrogel cross-linking with mushroom
+tyrosinase supported chondrogenic and
+adipogenic di ﬀerentiation, cross-linking
+with sonication supported osteogenicdiﬀerentiation52
+Hyaluronic acid Extrusion-based
+printingChondrocyte, osteoblast Osteo-
+chondralOsteoblasts encapsulated in collagen-
+1 hydrogel showed higher amount of
+osteogenic marker than osteoblastswithin HA; chondrocytes cultured onHA hydrogels showed higher expression
+of chondrogenic marker than
+chondrocytes cultured on collagen-185
+Commercial multi-
+material bioprinterHuman aortic valvular interstitial
+cellsHeart valve Cell viability was >90% for the
+encapsulated cells41
+Dual syringe
+deposition toolHepG2, human intestinal epithelial
+cells (Int-407), NIH-3T3 fibroblastsCells attached only to the parts of
+hydrogels containing a blend of GeMAand HAMA and they did not attach toonly HAMA parts40
+Extrusion-based
+printingHepG2, Int-407, NIH-3T3 fibroblasts Cell viability was more than 95% at day
+3 and at day 786
+Pneumatic
+dispensingChondrocytes Cartilage After 3 days, cell viability of
+chondrocytes seeded on printed GelMA
+and on GelMA-HA sca ﬀolds were
+around 73% and 82% respectively27
+Bioprinter with a
+temperature control
+unit and a UV light
+sourceBovine chondrocytes Embedding the cells in the bioink
+caused cell death and after removal of
+HA-pNIPAAM, there was a high cell
+viability due to the improved di ﬀusion87
+Dextran Pneumatic
+dispensingEquine chondrocytes HA-dexHEMA preparations showed
+appropriate viscoelastic and
+pseudoplastic behaviors89
+Agarose Droplet generation by
+nitrogen pressureand valve openingRat bladder SMCs Cell viabilities were approximately 95% 19
+Extrusion-based
+bioprintingSaOS2 Application of poly-P.Ca2+increased cell
+proliferation30
+Extrusion-based
+bioprintingHuman MG-63 osteosarcoma cells,
+mouse fibroblastsCell viabilities on day 1, at 4 days and at
+7 days after fabrication were 96%, 99%
+and 97% respectively91
+Bioprinting with a
+valve ejectorNIH-3T3 murine fibroblasts Cells stayed alive for 2 weeks in the
+scaﬀolds93
+Extrusion-based
+bioprinting with a
+high-density fluidHuman MSCs (hMSCs), MG-63
+osteosarcoma cellsCells were viable 24 h after bioprinting
+and after 21 days in culture92
+Agarose/
+chitosanExtrusion-based
+bioprintinghMSCs Cell viabilities ≥95%; on day 21; in
+collagen matrix, cells di ﬀerentiate into
+osteogenic tissue and in agarose matrix,
+they di ﬀerentiate into adipogenic tissue20Review Biomaterials Science
+Biomater. Sci. This journal is © The Royal Society of Chemistry 2018
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article OnlineTable 1 (Contd.)
+Natural biomaterial-based bioinks
+Biomaterial Bioprinting method Cell typeTarget
+tissue Cellular response Ref.
+Hydroxy-apatite Inkjet bioprinting hMSCs Bone In HAp used group, expression of
+collagen and ALP were the highest111
+Pneumatic
+dispensingGoat multipotent stromal cells Bone In the fast release group, osteocalcin
+expression was lower than the slow
+release group; results revealed that therelease speed did not change bonevolume significantly104
+3D bioprinting with a
+heatable nozzlehMSCs Bone Cell viability was 85% after 3 days of in
+vitro culture32
+Laser-assisted
+bioprintingHuman osteoprogenitor cells Bone Cell viability and proliferation did not
+change up to 15 days141
+Laser-assisted
+bioprintingHuman endothelial cells EA.hy926 Droplets were obtained with 70 μmi n
+diameter with five to seven living cellsper droplet142
+De-cellularized
+matrix based
+bioinksBioprinting with
+plunger-based
+dispensing systemhASCs, human inferior turbinate
+tissue-derived MSCs, L6 rat
+myoblastsAdipose/
+heart/
+cartilageHigh cell survival, cell-line-specific gene
+expression and specific ECM formation
+in printed tissue constructs99
+Dispensing system
+based bioprintingASCs Adipose After decellularization, remaining DNA
+content was 3%100
+Extrusion-based
+bioprintingPrimary human hepatocytes, primary
+human stellate cells, primary humanKupﬀer cellsLiver Printed tissue construct was functional
+as seen from production of detectablelevels of albumin and urea101
+Growth factor
+based bioinksInkjet bioprinting C2C12 Cells on the printed BMP-2 samples
+showed a significant increase in ALP
+expression; on the control and printedFGF-2 samples no noticeable ALPexpression was observed146
+Inkjet bioprinting C2C12 Histological analysis showed human
+acellular dermis alone did not result inbone formation; bone formation wasobserved on the BMP-2-printed
+construct parts121
+Matrigel Pneumatic
+dispensing systemEndothelial progenitor cells Vascular Alginate improved printing; degradation
+was increased and formation of vessel-like structures were decreased106
+Extrusion-based
+printingHepG2, human mammary epithelial
+of the cell line (M10)Liver Cells were viable 48 h after printing 103
+Laser-assisted
+bioprintingRabbit carcinoma cell line (B16),
+HUVECsCells were viable 24 h after printing 63
+Pneumatic
+dispensingGoat multipotent stromal cells Bone In the fast release group osteocalcin
+expression was lower than the slowrelease group; micro-CT results revealedthat release speed did not change bone
+volume significantly104
+Inkjet bioprinting Human alveolar epithelial type II cell
+line A549, hybrid human cell lineEA.hy926Lung Cell viability >95% for epithelial cells
+and co-cultures; ≥86% for endothelial
+cells105
+Extrusion-based
+printingHuman MSCs, human H1 embryonic
+stem cells, Caco2 cells, HUVECs,human adult dermal fibroblasts,human adult keratinocytesGastro-
+intestinal/skinSubcutaneous implantation of
+hydrogels revealed very low immuneresponse without capsule formation for2 months12
+Synthetic-biomaterials-based bioinks
+BiomaterialBioprinting
+method Cell type Target tissue Cellular response Ref.
+PCL Extrusion-based
+printingChondrocyte, osteoblast Osteo-
+chondral
+tissueOsteoblasts in collagen-1 hydrogel showed higher amount
+of osteogenic marker than osteoblasts in HA; chondrocytes
+in HA hydrogels showed higher expressions ofchondrogenic markers than chondrocytes cultured incollagen-185
+Inkjet
+bioprintingRabbit chondrocytes Cartilage Cell viability was 80% one week after printing; after 8
+weeks, large amount of cartilage ECM formation onprinted constructs47
+MHDS Human nasal septal
+chondrocytesCartilage 3D printed sca ﬀolds were implanted subcutaneously; led
+to increased cartilage tissue and type-II collagen formation69Biomaterials Science Review
+This journal is © The Royal Society of Chemistry 2018 Biomater. Sci.
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article OnlineTable 1 (Contd.)
+Synthetic-biomaterials-based bioinks
+Biomaterial Bioprinting
+methodCell type Target tissue Cellular response Ref.
+Pneumatic
+dispenserHuman chondrocyte
+cells (C20A4)Viability of cells on day 1 and day 3 after printing were
+approximately 90% and 70%70
+PEG Extrusion-based
+printingHUVECs hMSCs seeded on HUVECs laden printed construct and
+they spread into empty spaces of that construct at day 449
+Extrusion-based
+printingNIH-3T3 fibroblasts,
+HepG2 C3A and Int 407Vascular High cell viability up to 4 weeks 110
+Inkjet printing-
+modifiedBone marrow derived
+hMSCs (hBMSCs)Bone >85% cell viability up to 3 weeks; increased osteogenic
+marker formation111
+Extrusion-based
+printinghBMSCs >75% cell viability up to day 7 after printing 112
+Extrusion-based
+printingMSCs Susceptibility of outer cells of the needle edge was higher
+when shear level was higher than 1639 s−1in poloxamer, a
+commercially available cream, alginate-based and algi-nate –gelatin composite bioinks114
+Extrusion-based
+printingNIH-3T3 fibroblasts More than 50% cells were damaged on the edges of
+printed GelMA and PEGDA droplets after UV exposure for
+5 minutes, however less than 20% cells were damaged onthe edges of RAPID bioink after 5 minutes exposure inCaCl
+2solution116
+Pluronic Extrusion-based
+printingPrimary culture bovine
+chondrocytesCell viability: 62% for pure, 86% for modified Pluronic on
+day 14117
+HAMA-
+pHPMA-lac/
+PEGExtrusion-based Primary culture equine
+chondrocytesCartilage Medium level HAMA concentrations (0.25% –0.5%)
+promoted cartilage-like matrix production compared to
+HAMA-free hydrogels; higher (1%) concentrations led to
+undesirable fibrocartilage formation118
+PG-HA Extrusion-based Human and equine
+MSCsArticular
+cartilagePG-HA bioink showed higher improvement on the cell
+viability and di ﬀerentiation with respect to PG-only bioink119
+PVP Inkjet
+bioprintingNeonatal human
+foreskin fibroblasts(HFF-1)PVP improved the survival and homogenous dispersion of
+the printed cells120
+Cell aggregate/pellet-based bioinks
+Biomaterial Bioprinting method Cell typeTarget
+tissue Cellular response Ref.
+Cell aggregate/
+pellet-based
+bioinksExtrusion-based
+printingCHO Cellular droplets and sheets were fused after
+printing22
+Manual printing CHO Minimum number of cells died at the end of
+each fusion of aggregates21
+Extrusion-based
+printingChicken cardiomyocytes CHO,
+human vascular endothelial cellsCardiac
+tissueSynchronous beating was observed after 90 h
+of bioprinting127
+Inkjet bioprinting CHO No significant di ﬀerence was found in cell
+viability between printed and unprinted cells;cell viability of printed cells was 89%23
+Inkjet bioprinting D1 murine MSCs, murine
+mammary cancer cell line (4T07)Addition of EDTA did not cause significant cell
+deaths129
+Extrusion-based
+printingMSCs, Schwann cells Nerve Extensive axonal re-growth in both the
+proximal and distal ends of the printed nerve
+conduits130
+Extrusion-based
+printingMouse embryonic fibroblast cells Aorta No activation of caspase-3 was observed in
+continuously printed ring cells based bioink123
+Inkjet bioprinting Human alveolar epithelial type II
+cell line A549, hybrid human cell
+line EA.hy926Lung Cell viability was ≥95% for epithelial cells and
+co-cultures and ≥86% for endothelial cells105
+Robotic dispensing Fibroblasts, keratinocytes Skin Viability for both cell types was ≥95%;
+uniform distributions of fibroblasts in the
+dermal layer and uniform distributions of
+keratinocytes in the epidermal layer wereobserved18
+3D bioprinting with
+valve-based setup
+Human embryonic stem cells,human embryonic kidney cells
+(HEK293)Cell viability was more than 95% after 24 h
+following the printing and more than 89%
+after 72 h131Review Biomaterials Science
+Biomater. Sci. This journal is © The Royal Society of Chemistry 2018
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article OnlineTable 1 (Contd.)
+Cell aggregate/pellet-based bioinks
+Biomaterial Bioprinting method Cell type Target
+tissueCellular response Ref.
+Dispensing
+hanging-dropsbased printingAdult murine cardiac valve
+interstitial cells, mouse BMSCs,mouse dermal fibroblastsCell aggregates treated with growth factors
+have higher fusion capacity than theaggregates without growth factor treatment132
+Extrusion-based
+printingCHO, human umbilical vein
+smooth muscle cells, humanskin fibroblastsApoptosis was shown with caspase-3 staining
+of few cells in the printed vascular wall133
+Custom-made
+bioprinter with four
+cartridgesD1 murine MSCs, 4T07 Cells showed higher cell attachment and
+fidelity of shape of the bioprinted constructs
+on printing patterns which had units of thesmaller areas on collagen covered-coverslipsfor each cell type134
+Commercial bioinks
+BiomaterialBioprinting
+method Cell typeTarget
+tissue Cellular response Ref.
+Derma-
+matrixInkjet
+bioprintingC2C12 myogenic precursor cells Histological analysis showed human acellular
+dermis alone did not result in bone formation and
+bone formation was limited to the BMP-2-printedhalf of the constructs121
+Novogel Extrusion-
+based printingAortic SMCs, human aortic endothelial
+cells, human dermal fibroblasts, CHO,
+Schwann cellsAfter printing, NovoGel was removed and histology
+results showed vascular structures with cells and
+cell-produced ECM at 14 days122
+Extrusion-
+based printingHepG2, NIH-3T3 fibroblasts Cell viability was more than 80% after printing for
+8d a y s38
+Extrusion-
+based printingMouse embryonic fibroblast cells Aorta No activation of caspase-3 in continuously printed
+bioink ring cells123
+Composite bioinks/bioinks with bioactive molecules
+BiomaterialBioprinting
+method Cell type Target tissue Cellular response Ref.
+AuNPs Extrusion-based
+printingNIH-3T3 cells Vascular Cells proliferated and secreted ECM up to 4 weeks 86
+AgNPs Extrusion-based
+printingChondrocytes Cyborg
+organs/
+cartilage>90% cell viability; high ECM formation up to week 10,
+cells were alive and metabolically active135
+Magnetic iron
+oxide particlesHybrid nano-
+printing systemPorcine aortic
+endothelial cellsVascular Cell viability decreased with nanoparticles and printing
+pressure, but did not depend on nozzle diameter78
+Blood plasma Laser-assisted
+bioprintinghASCs Adipose Di ﬀerentiation into adipogenic lineage over 21 days;
+same amount of proliferation between printed andnon-printed samples148
+Cryo bioink Extrusion-based
+printingRed blood cells Cellular morphology and functionality of the printed
+patterns were maintained successfully during and after
+vitrification149
+Ultrashort
+peptidesSequential
+depositionhMSCs Vascular/skin Cell elongation was observed in less than a week; good
+in vivo
+biocompatibility and stability12
+Genetically
+engineeredphageExtrusion-based
+printingMC3T3-E1 Bone Higher levels of cell viability, proliferation and
+diﬀerentiation with engineered phages13
+Conductive
+bioinkExtrusion-based
+printingCardiomyocytes and
+cardiac fibroblastsCardiac
+tissueHigh level expression of cardiomyocyte markers, cell
+viability 90% and no cytotoxicity of carbon nanotubes
+on cells during electrical conductivity137Biomaterials Science Review
+This journal is © The Royal Society of Chemistry 2018 Biomater. Sci.
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article OnlineGelMA constructs. Using a 10% GelMA concentration, good
+results were obtained with a cell density of 1.5 × 106cells per
+mL; however, no significant di ﬀerences were observed while
+the UV exposure times were varied from 15 to 60 s UV. Following
+the characterization, we were able to print various designs of
+GelMA constructs with good cell viability, proliferation, andspreading. We also demonstrated the bioprinting of 3D GelMA
+constructs embedded with sacrificial agarose microchannel
+networks. After removing these sacrificial layers, the perfusionof the constructs with the media was demonstrated, leading
+to improved mass transport, cellular viability, and the di ﬀer-
+entiation of osteogenic cells in the GelMA matrix.
+38This
+method may be beneficial for the vascularization of thick 3D
+engineered constructs. Kolesky et al. recently reported an
+alternative method by co-printing multiple cell types, ECM-likestructures, and embedded vascular structures by a MHDS,
+where the main bioink matrix was GelMA.
+39To create the vas-
+cular network, Pluronic F127 was used as the sacrificial ink,which was then removed after the printing process by liquefy-
+ing it at a lower temperature (Fig. 2). A MHDS system reduced
+the printing time needed to create a complex tissue constructand the proposed method had higher survival rates for the
+multiple cell types encapsulated in GelMA. Other groups have
+blended GelMA with HA and used this mixture as a hybridbioink.
+27,40,41In addition to its advantageous properties for
+creating bone and cartilage tissues, HA can be used to improve
+the viscosity of GelMA prepolymer solutions. Since themechanical properties are critical in bioprinting processes,
+HA can be added to GelMA solutions to create more robust
+structures, which will be discussed in more detail in the HAsection. Both collagen and gelatin are amenable for bioprint-
+ing applications; however, to generate tissues with intended
+mechanical and biochemical properties further characteriz-ation is required. As mentioned, the parameter space for print-ability, cell density, related changes in viscosity, cell viability,
+etc. are quite large and the printing protocols require further
+experiments and modeling e ﬀorts prior to generating tissues
+with reproducible properties. In case these materials do not
+possess the proper properties, they will be combined with
+other materials to create suitable formulations.
+During the preparation of bioinks, the relevance of the hydro-
+gels ’bioactivity and the related cellular response is an impor-
+tant factor. Daly et al. used agarose, alginate, GelMA, and
+BioINK (methacrylated PEG-based hydrogel) as bioinks for car-
+tilage tissue engineering to analyze the e ﬀect of several
+bioinks on a single cell type.
+42Each hydrogel was blended
+with MSCs before bioprinting. In addition, polycaprolactone
+(PCL) microfibers were used to improve the mechanical pro-
+perties of bioinks during the bioprinting process. In thisstudy, an extrusion-based bioprinting system (3D Bioplotter)
+was used. It was shown that the alginate and agarose hydrogels
+supported the formation of hyaline-like cartilage more thanthe other hydrogels with evidence of higher tissue staining for
+type II collagen. On the other hand, GelMA and BioINK sup-
+ported the formation of fibrocartilage-like tissue more thanthe other groups as proven by the observation of higher
+amounts of both type I and type II collagen in tissues.
+Mechanical studies demonstrated that the inclusion of PCLmicrofibers into bioinks increased the elastic moduli of algi-
+nate and GelMA bioinks 544-fold and 45-fold, respectively, and
+these values were within the range of articular cartilage. Cellviability studies showed that all the bioinks had high levels of
+MSC viability after bioprinting ( ∼80%). In another study,
+GelMA hydrogels containing di ﬀerent cell types were bio-
+printed and the responses of these cells to a single bioink was
+investigated.
+43Articular cartilage-resident chondroprogenitor
+cells (ACPCs)-, MSCs-, and chondrocytes-laden GelMA-basedhydrogels were used as bioinks for bioprinting. An extrusion-
+Fig. 2 Schematic diagrams of thermoresponsive gelation and the corresponding shear elastic ( G’) and loss moduli ( G’’) measured as a function of
+temperature for: (a) pure GelMA, and (b) ﬁbroblast-laden GelMA bioinks.39Reprinted with permission Copyright John Wiley & Sons, Inc., 2014.Review Biomaterials Science
+Biomater. Sci. This journal is © The Royal Society of Chemistry 2018
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlinebased bioprinter with BioCAD software was used. The results
+showed that the ACPCs had better behavior than the chondro-
+cytes regarding the production of neo-cartilage. In addition,unlike MSCs, ACPCs demonstrated the lowest gene expression
+of hypertrophy marker collagen type X and the highest
+expression of PRG4, which encodes an important protein(lubricin) in joint lubrication. ACPC- and MSC-laden bioinks
+were combined in a multi-compartment structure to prepare
+a bioprinted model of articular cartilage, which showedapparent deep and superficial zones with distinct ECM
+compositions. Furthermore, it was shown that di ﬀerent cell
+types demonstrated di ﬀerent cell responses to the same
+bioink.
+Fibrinogen is a large, fibrous, and soluble glycoprotein that
+is involved in blood clot formation, where it is converted intoan insoluble fibrin molecule by thrombin in the presence of
+Ca
+2+viaintermolecular interactions.44,45In tissue engineering,
+fibrinogen and fibrin are mainly used to fabricate functionaltissue constructs for the replacement of damaged tissues due
+to their beneficial roles in wound healing. They are biocompa-
+tible, biodegradable, and non-immunogenic, and induce cellattachment, proliferation, and ECM formation.
+44,45
+Nakamura et al. created bioinks using fibrin and alginate
+and used them to bioprint structures using a custom-madeinkjet bioprinter.
+46In this bioink formulation, fibrin had a
+better cellular response, while alginate was a better material to
+use to enable seamless bioprinting. Other composite bioinkforms are also available, such as fibrin-collagen, which was
+combined with inkjet printing and electrospinning to improve
+the mechanical properties of the final construct for cartilagetissue engineering.
+47The constructs were fabricated in three
+steps: first, PCL was electrospun as a substrate, then chondro-
+cytes were encapsulated in fibrin/collagen and bioprinted ontop of the PCL layer, and finally another PCL layer was de-
+posited using electrospinning. They found that this hybrid
+system improved the mechanical properties of the constructand did not a ﬀect the cell survival rates. This new system may
+be utilized for the formation of complex tissues. Gruene et al.
+used fibrinogen as a bioink by mixing it with HA and used theLaBP method for the 3D assembly of multicellular arrays.
+48
+ASCs or endothelial colony-forming cells (ECFCs) were encap-sulated in a fibrinogen –HA mixture and then individual cell
+types were separately bioprinted in a layer-by-layer fashion.
+The bioprinting surface was covered with fibrin as a biopaper
+and thrombin was sprayed on it to enable gelation and fixationof the bioprinted HA/fibrinogen droplets. They demonstrated
+the formation of a vascular-like network, which indicated
+the presence of interactions between the printed ASCs andECFCs from di ﬀerent layers. Alternatively, Rutz et al. blended
+fibrinogen with PEG or a PEG –gelatin mixture.
+49They found
+that the incorporation of fibrinogen significantly increased thedegradation time and improved the robustness of the con-
+structs after cross-linking with thrombin/Ca
+2+solution follow-
+ing the bioprinting. Fibrinogen was also used as a biopaperfor printing cell spheroids to fabricate microvasculature
+networks.
+45Silk is a natural polymer that has been used for centuries as
+a suture material in medical applications. It has numerous
+attractive properties as a biomaterial since it is highly elasticand has a slow degradation rate that is needed for providing
+suﬃcient support for the cells until the new tissue is regener-
+ated. In addition, it has a low immunogenicity and is biocom-patible, hence it is also suitable for clinical applications.
+50Due
+to these attractive properties, silk has long been utilized as a
+scaﬀolding material for both soft and hard tissue engineering
+applications. Recently, it has also been adapted for bioprinting
+applications. Schacht et al. investigated the use of recombinant
+spider silk to create hydrogels.51In this study, mouse fibro-
+blasts were either cultured on bioprinted spider silk-based
+hydrogels or were encapsulated inside the bioink material. It
+was found that the viability of the encapsulated cells and thebioprinted cells were lower than the cells simply seeded
+without using a bioprinter. Alternatively, a bioink was pre-
+pared by including human nasal inferior turbinate-derivedmesenchymal progenitor cells into a mixture of gelatin and
+silk fibroin (Fig. 3).
+52It was found that the prepared hydrogels,
+which were enzymatically cross-linked using a mushroom tyro-sinase-supported chondrogenic and adipogenic di ﬀeren-
+tiations. In contrast, the hydrogels cross-linked using soni-
+cation supported osteogenic di ﬀerentiation. The variations in
+cellular response were due to the use of di ﬀerent cross-linking
+methods during bioprinting. The enzyme mushroom tyro-
+sinase oxidized the tyrosine residues of gelatin/silk into reac-tive elements that could react with each other or available
+amines, while sonication changed the hydrophobicity and
+increased the silk fibroin self-assembly to enable physicalcross-linking.
+2.2. Polysaccharides
+Alginate, also known as alginic acid, is a natural anionic poly-
+saccharide refined from brown seaweed and is similar to the
+glycosaminoglycans found in the native ECM of the humanbody. It has been commonly used in biomedicine due to its
+biocompatibility, low cytotoxicity, mild gelation process, and
+low cost.
+53,54In particular, it has been widely used as a bioink
+because of its fast gelation property under physiological con-
+ditions without forming harmful byproducts.55,56The gelation
+of alginate can be easily induced in the presence of divalentcations such as Ca
+2+and Ba2+by forming bridges between
+polymer chains, enabling physical cross-linking and solidifica-
+tion.57,58The removal of the ionically cross-linked alginate gels
+from a construct can occur viadissolution by release of the
+divalent ions cross-linking the hydrogel by exchange reactions
+with monovalent cations present in the surroundingmedium.
+53
+Since fast gelation leads to good printability, most of the
+current bioprinting methods have utilized alginate or modifiedalginate alone, or alginate blended with other biomaterials as
+bioinks. For example, Yu et al. developed a method to bioprint
+vascular-like channels by encapsulating cartilage progenitorcells in alginate and obtained cell-laden hollow tubular con-
+structs with good mechanical and biological properties.
+59TheyBiomaterials Science Review
+This journal is © The Royal Society of Chemistry 2018 Biomater. Sci.
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlinedesigned a coaxial nozzle system, whereby an alginate solution
+was extruded through the sheath and a CaCl 2solution was
+delivered in the core forming a tubular structure. This system
+combined a single-nozzle bioprinter and a motion unit toenable extrusion-based bioprinting. It was noted that increas-
+ing the alginate concentration from 2% to 6% (w/v) signifi-
+cantly reduced the cell viability due to the increase in shearstress during extrusion resulting from the increased viscosity.
+The same group further investigated the parameters that
+aﬀected the diameter of the bioprinted filaments and the
+gene expression profiles of the encapsulated cells using the
+same printing procedure.
+60Higher cell-specific gene
+expressions were observed, thus confirming the functionalityand higher di ﬀerentiation ability of the cells within the
+bioprinted perfusable alginate tubes compared to monolayer
+cultured cells. Recently, they also encapsulated humanumbilical vein SMCs in alginate and, while using the same
+printing method, they investigated the dehydration, swelling,
+and degradation characteristics of the constructs in additionto ECM deposition of cells.
+54In general, higher alginate con-
+centrations were found to result in a lower cell viability, degra-
+dation rate, porosity, and permeability, with 4% (w/v) alginatesuggested as the optimum concentration for the bioprinting
+process, where ECM formation was observed on both surfaces
+of the bioprinted tubes. Similarly, Gao et al. used the same
+coaxial system for bioprinting an alginate bioink to fabricate
+hollow tubes.
+61They gradually immersed the stage into a
+CaCl 2solution to further cross-link the construct, a promising
+process with applications for achieving large-scale tissue bio-
+printing (Fig. 4).Alginate was also widely used as a bioink in the LaBP
+method, which is a promising technique for scaled-up bio-
+printing with cellular resolution. In a typical process, a quartz
+disk with a thin layer of cell-alginate coating is used. A laser isfocused on top of the quartz disk featuring an optically absorb-
+ing layer, which generates local heating and creates a vapor
+bubble in the underlying cell-alginate coating. The bubblethen expands and forces the formation of a droplet, which is
+ejected into a CaCl
+2bath (Fig. 5).62In LaBP, the gelation para-
+meters and the concentration of alginate a ﬀect the cellular
+viability. It was found that 2 min gelation led to higher cell via-
+bility than 10 min gelation, which implied that a thin bioink
+membrane was needed, whereas a thicker one could, on thecontrary, block the transport of oxygen and nutrients.
+62In a
+subsequent study, they further tested di ﬀerent alginate con-
+centrations from 1 –3% (w/v), and found that higher alginate
+concentrations resulted in lower viability, due to transport
+limitations. Another group using a similar LaBP method
+studied the e ﬀect of the viscosity of the bioinks using di ﬀerent
+laser printing parameters.63By using higher alginate concen-
+trations with higher viscosities, they were able to obtain dro-
+plets with smaller diameters that enabled them to increase theresolution of the printed structures. Therefore, there seems to
+be a balance in cell viability and resolution, thus necessitating
+precise tuning of the alginate concentration as a bioink tomeet the needs of di ﬀerent applications. Increasing the con-
+centration of encapsulated cells further increased the viscosity
+and allowed them to bioprint constructs with higher cell den-sities de novo . LaBP was also used for developing a single-step
+fabrication of cell-encapsulated alginate microbeads with
+Fig. 3 The process of 3D-bioprinting of cell-encapsulated constructs by using silk-gelatin as a bioink.52Reprinted with permission Copyright
+Elsevier, 2014.Review Biomaterials Science
+Biomater. Sci. This journal is © The Royal Society of Chemistry 2018
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlineprecise pattern definition and delivery.64The laser was pro-
+grammed to provide a single pulse to deposit each corres-ponding target spot and to eject a mixture of cancer cells and
+alginate onto a gelatin-CaCl
+2-coated substrate, where the bio-
+printed droplets were cross-linked with CaCl 2in situ to form
+microbeads. A higher cell viability and a better resolution were
+achieved with this system. Similarly, Gasperini et al. bioprinted
+cell-containing alginate beads onto the same gelatin-CaCl 2
+coating by using an electrohydrodynamic deposition process.65
+In this approach, the tip of the bioprinter nozzle was con-nected to an electrical pulse generator with high voltage,which was used to overcome the problems associated with
+surface tension occurring at the tip of the liquid dispenser.The technique was compatible with the fabrication of 3D
+tissue constructs viathe deposition of single dots or continu-
+ous lines and enabled precise positioning with high cell viabi-lity. In another study, Williams et al. utilized alginate for bio-
+printing spheroids fabricated from ASCs by using a droplet-
+based bioprinting method.
+66The main component of their
+bioprinting system was a pen-like device, which was precisely
+controlled and the liquid delivery unit enabled them to create
+spheroids reproducibly with minimal variations in size. Theyfound that the encapsulated cells were uniformly dispersed in
+the alginate construct and maintained good cell viability. This
+system provided a platform that allowed control over the quan-tity of cells in each spheroid, which is an important feature for
+controlled cell delivery in regenerative medicine.
+Khalil et al. encapsulated endothelial cells inside alginate
+and characterized the porous cell-laden alginate constructs
+created after a direct cell writing process by using an inkjet-
+based method and MHDS.
+9They obtained high cell viability
+after bioprinting and found that 1.5% (w/v) alginate and 0.5%
+(w/v) CaCl 2were the optimum concentrations in their process.
+They reported a 1/3 decrease in the mechanical strength of theconstructs by the end of 3 weeks. The same group also investi-
+gated the relationship between the shear stress that the cells
+experience during dispensing and cellular viability.
+67They
+encapsulated endothelial cells inside the bioink and found
+that the survival rates of the cells decreased by around 40%
+when the bioprinting pressure was increased from 5 psi to40 psi. Furthermore, bioprinting processes utilizing a nozzle
+with a smaller-diameter were also found to decrease the viabi-
+lity of cells, but with a less pronounced e ﬀect. Using the same
+method, Chang et al. utilized alginate as a bioink and engin-
+eered a microchip model for the drug metabolism studies of
+Fig. 4 Bioprinting process of a 3D structure with built-in microchannels by using an alginate bioink. Physical cross-linking process was utilized via
+calcium ions.61Reprinted with permission Copyright Elsevier, 2015.
+Fig. 5 Schematic representation of laser-assisted bioprinting.62
+Reprinted with permission Copyright IOP Publishing, 2014.Biomaterials Science Review
+This journal is © The Royal Society of Chemistry 2018 Biomater. Sci.
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlineliver tissue organoids.68In this work, using MHDS, they
+carried out a layer-by-layer deposition of cells and other bio-
+logical materials simultaneously and then integrated the 3D-bioprinted construct with a microfluidic system. Alginate
+bioinks with concentrations ranging from 1.5 –3% (w/v) were
+used for encapsulating hepatocytes, but no significant di ﬀer-
+ence was found in drug metabolism studies when di ﬀerent
+alginate concentrations were used. They also compared a static
+culture with a perfusion culture and observed significantlyincreased metabolism levels for the perfused system. Alginate
+was mixed with a synthetic polymer PCL to create a hybrid
+material with enhanced mechanical properties and was thenbioprinted using inkjet bioprinting. In this study, a MHDS was
+first used to print the PCL frame, where the gaps in that frame
+were subsequently filled by bioprinting alginate laden withcells and growth factors. It was shown that this hybrid bioink
+system supported cartilage regeneration both in vitro and
+in vivo .
+69Schuurman et al. successfully used the same
+approach for bioprinting and demonstrated the encapsulation
+of chondrocytes with an alginate –PCL hybrid material.70
+A bioink made of alginate containing fibroblasts could also
+be used to fabricate complex patterns of tubes using inkjet bio-
+printing.71The group used drop-on-demand inkjet printing
+and vertically bioprinted cell-laden zigzag tubes with highpost-printing cell viability and also found that the maximum
+height of the bioprinted tubes could be determined by the
+inclination angle of the construct. Using the same bioprintingsetup, the group investigated the e ﬀect of cell concentrations
+on droplet formation and on the bioprinting process.
+72In
+addition, they compared the e ﬀect of soft particles (cells) and
+hard particles (polystyrene microbeads) on droplet formation
+and on the properties of the bioprinted structures. It was
+found that factors such as increasing the cell concentrationsand using cells instead of microbeads decreased the diameter
+of the droplets, reduced the dispensing velocity, and increased
+the breakup time. Mobed-Miremadi et al. used alginate as a
+bioink to encapsulate bacteria to obtain miniature spherical
+microbeads using inkjet bioprinting.
+73They reported rheologi-
+cal characterization and optimum operating conditions tocreate miniaturized beads utilizing bioprinting.
+In summary, due to its capability for fast physical gelation
+and broadly tunable viscosity, alginate has become the mostwidely used natural polymer for bioprinting and is probably
+the most common material of choice in proof-of-concept
+studies for in vivo applications. However, alginate is a relatively
+biologically inert material as indicated by the fact that it does
+not possess cell-adhesive moieties, consequently leading to
+limited cell attachment. To address this issue for bioprintingapplications, Jia et al. chemically modified alginate by an oxi-
+dation process.
+55After the oxidation step, they conjugated
+RGD peptides onto alginate to allow bioactivity and promotecell binding sites. They studied di ﬀerent concentrations and
+oxidation rates and found that these modified alginate-based
+bioinks supported the growth and spreading of human ASCsafter bioprinting. The tunability of these bioinks could be
+useful in meeting tissue-specific requirements for di ﬀerent 3Dbioprinting applications. Furthermore, it is common to use
+composite materials to fulfill the physicochemical require-
+ments of di ﬀerent tissues and organs. While alginate alone or
+its modified forms can be used as bioinks for di ﬀerent bio-
+printing applications, alginate has also been combined with
+other biomaterials to create composite bioink formulations.Some of these materials include HA, fibrin, thrombin, col-
+lagen, gelatin, agarose, Matrigel, genetically engineered phage,
+as well as nanoparticles such as HAp and magnetic iron oxideparticles, which are discussed in other sections of this review
+where applicable.
+Gellan gum is a hydrophilic and high-molecular weight
+anionic polysaccharide produced by bacteria. Similar to algi-
+nate, it forms a hydrogel at low temperatures when blended
+with monovalent or divalent cations.
+74It has been approved by
+the United States Food and Drug Administration (FDA) as a
+direct food additive75and is widely used in the food and
+pharmaceutical industries as a gelling agent and stabilizer aswell as in regenerative medicine applications as a viable sub-
+strate for the engineering of tissues. From a bioprinting per-
+spective, gellan gum has been combined with other polymersto prepare bioinks with attractive rheological properties and to
+improve the shape fidelity of the bioprinted constructs.
+76,77
+The viscosity controls the resolution of the printed structures
+and drastically a ﬀects the printing of pre-defined 3D con-
+structs.78Moreover, gellan gum is relatively inexpensive to
+produce, and has fine processability and tunable mechanicalproperties that are important for bioprinting processes.
+79
+Melchels et al. combined low-concentration gellan gum
+with GelMA as the bioink, utilizing the favorable bioactive pro-perties of GelMA and the overall improved printability and cell
+response of the composite.
+77This composite bioink was mixed
+with a salt solution to induce the formation of a gel-like struc-ture by the ionic network formed between the gellan gum
+chains and the interactions between the negatively charged
+gellan gum residues and the positively charged GelMA resi-dues. The second cross-linking step was done by decreasing
+the temperature, which enabled the physical cross-linking of
+GelMA. Finally, to fix the bioprinted construct, GelMA wasfurther chemically cross-linked utilizing UV. The results con-
+cluded that the addition of the gellan gum improved the vis-
+cosity and hence the printability of the bioink and did notaﬀect the microstructure of the construct or the survival of
+osteoblastic cells. In another similar study, gellan gum was
+mixed with GelMA to prepare a bioink and the mixture wasused for the encapsulation of chondrocytes. Additionally, sacri-
+ficial layers consisting of poly(vinyl alcohol) (PVA), PCL, and
+alginate were used to support the bioprinted construct. Thesesacrificial layers were deposited at the same time with the
+bioink and were then removed after bioprinting by immersing
+in aqueous solutions. Cell-laden constructs with clinically rele-vant dimensions were successfully fabricated by this multi-
+step printing approach.
+80The same group combined a gellan
+gum –GelMA bioink mixture with MSC-laden polylactide micro-
+carriers.81The microcarriers improved the mechanical
+strength of the hydrogel mixture, while the bioprinted bilayerReview Biomaterials Science
+Biomater. Sci. This journal is © The Royal Society of Chemistry 2018
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlinecylindrical grafts supported cell viability, spreading, and osteo-
+genic di ﬀerentiation. The overall results suggested that the
+gellan gum had no negative e ﬀect on cell growth and di ﬀeren-
+tiation and was safe to use as a supportive bioink. In a recent
+study, gellan gum was combined with RGD peptide, and the
+mixture was used as a novel hybrid bioink, whereby primaryneural cells were encapsulated in this bioink for the 3D bio-
+printing of constructs to obtain brain-like structures with dis-
+crete layers.
+79An extrusion-based hand-held bioprinting tech-
+nique was used to obtain multilayer cortical structures. This
+hand-held method was developed for practical use in cell
+culture studies without the need for a sophisticated bioprint-ing device. They observed that the incorporation of RGD sites
+into the gellan gum induced cell growth and network for-
+mation compared with the results obtained from gellan gumalone. Therefore, this bioink seemed promising for creating
+biomimetic 3D structures.
+HA is a non-sulfated glycosaminoglycan found in the
+natural ECM. It plays a substantial role in synovial fluid, vitr-
+eous humor, and hyaline cartilage.
+82When dissolved in water,
+HA solution has a viscous property, making it a promisingmaterial for applications in tissue engineering.
+83In addition
+to its advantageous properties in engineering bone and carti-
+lage tissue constructs, HA provides a means to produce solu-tions with low viscosity since it was reported that when the
+shear rate increases, there is a need for a longer relaxation
+time for HA molecules to reorient, thus causing the loss of vis-cosity.
+84It is also suitable for bioprinting applications where
+good rheological properties and high viscosity are required
+as it was noted that when the concentration and molecularweight of HA are higher, the viscosity of HA solutions are
+found to increase.
+84In a recent study, to create an osteochon-
+dral interface, two rectangular sections were printed with PCLas the support. One part was filled by bioprinting chondro-
+cytes/osteoblasts encapsulated in an HA hydrogel mixed with
+alginate, while the other part was encapsulated with collagentype I.
+85The viability of the encapsulated cells was next evalu-
+ated. The results demonstrated that the osteoblasts encapsu-
+lated in collagen I hydrogel had more than 90% viability andshowed a higher expression of osteogenic markers (Runt-
+related transcription factor 2 [RUNX2] and alkaline phospha-
+tase [ALP]) than osteoblasts encapsulated in the HA-basedhydrogel. On the other hand, chondrocytes cultured on the
+HA-based hydrogels showed higher expression levels of chon-
+drogenic markers (collagen II and aggrecan) than those cul-tured in collagen I hydrogel, implying that di ﬀerent cell
+lineages require di ﬀerent bioink formulations to function
+properly. Methacrylated HA (HAMA), a photocross-linkableform of HA, was utilized to prepare trileaflet valve constructs.
+41
+In this study, a 3D bioprinter with a dual syringe system was
+used to obtain bioprinted heart valves. The root of a heartvalve was printed by using a hydrogel without cells, and sub-
+sequently leaflets of the valves were printed with HAMA-GelMA
+hydrogels containing human aortic valvular interstitial cells. Itwas reported that the bioprinted heart valves had high cell via-
+bility (>90%), aided by the deposition of an ECM matrix con-sisting of collagen and glyosaminoglycans. In another study, a
+methacrylated ethanolamide derivative of gelatin (GeMA) and
+HAMA were used with human hepatocellular carcinoma cells,human intestinal epithelial cells, and murine fibroblasts as
+the bioink for bioprinting.
+40In vitro cell biocompatibility
+results showed that a mixture of GeMA and HAMA hydrogelssupported the attachment and proliferation of the cells. In this
+study, cell-free sca ﬀolds or human hepatocellular carcinoma
+cells-loaded hydrogels were bioprinted and tubular constructswere formed by using an extrusion-based system, with UV
+irradiation applied to chemically cross-link GeMA and HAMA.
+It was observed that the cells attached only to the parts of thehydrogel that contained GeMA and HAMA together but did not
+attach to the parts consisting of HAMA alone. The same group
+studied gold nanoparticles (AuNPs) and thiol-modified poly-mers derived from HA and gelatin as printable semi-synthetic
+ECM (sECM) hydrogels. The AuNPs here were used as active
+multivalent cross-linkers for thiol-modified HA and gelatin. Inthe bioprinting process, cell-containing and cell-free bioinks
+were used to make tubular structures with a polymer solution
+of AuNPs-thiol-modified HA and thiol-modified gelatin in avertical ring shape.
+86Human hepatocellular carcinoma cells,
+human intestinal epithelial cells, and murine fibroblasts were
+cultured on AuNPs-sECM hydrogels, and the viability resultsshowed ≥95% cell viability at both day 3 and day 7. During
+and after bioprinting, the cell-laden sECM hydrogels main-
+tained their shapes. GelMA and GelMA-HA hydrogels were alsoused with a BioSca ﬀolder dispensing system to create chondro-
+genic structures.
+27The physical properties of the GelMA hydro-
+gels were modified by changing the UV exposure time, the con-centration of the hydrogels, and the incorporation of mechani-
+cally supportive polymers, such as PCL. After 3 days, the viabi-
+lity of the chondrocytes seeded on bioprinted GelMA andGelMA-HA sca ﬀolds were found to be around 73% and 82%,
+respectively. Kesti et al. used a glycosaminoglycan-based hydro-
+gel system by mixing poly( N-isopropylacrylamide)-grafted HA
+(HA-pNIPAAM) with HAMA to obtain a versatile structure with
+a thermoresponsive polymer and a photocross-linkable
+polymer in the hydrogel mixture (Fig. 6).
+87A BioFactory bio-
+printer, which is a MHDS, was equipped with temperature
+control and a UV-light source and was used to bioprint bioink
+layers consisting of bovine chondrocytes encapsulated in thehydrogel. Cell viability studies revealed that embedding the
+cells in the bioink caused cell death, while after removal of the
+HA-pNIPAAM, they observed high cell viability, most probablybecause of the formation of pores and improved di ﬀusion.
+Dextran is another natural polysaccharide that has been
+widely used in tissue engineering applications, since it is non-toxic and hydrophilic. Dextran can be degraded in mammalian
+tissues by dextranase, hence it is classified as a biodegradable
+material.
+88Pescosolido et al. utilized HA and methacrylated
+dextran (dexHEMA) to prepare hydrogels that possessed a poly-
+saccharidic semi-interpenetrating polymer network.89In this
+study, a pneumatic dispensing system with a motorized stagewas used and equine chondrocytes were encapsulated inside
+the bioink. The results showed that the HA-dexHEMA mixturesBiomaterials Science Review
+This journal is © The Royal Society of Chemistry 2018 Biomater. Sci.
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlinehad attractive viscoelastic and pseudoplastic features as a
+bioink and may be used in various bioprinting applications.
+Agarose is a polysaccharide extracted from marine algae
+and seaweed. It is widely used in molecular biology especially
+for electrophoresis applications as well as in tissue engineer-
+ing because of its gelling property.90In a recent bioprinting
+study, primary bladder SMCs were embedded inside a collagen
+gel and then the mixture was printed as droplets.19To prepare
+a collagen-coated structure, an empty Petri dish was firstcoated with agarose and then with a layer of collagen. Cell-con-
+taining collagen droplets were bioprinted on a collagen layer.
+The results indicated high cell viabilities of approximately95%. In addition, it was observed that the cells inside the bio-
+printed constructs started to express transmembrane protein
+connexin-43, which has important functions in intercellularcommunication. Neufurth et al. used a mixture of alginate –
+gelatin –SaOS2 cells as the bioink for 3D bioprinting.
+30After
+bioprinting, the cells were supplemented with polyP.Ca2+and
+with/without osteogenic cocktail. The inclusion of polyP.Ca2+
+significantly increased cell proliferation. In another study,agarose with a low melting point and alginate with low vis-cosity were utilized to prepare a bioink.
+91Human osteosar-
+coma cells were used for cell patterning studies and the cells
+were mixed with melted agarose gels and then kept at 36 °Cfor bioprinting. Mouse fibroblasts were mixed with alginate for
+extrusion-based bioprinting. The bioprinted constructs were
+submerged in a high-density fluorocarbon liquid to supporttheir shape. Individual drops of the cell-laden hydrogels were
+bioprinted layer-by-layer to prepare a 3D tissue construct. Cell
+viability results showed that the viability after 1, 4, and 7 daysfollowing bioprinting were 96%, 99%, and 97%, respectively.
+Human MSCs with an osteosarcoma origin were also encapsu-
+lated in an agarose hydrogel.
+92Next, the prepared bioink was
+submerged and bioprinted inside a hydrophobic perfluorotri-
+butylamine fluid with a high density, where the process sup-
+ported the bioprinted construct mechanically (Fig. 7). Theresults showed that the cells were viable 24 h after bioprinting
+and after 21 days in culture. Xu et al. further investigated
+E. coli as a porogen factor in an agarose hydrogel.93To gene-
+rate microfluidic channels, the E. coli –agarose mixture was bio-
+printed onto a Petri dish pre-coated with a layer of agarose.Next, the hydrogel structure was treated with sodium dodecyl
+sulfate and the E. coli debris was then removed. Murine
+embryonic fibroblasts were seeded on porous agarose sca ﬀolds
+and their viability was evaluated. Fibroblasts cultured on 1%
+agarose gels became confluent after 6 days, while the ones cul-
+Fig. 6 The gelation process of HA grafted with pNIPAAM.87Reprinted with permission Copyright Elsevier, 2014.
+Fig. 7 Robotic and manual printing of 3D constructs by using an
+agarose bioink under ﬂuorocarbon. (a) Top and (b) side view of printed
+cell-laden constructs. (c) 3D construct mimicking a vascular bifurcation
+that was printed while submerged in per ﬂuorotributylamine. (d) Printed
+cylinders without cells.92Reprinted with permission Copyright IOP
+Publishing, 2013.Review Biomaterials Science
+Biomater. Sci. This journal is © The Royal Society of Chemistry 2018
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlinetured on 2% agarose gels became confluent after 14 days.
+Their results demonstrated that the cells stayed alive for 2
+weeks on these sca ﬀolds.
+Chitosan is another biocompatible and biodegradable poly-
+saccharide with anti-bacterial and wound healing properties.94
+Chitosan can be obtained by the partial deacetylation of chitin
+and can also be used as a gel-forming material. Due to these
+properties, it is a promising biomaterial for tissue engineering
+applications.95,96Duarte Campos et al. studied the e ﬀects of
+bioprinted collagen, agarose, collagen –agarose, and chitosan –
+agarose hydrogels on human MSCs and the di ﬀerentiation of
+cells into osteogenic or adipogenic lineage.20After 21 days of
+incubation, live/dead staining showed that the cell viabilities
+were more than 95% for all the groups. The results demon-
+strated that in a sti ﬀcollagen matrix, the cells tended to di ﬀer-
+entiate into the osteogenic lineage, while in a soft agarose
+matrix, the cells mostly di ﬀerentiated into adipogenic tissues.
+2.3. dECM-based bioinks
+Decellularization is a process used to remove the cellular com-
+ponents of tissues and organs by using chemical agents as
+well as by physical and mechanical processes.97To perform
+decellularization, many agents have been proposed in the lit-erature, including for instance, non-ionic, ionic, and zwitter-
+ionic detergents as well as enzymatic and physical agents.
+97,98
+For novel bioink formulations that are tissue-specific,
+Pati et al. developed dECM-based bioinks to mimic specific
+natural environments of various tissue types.99They success-fully obtained high cell survival rates and cell line-specific gene
+expression and ECM formation with bioprinted decellularized
+adipose, heart, and cartilage tissue structures. The bioprintingprocess for dECM bioinks is shown in Fig. 8. The same group
+prepared a decellularized adipose tissue matrix by using
+sodium dodecyl sulfate, where the decellularized matrix wasused to encapsulate the ASCs (Fig. 9).
+100DNA quantification
+showed that most of the DNA content was removed after decel-
+lularization with less than 3% DNA content remaining. A bio-printing system with six printheads was used to extrude dECM
+and PCL at the same time, where PCL was used as a framework
+to print the cell-laden decellularized adipose tissue matrix. Inanother study, Skardal et al. used Triton X-100 to obtain dECM
+from skeletal muscle, liver, and cardiac tissues. dECM was
+mixed with the hydrogel solution and transferred into the car-tridge of the bioprinter.
+101In the hydrogel bioink solution,
+4-arm and 8-arm PEG or PEG diacrylate (PEGDA) was used
+with thiolated HA or thiolated gelatin to provide for cross-linking reactions between the acrylate and thiol groups during
+the first cross-linking step (Fig. 10). After the first cross-linking
+step, UV was applied to induce secondary cross-linking toform a stable hydrogel structure. To analyze the functionality
+of the bioprinted liver constructs, primary human liver spher-
+oids were used in the hydrogel prepolymer solution, where theprinted tissue construct produced detectable levels of albumin
+and urea.
+Matrigel is a reconstituted basement membrane extracted
+from the mouse sarcoma ECM and includes essential bioactive
+Fig. 8 Utilizing various dECM bioinks for bioprinting 3D tissue constructs. (a) Heart tissue construct was printed with only heart dECM (hdECM).
+(b) Cartilage and adipose tissues were printed with cartilage dECM (cdECM) and (c) adipose dECM (adECM), respectively, and in combination with
+PCL framework (scale bar, 5 mm).99Reprinted with permission Copyright Nature Publishing Group, 2014.Biomaterials Science Review
+This journal is © The Royal Society of Chemistry 2018 Biomater. Sci.
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlinemolecules, such as laminin, collagen, and a set of growth
+factors.102,103It serves as a natural biomimetic ECM and is
+widely used in cell and tissue cultures, where it undergoes
+thermal cross-linking at higher temperatures.104,105
+Poldervaart et al. used Matrigel in combination with alginate
+as a bioink for vascularization studies.106Similar to other
+studies, alginate was added to improve the printability ofMatrigel. They also incorporated vascular endothelial growth
+factor (VEGF) into the bioink either directly or within micro-
+spheres, which enabled its controlled release. They used a bio-printer with a pneumatic dispensing system for the bioprint-
+ing of human EPC-laden hybrid constructs. The results
+revealed that, although the addition of alginate improved bio-printing, the degradation rates increased and the rate of for-
+mation of vessel-like structures decreased, implying that the
+types of materials and their ratios are critical parameters toadjust when developing an optimum bioink. Matrigel has also
+been used for bioprinting a drug discovery platform as part of
+a microfluidic system.
+103Here, the research group used an
+extrusion-based system for bioprinting hepatocyte-laden or
+epithelial cell-laden bioinks and designed a temperature con-
+troller to prevent thermal gelation of the Matrigel before bio-printing. With this novel system, they successfully fabricated
+functional dual tissue constructs (hepatocyte and epithelial
+tissue) and evaluated their synergistic e ﬀect under radiation
+tests for space applications. In other applications, Matrigel
+was used as a biopaper for coating the surfaces to support bio-printed cells
+63,104or for bioprinting it to the surface without
+cells for post-printing cell seeding.105However, the major
+issue associated with Matrigel is that it is obtained from
+murine sarcoma cells and hence its suitability for clinicaltranslation may be limited.
+12
+2.4. Synthetic polymer-based bioinks
+PEG is a synthetic polymer synthesized by ethylene oxide
+polymerization, which can be prepared with di ﬀerent chain
+lengths as well as di ﬀerent structures, such as linear or multi-
+armed structures. It is a favorable synthetic material because
+of its tailorable but typically strong mechanical properties that
+facilitate the bioprinting processes and shape maintenance ofthe deposited constructs. Non-cytotoxicity (at higher molecular
+weights) and non-immunogenicity are the other advantages of
+PEG. On the other hand, it is a bioinert material that the cellscannot readily attach to,
+107,108and therefore it needs to be
+combined with other biologically active hydrogels. Indeed,
+composites of PEG and natural biomaterials have been shownto improve the degradation properties of PEG-based con-
+structs.
+36,49In addition, even though PEG is generally accepted
+to be non-immunogenic, there are several clinical studieswhere PEG-specific antibodies have been found in patients
+treated with PEGylated therapeutic enzymes.
+109
+Rutz et al. utilized PEG to develop tunable bioink formu-
+lations with a wide range of mechanical and rheological pro-
+perties.49They produced PEG with reactive groups (PEGX), and
+Fig. 9 Adipose tissue obtained by surgery and used as a bioink after a decellularization process for soft tissue reconstruction.100Reprinted with per-
+mission Copyright Elsevier, 2015.Review Biomaterials Science
+Biomater. Sci. This journal is © The Royal Society of Chemistry 2018
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlinefound that with this modification, the PEG became the cross-
+linker for various natural materials viathe conjugated amine
+groups (Fig. 11). They successfully established processes forbioprinting PEGX-PEG, PEGX-gelatin, PEGX-gelatin-fibrinogen,
+and PEGX-gelatin-atelocollagen bioinks containing di ﬀerent
+types of cells. The results suggested that the PEG modificationprocess is a valuable tool to tune the bioink ’s properties,
+increase the bioink options, and to control the cell responses.
+Similar to gelatin, PEG can also be used in a photopolymeriz-able form, such as PEGDA, and can be cross-linked vialight
+irradiation. Skardal et al. used 4-arm PEG-tetracrylate (PEGTA)
+as a bioink that was cross-linked with thiolated polymers andthen compared its performance with PEGDA.
+110In this study,
+the PEG derivatives were blended with HA and gelatin and
+cross-linked with the amine groups of these polymers, leadingto the bioprinting of sti ﬀer tubular constructs. They concluded
+that the PEGTA form displayed better results than PEGDA in
+terms of the rheological properties and extrusion ability andalso had better cell response for certain cell types. Moreover,
+these properties could be further tailored by changing the
+molecular weight of PEG. The cross-linking of PEGTA is asimple method and seems promising for preparing new bioink
+formulations. In another study, PEGDA was used as a bioinkfor bioprinting bone tissue constructs.
+111For the encapsula-
+tion of MSCs, the group used PEGDA alone or PEGDA mixed
+with bioactive glass (BG), HAp, or BG-HAp and compared thecellular performance in these bioinks. The bioprinted
+PEGDA-HAp constructs showed better bone tissue functional-
+ity than PEGDA-BG with respect to ALP activity and collagensecretion, together with higher cell viability and mechanical
+strength. Recently, Hong et al. blended PEGDA with alginate as
+the bioink and utilized both chemical and ionic cross-linkingto significantly enhance the mechanical properties of the bio-
+printed constructs.
+112They also encapsulated MSCs in this
+bioink and obtained tough and stretchable cell-laden con-structs using dual cross-linking. They successfully bioprinted
+various sophisticated 3D shapes, including ear, nose, and
+hollow cubes, where all the constructs showed good cell survi-val properties (Fig. 12).
+Standardization of the evaluation of the printing and of
+the rheological properties is a critical need in bioprinting.Recently, a few studies were focused on the printability
+and rheological properties of PEG-based and/or poloxamer-
+based bioinks. Poloxamers are block copolymers of PEGand poly(propylene glycol) (PPG).
+113In one study, poloxamer
+407, a commercially available hydrophilic non-ionic surfactant,
+Fig. 10 Employing multiple PEG-based bioinks with tunable cross-linking properties. (a) Strategy of formulation of printable bioinks comprised of
+acrylate-based cross-linkers (crosslinker 1), alkyne-based cross-linkers (crosslinker 2), thiolated HA, thiolated gelatin, and unmodi ﬁed HA and gelatin.
+(b) Implementation of bioprintable hydrogel bioinks: the bioink formulation was prepared and spontaneously cross-linked through thiol-acrylate
+binding, resulting in a soft, extrudable material. Lastly, the bioprinted structures were fused, stabilized, and brought to the target sti ﬀness.101
+Reprinted with permission Copyright Elsevier, 2015.Biomaterials Science Review
+This journal is © The Royal Society of Chemistry 2018 Biomater. Sci.
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlinean alginate-based hydrogel, and an alginate –gelatin composite
+hydrogel were used to analyze the rheological properties ofbioinks.
+114Hydrogels encapsulating MSCs were bioprinted by
+using a multi-headed 3D extrusion-based bioprinter. A stress
+ramp was used to evaluate the yield stress of the mentionedbioinks. The rheological behavior of the bioinks was analyzed
+using a rheometer and a mathematical model. The flowinitiation properties, degree of shear thinning, yield stress, cell
+survival, and recovery behaviors of the bioinks after bioprint-ing were used to evaluate the rheological properties. The
+results showed that no significant reduction was observed in
+cell viability between the high- and low-shear samples duringbioprinting, indicating that shear rates of up to 1639 s
+−1did
+not impact the cell viability (between bioprinting pressures of
+Fig. 11 PEG-based cell-laden bioinks. (a) Polymer or polymer mixtures in linear (gelatin), branched (4-arm PEG amine), or multifunctional form.
+The red circles represent amines, blue triangles represent methacrylate groups, and the yellow stars indicate SVA groups of PEGX. (b) PEGX can be
+linear or multiarm and can have various chain lengths. (c) Cells can be encapsulated by (d) mixing with polymers and PEGX to form the bioink.
+(e) Alternatively, secondary cross-linking can be performed to increase mechanical strength following the printing step. (f) By changing the react ive
+groups of PEGX, polymers of other functional groups can be cross-linked. Purple polygons represent thiols, cross-linkable with maleimide PEGX
+(pink squares) and green ellipses represent alkynes, cross-linkable with azide PEGX (orange pentagon). (g) Printing process of PEGX bioink method
+and corresponding phase: PEGX with or without cells were mixed within the polymer solution and loaded into the printing cartridge. After gel for-mation and stable mechanical properties were achieved, gels could be 3D printed into multilayer constructs.
+49Reprinted with permission Copyright
+John Wiley & Sons, Inc., 2015.Review Biomaterials Science
+Biomater. Sci. This journal is © The Royal Society of Chemistry 2018
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Online1 bar to 5 bar). It was pointed out that the susceptibility of
+outer cells at the needle edge would be higher when the shearlevel was higher than 1639 s
+−1and therefore this could be the
+reason for the reduction in cell viability. This study revealed
+that both the residence time of the cells and the shear rateduring bioprinting should be considered to improve cell viabi-
+lity. In another study, an extrusion-based bioprinter was used
+to evaluate the shape fidelity of bioinks viathe filament fusion
+of parallel-bioprinted strands, together with the collapse of the
+extruded filaments on overhanging structures.
+115Blends of
+PEG and poloxamer 407-based hydrogels were used to analyzethe shape fidelity of bioinks where a rheometer was utilized to
+carry out rheological studies. The results showed that anincrease in the concentration of PEG and at the same time a
+decrease in the concentration of poloxamer 407 led to adecrease in both yield stress and viscosity of between 30% and
+20% of the poloxamer concentration. In the filament collapse
+test, it was demonstrated that filament bending increasedwhen the gap length was increased. Furthermore, the yield
+stress increased when the concentration of poloxamer
+increased, which led to a decrease in bending of the bio-printed constructs. This study revealed that yield stress is an
+important factor in the shape fidelity of hydrogels after print-
+ing. To investigate cell viability during extrusion bioprintingand after bioink curing, Dubbin et al. used PEGDA, GelMA,
+and a novel bioink, recombinant-protein alginate platform for
+Fig. 12 Rigid and biocompatible PEG-alginate-nanoclay blend bioinks and di ﬀerent 3D bioprinted constructs. (a) Various 3D constructs were
+printed using a bioink (from left to right: hollow cube, hemisphere, pyramid, twisted bundle, the shape of an ear, and a nose with food dye). (b) Amesh made of hydrogels was printed and was used to host HEK cells. (c) Viability of cells in a collagen hydrogel infused into the 3D printed mesh of
+the PEG-alginate-nanoclay bioink material. (d) Viability of the cells through 7 d culture. (e) A printed bilayer mesh (top layer red, bottom layer gre en)
+was uniaxially stretched up to three times of its initial length. Relaxation of the sample after stretching shows almost complete recovery of its orig inal
+shape. (f) A printed pyramid underwent a compressive strain of 95% while returning to its original shape after relaxation.
+112Reprinted with per-
+mission Copyright John Wiley & Sons, Inc., 2015.Biomaterials Science Review
+This journal is © The Royal Society of Chemistry 2018 Biomater. Sci.
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlineinjectable dual-cross-linked ink (RAPID ink).116The recombi-
+nant protein, C7 (peptide C), was a component of the RAPID
+ink and the other component was alginate, which was co-valently modified with peptide P. Even though the C and P
+peptides could form a weak network, the main cross-linking
+occurred when alginate was exposed to Ca
+2+. The results
+showed that less than 10% of the fibroblasts were damaged in
+the GelMA and PEGDA bioinks; however, in the RAPID bioink,
+fewer than 4% of the cells were damaged during bioprinting.In addition, it was demonstrated that more than 50% of the
+cells at the edges of the bioprinted GelMA and PEGDA droplets
+were damaged after UV light exposure for 5 min. On the otherhand, less than 20% of the cells were damaged on the edges of
+the RAPID bioink after 5 min of exposure in a CaCl
+2solution.
+The observation of reduction in cell death during exposure toa CaCl
+2solution was explained by possible prevention of cell
+dehydration in the solution.
+Pluronic is a type of poloxamer and is utilized as a material
+in bioprinting for generating sacrificial structures.39It has
+good printability and temperature-responsive gelation that are
+well-suited for use in bioinks.15As such, Pluronic can be easily
+washed away after printing if necessary, as it liquefies at a
+temperature of 4 °C or lower.15While Pluronic has been widely
+used as sacrificial bioink, its biocompatibility is not su ﬃcient
+to support long-term cell survival, which limits its direct use
+as a regular bioink for cell culture. In a recent study, Müller
+et al. reported a strategy termed nanostructuring, which
+enabled increasing the biocompatibility of Pluronic.117In this
+method, they mixed acrylated and unmodified Pluronic and
+then removed the unmodified molecules after UV cross-linking, resulting in a significant increase in the viability of
+the encapsulated chondrocytes of up to 2 weeks in culture due
+to the increased porosity with the removal. On the other hand,the mechanical strength of the fabricated construct was found
+to be low, but could be successfully increased by the addition
+of HAMA. These results suggested that Pluronic can be poten-tially combined with various polymers and utilized for the bio-
+printing of di ﬀerent tissue constructs.
+In addition to PEG and Pluronic, there are some other syn-
+thetic hydrogel-forming polymers that have been used as bioinks
+in recent studies. In one of these investigations, methacry-
+lated poly[ N-(2-hydroxypropyl)methacrylamide mono/dilactate]
+(pHPMA-lac)/PEG triblock copolymers were mixed with HAMA
+and used as a bioink.
+118This bioink was utilized for the optim-
+ization of cartilage-like tissue formation, and PCL was alsoused for mechanical support during bioprinting. A commercial
+extrusion-based bioprinter (3D Discovery bioprinter), which
+had pneumatic robotic dispensers, was used for bioprintingthe constructs. In addition to varying the internal geometries
+viabioprinting, di ﬀerent variations and concentrations of
+these polymers were tested and it was found that there was adose-dependent e ﬀect of HA on the ECM production of chon-
+drocytes. Their observations showed that pHPMA-lac-PEG
+hydrogels with 0.5% HAMA were optimal for cartilage-liketissue regeneration. Co-printing the hydrogel with PCL and the
+presence of HAMA increased the sti ﬀness of the constructs toa value close to that of the native cartilage. In another paper,
+thiol-functionalized HA cross-linked with allyl-functionalized
+poly(glycidol)s (P(AGE- co-G)) was used as a bioink to obtain
+constructs of articular cartilage tissue.
+119Poly(glycidol)s (PG)
+have a similar chemical structure to PEGs but possess extra
+side groups, which enables additional functionalization. Forthe bioprinting process, an extrusion-based bioprinter was used.
+It was found that PG-based bioinks combined with HA showed
+an improvement in cell viability and di ﬀerentiation with
+respect to the PG-only bioinks. In a recent study, polyvinylpyr-
+rolidone (PVP) was investigated as a bioink candidate.
+120
+Diﬀerent concentrations of PVP (0 –3% w/v) were used for bio-
+printing the constructs with a commercial inkjet bioprinter
+(RegenHU Biofactory). Their results proved that the addition of
+PVP improved the printability of the cell mixture. Furthermore,PVP displayed a positive impact on the survival and hom-
+ogenous dispersion of the bioprinted cells. This study was the
+first to use PVP as the bioink.
+2.5. Commercial bioinks
+There are a few commercial biomaterials that have been
+recently introduced. For instance, Dermamatrix is a commer-
+cial natural biomaterial. It is derived from human skin as an
+allograft consisting of acellular dermis, and it has been used asa biopaper in bioprinting.
+121Another commercial hydrogel is
+NovoGel, which is a biologically inert material, and this was
+utilized in bioprinting processes, whereupon printed sacrificialrods formed vessel-like channels
+122similar to the use of
+agarose rods,38or as a printed supportive material for the sim-
+ultaneous deposition of vessel-mimicking constructs.123
+More recently, another commercial bioink named CELLINK
+was introduced. The company provides application-specific,
+ready-to-use bioinks, on demand. Some of the types ofCELLINK bioinks are composed of GelMA, alginate and highly
+hydrated cellulose nanofibrils, calcium and phosphorous, PCL
+and Pluronic. Their promise in bioprinting applications weredemonstrated in some recent studies. For instance, anatomi-
+cally shaped cartilage structures were bioprinted successfully
+and chondrocytes exhibited higher viability rates during theculture period
+124 –126and supported redi ﬀerentiation of the
+cells and the synthesis of cartilage ECM.126
+3. Cell aggregate/pellet-based
+bioinks
+It is becoming increasingly common to use cell pellets or
+aggregates to prepare bioinks to carry out sca ﬀold-free tissue
+fabrication. For example, spherical aggregates of Chinese
+hamster ovary (CHO) cells were prepared and dispensed into
+micropipettes.22In this study, the micropipettes served as car-
+tridges for the bioprinter. During the bioprinting process, one
+cartridge contained cellular aggregates and another contained
+collagen gel as the matrix material. A square collagen bed wasfirst created by the bioprinter, and then the cell aggregates
+were bioprinted into the collagen bed in a square or hexagonalReview Biomaterials Science
+Biomater. Sci. This journal is © The Royal Society of Chemistry 2018
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlineshape. CHO cells were also used in another bioprinting study
+by the same research group.21In this work, the cell pellets
+were first transferred into capillary tubes to form firm cylin-ders of cells; the cylinders were then removed from the capil-
+lary tubes and cut into fragments. Fragments of the cell pellets
+were subsequently placed on a gyratory shaker inside a cellculture medium to prepare spherical aggregates. Commercial
+NeuroGel (a biocompatible porous poly[ N-(2-hydroxypropyl)
+methacrylamide] hydrogel) disks containing RGD and collagentype I were bioprinted with the cell aggregates. Staining results
+showed minimal cell death after the fusion of aggregates. The
+same group also used chicken cardiomyocytes, CHOs, andhuman vascular endothelial cells to prepare spheroidal
+bioinks.
+127The aggregates of a mixture of cardiac and endo-
+thelial cells were bioprinted onto the collagen gel matrix con-taining VEGF. Synchronous beating was observed 90 h post-
+bioprinting. Fig. 13 shows the bioprinting process of the
+spheroidal bioinks.
+128
+Similarly, cell pellets formed from CHOs were used as a
+bioink, whereby a thermal inkjet bioprinter and ink cartridge
+were used for depositing cell pellets on collagen type I bio-paper.
+23In the apoptosis study, it was observed that there was
+no significant di ﬀerence in viability ratios between printed
+and non-printed cells; in both cases the cell viabilities wereclose to 90%. A thermal inkjet bioprinter was further used to
+print cell aggregates from murine MSCs and non-metastatic
+murine mammary cancer cell lines.129During the bioprinting
+process, ethylenediaminetetraacetic acid (EDTA) was used to
+avoid salt crystallization as well as cell aggregation. Cell viabi-
+lity studies showed that the addition of EDTA did not causesignificant cell death. Cell pellets containing MSCs and
+Schwann cells with a ratio of 90% to 10% were transferred into
+capillary tubes and extruded into wells molded fromagarose.
+130The cellular cylinders were bioprinted by using a
+bioprinter with a geometrical structure customized to study a
+rat sciatic nerve injury model. In vivo results demonstrated that
+there was an extensive axonal re-growth at both the proximal
+and distal ends of the nerve conduit through the bioprinted
+grafts. Pellets of mouse embryonic fibroblast cells were trans-ferred into tubes and then transferred into glass capillaries by
+a continuous bioprinting process (Fig. 14).
+123To analyze apop-
+tosis during bioprinting, apoptotic cell markers were examinedwith immunoblotting. It was shown that there was no acti-
+vation of caspase-3 in the continuously bioprinted bioink of
+ring-shaped cells where caspase-3 was used as an apoptoticcell marker.
+Spheroids of human embryonic stem cells could be bio-
+printed as well. For example, they were deposited with a
+Fig. 13 Use of cell-aggregate-based bioinks and related bioprinting strategies. (a) Bioprinter (general view); (b) multiple bioprinter nozzles;
+(c) tissue spheroids based bioink before dispensing; (d) tissue spheroids during dispensing; (e) continuous dispensing in air; (f) continuous disp ensing
+inﬂuid; (g) digital dispensing in air; (h) digital dispensing in ﬂuid; (i) scheme of bioassembly of tubular tissue constructs using bioprinting of self-
+assembled tissue spheroids illustrating sequential steps of layer-by-layer tissue spheroid deposition and tissue fusion processes.128Reprinted with
+permission Copyright Elsevier, 2009.Biomaterials Science Review
+This journal is © The Royal Society of Chemistry 2018 Biomater. Sci.
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlinedouble nozzle system using two di ﬀerent bioink formu-
+lations, where one bioink included human embryonic stem
+cells in the medium and the other one only included the
+medium.131Cells were cultured in a medium without growth
+factors during spheroid aggregate formation, but after for-
+mation of the aggregates, the medium with growth factors
+was used to induce di ﬀerentiation. Aggregates of mouse
+cardiac valve interstitial cells, MSCs, and dermal fibroblasts
+were formed by using a hanging-drop method and incubated
+with TGF- β1 or serotonin for 7 days.132After 7 days, the di ﬀer-
+entiated aggregates were placed in contact with each other to
+allow fusion. It was observed that the aggregates treated with
+growth factors had higher fusion capacity than those withoutthe treatment of growth factors. Norotte et al. used CHOs,
+SMCs, and fibroblasts to obtain vascular constructs without
+scaﬀolds.
+133A custom-made bioprinter with four cartridges
+was used to prepare vascular structures, while spheroidal or
+cylindrical vascular constructs were obtained by using multi-
+cellular aggregates. Finally, the use of a quantitative systemwas suggested for rational design of the bioprinting para-
+meters to improve cell viability and cell attachment.
+134
+Murine MSCs and non-metastatic murine mammary cancer
+cell lines were bioprinted on collagen to demonstrate the
+eﬀectiveness of the system. The bioprinted structures were
+compared with predictions of the quantitative system and itwas concluded that the proposed system worked properly for
+bioprinting applications.4. Composite bioinks/bioinks with
+bioactive molecules
+4.1. Composite bioinks
+Nanomaterials have numerous attractive features and several
+investigators have combined them into hydrogel biomaterials
+for making bioinks. Skardal et al. used AuNPs as a bioink com-
+ponent and exploited their thiophilicity. These nanoparticles
+have an a ﬃnity to thiol-containing ligands making them
+multivalent cross-linkers for thiolated molecules.86The group
+blended AuNPs with thiolated HA and gelatin and encapsu-
+lated fibroblasts to bioprint vascular structures by using an
+extrusion-based bioprinter. The Au –thiol bonding was a slow,
+reversible, and dynamic process with the availability of large
+regions of interaction sites, which enabled more control over
+the bioprinting process and over the mechanical strength ofthe resulting constructs. As expected, fabricated hybrid con-
+structs showed good cell response. Another study utilized
+silver nanoparticles (AgNPs) for bioprinting a 3D bionic ear.
+135
+They combined biological and conductive materials to obtain
+a cyborg organ by employing an extrusion-based commercial
+bioprinter. They used alginate as the base material for thebioink and mixed it with AgNPs due to their electrical conduc-
+tivity and then encapsulated chondrocytes as the functional
+cells. Results suggested that the bioprinted ears were able toreceive electromagnetic signals, whereas the encapsulated cells
+Fig. 14 Aggregate of MEF cells used as a bioink for bioprinting an aorta-like structure while the hydrogel served as a support.123Reprinted with per-
+mission Copyright John Wiley & Sons, Inc., 2015.Review Biomaterials Science
+Biomater. Sci. This journal is © The Royal Society of Chemistry 2018
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlinewere found to be metabolically active. Another study estab-
+lished iron oxide magnetic nanoparticles as a bioink additive,
+where the researchers mixed these particles with alginate,thereby allowing for additional control over the bioink micro-
+architecture during bioprinting using a magnetic field.
+78,136
+They found that the nanoparticles changed the viscosity of the
+bioink depending on their concentration and that the viscosity
+aﬀected the nanoparticle movement. They encapsulated endo-
+thelial cells within the bioink and investigated their survivalrates while changing the bioprinting parameters. They
+observed that the viability within the first 36 h did not change
+for the bioprinted cells without nanoparticles but the cell via-bility decreased for the bioprinted constructs with the nano-
+particles. Consistent with the previous studies, increasing the
+bioprinting pressure negatively a ﬀected the cell survival rates,
+whereas the nozzle size did not have a clear influence on these
+rates. On the other hand, the group observed that the viability
+of the encapsulated cells bioprinted with and without nano-particles using high printing pressures was quite similar,
+implying that the nanoparticles did not negatively a ﬀect the
+rheological properties of the bioink even at higher concen-trations. Importantly, incorporation of the nanoparticles in
+alginate did not impair the printing resolution, which suggests
+that they are a good bioink additive, and as a bioink material,it makes them a useful tool for tracking and positioning
+desired molecules within 3D bioprinted constructs after the
+printing process.
+Nanomaterials have been used for producing conductive
+bioinks to enhance the signal transduction of embedded cells
+as well. As an example, DNA was utilized as a surfactant to dis-perse carbon nanotubes (CNTs) in GelMA or HA to create bio-
+compatible CNT-based bioinks (Fig. 15).
+137Cytotoxicity and
+cell viability results showed that the cardiomyocytes showed90% cellular viability after seeding on the printed ink. The
+immunostaining results of f-actin revealed that the cells had
+normal cell morphology and adhered well to the printed ink.In addition, the cells that proliferated on conductive bioinks
+showed high expressions of sarcomeric α-actinin and con-
+nexin-43, which are cardiomyocyte specific markers. It is alsonoteworthy that these conductive bioink formulations showed
+no toxicity to the cells and also had superior electrical pro-
+perties that promoted the functions of the cardiomyocytes.
+137
+Alternatively, bioinks blended with gold nanorods (AuNRs)
+have also been shown to improve cardiac functions.138
+Another class of nanomaterials is based on minerals. For
+example, HAp has been mainly used in bone tissue engineer-
+ing due to its supportive functions for bone growth and
+osseointegration. HAp is a calcium phosphate mineral verysimilar to the inorganic components in bones in
+mammals.
+139,140Furthermore, HAp is also utilized in bone
+bioprinting studies as an osteogenic inducer. Gao et al. used a
+thermal inkjet printer with hMSCs suspended in PEG-dimeth-
+acrylate nanoparticles of BG or HAp.111In the study that used
+HAp, the cells showed the highest viability, and also the com-pressive modulus of the constructs was higher. The contents
+of collagen and ALP were observed to be the highest. Inanother report, bone morphogenetic protein-2 (BMP-2)-incor-
+porating gelatin microparticles were bioprinted with goat mul-
+tipotent stromal cell-encapsulating alginate and a mixture ofHAp and tricalcium phosphate to evaluate the release of
+BMP-2 and osteogenic tissue formation.
+104A layer-by-layer bio-
+printing was carried out by a pneumatic dispensing system.Immunohistochemical staining results demonstrated that in
+the fast growth factor releasing group, osteocalcin expression
+was lower than in the slow growth factor releasing group.However, micro-computed tomography (micro-CT) results
+showed that the duration of the growth factor release time did
+not change the bone volume significantly. In another study,HAp was mixed with gelatin and alginate, whereupon a two-
+step mechanism was utilized based on the reversible thermo-
+sensitive gelation of gelatin and the irreversible chemical gela-tion of alginate.
+32During the bioprinting process, a modified
+3D bioprinter with two-syringes and a heatable printhead was
+used. Here, gelatin was used as a short-term stabilizer that wasdissolved after a certain time during incubation, where the
+alginate enabled long-term stability and the HAp was
+employed for its osteogenic potential (Fig. 16). It was foundthat the addition of HAp to the gelatin –alginate mixture made
+the composite more viscous and hence more di ﬃcult to print,
+and the maximum HAp concentration that allowed proper bio-printing was reported as 8%. The results revealed that bio-
+printed hMSCs showed a high cell viability of 85% after 3 days
+of subsequent in vitro culture even with the higher HAp con-
+centrations. It was also demonstrated that HAp-based bioinks
+have favorable properties for bone tissue engineering. Catros
+et al. used LaBP while assembling nano-HAp (nHAp) and
+human osteoprogenitor cells in culture medium.
+141It was
+demonstrated that LaBP allowed the bioprinting and organiz-
+ation of nHAp and human osteoprogenitor cells in two andthree dimensions. In addition, the physicochemical properties
+of nHAp were preserved during LaBP and cell proliferation was
+observed for 15 days. In another study, nHAp and sodium algi-nate were synthesized by wet precipitation.
+142LaBP was uti-
+lized by using a laser-induced forward transfer method. In this
+study, polymers, namely sodium alginate, nano-sized particles,namely nHAp and human endothelial cells were printed with
+this bioprinting technology. Droplets that are 70 µm in dia-
+meter were obtained, with five to seven living cells encapsu-lated in each droplet.
+4.2. Bioinks with bioactive molecules
+Biomolecules can be blended into bioinks as well. Growth
+factors are generally referred to as a group of proteins or
+steroid hormones that stimulate cell di ﬀerentiation, prolifer-
+ation, survival, and tissue regeneration. They can be produced
+by diﬀerent types of cells, tissues, and glands.
+143 –145In
+general, certain groups of growth factors act on specific type oftissues, such as the BMP family, which stimulates bone-related
+processes whereas the VEGF is known to stimulate the vascu-
+larization process. For this reason, they are widely used intissue engineering, either as direct additives inside the
+scaﬀold material or entrapped in a controlled release system,Biomaterials Science Review
+This journal is © The Royal Society of Chemistry 2018 Biomater. Sci.
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlinesuch as microspheres. In several studies growth factors were
+added to the bioink and used in bioprinting applications to
+stimulate the engineered tissues. Insulin-like growth factor II(IGF-II)-, BMP-2-, and fibroblast growth factor-2 (FGF-2)-con-
+taining bioinks were printed on fibrin-coated surfaces with an
+inkjet deposition system.
+146Myogenic cells were then seeded
+on the printed structures. Desorption experiments performed
+with IGF-II and BMP-2 showed that the growth factors were
+retained on the samples in serum-containing medium after 10days. Studies with myogenic cells on the printed BMP-2
+samples showed that there was a notable increase in their ALPexpression levels; however, on the control and FGF-2 samples,
+there was no noticeable expression of ALP. Similarly, Cooper
+et al. used an inkjet deposition system to bioprint human
+recombinant BMP-2, noggin, growth and di ﬀerentiation factor-
+5 (GDF-5), and transforming growth factor- β1 (TGF- β1) on
+human acellular dermis.
+121Myogenic precursor cells were
+seeded on growth factor-containing substrates. The bioprint-
+ing of BMP-2 was done on one half of the circular acellular
+dermis, whereas the other part was left empty or bioprintedwith noggin, GDF-5, or TGF- β1. Histological analysis showed
+that human acellular dermis alone did not stimulate the for-
+Fig. 15 Preparation and generation of a conductive bioink. (a) A scheme of coagulation reaction of DNA/HA-coated CNT-based bioinks.
+(b) Viscosity results of a conductive CNT-based bioink. (c) 3D printing of a bioink on a PDMS mold. (d) SEM image shows porous structure of the printed
+samples. (e) Mechanical test results of printed ﬁbers after swelling. (f) Cyclic voltammetry curves of printed ﬁbers in PBS. (g) Impedance measurements
+of printed CNT-based micro ﬁbers in PBS. (h) Structure of printed ﬁbers inside cell-laden GelMA hydrogels. (i) Top view of GelMA hydrogel shows the
+printed ﬁbers inside the construct. ( j) Immunostaining results of cardiomyocytes encapsulated in GelMA after 10 days including printed ﬁbers for sarco-
+meric α-actinin (green), cell nuclei (blue), and Cx-43 (red).137Reprinted with permission Copyright John Wiley & Sons, Inc., 2016.Review Biomaterials Science
+Biomater. Sci. This journal is © The Royal Society of Chemistry 2018
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlinemation of bone tissue, whereas new bone-like structures were
+formed on the BMP-2 printed sections of the construct.
+Blood plasma is the ECM of blood cells consisting of a solu-
+tion of salts and proteins such as fibrinogen, albumin, and
+globulin.147Due to its advantage of being a natural mixture of
+vital proteins and minerals, blood plasma has been utilized asa bioink. Gruene et al. combined blood plasma with alginate
+for encapsulating ASCs, and fabricated 3D multilayer grafts by
+using the LaBP technique.
+148Experiments revealed that the
+proliferation and di ﬀerentiation ability of the stem cells were
+preserved after the bioprinting process. Another study utilized
+the same bioprinting procedure and the same blood plasma –
+alginate bioink mixture for skin tissue engineering.16They
+were able to build layered structures where every single layer
+was patterned with di ﬀerent cell types, and proper cellular
+functionality and intercellular junction formation were
+observed after bioprinting.A novel cryo (freezing) bioink was reported by El Assal et al. ,
+where red blood cells (RBCs) were bioprinted as nanodroplets
+for cryopreservation.149The cryo bioink included PEG, ectoine,
+and trehalose molecules and served as a protective solution for
+RBCs during cooling and thawing processes. The optimum
+concentrations of the cryo bioink components were foundthrough experiments. The extrusion-based bioprinting system
+enabled the dispensing of RBC-laden cryo bioink in the form
+of droplets. The results revealed that the cellular morphologyand functions of the bioprinted patterns were successfully
+maintained.
+Besides proteins, ultrashort peptides, including trimer,
+tetramer, and hexamers, were proposed as composite bioink
+materials, and the parameters critical for bioprinting were
+next evaluated.
+12These materials were soluble in water even at
+low temperatures and possessed stimuli-responsive gelation
+and self-assembly properties, enabling them to obtain rigid
+Fig. 16 (a) Schematic diagrams of the two-step gelation mechanism of bioinks: thermoresponsive gelation of gelatin and the irreversible chemical
+gelation of alginate at the polymer level. (b) Printing of heated hydrogel precursor including living cells onto a cold substrate. (c) First gelation step
+by decreasing the temperature, which resulted in solidi ﬁcation of the gelatin. (d) After printing the whole construct, it was immersed in a CaCl 2solu-
+tion to cross-link the alginate within the hydrogel precursor mixture. This procedure was performed in a cold environment to preserve the stability
+of the construct until chemical cross-linking was completed. (e) Long-term stability was ensured by the cross-linked alginate and then the cooling
+plate was removed.32Reprinted with permission Copyright Elsevier, 2014.Biomaterials Science Review
+This journal is © The Royal Society of Chemistry 2018 Biomater. Sci.
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlinehydrogels with good shape fidelity and a sti ﬀness of around 40
+kPa, which is one order of magnitude greater than that of
+other short-peptide-based hydrogels. Thanks to their amphi-philic structure, they could hold a large amount of water for
+protecting cells from dehydration during the bioprinting
+process. Furthermore, human MSCs encapsulated in peptidehydrogel droplets exhibited alignment and elongation in less
+than a week and the 3D constructs presented good in vivo bio-
+compatibility and stability. With these unique properties,peptide bioinks are not only suitable bioink materials for
+tissue engineering but also favorable bioinks for drug delivery
+and therapeutics screening applications.
+Microbes may also function as bioinks. For example, geneti-
+cally engineered phage was recently introduced as a new
+bioink material due to its tailorable design at the molecularlevel, which enabled the research team to add the desired pro-
+perties for bioprinting applications.
+13Specifically, M13 phages
+with their integrin-binding (GRGDS) and calcium-binding(DDYD) domains on their surfaces were mixed with alginate
+for proper cross-linking in the presence of Ca
+2+ions (Fig. 17).
+Preosteoblasts were encapsulated in this bioink and bioprintedwith a computer-controlled three-axis robotic system and a dis-
+penser. Bioprinted cell-laden constructs displayed higher
+levels of cell viability, proliferation, and di ﬀerentiation than
+those encapsulated in pure alginate, implying a strong poten-
+tial of creating bioinks from engineered phages. Similar to
+peptide bioinks, the self-assembly property, replicability, andtunable design at the molecular level are outstanding pro-
+perties which can pave the way to create new bioinks in asimilar manner and could further accelerate bioprinting
+applications.
+5. Future remarks
+Bioprinting is a promising strategy to engineer 3D tissue con-structs with precisely defined structures and geometries by
+using living cells and biomaterials. Bioinks are an essentialcomponent of bioprinting and typically consist of biomaterials
+(such as hydrogels), cells, or cell aggregates, or their combi-
+nations. Several natural ( e.g., alginate and gelatin) and syn-
+thetic ( e.g., PCL, PEG, Pluronic) polymers have been utilized as
+bioinks. Although there are numerous e ﬀorts on the advance-
+ment of the bioprinting technology, the development of appro-priate bioinks that satisfactorily meet bioprinting require-
+ments with regards to the mechanical, rheological, and bio-
+logical properties have been limited to date. Thus, the develop-ment of new bioink materials and the engineering of novel
+bioink formulations are currently major areas of interest. In
+addition, more work is needed in creating models and stan-dards to compare and to evaluate the properties of di ﬀerent
+bioink materials. To this end, new metrics need to be devel-
+oped for evaluating bioinks and bioprinting processes, whichare very important to standardize their uses. As we mentioned
+above, a pioneering work has established a method to evaluate
+the shape fidelity of bioinks viathe filament fusion of parallel-
+bioprinted strands using an extrusion bioprinter, as well as
+the filament collapse on overhanging structures.
+115In
+Fig. 17 The use of phages as a nanobioink. The nano- ﬁlamentous M13 bacteriophage was genetically engineered to present cell-adhesive peptides
+on its major protein. (a) Target genes were inserted into the gVIII region, leading to close proximity to the N-terminus of pVIII. The resulting circul ar
+DNA was then transformed into E. coli , creating the engineered M13 phages, which were identi ﬁed by DNA sequencing. (b) Schematic diagram of an
+M13 phage displaying a regularly spaced, dense array of biochemical motifs, including both the integrin-binding segment (GRGDS) and the Ca2+-
+binding segment (DDYD). (c) Schematic diagram of a bioink (target cells + RGD-phages + alginate) and a 3D cell-laden construct printed using the
+phage-based bioink.13Reprinted with permission Copyright Elsevier, 2016.Review Biomaterials Science
+Biomater. Sci. This journal is © The Royal Society of Chemistry 2018
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Onlineaddition, the development of new computational models is
+another area of interest to fully analyze the printability and
+behaviors of the bioinks prior to experimental optimizations.In view of the above-mentioned topics, this review has pro-
+vided in-depth details about the current bioinks and it is
+anticipated that this will benefit the broad readership in thefield of bioprinting and tissue engineering.
+Conﬂicts of interest
+The authors declare no conflict of interests in this work.
+Acknowledgements
+P. S. G. O. acknowledges funding (B.14.2.TBT.0.06.01-219-
+115543) and I. I. acknowledges funding (B.02.1.TBT.0.06.01-219-115543) from the Scientific and Technological Research
+Council of Turkey (TUBITAK). This work was supported by the
+National Institutes of Health (AR066193, EB021148, EB021857,AR070647, EB023052, CA214411, AR057837, HL137193, and
+EB024403), the O ﬃce of Naval Research PECASE Award, the
+National Science Foundation (EFRI-1240443), and theScientific and Technological Research Council of Turkey
+(TUBITAK). Y. S. Z. acknowledges the National Cancer Institute
+of the National Institutes of Health Pathway to IndependenceAward (CA201603) and the Science and Technology
+Commission of Shanghai Municipality (STCSM) 17JC 1400200.
+References
+1 P. Bajaj, R. M. Schweller, A. Khademhosseini, J. L. West
+and R. Bashir, Annu. Rev. Biomed. Eng. , 2014, 16, 247 –276.
+2 J. Groll, T. Boland, T. Blunk, J. A. Burdick, D.-W. Cho,
+P. D. Dalton, B. Derby, G. Forgacs, Q. Li, V. A. Mironov,
+L. Moroni, M. Nakamura, W. Shu, S. Takeuchi, G. Vozzi,
+T. B. F. Woodfield, T. Xu, J. J. Yoo and J. Malda,Biofabrication , 2016, 8, 013001.
+3 S. V. Murphy and A. Atala, Nat. Biotechnol. , 2014, 32, 773 –
+785.
+4 Y. S. Zhang, K. Yue, J. Aleman, K. M. Mollazadeh-
+Moghaddam, S. M. Bakht, V. Dell ’Erba, P. Assawes,
+S. R. Shin, M. R. Dokmeci, R. Oklu andR. A. Khademhosseini, Ann. Biomed. Eng. , 2017, 45,
+148 –163.
+5 Y. S. Zhang, M. Duchamp, R. Oklu, L. W. Ellisen,
+R. Langer and A. Khademhosseini, ACS Biomater. Sci. Eng. ,
+2016, 2, 1710 –1721.
+6 J. K. Carrow, P. Kerativitayanan, M. K. Jaiswal,
+G. Lokhande and A. K. Gaharwar, in Essentials of 3D
+Biofabrication and Translation , ed. A. A. J. Yoo, Academic
+Press, Boston, 2015, pp. 229 –248.
+7 S. Wüst, R. Müller and S. Hofmann, J. Funct. Biomater. ,
+2011, 2, 119 –154.8 A. B. Dababneh and I. T. Ozbolat, J. Manuf. Sci. Eng. , 2014,
+136, 061016 –061016.
+9 S. Khalil and W. Sun, J. Biomech. Eng. , 2009, 131, 111002.
+10 Z. Wang, R. Abdulla, B. Parker, R. Samanipour, S. Ghosh
+and K. Kim, Biofabrication , 2015, 7, 045009.
+11 H. J. Lee, Y. B. Kim, S. H. Ahn, J.-S. Lee, C. H. Jang,
+H. Yoon, W. Chun and G. H. Kim, Adv. Healthcare Mater. ,
+2015, 4, 1359 –1368.
+12 Y. Loo, A. Lakshmanan, M. Ni, L. L. Toh, S. Wang and
+C. A. E. Hauser, Nano Lett. , 2015, 15, 6919 –6925.
+13 D.-Y. Lee, H. Lee, Y. Kim, S. Y. Yoo, W.-J. Chung and
+G. Kim, Acta Biomater. , 2016, 29, 112 –
+124.
+14 R. K. Bregg, Current Topics in Polymer Research ,N o v a
+Publishers, 2005.
+15 C. C. Chang, E. D. Boland, S. K. Williams and
+J. B. Hoying, J. Biomed. Mater. Res., Part B , 2011, 98, 160 –
+170.
+16 L. Koch, A. Deiwick, S. Schlie, S. Michael, M. Gruene,
+V. Coger, D. Zychlinski, A. Schambach, K. Reimers,
+P. M. Vogt and B. Chichkov, Biotechnol. Bioeng. , 2012, 109,
+1855 –1863.
+17 S. Michael, H. Sorg, C.-T. Peck, L. Koch, A. Deiwick,
+B. Chichkov, P. M. Vogt and K. Reimers, PLoS One , 2013,
+8, e57741.
+18 V. Lee, G. Singh, J. P. Trasatti, C. Bjornsson, X. Xu,
+T. N. Tran, S.-S. Yoo, G. Dai and P. Karande, Tissue Eng.,
+Part C , 2014, 20, 473 –484.
+19 S. Moon, S. K. Hasan, Y. S. Song, F. Xu, H. O. Keles,
+F. Manzur, S. Mikkilineni, J. W. Hong, J. Nagatomi,
+E. Haeggstrom, A. Khademhosseini and U. Demirci,Tissue Eng., Part C , 2010, 16, 157 –166.
+20 D. F. Duarte Campos, A. Blaeser, A. Korsten, S. Neuss,
+J. Jäkel, M. Vogt and H. Fischer, Tissue Eng., Part A , 2015,
+21, 740 –756.
+21 K. Jakab, A. Neagu, V. Mironov, R. R. Markwald and
+G. Forgacs, Proc. Natl. Acad. Sci. U. S. A. , 2004, 101, 2864 –
+2869.
+22 K. Jakab, B. Damon, A. Neagu, A. Kachurin and
+G. Forgacs, Biorheology , 2006, 43, 509 –513.
+23 X. Cui, D. Dean, Z. M. Ruggeri and T. Boland, Biotechnol.
+Bioeng. , 2010, 106, 963 –969.
+24 J. Zhu and R. E. Marchant, Expert Rev. Med. Devices , 2011,
+8, 607 –626.
+25 A. O. Elzoghby, J. Controlled Release , 2013, 172, 1075 –
+1091.
+26 Q. Xing, K. Yates, C. Vogt, Z. Qian, M. C. Frost and
+F. Zhao, Sci. Rep. , 2014, 4, 4706.
+27 W. Schuurman, P. A. Levett, M. W. Pot, P. R. van Weeren,
+W. J. A. Dhert, D. W. Hutmacher, F. P. W. Melchels,
+T. J. Klein and J. Malda,
+Macromol. Biosci. , 2013, 13, 551 –
+561.
+28 J. W. Nichol, S. T. Koshy, H. Bae, C. M. Hwang,
+S. Yamanlar and A. Khademhosseini, Biomaterials , 2010,
+31, 5536 –5544.
+29 T. Zhang, K. C. Yan, L. Ouyang and W. Sun, Biofabrication ,
+2013, 5, 045010.Biomaterials Science Review
+This journal is © The Royal Society of Chemistry 2018 Biomater. Sci.
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Online30 M. Neufurth, X. Wang, H. C. Schröder, Q. Feng, B. Diehl-
+Seifert, T. Ziebart, R. Ste ﬀen, S. Wang and W. E. G. Müller,
+Biomaterials , 2014, 35, 8810 –8819.
+31 B. Duan, L. A. Hockaday, K. H. Kang and J. T. Butcher,
+J. Biomed. Mater. Res., Part A , 2013, 101, 1255 –1264.
+32 S. Wüst, M. E. Godla, R. Müller and S. Hofmann, Acta
+Biomater. , 2014, 10, 630 –640.
+33 K. Yue, G. Trujillo-de Santiago, M. M. Alvarez, A. Tamayol,
+N. Annabi and A. Khademhosseini, Biomaterials , 2015, 73,
+254 –271.
+34 Y.-C. Chen, R.-Z. Lin, H. Qi, Y. Yang, H. Bae, J. M. Melero-
+Martin and A. Khademhosseini, Adv. Funct. Mater. , 2012,
+22, 2027 –2039.
+35 H. Shin, B. D. Olsen and A. Khademhosseini,
+Biomaterials , 2012, 33, 3143 –3152.
+36 C. B. Hutson, J. W. Nichol, H. Aubin, H. Bae, S. Yamanlar,
+S. Al-Haque, S. T. Koshy and A. Khademhosseini, Tissue
+Eng., Part A , 2011, 17, 1713 –1723.
+37 W. Xiao, J. He, J. W. Nichol, L. Wang, C. B. Hutson,
+B. Wang, Y. Du, H. Fan and A. Khademhosseini, Acta
+Biomater. , 2011, 7, 2384 –2393.
+38 L. E. Bertassoni, J. C. Cardoso, V. Manoharan,
+A. L. Cristino, N. S. Bhise, W. A. Araujo, P. Zorlutuna,
+N. E. Vrana, A. M. Ghaemmaghami, M. R. Dokmeci andA. Khademhosseini, Biofabrication , 2014, 6, 024105.
+39 D. B. Kolesky, R. L. Truby, A. S. Gladman, T. A. Busbee,
+K. A. Homan and J. A. Lewis, Adv. Mater. , 2014, 26, 3124 –
+3130.
+40 A. Skardal, J. Zhang, L. McCoard, X. Xu,
+S. Oottamasathien and G. D. Prestwich, Tissue Eng., Part
+A, 2010, 16, 2675 –2685.
+41 B. Duan, E. Kapetanovic, L. A. Hockaday and J. T. Butcher,
+Acta Biomater. , 2014, 10, 1836 –1846.
+42 A. C. Daly, S. E. Critchley, E. M. Rencsok and D. J. Kelly,
+Biofabrication , 2016,
+8, 045002.
+43 R. Levato, W. R. Webb, I. A. Otto, A. Mensinga, Y. Zhang,
+M. van Rijen, R. van Weeren, I. M. Khan and J. Malda,
+Acta Biomater. , 2017, 61,4 1 –53.
+44 T. Rajangam and S. S. A. An, Int. J. Nanomed. , 2013, 8,
+3641 –3662.
+45 X. Cui and T. Boland, Biomaterials , 2009, 30, 6221 –6227.
+46 M. Nakamura, S. Iwanaga, C. Henmi, K. Arai and
+Y. Nishiyama, Biofabrication , 2010, 2, 014110.
+47 T. Xu, K. W. Binder, M. Z. Albanna, D. Dice, W. Zhao,
+J. J. Yoo and A. Atala, Biofabrication , 2013, 5, 015001.
+48 M. Gruene, M. Pflaum, C. Hess, S. Diamantouros,
+S. Schlie, A. Deiwick, L. Koch, M. Wilhelmi,
+S. Jockenhoevel, A. Haverich and B. Chichkov, Tissue Eng.,
+Part C , 2011, 17, 973 –982.
+49 A. L. Rutz, K. E. Hyland, A. E. Jakus, W. R. Burghardt and
+R. N. Shah, Adv. Mater. , 2015, 27, 1607 –1614.
+50 C. Vepari and D. L. Kaplan, Prog. Polym. Sci. , 2007, 32,
+991 –1007.
+51 K. Schacht, T. Jüngst, M. Schweinlin, A. Ewald, J. Groll
+and T. Scheibel, Angew. Chem., Int. Ed. , 2015, 54, 2816 –
+2820.52 S. Das, F. Pati, Y.-J. Choi, G. Rijal, J.-H. Shim, S. W. Kim,
+A. R. Ray, D.-W. Cho and S. Ghosh, Acta Biomater. , 2015,
+11, 233 –246.
+53 K. Y. Lee and D. J. Mooney, Prog. Polym. Sci. , 2012, 37,
+106 –126.
+54 Y. Zhang, Y. Yu, A. Akkouch, A. Dababneh, F. Dolati and
+I. T. Ozbolat, Biomater. Sci. , 2014, 3, 134 –143.
+55 J. Jia, D. J. Richards, S. Pollard, Y. Tan, J. Rodriguez,
+R .P .V i s c o n t i ,T .C .T r u s k ,M .J .Y o s t ,H .Y a o ,R .R .M a r k w a l dand Y. Mei, Acta Biomater. , 2014, 10, 4323
+–4331.
+56 J. Yan, Y. Huang and D. B. Chrisey, Biofabrication , 2013, 5,
+015002.
+57 P. de Vos, M. M. Faas, B. Strand and R. Calafiore,
+Biomaterials , 2006, 27, 5603 –5617.
+58 Y. A. Mørch, M. Qi, P. O. M. Gundersen, K. Formo,
+I. Lacik, G. Skjåk-Braek, J. Oberholzer and B. L. Strand,
+J. Biomed. Mater. Res., Part A , 2012, 100, 2939 –2947.
+59 Y. Yu, Y. Zhang, J. A. Martin and I. T. Ozbolat, J. Biomech.
+Eng., 2013, 135, 91011.
+60 Y. Zhang, Y. Yu, H. Chen and I. T. Ozbolat, Biofabrication ,
+2013, 5, 025004.
+61 Q. Gao, Y. He, J. Fu, A. Liu and L. Ma, Biomaterials , 2015,
+61, 203 –215.
+62 H. Gudapati, J. Yan, Y. Huang and D. B. Chrisey,
+Biofabrication , 2014, 6, 035022.
+63 B. Guillotin, A. Souquet, S. Catros, M. Duocastella,
+B. Pippenger, S. Bellance, R. Bareille, M. Rémy,L. Bordenave, J. Amédée and F. Guillemot, Biomaterials ,
+2010, 31, 7250 –7256.
+64 D. Kingsley, A. Dias, D. Chrisey and D. Corr,
+Biofabrication , 2013, 5, 045006.
+65 L. Gasperini, D. Maniglio, A. Motta and C. Migliaresi,
+Tissue Eng., Part C , 2015, 21, 123 –132.
+66 S. K. Williams, J. S. Touroo, K. H. Church and
+J. B. Hoying, BioRes. Open Access , 2013, 2, 448 –454.
+67 K. Nair, M. Gandhi, S. Khalil, K. C. Yan, M. Marcolongo,
+K. Barbee and W. Sun, Biotechnol. J. , 2009, 4, 1168 –1177.
+68 R. Chang, K. Emami, H. Wu and W. Sun, Biofabrication ,
+2010, 2, 045004.
+69 J. Kundu, J.-H. Shim, J. Jang, S.-W. Kim and D.-W. Cho,
+J. Tissue Eng. Regener. Med. , 2015, 9, 1286 –1297.
+70 W. Schuurman, V. Khristov, M. W. Pot, P. R. van Weeren,
+W. J. A. Dhert and J. Malda, Biofabrication , 2011,
+3,
+021001.
+71 C. Xu, W. Chai, Y. Huang and R. R. Markwald, Biotechnol.
+Bioeng. , 2012, 109, 3152 –3160.
+72 C. Xu, M. Zhang, Y. Huang, A. Ogale, J. Fu and
+R. R. Markwald, Langmuir , 2014, 30, 9130 –9138.
+73 M. Mobed-Miremadi, E. Acks, S. Polsaward and D. Chen,
+Artif. Cells, Blood Substitutes, Immobilization Biotechnol. ,
+2011, 39, 310 –316.
+74 A. H. Bacelar, J. Silva-Correia, J. M. Oliveira and R. L. Reis,
+J. Mater. Chem. B , 2016, 4, 6164 –6174.
+75 T. Wuestenberg, Cellulose and Cellulose Derivatives in the
+Food Industry: Fundamentals and Applications , John Wiley
+& Sons, 2014.Review Biomaterials Science
+Biomater. Sci. This journal is © The Royal Society of Chemistry 2018
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Online76 J. T. Oliveira, L. Martins, R. Picciochi, P. B. Malafaya,
+R. A. Sousa, N. M. Neves, J. F. Mano and R. L. Reis,
+J. Biomed. Mater. Res., Part A , 2010, 93, 852 –863.
+77 F. P. W. Melchels, W. J. A. Dhert, D. W. Hutmacher and
+J. Malda, J. Mater. Chem. B , 2014, 2, 2282 –2289.
+78 K. Buyukhatipoglu, W. Jo, W. Sun and A. M. Clyne,
+Biofabrication , 2009, 1, 035003.
+79 R. Lozano, L. Stevens, B. C. Thompson, K. J. Gilmore,
+R. Gorkin III, E. M. Stewart, M. in het Panhuis,M. Romero-Ortega and G. G. Wallace, Biomaterials , 2015,
+67, 264 –273.
+80 J. Visser, B. Peters, T. J. Burger, J. Boomstra,
+W. J. A. Dhert, F. P. W. Melchels and J. Malda,
+Biofabrication , 2013, 5, 035007.
+81 R. Levato, J. Visser, J. A. Planell, E. Engel, J. Malda and
+M. A. Mateos-Timoneda, Biofabrication , 2014, 6,
+035020.
+82 J. Monslow, P. Govindaraju and E. Puré, Front. Immunol. ,
+2015, 6, 231.
+83 P. N. Sudha and M. H. Rose, Adv. Food Nutr. Res. , 2014,
+72, 137 –176.
+84 M. K. Cowman, T. A. Schmidt, P. Raghavan and A. Stecco,
+F1000Research , 2015, 4, 622.
+85 J. Y. Park, J.-C. Choi, J.-H. Shim, J.-S. Lee, H. Park,
+S. W. Kim, J. Doh and D.-W. Cho, Biofabrication , 2014, 6,
+035004.
+86 A. Skardal, J. Zhang, L. McCoard, S. Oottamasathien and
+G. D. Prestwich, Adv. Mater. , 2010, 22, 4736 –4740.
+87 M. Kesti, M. Müller, J. Becher, M. Schnabelrauch,
+M. D ’Este, D. Eglin and M. Zenobi-Wong, Acta Biomater. ,
+2015, 11, 162 –172.
+88 G. Sun and J. J. Mao, Nanomed. , 2012, 7, 1771 –1784.
+89 L. Pescosolido, W. Schuurman, J. Malda, P. Matricardi,
+F. Alhaique, T. Coviello, P. R. van Weeren, W. J. A. Dhert,
+W. E. Hennink and T. Vermonden, Biomacromolecules ,
+2011, 12, 1831
+–1838.
+90 L. Gasperini, J. F. Mano and R. L. Reis, J. R. Soc., Interface ,
+2014, 11, 20140817.
+91 A. Blaeser, D. F. Duarte Campos, M. Weber, S. Neuss,
+B. Theek, H. Fischer and W. Jahnen-Dechent, BioRes.
+Open Access , 2013, 2, 374 –384.
+92 D. F. Duarte Campos, A. Blaeser, M. Weber, J. Jäkel,
+S. Neuss, W. Jahnen-Dechent and H. Fischer,
+Biofabrication , 2013, 5, 015003.
+93 F. Xu, B. Sridharan, N. G. Durmus, S. Wang, A. S. Yavuz,
+U. A. Gurkan and U. Demirci, PLoS One , 2011, 6, e19344.
+94 T. Dai, M. Tanaka, Y.-Y. Huang and M. R. Hamblin, Expert
+Rev. Anti-Infect. Ther. , 2011, 9, 857 –879.
+95 A. Martínez-Ruvalcaba, E. Chornet and D. Rodrigue,
+Carbohydr. Polym. , 2007, 67, 586 –595.
+96 F. Ahmadi, Z. Oveisi, S. M. Samani and Z. Amoozgar, Res.
+Pharm. Sci. , 2015, 10,1–16.
+97 J. E. Arenas-Herrera, I. K. Ko, A. Atala and J. J. Yoo,
+Biomed. Mater. , 2013, 8, 014106.
+98 P. M. Crapo, T. W. Gilbert and S. F. Badylak, Biomaterials ,
+2011, 32, 3233 –3243.99 F. Pati, J. Jang, D.-H. Ha, S. Won Kim, J.-W. Rhie,
+J.-H. Shim, D.-H. Kim and D.-W. Cho, Nat. Commun. ,
+2014, 5, 3935.
+100 F. Pati, D.-H. Ha, J. Jang, H. H. Han, J.-W. Rhie and
+D.-W. Cho, Biomaterials , 2015, 62, 164 –175.
+101 A. Skardal, M. Devarasetty, H.-W. Kang, I. Mead,
+C. Bishop, T. Shupe, S. J. Lee, J. Jackson, J. Yoo, S. Soker
+and A. Atala, Acta Biomater. , 2015, 25,2 4 –34.
+102 C. S. Hughes, L. M. Postovit and G. A. Lajoie, Proteomics ,
+2010, 10, 1886 –1890.
+103 J. E. Snyder, Q. Hamid, C. Wang, R. Chang, K. Emami,
+H. Wu and W. Sun, Biofabrication , 2011, 3, 034112.
+104 M. T. Poldervaart, H. Wang, J. van der Stok, H. Weinans,
+S. C. G. Leeuwenburgh, F. C. Öner, W. J. A. Dhert and
+J. Alblas, PLoS One , 2013, 8, e72610.
+105 L. Horváth, Y. Umehara, C. Jud, F. Blank, A. Petri-Fink
+and B. Rothen-Rutishauser, Sci. Rep. , 2015, 5, 7974.
+106 M. T. Poldervaart, H. Gremmels, K. van Deventer,
+J. O. Fledderus, F. C. Oner, M. C. Verhaar, W. J. A. Dhert
+and J. Alblas, J. Controlled Release , 2014, 184,5 8 –66.
+107 J. Zhu, Biomaterials , 2010, 31, 4639 –4656.
+108 W. Li, P. Zhan, E. De Clercq, H. Lou and X. Liu, Prog.
+Polym. Sci. , 2013, 38, 421 –444.
+109 J. G. Sathish, S. Sethu, M.-C. Bielsky, L. de Haan,
+N. S. French, K. Govindappa, J. Green, C. E. M. Gri ﬃths,
+S. Holgate, D. Jones, I. Kimber, J. Moggs, D. J. Naisbitt,
+M. Pirmohamed, G. Reichmann, J. Sims,M. Subramanyam, M. D. Todd, J. W. Van Der Laan,
+R. J. Weaver and B. K. Park, Nat. Rev. Drug Discovery , 2013,
+12, 306 –324.
+110 A. Skardal, J. Zhang and G. D. Prestwich, Biomaterials ,
+2010, 31, 6173 –6181.
+111 G. Gao, A. F. Schilling, T. Yonezawa, J. Wang, G. Dai and
+X. Cui, Biotechnol. J. , 2014, 9, 1304 –1311.
+112 S. Hong, D. Sycks, H. F. Chan, S. Lin, G. P. Lopez,
+F. Guilak, K. W. Leong and X. Zhao, Adv. Mater. , 2015, 27,
+4035 –4040.
+113 F. Janvier, J. X. X. Zhu, J. Armstrong, H. J. Meiselman and
+G. Cloutier, J. Mech. Behav. Biomed. Mater. , 2013, 18, 100 –
+107.
+114 N. C. Paxton, W. Smolan, T. Böck, F. P. W. Melchels,
+J. Groll and T. Juengst, Biofabrication , 2017, 9(4),
+044107.
+115 A. Ribeiro, M. M. Blokzijl, R. Levato, C. W. Visser,
+M. Castilho, W. E. Hennink, T. Vermonden and J. Malda,Biofabrication , 2017, 10(1), 014102.
+116 K. Dubbin, A. Tabet and S. C. Heilshorn, Biofabrication ,
+2017,
+9, 044102.
+117 M. Müller, J. Becher, M. Schnabelrauch and M. Zenobi-
+Wong, Biofabrication , 2015, 7, 035006.
+118 V. H. M. Mouser, A. Abbadessa, R. Levato, W. E. Hennink,
+T. Vermonden, D. Gawlitta and J. Malda, Biofabrication ,
+2017, 9, 015026.
+119 S. Stichler, T. Böck, N. C. Paxton, S. Bertlein, R. Levato,
+V. Schill, W. Smolan, J. Malda, J. Tessmar, T. Blunk and
+J. Groll, Biofabrication , 2017, 9(4), 044108.Biomaterials Science Review
+This journal is © The Royal Society of Chemistry 2018 Biomater. Sci.
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Online120 W. L. Ng, W. Y. Yeong and M. W. Naing, Materials , 2017,
+10(2), E190.
+121 G. M. Cooper, E. D. Miller, G. E. Decesare, A. Usas,
+E. L. Lensie, M. R. Bykowski, J. Huard, L. E. Weiss,
+J. E. Losee and P. G. Campbell, Tissue Eng., Part A , 2010,
+16, 1749 –1759.
+122 F. Marga, K. Jakab, C. Khatiwala, B. Shepherd,
+S. Dorfman, B. Hubbard, S. Colbert and F. Gabor,
+Biofabrication , 2012, 4, 022001.
+123 C. Kucukgul, S. B. Ozler, I. Inci, E. Karakas, S. Irmak,
+D. Gozuacik, A. Taralp and B. Koc, Biotechnol. Bioeng. ,
+2015, 112, 811 –821.
+124 K. Markstedt, A. Mantas, I. Tournier, H. Martínez Ávila,
+D. Hägg and P. Gatenholm, Biomacromolecules , 2015, 16,
+1489 –1496.
+125 M. Müller, E. Öztürk, Ø. Arlov, P. Gatenholm and
+M. Zenobi-Wong, Ann. Biomed. Eng. , 2017, 45,
+210 –223.
+126 H. Martínez Ávila, S. Schwarz, N. Rotter and
+P. Gatenholm, Bioprinting , 2016, 1,2 2 –35.
+127 K. Jakab, C. Norotte, B. Damon, F. Marga, A. Neagu,
+C. L. Besch-Williford, A. Kachurin, K. H. Church, H. Park,
+V. Mironov, R. Markwald, G. Vunjak-Novakovic and
+G. Forgacs, Tissue Eng., Part A , 2008, 14, 413 –421.
+128 V. Mironov, R. P. Visconti, V. Kasyanov, G. Forgacs,
+C. J. Drake and R. R. Markwald, Biomaterials , 2009, 30,
+2164 –2174.
+129 C. A. Parzel, M. E. Pepper, T. Burg, R. E. Gro ﬀand
+K. J. L. Burg, J. Tissue Eng. Regener. Med. , 2009, 3, 260 –
+268.
+130 C. M. Owens, F. Marga, G. Forgacs and C. M. Heesch,
+Biofabrication , 2013, 5, 045007.
+131 A. Faulkner-Jones, S. Greenhough, J. A. King, J. Gardner,
+A. Courtney and W. Shu, Biofabrication , 2013, 5, 015013.
+132 Z. Hajdu, V. Mironov, A. N. Mehesz, R. A. Norris,
+R. R. Markwald and R. P. Visconti, J. Tissue Eng. Regener.
+Med. , 2010, 4, 659 –664.
+133 C. Norotte, F. S. Marga, L. E. Niklason and G. Forgacs,
+Biomaterials , 2009, 30, 5910 –5917.
+134 M. E. Pepper, R. E. Gro ﬀ, C. A. P. Cass, J. P. Mattimore,
+T. Burg and K. J. L. Burg, Artif. Organs , 2012, 36, E151 –
+E162.135 M. S. Mannoor, Z. Jiang, T. James, Y. L. Kong,
+K. A. Malatesta, W. O. Soboyejo, N. Verma, D. H. Gracias
+and M. C. McAlpine, Nano Lett. , 2013, 13, 2634 –2639.
+136 K. Buyukhatipoglu, R. Chang, W. Sun and A. M. Clyne,
+Tissue Eng., Part C , 2010, 16, 631 –642.
+137 S. R. Shin, R. Farzad, A. Tamayol, V. Manoharan,
+P. Mostafalu, Y. S. Zhang, M. Akbari, S. M. Jung, D. Kim,
+M. Comotto, N. Annabi, F. E. Al-Hazmi, M. R. Dokmeci
+and A. Khademhosseini, Adv. Mater. , 2016, 28, 3280 –3289.
+138 K. Zhu, S. R. Shin, T. van Kempen, Y.-C. Li, V. Ponraj,
+A. Nasajpour, S. Mandla, N. Hu, X. Liu, J. Leijten,
+Y.-D. Lin, M. A. Hussain, Y. S. Zhang, A. Tamayol andA. Khademhosseini, Adv. Funct. Mater. , 2017, 27, 1605352.
+139 S. V. Dorozhkin, Acta Biomater. , 2010, 6, 715 –734.
+140 N. Roveri and M. Iafisco, Nanotechnol. Sci. Appl. , 2010, 3,
+107 –125.
+141 S. Catros, J.-C. Fricain, B. Guillotin, B. Pippenger,
+R. Bareille, M. Remy, E. Lebraud, B. Desbat, J. Amédéeand F. Guillemot, Biofabrication , 2011, 3, 025001.
+142 F. Guillemot, A. Souquet, S. Catros, B. Guillotin, J. Lopez,
+M. Faucon, B. Pippenger, R. Bareille, M. Rémy,S. Bellance, P. Chabassier, J. C. Fricain and J. Amédée,
+Acta Biomater. , 2010, 6, 2494 –2500.
+143 R. Goldman, Adv. Skin Wound Care , 2004, 17,2 4 –35.
+144 A. T. Grazul-Bilska, M. L. Johnson, J. J. Bilski,
+D. A. Redmer, L. P. Reynolds, A. Abdullah and
+K. M. Abdullah, Drugs Today , 2003, 39, 787 –800.
+145 M. Atanasova and A. Whitty, Crit. Rev. Biochem. Mol. Biol. ,
+2012, 47, 502 –530.
+146 E. D. Miller, J. A. Phillippi, G. W. Fisher, P. G. Campbell,
+L. M. Walker and L. E. Weiss, Comb. Chem. High
+Throughput Screen. , 2009, 12, 604 –618.
+147 L. Elowsson, H. Kirsebom, V. Carmignac, B. Mattiasson
+and M. Durbeej, Biomater. Sci. , 2013, 1, 402 –410.
+148 M. Gruene, M. Pflaum, A. Deiwick, L. Koch, S. Schlie,
+C. Unger, M. Wilhelmi, A. Haverich and B. N. Chichkov,Biofabrication , 2011, 3, 015005.
+149 R. El Assal, S. Guven, U. A. Gurkan, I. Gozen, H. Shafiee,
+S. Dalbeyler, N. Abdalla, G. Thomas, W. Fuld,B. M. W. Illigens, J. Estanislau, J. Khoory, R. Kaufman,
+C. Zylberberg, N. Lindeman, Q. Wen, I. Ghiran and
+U. Demirci, Adv. Mater. , 2014, 26, 5815 –5822.Review Biomaterials Science
+Biomater. Sci. This journal is © The Royal Society of Chemistry 2018
+Published on 01 March 2018. Downloaded by University of California - Los Angeles on 06/03/2018 18:21:56. 
+View Article Online

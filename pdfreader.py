@@ -1,27 +1,48 @@
-from pypdf import PdfReader 
+import aspose.words as aw
+# Import libraries
+import requests
+from bs4 import BeautifulSoup
 
-# creating a pdf reader object 
-reader = PdfReader("Data\prueba2.pdf") 
+# URL from which pdfs to be downloaded
+url = "https://api-journal.accscience.com/journal/article/preview?doi=10.36922/ijb.2057"
 
-# printing number of pages in pdf file 
-print(len(reader.pages)) 
+# Requests URL and get response object
+response = requests.get(url)
 
-# getting a specific page from the pdf file 
-page = reader.pages[9] 
+# Parse text obtained
+soup = BeautifulSoup(response.text, 'html.parser')
 
-# extracting text from page 
-text = page.extract_text() 
-print(text) 
+# Find all hyperlinks present on webpage
+links = soup.find_all('a')
 
-print("---------------------------------")
-import pdfplumber
-import pandas as pd
-table_settings = {
-    "vertical_strategy": "text",
-    "horizontal_strategy": "text"
-}
-pdf = pdfplumber.open("Data\prueba2.pdf")
-table=pdf.pages[0].extract_table(table_settings)
-pd.DataFrame(table[1::],columns=table[0])
-print(len(table))
-print(table[1::])
+i = 0
+
+# From all links check for pdf link and
+# if present download file
+for link in links:
+	if ('.pdf' in link.get('href', [])):
+		i += 1
+		print("Downloading file: ", i)
+
+		# Get response object for link
+		response = requests.get(link.get('href'))
+
+		# Write content in pdf file
+		pdf = open("pdf"+str(i)+".pdf", 'wb')
+		pdf.write(response.content)
+		pdf.close()
+		print("File ", i, " downloaded")
+
+print("All PDF files downloaded")
+
+
+doc = aw.Document("Data\prueba1.pdf")
+doc.save("Output1.txt")
+i : int
+with open('Output1.txt','r',encoding='cp932', errors='ignore') as file:
+    # reading each line    
+    for line in file:
+    # reading each word        
+        for word in line.split():
+            # displaying the words 
+            print("  :",word)

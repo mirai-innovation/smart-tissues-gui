@@ -1,0 +1,1841 @@
+Bioprinting 23 (2021) e00148
+Available online 13 May 2021
+2405-8866/© 2021 Elsevier B.V. All rights reserved.Bioprinting: A review of processes, materials and applications 
+Bengi Yilmaza, Ans Al Rashidb,*, Younss Ait Moub, Zafer Evisc, Muammer Koçb 
+aDepartment of Biomaterials, University of Health Sciences Turkey, Istanbul, 34668, Turkey 
+bDivision of Sustainable Development, College of Science and Engineering, Hamad Bin Khalifa University, Qatar Foundation, Doha, Qatar 
+cDepartment of Engineering Sciences, Middle East Technical University, Ankara, 06800, Turkey   
+ARTICLE INFO  
+Keywords: 
+Bioprinting 
+Additive manufacturing 
+3D printing 
+Biomedical applications 
+Biomaterials ABSTRACT  
+3D printing (3DP) processes have evolved from simple prototyping for visual inspection purposes to functional 
+product manufacturing that offers flexibility, customization, scalability, reliability, durability, and relatively high 
+speed. These processes have been successfully applied to the biomedical field by unraveling previously inac-
+cessible freedom layers, such as increased design complexity. Bioprinting is one of the 3DP processes that has 
+helped develop more advanced research-specific experimental tools and patient-specific therapeutic approaches. 
+Given ongoing research progress in this field, a comprehensive review of existing achievements is vital. This 
+review aims to present recent advances in 3DP processes with a particular focus on bioprinting. This study 
+presents the history and development of bioprinting processes, the material developments in this field, and their 
+applications. The selected bioprinting applications in the fabrication of 3D tissue-engineered constructs for bone, 
+osteochondral, skin, and cardiac reconstruction are presented to demonstrate its potential in the further 
+advancement of this multidisciplinary field of research and development.   
+1.Introduction 
+3D printing (3DP) processes have evolved from simple prototyping 
+for visual inspection purposes to functional product manufacturing that 
+offers flexibility, customization, scalability, reliability, durability, and 
+relatively high speed. These processes have been successfully applied to 
+the biomedical field by unraveling previously inaccessible freedom 
+layers, such as increased design complexity. Bioprinting falls under the 
+3DP processes category that has helped to develop more advanced 
+research-specific experimental tools and patient-specific therapeutic 
+approaches. Bioprinting aims to manufacture living functional tissues 
+and organs suitable for transplantation by combining living cells, scaf-
+folds with 3D interconnected structures, and bioactive agents. There -
+fore, simultaneous processing of living cells and various biomaterials are 
+needed in 3D bioprinting and its applications. 
+Ideal material for bioprinting must be biocompatible, i.e., induce 
+appropriate host response specific for its intended application. It must 
+also preferably be biodegradable to create space for and be replaced by 
+newly synthesized tissue in time. The implanted material must provide 
+the appropriate biological and biomechanical environments and 
+biomechanical functions close to the native host within the body [1]. 
+Standards are also critical to the advancement of science and engineering in bioprinting. They should cover a wide range of activities, 
+from simple laboratory procedures to the control of complex biological 
+processes. The International Organization for Standardization (ISO) 
+specified the nonclinical biocompatibility and medical device testing in 
+the ‘ISO 10993-Biological evaluation of medical devices ’ standard se-
+ries. In particular, ISO 10993-1 provides the overall classification of 
+medical devices. It gives algorithms for configuring the steps required in 
+planning the study in which the biological safety of any biomaterial or 
+medical device is determined [2]. However, there are still no standards 
+addressing the bioprinting processes, production of biocompatible and 
+bio printable materials (i.e., bio-inks), or characterization methods of 
+the final products [3]. On the other hand, significant research efforts 
+have been invested in transposing 3DP technology to the medical field, 
+as indicated by the significantly increased publications (Fig. 1). 
+In addition to the scientific community ’s interest, commercial com-
+panies have also shown great interest in bioprinting. EnvisionTEC ’s 
+Bioplotter [4] is the first commercial bioprinter that can produce tissue 
+scaffolds from various biomaterials. The Chemical Institute of Sarria 
+produced two different hydroxyapatite (HA) containing inks for 3D 
+bioprinters [5]. Objet/Stratasys launched a transparent biocompatible 
+photopolymer (MED610) [6], which creates rigid and transparent parts, 
+such as surgical guides for a dental implant or orthopedic procedures. 
+*Corresponding author. 
+E-mail address: anrashid@hbku.edu.qa (A. Al Rashid).  
+Contents lists available at ScienceDirect 
+Bioprinting 
+u{�~zkw! s{yo|kro>! ÐÐÐ1�mtoz mont~om�1m{ y2u{�~zkw2lt {|~tz�tzr!
+https://doi.org/10.1016/j.bprint.2021.e00148 
+Received 12 December 2020; Received in revised form 29 April 2021; Accepted 30 April 2021   Bioprinting 23 (2021) e00148
+2Autodesk teamed up with Orgonovo and developed commercial soft-
+ware for 3D bioprinting for the first time [7]. Orgonovo ’s NovoGen 
+MMX was considered the first commercial bioprinter tested for a fully 
+cellular product [8]. 
+Given ongoing research progress in this field, a comprehensive re-
+view of existing achievements is vital. This review aims to present recent 
+advances in 3DP processes with a particular focus on bioprinting. This 
+study presents the history and development of bioprinting processes, the 
+material developments in this field, and their applications. The selected 
+bioprinting applications in the fabrication of 3D tissue-engineered 
+constructs for bone, osteochondral, skin, and cardiac reconstruction 
+are presented to demonstrate its potential in the further advancement of 
+this multidisciplinary field of research and development. 
+2.3D printing processes & biomaterials 
+3DP processes utilize digital models obtained using 3D modeling 
+software or digital scanning data. The designed models in computer- 
+aided design (CAD) software are converted into an STL (standard 
+tessellation language) file to represent objects in a three-dimensional 
+cartesian coordinate system, storing information about objects ’ surface 
+geometry, excluding color, texture, and other virtual model-related in-
+formation. To be interpreted by the 3DP hardware (i.e., 3D printer), the 
+STL file is further processed by a so-called “slicer software ” to generate a 
+machine-friendly file (.gcode file) [9,10]. The slicing software adds 
+machine-specific extra information to the obtained slicing data. The 
+ASTM/ISO standard defines terminologies used in 3DP technology and 
+classifies the different 3DP techniques into seven sub-groups: material 
+extrusion, material jetting, binder jetting, vat photopolymerization, 
+powder bed fusion, directed energy deposition, and sheet object lami-
+nation [11]. Bioprinting processes have evolved from the traditional 
+3DP methods. Three out of seven generally classified 3DP processes have 
+been implanted for bioprinting so far, as shown in Fig. 2. 
+3D printing materials are chosen according to the target application. 
+3DP processes are compatible with different material types: polymers, 
+ceramics, metals, and composites. Polymers are often readily available 
+and cost-effective, making them one of the most preferred strategies for 
+3D demonstration, prototyping, simulation, and actual applications 
+[12], such as printing tissue scaffolds with PCL [13]. Ceramics, such as 
+alumina, silica, and zirconia, are rigid ceramics that are hard to manu -
+facture through conventional manufacturing processes. 3DP opened 
+new and exciting perspectives in terms of manufacturing parts from 
+ceramic materials. Biocompatible ceramics, such as hydroxyapatite 
+(HA), can be processed with 3DP for biomedical applications. Ceramics 
+have been successfully used as building materials for most 3DP tech-
+nologies such as FDM [14–16] and SLS [17]. The majority of the 
+load-bearing implants, such as artificial joints (for instance, a hip joint), 
+spinal fixation devices, fracture nails, bone plates, and screws, and dental implants, are fabricated from metallic biomaterials (e.g., titanium 
+and its alloys, cobalt alloy, and 316L stainless steel), since they have 
+good mechanical reliability [18]. 
+Given the current advances in 3D printing technologies and mate-
+rials, 3DP has found widespread use in biomaterials, regenerative 
+medicine and tissue engineering, and laboratory device prototyping 
+[19–21]. In the medical field, 3DP can also be used for aims such as 
+teaching [22], functional flow modeling [23], procedural planning [24, 
+25], and device engineering [22]. Although 3DP medical applications 
+are still in early-stage, past and current studies show promising results 
+and imply a bright future for the field. One of the main advantages of 
+employing 3DP in the medical field is its ability to produce 
+patient-specific devices and therapeutic approaches. Some examples of 
+materials used in 3DP are summarized in Table 1. 
+The working principles of all the 3DP processes and biomaterials 
+involved are presented in the following sections. The subsequent text 
+mainly comprise two main sub-sections, “section 2.1” presents the 3DP 
+processes adaptation and modifications and biomaterials for bio-
+printing, while “section 2.2” presents other 3DP processes briefly for 
+general biomedical sciences. 
+Fig. 1.Publication hits for “bioprinting ” (data from Web of Science, accessed 
+December 1st, 2020). 
+Fig. 2.Classification of 3DP processes and Bioprinting Processes.  
+Table 1 
+Biomaterials for 3D bioprinting.  
+Material Technology Applications References 
+Hydroxyapatite (HA) 
+Poly(caprolactone) 
+(PCL)  - Stereolithography  
+- Inkjet/MJP Bones and dental 
+prosthesis [26–35] 
+PCL 
+Poly (lactic acid) 
+(PLA) 
+Poly (vinyl 
+alcohol) (PVA)  - MJP  
+- Stereolithography  
+- BJ/3DP  
+- FDM Simulation and 
+Surgical Planning [23–25, 
+36–42] 
+Alginate 
+Agar 
+Gelatin 
+Chitosan 
+Hyaluronic acid 
+PCL 
+Poly (ethylene 
+glycol) (PEG) 
+Composites  - Inkjet  
+- Micro-extrusion  
+- Laser-assisted Living Cells and 
+Tissue Engineering [12,43–64] 
+PCL 
+PVA 
+Ethylene-vinyl 
+acetate (EVA) 
+Poly (ethylene 
+oxide) (PEO) 
+Various Hydrogels  - Binder Jetting 
+(BJ)  
+- Inkjet/MJP  
+- FDM Drug delivery [65–71]  B. Yilmaz et al.                                                                                                                                                                                                                                  Bioprinting 23 (2021) e00148
+32.1. Bioprinting 
+In 2004, the definition of bioprinting was presented in the first in-
+ternational workshop on bioprinting and bio-patterning. The term refers 
+to using material transfer processes to design and assemble molecules, 
+cells, tissues, and biodegradable biomaterials according to a specified 
+configuration to perform one or more biological functions [72]. Bio-
+printing aims to manufacture living functional tissues and organs suit-
+able for transplantation by combining living cells, scaffolds with 3D 
+interconnected structures, and bioactive agents. Therefore, simulta -
+neous processing of living cells and various biomaterials are needed in 
+3D bioprinting applications. 
+Standard 3D printing devices were first developed for rapid proto -
+typing, rapid tooling for industrial manufacturing, and consumer 
+product fabrication. These technologies ’ hostile environment makes 
+them incompatible with 3D printing of living cells and many biological 
+materials. Thus, limiting their biomedical applications to “passive ” 
+biological structures, such as bare scaffolds and highly porous sub-
+strates, which are often used as an adherence surface for cell growth and 
+proliferation. Bio-friendly printing technologies have been developed to 
+overcome these limitations. To date, vat polymerization, material 
+extrusion, and material jetting technologies are adopted for bioprinting 
+applications. 3D bioprinting devices can be designed as ink-jet, micro- 
+extrusion, and laser-assisted systems [58], which corresponds to the 
+mentioned standard 3DP processes. These technologies and material 
+development for these processes are discussed here. 
+2.1.1. Vat polymerization (VP) 
+2.1.1.1. Stereolithography (SLA). Stereolithography (SLA), a vat poly-
+merization method, was the first-ever introduced 3DP process [73]. In 
+SLA, an ultraviolet (UV) range laser is used to induce polymerization of 
+photopolymer resins (e.g., elastomers, epoxies, or acrylate) [74]. A pair 
+of Galvano-scanners control the laser beam ’s lateral motion to improve 
+printing speed and accuracy (Fig. 3). As a resin is used as the base ma-
+terial, the printing speed is tightly correlated with the light penetration 
+and the curing depth, affecting new layer deposition. These parameters 
+can be improved by modulating the resin viscosity, adding light ab-
+sorbers, and polymerization facilitators. 
+Typically, SLA resins are made of polymers such as acrylates and 
+epoxies. However, it is necessary to note that acrylate is not preferred for 
+biomedical applications, given its cytotoxicity. Alternatively, novel 
+biocompatible materials have been developed to overcome such mate-
+rial limitation issues, such as poly (lactic acid) (PLA) is an FDA-approved 
+polymer [75]. The first use of SLA in the cell-containing bioprinting 
+process was in 2004 [76]. An SLA vat was filled with Chinese hamster 
+ovary cells and a photo-curable hydrogel consisting of poly(ethylene 
+oxide) (PEO) and poly(ethylene glycol)dimethacrylate (PEGDM) and 
+Irgacure was employed as a photo-initiator. The container was then placed on a vertically moving table. UV light cured the places according 
+to the design until the 3D structure was completed. The cell density was 
+high with a laser intensity of 18 mW/cm2 and wavelength of UV light of 
+365 nm. There is an increasing scientific interest in non-UV-based sys-
+tems since UV can damage the DNA of encapsulated cells [77] and yield 
+low post-printing cell viability. Lin et al. [78] developed a visible 
+light-based projection SLA and used polyethylene glycol diacrylate 
+(PEGDA) monomer to create hydrogel-based scaffolds with improved 
+cell viability. Wang et al. [79] also used visible light-based SLA with a 
+bio-ink consisting of PEGDA and gelatin methacrylate (GelMA) hydrogel 
+with an eosin Y-based photo-initiator. This system produced a vertical 
+3D structure with 50 μm resolution and 85% fibroblast cell viability for 
+the first five days. 
+2.1.1.2. Digital light processing (DLP). Digital light processing (DLP) 
+also relies on UV light-induced polymerization of the resin. The signif -
+icant difference between these two technologies resides in that DLP in-
+duces an instantaneous entire layer polymerization using digital micro- 
+mirrors devices (DMD) [80,81]. In contrast, in SLA, a single laser point 
+(e.g., layer pixel) is exposed at a time. As a result, DLP offers a higher 
+printing speed than SLA and all other 3DP technology competitors 
+(Fig. 3). The slicing data numerically control the DMD configuration. 
+The applied light source has also evolved from standard lamps to 
+light-emitting diode covering, thus, a more comprehensive range of 
+wavelength at a lower cost [82]. The hardware setup for DLP offers 
+higher lateral printing resolution. The z-resolution is tightly correlated 
+with light penetration and scattering, which can be improved by adding 
+light absorbers and polymerization facilitators. DLP achieves a resolu -
+tion of about 1 μm (while the printing speed is about 30 mm3 s 1) 
+regardless of the layer ’s lateral area and complexity [83]. 
+DLP can be employed with pure polymers (e.g., poly (lactic acid) 
+(PLA) and poly- ε-caprolactone (PCL)) and composites containing 
+ceramic and metal particles [84]. PLA resin compatible with the DLP 
+method was synthesized and functionalized by methacrylic anhydride to 
+produce hard tissue scaffolds with 600- μm pore size and 70% nominal 
+porosity [85]. Seck et al. [78] fabricated the hydrogel scaffolds of poly 
+D, L-lactide (PDLLA), and polyethylene glycol (PEG) by the DLP method. 
+The scaffolds had a gyroid structure with pore sizes ranging from 387 to 
+558 μm with 15 μm layer thickness. 
+SLA and DLP are employed in the biomedical field to address various 
+applications, including patient-specific models and functional parts, 
+implantable devices, cell-free tissue engineering scaffolds, and cell- 
+containing hydrogels [74]. Besides having high resolution, both SLA 
+and DLP have the advantages of being cell-compatible techniques. 
+2.1.1.3. Two-photon polymerization (2 PP). Two-photon polymerization 
+(2 PP) is another vat polymerization-based printing system like SLA and 
+DLP, but it can provide better control and higher print quality [86]. Due 
+to single-photon polymerization in SLA, the process occurs on the 
+Fig. 3.(a) SLA and (b) DLP printers (Working Principle).  B. Yilmaz et al.                                                                                                                                                                                                                                  Bioprinting 23 (2021) e00148
+4surface of a photosensitive resin that only allows building 3D structures 
+layer by layer. On the other hand, in 2 PP, which uses near-infrared 
+(NIR) femtosecond (Fs) laser pulses, the two photons are simulta -
+neously absorbed by the photo-initiator. Allowing them to act as a single 
+photon to initiate polymerization, enabling direct writing of any desired 
+3D model into the volume of photosensitive materials transparent in the 
+NIR and highly absorptive in the UV spectral range [87]. 
+The first use of the 2 PP technique for constructing 3D hydrogel 
+structures containing living cells was reported in 2014 [88]. The human 
+osteosarcoma cells (MG63) in the exposure region were reported to be 
+damaged by the laser, while the others can survive. Therefore, to ach-
+ieve acceptable post-printing viability of cells, it is also essential to 
+identify and eliminate the source of photochemical cytotoxicity. Yu et al. 
+[89] fabricated cell-free scaffolds of the photoresist by 2 PP containing 
+PEGDA as the monomer and pentaerythritol tri-acrylate (PE-3A) 
+cross-linker agent and reported that the minimum processing threshold 
+was 2.94 mW and the feature line width of 80 nm was achieved. 
+2.1.2. Material extrusion (ME) 
+Fused Deposition Modeling (FDM), also referred to as fused filament 
+fabrication (FFF), is the most commonly used material extrusion tech-
+nique and was first developed in 1989 and patented by Scott Crump 
+[90]. The FDM principle is based on material fusion (primarily plastics), 
+extrusion, and deposition. Plastics are fed to the printer in filaments with 
+diameters ranging from 1.75 to 3 mm (Fig. 4). The print head is 
+equipped with a heating element and a nozzle with a small diameter 
+(usually range from 0.1 mm up to 1.0 mm). The material is extruded 
+from the printing nozzle upon melting to make a thin filament and then 
+laid layer-by-layer on the build plate as specified by the “. gcode ” file. 
+The printing resolution is often tightly correlated with various param -
+eters such as the nozzle ’s diameter, printing speed, and filament feed 
+rate. As illustrated in Fig. 4, one head is dedicated to supporting material 
+printing in such configurations, where the other is mainly used for 
+model printing. Modern FDM printers can be equipped with dual (or 
+multi) printing heads to print supporting materials for complex geom -
+etries. In addition, dual heads can be used for extruding multi-materials 
+to fabricate functionally graded-materials. 
+FDM technology is often used with thermoplastics, such as poly 
+(lactic acid) (PLA), polycaprolactone (PCL), poly (lactic-co-glycolic 
+acid) (PLGA). Although there is a limited range of printable materials 
+with FDM, this technique is essential due to being practical in easy 
+material replacement, low maintenance expense, small size, and flexi-
+bility in operating temperatures [91]. Compared to other 3DP technol -
+ogies, finished parts of FDM suffer from a low surface quality and dimensional accuracy, limiting their use for various medical applica -
+tions. Optimizing the 3D printing process by changing essential pa-
+rameters, such as layer thickness, extrusion speed, and infill, must be 
+considered to have an improved surface finish. However, several 
+post-processing treatment methods, for example, sand polishing, 
+chemical treatment with different solvents, such as acetone and 
+methyl-ethyl-ketone, and vapor bath smoothening, can also be 
+employed [92]. 
+The FDM process itself can be applied directly in the biomedical area 
+for the rapid casting of biomedical implants by using printed replicas 
+[93], fabrication of prosthetic limbs [94] and radiotherapy patient 
+simulators (phantoms) [95], 3D printing of microfluidic devices [96], 
+sensors [97] and cell-free nanocomposite scaffolds [98], etc. However, 
+materials extrusion processes are further modified and adopted for 
+bioprinting. The most commonly used extrusion-based bioprinting 
+process, namely, extrusion bioprinting (melt extrusion or piston-based), 
+originates from FDM technology. The extrusion heads can be pneumatic, 
+piston, or screw-driven systems. Landers and Muhlhaupt [43] demon -
+strated the efficiency of using an extrusion-based system to construct 3D 
+cell-laden hydrogels. The 3D extrusion bioprinting technique is based on 
+a viscous cell-laden extrusion through a dosing needle (Fig. 5). Similar to 
+conventional 3DP technologies, the needle position is numerically 
+controlled based on a CAD model. The 3D structure is then built 
+layer-by-layer. Many groups [44–46,99] have evaluated various 
+hydrogels and composites to demonstrate the viability of 3D biological 
+structures printed with this technology under multiple conditions. 
+Extrusion-based bioprinters can be modified to produce 3D struc-
+tures composed of multi-walled and core-sheath fibers of different 
+compositions using special nozzles with multi-compartments. Besides, it 
+is also possible to adopt a microfluidic strategy to extrusion bioprinting 
+[100]. Cell-laden bioinks, mainly composed of hydrogels and bioactive 
+molecules, are dispensed by the printhead to create 3D structures. 
+However, bioinks need to be designed by considering shear thinning or 
+fast solidification properties for high-precision production. 
+2.1.3. Material jetting (MJ) 
+The technology shared by both polyjetting (PJ) and multijet 
+modeling (MJM) is the two material jetting methods that were inspired 
+by the conventional two-dimensional (2D) printing on papers. Like the 
+traditional ink-jet printers, the printer head is equipped with drop-on- 
+demand (DOD) ink-jet heads. When heat is applied to the DOD head ’s 
+liquid ink, a small air bubble is formed and rapidly collapses, which 
+results in a tiny droplet of ink being jetted out of the printhead through a 
+small orifice. Piezoelectric actuators can also be used as alternatives to 
+heat-induced bubble generation [101], which is particularly interesting 
+and valuable in biomedical applications with sensitive temperature re-
+quirements. Material jetting printing technology has adopted a similar 
+principle with modifications [102–104]. 
+In MJM, the printing process is based either on simultaneous jetting 
+Fig. 4.Fused deposition modeling (working principle).  
+ Fig. 5.Extrusion bioprinting (working principle).  B. Yilmaz et al.                                                                                                                                                                                                                                  Bioprinting 23 (2021) e00148
+5of thermosetting resin and curing agent or, as proposed by Texas In-
+strument patents [105], based on wax melting at relatively low tem-
+peratures (~70 •C) and rapid solidification upon contact with a cold 
+substrate. PJ, on the other hand, is based on UV-curable photopolymers 
+[102]. As illustrated in Fig. 6, material drops are deposited during each 
+print head pass. A layer of material can be jetted per pass, or, for small 
+print heads, only a fraction of a layer is jetted. In the second scenario, 
+multiple head passes are required per layer, increasing printing time. 
+Next, the build plate moves down one single layer height, and a new 
+layer is jetted. This process keeps iterating until the object is con-
+structed. A different head is used for overhanging regions to jet support 
+material (Fig. 6; green). MJ, given their height accuracy [106], these 
+techniques can be applied to medical model fabrication [107] and drug 
+delivery simulation [65]. PJ technology is beneficial for multi-materials 
+part printing. Thus, it allows for more realistic medical model segmen -
+tation printing. PJ technique can be sensitive enough to be used in 3D 
+printing of small channels of microfluidic devices [108]. Two most 
+commonly used MJ-based bioprinting techniques include 
+drop-on-demand and laser-induced forward transfer. 
+2.1.3.1. Drop-on-demand (DOD). The first patent for ink-jet printing of 
+living cells was obtained in 2006 by Clemson University ’s researchers 
+[109]. Droplet-based ink-jet bioprinting is based on the ink-jet tech-
+nology mentioned above. The most widely used ink-jet printer types use 
+thermal and piezoelectric actuators to produce droplets in the DOD 
+principle. The devices with a thermal actuation print head use an electric 
+heating unit to form vapor bubbles that expand due to pressure and 
+create a bio-ink droplet at the tip of the printhead. Since the process lasts 
+only a few microseconds (about 2 μs), even if the temperature can reach 
+200–300 •C during the formation of a bubble, the printhead temperature 
+only increases up to 10 •C with minimal damage to the biological in-
+gredients [110]. Ink-jet bioprinters with piezoelectric heads use voltage 
+to induce a rapid deformation of the piezoelectric material. This defor -
+mation generates a pressure pulse in the fluid that forces the ink to drop 
+from the nozzle. The droplet ’s shape and size can be varied by adjusting 
+the voltage applied to the piezoelectric material. 
+2.1.3.2. Laser-induced forward transfer (LIFT). LIFT consists of a pulsed 
+laser source, a focusing system, a ribbon target, and a receiving layer 
+(substrate). The ribbon comprises a layer of material containing cells 
+and a glass slide covered with an energy absorption layer, typically 
+nano-thickness gold or titanium film [58,111]. A laser pulse evaporates 
+the metal film to propel a jet of cells and molecules collected on the 
+collector substrate [59]. LIFT method can precisely print cells on 
+small-sized structures but require rapid hydrogels to obtain high reso-
+lution, resulting in low flow rates. Tissue engineering applications of a 
+laser-guided direct writing system capable of arranging cells in spatially 
+well-defined 3D arrays were reported in 1999 [112]. Such technologies 
+allow printing complex biological structures such as mandible and calvarial bone, cartilage, and skeletal muscle [113]. Although 
+laser-guided direct writing system bioprinting systems are not 
+commercially common, they have many advantages, such as high spatial 
+resolution and printing various biological materials, and providing high 
+cell viability. 
+2.2. Other 3DP processes 
+2.2.1. Binder jetting (BJ) 
+Binder Jetting (BJ), also known as 3D powder binding technology, 
+relies on powdered material (e.g., alumina, etc.) binding by the mean of 
+binder material (e.g., colloidal silica, etc.) jetting [114]. This technique 
+is similar to conventional ink-jet printing, and traditional ink-jet print-
+ing heads are often employed in BJ without further modifications. The 
+printing process starts with the dispersion of a thin layer of powder on 
+the build plate. The print head jets droplets of binding material on 
+specific regions based on the CAD model. The binder induces powder 
+particles to fuse, forming a solid layer. Before the full cure of a layer, the 
+build platform steps down a few microns (~0.1 mm), and a new layer is 
+dispersed by a dispersing roller (Fig. 7). The process iterates over until 
+the solid object is entirely constructed. The unbound powder can be used 
+as a supporting structure for overhanging regions in the model and 
+recycled upon job completion. Often, a build object requires significant 
+post-processing steps such as sintering or resin infiltration to improve 
+surface finish and mechanical properties. 
+BJ is mainly used for pure prototyping and demonstration purposes. 
+However, since it is based on ink-jet technology, BJ can produce high- 
+fidelity models with multiple colors within individual layers. This 
+advantage makes BJ the most preferred approach for 3D visualization, 
+planning, and conceptual modeling, particularly in surgical procedures. 
+BJ technology can be subdivided into two categories, namely, powder- 
+based binder and ink-based binder. In the powder-based binder, the 
+binding agent is embedded within the powder particles (PLA, PLGA, 
+PCL). When exposed to an aqueous or organic solvent, the powder 
+particles swell and fuse by polymer inter-diffusion and entanglement. 
+On the other hand, the ink-based binder is mainly preferred for 
+constructing an object from metallic or ceramic powder particles. In this 
+configuration, the ink-jet head dispenses inorganic (e.g., colloidal silica) 
+or organic (e.g., polymeric resins and polymer emulsions) binder on the 
+powder particles. The binder firmly binds particles together by forming 
+a thin adhesive film upon drying. Alternative binding agents, such as 
+citric acid, showed convincing results when used with HA powder, used 
+for bone tissue scaffold fabrication in RM [26,27]. 
+BJ can also be utilized for the manufacturing of other bioceramics. 
+Mancuso et al. [115] prepared different glass-ceramic formulations of 
+apatite –wollastonite and silicate-based glasses blended with maltodex -
+trin powder as a binder to form micro-and macro-porous bone scaffolds 
+for load-bearing applications, and they obtained TE constructs which 
+have Young ’s modulus equivalent to the cortical bone after sintering up 
+Fig. 6.Material jetting (working principle).  
+ Fig. 7.Binder jetting (working principle).  B. Yilmaz et al.                                                                                                                                                                                                                                  Bioprinting 23 (2021) e00148
+6to 1250 •C. 
+BJ is one of the 3DP techniques that is also compatible with biode -
+gradable metals. Hong et al. [116] used BJ-3D printing followed by 
+binder burn out and subsequent sintering to fabricate biodegradable 
+bone tissue engineering scaffolds from Fe, Mn, and Ca powder mixture. 
+The corrosion rate of 3D-printed alloys was reported to be greater than 
+that of the sintered compact pellets, attributed to the micropores after 
+binder burn-out. However, the micropores can also improve osseointe -
+gration. 3D printed Fe–Mn-based alloys using the BJ method are also 
+studied for craniofacial biomaterial applications [117]. 
+2.2.2. Powder bed fusion (PBF) 
+Powder bed fusion processes are further classified based on the 
+fusion mechanism as; Selective laser sintering (SLS), selective laser 
+melting (SLM), and electron beam melting (EBM). SLS is similar to BJ 
+since it is also based on bonding the powdered material. However, as 
+opposed to BJ, SLS technology uses a focused laser beam to induce layer- 
+by-layer local sintering of the powder particles to form a 3D object 
+(Fig. 8). 
+The principle of SLS consists of powder dispersing on a build plate, a 
+numerically controlled focused laser, primarily CO2 and Nd:YAG [118], 
+is then used to induce the powder particles fusion (i.e., powder solidi -
+fication), then, the build plate is lowered by a single layer height, and 
+the process starts again. With laser scanning in SLS, the powder particles 
+partially melt and re-solidify, while in SLM, the powders completely 
+melt [119]. In EBM, the melting process ’s energy source, i.e., the 
+scanning process, is an electron beam emitted from a tungsten filament 
+[120]. The process steps are repeated over and over until the final object 
+is reconstructed. The unprocessed material is kept being used as a sup-
+port for overhanging regions in the model. The container chamber is 
+kept at an elevated temperature to improve the curing process and 
+decrease processing time. Ideally, the chamber temperature is kept just 
+below the material softening point. SLS printing technology allows the 
+use of a wide range of materials with specific mechanical properties, 
+such as parts that are subject to significantly high mechanical loads. The 
+printing resolution and surface finish in SLS are tightly correlated with 
+the powder particle size, shape, and density [121]. Thus, one can 
+improve the surface finish and reduce the post-processing steps by 
+reducing the powder particle size [122,123]. The particle size also af-
+fects the density and mechanical properties of the finished product 
+[124]. 
+Powder bed fusion (PBF) techniques have significant advantages in 
+implant fabrication over other 3DP approaches. These methods are the 
+most straightforward methods of 3D printing for producing porous or-
+thopedic implants directly, and porosity is one of the most critical fea-
+tures for bone-in growth and improved osseointegration of metallic 
+biomaterials. Additionally, SLS, which applies to polymers, metals, and 
+alloy powders, and SLM and EBM compatible with specific metallic 
+materials, can fabricate scaffolds and implants with complex geometries 
+and open cellular structures [119]. Ceramics, metals, composites, and pure polymers were employed as 
+model materials for end-user manufacturing and prototyping parts 
+[125–128]. The hostile environment (e.g., high temperature) imposed 
+by this technology makes it incompatible with the bioprinting of living 
+cells and bioactive molecules. However, SLS technology can still be 
+employed in biomedical applications oriented toward bone grafting and 
+scaffold printing. In these applications, polyesters such as poly(capro -
+lactone) (PCL) [28] and poly(lactide-co-glycolide) (PLGA) [29] are often 
+used in combination with calcium phosphate (CaP) particles [30,129]. 
+3.Bioprinting applications 
+3D bioprinting technologies have found extensive applications in the 
+biomedical area, including skin (for example, full-thickness skin sub-
+stitutes or wound dressings), orthopedic, dental, osteochondral, car-
+diovascular, and other soft tissue engineering applications (for example, 
+pancreas and liver). 
+3.1. Bone tissue engineering 
+Bone is the second most transplanted organ globally, and more than 
+four million surgeries are performed each year to treat bone defects 
+[130]. Autografting and allografting techniques are still the leading 
+solutions in bone repair. Using an autograft is an expensive and invasive 
+option and may cause infections and hematomas that frequently affect 
+both donor and surgical sites. Besides, allografts have problems such as 
+the possibility of causing an immune reaction and subsequent rejection 
+by the host tissue; the patient may also be infected if the graft is 
+contaminated [131]. 
+Biomaterials and engineered structures have become increasingly 
+important in bone tissue replacement. Several techniques that have 
+previously been used to build TE structures have not been efficient to 
+provide vascularity, which is one of the most critical factors affecting the 
+success of the structure in the body. Prolonged biodegradation processes 
+can occur when bulk materials are used, and this can cause inflamma -
+tion reactions. Electrospun nanofiber-based scaffolds of various natural 
+and synthetic polymers have been developed to mimic the extracellular 
+matrix (ECM). These structures generally do not have enough strength to 
+eliminate mechanical mismatch with bone tissue [132]. The difficulties 
+encountered in TE constructs ’ production while meeting the clinically 
+are the required size, necessary structural support requirements, 
+osteoinductivity, and controlled biodegradability [133]. Since all of 
+these requirements cannot be fully met by other scaffold production 
+methods, bioprinting has received considerable focus within bone TE 
+due to its tightly controlled computer-driven fabrication. 
+Ceramic scaffolds (such as CaPs and Bioglass) are preferred for their 
+biocompatibility, high mechanical strength, controllable biodegrad -
+ability, and intrinsic osteoinductivity in hard tissue replacement appli -
+cations. Still, they are not usually used in bulk form due to their high 
+brittleness. Instead, they are used with biocompatible polymers as 
+composites, improving the mixed polymer and ceramics ’ physical 
+properties in the final product and printability during the bioprinting 
+process. Scaffolds can be printed using ceramic powders (e.g., HA and 
+alumina) combined with polymers such as PCL and PLA [26]. For 
+instance, previous studies have demonstrated that combining PCL with 
+nano-particles reduces its toxicity [51], allowing, thus, its usage as a 
+printing substrate [52]. PCL and PLA were both successfully used to 3D 
+print porous structures, making them preferred for bone scaffolding 
+applications, but a diverse range of polymeric materials available for 
+bioprinting technology. Table 2 lists some examples of 3D printed 
+composite biomaterials for engineered bone tissues and their osteogenic 
+potential. 
+Composites consisting of bioceramics can also be 3D-printed via 
+various techniques other than material extrusion, such as laser-assisted 
+sintering and direct writing-based processes. For example, Ramu et al. 
+[139] fabricated bone scaffolds with interconnected cubical and 
+ Fig. 8.SLS printer (working principle).  B. Yilmaz et al.                                                                                                                                                                                                                                  Bioprinting 23 (2021) e00148
+7spherical pores with 40–70% porosity using the SLS method with 
+different polyamide and HA mixes. On the other hand, direct printing of 
+dense pure ceramic parts is often challenging due to the extremely high 
+melting temperature of ceramics. Additionally, it’s challenging to get 
+the designed scaffolds using direct 3D printing due to ceramics ’ 
+shrinkage during sintering [140]. Nevertheless, various research groups 
+continuously evaluate novel strategies to overcome these limitations 
+with encouraging results while maintaining a sustainable manufacturing 
+process [141–143]. 
+Table 3 lists some selected examples of 3D printed metallic bio-
+materials for bone tissue engineering to demonstrate 3DP techniques ’ 
+diversity and direct writing 3DP compatible metallic biomaterials. The 
+internal micro and nano-architecture of a cellular (porous) scaffold 
+structure significantly affect its mechanical properties and in vitro/in 
+vivo biological behaviors. Recent advances in bioprinting have enabled 
+rapid and accurate production of cellular structures based on 3D CAD 
+models. Since the unit cell geometry and dimensions can control the 
+final product ’s mechanical performance, producing cellular structures 
+with cortical and cancellous bone-equivalent stiffness and strength 
+while maintaining the optimum cell adherence, proliferation, and dif-
+ferentiation is a great scientific interest now. Fig. 9 depicts some unit 
+cells and lattice structures used in 3DP for bone graft applications (see 
+Table 4). 
+This type of CAD-designed controlled porosity can be applied to all 
+material classes with a careful selection of bioprinting methods and 
+printing process parameters to tailor the mechanical and biological 
+performance. Limmahakhun et al. [151] fabricated 3D cellular struc-
+tures (octahedral, pillar octahedral, cubic, and truncated octahedral) 
+with precisely controlled internal architectures for bone TE by using photopolymerizable polymer (VisiJet ®M3 Crystal) consisting of ure-
+thane acrylate oligomers and ProJet ®3500SD (3D Systems, USA) 
+equipment. The pore size was 40–550 μm, and high porosity of 74% has 
+been achieved. Strut alignment of ±45•was reported to increase the 
+adherence of murine pre-osteoblastic cells (MC3T3-E1). 
+Additionally, post-processing and surface modifications methods are 
+essential in creating much smoother surfaces than the as-built ones and 
+removing the residuals, especially for powder-bed fusion 3DP tech-
+niques, such as SLM and SLS. These kinds of treatments are also crucial 
+to change the internal structure of the material. Yan et al. [152] man-
+ufactured a gyroid triply periodic minimal surface (TPMS) lattice 
+composed of Ti6Al4V alloy by using SLM. While the as-built lattices 
+exhibited an out-of-equilibrium microstructure with very fine α’ 
+martensitic laths, they showed a homogenous and equilibrium lamellar 
+αβ microstructure with less dislocation and crystallographic defects 
+after heat treatment at 1050 •C for 4 h followed by furnace cooling. The 
+sandblasting of 3D printed parts was reported to remove metal particles 
+successfully but created tiny cracks, which were later eliminated by 
+hydrochloric acid (HCl) etching. Subsequent sodium hydroxide (NaOH) 
+etching was reported to result in many small and shallow micro-pits and 
+developed a sodium titanate hydrogel layer on the lattices ’ surfaces, 
+improving bioactivity Ti alloy and deposition of HA in simulated body 
+fluid (SBF). 
+Bioprinting of CAD-designed hard-tissue structures customized to 
+specific patient needs can allow the rapid production of large amounts of 
+samples and improve routine clinical procedures for products that better 
+meet regular surgical needs. However, commercial translation of 
+advanced systems, such as cell-laden tissue constructs, needs tissue 
+maturation by dynamic cell culture in bioreactors. Table 2 
+3D printed composite biomaterials for bone tissue engineering.  
+Biomaterialsa,b Cells Fabrication 
+method 3D Printer Main outcomes about osteogenic potential2 
+PCL- Ca2polyP microparticles (at a 2:1 w/w ratio) 
+[134] Human primary 
+osteogenic sarcoma 
+(SaOS-2) cells Pneumatic melt 
+extrusion 3D-Bioplotter, 
+Envision TEC, 
+Germany  ≡More living SaOS-2 cells were identified on the PCL/ 
+Ca-polyP-MP scaffold compared to the plain PCL 
+scaffold after 3 days of cultivation.  
+≡The hybrid material was showed to upregulate the 
+steady-state-expression of the cell migration- 
+inducing chemokine stromal cell-derived factor-1 α 
+(SDF-1 α). 
+PLA(10 wt%)- β-tricalcium phosphate (β-TCP) (5 wt 
+%) with four different hydrogels: collagen, sodium 
+alginate, halamomas levan, and chitosan (1 wt % 
+concentration ratio, individually) amoxicillin 
+(0.5 wt% as an antibacterial agent in chitosan 
+added blend) [135] Human primary 
+osteogenic sarcoma 
+(SaOS-2) cells Syringe 
+extrusion Hyrel 3D, USA with 
+SDS-5 extruder  ≡The metabolic activity of cells and adhesion was 
+highest on chitosan added scaffold, followed by 
+halamomas levan added scaffold.  
+≡The presence of amoxicillin negatively affected the 
+cell viability. 
+Pure PCL; PCL- silanated silica particles (5, 10, 20 wt 
+%) [136] Human osteoblast- 
+like cells (MG-63) Pneumatic melt 
+extrusion Not specified  ≡Calcium mineralization of cells and cell 
+proliferation rate on the PCL-silica (20%) composite 
+scaffold was 2.9 and 1.7 times greater than that of 
+the pure PCL, respectively.  
+≡Other osteogenic differentiation results (ALP 
+activity and qRT-PCR) also indicated that the addi-
+tion of silanated silica particles increased bone 
+mineralization with a high level of mRNA expres -
+sion compared to pure PCL. 
+HAp/ β-TCP (at a mass ratio of 60/40) (67% w/w)- 
+20 wt% Pluronic F-127 solution (33% w/w) as 3D 
+printed biomaterial and RGD-phage nanofibers 
+(1014 pfu/ml) and chitosan (1 mg/ml) as coating 
+material [137] Mesenchymal stem 
+cells (MSCs) Extrusion RoboCAD 3.0 
+robotic deposition 
+device, 3-D Inks, 
+USA  ≡Cell-seeded scaffolds were evaluated with radial 
+defect model on Sprague Dawley rats.  
+≡The formation of new bone was confirmed 8 weeks 
+after implantation by histological analysis and 
+microcomputed tomography (micro-CT) of RGD- 
+phage containing scaffolds. 
+Nano-sized HAp-chitosan-silica (15/50/35 M ratio, 
+respectively); Chitosan-silica (50/35 M ratio, 
+respectively) [138] Mouse bone 
+mesenchymal stem 
+cells (mBMSCs) Pneumatic 
+syringe 
+extrusion 3D-Bioprinter, 
+Regenovo, China  ≡The cells on HAp containing scaffolds displayed a 
+significantly higher proliferation rate and calcium 
+mineralization than that on the HAp-free chitosan- 
+silica scaffolds after 7 days of incubation, but there 
+was no significant increase in ALP activity after 14 
+days.  
+aDifferent biomaterial formulation are separated with semicolons (). 
+bMaterial Abbreviations: PCL-poly( ε-caprolactone); polyP- poly(phosphate); PLA-poly (lactic acid); β-TCP- β-tricalcium phosphate; ALP-alkaline phosphatase; RGD- 
+Arg-Gly-Asp peptide. B. Yilmaz et al.                                                                                                                                                                                                                                  Bioprinting 23 (2021) e00148
+83.2. Osteochondral tissue engineering 
+Cartilage defects are usually caused by trauma, illness, or aging. The 
+defects disrupt the joints ’ biomechanical properties, affect the tissue ’s 
+performance, and may result in disability. Most cartilage defects are 
+often accompanied by osteochondral lesions involving both the hyaline 
+cartilage in the joint and the underlying subchondral bone. It is desirable 
+to provide simultaneous regeneration of the different layers of the 
+osteochondral lesion. However, due to the different biological origins 
+and chemical composition of cartilage and subchondral bone in osteo -
+chondral injuries, treatment with existing clinical techniques, such as 
+medication and surgical intervention, remains a major challenge. 
+Knee cartilage treatment applications can be categorized as arthro -
+scopic chondroplasty, autologous chondrocyte transplantation, osteo -
+chondral graft transplantation, cell-based cartilage regeneration, 
+implants, and microfracture application. These approaches may lead to 
+total joint prosthesis surgery as the last stage intervention. Some of the 
+current treatment options, including absorbable 3D scaffolds for carti-
+lage regeneration, are depicted in Fig. 10. 
+3DP methods are also prominent for osteochondral scaffold fabri-
+cation due to their ability to produce interconnected porous scaffolds 
+with well-controlled pore geometries as the scaffold structure can be 
+designed to exhibit tissue-matched mechanical properties. Various 3DP 
+techniques have been used for osteochondral tissue regeneration, 
+including liquid, powder, and solid-based methods to create gradient scaffolds with various biomaterials, structural properties, and mechan -
+ical properties [154]. 
+Osteochondral tissue engineering requires more complex designed 
+scaffolds than bone scaffolds. For example, articular cartilage is attached 
+to the subchondral bone, and thus the osteochondral unit at the knee is 
+formed. Therefore the natural structure is multi-layered and includes 
+tissues with different characteristics. The complex, non-linear, visco -
+elastic, anisotropic, and heterogeneous structure and composition of the 
+cartilage make it necessary to produce scaffolds corresponding to this 
+structure by innovative bio-fabrication methods biomaterials that can 
+provide a biomimetic environment. Today, 3D printing and bioprinting 
+strategies allow the fabrication of scaffolds and biological tissue sub-
+stitutes that can accurately reflect the complex organizational structure 
+and material properties of tissues and organs. In the table below, ex-
+amples of multilayer and/or bi-phasic osteochondral tissue scaffolds 
+created with 3D printing techniques are given. 
+Barbeck et al. [158] combined the PLA layer and a biphasic PLA/ -
+bioglass G5 layer for regeneration of osteochondral defects by using a 
+nozzle-deposition system (direct-printing tool) (Tissue Engineering 
+3-Dn-300, Sciperio/nScrypt Inc). The authors reported that the data 
+obtained from both histological observations and histomorphometric 
+measurements revealed the tissue responses to different layers of 
+two-layered scaffolds are localized to the relevant implantation sites. Table 3 
+Metallic Biomaterials in 3DP for the restoration of Bone.  
+Biomaterial Fabrication 
+method 3D Printer Total porosity (vol%) Pore Shape and Size Post-Processing Method 
+Ti6Al4V alloy 
+[144] Selective laser 
+melting (SLM) M2, Concept laser, Germany  ≡Designed porosity: 
+66.1 –79.5  
+≡Measured porosity: max 
+7.9% different than the 
+designed porosity  ≡Diamond-like  
+≡Max measured pore size 650 
+±20 μm Surface bio-activation: First acid 
+pickling in 0.7%wt hydrofluoric 
+acids for 10 min and subsequent 
+HA coating by electrochemical 
+method. 
+Ti6Al4V alloy 
+[145] Selective laser 
+melting (SLM) DMP ProX 320, 3D Systems, USA  ≡Designed porosity: 
+53.9 –88.1  
+≡Measured porosity: 49- 
+87  ≡Gyroid structure  
+≡Pore size of printed parts was 
+not measured, unit cell size 4 
+×4 ×4 – 6 ×6 ×6 mm3 As-built samples were cleaned by 
+sonication for 15 min in DI water, 
+no post-processing applied. 
+Ti6Al4V alloy 
+[146] Selective laser 
+melting (SLM) M2, Concept laser, Germany  ≡Designed porosity: 60- 
+80  
+≡Measured porosity: 
+58.01 –78.85  ≡Diamond, gyroid, orthogonal, 
+truss and cube  
+≡Pore size was about 500 μm for 
+gyroid structure as determined 
+from scanning electron 
+microscopy (SEM) images. 3D-printed parts were heated for 4 
+h to 1000 •C with a heating rate of 
+4.08 •C/min in a vacuum furnace 
+and then cooled to room 
+temperature. 
+Ti6Al4V alloy 
+[147] Electron beam 
+melting 
+(EBM) Arcam A1, Arcam, Sweden  ≡Designed porosity:72-74  
+≡Measured porosity: 82- 
+85  ≡Gyroid  
+≡CAD-design pore size was 0.85, 
+1.06 and 1.27 mm for 3 
+different group while the 
+measured values were 1.85, 
+1.25 and 1.5 mm, respectively. As-built parts were blasted to 
+remove the remaining powder 
+particles 
+and were machined to the final 
+dimension by electrical discharge 
+machining (EDM). 
+Titanium (Ti) 
+[148] Selective laser 
+melting (SLM) SLM 50, Realizer GmbH, Germany  ≡The measured overall 
+open porosity was 62 or 
+80 for different designs 
+and 58/77 for core-shell 
+cylinders.  ≡Diamond  
+≡Pore sizes of 200 μm, 500 μm 
+and 200/500 μm (for core-shell 
+cylinder) are CAD-designed 
+and max standard deviation 
+was 2.4% in diameter for prin-
+ted parts. Chemical polishing with 
+hydrofluoric acid solutions (1%– 
+5% HF) for 1–6 min and in 
+mixtures of hydrofluoric and nitric 
+acids (2.0/20%, 1.3/9.0%, 4.0/ 
+16%, 
+2.2/20% HF/HNO 3 respectively) 
+for 3–9 min. 
+CoCrMo alloy 
+[149] Selective laser 
+melting (SLM) MYSINT100, SISMA, Italy  ≡Designed porosity: 60- 
+80  
+≡Measured porosity: 
+58.01 –78.85  ≡Trabecular, circular, crossing 
+rods  
+≡Pore size of printed parts were 
+not measured, mean trabecular 
+spacing was set to 670 μm for 
+trabecular design. After sintering, the samples were 
+cleaned via high-pressure air jets 
+and ultrasound. 
+We43 
+magnesium 
+alloy [150] Selective laser 
+sintering 
+(SLS) Laboratory SLM setup consist of 
+single mode ytterbium fiber laser 
+(IPG YLR-200) with 230 W 
+maximum output power, a 
+galvanometric scanner (SCANLAB 
+hurrySCAN 20) and a f-theta 
+focusing lens (SILL S4LFT 3254/126)  ≡Designed porosity: 67  
+≡Measured porosity: 64  ≡Diamond  
+≡Pore size of 600 μm was used in 
+the design, min pore size of as- 
+built samples was about 500 
+μm. The samples were chemically 
+polished for 2 min in a solution of 
+hydrochloric acid (5 vol% HCl), 
+nitric acid (5 vol% HNO) 3, and 
+ethanol (90 vol% C2H5OH).  B. Yilmaz et al.                                                                                                                                                                                                                                  Bioprinting 23 (2021) e00148
+93.3. Skin tissue engineering 
+The body ’s outermost layer is the integumentary system that consists 
+of the skin and its appendages: hairs, nails, sweat, and sebaceous glands. 
+The skin has many protective and regulatory functions, such as serving 
+as a barrier to infectious organisms, resisting potential hazards from 
+harmful substances, regulating body temperature, and acting as a sen-
+sory interface with the environment. However, the skin is susceptible to 
+a wide range of infections, damages, and illnesses like cancer as the 
+outermost organ. 
+The skin has an intricate design that varies in different parts of the 
+body, but it is mainly composed of a highly vascular dermis covered by 
+multiple layers of cells known as the epidermis. When the skin is injured 
+or its integrity is broken for other reasons, organic residues should be 
+removed, and the wound area should be supported by adding new 
+components. These should include extracellular matrix and soluble 
+factors to rebuilt cellular interactions. The autologous skin grafts are 
+ideal wound closure materials used in acute and chronic wound de-
+ficiencies with different etiologies. However, other solutions, such as 
+bioengineering and synthetic alternatives, are necessary as skin grafts 
+can lead to issues, such as additional health risks and deforming donor 
+site morbidity, and unavailability of good healthy skin should also be 
+considered. 
+Tissue-engineered skin substitutes and other wound dressings are 
+designed to replace or support the skin’s form and function permanently 
+or temporarily until the integrity and function are recovered. An ideal 
+skin substitute should not cause decreased sensitivity, scarring, skin 
+discoloration. It should resist infections, prevent dehydration, and 
+mimic the natural skin tissue ’s elasticity. 
+Many production techniques, such as electrospinning, freeze-drying, 
+and solvent casting, have long been used for skin substitute construc -
+tions. Skin bioprinting has gained increasing attention due to its ability 
+to provide sophisticated and controlled production that is impossible 
+with traditional skin graft production methods. It is among the most 
+rapidly developing biomedical applications of 3DP technologies. 
+Vijayavenkataraman et al. [160] emphasized a tremendous demand 
+for 3DP technology companies because there is a huge potential for 
+immediate commercialization. They gave three examples from 2015: 1) L’Oreal USA collaborated with Organovo, Inc. to 3D bioprint skin tissue 
+models for testing the cosmetic products. 2) Procter & Gamble (P&G) 
+started a research project in Singapore to collaborate with biomaterial 
+scientists and tissue engineers for developing skin models. 3) Rokit, the 
+market leader in 3D printing technology in Korea, announced that their 
+focus would be on the bioprinting of human skin tissue in a 
+government-funded project. As 3DP technology in skin TE becomes 
+widespread over time, similar examples are continually increasing. 
+Patient-specific production is one of the essential advantages of 3DP 
+technologies. For example, Albanna et al. [161] developed a mobile skin 
+bioprinting system that provides rapid on-site management of extensive 
+wounds (Fig. 11). The system ’s main components consist of a hand-held 
+3D scanner and a printhead with eight 260 μm diameter nozzles, each 
+driven by an independent dispensing motor that enables XYZ movement 
+coordinates. 
+The number of research studies on skin regeneration related to the 
+use of both bottom-up and top-down 3DP technologies by the scientific 
+community is far greater than the number of commercial products. The 
+number of research articles on full-thickness skin models, which 
+resemble natural human skin, has increased in the literature, especially Table 4 
+Examples of 3D printed bi-phasic/multilayer osteochondral tissue scaffolds.  
+Biomaterials and structure Fabrication method Outcomes about mechanical properties 
+nfrapatellar fat pad derived stem/stromal cells (FPSCs) and 
+chondrocytes-loaded RGD-alginate hydrogels in the chondral layer, 
+In the bone forming layer, PCL frames used to mechanically 
+strengthen bone marrow derived stem cell (BMSC) loaded RGD- 
+alginate hydrogels in both layers. 
+Agarose hydrogels and PLGA and PLA polymers were also used in the 
+study [155] Thermal assisted extrusion 
+printing technique (70 •C for PCL) There was no change in the PCL filament diameter (0.22 ±0.03 mm) 
+and the mechanical properties of 3D printed PCL supports at 28 days 
+in vitro. On the other hand, PLGA (with lactic acid to glycolic acid 
+ratio of 65:35) did not provide sufficient mechanical reinforcement, 
+with the Young ’s modulus reducing from 7.17 MPa to 0.0075 MPa 3D 
+printed structures of PLA and PLGA (85:15) experienced relatively 
+less dramatic changes in mechanical properties over time in culture . 
+[N-acryloyl glycinamide-co-N-[tris(hydroxymethyl) methyl] 
+acrylamide (THMMA)] copolymer hydrogel (PNT) with 
+transforming growth factor beta 1 (TGF- β1) in upper layers and β - 
+TCP particles in lower layers [156] Thermal assisted extrusion 
+printing technique (70–75 •C) The mechanical properties of the copolymer hydrogels obtained are 
+as follows: tensile strength (0.41 MPa), high elasticity (up to 860% 
+stretching) and high compressive strength (up to 8.4 MPa). 
+Osteogenic peptide/ β - TCP/PLGA in the bone part, 
+Thermal-responsive poly(D,L-lactic acid-co-trimethylene carbonate) 
+(P(DLLA-TMC)) frame on top of the subchondral layer to provide 
+bonding strength between the cartilage layer and the subchondral 
+layer, 
+In the cartilage part, collagen-I hydrogel containing TGF- β1 is added 
+to the macropores of this frame [157] Lyophilization after cryogenic 
+extrusion printing technique 
+( 30 •C) The shear strength between the cartilage layer and the subchondral 
+layer was measured as 0.4 MPa at 37 •C. The osteochondral interface 
+also showed a peel strength of 470 N/m at 37 •C. 
+Two-layered 3D printed scaffold combining PLA layer with 5% PEG 
+and PLA/G5 bioglass layer also containing PEG [158] Thermal assisted extrusion 
+printing (40 ±5 •C) While PLA scaffolds had compression modulus around 28.38 ±3.99 
+MPa, PLA/bioglass scaffolds showed values around 44.19 ±2.67 
+MPa. Mechanical strength of bi-layered structures has not been 
+reported. 
+Gelatin methacrylate (GelMA) -polyethylene (glycol) diacrylate 
+(PEGDA) -nanocrystalline hydroxyapatite (nHA) in the subchondral 
+bone part of the scaffold 
+GelMA-PEGDA-TGF-1 loaded PLGA nanoparticles to form the 
+cartilage part [159] Stereolithography (SLA) printing The compression module of the GelMA-PEGDA control group was 
+significantly lower than the other groups due to the absence of nHA 
+in this group. 
+The Young ’s modulus of the layer formed by PLGA nanoparticles 
+loaded with GelMA-PEGDA-TGF-1 was measured around 2.25 MPa.  
+Fig. 9.Different designs of unit cells (upper pane) and gyroid (Voronoi) lattice 
+structures (lower pane) used in bone tissue engineering. B. Yilmaz et al.                                                                                                                                                                                                                                  Bioprinting 23 (2021) e00148
+10in recent years. It has been shown that skin is one of the most suitable 
+organs for restoration using 3DP technology in the medical field. Table 5 
+summarizes some recent examples of 3DP manufacturing of skin tissue- 
+engineered products. 
+3.4. Cardiovascular tissue engineering 
+Like standard product prototyping and fabrication with 3DP, car-
+diovascular 3DP starts from a 3D model, which is then translated into a 
+machine instructions-set to perform a layer-by-layer fabrication of the 
+object (i.e., organ). The patient-specific organ ’s 3D model is often ob-
+tained from medical imaging technologies that generate a volumetric 
+imaging dataset. For instance, Computerized Tomography (CT) scans, 
+volumetric 3D echocardiography, Cardiac Magnetic Resonance (CMR), 
+and 3D Trans-Esophageal Echocardiography (TEE) can all be used to 
+obtain a full or partial patient organ 3D reconstruction [20]. Because of 
+its high spatial resolution (sub-millimeter), CT has been the primary 
+imaging methodology employed for high fidelity, patient-specific organ, 
+and tissue imaging for 3D applications [41,42]. Following the image 
+acquisition, the obtained results are usually segmented to distinguish 
+various organ components, and last, the segmented images are 
+re-rendered in 3D before conversion to “. stl” files. However, it is to note 
+that although the obtained models can be used as-is for 3D printing, 
+complex anatomical models often need extra final touches using CAD 
+software, which might be the case in situations where the segmentation 
+targeted complex vascular network or for device insertion adaptations 
+(e.g., aortic stent simulation). 
+3DP could also be used as a diagnostic tool for patients with struc-
+tural heart disease [32]. Moreover, SLA has been used in-vivo and in-vitro 
+to build patient-specific mitral valves from elastomeric polymers [39]. Recently, Ware et al. [64] used a modified DLP printer to fabricate 
+patient-specific biodegradable aortic stents. 
+Aortic aneurysm and dissections are considered major disease pro-
+cesses affecting the aorta [38]. This disease is often associated with high 
+morbidity and mortality worldwide. The aortic aneurysm is commonly 
+located in the infrarenal abdominal aorta (Abdominal Aortic Aneurysm; 
+AAA) and the ascending thoracic aorta (thoracic aortic aneurysm ). At the 
+organ level, the aneurysm is characterized by a progressive weakening 
+of the aortic wall inducing a local dilation (F50%) of the aorta [167, 
+168]. Fig. 12 depicts the ascending aortic aneurysm occurring in the 
+ascending portion of the thoracic aorta, a section of the artery close to 
+the heart. 
+Usually, thoracic aneurysms are treated by a composite aortic graft 
+(Dacron Tube) implant. During the surgical procedure, the aorta ’s 
+dilated portion is excised and replaced with a prosthetic Dacron tube 
+graft. For the descending thoracic aneurysm, a less invasive approach is 
+proposed. This procedure consists of using a transluminal placed endo-
+vascular stent graft [169–171]. Briefly, the stents are made of two 
+components, the metallic structure, which is fabricated from nitinol 
+(nickel-titanium alloy), alloy steel, or 316L stainless steel metal; and the 
+prosthetic conduit, which is made of polytetrafluoroethylene (ePTFE) or 
+polyester fabric [171]. Both components are permanently attached 
+before intra-arterial insertion. Although simple to accomplish, this 
+procedure is not free from post-surgical complications. Ellozy et al. 
+[170] revealed various challenges that have to be addressed to improve 
+endovascular graft efficiency. Among these complications, 38% are 
+device-related, including, but are not limited to, proximal and distal 
+attachment failure, mechanical device failure, and periprocedural 
+death. To reduce these device-related risks, new strategies for stent-graft 
+engineering and fabrications must be elaborated. 
+Fig. 10.Current treatment options for cartilage regeneration. 
+(a) A full-thickness chondral lesion. (b) The defect is debrided to remove damaged cartilage and bone to create a healthy border which enables improved tissue 
+integration. (c) Microfracture drills into the subchondral bone to create channels that allow a blood clot to form in the defect. (d) Autologous chondrocyte im-
+plantation uses chondrocytes which are inserted into the defect and covered with a periosteal patch or a collagen membrane. (e) Matrix-induced autologous 
+chondrocyte implantation, chondrocytes are cultured in vitro and seeded onto an absorbable 3D scaffold, then implanted into the defect, and fixed to the defect with 
+fibrin glue. Reproduced with permission from Ref. [153]. B. Yilmaz et al.                                                                                                                                                                                                                                  Bioprinting 23 (2021) e00148
+11To date, 3DP has been used in the cardiovascular field as a visuali -
+zation and simulation tool. 3D printing has been used to produce high 
+fidelity patient-customized aortic replicas for planning endovascular 
+stenting in transverse aortic arch hypoplasia [24,36]. Moreover, given 
+the current advances in the 3D bioprinting field demonstrated by intri-
+cate vascular network prints [108], future aneurysm therapies might 
+rely on one-demand patient-specific 3D-printed aorta stent [64]. 
+Currently, the number of studies using 3D bioprinting techniques for 
+vascular and valvular tissue engineering is still limited, but studies have 
+been published indicating significant advances in this area. Koc et al. 3D 
+bioprinted a macro-vascular tissue, such as the aorta, directly from the 
+medical images with a bioprinting approach based not on scaffolds or 
+cell-laden hydrogels [172]. Fig. 13 explains the roadmap of the pro-
+duction of the scaffold-free tissue-engineered aorta. After the 
+computer-aided algorithms were developed, mouse embryonic fibro-
+blast (MEF) cell clusters and hydrogel support structures were 3D bioprinted according to the proposed self-supported method aortic tis-
+sue structure. The proposed system can print various cell types such as 
+smooth muscle, endothelial, and fibroblast cells. However, obtaining a 
+sufficient amount of living cells is a challenge, and there is undoubtedly 
+a need for optimized bio-ink preparation for each cell type. 
+More recently, examples of similar studies in the cardiac field have 
+also been published, with increasing interest in the bioprinting approach 
+without scaffolds. To overcome the limitations of stem cell injection 
+therapies for myocardial infarction treatment, tissue engineering aims to 
+create stable cardiac tissues. The key criteria are the creation of con-
+tractile cardiac tissue patches and the vascularization of implanted 
+patches. Yeung et al. 3D bioprinted a biomaterial-free cardiac tissue and 
+evaluated these cardiac patches ’ in vivo regenerative potential [188]. 
+The patches were consisted of cellular spheroids created from coculture 
+of human-induced pluripotent stem cell (iPSC)-derived cardiomyocytes, 
+fibroblasts, and endothelial cells at a ratio of 70:15:15. The bioprinting 
+Fig. 11.Skin bioprinter prototype and in situ bioprinting concept. 
+(A) Schematic demonstrating scale, design, and components of the skin bioprinter. (B) The system ’s main parts consist of 260 μm diameter nozzles, driven by up to 8 
+independently dispensing systems connected to a print-head with an XYZ movement system, in addition to the 3D wound scanner. All components are mounted on a 
+frame small enough to be mobile in the operating room. (C) Skin bioprinting concept. Wounds are first scanned to obtain precise information on wound topography, 
+which then guides the print-heads to deposit specified materials and cell types in appropriate locations (Images courtesy of LabTV - National Defense Education 
+Program, Washington, D.C.). (D) An example of a skin bioprinting process, where markers are placed around the wound area used as reference points (a) prior to 
+scanning with a hand-held ZScanner ™ Z700 scanner (b). Geometric information obtained via scanning is then inputted in an STL file to orient the scanned images to 
+a standard coordinate system (c). The scanned data with its coordinate system is used to generate the fill volume, and the path points for the nozzle head to travel to 
+print the fill volume (d). Output code is then provided to the custom bioprinter control interface for the nozzle path generation to print fill volume (e,f). (E) This 
+system facilitates the depositing of multiple cell types with high precision and control. The layering of fibroblasts (green) and keratinocytes (red) is shown. 
+Reproduced with permission from Ref. [161]. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of 
+this article.) B. Yilmaz et al.                                                                                                                                                                                                                                  Bioprinting 23 (2021) e00148
+12procedure was started with designing the single spheroid layer by using 
+3D bioprinter software. The 3D bioprinter identified the spheroids ’ lo-
+cations in 96-well plates and a robotic arm then used vacuum suction to 
+pick up and transfer and load the cell aggregates individually onto a 
+needle array in exact spatial coordinates to the 3D design. After bio-
+printing, the cardiac patch was matured for 3 days in the needle array. 
+After printing and culturing, the monolayered 350–400 μm thick cardiac 
+patches were implanted into a rat myocardial infarction model 
+(Fig. 14a). The echocardiography results demonstrated that there is an 
+improvement in cardiac function. Cell retention within implanted 
+patches at 4 weeks post-surgery (Fig. 14 (d-g)) was found to be much 
+higher compared to studies in which more than 85% of cells were lost 
+within 24 h after cell injection therapy. 
+4.Conclusions & future outlook 
+Current advances in 3DP technologies and new printing materials 
+engineering have evolved 3DP beyond its initial place and role as a 
+conceptual modeling tool. Today, 3DP has started finding unique and 
+niche applications in a wide range of diverse sectors as a preferred end- 
+product manufacturing technology. The simplicity, flexibility, and 
+agility for complex manufacturing with 3DP have been a significant 
+precursor in this interest boom. 
+It is necessary to note and highlight the importance that the rise of 
+3DP popularity has been tightly related to the improvement of printing 
+materials, including biopolymers, thermoplastic polymers, ceramics, 
+metals and composites, in conjunction with integrated innovations in 
+controls, sensing, and automation fields. The biomedical field has undoubtedly benefited from 3DP technology and materials ’ evolution, 
+as already seen with tissue engineering products, prosthetics, and 
+implant manufacturing. Moreover, biocompatible materials and dedi-
+cated printing devices (bioprinters) have allowed first full organ printing 
+attempts. A challenge in obtaining successful full organ 3D printing Table 5 
+3D printed multilayered skin substitutes.  
+Bioinks Fabrication 
+method 3D Printer Short Outcomes 
+Adipose-derived decellularized ECM 
+(dECM) and bovine fibrinogen for 
+hypodermal compartment 
+Skin derived dECM and bovine 
+fibrinogen for dermal 
+compartment 
+Gelatin hydrogel for perfusable and 
+vascularized channel inside the 
+skin tissue model [162] Extrusion and 
+Inkjet A self-made extrusion and inkjet-based 3D 
+bioprinter  ≡(PCL)-based perfusable well system with the dimensions of 
+15 mm ×15 mm ×6 mm was also 3D printed to be used for the 
+maturation of the model.  
+≡The vascular channel was covered by human umbilical vein 
+endothelial cells (HUVECs) and would supply nutrition and oxygen 
+to encapsulated cells in model  
+≡The perfusable and vascularized dermis and hypodermis promote 
+physiological cross-talks with epidermal compartment. 
+Silk fibroin and gelatin [163] Extrusion Self-made deposition system consisting of an 
+extrusion head connected with a pressure 
+controlled pneumatic pump and a direct-write 
+assembly (Fiber 
+Align, Aerotech Inc., Pittsburgh, USA)  ≡The enzymatic crosslinking of silk-gelatin using tyrosinase resulted 
+in preservation of structural integrity of the printed constructs until 
+4 weeks of culture period.  
+≡Fibroblasts remained embedded in the silk-gelatin bioinks, whereas 
+keratinocytes extensively migrated towards the pores of the bio 
+printed construct by day 14.  
+≡Although the modulus of native skin was much higher than the 3D 
+bio printed sample, a similar amount of strain was observed at 
+failure. 
+Bovine gelatin, very low viscosity 
+alginate and fibrinogen [164] Extrusion A custom-made 3D bioprinter (Lab Skin 
+Creations/TOBECA) equipped with a cold 
+building plate (4 •C) and a heated syringe head 
+(28 •C)  ≡Micro-explants from skin biopsies were used in bioinks and 
+increasing the number of dissociation cycles during mechanical 
+extraction lowered the proliferation of fibroblasts and caused 
+variation between the different sources of biopsy.  
+≡Keratinocytes cannot proliferate in a 3D environment as an air- 
+liquid interface is required to multiply. 
+Gelatin and sodium alginate 
+composite hydrogels [165] Extrusion A custom-made 3D bioprinter consisting of a 
+control system, a mechanism for motion, and 
+feed and nozzle systems  ≡Full-thickness wound contraction on the backs of nude mice 
+improved only by approximately 10% compared to the control 
+group (blank) after 4 weeks.  
+≡No apparent angiogenesis observed in vitro, however in vivo results 
+showed that there was significantly higher number of micro vessels 
+in the dermis the printed skin graft group compared to the control. 
+Alginate and gelatin composite 
+hydrogels [166] Extrusion An open-source 3D bioprinter with two syringe 
+heads  ≡Viscosity, storage modulus (G∕), and loss modulus (G”) of alginate/ 
+gelatin composite hydrogels were investigated in terms of 
+printability and 2 wt% alginate/15 wt% gelatin was found to be the 
+optimum concentration.  
+≡Human amniotic epithelial cells (AECs) differentiated into 
+epithelial cells, while Wharton ’s jelly derived mesenchymal stem 
+cells (WJMSCs) showed angiogenic potential and fibroblastic 
+phenotype.  
+Fig. 12.Thoracic aortic aneurysm. The thoracic aneurysm may target specific 
+thoracic aorta regions, e.g., the ascending part of the aorta (the inset shows the 
+abnormal bulging). B. Yilmaz et al.                                                                                                                                                                                                                                  Bioprinting 23 (2021) e00148
+13resides in the complexity of the biological structure that constitutes the 
+said organ. A physiological organ is often composed of an assortment of 
+cells distributed in a given pattern. These cells are perfused with the 
+bloodstream that regularly delivers oxygen and vital nutriment and 
+carries CO2 and cellular waste to maintain viability. Accordingly, the 
+challenging aspect of full organ bioprinting would be to print various 
+cell types with intricate perfusion systems simultaneously. In addition, 
+currently available bioreactors fail to satisfy the need for adequately 
+simulating cellular conditions to expand large cell populations in vitro. 
+One of the main challenges in today ’s bioprinting is bio-ink optimi -
+zation. Obtaining materials that can be processed at high resolutions, 
+preserving the viability of cells at high rates during and after the process, 
+and creating the appropriate cellular environment to direct the desired 
+cell behavior are the requirements that need to be addressed simulta -
+neously. In dense polymers preferred for post-printing shape retention, important cellular processes such as proliferation, differentiation, and 
+ECM accumulation may be disrupted. While dense networks generally 
+provide the best shape fidelity and 3D printability properties, it has been 
+challenging to balance these advantages and disadvantages in terms of 
+cell viability and function, especially for fragile and sensitive cell types 
+such as pluripotent stem cells that can self-renew indefinitely or differ -
+entiate into any cell in the body. Also, porosity, or porous microstructure 
+created by bioinks, is important to allow diffusion of blood for cells to 
+survive until neovascularization is completed. 
+In addition to the innovations in bioinks, the conventional in vitro 
+bioprinting, which relies on the implantation of pre-fabricated con-
+structs, is needed to evolve into in situ bioprinting for tissues are to be 
+fabricated or repaired directly on the intended anatomical location by 
+using the patient ’s body as a bioreactor (Fig. 15). 
+Even though there have been some attempts to in situ bioprint 
+Fig. 13.Roadmap of the proposed methodology. 
+(a) Segmentation of an aorta from abdominal region based on region growing. (b) The STL (mesh) model of aorta converted to a parametric smooth surface. (c) 
+Representation of the ‘Self-Supporting ’ method, with vessel (grey), cellular aggregates (red) and support structures (blue). (please see the color version) (d) 3D 
+printed MEF cellular aggregates. Reproduced with permission from [172]. (For interpretation of the references to colour in this figure legend, the reader is referred to 
+the web version of this article.) B. Yilmaz et al.                                                                                                                                                                                                                                  Bioprinting 23 (2021) e00148
+14several tissue types by using robotic arms and handheld devices, serious 
+multidisciplinary innovations are needed to create a simultaneous/ 
+sequential operation of medical imaging, patient monitoring, feedback 
+control, and multi-axial bioprinting systems. In addition, the parameters 
+need to be strictly controlled utilizing integrating artificial intelligence (AI) in the future. Miniaturization and sterilization of bioprinters and 
+nearby devices and making these systems user-friendly for end-user 
+physicians will also be secondary design parameters in the future. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+References 
+[1]D.F. Viera Rey, J.-P. St-Pierre, Fabrication techniques of tissue engineering 
+scaffolds, in: Handb. Tissue Eng. Scaffolds, Vol. One, Elsevier, 2019, pp. 109–125, 
+https://doi.org/10.1016/B978-0-08-102563-5.00006-X . 
+[2]ISO, 10993-1:2018, Biological Evaluation of Medical Devices — Part 1: 
+Evaluation and Testing within a Risk Management Process, International 
+Organization for Standardization (ISO), Geneva, 2018 . 
+[3]M. Kesti, P. Fisch, M. Pensalfini, E. Mazza, M. Zenobi-Wong, Guidelines for 
+standardization of bioprinting: a systematic study of process parameters and their 
+effect on bioprinted structures, BioNanoMaterials 17 (2016), https://doi.org/ 
+10.1515/bnm-2016-0004 . 
+[4]V. Mironov, The future of medicine: are custom-printed organs on the horizon? 
+Futurist 45 (2011) 1. 
+[5]A. Su, S.J. Al’Aref, History of 3D printing, in: 3D Print. Appl. Cardiovasc. Med., 
+Elsevier, 2018: pp. 1–10. https://doi.org/10.1016/B978-0-12-803917-5.00001- 
+8. 
+[6]J. Butt, H. Shirvani, Additive, subtractive, and hybrid manufacturing processes, 
+in: Y. Bar-Cohen (Ed.), Adv. Manuf. Process. Mater. Struct., CRC Press, 2018, 
+pp. 187–218. 
+Fig. 14.(a) Occlusion of the distal left anterior descending coronary artery: green arrow, suture and yellow, the infarcted area. (b) Blue arrow, the cardiac patch and 
+yellow arrow, the omentum patch implanted into the experiment group (n 6). (c) The omentum patch implanted in the control group (n 6). (d–g) Evidence of 
+retention of the cells in rat 4 weeks after surgery. Top: the omentum, middle: the patch area, bottom: the rat heart. (d and e) human nuclear antigen (red), DAPI 
+(blue). Red in the patch area: the presence of human nuclear antigen from the stem cell. (d): scale bar 100 μm, (e): scale bar 25 μm. (f and g) Troponin T (green), 
+DAPI (blue). Green: the presence of troponin T in both the rat heart and patch area. (f): scale bar 100 μm, (g): scale bar 25 μm. (h and i) Positive and negative 
+controls of the troponin T staining, (h): positive control, (i): negative control, scale bar 100 μm. Reproduced with permission from Ref. [173]. (For interpretation of 
+the references to color in this figure legend, the reader is referred to the Web version of this article.) 
+Fig. 15.For the repair of lost/damaged tissues, in situ bioprinting utilizes 
+bioinks loaded with the patient-derived cells in a specific anatomical location 
+mostly determined by medical imaging methods. B. Yilmaz et al.                                                                                                                                                                                                                                  Bioprinting 23 (2021) e00148
+15[7]T. Wohlers, T. Gornet, History of Additive Manufacturing, Wohlers Associates, 
+Fort Collins, CO, 2016. Wohlers Report . 
+[8]R.R. Jose, M.J. Rodriquez, T.A. Dixon, F.G. Omenetto, D.L. Kaplan, Evolution of 
+bioinks and additive manufacturing technologies for 3D bioprinting, ACS 
+Biomater. Sci. Eng. 2 (2016) 1662 –1678, https://doi.org/10.1021/ 
+acsbiomaterials.6b00088 . 
+[9]P. Kulkarni, D. Dutta, An accurate slicing procedure for layered manufacturing, 
+Comput. Aided Des. 28 (1996) 683–697, https://doi.org/10.1016/0010-4485 
+(95)00083-6 . 
+[10] P. Mohan Pandey, N. Venkata Reddy, S.G. Dhande, Slicing procedures in layered 
+manufacturing: a review, Rapid Prototyp. J. 9 (2003) 274–288, https://doi.org/ 
+10.1108/13552540310502185 . 
+[11] ISO/ASTM, 52900-15, Standard Terminology for Additive Manufacturing – 
+General Principles – Terminology, ASTM International, 2015, https://doi.org/ 
+10.1520/F2792-12A . 
+[12] S.C. Ligon, R. Liska, J. Stampfl, M. Gurr, R. Mülhaupt, Polymers for 3D printing 
+and customized additive manufacturing, Chem. Rev. 117 (2017) 10212 –10290, 
+https://doi.org/10.1021/acs.chemrev.7b00074 . 
+[13] H.S. Ramanath, C.K. Chua, K.F. Leong, K.D. Shah, Melt flow behaviour of poly- 
+ε-caprolactone in fused deposition modelling, J. Mater. Sci. Mater. Med. 19 
+(2008) 2541 –2550, https://doi.org/10.1007/s10856-007-3203-6 . 
+[14] S. Rangarajan, G. Qi, N. Venkataraman, A. Safari, S.C. Danforth, Powder 
+processing, rheology, and mechanical properties of feedstock for fused deposition 
+of Si3N4 ceramics, J. Am. Ceram. Soc. 83 (2004) 1663 –1669, https://doi.org/ 
+10.1111/j.1151-2916.2000.tb01446.x . 
+[15] M. Allahverdi, S.C. Danforth, M. Jafari, A. Safari, Processing of advanced 
+electroceramic components by fused deposition technique, J. Eur. Ceram. Soc. 21 
+(2001) 1485 –1490, https://doi.org/10.1016/S0955-2219(01)00047-4 . 
+[16] W. Sun, D.J. Dcosta, F. Lin, T. El-Raghy, Freeform fabrication of Ti3SiC2 powder- 
+based structures, J. Mater. Process. Technol. 127 (2002) 343–351, https://doi. 
+org/10.1016/S0924-0136(02)00284-4 . 
+[17] M.C. Leu, S. Pattnaik, G.E. Hilmas, Optimization of selective laser sintering 
+process for fabrication of zirconium diboride parts, Proc 21st Annu. Int Solid Free. 
+Fabr. Symp. (2010) 493–503. 
+[18] M. Niinomi, T. Narushima, M. Nakai (Eds.), Advances in Metallic Biomaterials: 
+Tissues, Materials and Biological Reactions, Springer, Heidelberg New York 
+Dordrecht, 2015 . 
+[19] B.C. Gross, J.L. Erkal, S.Y. Lockwood, C. Chen, D.M. Spence, Evaluation of 3D 
+printing and its potential impact on biotechnology and the chemical sciences, 
+Anal. Chem. 86 (2014) 3240 –3253, https://doi.org/10.1021/ac403397r . 
+[20] M. Vukicevic, B. Mosadegh, J.K. Min, S.H. Little, Cardiac 3D printing and its 
+future directions, JACC Cardiovasc. Imag. 10 (2017) 171–184, https://doi.org/ 
+10.1016/j.jcmg.2016.12.001 . 
+[21] F. Krujatz, A. Lode, J. Seidel, T. Bley, M. Gelinsky, J. Steingroewer, Additive 
+Biotech —chances, challenges, and recent applications of additive manufacturing 
+technologies in biotechnology, N. Biotech. 39 (2017) 222–231, https://doi.org/ 
+10.1016/j.nbt.2017.09.001 . 
+[22] M. Suzuki, Y. Ogawa, A. Kawano, A. Hagiwara, H. Yamaguchi, H. Ono, Rapid 
+prototyping of temporal bone for surgical training and medical education, Acta 
+Otolaryngol. (Stockh.). 124 (2004) 400–402, https://doi.org/10.1080/ 
+00016480410016478 . 
+[23] F. Mahmood, K. Owais, M. Montealegre-Gallegos, R. Matyal, P. Panzica, 
+A. Maslow, K. Khabbaz, Echocardiography derived three-dimensional printing of 
+normal and abnormal mitral annuli, Ann. Card Anaesth. 17 (2014) 279, https:// 
+doi.org/10.4103/0971-9784.142062 . 
+[24] I. Valverde, G. Gomez, J.F. Coserria, C. Suarez-Mejias, S. Uribe, J. Sotelo, M. 
+N. Velasco, J. Santos De Soto, A.-R. Hosseinpour, T. Gomez-Cia, 3D printed 
+models for planning endovascular stenting in transverse aortic arch hypoplasia: 
+3D Cardiovascular Model Simulation, Cathet. Cardiovasc. Interv. 85 (2015) 
+1006 –1012, https://doi.org/10.1002/ccd.25810 . 
+[25] I. Valverde, G. Gomez, A. Gonzalez, C. Suarez-Mejias, A. Adsuar, J.F. Coserria, 
+S. Uribe, T. Gomez-Cia, A.R. Hosseinpour, Three-dimensional patient-specific 
+cardiac model for surgical planning in Nikaidoh procedure, Cardiol. Young 25 
+(2015) 698–704, https://doi.org/10.1017/S1047951114000742 . 
+[26] H. Seitz, W. Rieder, S. Irsen, B. Leukers, C. Tille, Three-dimensional printing of 
+porous ceramic scaffolds for bone tissue engineering, J. Biomed. Mater. Res. B 
+Appl. Biomater. 74B (2005) 782–788, https://doi.org/10.1002/jbm.b.30291 . 
+[27] A. Curodeau, E. Sachs, S. Caldarise, Design and fabrication of cast orthopedic 
+implants with freeform surface textures from 3-D printed ceramic shell, 
+J. Biomed. Mater. Res. 53 (2002) 525–535, https://doi.org/10.1002/1097-4636 
+(200009)53:5 D525::AID-JBM12 F3.0.CO;2-1 . 
+[28] B. Duan, M. Wang, W.Y. Zhou, W.L. Cheung, Z.Y. Li, W.W. Lu, Three-dimensional 
+nanocomposite scaffolds fabricated via selective laser sintering for bone tissue 
+engineering, Acta Biomater. 6 (2010) 4495 –4505, https://doi.org/10.1016/j. 
+actbio.2010.06.024 . 
+[29] R.L. Simpson, F.E. Wiria, A.A. Amis, C.K. Chua, K.F. Leong, U.N. Hansen, 
+M. Chandrasekaran, M.W. Lee, Development of a 95/5 poly(L-lactide-co- 
+glycolide)/hydroxylapatite and β-tricalcium phosphate scaffold as bone 
+replacement material via selective laser sintering, J. Biomed. Mater. Res. B Appl. 
+Biomater. 84B (2008) 17–25, https://doi.org/10.1002/jbm.b.30839 . 
+[30] W.Y. Zhou, S.H. Lee, M. Wang, W.L. Cheung, W.Y. Ip, Selective laser sintering of 
+porous tissue engineering scaffolds from poly(l-lactide)/carbonated 
+hydroxyapatite nanocomposite microspheres, J. Mater. Sci. Mater. Med. 19 
+(2008) 2535 –2540, https://doi.org/10.1007/s10856-007-3089-3 . 
+[31] K.-S. Hwang, J.-W. Choi, J.-H. Kim, H. Chung, S. Jin, J.-H. Shim, W.-S. Yun, C.- 
+M. Jeong, J.-B. Huh, Comparative efficacies of collagen-based 3D printed PCL/ PLGA/ β-TCP composite block bone grafts and biphasic calcium phosphate bone 
+substitute for bone regeneration, Materials 10 (2017) 421, https://doi.org/ 
+10.3390/ma10040421 . 
+[32] B. Stevens, Y. Yang, A. Mohandas, B. Stucker, K.T. Nguyen, A review of materials, 
+fabrication methods, and strategies used to enhance bone regeneration in 
+engineered bone tissues, J. Biomed. Mater. Res. B Appl. Biomater. 85B (2008) 
+573–582, https://doi.org/10.1002/jbm.b.30962 . 
+[33] K.-R. Dai, M.-N. Yan, Z.-A. Zhu, Y.-H. Sun, Computer-aided custom-made 
+hemipelvic prosthesis used in extensive pelvic lesions, J. Arthroplasty 22 (2007) 
+981–986, https://doi.org/10.1016/j.arth.2007.05.002 . 
+[34] M.-Y. Lee, C.-C. Chang, Y.C. Ku, New layer-based imaging and rapid prototyping 
+techniques for computer-aided design and manufacture of custom dental 
+restoration, J. Med. Eng. Technol. 32 (2008) 83–90, https://doi.org/10.1080/ 
+03091900600836642 . 
+[35] P.S. D’Urso, D.J. Effeney, W.J. Earwaker, T.M. Barker, M.J. Redmond, R. 
+G. Thompson, F.H. Tomlinson, Custom cranioplasty using stereolithography and 
+acrylic, Br. J. Plast. Surg. 53 (2000) 200–204, https://doi.org/10.1054/ 
+bjps.1999.3268 . 
+[36] D. Yuan, H. Luo, H. Yang, B. Huang, J. Zhu, J. Zhao, Precise treatment of aortic 
+aneurysm by three-dimensional printing and simulation before endovascular 
+intervention, Sci. Rep. 7 (2017) 795, https://doi.org/10.1038/s41598-017- 
+00644-4 . 
+[37] A. Müller, K.G. Krishnan, E. Uhl, G. Mast, The application of rapid prototyping 
+techniques in cranial reconstruction and preoperative planning in neurosurgery: 
+J. Craniofac. Surg. 14 (2003) 899–914, https://doi.org/10.1097/00001665- 
+200311000-00014 . 
+[38] J. Faber, P.M. Berto, M. Quaresma, Rapid prototyping as a tool for diagnosis and 
+treatment planning for maxillary canine impaction, Am. J. Orthod. Dentofacial 
+Orthop. 129 (2006) 583–589, https://doi.org/10.1016/j.ajodo.2005.12.015 . 
+[39] T.M. Binder, D. Moertl, G. Mundigler, G. Rehak, M. Franke, G. Delle-Karth, 
+W. Mohl, H. Baumgartner, G. Maurer, Stereolithographic biomodeling to create 
+tangible hard copies of cardiac structures from echocardiographic data, J. Am. 
+Coll. Cardiol. 35 (2000) 230–237, https://doi.org/10.1016/S0735-1097(99) 
+00498-2 . 
+[40] M.S. Kim, A.R. Hansgen, J.D. Carroll, Use of rapid prototyping in the care of 
+patients with structural heart disease, Trends Cardiovasc. Med. 18 (2008) 
+210–216, https://doi.org/10.1016/j.tcm.2008.11.001 . 
+[41] K. Knox, C.W. Kerber, S.A. Singel, M.J. Bailey, S.G. Imbesi, Rapid prototyping to 
+create vascular replicas from CT scan data: making tools to teach, rehearse, and 
+choose treatment strategies, Catheter. Cardiovasc. Interv. 65 (2005) 47–53, 
+https://doi.org/10.1002/ccd.20333 . 
+[42] M.S. Kim, A.R. Hansgen, O. Wink, R.A. Quaife, J.D. Carroll, Rapid prototyping: a 
+new tool in understanding and treating structural heart disease, Circulation 117 
+(2008) 2388 –2394, https://doi.org/10.1161/CIRCULATIONAHA.107.740977 . 
+[43] R. Landers, R. Mulhaupt, Desktop manufacturing of complex objects, prototypes 
+and biomedical scaffolds by means of computer-assisted design combined with 
+computer-guided 3D plotting of polymers and reactive oligomers, Macromol. 
+Mater. Eng. 282 (2000) 5, https://doi.org/10.1002/1439-2054(20001001)282: 
+1D17::AID-MAME17 F3.0.CO;2-8 . 
+[44] S. Wüst, M.E. Godla, R. Müller, S. Hofmann, Tunable hydrogel composite with 
+two-step processing in combination with innovative hardware upgrade for cell- 
+based three-dimensional bioprinting, Acta Biomater. 10 (2014) 630–640, https:// 
+doi.org/10.1016/j.actbio.2013.10.016 . 
+[45] R. Landers, A. Pfister, U. Hübner, H. John, R. Schmelzeisen, R. Mülhaupt, 
+Fabrication of soft tissue engineering scaffolds by means of rapid prototyping 
+techniques, J. Mater. Sci. 37 (2002) 3107 –3116, https://doi.org/10.1023/A: 
+1016189724389 . 
+[46] S. Ahn, H. Lee, E.J. Lee, G. Kim, A direct cell printing supplemented with low- 
+temperature processing method for obtaining highly porous three-dimensional 
+cell-laden scaffolds, J. Mater. Chem. B. 2 (2014) 2773, https://doi.org/10.1039/ 
+c4tb00139g . 
+[47] B. Derby, Printing and prototyping of tissues and scaffolds, Science 338 (2012) 
+921–926, https://doi.org/10.1126/science.1226340 . 
+[48] D. Maragiannis, M.S. Jackson, S.R. Igo, R.C. Schutt, P. Connell, J. Grande-Allen, 
+C.M. Barker, S.M. Chang, M.J. Reardon, W.A. Zoghbi, S.H. Little, Replicating 
+patient-specific severe aortic valve stenosis with functional 3D modeling, Circ. 
+Cardiovasc. Imag. 8 (2015), https://doi.org/10.1161/ 
+CIRCIMAGING.115.003626 . 
+[49] N.P. Macdonald, F. Zhu, C.J. Hall, J. Reboud, P.S. Crosier, E.E. Patton, 
+D. Wlodkowic, J.M. Cooper, Assessment of biocompatibility of 3D printed 
+photopolymers using zebrafish embryo toxicity assays, Lab Chip 16 (2016) 
+291–297, https://doi.org/10.1039/C5LC01374G . 
+[50] M. Touri, F. Moztarzadeh, N.A.A. Osman, M.M. Dehghan, M. Mozafari, 
+3D–printed biphasic calcium phosphate scaffolds coated with an oxygen 
+generating system for enhancing engineered tissue survival, Mater. Sci. Eng. C 84 
+(2018) 236–242, https://doi.org/10.1016/j.msec.2017.11.037 . 
+[51] L. Elomaa, S. Teixeira, R. Hakala, H. Korhonen, D.W. Grijpma, J.V. Sepp ala, 
+Preparation of poly( ε-caprolactone)-based tissue engineering scaffolds by 
+stereolithography, Acta Biomater. 7 (2011) 3850 –3856, https://doi.org/ 
+10.1016/j.actbio.2011.06.039 . 
+[52] A.A. Makitie, J. Korpela, L. Elomaa, M. Reivonen, A. Kokkari, M. Malin, 
+H. Korhonen, X. Wang, J. Salo, E. Sihvo, M. Salmi, J. Partanen, K.-S. Paloheimo, 
+J. Tuomi, T. Narhi, J. Sepp ala, Novel additive manufactured scaffolds for tissue 
+engineered trachea research, Acta Otolaryngol. (Stockh.) 133 (2013) 412–417, 
+https://doi.org/10.3109/00016489.2012.761725 . B. Yilmaz et al.                                                                                                                                                                                                                                  Bioprinting 23 (2021) e00148
+16[53] S.B. Lowe, V.T.G. Tan, A.H. Soeriyadi, T.P. Davis, J.J. Gooding, Synthesis and 
+high-throughput processing of polymeric hydrogels for 3D cell culture, 
+Bioconjugate Chem. 25 (2014) 1581 –1601, https://doi.org/10.1021/bc500310v . 
+[54] J.A. Barron, B.R. Ringeisen, H. Kim, B.J. Spargo, D.B. Chrisey, Application of laser 
+printing to mammalian cells, Thin Solid Films (2004) 453–454, https://doi.org/ 
+10.1016/j.tsf.2003.11.161 , 383–387. 
+[55] C.M. Smith, A.L. Stone, R.L. Parkhill, R.L. Stewart, M.W. Simpkins, A. 
+M. Kachurin, W.L. Warren, S.K. Williams, Three-dimensional BioAssembly tool 
+for generating viable tissue-engineered constructs, Tissue Eng. 10 (2004) 
+1566 –1576, https://doi.org/10.1089/ten.2004.10.1566 . 
+[56] T. Xu, J. Olson, W. Zhao, A. Atala, J.-M. Zhu, J.J. Yoo, Characterization of cell 
+constructs generated with inkjet printing technology using in vivo magnetic 
+resonance imaging, J. Manuf. Sci. Eng. 130 (2008), 021013, https://doi.org/ 
+10.1115/1.2902857 . 
+[57] T. Xu, H. Kincaid, A. Atala, J.J. Yoo, High-throughput production of single-cell 
+microparticles using an inkjet printing technology, J. Manuf. Sci. Eng. 130 
+(2008), 021017, https://doi.org/10.1115/1.2903064 . 
+[58] S.V. Murphy, A. Atala, 3D bioprinting of tissues and organs, Nat. Biotechnol. 32 
+(2014) 773–785, https://doi.org/10.1038/nbt.2958 . 
+[59] B. Guillotin, A. Souquet, S. Catros, M. Duocastella, B. Pippenger, S. Bellance, 
+R. Bareille, M. R˘emy, L. Bordenave, J. Am˘ed˘ee, F. Guillemot, Laser assisted 
+bioprinting of engineered tissue with high cell density and microscale 
+organization, Biomaterials 31 (2010) 7250 –7256, https://doi.org/10.1016/j. 
+biomaterials.2010.05.055 . 
+[60] K. Iwami, T. Noda, K. Ishida, K. Morishima, M. Nakamura, N. Umeda, Bio rapid 
+prototyping by extruding/aspirating/refilling thermoreversible hydrogel, 
+Biofabrication 2 (2010), 014108, https://doi.org/10.1088/1758-5082/2/1/ 
+014108 . 
+[61] T. Xu, W. Zhao, J.-M. Zhu, M.Z. Albanna, J.J. Yoo, A. Atala, Complex 
+heterogeneous tissue constructs containing multiple cell types prepared by inkjet 
+printing technology, Biomaterials 34 (2013) 130–139, https://doi.org/10.1016/j. 
+biomaterials.2012.09.035 . 
+[62] T. Xu, J. Jin, C. Gregory, J.J. Hickman, T. Boland, Inkjet printing of viable 
+mammalian cells, Biomaterials 26 (2005) 93–99, https://doi.org/10.1016/j. 
+biomaterials.2004.04.011 . 
+[63] U. Jammalamadaka, K. Tappa, Recent advances in biomaterials for 3D printing 
+and tissue engineering, J. Funct. Biomater. 9 (2018) 22, https://doi.org/10.3390/ 
+jfb9010022 . 
+[64] H.O.T. Ware, A.C. Farsheed, B. Akar, C. Duan, X. Chen, G. Ameer, C. Sun, High- 
+speed on-demand 3D printed bioresorbable vascular scaffolds, Mater. Today 
+Chem. 7 (2018) 25–34, https://doi.org/10.1016/j.mtchem.2017.10.002 . 
+[65] W. Wu, Q. Zheng, X. Guo, J. Sun, Y. Liu, A programmed release multi-drug 
+implant fabricated by three-dimensional printing technology for bone 
+tuberculosis therapy, Biomed. Mater. 4 (2009), 065005, https://doi.org/ 
+10.1088/1748-6041/4/6/065005 . 
+[66] K.F. Leong, F.E. Wiria, C.K. Chua, S.H. Li, Characterization of a poly-epsilon- 
+caprolactone polymeric drug delivery device built by selective laser sintering, Bio 
+Med. Mater. Eng. 17 (2007) 147–157. 
+[67] J. Hollander, N. Genina, H. Jukarainen, M. Khajeheian, A. Rosling, E. Makila, 
+N. Sandler, Three-dimensional printed PCL-based implantable prototypes of 
+medical devices for controlled drug delivery, J. Pharm. Sci. 105 (2016) 
+2665 –2676, https://doi.org/10.1016/j.xphs.2015.12.012 . 
+[68] N. Genina, J. Hollander, H. Jukarainen, E. Makila, J. Salonen, N. Sandler, 
+Ethylene vinyl acetate (EVA) as a new drug carrier for 3D printed medical drug 
+delivery devices, Eur. J. Pharmaceut. Sci. 90 (2016) 53–63, https://doi.org/ 
+10.1016/j.ejps.2015.11.005 . 
+[69] J. Skowyra, K. Pietrzak, M.A. Alhnan, Fabrication of extended-release patient- 
+tailored prednisolone tablets via fused deposition modelling (FDM) 3D printing, 
+Eur. J. Pharmaceut. Sci. 68 (2015) 11–17, https://doi.org/10.1016/j. 
+ejps.2014.11.009 . 
+[70] B.M. Wu, S.W. Borland, R.A. Giordano, L.G. Cima, E.M. Sachs, M.J. Cima, Solid 
+free-form fabrication of drug delivery devices, J. Contr. Release 40 (1996) 77–87, 
+https://doi.org/10.1016/0168-3659(95)00173-5 . 
+[71] M. Palo, J. Hollander, J. Suominen, J. Yliruusi, N. Sandler, 3D printed drug 
+delivery devices: perspectives and technical challenges, Expet Rev. Med. Dev. 14 
+(2017) 685–696, https://doi.org/10.1080/17434440.2017.1363647 . 
+[72] V. Mironov, N. Reis, B. Derby, Review: bioprinting: A beginning, Tissue Eng. 12 
+(2006) 631–634, https://doi.org/10.1089/ten.2006.12.631 . 
+[73] P.J. B˘artolo, I. Gibson, History of stereolithographic processes, in: P.J. B˘artolo 
+(Ed.), Stereolithography, Springer US, Boston, MA, 2011, pp. 37–56, https://doi. 
+org/10.1007/978-0-387-92904-0_2 . 
+[74] F.P.W. Melchels, J. Feijen, D.W. Grijpma, A review on stereolithography and its 
+applications in biomedical engineering, Biomaterials 31 (2010) 6121 –6130, 
+https://doi.org/10.1016/j.biomaterials.2010.04.050 . 
+[75] R.A. Giordano, B.M. Wu, S.W. Borland, L.G. Cima, E.M. Sachs, M.J. Cima, 
+Mechanical properties of dense polylactic acid structures fabricated by three 
+dimensional printing, J. Biomater. Sci. Polym. Ed. 8 (1997) 63–75, https://doi. 
+org/10.1163/156856297X00588 . 
+[76] B. Dhariwala, E. Hunt, T. Boland, Rapid prototyping of tissue-engineering 
+constructs, using photopolymerizable hydrogels and stereolithography, Tissue 
+Eng. 10 (2004) 1316 –1322, https://doi.org/10.1089/ten.2004.10.1316 . 
+[77] J.M. Lee, S.L. Sing, M. Zhou, W.Y. Yeong, 3D bioprinting processes: a perspective 
+on classification and terminology, Int. J. Bioprinting. 4 (2018), https://doi.org/ 
+10.18063/ijb.v4i2.151 . 
+[78] H. Lin, D. Zhang, P.G. Alexander, G. Yang, J. Tan, A.W.-M. Cheng, R.S. Tuan, 
+Application of visible light-based projection stereolithography for live cell- scaffold fabrication with designed architecture, Biomaterials 34 (2013) 331–339, 
+https://doi.org/10.1016/j.biomaterials.2012.09.048 . 
+[79] Z. Wang, R. Abdulla, B. Parker, R. Samanipour, S. Ghosh, K. Kim, A simple and 
+high-resolution stereolithography-based 3D bioprinting system using visible light 
+crosslinkable bioinks, Biofabrication 7 (2015), 045009, https://doi.org/10.1088/ 
+1758-5090/7/4/045009 . 
+[80] S. Monneret, V. Loubere, S. Corbel, in: B. Courtois, S.B. Crary, W. Ehrfeld, 
+H. Fujita, J.M. Karam, K.W. Markus (Eds.), Microstereo lithography Using a 
+Dynamic Mask Generator and a Noncoherent Visible Light Source, 1999, p. 553, 
+https://doi.org/10.1117/12.341246 . Paris, France. 
+[81] C. Sun, N. Fang, D.M. Wu, X. Zhang, Projection micro-stereolithography using 
+digital micro-mirror dynamic mask, Sens. Actuators Phys. 121 (2005) 113–120, 
+https://doi.org/10.1016/j.sna.2004.12.011 . 
+[82] R. Xie, D. Li, S. Chao, An inexpensive stereolithography technology with high 
+power UV-LED light, Rapid Prototyp. J. 17 (2011) 441–450, https://doi.org/ 
+10.1108/13552541111184170 . 
+[83] S.H. Kim, Y.K. Yeon, J.M. Lee, J.R. Chao, Y.J. Lee, Y.B. Seo, MdT. Sultan, O.J. Lee, 
+J.S. Lee, S. Yoon, I.-S. Hong, G. Khang, S.J. Lee, J.J. Yoo, C.H. Park, Precisely 
+printable and biocompatible silk fibroin bioink for digital light processing 3D 
+printing, Nat. Commun. 9 (2018) 1620, https://doi.org/10.1038/s41467-018- 
+03759-y . 
+[84] R. Felzmann, S. Gruber, G. Mitteramskogler, P. Tesavibul, A.R. Boccaccini, 
+R. Liska, J. Stampfl, Lithography-based additive manufacturing of cellular 
+ceramic structures, Adv. Eng. Mater. 14 (2012) 1052 –1058, https://doi.org/ 
+10.1002/adem.201200010 . 
+[85] A. Bagheri Saed, A.H. Behravesh, S. Hasannia, S.A. Alavinasab Ardebili, 
+B. Akhoundi, M. Pourghayoumi, Functionalized poly l-lactic acid synthesis and 
+optimization of process parameters for 3D printing of porous scaffolds via digital 
+light processing (DLP) method, J. Manuf. Process. 56 (2020) 550–561, https:// 
+doi.org/10.1016/j.jmapro.2020.04.076 . 
+[86] J.Z. Manapat, Q. Chen, P. Ye, R.C. Advincula, 3D printing of polymer 
+nanocomposites via stereolithography, Macromol. Mater. Eng. 302 (2017) 
+1600553, https://doi.org/10.1002/mame.201600553 . 
+[87] C.M.B. Ho, S.H. Ng, K.H.H. Li, Y.-J. Yoon, 3D printed microfluidics for biological 
+applications, Lab Chip 15 (2015) 3627 –3637, https://doi.org/10.1039/ 
+C5LC00685F . 
+[88] A. Ovsianikov, S. Mühleder, J. Torgersen, Z. Li, X.-H. Qin, S. Van Vlierberghe, 
+P. Dubruel, W. Holnthoner, H. Redl, R. Liska, J. Stampfl, Laser photofabrication 
+of cell-containing hydrogel constructs, Langmuir 30 (2014) 3787 –3794, https:// 
+doi.org/10.1021/la402346z . 
+[89] H. Yu, J. Liu, Y.-Y. Zhao, F. Jin, X.-Z. Dong, Z.-S. Zhao, X.-M. Duan, M.-L. Zheng, 
+Biocompatible three-dimensional hydrogel cell scaffold fabricated by sodium 
+hyaluronate and chitosan assisted two-photon polymerization, ACS Appl. Bio 
+Mater. 2 (2019) 3077 –3083, https://doi.org/10.1021/acsabm.9b00384 . 
+[90] S.S. Crump, A.E.-P.D. Muir, Apparatus and method for creating three-dimensional 
+objects 5 (121) (1992) 329. 
+[91] W. Wu, P. Geng, G. Li, D. Zhao, H. Zhang, J. Zhao, Influence of layer thickness 
+and raster angle on the mechanical properties of 3D-printed PEEK and a 
+comparative mechanical study between PEEK and ABS, Materials 8 (2015) 
+5834 –5846, https://doi.org/10.3390/ma8095271 . 
+[92] V.K. Tiwary, P. Arunkumar, A.S. Deshpande, N. Rangaswamy, Surface 
+enhancement of FDM patterns to be used in rapid investment casting for making 
+medical implants, Rapid Prototyp. J. 25 (2019) 904–914. 
+[93] J.S. Chohan, R. Singh, Enhancing dimensional accuracy of FDM based biomedical 
+implant replicas by statistically controlled vapor smoothing process, Prog. Addit. 
+Manuf. 1 (2016) 105–113, https://doi.org/10.1007/s40964-016-0009-4 . 
+[94] M.B. Burn, A. Ta, G.R. Gogola, Three-dimensional printing of prosthetic hands for 
+children, J. Hand Surg. 41 (2016) e103 –e109, https://doi.org/10.1016/j. 
+jhsa.2016.02.008 . 
+[95] J.P. Bustillo, R. Tumlos, R.Z. Remoto, Intensity modulated radiotherapy (IMRT) 
+phantom fabrication using fused deposition modeling (FDM) 3D printing 
+technique, in: L. Lhotska, L. Sukupova, I. Lackovi ˘c, G.S. Ibbott (Eds.), World 
+Congr. Med. Phys. Biomed. Eng. 2018, Springer Singapore, Singapore, 2019, 
+pp. 509–515, https://doi.org/10.1007/978-981-10-9023-3_92 . 
+[96] E.J. McCullough, V.K. Yadavalli, Surface modification of fused deposition 
+modeling ABS to enable rapid prototyping of biomedical microdevices, J. Mater. 
+Process. Technol. 213 (2013) 947–954, https://doi.org/10.1016/j. 
+jmatprotec.2012.12.015 . 
+[97] J.F. Christ, N. Aliheidari, A. Ameli, P. Potschke, 3D printed highly elastic strain 
+sensors of multiwalled carbon nanotube/thermoplastic polyurethane 
+nanocomposites, Mater. Des. 131 (2017) 394–401, https://doi.org/10.1016/j. 
+matdes.2017.06.011 . 
+[98] Q. Chen, J.D. Mangadlao, J. Wallat, A. De Leon, J.K. Pokorski, R.C. Advincula, 3D 
+printing biocompatible polyurethane/poly(lactic acid)/graphene oxide 
+nanocomposites: anisotropic properties, ACS Appl. Mater. Interfaces 9 (2017) 
+4015 –4023, https://doi.org/10.1021/acsami.6b11793 . 
+[99] X. Wang, Y. Yan, Y. Pan, Z. Xiong, H. Liu, J. Cheng, F. Liu, F. Lin, R. Wu, R. Zhang, 
+Q. Lu, Generation of three-dimensional hepatocyte/gelatin structures with rapid 
+prototyping system, Tissue Eng. 12 (2006) 83–90, https://doi.org/10.1089/ 
+ten.2006.12.83 . 
+[100] W. Liu, Z. Zhong, N. Hu, Y. Zhou, L. Maggio, A.K. Miri, A. Fragasso, X. Jin, 
+A. Khademhosseini, Y.S. Zhang, Coaxial extrusion bioprinting of 3D microfibrous 
+constructs with cell-favorable gelatin methacryloyl microenvironments, 
+Biofabrication 10 (2018), 024102, https://doi.org/10.1088/1758-5090/aa9d44 . 
+[101] H. Wijshoff, The dynamics of the piezo inkjet printhead operation ☆, Phys. Rep. 
+491 (2010) 77–177, https://doi.org/10.1016/j.physrep.2010.03.003 . B. Yilmaz et al.                                                                                                                                                                                                                                  Bioprinting 23 (2021) e00148
+17[102] B.C. Te, J.T. Wigand, Method and Apparatus for Fabricating Three Dimensional 
+Models, 2015, 2015/0147421 A1. 
+[103] W.E. Masters, Computer Automated Manufacturing Process and System, 4, 1987, 
+665,492 . 
+[104] M. Yamane, T. Kawaguchi, Apparatus For Forming Three-Dimensional Article, 5, 
+1992, 140,937 . 
+[105] S.M. Penn, System, method, and process For Making Three-Dimensional Objects, 
+5, 1993, 260,009 . 
+[106] M. Salmi, K.-S. Paloheimo, J. Tuomi, J. Wolff, A. Makitie, Accuracy of medical 
+models made by additive manufacturing (rapid manufacturing), J. Cranio- 
+Maxillo-Fac. Surg. 41 (2013) 603–609, https://doi.org/10.1016/j. 
+jcms.2012.11.041 . 
+[107] S. Minocchieri, J.M. Burren, M.A. Bachmann, G. Stern, J. Wildhaber, S. Buob, 
+R. Schindel, R. Kraemer, U.P. Frey, M. Nelle, Development of the premature infant 
+nose throat-model (PrINT-Model) —an upper airway replica of a premature 
+neonate for the study of aerosol delivery, Pediatr. Res. 64 (2008) 141–146, 
+https://doi.org/10.1203/PDR.0b013e318175dcfa . 
+[108] A.D. Castiaux, C.W. Pinger, E.A. Hayter, M.E. Bunn, R.S. Martin, D.M. Spence, 
+PolyJet 3D-printed enclosed microfluidic channels without photocurable 
+supports, Anal. Chem. 91 (2019) 6910 –6917, https://doi.org/10.1021/acs. 
+analchem.9b01302 . 
+[109] T. Boland, W.C. Wilson, T. Xu, Inkjet Printing of Viable Cells, 7, 2006, 051,654 
+B2. 
+[110] H. Cui, M. Nowicki, J.P. Fisher, L.G. Zhang, 3D bioprinting for organ 
+regeneration, Adv. Healthc. Mater. 6 (2017), https://doi.org/10.1002/ 
+adhm.201601118 . 
+[111] B. Zhang, Y. Luo, L. Ma, L. Gao, Y. Li, Q. Xue, H. Yang, Z. Cui, 3D bioprinting: an 
+emerging technology full of opportunities and challenges, Bio-Des. Manuf. 1 
+(2018) 2–13, https://doi.org/10.1007/s42242-018-0004-3 . 
+[112] D.J. Odde, M.J. Renn, Laser-guided direct writing for applications in 
+biotechnology, Trends Biotechnol. 17 (1999) 385–389, https://doi.org/10.1016/ 
+S0167-7799(99)01355-4 . 
+[113] H.-W. Kang, S.J. Lee, I.K. Ko, C. Kengla, J.J. Yoo, A. Atala, A 3D bioprinting 
+system to produce human-scale tissue constructs with structural integrity, Nat. 
+Biotechnol. 34 (2016) 312–319, https://doi.org/10.1038/nbt.3413 . 
+[114] E. Sachs, M. Cima, P. Williams, D. Brancazio, J. Cornie, Three dimensional 
+printing: rapid tooling and prototypes directly from a CAD model, J. Eng. Ind. 114 
+(1992) 481, https://doi.org/10.1115/1.2900701 . 
+[115] E. Mancuso, N. Alharbi, O.A. Bretcanu, M. Marshall, M.A. Birch, A.W. McCaskie, 
+K.W. Dalgarno, Three-dimensional printing of porous load-bearing bioceramic 
+scaffolds, Proc. Inst. Mech. Eng. [H]. 231 (2017) 575–585, https://doi.org/ 
+10.1177/0954411916682984 . 
+[116] D. Hong, D.-T. Chou, O.I. Velikokhatnyi, A. Roy, B. Lee, I. Swink, I. Issaev, H. 
+A. Kuhn, P.N. Kumta, Binder-jetting 3D printing and alloy development of new 
+biodegradable Fe-Mn-Ca/Mg alloys, Acta Biomater. 45 (2016) 375–386, https:// 
+doi.org/10.1016/j.actbio.2016.08.032 . 
+[117] D.-T. Chou, D. Wells, D. Hong, B. Lee, H. Kuhn, P.N. Kumta, Novel processing of 
+iron–manganese alloy-based biomaterials by inkjet 3-D printing, Acta Biomater. 9 
+(2013) 8593 –8603, https://doi.org/10.1016/j.actbio.2013.04.016 . 
+[118] M.M. Savalani, L. Hao, R.A. Harris, Evaluation of CO2 and Nd:YAG lasers for the 
+selective laser sintering of HAPEX ®, Proc. Inst. Mech. Eng. Part B J. Eng. Manuf. 
+220 (2006) 171–182, https://doi.org/10.1243/095440505X32986 . 
+[119] L. Yuan, S. Ding, C. Wen, Additive manufacturing technology for porous metal 
+implant applications and triple minimal surface structures: a review, Bioact. 
+Mater. 4 (2019) 56–70, https://doi.org/10.1016/j.bioactmat.2018.12.003 . 
+[120] H. Galarraga, D.A. Lados, R.R. Dehoff, M.M. Kirka, P. Nandwana, Effects of the 
+microstructure and porosity on properties of Ti-6Al-4V ELI alloy fabricated by 
+electron beam melting (EBM), Addit. Manuf. 10 (2016) 47–57, https://doi.org/ 
+10.1016/j.addma.2016.02.003 . 
+[121] S. Kumar, Selective laser sintering: a qualitative and objective approach, JOM 55 
+(2003) 43–47, https://doi.org/10.1007/s11837-003-0175-y . 
+[122] A.K. Ibraheem, B. Derby, P.J. Withers, Thermal and residual stress modelling of 
+the selective laser sintering process, MRS Proc 758 (2002), https://doi.org/ 
+10.1557/PROC-758-LL1.8 . LL1.8. 
+[123] B. Liu, L. Zhang, J. Mo, B. Qian, New method of improving parts accuracy by 
+adding heat balance support in selective laser sintering, J. Zhejiang Univ. - Sci. A. 
+10 (2009) 361–369, https://doi.org/10.1631/jzus.A0820226 . 
+[124] M. Yakout, A. Cadamuro, M.A. Elbestawi, S.C. Veldhuis, The selection of process 
+parameters in additive manufacturing for aerospace alloys, Int. J. Adv. Manuf. 
+Technol. 92 (2017) 2081 –2098, https://doi.org/10.1007/s00170-017-0280-7 . 
+[125] J.T. Rimell, P.M. Marquis, Selective laser sintering of ultra high molecular weight 
+polyethylene for clinical applications, J. Biomed. Mater. Res. 53 (2000) 414–420, 
+https://doi.org/10.1002/1097-4636(2000)53:4 D414::aid-jbm16 F3.0.co;2-m . 
+[126] J. Cheng, S. Lao, K. Nguyen, W. Ho, A. Cummings, J. Koo, SLS processing studies 
+of nylon 11 nanocomposites, in: Proc Int Solid Free. Fabr. Symp., 2005, 
+pp. 141–149. 
+[127] G.V. Salmoria, J.L. Leite, R.A. Paggi, The microstructural characterization of PA6/ 
+PA12 blend specimens fabricated by selective laser sintering, Polym. Test. 28 
+(2009) 746–751, https://doi.org/10.1016/j.polymertesting.2009.06.010 . 
+[128] R.D. Goodridge, C.J. Tuck, R.J.M. Hague, Laser sintering of polyamides and other 
+polymers, Prog. Mater. Sci. 57 (2012) 229–267, https://doi.org/10.1016/j. 
+pmatsci.2011.04.001 . 
+[129] W.Y. Zhou, B. Duan, M. Wang, W.L. Cheung, Crystallization kinetics of poly(L- 
+lactide)/carbonated hydroxyapatite nanocomposite microspheres, J. Appl. Polym. 
+Sci. 113 (2009) 4100 –4115, https://doi.org/10.1002/app.30527 . [130] G. Turnbull, J. Clarke, F. Picard, P. Riches, L. Jia, F. Han, B. Li, W. Shu, 3D 
+bioactive composite scaffolds for bone tissue engineering, Bioact. Mater. 3 (2018) 
+278–314, https://doi.org/10.1016/j.bioactmat.2017.10.001 . 
+[131] A. Pacifici, L. Laino, M. Gargari, F. Guzzo, A. Velandia Luz, A. Polimeni, 
+L. Pacifici, Decellularized hydrogels in bone tissue engineering: a topical review, 
+Int. J. Med. Sci. 15 (2018) 492–497, https://doi.org/10.7150/ijms.22789 . 
+[132] N. Ashammakhi, O. Kaarela, Three-dimensional bioprinting can help bone, 
+J. Craniofac. Surg. 29 (2018) 9–11, https://doi.org/10.1097/ 
+SCS.0000000000004143 . 
+[133] L. Zhang, G. Yang, B.N. Johnson, X. Jia, Three-dimensional (3D) printed scaffold 
+and material selection for bone repair, Acta Biomater. 84 (2019) 16–33, https:// 
+doi.org/10.1016/j.actbio.2018.11.039 . 
+[134] M. Neufurth, X. Wang, S. Wang, R. Steffen, M. Ackermann, N.D. Haep, H. 
+C. Schroder, W.E.G. Müller, 3D printing of hybrid biomaterials for bone tissue 
+engineering: calcium-polyphosphate microparticles encapsulated by 
+polycaprolactone, Acta Biomater. 64 (2017) 377–388, https://doi.org/10.1016/j. 
+actbio.2017.09.031 . 
+[135] M.O. Aydogdu, E.T. Oner, N. Ekren, G. Erdemir, S.E. Kuruca, E. Yuca, M. 
+S. Bostan, M.S. Eroglu, F. Ikram, M. Uzun, O. Gunduz, Comparative 
+characterization of the hydrogel added PLA/ β-TCP scaffolds produced by 3D 
+bioprinting, Bioprinting 13 (2019), e00046, https://doi.org/10.1016/j. 
+bprint.2019.e00046 . 
+[136] H.J. Jeon, M. Lee, S. Yun, D. Kang, K. ho Park, S. Choi, E. Choi, S. Jin, J.H. Shim, 
+W.S. Yun, B.J. Yoon, J. Park, Fabrication and characterization of 3D-printed 
+biocomposite scaffolds based on PCL and silanated silica particles for bone tissue 
+regeneration, Chem. Eng. J. 360 (2019) 519–530, https://doi.org/10.1016/j. 
+cej.2018.11.176 . 
+[137] J. Wang, M. Yang, Y. Zhu, L. Wang, A.P. Tomsia, C. Mao, Phage nanofibers induce 
+vascularized osteogenesis in 3D printed bone scaffolds, Adv. Mater. 26 (2014) 
+4961 –4966, https://doi.org/10.1002/adma.201400154 . 
+[138] Y. Dong, J. Liang, Y. Cui, S. Xu, N. Zhao, Fabrication of novel bioactive 
+hydroxyapatite-chitosan-silica hybrid scaffolds: combined the sol-gel method 
+with 3D plotting technique, Carbohydr. Polym. 197 (2018) 183–193, https://doi. 
+org/10.1016/j.carbpol.2018.05.086 . 
+[139] M. Ramu, M. Ananthasubramanian, T. Kumaresan, R. Gandhinathan, S. Jothi, 
+Optimization of the configuration of porous bone scaffolds made of Polyamide/ 
+Hydroxyapatite composites using Selective Laser Sintering for tissue engineering 
+applications, Bio Med. Mater. Eng. 29 (2018) 739–755, https://doi.org/10.3233/ 
+BME-181020 . 
+[140] C. Zhou, Bioactive ceramics and metals for regenerative engineering, in: Regen. 
+Eng. Adv. Mater. Sci. Princ., first ed., CRC Press, 2018, pp. 31–43, https://doi. 
+org/10.1201/9781315121079-3 . 
+[141] J. Wilkes, Y. Hagedorn, W. Meiners, K. Wissenbach, Additive manufacturing of 
+ZrO2-Al2O3 ceramic components by selective laser melting, Rapid Prototyp. J. 19 
+(2013) 51–57, https://doi.org/10.1108/13552541311292736 . 
+[142] V.K. Balla, S. Bose, A. Bandyopadhyay, Processing of bulk alumina ceramics using 
+laser engineered net shaping, Int. J. Appl. Ceram. Technol. 5 (2008) 234–242, 
+https://doi.org/10.1111/j.1744-7402.2008.02202.x . 
+[143] D. Sohrabi Baba Heidary, M. Lanagan, C.A. Randall, Contrasting energy efficiency 
+in various ceramic sintering processes, J. Eur. Ceram. Soc. 38 (2018) 1018 –1029, 
+https://doi.org/10.1016/j.jeurceramsoc.2017.10.015 . 
+[144] B. Zhang, X. Pei, C. Zhou, Y. Fan, Q. Jiang, A. Ronca, U. D’Amora, Y. Chen, H. Li, 
+Y. Sun, X. Zhang, The biomimetic design and 3D printing of customized 
+mechanical properties porous Ti6Al4V scaffold for load-bearing bone 
+reconstruction, Mater. Des. 152 (2018) 30–39, https://doi.org/10.1016/j. 
+matdes.2018.04.065 . 
+[145] C.N. Kelly, J. Francovich, S. Julmi, D. Safranski, R.E. Guldberg, H.J. Maier, 
+K. Gall, Fatigue behavior of As-built selective laser melted titanium scaffolds with 
+sheet-based gyroid microarchitecture for bone tissue engineering, Acta Biomater. 
+94 (2019) 610–626, https://doi.org/10.1016/j.actbio.2019.05.046 . 
+[146] L. Zhao, X. Pei, L. Jiang, C. Hu, J. Sun, F. Xing, C. Zhou, Y. Fan, X. Zhang, Bionic 
+design and 3D printing of porous titanium alloy scaffolds for bone tissue repair, 
+Compos. B Eng. 162 (2019) 154–161, https://doi.org/10.1016/j. 
+compositesb.2018.10.094 . 
+[147] A. Ataee, Y. Li, D. Fraser, G. Song, C. Wen, Anisotropic Ti-6Al-4V gyroid scaffolds 
+manufactured by electron beam melting (EBM) for bone implant applications, 
+Mater. Des. 137 (2018) 345–354, https://doi.org/10.1016/j. 
+matdes.2017.10.040 . 
+[148] B. Wysocki, J. Idaszek, K. Szlązak, K. Strzelczyk, T. Brynk, K. Kurzyd łowski, 
+W. ˘Swięszkowski, Post processing and biological evaluation of the titanium 
+scaffolds for bone tissue engineering, Materials 9 (2016) 197, https://doi.org/ 
+10.3390/ma9030197 . 
+[149] P. Caravaggi, E. Liverani, A. Leardini, A. Fortunato, C. Belvedere, F. Baruffaldi, 
+M. Fini, A. Parrilli, M. Mattioli-Belmonte, L. Tomesani, S. Pagani, CoCr porous 
+scaffolds manufactured via selective laser melting in orthopedics: topographical, 
+mechanical, and biological characterization, J. Biomed. Mater. Res. B Appl. 
+Biomater. 107 (2019) 2343 –2353, https://doi.org/10.1002/jbm.b.34328 . 
+[150] Y. Li, J. Zhou, P. Pavanram, M.A. Leeflang, L.I. Fockaert, B. Pouran, N. Tümer, K.- 
+U. Schroder, J.M.C. Mol, H. Weinans, H. Jahr, A.A. Zadpoor, Additively 
+manufactured biodegradable porous magnesium, Acta Biomater. 67 (2018) 
+378–392, https://doi.org/10.1016/j.actbio.2017.12.008 . 
+[151] S. Limmahakhun, A. Oloyede, K. Sitthiseripratip, Y. Xiao, C. Yan, 3D-printed 
+cellular structures for bone biomimetic implants, Addit. Manuf. 15 (2017) 
+93–101, https://doi.org/10.1016/j.addma.2017.03.010 . 
+[152] C. Yan, L. Hao, A. Hussein, Q. Wei, Y. Shi, Microstructural and surface 
+modifications and hydroxyapatite coating of Ti-6Al-4V triply periodic minimal B. Yilmaz et al.                                                                                                                                                                                                                                  Bioprinting 23 (2021) e00148
+18surface lattices fabricated by selective laser melting, Mater. Sci. Eng. C 75 (2017) 
+1515 –1524, https://doi.org/10.1016/j.msec.2017.03.066 . 
+[153] C. Vyas, H. Mishbak, G. Cooper, C. Peach, R.F. Pereira, P. Bartolo, Biological 
+perspectives and current biofabrication strategies in osteochondral tissue 
+engineering, Biomanufacturing Rev 5 (2020) 2, https://doi.org/10.1007/s40898- 
+020-00008-y . 
+[154] B. Zhang, J. Huang, R.J. Narayan, Gradient scaffolds for osteochondral tissue 
+engineering and regeneration, J. Mater. Chem. B. 8 (2020) 8149 –8170, https:// 
+doi.org/10.1039/D0TB00688B . 
+[155] S. Critchley, E.J. Sheehy, G. Cunniffe, P. Diaz-Payno, S.F. Carroll, O. Jeon, 
+E. Alsberg, P.A.J. Brama, D.J. Kelly, 3D printing of fibre-reinforced cartilaginous 
+templates for the regeneration of osteochondral defects, Acta Biomater. 113 
+(2020) 130–143, https://doi.org/10.1016/j.actbio.2020.05.040 . 
+[156] F. Gao, Z. Xu, Q. Liang, B. Liu, H. Li, Y. Wu, Y. Zhang, Z. Lin, M. Wu, C. Ruan, 
+W. Liu, Direct 3D printing of high strength biohybrid gradient hydrogel scaffolds 
+for efficient repair of osteochondral defect, Adv. Funct. Mater. 28 (2018), 
+1706644, https://doi.org/10.1002/adfm.201706644 . 
+[157] C. Wang, H. Yue, W. Huang, X. Lin, X. Xie, Z. He, X. He, S. Liu, L. Bai, B. Lu, 
+Y. Wei, M. Wang, Cryogenic 3D printing of heterogeneous scaffolds with gradient 
+mechanical strengths and spatial delivery of osteogenic peptide/TGF- β1 for 
+osteochondral tissue regeneration, Biofabrication 12 (2020), 025030, https://doi. 
+org/10.1088/1758-5090/ab7ab5 . 
+[158] M. Barbeck, T. Serra, P. Booms, S. Stojanovic, S. Najman, E. Engel, R. Sader, C. 
+J. Kirkpatrick, M. Navarro, S. Ghanaati, Analysis of the in vitro degradation and 
+the in vivo tissue response to bi-layered 3D-printed scaffolds combining PLA and 
+biphasic PLA/bioglass components – guidance of the inflammatory response as 
+basis for osteochondral regeneration, Bioact. Mater. 2 (2017) 208–223, https:// 
+doi.org/10.1016/j.bioactmat.2017.06.001 . 
+[159] X. Zhou, T. Esworthy, S.-J. Lee, S. Miao, H. Cui, M. Plesiniak, H. Fenniri, 
+T. Webster, R.D. Rao, L.G. Zhang, 3D Printed scaffolds with hierarchical 
+biomimetic structure for osteochondral regeneration, Nanomed. Nanotechnol. 
+Biol. Med. 19 (2019) 58–70, https://doi.org/10.1016/j.nano.2019.04.002 . 
+[160] S. Vijayavenkataraman, W.F. Lu, J.Y.H. Fuh, 3D bioprinting of skin: a state-of-the- 
+art review on modelling, materials, and processes, Biofabrication 8 (2016), 
+032001, https://doi.org/10.1088/1758-5090/8/3/032001 . 
+[161] M. Albanna, K.W. Binder, S.V. Murphy, J. Kim, S.A. Qasem, W. Zhao, J. Tan, I. 
+B. El-Amin, D.D. Dice, J. Marco, J. Green, T. Xu, A. Skardal, J.H. Holmes, J. 
+D. Jackson, A. Atala, J.J. Yoo, In situ bioprinting of autologous skin cells 
+accelerates wound healing of extensive excisional full-thickness wounds, Sci. Rep. 
+9 (2019) 1856, https://doi.org/10.1038/s41598-018-38366-w . 
+[162] B.S. Kim, G. Gao, J.Y. Kim, D. Cho, 3D cell printing of perfusable vascularized 
+human skin equivalent composed of epidermis, dermis, and hypodermis for better 
+structural recapitulation of native skin, Adv. Healthc. Mater. 8 (2019), 1801019, 
+https://doi.org/10.1002/adhm.201801019 . [163] P. Admane, A.C. Gupta, P. Jois, S. Roy, C. Chandrasekharan Lakshmanan, 
+G. Kalsi, B. Bandyopadhyay, S. Ghosh, Direct 3D bioprinted full-thickness skin 
+constructs recapitulate regulatory signaling pathways and physiology of human 
+skin, Bioprinting 15 (2019), e00051, https://doi.org/10.1016/j.bprint.2019. 
+e00051 . 
+[164] A. Desanlis, M. Albouy, P. Rousselle, A. Th˘epot, M.D. Santos, C. Auxenfans, 
+C. Marquette, Validation of an implantable bioink using mechanical extraction of 
+human skin cells: first steps to a 3D bioprinting treatment of deep second degree 
+burn, J. Tissue Eng. Regen. Med. (2020) 3148, https://doi.org/10.1002/ 
+term.3148 , term. 
+[165] Y. Huyan, Q. Lian, T. Zhao, D. Li, J. He, Pilot study of the biological properties 
+and vascularization of 3D printed bilayer skin grafts, Int. J. Bioprinting. 6 (2020), 
+https://doi.org/10.18063/ijb.v6i1.246 . 
+[166] P. Liu, H. Shen, Y. Zhi, J. Si, J. Shi, L. Guo, S.G. Shen, 3D bioprinting and in vitro 
+study of bilayered membranous construct with human cells-laden alginate/gelatin 
+composite hydrogels, Colloids Surf. B Biointerfaces 181 (2019) 1026 –1034, 
+https://doi.org/10.1016/j.colsurfb.2019.06.069 . 
+[167] D.-C. Guo, C.L. Papke, R. He, D.M. Milewicz, Pathogenesis of thoracic and 
+abdominal aortic aneurysms, Ann. N. Y. Acad. Sci. 1085 (2006) 339–352, https:// 
+doi.org/10.1196/annals.1383.013 . 
+[168] P. Danyi, J.A. Elefteriades, I.S. Jovin, Medical therapy of thoracic aortic 
+aneurysms: are we there yet? Circulation 124 (2011) 1469 –1476, https://doi.org/ 
+10.1161/CIRCULATIONAHA.110.006486 . 
+[169] E.M. Isselbacher, Thoracic and abdominal aortic aneurysms, Circulation 111 
+(2005) 816–828, https://doi.org/10.1161/01.CIR.0000154569.08857.7A . 
+[170] S.H. Ellozy, A. Carroccio, M. Minor, T. Jacobs, K. Chae, A. Cha, G. Agarwal, 
+B. Goldstein, N. Morrissey, D. Spielvogel, R.A. Lookstein, V. Teodorescu, L. 
+H. Hollier, M.L. Marin, Challenges of endovascular tube graft repair of thoracic 
+aortic aneurysm: midterm follow-up and lessons learned, J. Vasc. Surg. 38 (2003) 
+676–683, https://doi.org/10.1016/S0741-5214(03)00934-0 . 
+[171] M.L. Marin, L.H. Hollier, S.H. Ellozy, D. Spielvogel, H. Mitty, R. Griepp, R. 
+A. Lookstein, A. Carroccio, N.J. Morrissey, V.J. Teodorescu, T.S. Jacobs, M. 
+E. Minor, C.M. Sheahan, K. Chae, J. Oak, A. Cha, Endovascular stent graft repair 
+of abdominal and thoracic aortic aneurysms: a ten-year experience with 817 
+patients, Trans. Meet. Am. Surg. Assoc. 121 (2003) 279–288, https://doi.org/ 
+10.1097/01.sla.0000090473.63393.e9 . 
+[172] C. Kucukgul, S.B. Ozler, I. Inci, E. Karakas, S. Irmak, D. Gozuacik, A. Taralp, 
+B. Koc, 3D bioprinting of biomimetic aortic vascular constructs with self- 
+supporting cells, Biotechnol. Bioeng. 112 (2015) 811–821, https://doi.org/ 
+10.1002/bit.25493 . 
+[173] E. Yeung, T. Fukunishi, Y. Bai, D. Bedja, I. Pitaktong, G. Mattson, A. Jeyaram, 
+C. Lui, C.S. Ong, T. Inoue, H. Matsushita, S. Abdollahi, S.M. Jay, N. Hibino, 
+Cardiac regeneration using human-induced pluripotent stem cell-derived 
+biomaterial-free 3D-bioprinted cardiac patch in vivo, J. Tissue Eng. Regen. Med. 
+13 (2019) 2031 –2039, https://doi.org/10.1002/term.2954 . B. Yilmaz et al.                                                                                                                                                                                                                                  

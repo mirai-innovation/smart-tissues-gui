@@ -1,0 +1,60 @@
+import requests
+
+# Tu clave API de Elsevier
+API_KEY = '993c470a9bd8d545222e8e7bc115ea1e'
+
+# Función para descargar el PDF dado un DOI
+def download_pdf(doi, api_key, save_path):
+    headers = {
+        'Accept': 'application/pdf',
+        'X-ELS-APIKey': api_key
+    }
+    url = f"https://api.elsevier.com/content/article/doi/{doi}"
+    response = requests.get(url, headers=headers, stream=True)
+    
+    if response.status_code == 200:
+        with open(save_path, 'wb') as file:
+            for chunk in response.iter_content(chunk_size=1024):
+                if chunk:
+                    file.write(chunk)
+        print(f"PDF descargado y guardado en: {save_path}")
+    else:
+        print(f"Error: No se pudo descargar el PDF para el DOI {doi}. Código de estado: {response.status_code}")
+
+# Lista de DOIs
+dois = [
+    '10.1016/j.addbeh.2019.106394',
+    '10.1016/j.jvb.2019.103341',
+    '10.1016/j.jmst.2024.02.078',
+    '10.1038/s41598-024-60382-2',
+    '10.1038/s41467-024-48058-x'
+    '10.1016/j.jmst.2024.02.078',
+    '10.1186/s42825-024-00164-8',
+    '10.1038/s41598-024-62462-9',
+    '10.1186/s12992-024-01049-5',
+    '10.1038/s41598-024-62407-2',
+    '10.1186/s12951-024-02524-2',
+    '10.1186/s12951-024-02430-7',
+    '10.1038/s41598-024-60382-2',
+    '10.1038/s41368-024-00298-9',
+    '10.1186/s13018-024-04784-y',
+    '10.1038/s41413-024-00332-w',
+    '10.1186/s11671-024-04007-7',
+    '10.1038/s41467-024-48121-7',
+    '10.1038/s41467-024-48159-7',
+    '10.1186/s12929-024-01035-4',
+    '10.1186/s12967-024-05226-3',
+    '10.1007/s13721-024-00455-4',
+    '10.1038/s41467-024-48058-x',
+    '10.1038/s41598-024-60254-9',
+    '10.1038/s41420-024-01973-w',
+    '10.1007/s10571-024-01465-6',
+    '10.1186/s40360-024-00752-8',
+    '10.1186/s40902-024-00418-9',
+    # Agrega más DOIs según sea necesario
+]
+
+# Descargar PDFs para cada DOI en la lista
+for doi in dois:
+    pdf_path = f"{doi.replace('/', '_')}.pdf"
+    download_pdf(doi, API_KEY, pdf_path)

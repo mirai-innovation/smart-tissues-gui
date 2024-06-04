@@ -1,0 +1,905 @@
+THEME Making Cell Culture More Physiological
+Bioprinting stem cells: building physiological tissues one cell at a time
+Chiara Scognamiglio, Alessandro Soloperto, Giancarlo Ruocco, and X
+Gianluca Cidonio
+Center for Life Nano Science, Istituto Italiano di Tecnologia, Rome, Italy
+Submitted 26 March 2020; accepted in ﬁnal form 3 July 2020
+Scognamiglio C, Soloperto A, Ruocco G, Cidonio G. Bioprinting stem cells:
+building physiological tissues one cell at a time. Am J Physiol Cell Physiol 319:
+C465–C480, 2020. First published July 8, 2020; doi:10.1152/ajpcell.00124.2020.—Bioprinting aims to direct the spatial arrangement in three dimensions of
+cells, biomaterials, and growth factors. The biofabrication of clinically relevantconstructs for the repair or modeling of either diseased or damaged tissues israpidly advancing, resulting in the ability to three-dimensional (3D) print biomi-metic platforms which imitate a large number of tissues in the human body. Primarytissue-speciﬁc cells are typically isolated from patients and used for the fabricationof 3D models for drug screening or tissue repair purposes. However, the lack ofresilience of these platforms, due to the difﬁculties in harnessing, processing, andimplanting patient-speciﬁc cells can limit regeneration ability. The printing of stemcells obviates these hurdles, producing functional in vitro models or implantableconstructs. Advancements in biomaterial science are helping the development ofinks suitable for the encapsulation and the printing of stem cells, promoting theirfunctional growth and differentiation. This review speciﬁcally aims to investigatethe most recent studies exploring innovative and functional approaches for theprinting of 3D constructs to model disease or repair damaged tissues. Key conceptsin tissue physiology are highlighted, reporting stem cell applications in biofabri-cation. Bioprinting technologies and biomaterial inks are listed and analyzed,including recent advancements in biomaterial design for bioprinting applications,commenting on the inﬂuence of biomaterial inks on the encapsulated stem cells.Ultimately, most recent successful efforts and clinical potentials for the manufac-turing of functional physiological tissue substitutes are reported here, with a majorfocus on speciﬁc tissues, such as vasculature, heart, lung and airways, liver, boneand muscle.
+biofabrication; bioink; hydrogels; physiological 3D models; stem cells; 3D
+bioprinting
+INTRODUCTION
+There is an increasing need for clinical alternatives for the
+regeneration and repair of damaged or diseased tissues. Theability to restore tissue functionality has been pursued for morethan two decades (78) via tissue engineering and regenerativemedicine (TERM) approaches. Typically, TERM programs candeliver implantable constructs, resulting from the in vitroculture and maturation of living cells encapsulated in scaffold-ing-degradable materials (biomaterials). Terminally differenti-ated cells can be isolated from patients, but their tissue-speciﬁcity, deﬁned function, poor ex vivo proliferative abilityand most importantly, their rejection to allogenic transplanta-tion have been major limiting factors for their use in TERM.Stem cells are particularly attractive for their ability to self-renew and, most importantly, differentiate into speciﬁc celltypes when being exposed to speciﬁc compounds or includedin biomaterials that can inﬂuence their ultimate fate (89).Novel biofabrication technologies that harness the potential
+of stem cells have come to the fore recently, tackling TERMlimitations in 1) providing an architectural and hierarchical
+arrangement of the cell-biomaterial complex, 2) patterning
+living cells in three-dimensional (3D), and 3) mimicking the
+high degree of complexity within tissue organization.
+Crucially, bioprinting approaches have shown promise for
+the generation of functional tissue constructs and the repair ofcritical size tissue defects. Indeed, 3D printed cell-laden con-
+structs mimicking closely the geometry and the complexity ofhuman tissues (26), can generate a physiological implant forthe repair of damaged or diseased tissue.
+In this review, we analyze the key biofabrication approaches
+for 3D printing of physiological tissue constructs as substitutesfor native counterparts for regenerative or disease modelingpurposes. We illustrate the necessity of bioprinted constructs tofollow a similar tissue formation and maturation process asembryogenesis. We introduce different bioprinting approachesand detail biomaterial ink features used for the encapsulationand the printing of stem cells. Crucially, we aim to provide acomprehensive review of the most advanced 3D platforms
+Correspondence: G. Cidonio (gianluca.cidonio@iit.it).Am J Physiol Cell Physiol 319: C465–C480, 2020.
+First published July 8, 2020; doi:10.1152/ajpcell.00124.2020.
+0363-6143/20 Copyright ©2020 the American Physiological Society http://www.ajpcell.org C465
+Downloaded from journals.physiology.org/journal/ajpcell (126.160.028.241) on May 6, 2024.
+fabricated for the regeneration and modeling of a selected
+number of human tissue. Thus, we highlight pivotal and novelstudies on translational bioprinting approaches for the fabrica-tion of vascular, cardiac, respiratory, hepatic, skeletal andmuscle tissue substitutes.
+Tissue Physiology and Stem Cells
+A tissue is an organized cellular complex with a speciﬁc
+predetermined function in the body. Cells within a particulartissue, typically share the same embryonic origin and morpho-logical features. The great challenge biologists and engineershave faced over the decades, has been the provision of func-tional solutions for the repair and replacement of tissue struc-tures whose shape and function are strictly related. The idea(and hope) that damaged tissue— unable to self-repair throughintrinsic mechanisms— could be fully renewed or replaced isthe premise of TERM. Following damage, a number of humantissues typically activate innate repair mechanisms, which arelargely involved in processes that occur during embryogenesis(83). Hence, an understanding of how tissues and organsoriginate, from a single cell, is essential to imitate theseprocesses and to attempt to successfully engineer new func-tional implants.
+Stem cells are the fundamental building blocks for organ
+formation and repair. The ability to make identical copies ofthemselves (self-renew) and to differentiate into multiple typesof cells in the body, position them as the perfect candidates tosupport TERM technologies (13). The potency of stem cells
+measures their ability to diversify terminally differentiatedcells as key components of multiple tissues. Their location,origin, and potency allow categorization in three major classes.
+Embryonic stem cells (ESCs) exhibit unlimited proliferative
+capacity and are directly responsible for the formation andgrowth of the embryo, differentiating into any specialized cellof the human body. ESCs derive from the inner cell mass ofblastocysts (Fig. 1 A) and, during the subsequent gastrulation
+phases, give rise to three different germ layers to form the outerectoderm, the inner endoderm, and the interstitial mesoderm(109), which are primarily involved in the generation of anytissue in the human body.
+However, because of their restricted availability, safety, and
+ethical issues, ESCs offer limited use for the printing offunctional tissue constructs (15).
+Adult stem cells are limited in their ability to differentiate
+into a selective number of tissues. Adult (somatic) stem cellscan grow, maintain, regenerate, and repair the tissue withinwhich they reside (Fig. 1 B) (15, 109). Thus, adult stem cells are
+highly tissue-speciﬁc and present a number of advantagescompared to ESCs. For instance, mesenchymal stem cells(MSCs), typically reside in the bone marrow and can differ-entiate into cell types, such as bone and cartilage (20). Theability of adult stem cells to differentiate into speciﬁc cell typescan facilitate the fabrication of tissue-speciﬁc implants sincethe implanted cells will more likely acquire a similar gene-
+Fig. 1. Major classes of stem cells. Embryonic stem cells ( A) originate from the inner cell mass of blastocysts, holding the potential to differentiate in every cell
+in the body. Adult stem cells ( B) reside in a speciﬁc tissue, actively participating in the repair of multiple tissues. Induced pluripotent stem cells (iPSCs) ( C) can
+be reprogrammed from somatic cells easily isolated from the patient’s tissue with ease of access (e.g., skin).C466 BIOPRINTING STEM CELLS
+AJP-Cell Physiol •doi:10.1152/ajpcell.00124.2020 •www.ajpcell.org
+Downloaded from journals.physiology.org/journal/ajpcell (126.160.028.241) on May 6, 2024.
+expression proﬁle to the terminally differentiated cells present
+in the native tissue (15). However, adult stem cells are sparselyfound in tissues and their expansion is impaired or limited by
+their proliferative ability compared to ESCs.
+An alternative solution is represented by induced pluripotent
+stem cells (iPSCs), which are embryonic-like stem cells generatedfrom somatic cells that have been reverted down the differentia-tion pathway using the overexpression of speciﬁc transcriptionfactors (Fig. 1 C). The recent discovery of iPSCs (129) is aiding
+the 3D printing of complex tissues, overcoming adult stem celllimitations, such as poor availability in terminally differentiatedorgans and an inability to differentiate into cells of every tissue inthe human body. The number of studies involving the printing ofiPSCs is on the rise, given the tremendous capacity of iPSCs togenerate patient-speciﬁc models (47, 63).
+To date, stem cells have been widely employed as injectable
+therapies for the treatment of a plethora of diseased or damagedtissues (87). TERM, and more recently bioprinting, are usingstem cells to fabricate functional constructs for the repair ormodeling of tissues of interest.
+Bioprinting: Tools for Engineering Physiological Tissues for
+Tissue Repair or Disease Modeling
+TERM aims to harness the potential of stem cells to support
+and guide the formation or the regeneration of speciﬁc tissues(78). The use of biomaterials as supporting matrices has beenproven essential for the delivery in vivo of seeded or encap-sulated stem cells. Biomaterials must be able to support stemcell viability and growth, promoting or guiding their differen-tiation toward the desired tissue. The inclusion of cells withinthese matrices has proved revolutionary in the development ofphysiologically relevant tissue substitutes compared to classi-cal two dimensional (2D) cell culture approaches.
+Indeed, 2D cell cultures have been extensively exploited as
+in vitro platforms for cell expansion and implantation, and drugscreening/discovery, leading in some cases to misleading re-sults (93). It is now well accepted that in vitro 2D assays lackthe physiological features related to the spatial organizationand biochemical interaction of cell populations in the body.Indeed, the absence of the spatial cell arrangement and inter-action in the tissue can impair their functionality, alteringphysiological structure and function of the human organ. Forinstance, the hollow cavity of a blood vessel, the long cylin-drical ﬁbers of a skeletal muscle, and the layered structure ofthe skin are but a few structural and geometrical aspects thatmust be recreated in implantable constructs or tissue-speciﬁcmodels for the preclinical testing of active drugs.
+Animal models have been widely employed for the valida-
+tion of the safety and efﬁcacy of drugs or implants. However,in vivo animal models have been found to poorly recapitulatehuman pathophysiology due to interspecies differences (10).Thus, the incomplete (albeit fundamental) support of animalmodels requires the development of novel techniques andculture protocols for the design of more complex implants andin vitro surrogates, where the intrinsic interplay of structureand function observed in nature is preserved.
+Biofabrication has recently come to the fore as a versatile
+platform for the deposition of living cells, growth factors(GFs), and biomaterials in 3D for the fabrication of functionaltissue substitutes (Fig. 2). Living adult or reprogrammed stemcells embedded in biomaterial inks (bioinks) that closely re-
+semble the native microenvironment, can be printed generatinga 3D construct that can be further cultured in vitro with thesupplement of GFs for stem cells differentiation and implan-tation into the patient. Alternatively, the printed functionalconstruct can be used to model a speciﬁc disease, in vitro, forthe testing of safety and efﬁcacy of novel drug compounds.
+To date, the use of acellular material inks has been extensively
+exploited for the printing of implantable constructs that couldsupport damaged tissue regeneration. Nevertheless, the absence ofcellular components can impair tissue growth and maturationfollowing implantation. Cell-printing strategies offer promisingbiofabrication approaches for the manufacturing of biomimeticconstructs (26). The deposition of bioinks in 3D can ultimatelyrecapitulate the architecture of a speciﬁc tissue, with physiologicalcell/cell and cell/extracellular matrix (ECM) interactions (94). Thebioprinting ﬁeld is rapidly evolving, currently able to fabricatenumerous biological substructures such as peripheral nerve (58),bone (2), kidney (53, 70), muscle (104), heart (101) and vascula-ture structures (131). Computer-aided design (CAD) supports theversatile ability of bioprinting approaches to manufacture tissue-speciﬁc 3D structures. Typically, a syringe dispenser (or a laser)is moved to deposit (cure or remove) material in a layer-by-layerfashion, ﬁnally obtaining a 3D structure identical to the blueprint.Currently, three main bioprinting strategies (Fig. 3) are establishedand widely employed for stem cell deposition: inkjet (5, 72, 82),laser-assisted (66, 125) and extrusion-based (62, 90, 100, 107)bioprinting.
+Laser-Assisted Bioprinting
+This technique uses a pulsating laser that interacts with a
+donor-slide to transfer the material to a co-planar collectorslide. The vaporization mediated by the laser on the energy-absorbing layer induces the formation of microbubbles that canexpand and, consequently, propel a small (picoliter) droplet ofbiomaterial ink to the receiver slide. The programmed motionof the laser guides the patterning of droplets and the ﬁnalprinting (Fig. 3 A). The droplet size is smaller compared to
+other bioprinting techniques capable of fabricating 20 /H9262m-
+resolved objects. Laser-assisted bioprinting platforms typicallygenerate a pulse repetition frequency in the range of 1–100kHz, resulting in a scanning speed in the range of 2,000 mm/s(65). Laser-assisted bioprinters are nozzle free and thereforesuitable for high-viscosity materials (1–300 mPa/s) and partic-ularly useful for reducing cell damage during printing (73).This technology is rapidly evolving toward the physiologicalprinting of functional tissues with different mechanical prop-erties such as corneal (125) and bone (66) tissues.
+Despite the high resolution achieved with laser-assisted
+bioprinting, numerous drawbacks limit its use. The cost of thesystem is higher compared to other printing methods and, thepreparation of the hydrogel system to be housed on the donorslide is complex, especially when multiple cell types need to bedeposited with the precise targeting and positioning of cells inneed for additional technologies (48).
+Inkjet Bioprinting
+Inkjet bioprinting is a low-cost, noncontact, drop-on-de-
+mand approach. Initially known as cytoscribing (72), thisplatform was a modiﬁed version of commercial 2D ink print-
+C467 BIOPRINTING STEM CELLS
+AJP-Cell Physiol •doi:10.1152/ajpcell.00124.2020 •www.ajpcell.org
+Downloaded from journals.physiology.org/journal/ajpcell (126.160.028.241) on May 6, 2024.
+ers. Recently, inkjet bioprinting has been exploited for numer-
+ous biological applications, including the deposition of celladhesion proteins for cell patterns, fabricating DNA microar-rays (102), and printing cell-laden inks on bio-papers (119,137). Inkjet-based bioprinters commonly deposit small vol-
+umes (10 –150 pL, 10 –70 /H9262m wide) of drop-like material by
+applying thermal (124) or mechanical (108) force (Fig. 3 B).
+Moreover, such bioprinters can deposit up to 10,000 droplets
+Fig. 2. The rationale behind 3D bioprinting personalized regenerative medicine approaches relies on patient-speciﬁc tissue engineering and stem c ell culture
+platforms. Adult stem cells can be extracted from organ-speciﬁc niches. Alternatively, somatic cells can be isolated from the patient and directed t oward an
+embryonic-like state exempliﬁed by induced pluripotent stem cells (iPSCs). Native inks can be derived via decellularization of the patient’s tissu e matrices. A
+cell-laden ink is then used as a bioink for the 3D printing of a functional construct, cultivated in vitro with the addition of growth factors, subseque ntly implanted
+in the patient’s body after a maturation period.
+Fig. 3. Current bioprinting approaches. A: laser-assisted. A laser transfers a drop-like material from a donor to a receiver slide. B: inkjet-based. Droplets of bioink
+are deposited on the substrate by applying thermal force or acoustic waves at the dispenser’s tip. C: extrusion-based. A ﬁber is deposited on the substrate by
+depositing/extruding the bioink through a ﬁne nozzle with different mechanisms, such as compressed air (pneumatic), or a piston/screw (mechanical ).C468 BIOPRINTING STEM CELLS
+AJP-Cell Physiol •doi:10.1152/ajpcell.00124.2020 •www.ajpcell.org
+Downloaded from journals.physiology.org/journal/ajpcell (126.160.028.241) on May 6, 2024.
+per second (96), depositing up to 104droplets per second (96),
+thus performing at elevated printing speed (50). Thermal inkjet
+bioprinting delivers localized heat at the nozzle tip to trigger
+the collapse of air bubbles causing the rapid pressure-drivendeposition of material ink. Even when high temperatures areimposed (200 –300°C), the bioink is heated only for a fewmicroseconds (136), resulting in a temperature increase of4 –10°C (42). The mechanical inkjet bioprinting relies on apiezoelectric element positioned at the printhead, which cangenerate acoustic waves to deposit droplets of bioink whosesize is deﬁned by the acoustic parameters, i.e., pulse duration,amplitude, and frequency (33).
+The deposition of living cells via inkjet bioprinting has been
+observed to be functional for the simultaneous printing andstimuli of cells via heat-shock protein overexpression for themodulation of angiogenesis and the following implantation inthe host tissue (124).
+Despite the high performance in terms of resolution, process
+speed and cell viability, this technology possesses numerousdrawbacks for printing tissue constructs such as uneven dropletdistribution, lack of directionality during ejection, and frequentnozzle blockage (96), which limit the printing of functionaltissue constructs.
+Extrusion-Based Bioprinting
+Extrusion-based bioprinting is an efﬁcient biofabrication
+strategy, due to its high process speed and ﬂexible printingplatform (64). Biomaterial inks loaded in cartridges are phys-ically extruded through a dispenser tip, which continuouslydeposits the material in 3D (40) (Fig. 3 C). The bioink sol-gel
+transition immediately after deposition can be guided using 1)
+an ultraviolet or visible light source for photo-cross-linked inks(25), 2) a temperature-controlled deposition bed for materials
+with temperature-dependent viscosity transition (121), and, 3)
+a coagulation bath or coaxial needle for ionic crosslinkingsolutions (30). Extrusion-based bioprinters can fabricate 3Dconstructs at a slower speed compared to laser and inkjetapproaches, in the range of 6 –10 mm/s (30, 86). The dispenseroriﬁce size and the extrusion rate greatly inﬂuence cell viabilityand printing resolution ( /H11022100/H9262m (30, 118)). The print head
+size and the bioink ﬂow rate are limited by material viscosity:higher viscosity and smaller dispenser tip can induce largershear stress at the nozzle, greatly impairing cell viability (21).Shear-thinning inks can be engineered to obviate this problem.These materials exhibit a liquid-like behavior under pressure,facilitating ﬂow through the print head and regaining theirshape after removal of the shear force (85, 105). Indeed,extrusion-based bioprinting is capable of depositing shear-thinning inks with high precision, being able to fabricatehierarchical constructs made of different types of materialsand/or cells closely resembling the physiology of speciﬁctissues (62).
+While extrusion-based printing presents crucial advantages
+over other bioprinting platforms (compatibility with high cell-density and deposition efﬁciency), the resolution achieved issigniﬁcantly lower, limiting the ability to generate biomimeticconstructs. Moreover, low-viscosity inks are not printable viacanonical microextrusion technologies as it results challengingto preserve a continuous ﬁlament during deposition. However,high- and medium-viscosity inks have a signiﬁcant inﬂuenceon stem cell viability due to the imposed shear stress. There-
+fore, the engineering of biomaterial inks capable of supportingstem cell viability and functionality is crucial for the fabrica-tion of clinically relevant tissue substitutes.
+Microﬂuidic Bioprinting
+Recently, novel hybrid bioprinting technologies are coming
+to the fore to solve numerous disadvantages of common bio-fabrication platforms and provide a superior printing ability tofabricate more complex and biomimetic 3D constructs.
+Microﬂuidic bioprinting is a step-changing technology, fast
+apace, which harness the ability of microﬂuidic chips to assistthe control of ﬁber formation, extrusion, and deposition, al-lowing the precise patterning of cells and biomaterials in 3D(99, 127). Multihead extrusion bioprinting is used for theprinting of multiple materials to produce hierarchical tissuemodels. However, the use of multiple heads makes the entireprocess slow and complicated, increasing the time of printingby the number of printheads employed. Microﬂuidic bioprint-ing platforms, in less than a decade, have demonstrated excel-lent potentials for the realization of sophisticated structureswhere the patterned multideposition of bioinks and/or celltypes is performed with high control and precision (30, 55, 77,127).
+A recent study presented a bioprinter able to simultaneously
+or individually deposit up to 7 different materials with a fastand smooth switching for rapid construction of complex hier-archical tissue models (15 times faster than existing nozzle-based platforms) (86). A single printhead, made from a bundleof seven capillaries, each connected to a bioink reservoir andindividually controlled by a pneumatic pressure valve, is em-ployed to 3D print a ring-like scaffold using GelMa andAlginate, recapitulating the gradient of hydroxyapatite (HAp)concentration found in bone.
+A wide library of biomimetic construct has been fabricated
+in the last decade, including pancreatic islet (59), glioblastoma(80) iPSC-derived neurons (132), iPSC-derived cardiomyo-cytes (90), and cartilage (77). Ultimately, microﬂuidics offerthe intrinsic advantage of scaling down the components used tostore and manipulate the bioinks, resulting in higher precisionand enhanced efﬁciency of deposition. Nevertheless, this hy-brid platform is still in its infancy and requires further effort indeveloping better bioinks and improving the ultimate applica-ble functionality.
+Inks for Printing and Sustaining Growth and Differentiation
+of Stem Cells
+The design of a speciﬁc biomaterial able to host and stim-
+ulate tissue-speciﬁc cells is paramount in printing physiologi-cal tissue substitutes. In the human body, cells are embedded intheir self-designed material, the ECM, a complex of proteinsthat provides functional and structural support to facilitate cellsignaling, migration, and nutrient diffusion (24). Several ECMcomponents, such as ﬁbronectin, hyaluronic acid, collagen, andlaminin, have been identiﬁed and are commonly used to culturecells in 2D (tissue culture coating) and 3D (encapsulation)environments (8).
+The engineering of novel biomaterial inks ultimately needs
+to take into consideration functional matrices able to model thephysiochemical complexes of the native ECM (6). Particularly,
+C469 BIOPRINTING STEM CELLS
+AJP-Cell Physiol •doi:10.1152/ajpcell.00124.2020 •www.ajpcell.org
+Downloaded from journals.physiology.org/journal/ajpcell (126.160.028.241) on May 6, 2024.
+the mechanical properties of inks are fundamental for the
+printability and, more importantly, the ability to control the fateof printed stem cells (89). The inclusion of nanoparticles, such
+as nanoclays (1, 2, 27), the post-printing hardening via light-curing of the printed construct (25, 84), and the use of in situcross-linking technology (30, 55) are a selected variety ofmethodological approaches used to enhance the mechanicalcharacteristics of the printable material ink, to directly affectprintability and stem cell functionality.
+The limitations of biocompatible inks, together with the
+numerous constraints imparted by the bioprinting techniqueadopted, narrow the range of suitable materials. Speciﬁcally,materials need to be designed to tailor degradation with cellgrowth, allowing the proliferation of the printed cells andintegration within the host tissue, mimicking the complex anddynamic in vivo milieu.
+Hydrogels are polymeric matrices capable of retaining a
+large amount of water (19) and thus are often ideal matrices forthe encapsulation of cells. Depending on their precursors,hydrogels can form a network undergoing sol-gel transition viaphysical or chemical cross-linking induced by temperature orpH change (79), light exposure (25), or enzymatic process(115). Thus, hydrogel inks for printing living stem cells can beclassiﬁed as comprising synthetic, natural, or native materials.
+A wide array of novel approaches has been recently ex-
+ploited to blend multiple types of materials to ultimatelysynthesize novel composite inks that result increasingly print-able and functional for the delivery of stem cells in 3D.Harnessing the properties of synthetic, natural, and nativematerials, a selected number of composites are increasinglybecoming standard candidates for the printing of stem cells,demonstrating superior printability and functionality.
+Synthetic Inks
+Synthetic hydrogels are central in TERM as scaffolding
+materials or inks, given their mechanical stability and control-lable physicochemical properties. Their viscosity can be tunedto provide optimal printability; however, a cytocompatibleenvironment, and a relatively rapid degradation, upon implan-tation, must be ensured (26). Synthetic matrices often preventcell adhesion and proliferation and require further postprocess-ing after deposition. Nevertheless, synthetic inks can be engi-neered to better resemble the natural environment. Indeed,chemical modiﬁcation of synthetic polymers, with functionalmoieties, allows for the incorporation of binding peptides andenzymatically degradable groups. For instance, Bryant et al.(16) detailed polyethene glycol diacrylate (PEG-DA) to tunethe degree of cross-linking and incorporated arginine-glycine-aspartic acid (RGD) groups to promote interaction with cells,speciﬁcally with integrin subunits, signiﬁcantly enhancing cellattachment and spreading within the hydrogel.
+Synthetic hydrogels can be exploited as structural or sacri-
+ﬁcial materials. Kang and colleagues (62) 3D printed cell-ladenhydrogel and supporting poly( ε-caprolactone) (PCL) together
+with a sacriﬁcial Pluronic F-127 hydrogel to fabricate large 3Dconstructs. The fabrication of human-scale mandible bone, earcartilage, and skeletal muscle showed promising results, ex-hibiting functional and structural features both in vitro and invivo. Despite the important role of synthetic inks for TERMapplications, recent efforts have centered on the use of naturaland native hydrogels, which are intrinsically enriched with a
+plethora of functional groups.
+Natural Inks
+Natural hydrogels are synthesized from polymeric precur-
+sors found in the environment. Typically, natural hydrogelsshow greater biocompatibility, but lower mechanical proper-ties, than synthetic materials.
+Alginate, a polysaccharide made of glucuronic and mannu-
+ronic acids obtained from the cell walls of brown algae, can beeasily cross-linked upon exposure to divalent ions (e.g. such asCa
+2/H11001dissociated from CaCl 2solution) (106, 113). Alginate is
+nontoxic, biodegradable, and Food and Drug Administration
+approved. Sodium alginate conveys a number of crucial ad-vantages (128), such as the ability to undergo instantaneousgelation and reversible physical cross-linking. The robust me-chanical properties confer alginate a superior extrusion-basedprinting ability and ﬁdelity compared with other natural mate-rials (38). Alginate structure can be tuned to enhance physio-
+chemical properties [e.g., improvement of ionic gel strengththrough covalent crosslinking (97), modiﬁcation with chemicalanchors to promote interaction with cells (36)]. The simultaneousextrusion of alginate and calcium chloride solution through twocoaxial needles permits the instantaneous gelation and precisedeposition of the ﬁber (30, 55, 90). Thus, even low-viscositybioinks can be extruded to give high resolution (30).
+Gellan gum (GG), an exopolysaccharide of the extracellular
+polymeric matrix of Sphingomonas bacteria (126), is also
+widely used. Despite its cytocompatibility, GG does not pro-vide binding sites for cell attachment and thus requires modi-ﬁcation for successful cell attachment (37), e.g., blending withmultiple polymers or chemical modiﬁcation. Lozano et al. (88)modiﬁed GG with RGD groups and used GG to print primarycortical neurons and glial cells, demonstrating the engineeredmaterial ensured cell survival and networking.
+While natural hydrogels are extensively used for 3D biolog-
+ical models and often present an enhanced ability to supportcell viability and proliferation compared to synthetic alterna-tives, can only partially simulate the in vivo microenvironment,often failing to reproduce the mechanical properties and dy-namic biological cues.
+Native Inks
+Here, we are using the term native inks to indicate a class of
+hydrogel materials prepared from precursors derived fromxenogenic or allogenic sources. The intrinsic properties ofnative inks are crucial for the functional generation of physi-ological 3D models as native inks convey the correct featuresfor a favorable biomimetic environment for cell survival,function, and differentiation. Collagen is widely used for bio-printing as it resides in various forms in most soft and hardtissue’s ECM and plays a determinant role in maintaining theECM stability and integrity (22). Collagen can undergo asol-gel transition above 15°C, while the presence of RGDmotifs that promote cell adhesion makes collagen a cell-interactive material (52). When collagen triple helix degradesupon acidic or alkaline hydrolysis, gelatin forms. The latter isa thermoresponsive hydrogel that physically cross-links whenthe temperature drops below 30°C (44). Gelatin is widely usedin tissue engineering, also in its modiﬁed version, functional-C470 BIOPRINTING STEM CELLS
+AJP-Cell Physiol •doi:10.1152/ajpcell.00124.2020 •www.ajpcell.org
+Downloaded from journals.physiology.org/journal/ajpcell (126.160.028.241) on May 6, 2024.
+ized with methacryloyl groups (GelMA) to induce a chemical
+nonreversible cross-linking (12, 30).
+Among the plethora of native material inks, the most prom-
+ising, given the physiological resemblance with the naturalmatrix from which it is derived are decellularized extracellularmatrix (dECM)-based inks. To date, native dECM inks havebeen synthesized from several sources, such as adipose (112),heart (56, 112), cartilage (112), liver (49), skin (49, 67), andliver (49, 81). The process of decellularization preserves thestructural and functional molecules produced by the residentcells and removes cellular components and antigenic epitopesto reduce the risk of adverse immunologic response by the hosttissue (8). To date, because of lack of human organ availabilityand despite the genetic mismatch, xenogenic sources remainthe main source of dECM (24). The dECM compositionpreserves elevated contents of GFs, sustaining stem cellgrowth, differentiation, and ultimate functionality (24). How-ever, the mechanisms underlying the interaction between cellsand different dECM compositions from each tissue remainunclear and only a few studies have addressed this issue (49).The choice of the appropriate dECM is of pivotal importanceas tissue-speciﬁc ECM is required to preserve cell phenotypes(122).
+Bioprinting for the Engineering of Functional Physiological
+Tissue Substitutes
+Engineered tissues such as skin, urethra, and blood vessels
+have been successfully implanted in patients restoring organfunctionality (7). Hitherto, the number of 3D-printed implantsto reach clinical trials is limited. However, an increasingnumber of bioprinting approaches, including stem cells andnative inks, seek to recapitulate the biological complexity ofthe targeted tissue, generating functional implantable con-structs or biomimetic platforms for in vitro disease modeling.Table 1 reports recent studies on the fabrication of tissue-speciﬁc substitutes, listing the main 3D construct fabricationparameters and functionality.
+Tissue physiology poses speciﬁc constraints on the particu-
+lar architecture and function of the implant. Clinical ap-proaches are currently aiming to restore the functionality of thedamaged tissue. However, numerous limiting factors highlightthe need for alternative and effective clinical tools. The fol-lowing section details relevant bioprinted tissues using stemcells highlighting the studies that succeeded in the generationof physiological tissues (in terms of cells, materials, andstructures) signiﬁcantly contributing to the advancements ofclinical therapies of diseased or damaged tissues.
+Vasculature
+Blood vessels form a complex tree-like system within the
+human body with varying size (0.01- to 15-mm diameter), astructure that allows for transportation of blood, nutrients,oxygen, and removal of metabolic waste through the body(131). Vessels are typically composed of three concentriclayers: 1) the intima, lined by endothelial cells (ECs) that form
+a tight barrier separating the bloodstream from the externallayers, 2) the tunica media formed by smooth muscle cells that
+confer elasticity to the vessels, and 3) the adventitia composed
+of ﬁbroblasts (FBs) that serves as a stable anchorage to theorgan (131). The composition of the ECM varies depending onthe layers, but it is predominantly populated by collagen,
+laminin, ﬁbronectin, elastin, and proteoglycans (120).
+Vasculature originates from two main processes, namely,
+vasculogenesis and angiogenesis. Vasculogenesis occurs dur-ing embryogenesis, where embryonic precursor stem cellsdifferentiate toward endothelial progenitor cells that organizethemselves in tubular structures. Angiogenesis is responsiblefor the growth and expansion of the existing vascular network(111). To date, clinical vascular grafting remains efﬁcaciousand widely employed. However, the use of vessel sectionsfrom cadaveric donors, or the patient’s own body, is notdesirable and demonstrated the need for TERM alternatives(110).
+The majority of studies investigating vascular repair in vivo
+or modeling in vitro employs primary cells (ECs), given theirease of isolation and culture. Complex vasculature substituteshave been manufactured (75, 76) and have been proven to befunctional, particularly in modeling the vascular microenviron-ment in vitro. Furthermore, bioprinted vascular ECs have beenfound essential for in vitro and in vivo maturation of tissues(123).
+Advancements in the production of vascularized constructs
+in vitro will consistently aid the development of 3D modelssuitable for drug screening application. Furthermore, uponimplantation in vivo, angiogenesis is typically slow ( /H1102110/H9262m
+per day), resulting in a poorly oxygenated implant for severalweeks (28). Because of the absence of a vascular network,bioprinted systems are still limited in size ( /H110211–2 mm) and can
+only be kept in culture for up to 2–3 weeks (75). After thesuccessful bioprinting of perfusable vascular channels alone(41, 43, 135), the ﬁrst important steps toward realizing vascu-larized tissues have recently been reported for kidney (53),bone (76), liver (117), and heart (90).
+Gao et al. (41) reported a functional in vitro vascular model
+by the direct printing of EC-laden vascular-tissue-derivedECM (VdECM)-based bioink. After 7 days, vessels were foundto be functional and capable of responding to shear stress,exhibiting tight cell-cell junctions. The printed vessels showedlimited adhesion of platelets following whole blood perfusiondue to the printed ECs that populated the wall of the lumen,demonstrating the potential of this vascular model (Fig. 4 A).
+Skylar-Scott et al. (123) proposed a novel in vitro system athigh cellular density (10
+8cell/mL) with embedded vasculature.
+The authors compacted hundreds of thousands of 1) embryoid
+bodies, 2) cerebral organoids, and 3) cardiac spheroids used as
+living organ building blocks (OBBs) to create organ-speciﬁcfunctionality. The authors patterned a fugitive ink within thematrix which, upon removal, created a branched perfusablevascular network, providing functional and mature cells for alonger period (123). This study seeking to manufacture largertissues, embedded with vasculature, paves the way for novelalternative solutions to current unsuccessful clinical treat-ments. Although, the incorporation of multiscale features andthe complex geometry characterizing the vasculature systemstill represent a major challenge for tissue engineering.
+Heart
+The heart is the central organ responsible for pumping blood
+through the vascular system. The anatomy of the heart com-prises four chambers, which temporarily house the bloodC471 BIOPRINTING STEM CELLS
+AJP-Cell Physiol •doi:10.1152/ajpcell.00124.2020 •www.ajpcell.org
+Downloaded from journals.physiology.org/journal/ajpcell (126.160.028.241) on May 6, 2024.
+Table 1. Tissue constructs printed with clinically relevant features
+Printed Tissue Cell Line Biomaterial Ink Functionality In Vitro In Vivo Ref.
+Vasculature
+(vascularizedtissue)HUVECs Pig aortic tissue VdECM
+and alginatePhysiological:
+selective permeabilityantiplatelet/leukocyte adhesion
+Pathological:
+increased vascular permeability/H11003 (41)
+iPSC-derived
+OBBs/HNDFsGelatin-based fugitive
+ink printed in OBB-loaded ECM-likematerial (collagen I,transglutaminase andMatrigel)cell functionality
+vessel perfusion/H11003 (123)
+Heart iPSC-CMs/HUVECs Alginate, PEG-DA, and
+ﬁbrinogenCM maturation
+Vascularization/H11003/H11003 (90)
+iPSC-CMs/FBs/EC
+spheroidsCell-only Synchronous beating
+Formation of rudimental vessels/H11003/H11003 (103)
+iPSC-CMs/ iPSC-ECs Human or pig omentum
+dECM bioink andgelatin sacriﬁcial inkPersonalized shape and composition
+Functional activity in vitro and in
+vivo/H11003/H11003 (101)
+iPSC-Cardiac
+Spheroids/ECsSilk ﬁbroin, GelMA,
+PEG-DAElevated expression of gap junction
+proteins
+Synchronously beating of
+cardiomyocytes/H11003 (91)
+CPCs and MSCs Pig heart dECM ink
+mixed with:
+CPCs (bioink no.1)MSCs/H11001VEGF (bioink
+no.2)Reduced cardiac hypertrophy and
+ﬁbrosis
+Augmented cell migration to the
+infarct area/H11003/H11003 (57)
+Lungs and
+airwaysHuman lung ECs and
+FBsPEG-DA and GelMA Distal lung subunit capable of
+withstanding physiologicalventilation under perfusion ofRBCs/H11003 (46)
+Chondrocytes, ECs,
+MSCsCell only Collagen II expressed following in
+vitro maturation and in vivotransplantation
+Vascularized construct after 23 days
+of implantation/H11003/H11003 (130)
+Bone HUVECs, MSCs Fibrinogen and gelatin
+inkEarly or late angiogenesis
+depending on ﬁber distance
+Enhanced bone regeneration/H11003/H11003 (116)
+BMSCs Nanosilicate (Laponite)
+and GelMAOsteogenic differentiation
+stimulation of angiogenesis/H11003/H11003 (25)
+HUVECs, MSCs GelMA with low-high
+degree ofmethacryloylsubstitution andcontaining differentconcentration ofVEGFECs lining the core of the construct
+Perfusion-supported osteogenic
+differentiation/H11003 (18)
+MSCs/
+hOB/hDPSCs/HUVECsAlginate,
+methylcellulose, andhuman blood plasmabioink printed withsupporting CPCElevated cell adhesion, viability and
+proliferation
+In vitro differentiation toward
+osteogenic lineage/H11003 (3)
+Liver iPSCs/ ESCs Alginate No signiﬁcant differences with
+nonprinted control
+Albumin secretion delayed in 3D-
+printed constructs/H11003 (36)
+Primary hepatocytes,
+stellate cells,HUVECsCell-only or NovoGel
+2.0Glycogen storage and lipid
+accumulation
+Drug toxicity in absence of
+macrophages orlipopolysaccharides/H11003 (98)
+iPSC-derived
+hepatocyte-likespheroids and iPSC-derived ECs/MSCsAlginate-Pluronic F127
+inkPrinted spheroids supported
+prolonged hepatocytes survival,albumin, and urea production/H11003 (45)
+ContinuedC472 BIOPRINTING STEM CELLS
+AJP-Cell Physiol •doi:10.1152/ajpcell.00124.2020 •www.ajpcell.org
+Downloaded from journals.physiology.org/journal/ajpcell (126.160.028.241) on May 6, 2024.
+pumped in and out via the contractile activity orchestrated by
+the sinoatrial node cells. The heart tissue is subdivided intothree different layers: epicardium, myocardium, and endocar-dium (71). The abrupt disruption of myocardium integrity andfunctionality (myocardial infarction) is the leading cause(80%) of deaths from cardiovascular diseases (4). Heart trans-plantation remains the sole clinical solution. However, thedramatic disparity between the availability of donors’ heartsand patients waiting for organ transplantation and the increased
+chances of organ rejection identiﬁes an urgent need for alter-native strategies (9).
+Ong et al. (69) recently proposed a revolutionary approach
+for the printing of spheroids (103) based on human iPSC-cardiac myocytes (iPSC-CMs), FBs, and ECs to form a cardiacpatch. The fusion of cardiospheres formed a compact and intactpatch with high viability and functionality (beating and form-ing rudimentary vessels) both in vitro and in vivo. A recentstudy of printing multicellular systems (iPSC-CMs and HU-VECs) highlighted that cell interaction, and their geometricalorganization impacted on CMs maturation and vascularization(90). Indeed, printed iPSC-CMs were found to converge to-ward a preferential alignment and were supported by a vascularnetwork. Bioprinted constructs implanted in mice led to celldifferentiation toward the cardiac phenotype, cell alignment,and formation of large vessels, suggesting a successful modelfor vascularized cardiac tissue. The manufacturing of biomi-metic vascularized cardiac patches was recently explored(101). A novel personalized ink was produced from patients’omental tissue. Computer tomography data were used to builda model ﬁtting the patient-speciﬁc heart defect, including the3D structure and orientation of the major blood vessels. After7 days posttransplantation within the rat omentum (Fig. 4 B),
+iPSC-CMs and ECs were found to be functional, displayingcontractility potential and sufﬁcient vascularization. A mini-heart 3D model was also generated by depositing the samebiomaterials in a supporting medium that allowed for printingfree-form complex shapes.Despite the surprising advancements mentioned above, the
+successful repair of heart tissue, after failure, still represents adaunting challenge. The printed organ needing long-term cul-tivation necessitates adequate support and hardware develop-ment. A large number of cells are demanded for populating theconstruct and reproducing the high cellular density of thenative counterpart that will need an efﬁcient strategy for iPSCsexpansion. Finally, more sophisticated technologies for imag-ing and printing of the entire vasculature will need to bedeveloped for the correct incorporation of blood vessels in theultimate organ (101).
+Lungs and Airways
+The respiratory system is essential for the transfer of oxygen
+and carbon dioxide between the air and the blood. Lungairways rapidly decrease in size from the trachea (1.5 cm indiameter) to respiratory bronchioles (0.5 mm), which are ulti-mately wrapped in the parenchyma that is directly responsiblefor gaseous exchange (54). Alveoli are submillimeter sphericalsacs with a wall separating two alveolar spaces ranging from200 to 400 nm (114).
+The multiscale architecture of the respiratory system
+(from proximal tissues, such as the trachea, and distal, suchas alveolar units) and the numerous resident cell types,represent unprecedented challenges for bioprinting. More-over, their fabrication conveys hurdles related to the print-ing of hollows, interconnected structures of both vasculature(32) and airways (39).
+Toward this, Taniguchi et al. (130) reported the fabrication
+of a functional tracheal tube using a unique scaffold-freetechnique. Chondrocytes, ECs and MSCs were allowed toself-assemble into spheroids, consequently used, without theneed of biomaterial matrices, as building blocks for the bio-printing of an artiﬁcial trachea. The printed trachea was foundto be functional in vivo upon implantation in a murine model,Table 1. —Continued
+Printed Tissue Cell Line Biomaterial Ink FunctionalityIn
+VitroIn
+Vivo Ref.
+Skeletal
+muscleC2C12 Porcine muscle dECM
+bioink and PCLsupportFormation of AChR,
+Myogenic differentiation and
+contractility/H11003 (23)
+hMPCs Gelatin, ﬁbrinogen,
+hyaluronic acid, andglycerol bioinkmixture printedalongside PCL ﬁbersupportAligned myoﬁber-like structure
+Highly organized multilayered
+muscle bundle
+82% of functional recovery of
+rodent defect after 8 wk/H11003/H11003 (69)
+hMPCs/hNSCs Gelatin, ﬁbrinogen,
+hyaluronic acid, andglycerol bioinkmixture printedalongside PCL ﬁbersupporthNSCs support long-term survival
+and myogenic differentiation ofhMPCs
+Rapid innervation and restoration of
+muscle function in rat model/H11003/H11003 (68)
+AChR, acetylcholine receptor; BMSCs, bone marrow stromal cells; CM, cardiomyocytes; CPC, calcium phosphate cement; DA, diacrylate; dECM,
+decellularized extracellular matrix; ECs, endothelial cells; ESCs, embryonic stem cells; FBCs, ﬁbroblast cells; GelMA, gelatin-methacryloyl; h DPSCs, human
+dental pulp stem cells; hMPCs, human muscle progenitor cells; HNDFs, human neonatal dermal ﬁbroblasts; hNSCs, human neural stem cells; hOB, humanpreosteoblasts; HUVEC, human umbilical cord endothelial cells; iPSC, induced pluripotent stem cells; MSCs, mesenchymal stem cells; OBBs, organ bu ilding
+blocks; PCL, poly-( ε-caprolactone; PEG-DA, polyethene glycol diacrylate; RBCs, red blood cells; VdECM, vascular decellularized extracellular matrix; VEGF,
+vascular endothelial growth factor.C473 BIOPRINTING STEM CELLS
+AJP-Cell Physiol •doi:10.1152/ajpcell.00124.2020 •www.ajpcell.org
+Downloaded from journals.physiology.org/journal/ajpcell (126.160.028.241) on May 6, 2024.
+capable of bridging a large gap (~6 mm) and restoring airways
+functionality.
+A recent signiﬁcant step to recreate a more complex lung
+subunit was attempted by Grigoryan et al. (46), with a complexbreathing model, including blood ﬂow and air ventilation.Through the stereolithographic bioprinting of photo-cross-link-able hydrogels, the group sought to mimic the physiology of adistal lung subunit, capable of withstanding ventilation formore than 10,000 cycles at a pressure of 24 kPa and frequencyof 0.5 Hz under perfusion of red blood cells (RBCs). Humanlung FBs were encapsulated in the bulk of the interstitial space,
+whereas human epithelial-like cells were cultured in the con-ducting airways. The complex geometry, captured by theproposed model, and the biomimetic mechanical stimulus ap-plied through the air and blood pumping enabled the generationof a tension similar to that observed in the human bronchioles(Fig. 4 C). This model could be used for replicating the patho-
+physiological conditions of asthma and other diseases involv-ing airway remodeling, such as subepithelial ﬁbrosis (17),smooth muscle hyperplasia and hypertrophy (51), and epithe-lial cell metaplasia (35, 134), and offers new hope for thedevelopment of functional structures that recapitulate the invivo alveoli anatomy and physiology.However, the fabrication of a functional human-scale
+lung is still a distant goal since the effort required to printwith high accuracy intricate micrometric structures, such asalveoli, necessitates postprinting incorporation into a hier-archical lung structure, which represents an additional issueto solve.
+Liver
+The liver is a large organ carrying out essential functions for
+the human body, such as blood ﬁltering and protein production.Speciﬁcally, the liver is able to process and detoxify numerousmetabolites, synthesize proteins, and produce a range of bio-chemicals. Because of this signiﬁcant activity of exchange, theliver is equipped with an extensive blood vessel system,
+delivering substances to/from the organ (60). The microscopicanatomy of the liver is intricate, comprising hexagonal hepaticlobules with hepatocytes irradiating from a central vein, sinu-soid ducts that run through hepatocyte plates, and capillarieslined with specialized stellate macrophages (Kupffer cells)constantly breaking down red blood cells (14). Given thecomplexity of this organ, there has been limited success in themanufacture of liver tissue, leaving the clinical standard (liver
+Fig. 4. Expanded view of relevant tissues recently bioprinted and in some cases implanted in animal models for preclinical functionality validation .A: vasculature:
+human umbilical vein endothelial cells staining in the printed vessel show the continuum and conﬂuent endothelial layer 7 days after fabrication. To p image scale
+bars: 100 and 50 /H9262m in the enlarged graphic; middle image scale bar: 200 /H9262m; bottom image scale bar: 100 /H9262m. [Adapted from Gao et al. (41) with permission
+from John Wiley and Sons.] B: heart: printed heart patch transplanted in rat omentum, dashed lines indicate the patch borders. [Adapted from Noor et al. (101)
+under Creative Commons Attribution 4.0 International (CC BY 4.0), http://creativecommons.org/licenses/by/4.0/.] C: lungs and airways: bioprinted distal lung
+subunit under red blood cell (RBC) perfusion enclosing the air sac ventilated with oxygen. Scale bar: 1 mm. [Adapted from Grigoryan et al. (46) with per mission
+from AAAS.] D: liver: embryonic body stained at day 18 and used to print spheroid-constructs. Scale bar: 20 /H9262m. [Adapted from Goulart et al. (45) with
+permission from International Society for Biofabrication.] E: bone: bone constructs with perfusable channels. Scale bars: 10 mm. [Reprinted and adapted from
+Ahlfeld et al. (3) with permission from American Chemical Society.] F: muscle: immunoﬂuorescence of injured tibialis anterior muscle in a rat model 8 weeks
+after implantation of the muscle 3D printed constructs, highlighting muscle ﬁber formation (white arrows). [Adapted from Kim et al. (68) under Creat ive
+Commons Attribution 4.0 International (CC BY 4.0), http://creativecommons.org/licenses/by/4.0/.]C474 BIOPRINTING STEM CELLS
+AJP-Cell Physiol •doi:10.1152/ajpcell.00124.2020 •www.ajpcell.org
+Downloaded from journals.physiology.org/journal/ajpcell (126.160.028.241) on May 6, 2024.
+transplant) the sole functional approach to date. Nevertheless,
+the possibility of fabricating a 3D liver construct is appealingnot only for regeneration and disease modeling but also for
+toxicology studies (98).
+Faulkner-Jones et al. (36) ink-jet printed human iPSCs and
+ESCs that had been differentiated toward hepatocyte-like cells.Cells were printed during the differentiation process in analginate-based ink, followed by calcium and barium chloridecross-linking. Printed cells were found to be similar in mor-phology and hepatocyte marker expression to 2D controls,demonstrating the safety of the inkjet technique. Nguyen et al.(98) recently bioprinted compartmentalized 3D human livertissue using primary human hepatocytes to ﬁll the compart-ments, while depositing HUVECs and hepatic stellate cells tocontour the sections. The hepatic construct exhibited stabilityand functionality (junction formation, ECM secretion, HU-VECs organization in a network, lipid storage, and glycogenstorage). Moreover, it demonstrated its superior ability (com-pared to 2D culture) to model drug-induced liver injury.Hepatic spheroids and endothelial cells derived from iPSCshave been printed with MSCs, in alginate/pluronic blends, toevaluate their potential (in comparison with printed single-celldispersion) for the development of autologous liver grafts (45).Spheroid-bioprinted constructs showed enhanced viability,prolonged survival, higher albumin secretion, and urea produc-tion compared to single-cell dispersion, and displayed a stablephenotype, supporting the idea that spheroids can sustainhepatic function for a prolonged period (Fig. 4 D).
+Despite its high capacity for regeneration, clinical interven-
+tion for liver repair is still a necessity. Numerous persistentinﬂammations or diseases can ultimately lead to liver functiondeﬁcit and organ failure. Signiﬁcant steps have been takentoward liver TERM with the development of liver tissues thatcan be cultured in vitro for extended periods, but to date, thebioprinting of a large portion, if not the whole organ fortransplantation, is still impractical.
+Bone
+Bone is a dynamic tissue, undergoing continuous renewal and
+repair (29). Bone tissue is composed of inorganic (calcium andhydroxyapatite) and organic (collagen I, phosphatase, ﬁbronectin,osteopontin, and proteoglycans) phases. Bone structure is centralfor organ protection and support, movement, and mineral storage(133). In embryogenesis, bone tissue development requires ossi-ﬁcation mechanisms that include the agglomeration of bone mar-row stromal cells (BMSCs) into a dense structure and theirdifferentiation into osteoblasts to directly form bone tissue or intocartilage with subsequent mineralization in the endochondral boneformation process (11).
+Autologous grafts are efﬁcacious for the repair of skeletal
+defects while failing to support the functional repair for criticalsize damages. Thus, bioprinting provides a functional platformfor the fabrication of physiologically relevant bone implants.Because of innate mechanical properties of bone tissue, stemcells are preferably seeded on 3D printed polymeric scaffolds.However, the printing of MSCs and the patterning of ECs haveproven central for the generation of functional bone tissue.Indeed, current clinical solutions for bone defects can fail as aresult of insufﬁcient nutrient supply, leading to necrosis andpoor interconnection of the surgical graft with the host tissue(26). An adequate vascularization has been shown to enhance
+bone repair ability, as vascularization promotes osteoprogeni-tor cell recruitment, proliferation and differentiation, gas ex-change, and bone homeostasis (61).
+Toward these goals, Piard et al. (116) investigated the effect
+of printing distance between MSCs and HUVECs. Resultsindicated the beneﬁcial presence of HUVECs for bone tissuematuration following endochondral ossiﬁcation. However,HUVECs that were closer than 200 /H9262m were found to inﬂu-
+ence vessel maturation, indicating later-stage angiogenesis invitro, while driving the sprouting of a great number of vesselsand guiding large regeneration of the calvarial defect in vivo.Byambaa et al. (18) generated a 3D platform that was able toclosely imitate the bone marrow niche (comprising bone tissueand blood supply) after 7 days of maturation in vitro. Theunique and controlled deposition in 3D of vascular endothelialgrowth factor (VEGF)-loaded GelMA facilitated a series ofgradients able to direct MSC differentiation, orchestratingHUVEC rearrangement and branching.
+Functional implants for bone repair need to possess mechan-
+ical properties comparable to the native load-bearing compo-nent of the skeletal tissue. Numerous approaches have beendeveloped to reinforce printed scaffolds [e.g. printing of PCL(31) or electrospun ﬁber support (34)]. A recent approach byAhlfeld et al. (3) used the patterning of clinically approvedcalcium phosphate cement (CPC) and MSC-laden in a novelalginate-methylcellulose ink containing plasma from humanblood. The multimaterial scaffold could be printed, in clinicallyrelevant dimensions, while the inclusion of plasma supportedthe adhesion, proliferation, and differentiation of printedMSCs, human preosteoblasts (hOBs), and human dental pulpstem cells (hDPSCs). The printing of HUVECs/MSCs allowedthe precise layering of these cells within printed channels inlarge volumetric constructs, demonstrating the ability for func-tional repair of critical bone defects (Fig. 4 E).
+Despite the promising above-mentioned developments in
+bone biofabrication, the unique mechanical properties of boneand complex static and dynamic loading parameters of bone, aswell as the composition gradient/hierarchical architecture,make bone one of the most challenging tissues to reproduce.
+Skeletal Muscle
+Muscle is a relatively soft tissue, which contains speciﬁc
+proteins (actin and myosin) enabling it to contract, macroscop-ically translated in force and motion (95). In skeletal muscles,stimuli are provided by motor neurons, while smooth musclesare stimulated by pacemaker cells. Muscles are involved in themaintenance of posture and movement inside (e.g. peristalsis)and outside (e.g. locomotion) the human body (95).
+During the daily activity, 1–2% of muscle tissue disinte-
+grates and is constantly repaired. However, the decrease inmuscle mass and function with time (known as sarcopenia) canbe detrimental to an aging population. The clinical need formuscle tissue is related to neuromuscular disorders (e.g., Par-kinson’s disease) and the loss of nervous control of muscles,leading to uncontrolled movement. Bioprinting tools haveprovided numerous functional approaches for the fabrication ofskeletal muscle tissue substitutes (104). Patient-speciﬁc 3Dconstructs can be ideal for the regeneration of a large portion
+C475 BIOPRINTING STEM CELLS
+AJP-Cell Physiol •doi:10.1152/ajpcell.00124.2020 •www.ajpcell.org
+Downloaded from journals.physiology.org/journal/ajpcell (126.160.028.241) on May 6, 2024.
+of damaged or missing skeletal muscle, or as a biomimetic
+platform for in vitro drug screening.
+Choi et al. (23) demonstrated the ability to engineer and
+print a novel native-derived ink to closely imitate musclemicroenvironment. A decellularized skeletal muscle ECM(mdECM) that could gel with a temperature shift up to 37°Cwas synthesized. PCL constraints were printed to guide muscleprogenitor cells (MPCs)-laden mdECM bioink deposition andspatial arrangement. The printing of MPCs in mdECM ink wasfound to sustain the formation of acetylcholine receptors(AChR) and myogenic differentiation. Kim et al. (69) reporteda novel study printing patient-derived cells within a ﬁbrin inkin a hierarchically organized fashion, alternating PCL ﬁbersand gelatin gel. 3D printed muscle scaffolds were observed tobe functional in vitro with organized cross-striated myoﬁbersand laminin matrix, and importantly, in an in vivo tibialisanterior muscle defect model, showing signiﬁcant regenerativecapacity and the therapeutic potential for severe muscle inju-ries. Recently, the same group (68) has successfully engineeredskeletal muscle constructs, integrating a neural component forthe support of tissue maturation and regeneration in vivo.Indeed, human neural stem cells (hNSCS) were found topromote long-term survival of MPCs, and the ultimate gener-ation of a neuromuscular junction (NMJ) in a complex three-dimensional environment. Signiﬁcantly, this multicellular bio-printed platform was found to fully restore muscle weight in arat model, signiﬁcantly accelerating the restoration of function(Fig. 4 F).
+Future translational approaches will need to involve a mul-
+ticellular printing platform to improve the ﬁdelity to the phys-iological skeletal muscle microenvironment with a complexneural and vascular support (68). The use of iPSCs, for theirrapid expansion and speciﬁc functionality, will be beneﬁcialfor the biofabrication of patient-speciﬁc skeletal muscle im-plants and model. Further development of biomimetic nativeinks will be supporting skeletal muscle printing, facilitating thefabrication of fully functional implants.
+Future Prospects
+In the last decade, bioprinting has made signiﬁcant steps
+toward the fabrication of physiological tissues. The develop-ment of stem cell protocols has deﬁned a new era, giving riseto unique therapeutic approaches, such as personalized medi-cine and fostering the advancement of regenerative medicine.Currently, adult stem cells are particularly attractive for theirpotential to differentiate in a selective number of tissues withdirect control over their ultimate fate. Harnessing the bioprint-ing ability to pattern living cells, in 3D, to match tissue-speciﬁcarchitecture and function, has led to research groups focusingon bioprinting approaches using stem cells as building blocksfor tissues both in vitro and in vivo (Table 1). New challengesremain from improvements of the techniques to harvest, repro-gram and differentiate stem cells, to ultimately obtain large-scale, reproducible, and clinically applicable cultures for theprinting of clinically relevant constructs. Current in vitro sur-rogates contain lower cell densities compared with physiolog-ical tissues, raising the need for new approaches, such asorganoids, to engineer high cellular density constructs.
+The culture and implantation of stem cells can be carried out
+using 3D matrices that closely mimic the in vivo native milieuof the speciﬁc organ (24). Native dECM inks have been
+derived from several tissues (e.g., liver, corneal, heart, skin)and can be printed in 3D using simple extrusion deposition(49). However, because of their poor mechanical properties,dECM inks require physical [e.g. blending in composite ma-terials, printing alongside PCL strands (112)] or chemical [e.g.,genipin cross-linking (74)] support. Native inks are highlypromising, but several limitations, including large batch-to-batch variations and xenogenic sources, are hindering furtherdevelopment.
+Thus, the generation of a biofabrication tool for functional
+translational approaches remains a distant goal. Recently, ex-tensive efforts have been spent on the manufacturing of func-tional tissue substitutes seeking to engineer novel clinicallyrelevant platforms using hybrid bioprinting approaches. Sem-inal studies on micro-tissue (92) and spheroid (138) printinghave demonstrated the potential of printing assembled cellaggregates to promote tissue growth and maturation. Further-more, technological advancements are required to realizehigher resolution and faster bioprinters. This is particularlyimportant for the fabrication of large and multiscale tissuesprovided with vasculature and innervation. Microﬂuidic bio-printing has come to the fore as a unique and innovativeengineering strategy that can enable the printing of 3D-pat-terned constructs incorporating the distribution of the cell typesand ECM, characteristic of the native counterparts. Recentworks on microﬂuidic bioprinting (55, 90) have demonstratedthat the complex microarchitecture of tissues (e.g., gradient ofcell/factors) can be reconstructed in vitro by integrating (up-stream of the extruder) microﬂuidic platforms capable of con-trolling deposition, concentration, and distribution of the bio-materials. Alternatively, the combination of different deposi-tion platforms, such as multi-electrospinning writing andbioprinting (34), could help the advancement of the ﬁeldtoward the printing of more complex, structured, and func-tional tissue constructs.
+Although the bioprinting of stem cells for the fabrication of
+physiologically relevant tissue implants or models is maturingapace, the trial and the routine use of stem cell-laden 3D-printed constructs for the clinical repair and intervention is stilldistant, however promising and revolutionary.
+ACKNOWLEDGMENTS
+The authors thank Dr. Stuart Lanham, Dr. Janos Kanczler, and Prof.
+Richard Oreffo (University of Southampton) for useful discussions related tothis paper.
+GRANTS
+This work has received support from Fondazione Istituto Italiano di Tec-
+nologia (to G.R.) and Engineering and Physical Science Research Council DPAward (to G.C.).
+DISCLOSURES
+No conﬂicts of interest, ﬁnancial or otherwise, are declared by the authors.
+AUTHOR CONTRIBUTIONS
+C.S., A.S., and G.C. prepared ﬁgures; C.S., A.S., G.R., and G.C. drafted
+manuscript; C.S., A.S., G.R., and G.C. edited and revised manuscript; C.S.,A.S., G.R., and G.C. approved ﬁnal version of manuscript.
+REFERENCES
+1.Afewerki S, Magalhães LSSM, Silva ADR, Stocco TD, Silva Filho
+EC, Marciano FR, Lobo AO. Bioprinting a synthetic smectic clay forC476 BIOPRINTING STEM CELLS
+AJP-Cell Physiol •doi:10.1152/ajpcell.00124.2020 •www.ajpcell.org
+Downloaded from journals.physiology.org/journal/ajpcell (126.160.028.241) on May 6, 2024.
+orthopedic applications. Adv Healthc Mater 8: e1900158, 2019. doi: 10.
+1002/adhm.201900158 .
+2.Ahlfeld T, Cidonio G, Kilian D, Duin S, Akkineni AR, Dawson JI,
+Yang S, Lode A, Oreffo ROC, Gelinsky M. Development of a clay-
+based bioink for 3D cell printing for skeletal application. Biofabrication
+9: 034103, 2017. doi: 10.1088/1758-5090/aa7e96 .
+3.Ahlfeld T, Cubo-Mateo N, Cometta S, Guduric V, Vater C, Bern-
+hardt A, Akkineni AR, Lode A, Gelinsky M. A novel plasma-based
+bioink stimulates cell proliferation and differentiation in bioprinted,mineralized constructs. ACS Appl Mater Interfaces 12: 12557–12572,
+2020. doi:
+10.1021/acsami.0c00710 .
+4.Anderson JL, Morrow DA. Acute myocardial infarction. N Engl J Med
+376: 2053–2064, 2017. doi: 10.1056/NEJMra1606915 .
+5.Angelopoulos I, Allenby MC, Lim M, Zamorano M. Engineering
+inkjet bioprinting processes toward translational therapies. Biotechnol
+Bioeng 117: 272–284, 2020. doi: 10.1002/bit.27176 .
+6.Ashammakhi N, Ahadian S, Xu C, Montazerian H, Ko H, Nasiri R,
+Barros N, Khademhosseini A. Bioinks and bioprinting technologies to
+make heterogeneous and biomimetic tissue constructs. Mater Today Bio
+1: 100008, 2019. doi: 10.1016/j.mtbio.2019.100008 .
+7.Atala A, Forgacs G. Three-dimensional bioprinting in regenerative
+medicine: reality, hype, and future. Stem Cells Transl Med 8: 744 –745,
+2019. doi: 10.1002/sctm.19-0089 .
+8.Badylak SF. The extracellular matrix as a biologic scaffold material.
+Biomaterials 28: 3587–3593, 2007. doi: 10.1016/j.biomaterials.2007.04.
+043.
+9.Bajaj P, Schweller RM, Khademhosseini A, West JL, Bashir R. 3D
+biofabrication strategies for tissue engineering and regenerative medi-cine. Annu Rev Biomed Eng 16: 247–276, 2014. doi:
+10.1146/annurev-
+bioeng-071813-105155 .
+10.Benam KH, Dauth S, Hassell B, Herland A, Jain A, Jang K-J,
+Karalis K, Kim HJ, MacQueen L, Mahmoodian R, Musah S, Tori-
+sawa YS, van der Meer AD, Villenave R, Yadid M, Parker KK,Ingber DE. Engineered in vitro disease models. Annu Rev Pathol 10:
+195–262, 2015. doi:
+10.1146/annurev-pathol-012414-040418 .
+11.Berendsen AD, Olsen BR. Bone development. Bone 80: 14 –18, 2015.
+doi:10.1016/j.bone.2015.04.035 .
+12.Bertassoni LE, Cecconi M, Manoharan V, Nikkhah M, Hjortnaes J,
+Cristino AL, Barabaschi G, Demarchi D, Dokmeci MR, Yang Y,Khademhosseini A. Hydrogel bioprinted microchannel networks for
+vascularization of tissue engineering constructs. Lab Chip 14: 2202–
+2211, 2014. doi:
+10.1039/C4LC00030G .
+13.Bianco P, Robey PG. Stem cells in tissue engineering. Nature 414:
+118 –121, 2001. doi: 10.1038/35102181 .
+14.Bismuth H. Surgical anatomy and anatomical surgery of the liver. World
+J Surg 6: 3–9, 1982. doi: 10.1007/BF01656368 .
+15.Blau HM, Daley GQ. Stem cells in the treatment of disease. N Engl J
+Med 380: 1748 –1760, 2019. doi: 10.1056/NEJMra1716145 .
+16.Bryant SJ, Nicodemus GD, Villanueva I. Designing 3D photopolymer
+hydrogels to regulate biomechanical cues and tissue growth for cartilagetissue engineering. Pharm Res 25: 2379 –2386, 2008. doi:
+10.1007/
+s11095-008-9619-y .
+17.Busse WW. A role for neutrophils in asthma exacerbations. Nat Med 23:
+658 –659, 2017. doi: 10.1038/nm.4351 .
+18.Byambaa B, Annabi N, Yue K, Trujillo-de Santiago G, Alvarez MM,
+Jia W, Kazemzadeh-Narbat M, Shin SR, Tamayol A, Khademhos-seini A. Bioprinted osteogenic and vasculogenic patterns for engineering
+3D bone tissue. Adv Healthc Mater 6: 1700015, 2017. doi:
+10.1002/adhm.
+201700015 .
+19.Caliari SR, Burdick JA. A practical guide to hydrogels for cell culture.
+Nat Methods 13: 405–414, 2016. doi: 10.1038/nmeth.3839 .
+20.Caplan AI. Adult mesenchymal stem cells for tissue engineering versus
+regenerative medicine. J Cell Physiol 213: 341–347, 2007. doi: 10.1002/
+jcp.21200 .
+21.Chang R, Nam J, Sun W. Effects of dispensing pressure and nozzle
+diameter on cell survival from solid freeform fabrication-based direct cellwriting. Tissue Eng Part A 14: 41–48, 2008. doi:
+10.1089/ten.a.2007.
+0004 .
+22.Chattopadhyay S, Raines RT. Collagen-based biomaterials for wound
+healing. Biopolymers 101: 821–833, 2014. doi: 10.1002/bip.22486 .
+23.Choi YJ, Kim TG, Jeong J, Yi HG, Park JW, Hwang W, Cho DW.
+3D cell printing of functional skeletal muscle constructs using skeletalmuscle-derived bioink. Adv Healthc Mater 5: 2636 –2645, 2016. doi:
+10.
+1002/adhm.201600483 .24.Choudhury D, Tun HW, Wang T, Naing MW. Organ-derived decel-
+lularized extracellular matrix: a game changer for bioink manufacturing?Trends Biotechnol 36: 787–805, 2018. doi:
+10.1016/j.tibtech.2018.03.
+003.
+25.Cidonio G, Alcala-Orozco CR, Lim KS, Glinka M, Mutreja I, Kim
+YH, Dawson JI, Woodﬁeld TBF, Oreffo ROC. Osteogenic and angio-
+genic tissue formation in high ﬁdelity nanocomposite Laponite-gelatinbioinks. Biofabrication 11: 035027, 2019. doi:
+10.1088/1758-5090/
+ab19fd .
+26.Cidonio G, Glinka M, Dawson JI, Oreffo ROC. The cell in the ink:
+Improving biofabrication by printing stem cells for skeletal regenerativemedicine. Biomaterials 209: 10 –24, 2019. doi:
+10.1016/j.biomaterials.
+2019.04.009 .
+27.Cidonio G, Glinka M, Kim Y-H, Kanczler JM, Lanham SA, Ahlfeld
+T, Lode A, Dawson JI, Gelinsky M, Oreffo ROC. Nanoclay-based 3D
+printed scaffolds promote vascular ingrowth ex vivo and generate bonemineral tissue in vitro and in vivo. Biofabrication 12: 035010, 2020.
+doi:
+10.1088/1758-5090/ab8753 .
+28.Clark ER, Clark EL. Microscopic observations on the growth of blood
+capillaries in the living mammal. Am J Anat 64: 251–301, 1939. doi: 10.
+1002/aja.1000640203 .
+29.Clarke B. Normal bone anatomy and physiology. Clin J Am Soc Nephrol
+3,Suppl 3: S131–S139, 2008. doi: 10.2215/CJN.04151206 .
+30.Colosi C, Shin SR, Manoharan V, Massa S, Costantini M, Barbetta
+A, Dokmeci MR, Dentini M, Khademhosseini A. Microﬂuidic bio-
+printing of heterogeneous 3D tissue constructs using low-viscositybioink. Adv Mater 28: 677–684, 2016. doi:
+10.1002/adma.201503310 .
+31.Daly AC, Kelly DJ. Biofabrication of spatially organised tissues by
+directing the growth of cellular spheroids within 3D printed polymericmicrochambers. Biomaterials 197: 194 –206, 2019. doi:
+10.1016/j.
+biomaterials.2018.12.028 .
+32.Datta P, Ayan B, Ozbolat IT. Bioprinting for vascular and vascularized
+tissue biofabrication. Acta Biomater 51: 1–20, 2017. doi: 10.1016/j.
+actbio.2017.01.035 .
+32a.De la Vega LD, Rosas Gómez DA, Abelseth E, Abelseth L, da Silva
+VA, Willerth SM. 3D bioprinting human induced pluripotent stem
+cell-derived neural tissues using a novel lab-on-a-printer technology.Appl Sci (Basel) 8: 2414, 2018. doi:
+10.3390/app8122414 .
+33.Demirci U, Montesano G. Single cell epitaxy by acoustic picolitre
+droplets. Lab Chip 7: 1139 –1145, 2007. doi: 10.1039/b704965j .
+34.Diloksumpan P, de Ruijter M, Castilho M, Gbureck U, Vermonden
+T, van Weeren PR, Malda J, Levato R. Combining multi-scale 3D
+printing technologies to engineer reinforced hydrogel-ceramic interfaces.Biofabrication 12: 025014, 2020. doi:
+10.1088/1758-5090/ab69d9 .
+35.Doherty T, Broide D. Cytokines and growth factors in airway remod-
+eling in asthma. Curr Opin Immunol 19: 676 –680, 2007. doi: 10.1016/j.
+coi.2007.07.017 .
+36.Faulkner-Jones A, Fyfe C, Cornelissen D-J, Gardner J, King J,
+Courtney A, Shu W. Bioprinting of human pluripotent stem cells and
+their directed differentiation into hepatocyte-like cells for the generationof mini-livers in 3D. Biofabrication 7: 044102, 2015. doi:
+10.1088/1758-
+5090/7/4/044102 .
+37.Ferris CJ, Gilmore KJ, Wallace GG, in het Panhuis M. Modiﬁed
+gellan gum hydrogels for tissue engineering applications. Soft Matter 9:
+3705–3711, 2013. doi: 10.1039/c3sm27389j .
+38.Freeman FE, Kelly DJ. Tuning alginate bioink stiffness and composi-
+tion for controlled growth factor delivery and to spatially direct MSC fatewithin bioprinted tissues. Sci Rep 7: 17042, 2017. doi:
+10.1038/s41598-
+017-17286-1 .
+39.Galliger Z, Vogt CD, Panoskaltsis-Mortari A. 3D bioprinting for lungs
+and hollow organs. Transl Res 211: 19 –34, 2019. doi: 10.1016/j.trsl.2019.
+05.001 .
+40.Gao G, Kim BS, Jang J, Cho DW. Recent strategies in extrusion-based
+three-dimensional cell printing toward organ Biofabrication. ACS Biom-
+ater Sci Eng 5: 1150 –1169, 2019. doi: 10.1021/acsbiomaterials.8b00691 .
+41.Gao G, Park JY, Kim BS, Jang J, Cho DW. Coaxial cell printing of
+freestanding, perfusable, and functional in vitro vascular models forrecapitulation of native vascular endothelium pathophysiology. Adv
+Healthc Mater 7: e1801102, 2018. doi:
+10.1002/adhm.201801102 .
+42.Gao G, Yonezawa T, Hubbell K, Dai G, Cui X. Inkjet-bioprinted
+acrylated peptides and PEG hydrogel with human mesenchymal stemcells promote robust bone and cartilage formation with minimal print-head clogging. Biotechnol J 10: 1568 –1577, 2015. doi:
+10.1002/biot.
+201400635 .C477 BIOPRINTING STEM CELLS
+AJP-Cell Physiol •doi:10.1152/ajpcell.00124.2020 •www.ajpcell.org
+Downloaded from journals.physiology.org/journal/ajpcell (126.160.028.241) on May 6, 2024.
+43.Gao Q, He Y, Fu JZ, Liu A, Ma L. Coaxial nozzle-assisted 3D
+bioprinting with built-in microchannels for nutrients delivery. Biomate-
+rials 61: 203–215, 2015. doi: 10.1016/j.biomaterials.2015.05.031 .
+44.Gorgieva S, Kokol V. Collagen- vs. gelatine-based biomaterials and
+their biocompatibility: review and perspectives. In: Biomaterials Appli-
+cations for Nanomedicine . London: IntechOpen, 2011.
+45.Goulart E, de Caires-Junior LC, Telles-Silva KA, Araujo BHS,
+Rocco SA, Sforca M, de Sousa IL, Kobayashi GS, Musso CM, AssoniAF, Oliveira D, Caldini E, Raia S, Lelkes PI, Zatz M. 3D bioprinting
+of liver spheroids derived from human induced pluripotent stem cellssustain liver function and viability in vitro. Biofabrication 12: 015010,
+2019. doi:
+10.1088/1758-5090/ab4a30 .
+46.Grigoryan B, Paulsen SJ, Corbett DC, Sazer DW, Fortin CL, Zaita
+AJ, Greenﬁeld PT, Calafat NJ, Gounley JP, Ta AH, Johansson F,Randles A, Rosenkrantz JE, Louis-Rosenberg JD, Galie PA, StevensKR, Miller JS. Multivascular networks and functional intravascular
+topologies within biocompatible hydrogels. Science 364: 458 –464, 2019.
+doi:
+10.1126/science.aav9750 .
+47.Gu Q, Tomaskovic-Crook E, Wallace GG, Crook JM. 3D bioprinting
+human induced pluripotent stem cell constructs for in situ cell prolifer-ation and successive multilineage differentiation. Adv Healthc Mater 6:
+1700175, 2017. doi:
+10.1002/adhm.201700175 .
+48.Guillotin B, Souquet A, Catros S, Duocastella M, Pippenger B,
+Bellance S, Bareille R, Rémy M, Bordenave L, Amédée J, GuillemotF.Laser assisted bioprinting of engineered tissue with high cell density
+and microscale organization. Biomaterials 31: 7250 –7256, 2010. doi:
+10.
+1016/j.biomaterials.2010.05.055 .
+49.Han W, Singh NK, Kim JJ, Kim H, Kim BS, Park JY, Jang J, Cho
+DW. Directed differential behaviors of multipotent adult stem cells from
+decellularized tissue/organ extracellular matrix bioinks. Biomaterials
+224: 119496, 2019. doi: 10.1016/j.biomaterials.2019.119496 .
+50.Hewes S, Wong AD, Searson PC. Bioprinting microvessels using an
+inkjet printer. Bioprinting 7: 14 –18, 2017. doi: 10.1016/j.bprint.2017.05.
+002.
+51.Hirst SJ. Airway smooth muscle cell culture: application to studies of
+airway wall remodelling and phenotype plasticity in asthma. Eur Respir
+J9: 808 –820, 1996. doi: 10.1183/09031936.96.09040808 .
+52.Hölzl K, Lin S, Tytgat L, Van Vlierberghe S, Gu L, Ovsianikov A.
+Bioink properties before, during and after 3D bioprinting. Biofabrication
+8: 032002, 2016. doi: 10.1088/1758-5090/8/3/032002 .
+53.Homan KA, Kolesky DB, Skylar-Scott MA, Herrmann J, Obuobi H,
+Moisan A, Lewis JA. Bioprinting of 3D convoluted renal proximal
+tubules on perfusable chips. Sci Rep 6: 34845, 2016. doi: 10.1038/
+srep34845 .
+54.Hyde DM, Hamid Q, Irvin CG. Anatomy, pathology, and physiology of
+the tracheobronchial tree: emphasis on the distal airways. J Allergy Clin
+Immunol 124, Suppl : S72–S77, 2009. doi: 10.1016/j.jaci.2009.08.048 .
+55.Idaszek J, Costantini M, Karlsen TA, Jaroszewicz J, Colosi C, Testa
+S, Fornetti E, Bernardini S, Seta M, Kasarełło K, Wrzesien ´R ,
+Cannata S, Barbetta A, Gargioli C, Brinchman JE, S ´wie˛szkowski W.
+3D bioprinting of hydrogel constructs with cell and material gradients forthe regeneration of full-thickness chondral defect using a microﬂuidicprinting head. Biofabrication 11: 044101, 2019. doi:
+10.1088/1758-5090/
+ab2622 .
+56.Jang J, Kim TG, Kim BS, Kim SW, Kwon SM, Cho DW. Tailoring
+mechanical properties of decellularized extracellular matrix bioink byvitamin B
+2-induced photo-crosslinking. Acta Biomater 33: 88 –95, 2016.
+doi:10.1016/j.actbio.2016.01.013 .
+57.Jang J, Park HJ, Kim SW, Kim H, Park JY, Na SJ, Kim HJ, Park
+MN, Choi SH, Park SH, Kim SW, Kwon SM, Kim PJ, Cho DW. 3D
+printed complex tissue construct using stem cell-laden decellularizedextracellular matrix bioinks for cardiac repair. Biomaterials 112: 264 –
+274, 2017. doi:
+10.1016/j.biomaterials.2016.10.026 .
+58.Johnson BN, Lancaster KZ, Zhen G, He J, Gupta MK, Kong YL,
+Engel EA, Krick KD, Ju A, Meng F, Enquist LW, Jia X, McAlpineMC. 3D printed anatomical nerve regeneration pathways. Adv Funct
+Mater 25: 6205–6217, 2015. doi:
+10.1002/adfm.201501760 .
+59.Jun Y, Kim MJ, Hwang YH, Jeon EA, Kang AR, Lee SH, Lee DY.
+Microﬂuidics-generated pancreatic islet microﬁbers for enhanced im-munoprotection. Biomaterials 34: 8122–8130, 2013. doi:
+10.1016/j.
+biomaterials.2013.07.079 .
+60.Juza RM, Pauli EM. Clinical and surgical anatomy of the liver: a review
+for clinicians. Clin Anat 27: 764 –769, 2014. doi: 10.1002/ca.22350 .61.Kanczler JM, Oreffo ROC. Osteogenesis and angiogenesis: the poten-
+tial for engineering bone. Eur Cell Mater 15: 100 –114, 2008. doi: 10.
+22203/eCM.v015a08 .
+62.Kang HW, Lee SJ, Ko IK, Kengla C, Yoo JJ, Atala A. A3 D
+bioprinting system to produce human-scale tissue constructs with struc-tural integrity. Nat Biotechnol 34: 312–319, 2016. doi:
+10.1038/nbt.3413 .
+63.Karagiannis P, Takahashi K, Saito M, Yoshida Y, Okita K, Wa-
+tanabe A, Inoue H, Yamashita JK, Todani M, Nakagawa M, OsawaM, Yashiro Y, Yamanaka S, Osafune K. Induced pluripotent stem cells
+and their use in human models of disease and development. Physiol Rev
+99: 79 –114, 2019. doi:
+10.1152/physrev.00039.2017 .
+64.Kaushik G, Leijten J, Khademhosseini A. Concise review: organ
+engineering: design, technology, and integration. Stem Cells 35: 51–60,
+2017. doi: 10.1002/stem.2502 .
+65.Keriquel V, Oliveira H, Rémy M, Ziane S, Delmond S, Rousseau B,
+Rey S, Catros S, Amédée J, Guillemot F, Fricain JC. In situ printing
+of mesenchymal stromal cells, by laser-assisted bioprinting, for in vivobone regeneration applications. Sci Rep 7: 1778, 2017. doi:
+10.1038/
+s41598-017-01914-x .
+66.Kérourédan O, Hakobyan D, Rémy M, Ziane S, Dusserre N, Fricain
+J-C, Delmond S, Thébaud NB, Devillard R. In situ prevascularization
+designed by laser-assisted bioprinting: effect on bone regeneration.Biofabrication 11: 045002, 2019. doi:
+10.1088/1758-5090/ab2620 .
+67.Kim BS, Kwon YW, Kong JS, Park GT, Gao G, Han W, Kim MB,
+Lee H, Kim JH, Cho DW. 3D cell printing of in vitro stabilized skin
+model and in vivo pre-vascularized skin patch using tissue-speciﬁcextracellular matrix bioink: A step towards advanced skin tissue engi-neering. Biomaterials 168: 38 –53, 2018. doi:
+10.1016/j.biomaterials.
+2018.03.040 .
+68.Kim JH, Kim I, Seol Y-J, Ko IK, Yoo JJ, Atala A, Lee SJ. Neural cell
+integration into 3D bioprinted skeletal muscle constructs acceleratesrestoration of muscle function. Nat Commun 11: 1025, 2020. doi:
+10.
+1038/s41467-020-14930-9 .
+69.Kim JH, Seol YJ, Ko IK, Kang HW, Lee YK, Yoo JJ, Atala A, Lee
+SJ.3D bioprinted human skeletal muscle constructs for muscle function
+restoration. Sci Rep 8: 12307, 2018. doi: 10.1038/s41598-018-29968-5 .
+70.King SM, Higgins JW, Nino CR, Smith TR, Paffenroth EH, Fair-
+bairn CE, Docuyanan A, Shah VD, Chen AE, Presnell SC, NguyenDG. 3D proximal tubule tissues recapitulate key aspects of renal phys-
+iology to enable nephrotoxicity testing. Front Physiol 8: 123, 2017.
+doi:
+10.3389/fphys.2017.00123 .
+71.Kirby ML, Waldo KL. Molecular embryogenesis of the heart. Pediatr
+Dev Pathol 5: 516 –543, 2002. doi: 10.1007/s10024-002-0004-2 .
+72.Klebe RJ. Cytoscribing: a method for micropositioning cells and the
+construction of two- and three-dimensional synthetic tissues. Exp Cell
+Res179: 362–373, 1988. doi: 10.1016/0014-4827(88)90275-3 .
+73.Koch L, Kuhn S, Sorg H, Gruene M, Schlie S, Gaebel R, Polchow B,
+Reimers K, Stoelting S, Ma N, Vogt PM, Steinhoff G, Chichkov B.Laser printing of skin cells and human stem cells. Tissue Eng Part C
+Methods 16: 847–854, 2010. doi:
+10.1089/ten.tec.2009.0397 .
+74.Kocˇí Z, Sridharan R, Hibbitts AJ, Kneafsey SL, Kearney CJ,
+O’Brien FJ. The use of genipin as an effective, biocompatible, anti-
+inﬂammatory cross-linking method for nerve guidance conduits. Adv
+Biosyst 4: e1900212, 2020. doi: 10.1002/adbi.201900212 .
+75.Kolesky DB, Homan KA, Skylar-Scott MA, Lewis JA. Three-dimen-
+sional bioprinting of thick vascularized tissues. Proc Natl Acad Sci USA
+113: 3179 –3184, 2016. doi: 10.1073/pnas.1521342113 .
+76.Kolesky DB, Truby RL, Gladman AS, Busbee TA, Homan KA,
+Lewis JA. 3D bioprinting of vascularized, heterogeneous cell-laden
+tissue constructs. Adv Mater 26: 3124 –3130, 2014. doi: 10.1002/adma.
+201305506 .
+77.Kosik-Kozioł A, Costantini M, Mróz A, Idaszek J, Heljak M, Jaro-
+szewicz J, Kijen ´ska E, Szöke K, Frerker N, Barbetta A, Brinchmann
+JE, S ´wie˛szkowski W. 3D bioprinted hydrogel model incorporating
+/H9252-tricalcium phosphate for calciﬁed cartilage tissue engineering. Biofab-
+rication 11: 035016, 2019. doi: 10.1088/1758-5090/ab15cb .
+78.Langer R, Vacanti JP. Tissue engineering. Science 260: 920 –926,
+1993. doi: 10.1126/science.8493529 .
+79.Lee A, Hudson AR, Shiwarski DJ, Tashman JW, Hinton TJ, Yerneni
+S, Bliley JM, Campbell PG, Feinberg AW. 3D bioprinting of collagen
+to rebuild components of the human heart. Science 365: 482–487, 2019.
+doi:10.1126/science.aav9051 .
+80.Lee C, Abelseth E, de la Vega L, Willerth SM. Bioprinting a novel
+glioblastoma tumor model using a ﬁbrin-based bioink for drug screening.C478 BIOPRINTING STEM CELLS
+AJP-Cell Physiol •doi:10.1152/ajpcell.00124.2020 •www.ajpcell.org
+Downloaded from journals.physiology.org/journal/ajpcell (126.160.028.241) on May 6, 2024.
+Mater Today Chem 12: 78 –84, 2019. doi: 10.1016/j.mtchem.2018.12.
+005.
+81.Lee H, Han W, Kim H, Ha DH, Jang J, Kim BS, Cho DW.
+Development of liver decellularized extracellular matrix bioink for three-dimensional cell printing-based liver tissue engineering. Biomacromol-
+ecules 18: 1229 –1237, 2017. doi:
+10.1021/acs.biomac.6b01908 .
+82.Lemmo AV, Rose DJ, Tisone TC. Inkjet dispensing technology: appli-
+cations in drug discovery. Curr Opin Biotechnol 9: 615–617, 1998.
+doi:10.1016/S0958-1669(98)80139-0 .
+83.Levin M. The wisdom of the body: future techniques and approaches to
+morphogenetic ﬁelds in regenerative medicine, developmental biologyand cancer. Regen Med 6: 667–673, 2011. doi:
+10.2217/rme.11.69 .
+84.Lim KS, Klotz BJ, Lindberg GCJ, Melchels FPW, Hooper GJ,
+Malda J, Gawlitta D, Woodﬁeld TBF. Visible light cross-linking of
+gelatin hydrogels offers an enhanced cell microenvironment with im-proved light penetration depth. Macromol Biosci 19: e1900098, 2019.
+doi:
+10.1002/mabi.201900098 .
+85.Liu W, Heinrich MA, Zhou Y, Akpek A, Hu N, Liu X, Guan X,
+Zhong Z, Jin X, Khademhosseini A, Zhang YS. Extrusion bioprinting
+of shear-thinning gelatin methacryloyl bioinks. Adv Healthc Mater 6:
+1601451, 2017. doi: 10.1002/adhm.201601451 .
+86.Liu W, Zhang YS, Heinrich MA, De Ferrari F, Jang HL, Bakht SM,
+Alvarez MM, Yang J, Li YC, Trujillo-de Santiago G, Miri AK, ZhuK, Khoshakhlagh P, Prakash G, Cheng H, Guan X, Zhong Z, Ju J,Zhu GH, Jin X, Shin SR, Dokmeci MR, Khademhosseini A. Rapid
+continuous multimaterial extrusion bioprinting. Adv Mater 29: 1–8, 2017.
+doi:
+10.1002/adma.201604630 .
+87.Lopa S, Colombini A, Moretti M, de Girolamo L. Injective mesen-
+chymal stem cell-based treatments for knee osteoarthritis: from mecha-nisms of action to current clinical evidences. Knee Surg Sports Trauma-
+tol Arthrosc 27: 2003–2020, 2019. doi:
+10.1007/s00167-018-5118-9 .
+88.Lozano R, Stevens L, Thompson BC, Gilmore KJ, Gorkin R III,
+Stewart EM, in het Panhuis M, Romero-Ortega M, Wallace GG.3D printing of layered brain-like structures using peptide modiﬁedgellan gum substrates. Biomaterials 67: 264 –273, 2015. doi:
+10.1016/
+j.biomaterials.2015.07.022 .
+89.Lutolf MP, Gilbert PM, Blau HM. Designing materials to direct
+stem-cell fate. Nature 462: 433–441, 2009. doi: 10.1038/nature08602 .
+90.Maiullari F, Costantini M, Milan M, Pace V, Chirivì M, Maiullari S,
+Rainer A, Baci D, Marei HES, Seliktar D, Gargioli C, Bearzi C, RizziR.A multi-cellular 3D bioprinting approach for vascularized heart tissue
+engineering based on HUVECs and iPSC-derived cardiomyocytes. Sci
+Rep 8: 13532, 2018. doi:
+10.1038/s41598-018-31848-x .
+91.Mehrotra S, de Melo BAG, Hirano M, Keung W, Li RA, Mandal BB,
+Shin SR. Nonmulberry silk based ink for fabricating mechanically robust
+cardiac patches and endothelialized myocardium-on-a-chip application.Adv Funct Mater 30: 1907436, 2020. doi:
+10.1002/adfm.201907436 .
+92.Mekhileri NV, Lim KS, Brown GCJ, Mutreja I, Schon BS, Hooper
+GJ, Woodﬁeld TBF. Automated 3D bioassembly of micro-tissues for
+biofabrication of hybrid tissue engineered constructs. Biofabrication 10:
+024103, 2018. doi: 10.1088/1758-5090/aa9ef1 .
+93.Memic A, Navaei A, Mirani B, Cordova JAV, Aldhahri M, Dola-
+tshahi-Pirouz A, Akbari M, Nikkhah M. Bioprinting technologies for
+disease modeling. Biotechnol Lett 39: 1279 –1290, 2017. doi: 10.1007/
+s10529-017-2360-z .
+94.Miri AK, Mostafavi E, Khorsandi D, Hu S-K, Malpica M, Khadem-
+hosseini A. Bioprinters for organs-on-chips. Biofabrication 11: 042002,
+2019. doi: 10.1088/1758-5090/ab2798 .
+95.Mukund K, Subramaniam S. Skeletal muscle: a review of molecular
+structure and function, in health and disease. Wiley Interdiscip Rev Syst
+Biol Med 12: e1462, 2020. doi: 10.1002/wsbm.1462 .
+96.Murphy SV, Atala A. 3D bioprinting of tissues and organs. Nat
+Biotechnol 32: 773–785, 2014. doi: 10.1038/nbt.2958 .
+97.Nguyen D, Hägg DA, Forsman A, Ekholm J, Nimkingratana P,
+Brantsing C, Kalogeropoulos T, Zaunz S, Concaro S, Brittberg M,Lindahl A, Gatenholm P, Enejder A, Simonsson S. Cartilage tissue
+engineering by the 3D bioprinting of iPS cells in a nanocellulose/alginatebioink. Sci Rep 7: 658, 2017. doi:
+10.1038/s41598-017-00690-y .
+98.Nguyen DG, Funk J, Robbins JB, Crogan-Grundy C, Presnell SC,
+Singer T, Roth AB. Bioprinted 3D primary liver tissues allow assess-
+ment of organ-level response to clinical drug induced toxicity in vitro.PLoS One 11: e0158674, 2016. doi:
+10.1371/journal.pone.0158674 .
+99.Nie M, Takeuchi S. Bottom-up biofabrication using microﬂuidic tech-
+niques. Biofabrication 10: 044103, 2018. doi: 10.1088/1758-5090/aadef9 .100. Ning L, Chen X. A brief review of extrusion-based tissue scaffold
+bio-printing. Biotechnol J 12: 1600671, 2017. doi: 10.1002/biot.
+201600671 .
+101. Noor N, Shapira A, Edri R, Gal I, Wertheim L, Dvir T. 3D printing
+of personalized thick and perfusable cardiac patches and hearts. Adv Sci
+(Weinh) 6: 1900344, 2019. doi: 10.1002/advs.201900344 .
+102. Okamoto T, Suzuki T, Yamamoto N. Microarray fabrication with
+covalent attachment of DNA using bubble jet technology. Nat Biotechnol
+18: 438 –441, 2000. doi: 10.1038/74507 .
+103. Ong CS, Fukunishi T, Zhang H, Huang CY, Nashed A, Blazeski A,
+DiSilvestre D, Vricella L, Conte J, Tung L, Tomaselli GF, Hibino N.Biomaterial-free three-dimensional bioprinting of cardiac tissue usinghuman induced pluripotent stem cell derived cardiomyocytes. Sci Rep 7:
+4566, 2017. doi:
+10.1038/s41598-017-05018-4 .
+104. Ostrovidov S, Salehi S, Costantini M, Suthiwanich K, Ebrahimi M,
+Sadeghian RB, Fujie T, Shi X, Cannata S, Gargioli C, Tamayol A,Dokmeci MR, Orive G, Swieszkowski W, Khademhosseini A. 3D
+bioprinting in skeletal muscle tissue engineering. Small 15: e1805530,
+2019. doi:
+10.1002/smll.201805530 .
+105. Ouyang L, Yao R, Chen X, Na J, Sun W. 3D printing of HEK 293FT
+cell-laden hydrogel into macroporous constructs with high cell viabilityand normal biological functions. Biofabrication 7: 015010, 2015. doi:
+10.
+1088/1758-5090/7/1/015010 .
+106. Palazzolo G, Moroni M, Soloperto A, Aletti G, Naldi G, Vassalli M,
+Nieus T, Difato F. Fast wide-volume functional imaging of engineered
+in vitro brain tissues. Sci Rep 7: 8499, 2017. doi: 10.1038/s41598-017-
+08979-8 .
+107. Panwar A, Tan LP. Current status of bioinks for micro-extrusion-based 3D
+bioprinting. Molecules 21: 685, 2016. doi: 10.3390/molecules21060685 .
+108. Park JA, Yoon S, Kwon J, Now H, Kim YK, Kim WJ, Yoo JY, Jung
+S.Freeform micropatterning of living cells into cell culture medium
+using direct inkjet printing. Sci Rep 7: 14610, 2017 [Erratum in Sci Rep
+8: 1669, 2018]. doi: 10.1038/s41598-017-14726-w .
+109. Park S, Im GI. Embryonic stem cells and induced pluripotent stem cells
+for skeletal regeneration. Tissue Eng Part B Rev 20: 381–391, 2014.
+doi:10.1089/ten.teb.2013.0530 .
+110. Pashneh-Tala S, MacNeil S, Claeyssens F. The tissue-engineered
+vascular graft, Past, present, and future. Tissue Eng Part B Rev 22:
+68 –100, 2016. doi: 10.1089/ten.teb.2015.0100 .
+111. Patan S. Vasculogenesis and angiogenesis. Cancer Treat Res 117: 3–32,
+2004. doi: 10.1007/978-1-4419-8871-3_1 .
+112. Pati F, Jang J, Ha DH, Won Kim S, Rhie JW, Shim JH, Kim DH,
+Cho DW. Printing three-dimensional tissue analogues with decellular-
+ized extracellular matrix bioink. Nat Commun 5: 3935, 2014. doi: 10.
+1038/ncomms4935 .
+113. Pawar SN, Edgar KJ. Alginate derivatization: a review of chemistry,
+properties and applications. Biomaterials 33: 3279 –3305, 2012. doi: 10.
+1016/j.biomaterials.2012.01.007 .
+114. Perry SF. “Alveolar septal structure in different species”. J Appl Physiol
+(1985) 77: 1049 –1050, 1994. doi: 10.1152/jappl.1994.77.3.1049 .
+115. Petta D, Armiento AR, Grijpma D, Alini M, Eglin D, D’Este M. 3D
+bioprinting of a hyaluronan bioink through enzymatic-and visible light-crosslinking. Biofabrication 10: 044104, 2018. doi:
+10.1088/1758-5090/
+aadf58 .
+116. Piard C, Jeyaram A, Liu Y, Caccamese J, Jay SM, Chen Y, Fisher J.
+3D printed HUVECs/MSCs cocultures impact cellular interactions andangiogenesis depending on cell-cell distance. Biomaterials 222: 119423,
+2019. doi:
+10.1016/j.biomaterials.2019.119423 .
+117. Pimentel C R, Ko SK, Caviglia C, Wolff A, Emnéus J, Keller SS,
+Dufva M. Three-dimensional fabrication of thick and densely populated
+soft constructs with complex and actively perfused channel network.Acta Biomater 65: 174 –184, 2018. doi:
+10.1016/j.actbio.2017.10.047 .
+118. Rider P, Kac ˇarevic ´ ŽP, Alkildani S, Retnasingh S, Barbeck M. Bioprinting
+of tissue engineering scaffolds. J Tissue Eng 9: 2041731418802090, 2018.
+doi:10.1177/2041731418802090 .
+119. Roth EA, Xu T, Das M, Gregory C, Hickman JJ, Boland T. Inkjet
+printing for high-throughput cell patterning. Biomaterials 25: 3707–
+3715, 2004. doi: 10.1016/j.biomaterials.2003.10.052 .
+120. Sasmal P, Datta P, Wu Y, Ozbolat IT. 3D bioprinting for modelling
+vasculature. Microphysiol Syst 2: 9, 2018. doi: 10.21037/mps.2018.10.02 .
+121. Schöneberg J, De Lorenzi F, Theek B, Blaeser A, Rommel D, Kuehne
+AJC, Kießling F, Fischer H. Engineering biofunctional in vitro vessel
+models using a multilayer bioprinting technique. Sci Rep 8: 10430, 2018.
+doi:10.1038/s41598-018-28715-0 .C479 BIOPRINTING STEM CELLS
+AJP-Cell Physiol •doi:10.1152/ajpcell.00124.2020 •www.ajpcell.org
+Downloaded from journals.physiology.org/journal/ajpcell (126.160.028.241) on May 6, 2024.
+122. Sellaro TL, Ranade A, Faulk DM, McCabe GP, Dorko K, Badylak
+SF, Strom SC. Maintenance of human hepatocyte function in vitro by
+liver-derived extracellular matrix gels. Tissue Eng Part A 16: 1075–1082,
+2010. doi: 10.1089/ten.tea.2008.0587 .
+123. Skylar-Scott MA, Uzel SGM, Nam LL, Ahrens JH, Truby RL,
+Damaraju S, Lewis JA. Biomanufacturing of organ-speciﬁc tissues with
+high cellular density and embedded vascular channels. Sci Adv 5:
+eaaw2459, 2019. doi: 10.1126/sciadv.aaw2459 .
+124. Solis LH, Ayala Y, Portillo S, Varela-Ramirez A, Aguilera R, Boland
+T.Thermal inkjet bioprinting triggers the activation of the VEGF
+pathway in human microvascular endothelial cells in vitro. Biofabrica-
+tion 11: 045005, 2019. doi: 10.1088/1758-5090/ab25f9 .
+125. Sorkio A, Koch L, Koivusalo L, Deiwick A, Miettinen S, Chichkov B,
+Skottman H. Human stem cell based corneal tissue mimicking structures
+using laser-assisted 3D bioprinting and functional bioinks. Biomaterials
+171: 57–71, 2018. doi: 10.1016/j.biomaterials.2018.04.034 .
+126. Stevens LR, Gilmore KJ, Wallace GG, In Het Panhuis M. Tissue
+engineering with gellan gum. Biomater Sci 4: 1276 –1290, 2016. doi: 10.
+1039/C6BM00322B .
+127. Swieszkowski W, Dokmeci MR, Khademhosseini A. Microﬂuidics in
+biofabrication. Biofabrication 12: 030201, 2020. doi: 10.1088/1758-
+5090/ab7e75 .
+128. Tabriz AG, Hermida MA, Leslie NR, Shu W. Three-dimensional
+bioprinting of complex cell laden alginate hydrogel structures. Biofabri-
+cation 7: 045012, 2015. doi: 10.1088/1758-5090/7/4/045012 .
+129. Takahashi K, Tanabe K, Ohnuki M, Narita M, Ichisaka T, Tomoda
+K, Yamanaka S. Induction of pluripotent stem cells from adult human
+ﬁbroblasts by deﬁned factors. Cell 131: 861–872, 2007. doi: 10.1016/j.
+cell.2007.11.019 .130. Taniguchi D, Matsumoto K, Tsuchiya T, Machino R, Takeoka Y,
+Elgalad A, Gunge K, Takagi K, Taura Y, Hatachi G, Matsuo N,Yamasaki N, Nakayama K, Nagayasu T. Scaffold-free trachea regen-
+eration by tissue engineering with bio-3D printing. Interact Cardiovasc
+Thorac Surg 26: 745–752, 2018. doi:
+10.1093/icvts/ivx444 .
+131. Tomasina C, Bodet T, Mota C, Moroni L, Camarero-Espinosa S.
+Bioprinting vasculature: materials, cells and emergent techniques. Mate-
+rials (Basel) 12: 2701, 2019. doi: 10.3390/ma12172701 .
+133. Weiner S, Wagner HD. The material bone: Structure-mechanical func-
+tion relations. Annu Rev Mater Sci 28: 271–298, 1998. doi: 10.1146/
+annurev.matsci.28.1.271 .
+134. Woodruff PG, Fahy JV. Asthma: prevalence, pathogenesis, and pros-
+pects for novel therapies. JAMA 286: 395–398, 2001. doi: 10.1001/jama.
+286.4.395 .
+135. Wu W, DeConinck A, Lewis JA. Omnidirectional printing of 3D
+microvascular networks. Adv Mater 23: H178 –H183, 2011. doi: 10.1002/
+adma.201004625 .
+136. Xu T, Gregory CA, Molnar P, Cui X, Jalota S, Bhaduri SB, Boland
+T.Viability and electrophysiology of neural cell structures generated by
+the inkjet printing method. Biomaterials 27: 3580 –3588, 2006. doi: 10.
+1016/j.biomaterials.2006.01.048 .
+137. Xu T, Jin J, Gregory C, Hickman JJ, Boland T. Inkjet printing of
+viable mammalian cells. Biomaterials 26: 93–99, 2005. doi: 10.1016/j.
+biomaterials.2004.04.011 .
+138. Yamasaki A, Kunitomi Y, Murata D, Sunaga T, Kuramoto T,
+Sogawa T, Misumi K. Osteochondral regeneration using constructs of
+mesenchymal stem cells made by bio three-dimensional printing inmini-pigs. J Orthop Res 37: 1398 –1408, 2019. doi:
+10.1002/jor.24206 .
+C480 BIOPRINTING STEM CELLS
+AJP-Cell Physiol •doi:10.1152/ajpcell.00124.2020 •www.ajpcell.org
+Downloaded from journals.physiology.org/journal/ajpcell (126.160.028.241) on May 6, 2024.

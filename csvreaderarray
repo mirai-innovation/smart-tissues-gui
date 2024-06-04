@@ -1,19 +1,13 @@
-import csv
+oracion = "La bioimpresión es una técnica avanzada que se utiliza en la medicina regenerativa."
+lista_palabras = ["bioimpresión", "técnica", "avanzada", "medicina", "genética"]
 
-filename = "smarttissues\smts\static\database.csv"
+# Dividir la oración en palabras
+palabras_oracion = oracion.split()
 
-bio = input("nombre del tejido \n")
-x=0
-results = []
-cells =[]
-with open(filename, 'r', encoding='cp932', errors='ignore') as csvfile:
-    reader = csv.reader(csvfile ) # change contents to floattissiues
-    for row in reader: # each row is a list
-        cells.append(row[15])
-        if row[15] == (bio):
-            x += 1
-            results = row
-            print(x,row)
-    for i in cells:
-        print(cells)
-        
+# Verificar si las palabras de la lista existen en la oración
+palabras_encontradas = [palabra for palabra in lista_palabras if palabra in palabras_oracion]
+palabras_no_encontradas = [palabra for palabra in lista_palabras if palabra not in palabras_oracion]
+
+# Mostrar los resultados
+print(f"Palabras encontradas: {palabras_encontradas}")
+print(f"Palabras no encontradas: {palabras_no_encontradas}")
