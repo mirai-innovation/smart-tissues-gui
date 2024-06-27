@@ -1,0 +1,11 @@
+
+ sntsplit:
+HHSs were subject to a static condition without mechanical stimu- lation within 4 s in cell suspension (1 × 106cells/mL), or a cycle of compression- recovery within 4 s at 80% strain in hBMSCs cell suspension (1 × 106cells/mL) under a dynamic condition.
+ sntsplit:
+cSchematic diagram ( i),ﬂuorescence images ( ii) and quantitative analysis (iii) of cell loading into HHSs in hBMSCs cell suspension (1 × 10 6cells/mL), which were controlled by various compression strains (20%, 40%, 60% and 80%), n=5 , *P= 0.0446 (20% and 40%), *** P=0 .
+ sntsplit:
+dSchematic diagram ( i),ﬂuorescence images ( ii) and quantitative analysis ( iii) of cell loading into HHSs in hBMSCs cell suspension(5 × 106cells/mL), which were controlled by number of cycles (1, 3, 5, and 10), n=8 , ***P< 0.001.
+ sntsplit:
+Firstly, two approaches were used: The ﬁrst one was direct immersion of HHSs in hBMSCs cell suspension (1 × 106cells/mL) for 4 s under a static condition; while the second one utilized acompression-recovery cycle in hBMSCs cell suspension under 80% strain within 4 s ( V 1-mechanical response).
+ sntsplit:
+The number of cells loaded into HHSs were quanti ﬁed by ImageJ. Subsequently, the in ﬂuence of compression displacement (20%, 40%, 60%, and 80%) in hBMSCs cell suspension (1 × 10 6cells/mL) and cycle times (1, 3, 5, and 10) under 40% compression displacementin hBMSCs cell suspension (5 × 10 5cells/mL) on cell loading of HHSs were also evaluated respectively.

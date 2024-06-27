@@ -1,0 +1,608 @@
+journal of the mechanical behavior of biomedical materials 130 (2022) 105219
+Available online 6 April 2022
+1751-6161/© 2022 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ).Mechanical properties of polycaprolactone (PCL) scaffolds for hybrid 
+3D-bioprinting with alginate-gelatin hydrogel 
+Fritz Kocha,b,*, Ole Thadena, Stefan Conradb, Kevin Trondlea, Günter Finkenzellerc, 
+Roland Zengerlea,d, Sabrina Kartmanna,d, Stefan Zimmermanna, Peter Koltaya,b 
+aLaboratory for MEMS Applications, IMTEK - Department of Microsystems Engineering, University of Freiburg, Georges-Koehler-Allee 103, D-79110, Freiburg, Germany 
+bFreiburg Center for Interactive Materials and Bioinspired Technologies (FIT), University of Freiburg, Georges-Koehler-Allee 105, D-79110, Freiburg, Germany 
+cDepartment of Plastic and Hand Surgery, Medical Center - University of Freiburg, Faculty of Medicine, University of Freiburg, Hugstetterstra ße 55, D-79106, Freiburg, 
+Germany 
+dHahn-Schickard, Georges-Koehler-Allee 103, D-79110, Freiburg, Germany   
+ARTICLE INFO  
+Keywords: 
+Bioprinting 
+Mechanical stability 
+3D printer 
+PCL Reconstruction 
+Hybrid process 
+Process development ABSTRACT  
+The generation of artificial human tissue by 3D-bioprinting has expanded significantly as a clinically relevant 
+research topic in recent years. However, to produce a complex and viable tissue, in-depth biological under -
+standing and advanced printing techniques are required with a high number of process parameters. Here, we 
+systematically evaluate the process parameters relevant for a hybrid bioprinting process based on fused- 
+deposition modeling (FDM) of thermoplastic material and microextrusion of a cell-laden hydrogel. First, we 
+investigated the effect of the printing temperature of polycaprolactone (PCL), on the junction strength between 
+individual fused filaments and on the viability of immortalized mesenchymal stem cells (iMSC) in the sur-
+rounding alginate-gelatin-hydrogel. It was found that a printing temperature of 140 •C and bonds with an angle 
+of 90•between the filaments provided a good compromise between bonding strength of the filaments and the 
+viability of the surrounding cells. Using these process parameters obtained from individual fused filaments, we 
+then printed cubic test structures with a volume of 10 ×10 ×10 mm3 with different designs of infill patterns. 
+The variations in mechanical strength of these cubes were measured for scaffolds made of PCL-only as well as for 
+hydrogel-filled PCL scaffolds printed by alternating hybrid bioprinting of PCL and hydrogel, layer by layer. The 
+bare scaffolds showed a compressive modulus of up to 6 MPa, close to human hard tissue, that decreased to about 
+4 MPa when PCL was printed together with hydrogel. The scaffold design suited best for hybrid printing was 
+incubated with cell-laden hydrogel and showed no degradation of its mechanical strength for up to 28 days.   
+1.Introduction 
+3D-bioprinting has become a significant research area in the last 
+years and shows great potential for future applications in regenerative 
+medicine (Cui et al., 2017 ; Keriquel et al., 2010 ; Murphy and Atala, 
+2014 ) and in vitro models (Arslan-Yildiz et al., 2016 ; Mandrycky et al., 
+2016 ). For both applications, extrusion-based bioprinting is with 76% 
+the most frequently reported bioprinting technology (Pedroza-Gonz ˘alez 
+et al., 2021 ) to print cells and other biomaterials (Choudhury et al., 
+2018 ) (Ozbolat and Hospodiuk, 2016 ). Its low cost and ease of use are 
+particularly advantageous compared to, for example, laser-based 
+methods (Guillotin et al., 2010 ; Seol et al., 2014 ). Compared to drop-on-demand bioprinting, where low viscous fluids are printed as 
+droplets (Binder et al., 2011 ; Troendle et al., 2021 ), a compromise of 
+mechanically stable biomaterials is found that allows printing into the 
+third dimension while ensuring sufficient cell viability (Heid and Boc-
+caccini, 2020 ; Malda et al., 2013 ). 
+Although the processes and materials for extrusion-based bioprinting 
+are becoming more and more advanced, the mechanical stabilities of 
+hydrogels are still far from those of human hard tissue. One way to 
+improve mechanical stability without reducing cell viability by 
+increased hydrogel stiffness is to decouple the mechanical and biological 
+requirements. This can be achieved by combining several materials in a 
+multi-material bioprinting process referred to also as hybrid bioprinting 
+*Corresponding author. Laboratory for MEMS Applications, IMTEK - Department of Microsystems Engineering, University of Freiburg, Georges-Koehler-Allee 103, 
+D-79110, Freiburg, Germany. 
+E-mail address: fritz.koch@imtek.uni-freiburg.de (F. Koch).  
+Contents lists available at ScienceDirect 
+Journal of the Mechanical Behavior of Biomedical Materials 
+u{�~zkw! s{yo|kro>! ÐÐÐ1ow�o �to~1m{y2w{m k�o2uylly!
+https://doi.org/10.1016/j.jmbbm.2022.105219 
+Received 4 November 2021; Received in revised form 22 December 2021; Accepted 2 April 2022   Journal of the Mechanical Behavior of Biomedical Materials 130 (2022) 105219
+2process. For this purpose, a stiff material that supports the mechanical 
+load can be combined with a softer material that serves as an extracel -
+lular matrix (Kang et al., 2016 ; Ruiz-Cantu et al., 2020 ). 
+Polycaprolactone (PCL) is a biodegradable polymer that has been 
+extensively studied in the biomedical field due to its excellent me-
+chanical stability and bio-compatibility (Endres et al., 2003 ; Schage -
+mann et al., 2010 ). A broad use of PCL has already been reported for 
+fabrication of scaffolds for a wide range of tissues, such as nerve (Ciar-
+delli and Chiono, 2006 ; Woodruff and Hutmacher, 2010 ), cartilage 
+(Alves da Silva, M L et al., 2010 ; Woodruff and Hutmacher, 2010 ) and, 
+bone (Hutmacher et al., 2001 ; Ren et al., 2017 ; Woodruff and Hut-
+macher, 2010 ). Hutmacher (Hutmacher et al., 2001 ) and Zein (Zein 
+et al., 2002 ) were among the first groups to use fused deposition 
+modeling (FDM) to generate porous PCL scaffolds, which can be incu-
+bated with cells. They investigated the compression modulus and other 
+mechanical properties of the scaffolds and demonstrated the great po-
+tential of such PCL scaffolds for medical applications. Novel PCL-based 
+composite materials loaded with organic or inorganic fillers can help to 
+control mechanical properties and integrate further functionalities 
+(Maietta et al., 2018 ). Such hybrid PCL-based scaffolds have been shown 
+to be suitable for long-term in vitro cultivation of up to 4 weeks with 
+high stability (Lee et al., 2010 ). 
+For 3D-objects thicker than a few millimeters, it can also be of great 
+advantage to incorporate porosity in the printed scaffolds through 
+intercalated microchannels made of cell-laden hydrogel and PCL. The 
+remaining porosity allows for better diffusion in vitro and in vivo to 
+reduce tissue necrosis (Kang et al., 2016 ). For printing PCL in combi -
+nation with cell-laden hydrogel, shear-thinning rheological properties of 
+the hydrogel are desirable (Paxton et al., 2017 ). This allows the printing 
+of high viscous hydrogels with low shear stress. Immediately after 
+printing, the hydrogel should have maximum stability, and not disin-
+tegrate from its printed shape. 
+It has already been shown that compression moduli up to 6 MPa can 
+be achieved (Schuurman et al., 2011 ). This is in the range of natural 
+tissue, such as cartilage with 4.1 MPa (Woodfield et al., 2004 ) or trachea 
+with 3.3 MPa (Trabelsi et al., 2010 ). The molecular weight and filament 
+diameter of the PCL, the fiber orientation and the pore size were 
+important factors to influence the mechanical properties of printed 
+scaffolds. In general, an increase in porosity led to a decrease in elastic 
+properties (Moroni et al., 2006 ). 
+In summary, multi-material bioprinting processes have already been 
+used to fabricate tissue-like structures and demonstrated their added 
+value for regenerative medicine. However, multi-material bioprinting 
+requires the use of different printing technologies and biomaterials, 
+leading to increasingly complex and costly printing systems and pro-
+cesses. To enable such processes, we have equipped in our previous work 
+a low-cost open-source FDM 3D-printer with an additional syringe 
+extruder for the alternate processing of thermoplastics and cell-laden 
+hydrogels in a single process (Koch et al., 2021 ). However, the pro-
+cesses presented here can be implemented with any 3D bioprinter that 
+has at least one printhead for printing thermoplastics and one printhead 
+for extruding cell-laden hydrogels. The number of possible process 
+variations can increase exponentially with the number of different ma-
+terials and printing methods. In order to vary only relevant parameters, 
+a systematic investigation of the printing temperature as first parameter 
+can be helpful, because the FDM extrusion temperature affects both: the 
+bond strength between the filaments and the cell viability, alike. To 
+date, the printing temperature in hybrid-bioprinting has not been sys-
+tematically investigated regarding its influence on bond strength of 
+filament junctions and cell survival in the surrounding hydrogel. Mostly 
+only successful printing designs have been presented in the literature 
+(Kang et al., 2016 ; Schuurman et al., 2011 ) without showing how the 
+printing temperature and other parameters were optimized. 
+Here, we present a systematic investigation of the printing temper -
+ature of FDM-printed PCL on the mechanical compressibility and the cell 
+viability of the surrounding cells. First, fracture forces in simple PCL test structures were investigated in order to determine suitable printing 
+parameter settings. Based on these findings, four different infill patterns 
+were printed and evaluated for their mechanical strength as stability- 
+promoting porous PCL scaffolds when printed as bare structures from 
+PCL only and when combined with cell-laden alginate-gelatin hydrogel. 
+The mechanically most promising design was then used to investigate 
+the influence of hydrogel and incubation conditions on the mechanical 
+stability of the printed part after up to 28 day of incubation. The final use 
+case for such hybrid designs with high mechanical stability made from 
+PCL and cell laden hydrogels might be in the field of fabrication of 
+regenerative bone tissues as stability-promoting scaffolds or bone 
+replacement implants. 
+2.Materials and methods 
+2.1. Bioprinter and characterization 
+A commercial 3D-printer Prusa i3 MK3 from Prusa Research A.S 
+(Prague, Czech Republic) was used as a bioprinter platform. The FDM 
+printer was upgraded with an extrusion printhead to allow alternate 
+printing of hydrogel and thermoplastic material in a single process. The 
+final printer design and the complete instructions for making, assem -
+bling and operating the printer are documented in an open access 
+publication (Koch et al., 2021 ). In all experiments polycaprolactone 
+(PCL) Facilian PCL100 from 3D4Makers B.V. (Haarlem, Netherlands) 
+with 50,000 g/mol and 1.75 mm filament diameter was printed using a 
+0.4 mm nozzle by E3D-Online (Oxfordshire, UK). The fracture force of 
+the bonds between the PCL filaments was tested by pulling the filaments 
+with the bond tester Dage 4000 from Dage (Feldkirch, Germany). 
+Compression modulus was measured with a compression test machine 
+EZ-SX from Shimadzu Europe (Duisburg, Germany). Each sample was 
+compressed with 1 mm/min loading speed until 30% strain to reach the 
+plastic region. Due to plastic deformation, the measurements could only 
+be performed once per sample. Compression modulus was defined as the 
+slope of the linear region of the stress/strain curve. The linear region was 
+in different ranges for the tested scaffolds, but always between 5% and 
+10% strain. For the hydrogel-only samples, which were significantly less 
+stable due to the absence of PCL, the linear region was defined from 0% 
+to 10%. 
+For visualization of the PCL scaffolds, PhotoView 360 from Solid -
+works 2017 from Dassault Systˇemes (V˘elizy-Villacoublay, France) was 
+used. The GCode was generated with PrusaSlicer version 2.1.1 based on 
+Slic3r from Prusa Research A.S (Prague, Czech Republic). The porosity 
+of the PCL scaffolds was calculated with the following equation 
+porosity1 mscaffold
+ρPCL⋅Vscaffold⋅100% (1)  
+where mscaffold is the weighted mass of the scaffold, ρPCL the constant 
+density of PCL of 1.1 g/cm3 as specified by the manufacturer, and 
+Vscaffold the optically measured volume of the scaffold. The number of 
+bonding errors was determined by visually inspecting at least 10 scaf-
+folds and manually counting the visible number of broken or missing 
+bonds. Images for the optical volume determination were acquired using 
+a digital microscope Dino-Lite Premier from AnMo Electronics (Hsinchu, 
+Taiwan). For each scaffold design, at least three samples were measured 
+at five representatively selected lengths along each dimension. 
+2.2. Bioink 
+The hydrogel was prepared by dissolving 4 w/v% alginate A1112- 
+100G and 16 w/v% gelatin 39465-500G both from Sigma-Aldrich (St. 
+Louis, United States) in PBS each. Gelatin solution was heated up to 
+80 •C and alginate stirred for 24 h without heating to dissolve fully. Both 
+stock solutions were mixed 1:1 to result in a hydrogel with 2 w/v% 
+alginate and 8 w/v% gelatin. The bioink was filled in 2 ml medical F. Koch et al.                                                                                                                                                                                                                                    Journal of the Mechanical Behavior of Biomedical Materials 130 (2022) 105219
+3syringes from BBraun (Melsungen, Germany) and printed with conical 
+dispensing nozzles from Globaco GmbH (Rodermark, Germany) with an 
+inner diameter of 410 μm. The hydrogel was cross-linked by incubating 
+for 30 s in a 10% CaCl 2 (223506) solution from Sigma-Aldrich (St. Louis, 
+United States) dissolved in water. A cell-laden hydrogel was prepared by 
+gently mixing cells in a concentration of 500,000 cells/ml into the 37 •C 
+warm hydrogel. 
+2.3. Cell culture 
+Immortalized mesenchymal stem cells (iMSCs) were kindly provided 
+by Prof. Dr. Matthias Schieker from the Laboratory of Experimental 
+Surgery and Regenerative Medicine of the Ludwig-Maximilians- 
+University of Munich. They were immortalized by lentiviral gene 
+transfer of human telomerase reverse transcriptase (Bocker et al., 2008 ). 
+The cells were cultivated in MEM alpha Medium including 10% FBS 
+both from Gibco (Carlsbad, USA) at 37 •C and 5% CO2. 
+2.4. Live/dead assay 
+Cell viability was determined with a viability/cytotoxicity kit for 
+mammalian cells (Invitrogen L3224) from Fisher Scientific GmbH 
+(Schwerte, Germany). Cells were stained as recommended in the pro-
+tocol for 30 min and imaged with a fluorescence microscope Observer 
+Z1 microscope from Carl Zeiss (Oberkochen, Germany) with 470 nm and 
+555 nm excitation wavelength. Image analysis was performed with 
+ImageJ (V1.52). Since the cells were due to extrusion printing randomly 
+distributed in the hydrogel rather than in a single focal plane, an in-
+tensity threshold was defined in each image. Values higher than 70% of 
+the maximum intensity were defined as valid live or dead fluorescence 
+signals, as described in detail in a previous publication (Koch et al., 
+2020 ). All quantitative data were assessed for statistical significance by performing an ANOVA with a Tukey post-hoc test. A statistically sig-
+nificant test result was considered for p D0.05. 
+3.Results and discussion 
+First, the hybrid bioprinter was characterized for its properties using 
+only the FDM-printhead. For the subsequent hybrid printing of porous 
+structures, which may contain cell-laden material, it was of general in-
+terest to determine how the PCL printing temperature influences the 
+mechanical stability of the bond between single fused filaments and the 
+viability of the surrounding cells. Therefore, a test structure was 
+designed with a single filament printed at an angle of 90•to the previous 
+layers. The filament bridged a distance of 2 mm between the two pre-
+vious layers. Detailed images of the test structure are shown in the 
+supplemental Fig. A1. The printing temperature was gradually increased 
+by 10 •C between 100 •C and 180 •C. For each temperature at least 44 
+samples were investigated by pulling up the filament in the pull tester 
+until failure and measuring the fracture force. Supplemental Fig. A2 il-
+lustrates the pull tester with a test structure and the two failure mech -
+anisms that occur (bond and filament break). 
+Fig. 1a shows the mean fracture force obtained from these pull tests 
+as a function of the temperature. The fracture force increases from 
+around 2.5 N to around 4.5 N for increasing printing temperature from 
+100 •C to 140 •C. For temperatures above 140 •C, no significant change 
+in fracture force was measured. This may result from a changed failure 
+mechanism, as shown in Fig. 1b. For increasing temperature, the failure 
+mechanism changed from breakage of the bond between the two fila-
+ments (bond break) to breakage of the filaments itself (filament break). 
+An increasing number of filament breaks indicates that the fracture force 
+has increased close to the maximum fracture force given by the material 
+properties (see also supplemental Fig. A3 in which the bond break and 
+filament break were considered individually). 
+Fig. 1.Influence of nozzle temperature and raster angle on the mechanical stability of fused filaments and cell viability during FDM printing of PCL. Fracture force 
+was measured by pulling on a bridging filament connected to two filaments below. The temperature was varied between 100 •C and 180 •C (a) Failure was analyzed 
+and sorted into two categories, either the separation of two layers on joints (bond break) or the breakage of the filament itself (filament break) (b). Fracture force was 
+measured for angles of 90•, 45•, and 30 •between the fused filaments (c). Cell viability was determined for cells embedded into a hydrogel of alginate and gelatin and 
+injected below the printed filament (d). F. Koch et al.                                                                                                                                                                                                                                    Journal of the Mechanical Behavior of Biomedical Materials 130 (2022) 105219
+4In addition to the influence of the printing temperature, the fila-
+ment ’s angle on the contact points was also investigated. This raster 
+angle between the filaments in contact to each other was varied from 90•
+to 45•and 30•. The resulting fracture force was measured for 50 fused 
+filaments for each angle in the range from 130 •C to 150 •C and is shown 
+in Fig. 1c. It can be seen that the fracture force significantly decreases 
+with reduced raster angle. This may be due to a smaller area interacting 
+with shear forces when the raster angle is reduced. Thus, all junctions 
+between fused filaments printed with angles unequal to 90•should 
+result in a lower bond strength. This finding is also in line with most 
+published experiments on similar test structures in 3D-bioprinting 
+(Hutmacher et al., 2001 ; Zein et al., 2002 ). Based on the measure -
+ments shown in Fig. 1c, only a raster angle of 90•was used for the 
+subsequent experiments. 
+The printing temperature does not only affect the cohesive strength 
+between the filaments but also influences the viability of the sur-
+rounding cells. To achieve a high mechanical stability between the fil-
+aments on the one hand, the printing temperature should be selected as 
+high as possible up to 150 •C. At temperatures between 150 •C and 
+180 •C, a plateau is reached and the fracture force does not increase any 
+further, as shown in Fig. 1a. On the other hand, the printing temperature 
+should generally be as low as possible for the printing process with living 
+cells, because the printed PCL filaments will heat up the surrounding 
+hydrogel and thus might damage the cells. In the experiments carried 
+out to investigate this effect, PCL filaments were printed in straight lines 
+at a federate of 10 mm/s directly onto an approximately 1 mm thick 
+crosslinked cell-laden hydrogel with different nozzle temperatures. 
+Immortalized mesenchymal stem cells (iMSCs) were encapsulated in a 
+hydrogel of 2% alginate and 8% gelatin in a concentration of 500,000 
+cells/ml. Cell viability was assessed with a live/dead assay at ten regions 
+of interest and is shown for different nozzle temperatures in Fig. 1d. The 
+viability remains between 60% and 70% for increasing temperature up 
+to 140 •C and decreases for higher temperatures to viabilities down to 
+40%. The viability in control samples without contact to heated PCL 
+filaments had a viability of 72% ±17%. 
+From these measurements of the fracture force and the cell viability 
+both being influenced by the printing temperature, it was decided for all 
+further experiments to choose a printing temperature of 140 •C and print 
+only connections with a raster angle of 90•between the fused filaments 
+to achieve highest stability and viability. Beyond a temperature of 
+140 •C, an increase in printing temperature would not result in a further 
+increase in fracture force and a reduction of printing temperature would 
+not result in a significant increase in cell viability. 
+In addition to the influence of the individual bonds between fused 
+filaments on the mechanical stability, the print design plays a role in the 
+structure ’s overall mechanical stability. Based on the results related to temperature and raster angle, four different scaffold designs were 
+printed at 140 •C and 90•raster angle between fused filaments. The four 
+scaffold designs, shown in Table 1, had a similar mass and dimensions of 
+10 ×10 ×10 mm3. Therefore, the theoretical porosity was between 
+71.5% and 71.6% and a slightly higher porosity between 74.0% and 
+75.9% was calculated according to equation (1) based on experimental 
+weighing results. The deviation of these values from the theoretical 
+measured porosity may be due to a systematic loss of mass during 
+printing, a discrepancy in the density specification of the PCL from the 
+manufacturer, deviations from the ideal cubic volume or a combination 
+of these. The designs were chosen so that the porosity is as similar as 
+possible but with varied maximum pore sizes. Scaffold 1 was chosen as 
+the most straightforward print design with alternating filaments in x- 
+and y-direction, forming 90•junctions with the following layer. For each 
+layer, seven lines are printed as a meander. The pore sizes are uniform 
+and with 0.53 mm3, the smallest of the four scaffolds. In scaffolds 2 and 
+3, gradients in the x- and y-positions of the filaments were created, 
+resulting in bigger maximum pore sizes in the center of the scaffolds of 
+1.52 mm3 and 2.92 mm3, respectively. This is in reference to natural 
+tissue where, for example in bones, most of the mechanical load is 
+absorbed by the outer walls of the structure and therefore allows the 
+center to be more porous and suitable for vascularization. The gradient 
+increases from scaffold 2 to scaffold 3, so that scaffold 3 has a solid outer 
+wall. Scaffold 4 is identical to scaffold 1 but has twice the maximum pore 
+size of 1.06 mm3 because double layers with the same orientation are 
+printed on top of each other. 
+These four scaffolds were tested for their mechanical stability with a 
+compression test. The compression modulus was determined as the 
+linear region in the stress/strain diagram for a compression speed of 1 
+mm/s. It can be seen in Fig. 2a, that the mechanical stability of the 
+scaffolds barely differs despite the different maximum pore sizes. All 
+scaffolds had an average compression modulus of about 6 MPa for ten 
+tested scaffolds each. A significant difference could only be observed 
+between scaffold 3 and scaffold 4. Although the scaffolds were of similar 
+porosity and mechanical stability, the occurrence of errors during the 
+printing process was different. Errors were defined as not fused fila-
+ments in the z-direction. If this junction was not bonded, it could not 
+support any load and was easily displaced in x- and y-direction. The total 
+number of bonding errors was counted for each scaffold and shown in 
+Fig. 2b. Since scaffold 2 had a significantly higher number of errors than 
+scaffold 1 and scaffold 4, it was not considered for further experiments 
+with cells. The design of scaffold 3 would prevent diffusion of nutrients 
+during in vitro cultivation due to the solid outer walls and as it exhibited 
+no superior compressive modulus than scaffolds 1 and 4 it was also 
+excluded from further experiments. (Exemplary images of the bonding 
+errors are shown in supplemental Fig. A4 for each scaffold). 
+Table 1 
+Overview of various PCL scaffold designs used for mechanical testing. Scaffolds 1–4 were designed to have similar porosity but different maximum pore sizes. The pore 
+sizes are increased in scaffold 2 and 3 by creating a gradient of horizontally aligned layers from the center to the outside of the structures, ending in a closed solid wall 
+surrounding scaffold 3. The pore sizes are increased in scaffold 4 by using the same filament spacing like in scaffold 1, but printing two identical layers on top of each 
+other each time.   
+Scaffold 1 Scaffold 2 Scaffold 3 Scaffold 4 
+Porosity 
+Theoretical 71.6% 71.5% 71.6% 71.6% 
+Measured (n 10) 74.2% ±0.2% 74.0% ±0.4% 75.9% ±0.5% 74.7% ±0.3% 
+Maximum pore size 
+Theoretical 0.53 mm3 1.52 mm3 2.92 mm3 1.06 mm3 
+Measured (n 10) 0.53 mm3 ±0.08 mm3 1.65 mm3 ±0.23 mm3 2.73 mm3 ±0.28 mm3 1.10 mm3 ±0.03 mm3  F. Koch et al.                                                                                                                                                                                                                                    Journal of the Mechanical Behavior of Biomedical Materials 130 (2022) 105219
+5Scaffold 1 and scaffold 4 were investigated further by measurements 
+of their compression modulus in the x- and y-direction, as shown in 
+Fig. 2c. The compression modulus in the x- and y-direction was 
+compared to the values in the z-direction, as already shown in Fig. 2a. 
+Both scaffolds showed significantly higher compression moduli in the x- 
+and y-direction than in the z-direction, increasing from about 6 MPa to 
+about 8 MPa. Furthermore, the influence of the total number of fila-
+ments in the x- and y-direction was investigated by experiments. For this 
+purpose, the distance between the filaments in x- and y-direction of 
+scaffolds 1 and 4 was increased, and thus, the total number of filaments 
+was reduced from 84 to 60 and to 36 in both designs. This corresponds to 
+a reduction of filaments perpendicular to the compression direction from 7 to 5 or 3 for each layer. The resulting compression moduli are 
+shown in Fig. 2d. It can be seen that the compression modulus decreases 
+linearly with a reduced number of filaments. At the same time, the 
+porosity increases due to the lower number of filaments. Such mea-
+surements allow to forecast the mechanical stability of a specific design 
+and therefore to customize the scaffolds based on porosity and me-
+chanical requirements. 
+To study the interaction of the PCL printing process with the micro 
+extrusion of hydrogel, the two scaffolds 1 and 4, previously rated with 
+the highest compression moduli, were printed at a nozzle temperature of 
+140 •C and in the same run hydrogel filaments were printed layer by 
+layer alternating to the PCL extrusion. For this alternating, hybrid 
+Fig. 2.Compression moduli for different scaffold designs (1–4) measured under constant compression with 1 mm/s (n 10) determined in the z-direction (a). 
+Scaffold 2 was excluded from the following experiments due to the high number and variation of errors (b), and scaffold 3 due to the design not suitable for in vitro 
+incubation. Scaffolds 1 and 4 were investigated in detail by also measuring the compression modulus in x- and y-direction (c) and the increase in porosity due to the 
+reduction of filaments aligned against compression from 84 down to 36 (n 3) (d). 
+Fig. 3.a) Compression moduli of scaffolds 1 and 4 printed from PCL only (gray) and the same designs printed as hybrid constructs by combination of PCL and 
+hydrogel (blue) determined directly after printing. For comparison pure hydrogel structures with zero porosity are also shown (red). B) Compression modules of 
+hybrid scaffolds containing a total amount of 250 mg of hydrogel and exhibiting a porosity of about 50%. The hydrogel contained 500,000 cells/ml and the samples 
+were incubated in vitro for up to 28 days. Compression moduli were measured from two samples each on days 0, 7, 14, and 28. (For interpretation of the references to 
+colour in this figure legend, the reader is referred to the Web version of this article.) F. Koch et al.                                                                                                                                                                                                                                    Journal of the Mechanical Behavior of Biomedical Materials 130 (2022) 105219
+6printing process the same volume of hydrogel as for the PCL was printed 
+between the PCL filaments in each layer. Due to the additionally added 
+hydrogel, the total porosity of the printed object decreased from about 
+75% to about 50%. In Fig. 3a, the compression modulus of these hybrid 
+structures (blue) was compared with the pure PCL scaffolds (gray). As 
+further reference, a pure hydrogel cube with the same edge length as the 
+other scaffolds was printed. The results of the pure hydrogel samples are 
+shown for comparison (red), as well. Despite the maximum filling of the 
+hydrogel cube (i.e. zero porosity), the hybrid PCL scaffolds are about 
+150 times more stable than the pure hydrogel cube. 
+It can be seen for both scaffold designs that mechanical stability 
+decreases with the addition of hydrogel, despite the fact that the total 
+number of PCL filaments is not reduced. The most likely explanation for 
+the smaller compression moduli of the hybrid scaffolds might be the 
+reduced bonding strength between fused PCL filaments caused by wet-
+ting with hydrogel that leaks out from the hydrogel filaments. For 
+scaffold 4, this reduction in compression modulus is lower than for 
+scaffold 1. Since both hydrogel and PCL were printed with two identical 
+layers on top of each other, the printing process appears to be less 
+sensitive a reduction of the stability due to hybrid printing. Therefore, 
+scaffold 4 was used in the following for the printing experiment with 
+living cells suspended in the hydrogel. 
+To investigate potential long-term degradation of PCL under real cell 
+culture conditions, hybrid structures of scaffold 4 were printed with 
+alginate-gelatin hydrogel laden with 500,000 iMSCs/ml. Structures 
+were incubated in cell culture medium, which was changed every three 
+days. Since cell viability is highly dependent on many parameters 
+beyond the used print design, which was the focus of this investigation, 
+cell viability was not systematically quantified within the experiment. 
+However, cell proliferation observed on the bottom of the plates indi-
+cated unrestricted cell viability in the presence of the PCL scaffolds 
+throughout the whole experiment. Fig. 3b shows the compression 
+modulus of two hybrid scaffolds after 0, 7, 14, and 28 days of incubation. 
+Over the period of 28 days, only slight differences in the range of the 
+previously determined standard deviation could be seen. Therefore, it 
+can be concluded that the compression moduli of PCL scaffolds deter -
+mined previously are valid for up to 28 days of in vitro cultivation. Thus, 
+hybrid printing of bioinks and porous PCL scaffolds can significantly 
+increase the mechanical stability during an incubation period of at least 
+up to four weeks. The increase of the compression modulus from the kPa 
+to the MPa range is a significant improvement compared to the pure 
+hydrogel-based bioink, which can be beneficial for in vivo applications of 
+hard human tissues. 
+4.Conclusions 
+In this work, process parameters and printing patterns for hybrid 3D- 
+bioprinting of PCL and a micro extruded alginate-gelatin-hydrogel were 
+systematically investigated. It was shown that design parameters and 
+printing parameters can be adjusted in view of a defined mechanical 
+stability of the resulting 3D-bioprinted object. First, a systematic study 
+showed the influence of PCL printing temperature on bond strength 
+between PCL filaments and the viability of surrounding cells subjected to 
+thermal stress by the PCL deposition. Second, four different printing 
+designs were investigated by varying infill patterns. The designs were 
+printed with a similar porosity, evaluated for their mechanical stability, 
+and tested for hybrid printing. With the knowledge gained from the 
+study, the final mechanical stability of the printed scaffolds can be 
+predicted and adjusted by the chosen designs as a function of the 
+number of printed PCL filaments. The mechanically most stable design 
+was tested for its long-term stability as a hybrid print construct with a 
+cell-laden hydrogel by incubation for up to 28 days. During this time no 
+significant change in the mechanical stability was detected. 
+The hybrid bioprinting process described in this work allows to 
+achieve high mechanical stability, similar to human hard tissues, 
+simultaneously with high cell viability in a single 3D-bioprinted object. Compared to the use of a one single bioink only, these properties are 
+achieved by combining porous PCL structures with a hydrogel-based 
+bioink, leading to a decoupling of the mechanical and cellular re-
+quirements. But, also for the hybrid printing approach, a compromise 
+between mechanical stability and cell viability must be made, which 
+may differ for each material and application. The printing temperature 
+of 140 •C and angles of 90•between filaments described here as most 
+stable configuration for printing PCL, while still maintaining a high cell 
+viability, may help for process optimization of other 3D-bioprinting 
+processes, designs, cells and materials. 
+CRediT authorship contribution statement 
+Fritz Koch: Visualization, Validation, Methodology, Investigation, 
+Formal analysis. Ole Thaden: Formal analysis, Investigation, Visuali -
+zation. Stefan Conrad: Software, Resources, Investigation, Conceptu -
+alization. Kevin Trondle: Resources, Validation, Writing – review & 
+editing. Günter Finkenzeller: Validation, Resources, Funding acquisi -
+tion. Roland Zengerle: Funding acquisition, Supervision, Writing – 
+review & editing. Sabrina Kartmann: Writing – review & editing, Su-
+pervision, Funding acquisition, Conceptualization. Stefan Zimmer -
+mann: Project administration, Resources, Writing – review & editing. 
+Peter Koltay: Writing – review & editing, Supervision, Formal analysis, 
+Data curation. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgments 
+The authors thank Prof. Dr. Matthias Schieker from the Laboratory of 
+Experimental Surgery and Regenerative Medicine of the Ludwig- 
+Maximilians-University of Munich for providing the immortalized 
+mesenchymal stem cell line. This work was supported by funding of the 
+Bundesministerium für Bildung und Forschung (03VNE1034C and 
+03VNE1034B) and the Deutsche Forschungsgemeinschaft (FI790/10-1, 
+FI790/10-2, KO3910/1-1, and KO3910/1-2). 
+Appendix A.Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.jmbbm.2022.105219 . 
+References 
+Alves da Silva, M.L., Martins, A., Costa-Pinto, A.R., Costa, P., Faria, S., Gomes, M., 
+Reis, R.L., Neves, N.M., 2010. Cartilage tissue engineering using electrospun PCL 
+nanofiber meshes and MSCs. Biomacromolecules 11 (12), 3228 –3236. https://doi. 
+org/10.1021/bm100476r . 
+Arslan-Yildiz, A., El Assal, R., Chen, P., Guven, S., Inci, F., Demirci, U., 2016. Towards 
+artificial tissue models: past, present, and future of 3D bioprinting. Biofabrication 8 
+(1), 14103. https://doi.org/10.1088/1758-5090/8/1/014103 . 
+Binder, K.W., Allen, A.J., Yoo, J.J., Atala, A., 2011. Drop-on-demand inkjet bioprinting: a 
+primer. Gene Ther. Regul. 6 (1), 33–49. https://doi.org/10.1142/ 
+S1568558611000258 . 
+Bocker, W., Yin, Z., Drosse, I., Haasters, F., Rossmann, O., Wierer, M., Popov, C., 
+Locher, M., Mutschler, W., Docheva, D., Schieker, M., 2008. Introducing a single- 
+cell-derived human mesenchymal stem cell line expressing hTERT after lentiviral 
+gene transfer. J. Cell Mol. Med. 12 (4), 1347 –1359. https://doi.org/10.1111/j.1582- 
+4934.2008.00299.x . 
+Choudhury, D., Anand, S., Naing, M.W., 2018. The arrival of commercial bioprinters - 
+towards 3D bioprinting revolution. Int. J. Bioprint. 4 (2), 139. https://doi.org/ 
+10.18063/ijb.v4i2.139 . 
+Ciardelli, G., Chiono, V., 2006. Materials for peripheral nerve regeneration. Macromol. 
+Biosci. 6 (1), 13–26. https://doi.org/10.1002/mabi.200500151 . 
+Cui, H., Nowicki, M., Fisher, J.P., Zhang, L.G., 2017. 3D bioprinting for organ 
+regeneration. Adv. Healthc. Mater. 6 (1) https://doi.org/10.1002/adhm.201601118 . F. Koch et al.                                                                                                                                                                                                                                    Journal of the Mechanical Behavior of Biomedical Materials 130 (2022) 105219
+7Endres, M., Hutmacher, D.W., Salgado, A.J., Kaps, C., Ringe, J., Reis, R.L., Sittinger, M., 
+Brandwood, A., Schantz, J.T., 2003. Osteogenic induction of human bone marrow- 
+derived mesenchymal progenitor cells in novel synthetic polymer-hydrogel matrices. 
+Tissue Eng. 9 (4), 689–702. https://doi.org/10.1089/107632703768247386 . 
+Guillotin, B., Souquet, A., Catros, S., Duocastella, M., Pippenger, B., Bellance, S., 
+Bareille, R., R˘emy, M., Bordenave, L., Am˘ed˘ee, J., Guillemot, F., 2010. Laser assisted 
+bioprinting of engineered tissue with high cell density and microscale organization. 
+Biomaterials 31 (28), 7250 –7256. https://doi.org/10.1016/j. 
+biomaterials.2010.05.055 . 
+Heid, S., Boccaccini, A.R., 2020. Advancing bioinks for 3D bioprinting using reactive 
+fillers: a review. Acta Biomater. 113, 1–22. https://doi.org/10.1016/j. 
+actbio.2020.06.040 . 
+Hutmacher, D.W., Schantz, T., Zein, I., Ng, K.W., Teoh, S.H., Tan, K.C., 2001. Mechanical 
+properties and cell cultural response of polycaprolactone scaffolds designed and 
+fabricated via fused deposition modeling. J. Biomed. Mater. Res. 55 (2), 203–216. 
+https://doi.org/10.1002/1097-4636(200105)55 , 2D203:AID-JBM1007 F3.0.CO;2- 
+7.  
+Kang, H.W., Lee, S.J., Ko, I.K., Kengla, C., Yoo, J.J., Atala, A., 2016. A 3D bioprinting 
+system to produce human-scale tissue constructs with structural integrity. Nat. 
+Biotechnol. 34 (3), 312–319. https://doi.org/10.1038/nbt.3413 . 
+Keriquel, V., Guillemot, F., Arnault, I., Guillotin, B., Miraux, S., Am˘ed˘ee, J., Fricain, J.-C., 
+Catros, S., 2010. In vivo bioprinting for computer- and robotic-assisted medical 
+intervention: preliminary study in mice. Biofabrication 2 (1), 14101. https://doi. 
+org/10.1088/1758-5082/2/1/014101 . 
+Koch, F., Thaden, O., Trondle, K., Zengerle, R., Zimmermann, S., Koltay, P., 2021. Open- 
+source hybrid 3D-bioprinter for simultaneous printing of thermoplastics and 
+hydrogels. HardwareX, e00230. https://doi.org/10.1016/j.ohx.2021.e00230 . 
+Koch, F., Trondle, K., Finkenzeller, G., Zengerle, R., Zimmermann, S., Koltay, P., 2020. 
+Generic method of printing window adjustment for extrusion-based 3D-bioprinting 
+to maintain high viability of mesenchymal stem cells in an alginate-gelatin hydrogel. 
+Bioprinting 20, e00094. https://doi.org/10.1016/j.bprint.2020.e00094 . 
+Lee, J., Guarino, V., Gloria, A., Ambrosio, L., Tae, G., Kim, Y.H., Jung, Y., Kim, S.-H., 
+Kim, S.H., 2010. Regeneration of Achilles ’ tendon: the role of dynamic stimulation 
+for enhanced cell proliferation and mechanical properties. Journal of biomaterials 
+science. Polym. Ed. 21 (8–9), 1173 –1190. https://doi.org/10.1163/ 
+092050609X12471222313524 . 
+Maietta, S., Russo, T., Santis, R. de, Ronca, D., Riccardi, F., Catauro, M., Martorelli, M., 
+Gloria, A., 2018. Further theoretical insight into the mechanical properties of 
+polycaprolactone loaded with organic-inorganic hybrid fillers. Materials 11 (2). 
+https://doi.org/10.3390/ma11020312 . 
+Malda, J., Visser, J., Melchels, F.P., Jüngst, T., Hennink, W.E., Dhert, W.J.A., Groll, J., 
+Hutmacher, D.W., 2013. 25th Anniversary Article: Engineering Hydrogels for 
+Biofabrication. Advanced Materials (Deerfield Beach, Fla.), vol. 25, pp. 5011 –5028. 
+https://doi.org/10.1002/adma.201302042 , 36.  
+Mandrycky, C., Wang, Z., Kim, K., Kim, D.-H., 2016. 3D bioprinting for engineering 
+complex tissues. Biotechnol. Adv. 34 (4), 422–434. https://doi.org/10.1016/j. 
+biotechadv.2015.12.011 . 
+Moroni, L., Wijn, J.R. de, van Blitterswijk, C.A., 2006. 3D fiber-deposited scaffolds for 
+tissue engineering: influence of pores geometry and architecture on dynamic 
+mechanical properties. Biomaterials 27 (7), 974–985. https://doi.org/10.1016/j. 
+biomaterials.2005.07.023 . Murphy, S.V., Atala, A., 2014. 3D bioprinting of tissues and organs. Nat. Biotechnol. 32 
+(8), 773–785. https://doi.org/10.1038/nbt.2958 . 
+Ozbolat, I.T., Hospodiuk, M., 2016. Current advances and future perspectives in 
+extrusion-based bioprinting. Biomaterials 76, 321–343. https://doi.org/10.1016/j. 
+biomaterials.2015.10.076 . 
+Paxton, N., Smolan, W., Bock, T., Melchels, F., Groll, J., Jungst, T., 2017. Proposal to 
+assess printability of bioinks for extrusion-based bioprinting and evaluation of 
+rheological properties governing bioprintability. Biofabrication 9 (4), 44107. 
+https://doi.org/10.1088/1758-5090/aa8dd8 . 
+Pedroza-Gonz ˘alez, S.C., Rodriguez-Salvador, M., P˘erez-Benítez, B.E., Alvarez, M.M., 
+Santiago, G.T., 2021. Bioinks for 3D bioprinting: a scientometric analysis of two 
+decades of progress. Int. J. Bioprint. 7 (2), 333. https://doi.org/10.18063/ijb. 
+v7i2.337 . 
+Ren, K., Wang, Y., Sun, T., Yue, W., Zhang, H., 2017. Electrospun PCL/gelatin composite 
+nanofiber structures for effective guided bone regeneration membranes. Mater. Sci. 
+& Eng. C, Mater. Biol. Appl. 78, 324–332. https://doi.org/10.1016/j. 
+msec.2017.04.084 . 
+Ruiz-Cantu, L., Gleadall, A., Faris, C., Segal, J., Shakesheff, K., Yang, J., 2020. Multi- 
+material 3D bioprinting of porous constructs for cartilage regeneration. Mater. Sci. & 
+Eng. C, Mater. Biol. Appl. 109, 110578 https://doi.org/10.1016/j. 
+msec.2019.110578 . 
+Schagemann, J.C., Chung, H.W., Mrosek, E.H., Stone, J.J., Fitzsimmons, J.S., 
+O’Driscoll, S.W., Reinholz, G.G., 2010. Poly-epsilon-caprolactone/gel hybrid 
+scaffolds for cartilage tissue engineering. J. Biomed. Mater. Res. Part A 93 (2), 
+454–463. https://doi.org/10.1002/jbm.a.32521 . 
+Schuurman, W., Khristov, V., Pot, M.W., van Weeren, P.R., Dhert, W.J.A., Malda, J., 
+2011. Bioprinting of hybrid tissue constructs with tailorable mechanical properties. 
+Biofabrication 3 (2), 21001. https://doi.org/10.1088/1758-5082/3/2/021001 . 
+Seol, Y.-J., Kang, H.-W., Lee, S.J., Atala, A., Yoo, J.J., 2014. Bioprinting technology and 
+its applications. Eur. J. Cardio. Thorac. Surg. : Off. J. Eur. Assoc. Cardio-Thorac. 
+Surg. 46 (3), 342–348. https://doi.org/10.1093/ejcts/ezu148 . 
+Trabelsi, O., del Palomar, A.P., L˘opez-Villalobos, J.L., Ginel, A., Doblar ˘e, M., 2010. 
+Experimental characterization and constitutive modeling of the mechanical behavior 
+of the human trachea. Med. Eng. Phys. 32 (1), 76–82. https://doi.org/10.1016/j. 
+medengphy.2009.10.010 . 
+Troendle, K., Rizzo, L., Pichler, R., Koch, F., Itani, A., Zengerle, R., Lienkamp, S.S., 
+Koltay, P., Zimmermann, S., 2021. Scalable fabrication of renal spheroids and 
+nephron-like tubules by bioprinting and controlled self-assembly of epithelial cells. 
+Biofabrication. https://doi.org/10.1088/1758-5090/abe185 . 
+Woodfield, T.B.F., Malda, J., Wijn, J. de, P˘eters, F., Riesle, J., van Blitterswijk, C.A., 
+2004. Design of porous scaffolds for cartilage tissue engineering using a three- 
+dimensional fiber-deposition technique. Biomaterials 25 (18), 4149 –4161. https:// 
+doi.org/10.1016/j.biomaterials.2003.10.056 . 
+Woodruff, M.A., Hutmacher, D.W., 2010. The return of a forgotten 
+polymer —polycaprolactone in the 21st century. Prog. Polym. Sci. 35 (10), 
+1217 –1256. https://doi.org/10.1016/j.progpolymsci.2010.04.002 . 
+Zein, I., Hutmacher, D.W., Tan, K.C., Teoh, S.H., 2002. Fused deposition modeling of 
+novel scaffold architectures for tissue engineering applications. Biomaterials 23 (4), 
+1169 –1185. https://doi.org/10.1016/s0142-9612(01)00232-0 . F. Koch et al.                                                                                                                                                                                                                                    

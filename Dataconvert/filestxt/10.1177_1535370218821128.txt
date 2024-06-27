@@ -1,0 +1,461 @@
+Original Research
+Volume-by-volume bioprinting of chondrocytes-alginate bioinks
+in high temperature thermoplastic scaffolds for cartilageregeneration
+JM Baena1,*, G Jime ´nez1,2,3,*,EL /C19opez-Ruiz1,4, C Antich1,2,3,CG r i ~na´n-Lis /C19on1,2, M Pera ´n1,4,
+PG a´lvez-Mart /C19ın5and JA Marchal1,2,3
+1Biopathology and Regenerative Medicine Institute (IBIMER), Centre for Biomedical Research, University of Granada, Granada E-18100,
+Spain;2Biosanitary Research Institute of Granada (ibs.GRANADA), University Hospitals of Granada-University of Granada, Granada E-
+18071, Spain;3Department of Human Anatomy and Embryology, Faculty of Medicine, University of Granada, Granada E-18016, Spain;
+4Department of Health Sciences, University of Jae ´n, Jae ´n E-23071, Spain;5Advanced Therapies Area, Pharmascience Division,
+Bioibe ´rica S.A.U. E-08029, Barcelona, Spain;
+*These authors contributed equally to this work.
+Corresponding author: JA Marchal. Email: jmarchal@ugr.es; JM Baena. Email: josbaema@gmail.com
+Abstract
+Biofabrication technologies with layer-by-layer simultaneous deposition of a polymeric
+matrix and cell-laden bioinks (also known as bioprinting) offer an alternative to conventionaltreatments to regenerate cartilage tissue. Thermoplastic polymers, like poly-lactic acid,
+are easy to print using fused deposition modeling, and the shape, mesh structure, biodeg-
+radation time, and stiffness can be easily controlled. Besides some of them being clinicallyapproved, the high manufacturing temperatures used in bioprinting applications with these
+clinically available thermoplastics decrease cell viability. Geometric restriction prevents
+cell contact with the heated printed fibers, increasing cell viability but comprising themechanical performance and biodegradation time of the printed parts. The objective of
+this study was to develop a novel volume-by-volume 3D-biofabrication process that
+divides the printed part into different volumes and injects the cells after each volume hasbeen printed, once the temperature of the printed thermoplastic fibers has decreased.
+In order to show the suitability of this process, chondrocytes were isolated from
+osteoarthritic patient samples and after characterization were used to test the feasibilityof the process. Human chondrocytes were bioprinted together with poly-lactic acid andapoptosis, proliferation and metabolic activity were analyzed. This novel volume-by-volume
+3D-biofabrication procedure prints a mesh structure layer-by-layer with a high adhesion
+surface/volume ratio, driving a rapid decrease in the temperature, avoiding contact with cells in high temperature zones. In our
+study, chondrocytes survived the manufacturing process, with 90% of viability, 2 h after printing, and, after seven days in
+culture, chondrocytes proliferated and totally colonized the scaffold. The use of the volume-by-volume-based biofabricationprocess presented in this study shows valuable potential in the short-term development of bioprint-based clinical therapies for
+cartilage injuries.
+Keywords: Bioprinting, additive manufacturing, scaffold, cartilage, engineering, regenerative medicine
+Experimental Biology and Medicine 2019; 244: 13–21. DOI: 10.1177/1535370218821128Impact statement
+3D bioprinting represents a novel advance
+in the area of regenerative biomedicine andtissue engineering for the treatment of dif-
+ferent pathologies, among which are those
+related to cartilage. Currently, the use ofdifferent thermoplastic polymers, such asPLA or PCL, for bioprinting processes
+presents an important limitation: the high
+temperatures that are required for extru-sion affect the cell viability and the finalcharacteristics of the construct. In this
+work, we present a novel bioprinting pro-
+cess called volume-by-volume (VbV) thatallows us to preserve cell viability afterbioprinting. This procedure allows cell
+injection at a safe thermoplastic tempera-
+ture, and also allows the cells to bedeposited in the desired areas of the con-struct, without the limitations caused by
+high temperatures. The VbV process could
+make it easier to bring 3D bioprinting intothe clinic, allowing the generation of tissueconstructs with polymers that are currently
+approved for clinical use.
+ISSN 1535-3702 Experimental Biology and Medicine 2019; 244: 13–21
+Copyright !2018 by the Society for Experimental Biology and MedicineIntroduction
+Bioprinting technologies have emerged as a powerful tool
+for tissue engineering (TE) due to the ability to mimic the3D structure of any tissue. The use of biomaterials,
+cells, and biomolecules combined with this manufacturing
+technique is gaining increasing interest within the scientiﬁccommunity.
+1–3There is a wide range of different bioprint-
+ing technologies available and the selection of an appropri-
+ate technology must be based on the characteristics of thetissue you want to regenerate.
+4
+Joint cartilage is a non-vascular and non-innervated spe-
+cial connective tissue, composed of a speciﬁc extracellular
+matrix (ECM).5The healing process of cartilage tissue is
+slow and results in a ﬁbrous scar-like tissue that lacks the
+functional properties of the hyaline cartilage leading to fur-
+ther tissue degeneration.6Current surgical treatments are
+not very effective, and this is motivating the developmentof new approaches. In this sense, TE and, in particular,
+bioprinting have emerged as a potential alternative.
+7
+Additive manufacturing (AM) techniques are based on
+the principle of adding material layer-by-layer, allowingthe manufacture of complex external and internal shapes
+with a mesh structure.
+8–10The use of biopolymers for AM
+technologies has emerged during the last years.11,12
+Parameters of the biopolymer deposition process, and the
+structure of the mesh, play an important role and can affect
+the structural, mechanical, biodegradation time, and cellu-lar properties of AM scaffolds.
+13Among different options,
+thermoplastic polymers can be easily printed using the 3D
+printing technology known as fused deposition modeling(FDM). This technology consists of a nozzle with a heaterthat melts a thermoplastic ﬁlament and deposits it in a con-
+trolled and organized manner, layer-by-layer, on a surface.
+After one layer has been printed, the z-axis moves and anew layer is printed.
+14In this way, scaffolds are manufac-
+tured as a mesh, being rigid enough to ensure the mainte-
+nance of the required structure, and at the same timebeing ﬂexible.
+The use of already clinically approved thermoplastic
+polymers presents a promising approach in treating carti-
+lage defects.
+15,16However, the high manufacturing temper-
+atures of thermoplastic polymers decrease cell viability and
+also limit the scaffold geometry due to the need to avoiddirect cell contact with the printed ﬁlaments. In order to
+solve these problems, low temperature biomaterials and
+novel printing procedures have been explored,17but new
+biomaterials need a lot of time and many procedures before
+they can be approved for in-patient use. Therefore,
+new procedures based on currently approved biomaterials
+have to be investigated. The aim of this work was to
+implement a novel bioprinting method for high meltingtemperature thermoplastics, such as PLA, that allows
+high cell viability without shape and mesh restrictions.
+This method consists of a volume-by-volume (VbV)3D-biofabrication process with an algorithm that divides
+the printed part into different volumes and injects the
+cells after each volume has been printed, once the temper-ature of the printed thermoplastic ﬁbers has decreased.
+This 3D-bioprinting method has the main objective of
+avoiding thermal damage to the cells. Moreover, it allows
+us to manufacture scaffolds with the desired biodegrada-
+tion time and stiffness to enhance the performance and out-comes of the treatment. The biological feasibility of the
+printing process was assessed by printing bioinks of
+human chondrocytes together with PLA ﬁbers and testingcell viability, distribution, and proliferation.
+Materials and methods
+Bioprinter and software configuration
+A bioprinter with three syringes and one FDM extruder
+(REGEMAT 3D, Granada, Spain), consisting of hardware,
+Designer software (REGEMAT 3D, Granada, Spain)with the algorithms that allow the conﬁguration of VbV,
+and an electronic control unit (ECU) that connects the
+software to the hardware, were used for the experiments
+(Figure 1(a) and (b)).
+The bioprinting system was conﬁgured for PLA and
+used two syringes with needles of different diameters toinject embedded chondrocytes in alginate bioink and a cal-
+cium solution (Figure 1(b)). The position and distance
+between the FDM extruder and the syringes were conﬁg-ured to optimize the procedure. The Designer software can
+be set up using a simple graphical user interface (GUI) to
+print anatomical structures, selecting how and when the
+bioinks are deposited.
+Figure 1. Bioprinter characteristics, hardware and software of the bioprinting system. Process flow of bioprinting system (a). System and bioprinter images (b). (A color
+version of this figure is available in the online journal.)14 Experimental Biology and Medicine Volume 244 January 2019............................................................................................................................... ................................In order to avoid cell contact with the high temperature
+thermoplastic printed parts, VbV allows the deposition of x
+layers of the thermoplastic and afterwards the ﬁlling of theresulting volume ( x/C1A
+n, being A nthe area of the layer n)
+with chondrocytes. All the data acquisition parametershave been programmed and integrated into the software /C19s
+GUI for the conﬁguration of the VbV printing procedure.
+The conﬁguration of the VbV process is quite straight-
+forward. The number of layers printed before the resultingvolume is ﬁlled has to be set. Once the layers have beenprinted, the syringe containing the cell-loaded hydrogelsolution will penetrate into the scaffold in different points(N points), ﬁlling it up uniformly. Afterwards, a secondsyringe will inject the solution that will gel the hydrogelkeeping the desired distribution of the cells in the scaffold.After that, the system prints the next volume layers thatwill be ﬁlled in a similar way. Following the conﬁgurationof the scaffold and syringe parameters, the next step is togenerate the associated G code. The G code with the Gcommands controls the printer system and will build thegeometry from the GUI-deﬁned speciﬁcations. Once the Gcode is generated, the printing can be started.
+Chondrocytes isolation and characterization
+Articular cartilage was obtained from patients with knee
+osteoarthritis during joint replacement surgery. Ethicalapproval for the study was obtained from the EthicsCommittee of the Clinical University Hospital of Ma ´laga,
+Spain. Informed patient consent was obtained for all sam-ples used in this study. None of the patients had a history ofinﬂammatory arthritis or crystal-induced arthritis. Humanarticular cartilage was obtained from the femoral side,selecting the non-overload compartment: lateral condylein varus knees and medial condyle in the valguscases. Only cartilage that macroscopically lookedrelatively normal was used for this study. Human articularchondrocytes were isolated as previously described.
+18
+Chondrocytes were grown in Dulbecco’s modiﬁed eagle’smedium (DMEM) – high glucose (Sigma) supplementedwith 10% fetal bovine serum (Gibco), 50 lg/lL of l-ascorbic
+acid 2-phosphate (Sigma), 1% penicillin-streptomycin(Sigma), and 1% ITS (Gibco) in a 25-cm
+2cell culture ﬂask.
+Cells were incubated at 37/C14C humidiﬁed atmosphere con-
+taining 5% CO 2and expanded in a monolayer for 7–10 days
+before the experiment.
+Chondrocytes seeded on glass coverslips were ﬁxed and
+stained with 0.4% toluidine blue staining for 15 min andthen were rinsed with distilled water. For immunohisto-chemical analysis, ﬁxed monolayers were blocked for 1 hat room temperature (RT) with 5% BSA, 5% fetal bovineserum (FBS) in phosphate-buffered saline (PBS), and thenincubated with Col I (SC25974, St. Cruz) and Col II(SC52658, St. Cruz) overnight at 4
+/C14C. The next day, samples
+were washed three times with PBS and incubated with thesecondary antibodies (Alexa) for 1 h at RT, and ﬁnally werewashed three times with PBS and mounted with mountingmedium with DAPI. Photographs were taken with a LeicaDM 5500B (Solms, Germany) microscope.VbV printing of 3D hybrid scaffolds
+The biofabrication technique comprises two processes for
+every volume: ﬁrst, the fused deposition of the thermoplas-
+tic polymer to obtain the scaffold and second, the injection
+of the bioink and CaCl
+2solution to ﬁll the printed scaffold.
+Firstly, commercial non-medical grade PLA (1.75 mm ﬁla-ment) was used and it was melted at 210
+/C14C in a nozzle
+extruder and deposited, at rate of 1.4 mm/s, in a layer-
+by-layer manner to generate a previously designed matrix
+(600lm pore size, cylinder-type structure of 10 mm diam-
+eter and 10 mm height). After printing four layers ofthe scaffold (0.35 mm thickness), the bioink (25 lL;
+1/C210
+6cells mL/C01encapsulated in alginate, 2% w/v)
+was injected into the scaffold in the selected points
+(speed: 8 lL/s; 21 G nozzle). Then, cell-loaded alginate
+solution was chemically cross-linked by following withan injection of 100 mM CaCl
+2(40lL; speed: 8 lL/s). All
+these processes were repeated until the target dimensions
+of the constructs were fulﬁlled. Finally, all cell-laden scaf-
+folds were cultured in medium, as previously described, at37
+/C14Ci n5 %C O 2atmosphere.
+Confocal microscopy
+Chondrocyte viability after the bioprinting process was
+assessed at 24 h and seven days using the confocal micros-
+copy. For this purpose, samples were washed twice with
+PBS and incubated for 15 min at 37/C14C with Cell Tracker
+Green/CMFDA (CTG) (Invitrogen). Afterwards, sampleswere washed twice with PBS, ﬁxed with 4% paraformalde-hyde in PBS for 20 min at RT, and stained with DAPI. Cells
+were photographed by confocal microscopy (Nikon Eclipse
+Ti-E A1, USA) and analyzed using NIS-Elements software.Cell density was quantiﬁed using ImageJ software (v1.43,NIH) by counting the DAPI-stained nuclei.
+Apoptosis evaluation
+Chondrocytes cultured within the printed constructs were
+evaluated for apoptosis signals just after impression
+(0 min), 30 min and 2 h after the printing process. Cellapoptosis was checked under four different conditions inorder to analyze any effect on the cells: (i) control cellsbefore the printing process, (ii) cells embedded in alginate,
+(iii) printed cells with alginate, and ﬁnally (iv) printed cells
+with alginate over PLA ﬁbers.
+Cells were isolated using ammonium citrate (55 mM)
+and analyzed with Annexin V-ﬂuorescein isothiocyanatedetection kit (eBioscience Inc.) by a FACS CANTO II (BD
+Biosciences) using the FACS DIVA software, according to
+the manufacturer’s instructions.
+Cell proliferation assay
+Alamar blue assay (Biorad) was used as a measurement for
+the determination of cell viability. Cell growth was ana-
+lyzed at different time points: 0, 1, 2, 5 and 7 days.
+Scaffolds were incubated with 10 ml of Alamar blue solution
+per each 100 mL of media and incubated for 3 h. At this time,
+ﬂuorescence intensity was measured at an excitationBaena et al. Bioprinting process to enhance cell survival 15............................................................................................................................... ................................wavelength of 530 nm and emission of 590 nm (Synergy HT,
+BIO-TEK).
+Statistical analysis
+Results were processed using GraphPad Prism 5.0 software
+for Windows (Graphpad Software, La Jolla CaliforniaUSA). All graphical data represent the mean þ/- the 95%
+conﬁdence interval (95% CI) from at least three experi-ments. Differences between treatments were tested usingthe two-tailed Student /C19s T test. Assumptions of Student /C19s
+T test (homocedasticity and normality) were tested and
+assured by using transformed data sets [log(dependent var-
+iable value þ1)] when necessary. P-values <0.05 (*) and
+P-values <0.01 (**) were considered statistically signiﬁcant
+in all cases.
+Results
+VbV 3D bioprinting
+The VbV bioprinting process allows us to conﬁgure the
+numbers of scaffold layers and material volume to beprinted, before the volume is ﬁlled with cells, ensuringthat the high temperature of the thermoplastic will notaffect cell viability. The ﬁrst step for printing the cellladen construct will be to upload the desired external
+geometry and conﬁgure the printing process and the char-
+acteristics of the scaffolds (Figure 2). These include the con-ﬁguration of several parameters (Figure 2(a)) related toscaffold porosity, inﬁll trajectories, number of externalperimeters, layer height, hot end conﬁguration (as nozzlesize, temperature, ...), speed of the printing head,
+number of ﬁrst layer “skirts”, and fan cooling of the scaf-fold (Figure 2(b) and (c)).
+Cell-laden constructs were generated using the bioprint-
+ing system composed of a head and two different syringes,one containing cell-laden pre-gel (bioink) and the other one
+loaded with CaCl
+2solution (Figure 3(a) and (b)). Using
+VbV, the mesh structure and shape of the construct can be
+printed as desired to obtain the optimal stiffness and bio-
+degradation times and the expected outcomes for the spe-ciﬁc application (Figure 3(c)). This method has no shape or
+mesh structure restriction in comparison to typical FDM
+deposition, which uses a zig-zag geometry to avoid cellcontact with high temperature zones (Figure 4(a)).
+We conﬁgured the software to allow us to select in which
+layer we wanted to inject from a selected syringe, the
+volume to be injected, and the number of points (Figure 4(b) and (c)). The printing head has three different syringes
+(T0, T1, T2) that allow the injection of different types of cells
+or multi component hydrogels (Figure 4(b) and (c)). Afterthis, xlayers volume was printed and the syringe ﬁlled it
+with the cell-loaded bioink, injecting it in the N points
+selected by the software (Figure 4(c)).
+Evaluation of the VbV printing process on cell viability
+and distribution
+In order to demonstrate that VbV is not aggressive, chon-
+drocytes immersed in alginate were printed together with
+PLA (Figure 5(a) to (c)). Freshly isolated human chondro-cytes cultured in a monolayer for 7–10 days were charac-
+terized before its use. Chondrocytes displayed a typical
+polygonal-shape with high expression of collagen 2 andproteoglycans, and a non-detectable expression of collagen
+1 (Figure 6(a)).
+Apoptosis analysis was performed to quantify live/
+dead cells after the printing process. First, chondrocytesimmersed in alginate (ALG) were bioprinted with the aim
+of analyzing whether ALG, CaCl
+2solutions, or stress
+induced by the nozzle affect cell viability. As shown inFigure 6(b), printed cell viability was always higher than
+Figure 2. Bioprinter configuration. Layout of the Designer GUI (a) and scaffold parameter configuration (b). Example of VbV configuration process selecting the layer in
+which VbV will take place, the volume to be injected and the infill model (c). (A color version of this figure is available in the online journal.)16 Experimental Biology and Medicine Volume 244 January 2019............................................................................................................................... ................................80%, and the values of apoptosis and necrosis were similar
+to control cells (CTL) not exposed to the printing process.
+Furthermore, PLA constructs (alginate þPLA) were ana-
+lyzed to determine if PLA layers had induced thermal
+damage. Results showed that only immediately after the
+printing process (0 min), live cells number decrease, and
+apoptotic and necrotic cells signiﬁcantly increase ( P<0.05).
+However, after 30 min or 2 h in culture, chondrocytes seem
+to recover from the stress of the printing procedure and nosigniﬁcant differences in apoptosis, necrosis, or live cells
+when compared with CTL cells were found.
+In addition, proliferation and metabolic activity of chon-
+drocytes were quantiﬁed by Alamar blue assay. Resultsshowed an incremental growth in the number of cellsfrom day 0 until day 5, with a stabilization of growthbetween day 5 and day 7 (Figure 6(c)), which was main-tained beyond seven days (data not shown). Also, cell via-bility and cell distribution were checked at 24 h and at
+Figure 3. Bioprinter system. Configuration of the printing head, with the FDM unit (right), a syringe with a pink needle (T0) and two syringes with a blue tip (T1, T2) (left)
+(a). Injection volume filling after a few layers in a cylindrical shape (b). Representative examples of shapes with different mesh structures that ca n be printed (c). (A color
+version of this figure is available in the online journal.)
+Figure 4. Comparison between conventional FDM deposition and VbV printing procedure. Schematic representation of the printing procedures found in the liter ature
+with restricted geometries to avoid contact of the cell-laden material (pink) with the high temperature parts of the printed thermoplastics (grey). FDM deposition of the
+first layer and filling the spaces with the cell-laden materials. Zoom of the space filling, FDM of next layer, and restricted multimaterial scaffold (a).Working process
+diagram represented by a schematic representation of the VbV printing procedure (b). FDM deposition of the xlayers without restrictions in the mesh geometry. Zoom
+of the volume to be filled with the cell-loaded bioink, and injection in the N points selected by the software (c). (A color version of this figure is avai lable in the
+online journal.)Baena et al. Bioprinting process to enhance cell survival 17............................................................................................................................... ................................seven days using CTG (Figure 6(d)). After 24 h in culture,
+individual cells with rounded shape appeared; however,
+seven days later, chondrocytes were able to migrate and
+proliferate throughout the scaffolds, completely colonizingthe PLA ﬁbers, and forming a homogeneous surface. The
+black areas in the images are the pores made when PLA
+ﬁbers are crisscrossed. Also, cell density, deﬁned as thenumber of DAPI positive cells per image (W: 1.27 mm, H:
+1.27 mm and Z: 0.68 mm), was calculated over volume of
+the scaffold. At seven days, 1.423 /C6403.8 DAPI positive
+cells were found per 1 mm
+3of scaffold, being a total of
+1,423,000 of cells per 1000 mm3(total volume of
+the scaffold).
+Discussion
+Many thermoplastic polymers with optimal mechanicalproperties for the application of cartilage regeneration,that are already approved for clinical use, have a high melt-
+ing temperature that decreases the cell viability in a normalFDM bioprinting process. Low temperature biomaterials
+19–
+21and printing procedures22have been reported in the lit-
+erature, but these constructs present a lower mechanicaland biodegradability behavior. The optimal mechanicalstiffness and biodegradation time of the construct depend
+on the rehabilitation procedure, and higher joint loading
+after surgery will demand higher stiffness of the constructsand a higher biodegradation time. These main character-istics can be tuned using a speciﬁc scaffold architecture and
+printed thermoplastic volume. The biodegradation time is
+highly dependent on the PLA composition (higher L lacticmonomer, higher biodegradation time), the anatomical partinserted, the ratio of contact area/volume and the rehabil-
+itation procedure. Different compositions of PLA will also
+have a big inﬂuence on the mechanical behavior. The algi-nate used as a cell carrier has no relevant inﬂuence on the
+Figure 5. IVF printing process. Schematic images of the bioprinter with the FDM extruder (right) and the three syringes (T0,T1 and T2) (a) and the bioprinting pr ocess
+with the FDM deposition of four layers of PLA by the nozzle, and the injection of alginate with chondrocytes (T0) and calcium chloride (T1) in the select ed points (b).
+Images of representative 3D printed scaffolds with cells embedded in alginate and cultured during seven days (c). (A color version of this figure is av ailable in the
+online journal.)18 Experimental Biology and Medicine Volume 244 January 2019............................................................................................................................... ................................mechanical behavior of the construct, but is needed in order
+to keep the cells attached to the matrix and to promote thecell growth and ECM formation. Polycaprolactone (PCL) isone of the most representative mid-temperature thermo-plastics that is already approved by the Food and DrugAdministration (FDA); however, despite its very interest-ing properties, such as its lower stiffness and tunable bio-mechanical properties and degradation time, its meltingtemperature of around 60
+/C14C still damages cells, a restriction
+in the printing procedure is necessary in order to avoid thecontact of the cell-laden material with the high temperatureparts of the printed thermoplastics.
+23,24Also, nanocellulo-
+ses represent a material with strong potential for 3D bio-printing, with the ability to adapt to different applicationsincluding scaffolds for regenerative medicine, skin injuriesand drug delivery among others, and possess suitable rhe-ological properties.
+25Another approach to obtain biomi-
+metic structures is the use of a decellularized matrix fromoriginal tissues, which can be ﬁlled with new cells andbiomolecules. However, decellularization techniques canaffect the mechanical and biological properties of theremaining ECM, and the recellularization process is
+Figure 6. Effect of the VbV bioprinting process on cell viability. Characterization of freshly isolated chondrocytes that displayed a typical polygonal shap e, high
+expression of collagen 2 (Col2) and proteoglycans. Original magnification: 10 /C2(a). Cell viability values of chondrocytes manually printed with alginate (ALG) and
+bioprinted using the VbV method with alginate and alginate in combination with PLA. * P<0.05 compared with control cells before the printing process (b). Cell
+proliferation using Alamar blue assay at different time points (c). Confocal laser scanning microscopy images of bioprinted human chondrocytes sta ined with CTG
+(green) and DAPI (blue) after 24 h and seven days. Scale bars indicate 100 mm (d). (A color version of this figure is available in the online journal.)Baena et al. Bioprinting process to enhance cell survival 19............................................................................................................................... ................................complicated as internal zones are not easily accessible and
+the pressure needed to inject the cells to ﬁll up all the ECM
+volume may damage the cells.25,26
+Here, we present a novel printing process named VbV
+that helps to overcome the problems that arise when work-ing with high temperature thermoplastics and combine theadvantages of bioprinting and the ﬁlling up of decellular-ized ECM with desirable geometry. VbV allows theresearcher to conﬁgure the numbers of scaffold layers,shape and mesh structure of each layer or volume to beﬁlled up with the bioink. The geometric restrictions in ther-moplastic polymer scaffolds are based on the fact that in
+order to avoid cell damage due to high temperatures, zig-
+zag meshes are printed so the cells are placed in the spacesin between and the next layer is built on and rests on thethermoplastic of the previous layer, and in this way cells donot touch the recently printed thermoplastic.
+23,24This is a
+clear geometric limitation of the mesh, and presents restric-tions to the ﬁnal properties of the scaffold (compromisingthe biodegradation time and mechanical behavior of theconstruct), and limits the internal contact area for cell adhe-sion.
+27,28Our results show that the developed procedure
+avoids cell damage without the geometrical restrictions
+that may compromise the performance of the tissue. Thismethod has advantages when working on the regenerationof a high weight-bearing tissue such as cartilage and canalso be used as a strategy to print more complex and largersized tissues and organs.
+Furthermore, scaffolds need to allow cell and biomole-
+cule incorporation in order to promote the formation ofnew functional tissue.
+29Apart from the thermal damage
+described above, it has been shown that the long bioprint-
+ing time and the high shear stress at the nozzle decrease cell
+viability after extrusion, being in the range of 40–86%.30
+With the method presented here, we can signiﬁcantlyreduce these drawbacks and have a higher cell viabilityand proliferation. Therefore, hybrid-polymer constructshave been made mixing high- and low-melting tempera-ture thermoplastics with the aim of avoiding cell deathand achieving optimum mechanical, biological, and degra-dation properties. For example, PCL is used as a protectivelayer to prevent thermal damage caused by the high tem-perature of PLA or PLGA.
+17,31In our study, the cell viability
+of chondrocytes after bioprinting was close to 90% of that of
+cells before printing, and thus the VbV-based bioprintingprocess did not induce cell death with PLA material, whichis one of the thermoplastics with the highest and mostrestrictive melting temperature.
+Furthermore, adequate cell proliferation and metabolic
+activity together with the need to maintain fully differenti-ated chondrocytes after bioprinting are essential factorsthat determine the success of the tissue substitute.
+32VbV
+procedure allows chondrocytes to maintain their prolifera-
+tion capacity after bioprinting, being able to homogenously
+colonize the scaffold in its totality. It is also well known thatcell proliferation increases in constructs over time
+33and the
+proliferative capacity is correlated to an in vitro avoidance
+of senescence and phenotypic instability.34This prolifera-
+tion allows us to establish cell-to-cell connections that leadto the secretion of a speciﬁc ECM and the formation of a 3Dstructure that mimics the natural biological function of the
+cartilage.
+35Our results support the advantage of the VbV
+bioprinting process using higher temperature thermoplas-tic polymers such as PLA, since cells showed high viabilityand proliferative capacity and low apoptosis levels after
+bioprinting. Moreover, this technology represents an
+appropriate therapeutic advance for cartilage TE, because3D constructs mimic the natural microenvironment of car-tilage tissue allowing the maintenance of chondrocyte phe-
+notype and ECM production.
+36,37
+Conclusion
+In conclusion, we have shown that a novel VbV-based bio-printing method enhances chondrocyte survival and distri-
+bution within the bioprinted scaffolds, using hightemperature thermoplastic without scaffold mesh geome-
+try limitations. This new procedure avoids the contact
+between the thermoplastic and the cells at a higher temper-ature than is normally physiologically viable. VbV solvesthe two main complications of common bioprinting techni-
+ques: (i) it can be used with already clinically approved
+biomaterials and, (ii) this process does not have restrictionsin geometries that could limit the clinical application of 3Dbioprinting in cartilage TE. The use of a VbV 3D-biofabri-
+cation process might accelerate the clinical application of
+the technology and overcome the current limitation whenusing thermoplastics as scaffolds.
+ACKNOWLEDGEMENTS
+The authors gratefully thank Ana Santos, Mohamed Tassi and
+Gustavo Ortiz from the C.I.C. (University of Granada) forexcellent technical assistance.
+Authors’ contributions: JMB, GJ, EL-R: conception and
+design study, data acquisition, data analysis and interpreta-
+tion, drafting the article. CA, CG-L: design study, data acqui-
+sition and drafting the article. MP: conception and design ofthe study, data analysis and interpretation, drafting the article.PG-M: drafting the article. JAM: conception and design of thestudy, data analysis and interpretation, obtaining of funding,drafting the article. All authors: ﬁnal approval of submit-ted manuscript.
+DECLARATION OF CONFLICTING INTERESTS
+JMB founded the company REGEMAT 3D to transfer theresults of the project to the society with the same name.The present work has been developed within the frameworkof the REGEMAT 3D research project. JAM is a scientiﬁc advi-sor to the Regemat 3D company.
+FUNDING
+Part of this work was supported by the Consejer /C19ıa de Econom /C19ıa,
+Innovaci /C19on y Ciencia (Junta de Andaluc /C19ıa, excellence project
+number CTS-6568), and Ministerio de Econom /C19ıa, Industria y
+Competitividad (FEDER funds, project RTC-2016–5451-1). Weacknowledge the Junta de Andaluc /C19ıa for providing a fellowship
+granted to G.J., a fellowship granted for project developmentIþDþiEmple@Joven to C.G-L and post-doctoral fellowships to20 Experimental Biology and Medicine Volume 244 January 2019............................................................................................................................... ................................E.L-R and G.J. Also, C.A. acknowledges the pre-doctoral fellow-
+ship from the Spanish Ministry of Education, Culture and Sports
+(BOE-A-2014–13539).
+ORCID iD
+JA Marchal http://orcid.org/0000-0002-4996-8261
+REFERENCES
+1. Boland T, Xu T, Damon B, Cui X. Application of inkjet printing to tissue
+engineering. Biotechnol J 2006; 1:910–7
+2. Tsang VL, Bhatia SN. Fabrication of three-dimensional tissues. Adv
+Biochem Eng Biotechnol 2007; 103:189–205
+3. Billiet T, Vandenhaute M, Schelfhout J, Van Vlierberghe S, Dubruel P. A
+review of trends and limitations in hydrogel-rapid prototyping for
+tissue engineering. Biomaterials 2012; 33:6020–41
+4. Cui H, Nowicki M, Fisher JP, Zhang LG. 3D bioprinting for organ
+regeneration. Adv Healthcare Mater 2017; 6:1–52.
+5. Bhosale AM, Richardson JB. Articular cartilage: structure, injuries and
+review of management. Br Med Bull 2008; 87:77–95
+6. Fosang AJ, Beier F. Emerging frontiers in cartilage and chondrocyte
+biology. Best Pract Res Clin Rheumatol 2011; 25:751–66
+7. Rai V, Dilisio MF, Dietz NE, Agrawal DK. Recent strategies in cartilage
+repair: a systemic review of the scaffold development and tissue engi-
+neering. J Biomed Mater Res Part Res 2017; 105:2343–54
+8. Frazier WE, EW. Metal additive manufacturing: a review. J Mater Eng
+Perform 2014; 23:1917–28
+9. Pham D, Gault R. A comparison of rapid prototyping technologies. Int J
+Mach Tools Manuf 1998; 38:1257–87
+10. Wong KV, Hernandez A. A review of additive manufacturing. ISRN
+Mech Eng 2012; 2012:1–10
+11. Ozbolat IT, Moncal KK, Gudapati H. Evaluation of bioprinter technol-
+ogies. Addit Manuf 2017; 13:179–200
+12. Melchels FPW, Domingos MAN, Klein TJ, Malda J, Bartolo PJ,
+Hutmacher DW. Additive manufacturing of tissues and organs. Prog
+Polym Sci 2012; 37:1079–104
+13. Cui L, Wu Y, Cen L, Zhou H, Yin S, Liu G, Liu W, Cao Y. Repair of
+articular cartilage defect in non-weight bearing areas using adiposederived stem cells loaded polyglycolic acid mesh. Biomaterials
+2009; 30:2683–93
+14. O’Brien CM, Holmes B, Faucett S, Zhang LG. Three-dimensional print-
+ing of nanomaterial scaffolds for complex tissue regeneration. Tissue
+Eng Part B Rev 2015; 21:103–14
+15. Chia HN, Wu BM, Cristini V, Kim J, Lowengrub J, Singh S. Recent
+advances in 3D printing of biomaterials. J Biol Eng 2015; 9:4
+16. FDA. Technical considerations for additive manufactured devices . Food and
+Drug Administration, 2016
+17. Kim BS, Jang J, Chae S, Gao G, Kong J-S, Ahn M, Cho DW. Three-
+dimensional bioprinting of cell-laden constructs with polycaprolactone
+protective layers for using various thermoplastic polymers.
+Biofabrication 2016; 8:35013
+18. L /C19opez-Ruiz E, Pera ´n M, Cobo-Molinos J, Jime ´nez G, Pic /C19on M,
+Bustamante M, Arrebola F, Herna ´ndez-Lamas MC, Delgado-Mart /C19ınez
+AD, Monta ~nez E, Marchal JA. Chondrocytes extract from patients with
+osteoarthritis induces chondrogenesis in infrapatellar fat pad-derivedstem cells. Osteoarthr Cartil .2013; 21:246–5819. Zhang D, Chen L, Wang Z, Wei T. Recent progress on the research of
+high strength hydrogels. In: Proceedings of the 5th international conference
+on advanced design and manufacturing engineering , Shenzhen, China,
+September 19–20, 2015.
+20. Xing Q, Yates K, Vogt C, Qian Z, Frost MC, Zhao F. Increasing mechan-
+ical strength of gelatin hydrogels by divalent metal ion removal. Sci
+Rep2015; 4:4706
+21. Moghadam MN, Pioletti DP. Biodegradable HEMA-based hydrogels
+with enhanced mechanical properties. J Biomed Mater Res Part Res
+2016; 104:1161–9
+22. Visser J, Peters B, Burger TJ, Boomstra J, Dhert WJA, Melchels FPW,
+Malda J. Biofabrication of multi-material anatomically shaped tissue
+constructs. Biofabrication 2013; 5:35007
+23. Kundu J, Shim J-H, Jang J, Kim S-W, Cho D-W. An additive
+manufacturing-based PCL-alginate-chondrocyte bioprinted scaffold
+for cartilage tissue engineering. J Tissue Eng Regen Med 2015; 9:1286–97
+24. Kim JY, Cho DW. Blended PCL/PLGA scaffold fabrication using multi-
+head deposition system. Microelectron Eng 2009; 86:1447–50
+25. Chinga-Carrasco G. Potential and limitations of nanocelluloses as com-
+ponents in biocomposite inks for three-dimensional bioprinting and for
+biomedical devices. Biomacromolecules 2018; 19:701–11
+26. Crapo PM, Gilbert TW, Badylak SF. An overview of tissue and whole
+organ decellularization processes. Biomaterials 2011; 32:3233–43
+27. Garreta E, Oria R, Tarantino C, Pla-Roca M, Prado P, Ferna ´ndez-Avile ´s
+F, Campistol JM, Samitier J, Montserrat N. Tissue engineering by decel-
+lularization and 3D bioprinting. Mater Today 2017; 20:166–78
+28. Shim J-H, Jang K-M, Hahn SK, Park JY, Jung H, Oh K, Park KM, Yeom J,
+Park SH, Kim SW, Wang JH, Kim K, Cho DW. Three-dimensional bio-
+printing of multilayered constructs containing human mesenchymal
+stromal cells for osteochondral tissue regeneration in the rabbit knee
+joint. Biofabrication 2016; 8:14102
+29. Schuurman W, Khristov V, Pot MW, van Weeren PR, Dhert WJA, Malda
+J. Bioprinting of hybrid tissue constructs with tailorable mechanical
+properties. Biofabrication 2011; 3:21001
+30. Murphy SV, Atala A. 3D bioprinting of tissues and organs. Nat
+Biotechnol 2014; 32:773–85
+31. Chang R, Nam J, Sun W. Effects of dispensing pressure and nozzle
+diameter on cell survival from solid freeform fabrication-based direct
+cell writing. Tissue Eng Part A 2008; 14:41–8
+32. Scaffaro R, Lopresti F, Botta L, Rigogliuso S, Ghersi G. Integration of
+PCL and PLA in a monolithic porous scaffold for interface tissue engi-
+neering. J Mech Behav Biomed Mater 2016; 63:303–13
+33. Brittberg M, Lindahl A, Nilsson A, Ohlsson C, Isaksson O, Peterson L.
+Treatment of deep cartilage defects in the knee with autologous chon-drocyte transplantation. N Engl J Med 1994; 331:889–95
+34. Walser J, Stok KS, Caversaccio MD, Ferguson SJ. Direct electrospinning
+of 3D auricle-shaped scaffolds for tissue engineering applications.
+Biofabrication 2016; 8:25007
+35. Kim HJ, Park SR, Park HJ, Choi BH, Min B-H. Potential predictive
+markers for proliferative capacity of cultured human articular chon-
+drocytes: PCNA and p21. Artif Organs 2005; 29:393–8
+36. Skardal A, Atala A. Biomaterials for Integration with 3-D Bioprinting.
+Ann Biomed Eng 2015; 43:730–46
+37. Takahashi T, Ogasawara T, Asawa Y, Mori Y, Uchinuma E, Takato T,
+Hoshi K. Three-dimensional microenvironments retain chondrocyte
+phenotypes during proliferation culture. Tissue Eng 2007; 13:1583–92
+(Received July 30, 2018, Accepted December 3, 2018)Baena et al. Bioprinting process to enhance cell survival
+21............................................................................................................................... ................................

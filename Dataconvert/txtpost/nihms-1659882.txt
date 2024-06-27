@@ -1,0 +1,7 @@
+
+ sntsplit:
+RFP-HUVECs were either suspended alone or with hADSCs at a 2:1 ratio for a total cell  density of 5 million cells/mL in each alginate solution.
+ sntsplit:
+HUVECs and hADSCs were stained with Calcein-AM before  being suspended 2:1 in partially crosslinked alginate at a total density of 3 million cells/mL  and pipetted into the glass tips.
+ sntsplit:
+To fabricate a heterogenous VTU,  RFP-HUVECs and hADSCs were suspended in the vasculogenic bioink in a 2:1 ratio (RFP- HUVEC:ADSC) at a total cell density of 5 million cells/mL. To fabricate a mixed VTU,  RFP-HUVECs, hADSCs, and GFP-hDFs were suspended in the vasculogenic bioink in a  2:1:1 ratio (RFP-HUVEC:ADSC:GFP-hDF) at a total cell density of 5 million cells/mL. For  both heterogenous and mixed VTUs, GFP-hDFs were loaded at a density of 2 million  cells/mL in the fibroblast-containing bioink.

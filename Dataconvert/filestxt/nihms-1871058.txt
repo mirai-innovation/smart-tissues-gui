@@ -1,0 +1,739 @@
+Comparison of In-Situ versus Ex-Situ Delivery of 
+Polyethylenimine-BMP-2 polyplexes for Rat Calvarial Defect 
+Repair via Intraoperative Bioprinting
+Kazim K. Moncal1,2,3,#, Miji Yeo1,2,#, Nazmiye Celik1,2, Timothy M. Acri4, Elias Rizk5, 
+Hwabok Wee1,6, Gregory S. Lewis1,6, Aliasger K. Salem4,7, Ibrahim T. Ozbolat1,2,5,8,9,10,*
+1Engineering Science and Mechanics, Pennsylvania State University, University Park, PA, USA
+2Huck Institutes of the Life Sciences, Pennsylvania State University, University Park, PA, USA
+3Molecular Imaging Program at Stanford (MIPS), Department of Radiology, Stanford University, 
+Stanford, CA, USA
+4Division of Pharmaceutics and Translational Therapeutics, Collage of Pharmacy, University of 
+Iowa, Iowa City, IA, USA
+5Department of Neurosurgery, Penn State University, College of Medicine, Hershey, PA, USA
+6Department of Orthopedics and Rehabilitation, Penn State University, College of Medicine, 
+Hershey, PA, USA
+7Department of Chemical and Biochemical Engineering, College of Engineering, University of 
+Iowa, Iowa City, IA, USA
+8Biomedical Engineering, Pennsylvania State University, University Park, PA, USA
+9Materials Research Institute, Pennsylvania State University, University Park, PA, USA
+10Department of Medical Oncology, Cukurova University, Adana, Turkey
+Abstract
+Gene therapeutic applications combined with bio- and nano-materials have been used to address 
+current shortcomings in bone tissue engineering due to their feasibility, safety and potential 
+capability for clinical translation. Delivery of non-viral vectors can be altered using gene-activated 
+matrices to improve their efficacy to repair bone defects. Ex-situ and in-situ delivery strategies 
+are the most used methods for bone therapy, which have never been directly compared for their 
+*Corresponding author: ito1@psu.edu.#Contributed equally
+Author Contributions
+K.K.M., M.Y . and I.T.O. developed the ideas and designed the experimental plan. T.M.A. produced pDNAs and performed particle 
+size and zeta potential characterization. K.K.M. performed transfection of particles, cell culture, bioink preparation, IOB of bone, 
+animal handling, cryosectioning, histomorphometric characterizations, staining and imaging. M.Y . performed in vitro studies. N.C. 
+supported to generate the RT-PCR data. E.R. performed animal surgeries. H. W. performed μCT scanning and analyzed the data with 
+G.S.L. All the authors contributed to the manuscript writing.
+Conflict of interest
+I T O has an equity stake in Biolife4D and is a member of the scientific advisory board for Biolife4D and Brinter. Other authors 
+confirm that there are no known conflicts of interest associated with this publication and there has been no significant financial support 
+for this work that could have influenced its outcome.
+HHS Public Access
+Author manuscript
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Published in final edited form as:
+Biofabrication . ; 15(1): . doi:10.1088/1758-5090/ac9f70.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptpotency to repair critical-sized bone defects. In this regard, we first time explore the delivery 
+of polyethylenimine (PEI) complexed plasmid DNA encoding bone morphogenetic protein-2 
+(PEI-pBMP-2) using the two delivery strategies, ex-situ and in-situ delivery. To realize these gene 
+delivery strategies, we employed intraoperative bioprinting (IOB), enabling us to 3D bioprint 
+bone tissue constructs directly into defect sites in a surgical setting. Here, we demonstrated 
+IOB of an osteogenic bioink loaded with PEI-pBMP-2 for the in-situ delivery approach, and 
+PEI-pBMP-2 transfected rat bone marrow mesenchymal stem cells (rBMSCs) laden bioink for 
+the ex-situ delivery approach as alternative delivery strategies. We found that in-situ delivery of 
+PEI-pBMP-2 significantly improved bone tissue formation compared to ex-situ delivery. Despite 
+debates amongst individual advantages and disadvantages of ex-situ and in-situ delivery strategies, 
+our results ruled in favor of the in-situ delivery strategy, which could be desirable to use for future 
+clinical applications.
+Keywords
+In-situ delivery; ex-situ delivery; gene therapy; stem cells; bone tissue engineering; intraoperative 
+bioprinting
+1. Introduction
+Non-viral gene delivery based therapeutics for bone regeneration, including the delivery of 
+foreign nucleic acids or osteogenic genes into cell milieu, has gained significant attention 
+in inducing osteogenesis in vivo  leading to accelerated bone repair [ 1, 2]. It is difficult for 
+most non-viral gene vectors to pass through the plasma membrane on their own due to 
+their negative surface charges and hydrophilicity [ 3, 4]. Therefore, researchers have used 
+delivery vehicles, including polymers and liposomes, in order to form complexes to achieve 
+stable carrier systems and sufficient transfection efficiency [ 4–6]. Polyethylenimine (PEI) is 
+one of the most commonly used synthetic cationic polymer for efficient delivery of nucleic 
+acids (encoded plasmid-DNA (pDNA)) into cell nuclei by the formation of PEI-pDNA 
+polyplexes, also known as complexes or nanoplexes, through electrostatic interactions [ 7, 
+8]. The PEI-pDNA polyplex causes the endosome to swell and rupture due to osmolysis 
+enabling earlier escape of complexes before lysosomal degradation; this is known as the 
+proton sponge effect [ 7–9].
+Both ex-situ [ 10, 11] and in-situ [ 12–14] delivery of pDNA into the targeted defect 
+region have been previously investigated in order to test their efficiency in tissue repair 
+and potential use in therapeutic applications [ 15]. The ex-situ delivery strategy involves 
+transfection of specific cell population with a desirable gene outside of the body before 
+in vivo  delivery [ 2]. Therefore, this strategy provides direct targeting of cells to uptake 
+the gene of interest during the transfection process resulting in pre-determined transfection 
+efficiency before their use in vivo  [16]. However, ex-situ delivery mechanism requires more 
+processing time due to the cell culture work prior to transfection and implantation, which 
+is not desirable for clinical applications. Additionally, the stem cell extraction process from 
+patients requires invasive surgical procedures and could be burdensome for patients in 
+critical conditions [ 10, 11, 15, 17]. On the other hand, in-situ delivery strategy of gene-based Moncal et al. Page 2
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptgrowth factors could be a more attractive approach since it does not require cell extraction 
+and expansion, and prolonged cell culture time are all avoided providing less complicated 
+treatment for the repair of bone defects [ 18]. However, the in-situ delivery approach does not 
+allow direct delivery of these polymer-based pDNA delivery vehicles into the specific cell 
+population in vivo , causing possible side-effects due to non-specific interactions and uptake 
+of the complexes by non-targeted cells [ 11, 15, 17].
+In this study, we evaluated both ex-situ and in-situ delivery of PEI-pBMP-2 and compared 
+their potential in repairing critical-sized rat calvarial bone defects using the intraoperative 
+bioprinting (IOB, which is also known as in-situ or in-vivo bioprinting [ 19]) as a tool 
+as highlighted in Fig. 1. Here, an osteogenic hard tissue bioink, developed in a previous 
+work [ 20], where PEI-plasmid bone morphogenetic protein-2 (PEI-pBMP-2) polyplexes 
+were loaded in to the bioink as the in-situ delivery strategy. On the contrary, PEI-pBMP-2 
+polyplexes were used to transfect rat bone marrow mesenchymal stem cells (rBMSCs(tPEI-
+pBMP-2)) and then transfected cells were loaded into the bioink for IOB for the ex-situ 
+delivery strategy. The IOB technology made it feasible to directly deliver gene-activated 
+matrices in an anatomically customized shape into the calvarial defect site. Overall, this 
+study aimed to compare in-situ and ex-situ delivery of PEI-pBMP-2, and the demonstrated 
+results suggest the possibility of expanding the scope of gene delivery via IOB for bone 
+regeneration.
+2. Materials and Methods
+2.1. pDNA Preparation
+pDNAs were prepared based on a previously published study [ 21]. Briefly, the chemically 
+competent DH5 α™ bacterial strain ( Escherichia colispecies ) was transformed with pBMP-2 
+(cat. no. SC119392, Origene Technologies, Rockville, MD). The transformed cultures were 
+then expanded in Lennox L Broth (Research Products Incorporated, MT. Prospect, IL) 
+overnight at 37 °C in an incubator shaker at 300 RPM. pDNA was extracted using a 
+GenElute™ HP endotoxin-free plasmid maxiprep kit (cat. no. NA0410–1KT, Sigma-Aldrich, 
+St. Louis, MO) and analyzed for purity using a Zetasizer Nano-ZS (Malvern Instruments, 
+Westborough, MA) by measuring the ratio of absorbance (A260 nm/A280 nm).
+2.2. Formation of PEI-pDNA Polyplexes
+PEI-pBMP-2 (N/P ratio of 10, where “N=molar number of primary amines in the polymer; 
+P=molar number of phosphate groups in the pDNA backbone” [ 10]) complexes were formed 
+by the addition of 75 μg of plasmid DNA (2000 μg/ml) into 100 μl of PEI (2 mg/ml) 
+(Sigma-Aldrich, cat. no. 408727, MW: 25k) solution by manual pipetting [ 12] and further 
+incubated at room temperature for 30 min. The use of N:P ratio 10 in the transfection of 
+stem cells was based on extensive optimization studies carried out in earlier studies. These 
+include studies comparing branched and linear PEI at different N:P ratios in vivo  [22], 
+showing that an N:P ratio of 10 is optimal for transfection efficacy in human bone marrow 
+stromal cells [ 12], human embryonic palatal mesenchyme cells [ 23] and human adipose 
+derived mesenchymal stem cells [ 24].Moncal et al. Page 3
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript2.3. Characterization of PEI-pDNA Polyplexes
+After the formation of PEI-pBMP-2 complexes, the particle size distribution, mean particle 
+size, polydispersity index (PDI) and zeta potential measurements were investigated (in 
+triplicates) using Malvern Zetasizer Nano ZS instrument (Worcestershire, UK) at 25 °C.
+2.4. Bioink Preparation
+The bioink was prepared according to a recent work [ 20]. Briefly, 56% (w/v) β-
+glycerophosphate ( βGP, Sigma-Aldrich) combined with 2% (w/v) chitosan solution (CS, 
+Sigma-Aldrich, cat. no. 417963h) at a volumetric ratio of 1:9 (v/v) ( βGP:CS). Type-I 
+collagen extracted from rat tails [ 25] was dissolved in 0.02N acetic acid solution at a 
+concentration of 9 mg/ml (Coll) and then mixed with neutralized CS- βGP solution at a ratio 
+of 1:4 (v/v) (Coll:CS- βGP). Next, freeze-dried collagen sponges were added to the solution 
+to prepare a final concentration of 26.6 mg/ml of collagen and mixed for 30 min using 
+an in-house developed paste mixer at room temperature until a homogenous solution was 
+achieved. Finally, nano-hydroxyapatite particles (nHAp) (nanoXIM-HAp202, Fluidinova, 
+Portugal) were added to the overall bioink solution and mixed for additional 10 to 15 min to 
+achieve 106.67 mg nHAp/ml.
+2.5. Bioink Preparation for in-situ Delivery
+A total of 1250 μg of pBMP-2 was complexed with PEI (Sigma-Aldrich) to form polyplexes 
+to deliver 50 μg of PEI-pBMP-2 complex per defect in vivo  (25 constructs per batch). The 
+freeze dried polyplexes were mixed with the bioink solution using the in-house paste mixer 
+until a homogenous mixture was achieved.
+2.6. Cell Culture
+For in-vitro study, human mesenchymal stem cells (hMSCs, RoosterBio Inc., MD, USA) 
+were cultured using MSC expansion media (R&D Systems, MN, USA) (growth media; 
+GM) supplemented with Penicillin (100 IU/ml) - Streptomycin (100 μg/ml) (cat. no. 30–
+002-CI, Corning Life Sciences, Lowell, MA) until usage. As an osteogenic media (OM), 
+human osteogenic differentiation media (Cell Applications, USA) added with Penicillin-
+Streptomycin was used.
+For in-vivo study, as implantation of hMSCs was not possible into immunocompetent rats, 
+allogenic rBMSCs were extracted from inbred 4-week-old male Fischer white rats (F344/
+DuCrl, Charles River Laboratories, Wilmington, MA) [ 25]. All animals were cared in 
+the animal facility (Millennium Science Complex, PSU) and euthanasia procedures were 
+according to American Association for Laboratory Animal Science (AALAS) and The 
+Institutional Animal Care and Use Committee (IACUC protocol #46591). Isolated rBMSCs 
+were plated on 6-well cell culture plates in Minimal Eagle’s Medium, Alpha modification 
+(αMEM; cat. no. 10–022-CV , Corning Cellgro®, Manassas, V A) supplemented with 10% 
+fetal bovine serum (FBS) (cat. no. 35–010-cv, Thermo Fisher Scientific, Waltham, WA), PS 
+and 2.5 μg/ml Fungizone (cat. no. 15–290-026, Thermo Fisher Scientific) and incubated at 
+37 °C in a humidified 5% CO 2 incubator.Moncal et al. Page 4
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript2.7. Bioink Preparation for Ex-Situ Delivery
+Ex-situ delivery method was accomplished with transfecting hMSCs or isolated rBMSCs 
+with PEI-pBMP-2 complexes, for in-vitro and in-vivo studies, respectively. rBSMCs at 0.5 
+million were transfected for one reaction of PEI-pBMP-2 complex (75 μg pDNA/100 μl of 
+PEI complex). The PEI complex dropwise was pipetted onto 2D seeded hMSCs or rBMSCs 
+in αMEM (serum-free media) and mixed gently to ensure homogenous distribution over 
+the cell growth area. The cells were then incubated at 37 °C for 4 h and then replaced 
+with growth medium containing serum according to a previously published study [ 26]. The 
+following day, 5 million hMSCs or rBMSCs (tPEI-pBMP-2) were collected and mixed with 
+1 mL of bioink. ~320,000 transfected rBMSCs were loaded per construct and 50 μg of 
+PEI-pBMP-2 was used per defect.
+2.8. 3D Bioprinting of constructs for the in-vitro study
+The in-house developed Multi-Arm BioPrinter (MABP) [ 27] was used for 3D bioprinting 
+samples for the in-vitro study. The constructs were 3D bioprinted (using transfected or 
+non-transfected hMSCs at 5 million cells/mL loaded into the bioink) at a bioprinting 
+speed of 60 mm/min, a nozzle diameter of 410 μm and pneumatic pressure of 80 kPa. 
+Bioprinting was performed at room temperature (25 °C) and the bioink was deposited on 
+a temperature-controlled plate set at 44 °C [ 25]. The constructs were bioprinted in 5-mm 
+diameter and 1-mm thickness, like the defect shape. Then, constructs loaded with transfected 
+and non-transfected hMSCs were cultured with OM and GM, respectively. During the 
+culture period, media was changed every other day.
+As a negative control group, two-dimensional (2D) cultures were fabricated. For 
+morphological characterization, 160,000 hMSCs were seeded on 22 mm × 22 mm sterile 
+glass slides, which were placed inside a 6-well plate for culture. For quantitative real-time 
+polymerase chain reaction (RT-PCR) test, 320,000 hMSCs were seeded on 6-well plates, and 
+GM or OM were added thereafter for transfected and non-transfected hMSCs, respectively.
+Next, in-vitro study was proceeded using four groups: i) 2D hMSCs transfected with PEI-
+pBMP-2 and cultured in GM, ii) 2D hMSCs cultured in OM, iii) 3D bioprinted hMSCs 
+transfected with PEI-pBMP-2 and cultured in GM, and iv) 3D bioprinted hMSCs cultured in 
+OM.
+2.9. Cell Viability
+To measure cell viability, LIVE/DEAD staining was performed using Calcein (0.15 mM) 
+and ethidium homodimer-1 (2 mM) at Days 1 and 7. 2D and 3D bioprinted samples were 
+stained for 30 min and captured using a Zeiss Axio Zoom fluorescent microscope (Carl 
+Zeiss, Germany). Cell viability was obtained by the percentage of the number of live cells to 
+the total number of cells.
+2.10. Immunofluorescence staining
+Cell morphology and osteogenic differentiation were observed by immunofluorescence 
+staining at Days 7 and 21. To begin, 2D and 3D samples were fixed using 4% 
+paraformaldehyde for 12 h at 4 °C. The following day, the samples were treated with Moncal et al. Page 5
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript0.3% Triton X-100 for 15 min and 10% normal goat serum (NGS) for 2 h. A mouse 
+anti-runt-related transcription factor (RUNX2) antibody (1:500; ab76956, Abcam) and rabbit 
+anti-bone sialoprotein (BSP; 1:500; ab52128, Abcam) were used to conjugate antibodies 
+with samples at 4 °C for a day. After rinsing the samples using Dulbecco’s phosphate-
+buffered saline (DPBS) once, nuclei and F-actin were stained by Hoechst (1:500; blue; 
+Life Technologies) and phalloidin (1:100; red; a12380, Molecular Probes); osteogenic 
+differentiation of hMSCs was visualized using Alexa Fluor 488 goat anti-mouse IgG 
+(H+L) secondary antibody (1:250; green; A11017, Invitrogen) and Alexa Fluor 647 goat 
+anti-rabbit IgG (H+L) secondary antibody (1:250; cyan; A21245, Invitrogen). The samples 
+were immersed in a staining solution for 1.5 h in an incubator at 37 °C before imaging using 
+a Zeiss LSM880 confocal microscope (Carl Zeiss, Germany).
+2.11. Reverse transcription polymerase chain reaction (RT-PCR)
+For a quantitative measurement, gene expression was analyzed by RT-PCR. Both 2D 
+and 3D samples were prepared and cultured for 28 d. TRIzol® reagent (Thermo Fisher 
+Scientific) was used to isolate RNA from the samples, in which its concentration was 
+measured by reading the absorbance to obtain the ratio of 260/280 nm using a NanoDrop 
+(ND-1000 Spectrophotometer, Thermo Fisher Scientific). Complementary deoxyribonucleic 
+acid (cDNA) synthesis was carried out using T100 Thermal Cycler (BioRad) according 
+to the manufacturer’s protocol of AccuPower® CycleScript RT PreMix (Bioneer, Korea). 
+Thereafter, gene expression was analyzed with SYBR Green (Thermo Fisher Scientific) 
+using a StepOnePlus Real-Time PCR System (Applied Biosystems). Each gene was filled 
+in a 96-well plate. The fold-change of genes, including Col1, RUNX2, OCN, and BSP, was 
+calculated using the 2−ΔΔCT method and normalized with respect to housekeeping gene, 
+glyceraldehyde 3-phosphate dehydrogenase (GAPDH). Then, all groups were normalized 
+to hMSCs at Day 1, which were set as 1-fold. The reader is referred to Table for a list of 
+primers used in RT-PCR.
+2.12. Surgical Procedures for Intraoperative Bioprinting
+A total of 11 12-week-old inbred male Fischer 344 white rats were anesthetized with 
+an intraperitoneal injection of ketamine (Midwest Veterinary, Lakeville, MN) mixed with 
+xylazine (LLOYD Inc., Shenandoah, IA) at a dose of 100 mg/kg for ketamine and 10 
+mg/kg for xylazine after inhalation of isoflurane (2–5%) over 1–2 mins. When animals 
+were fully anesthetized, artificial tears (Rugby Laboratories, Livonia, MI) were placed on 
+eyes, and heads were shaved and treated with a betadine surgical scrub followed by ethanol. 
+Bupivacaine (0.015 mg/kg) (Centralized Biological Laboratory, PSU) at a concentration 
+of 2.5 mg/mL and buprenorphine (0.015 mg/kg) were injected subcutaneously before the 
+surgery. A sagittal incision was made through the periosteum and was retracted to expose 
+the calvarium. Two critical-sized calvarial defects (each with 5 mm in diameter) were drilled 
+into the parietal bone on each side of the rat skull using a trephine bit, keeping the Dura 
+mater intact.
+The experiment was designed to include four major groups: i) negative control ( n=3), ii) 
+bioink+rBMSCs (5 million cells/ml) ( n=6), iii) bioink+rBMSCs(tPEI-pBMP-2) ( n=6) for 
+ex-situ delivery, and iv) bioink+PEI-pBMP-2 ( n=7) for in-situ delivery of plasmid particles. Moncal et al. Page 6
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptIOB was performed by pneumatically extruding the bioink using the in-house developed 
+MABP [ 27] system following a spiral deposition at a bioprinting speed of 60 mm/min. 
+Thereafter, periosteum and skin were sutured with simple interrupted 5–0 monocryl (Ethicon 
+Inc., Somerville, NJ) and 4–0 vicryl (Ethicon Inc.) sutures, respectively. After the surgeries, 
+animals were placed on warming pad allowing recovery and were observed closely until 
+they awoke from sternal recumbency. Following the post-surgery recovery, a single dose of 
+buprenorphine was administered every 12 h for a minimum of 24 h of analgesia. Animals 
+were observed and weighed daily for at least 10 days post-surgery and weighed once a 
+week after removing the sutures (10 days after the surgery). Animals were euthanized at 6 
+weeks post-surgery by CO 2 inhalation (2 L/min) until breathing cessation and subsequently 
+decapitated.
+2.13. Assessment of Bone Formation
+Micro-computed tomography (μCT) scanning of calvarial defects was performed with a 
+vivaCT 40 scanner (Scanco Medical, Switzerland) (17.5 μm isometric voxels, 70 kV energy, 
+114 μA intensity, and 200 ms integration time) [ 28]. Image analysis was conducted using 
+a cylindrical 3D oriented volume of interest with a radius of 2.5 mm and a height of 1 
+mm in Avizo (FEI Company, Hillsboro, OR), MATLAB (Natick, MA) after applying a 
+gaussian smoothing filter (sigma 0.9) and a threshold cutoff of 300 mgHA/cm3. The bone 
+volume divided by total volume (BV/TV%), normalized bone mineral density (BMD%) and 
+bone coverage area (%) were calculated from the filtered and processed data. Note that, the 
+volume fraction of nHAp in the bioink was calculated prior to in-vivo studies in order to 
+determine the baseline mineralization and eliminate possible artifacts in the scanned samples 
+from our calculations, which turned out to be negligibly small.
+2.14. Histological Analysis
+Calvarial explants were extracted from rat skulls at Week 6 post surgery, rinsed with DPBS 
+and fixed with 4% paraformaldehyde for 2 days at 4 °C. The explants were then decalcified 
+with 0.5M ethylenediaminetetraacetic acid (EDTA) disodium salt (Research Products 
+International, Mount Prospect, IL) for 6 weeks at 4 °C. After the decalcification process, 
+samples were embedded in O.C.T. cyromatrix (Thermo Fisher Scientific) embedding resin, 
+sectioned using a Leica CM1950 Cryostat (Leica Biosystems, Wetzlar, Germany) at −32 °C 
+with 18 μm thickness, and stained in a Hematoxylin and Eosin (H&E) automated staining 
+platform (Leica Auto Stainer XL, Leica Biosystems) without applying any heat during 
+the staining process. The stained sections were mounted using Neo-Mount® anhydrous 
+mounting medium (Millipore) and imaged using a Keyence BZ-9000 (Keyence Corporation 
+of America, Elmwood Park, NJ) fluorescence microscope under the bright field using a 
+neutral density optical filter.
+In order to visualize the collagen deposition histomorphometrically, sectioned samples 
+were also stained using Masson’s Trichrome staining (MTS) kit (Sigma-Aldrich, cat. No. 
+HT15–1KT) based on the manufacturer’s instructions. The stained samples were dehydrated 
+gradually with ethanol, using Neo-Mount® anhydrous mounting medium (Millipore), and 
+imaged using the Keyence BZ-9000 microscope as described before.Moncal et al. Page 7
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript2.15. Statistical Analysis
+All data were presented as mean ± standard deviation unless stated otherwise. In order 
+to compare three or more groups, data were analyzed by one-way ANOV A with post hoc 
+Fisher’s individual tests for differences of means at a 95% confidence level (assuming equal 
+variances). Differences were considered significant at p***<0.001, p**<0.01, p*<0.05. All 
+statistical analysis was performed using Minitab 17.3 (Minitab Inc., State College, PA).
+3. Results
+The average size of the PEI-pBMP-2 polyplexes used in this study was determined to be 1.4 
+μm. These polyplexes had the potential to be taken up by cells through the macropinocytosis 
+pathway allowing the entry of micron-sized particles through large vesicles (0.5 – 10 
+μm) present on the plasma membrane [ 29]. A PDI value of ~0.66 indicated a large 
+diversity in size distribution amongst the PEI-pBMP-2 polyplexes, which might affect the 
+transfection efficiency of the polyplexes (Fig. 2A). The zeta potential was measured as 
+25mV demonstrating positively charged particles (Fig. 2B).
+Cytocompatibility of the transfection (using PEI-pBMP-2) and 3D bioprinting processes was 
+evaluated via LIVE/DEAD assay (Fig. 3A). For in-vitro evaluation, hMSCs were used at a 
+density of 5 million cells/mL in the bioink. Specifically, four groups were used including 
+i) 2D transfected hMSCs cultured in GM (2D-T), ii) 2D hMSCs treated with osteogenic 
+media (OM) (2D-OM), iii) 3D bioprinted constructs loaded with transfected hMSCs and 
+treated with GM (3D-T), and iv) 3D bioprinted constructs loaded with hMSCs and treated 
+with OM (3D-OM). Each group was analyzed for cell viability at Days 1 and 7 (Fig. 3B). 
+All groups showed high cell viability (> 90%), which was maintained from Day 1 through 
+7, highlighting the fact that the transfection and bioprinting processes did not impair the 
+viability of hMSCs.
+For the same experimental groups, morphology and osteogenic differentiation of 
+hMSCs were confirmed by immunofluorescent images showing phalloidin, RUNX2, and 
+BSP counterstained with Hoechst (Fig. 4A). To elaborate, RUNX2, a multifunctional 
+transcription factor for osteogenesis, was expressed in the nucleoplasm for all groups at Day 
+7 and became more evident at Day 21 (Fig. 4A). Whereas BSP, a marker expressed at the 
+late stage of ostegenesis, was not expressed in 2D groups at Day 21, but 3D groups revealed 
+BSP expression at Day 21 (Fig. 4A). These results suggest that 3D bioprinted constructs and 
+PEI-pBMP-2 transfection facilitated the osteogenic differentiation of hMSCs.
+Furthermore, the expression of osteogenic markers (RUNX2, Col1, OCN, and BSP) were 
+evaluated using RT-PCR. RUNX2 was 75-, 61-, and 14-fold higher on 3D-T compared to 
+2D-T, 2D-OM, and 3D-OM, respectively. For Col1, an early-stage osteogenic marker, 3D-T 
+and 3D-OM revealed significantly higher expression compared to 2D-T and 2D-OM. On 
+the other hand, although OCN, a marker of mature osteoblasts, did not show any significant 
+difference among all groups, 3D-T and 3D-OM were ~72- and ~28-fold higher compared to 
+2D groups, respectively. In the meantime, BSP, which can be found specific for mineralized 
+tissues, was significantly expressed in both 3D groups.Moncal et al. Page 8
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptAfter confirming the cytocompatibility of the process and the osteogenic potential of 
+the pBMP-2-transfected hMSC-laden 3D bioprinted constructs in vitro , IOB process was 
+performed using MABP after surgically opening two, 5 mm-diameter critical-sized calvarial 
+defects on rat skulls (Fig. 5), which is a well-established model for bone repair in the 
+literature as a size of one tenth of skull does not heal spontaneously during the lifetime 
+[30]. The animal head position was maintained fixed during surgeries. Next, IOB was 
+performed by directly bioprinting bone constructs onto the defect site(s) allowing printhead 
+to follow a spiral toolpath plan with a 100% infilled density to ensure complete filling of 
+each defect in a controlled manner, where overall IOB process took <1 min per construct. In 
+this study, we employed four groups including i) empty defect (control), ii) rBMSCs-laden 
+bioink (no delivery), iii) rBMSCs(tPEI-pBMP-2)-laden bioink (ex-situ delivery), and iv) 
+PEI-pBMP-2-laden bioink (in-situ delivery). The bioink crosslinking after extrusion was 
+achieved by temperature induced physical crosslinking of collagen and CS- βGP at body 
+temperature resulting in a rapid solution to gelation phase transition [ 31].
+Six weeks post bioprinting, rats were euthanized for the evaluation of bone regeneration. 
+Overall, both newly formed bone tissue and mineralized bone matrix were observed in all 
+groups via μCT scanning (Fig. 6A). The in-situ delivery group demonstrated significant 
+improvement in bone volume to total bone volume percentage (BV/TV) (%) compared 
+to empty (~1.94-fold, p<0.001), no delivery (~1.86-fold, p<0.001) and ex-situ delivery 
+(~1.33-fold, p=0.012) groups (Fig. 6B1). Additionally, the ex-situ delivery group improved 
+bone repair significantly compared to the no delivery (~1.4-fold, p=0.030) and empty 
+(~1.46-fold, p=0.048) groups. The normalized percentage bone mineral density (BMD) was 
+determined to be higher for the in-situ delivery group compared to the empty (~1.8-fold, 
+p<0.001), no delivery (~1.4-fold, p<0.001) and ex-situ delivery (~1.2-fold, p=0.030) groups, 
+respectively (Fig. 6B2). Additionally, the ex-situ delivery group showed ~1.6-fold ( p<0.001) 
+increase in normalized BMD% compared to the empty group and no significant difference 
+was observed compared to the no delivery group. The no delivery group, on the other 
+hand, demonstrated higher normalized BMD% compared to the empty group (~1.32-fold, 
+p=0.045). No significant difference was observed between ex-situ and in-situ delivery of 
+pDNAs in terms of the bone coverage area. In-situ and ex-situ delivery groups demonstrated 
+~1.8- ( p<0.001) and 1.7-fold ( p=0001) increase in bone coverage area compared to the 
+empty group, respectively (Fig. 6B3). The in-situ delivery group also showed a 1.3-fold-
+increase in bone coverage area compared to the no delivery group ( p=0.009), whereas no 
+significant difference ( p=0.057) was observed for the ex-situ delivery group. The no delivery 
+group showed higher bone coverage area (~1.4-fold, p=0.048) in comparison to that of the 
+empty defect.
+Hematoxylin and eosin (H&E) staining and Masson’s Trichrome staining (MTS) were 
+performed on the decalcified sections to visualize the newly formed bone tissue matrix 
+histomorphometrically. H&E images demonstrated the connectivity and compactness of 
+newly formed bone tissue in the calvarial defects. The empty group demonstrated mostly 
+soft tissue (ST) formation, which was visualized with a lightly pink color. A partial amount 
+of newly regenerated bone tissue (RB) was detected nearby the defect edges in the empty 
+group (Fig. 7A1). While the remaining groups were able to form bony bridge invading from 
+one defect edge to another (Figs. 7A2–A4). The no delivery group had less dense RB tissue Moncal et al. Page 9
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptcompared to ex-situ and in-situ delivery groups (Fig. 7A2). The highest nuclei density was 
+also observed in the in-situ delivery group, which displayed densest RB tissue area with the 
+least amount of ST formation compared to the other groups (Fig. 7A4).
+The MTS images were used to display collagen matrix with bluish areas indicating 
+immature and mature bone tissues in the calvarial bone defects (Figs. 7A1–4). The mature 
+bone stained with a dark blue color, whereas the fibrous tissue with lightly blue color. 
+The empty group demonstrated mainly light blue color and immature bone formation near 
+by the host bone (HB), which were taken a dark blue color (Fig. 8A1). Additionally, 
+there were quite many apparent red blood cells in the defect site indicating vascularization 
+during ongoing bone repair process. Both no delivery (Fig. 8A2) and ex-situ delivery (Fig. 
+8A3) groups exhibited a dense blue color nearby HB compared to the empty group. The 
+in-situ delivery group had noticeable dense blue islands indicating immature bone formation 
+throughout the defect (Fig. 8A4).
+4. Discussion
+In this study, the concept of combining the delivery of PEI complexed pDNA encoding 
+BMP-2 with IOB was demonstrated for craniomaxillofacial (CMF) bone regeneration. The 
+attempts on delivery or transfection using various micro/nanoparticles, such as microRNA, 
+chemically modified RNA, and cytokines, have been demonstrated to manipulate cell fate 
+[28, 32, 33], but direct delivery via IOB is still in its infancy.
+To prove this concept, we began with an in-vitro study to show the effect of PEI-pBMP-2 
+and bioprinting on cellular activities including cell viability and osteogenic differentiation. 
+As a control, hMSCs with and without transfection were cultured in 2D. Here, high cell 
+viability (>90%) was observed at Days 1 and 7 regardless of transfection indicating that 
+the transfection using PEI-pBMP-2 did not impair cell viability. Then, non-transfected 
+and transfected hMSCs were used to bioprint 3D hMSC-laden constructs to compare the 
+fate of hMSCs with respect to those in 2D groups. Similarly, 3D groups showed high 
+cell viability (>90%) up to Day 7, which demonstrated the feasibility of bioprinting of 
+PEI-pBMP-2-transfected progenitors for bone tissue engineering applications.
+In addition, the effect of PEI-pBMP-2 on the osteogenic differentiation of hMSCs was 
+compared to that of the osteogenic media. The immunofluorescent images demonstrated 
+that the expression of RUNX2 became more evident from Day 7 to 21 in both 2D 
+and 3D groups. However, BSP was present only in 3D groups, which might be due to 
+the synergistic effects of PEI-pBMP-2 transfection and presence of collagen in the 3D 
+microenvironment [ 27, 33, 34]. For instance, rat BMSCs embedded in a methacrylamide 
+gelatin bioink with BMP-2-collagen microfibers showed greater expression of osteogenic 
+markers (alkaline phosphatase (ALP), BSP, OCN, and Col1) compared to those cultured 
+without BMP-2-collagen microfibers [ 33]. To elaborate, BMP-2 and collagen have shown 
+supporting effects in cell adhesion, migration, and differentiation, and for some clinical 
+trials, eventually guided successful interbody fusions [ 35–37]. Hence, these results denote 
+that the combinatorial approach of delivering PEI-pBMP-2 and the osteogenic bioink was 
+favorable for osteogenesis.Moncal et al. Page 10
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptThe degree of osteogenesis was further examined quantitatively by RT-PCR. The results 
+reveal that the transfected groups were as effective as OM groups to induce osteogenesis 
+in both 2D and 3D environment. Compared with 2D groups, 3D groups generally showed 
+higher quantitative values, which suggest that bioprinting is advantageous by providing 
+a 3D microenvironment for progenitors to differentiate osteogenically. Since one of the 
+purposes of IOB was to minimize the pre-processing time (i.e., cell preparation or culture 
+period), transfected cells (ex-situ delivery) or in-situ delivery of PEI-pBMP-2 can be an 
+efficient approach to induce osteogenesis when directly bioprinted into a defect site without 
+differentiating cells for a long culture period prior to bioprinting.
+In order to test the effectiveness of PEI-pBMP-2 using in-situ versus ex-situ delivery, we 
+utilized IOB, which is deemed an effective technology for direct deposition of constructs 
+into the defect site. This technology was previously demonstrated for the repair of calvarial 
+bone defects in a mouse model using a laser-assisted bioprinting (LAB) system by delivering 
+hydroxyapatite in collagen [ 34]. Even though LAB has a higher resolution, it might not 
+be ideal for use in IOB towards translating this technology into clinics due to its time-
+consuming nature and operational complexity [ 35]. Thus, extrusion-based bioprinting would 
+be more suitable to directly print viscous bioinks into a defect site for hard tissue repair 
+owing to its ease with scalability, and the ability to bioprint constructs in a simpler and rapid 
+manner [ 36]. Although manual injection can also be utilized to deliver the bioink into the 
+defect, IOB enables avoiding inconsistent deposition and non-uniform extrusion of bioink 
+that eventually alters the amount of PEI-pDNA affecting cellular activities. In addition, to 
+reconstruct complex-shaped contour zones of the cranium, IOB is a great tool providing 
+a degree of freedom by its high precision and versatility, which can be utilized for high 
+precision applications, such as IOB of thinner tissues (i.e., skin) or combination of such 
+thinner tissues with the bone as demonstrated recently [ 20].
+This study is the first attempt investigating the efficacy of in-situ versus ex-situ delivery 
+of bioprinted PEI-pBMP-2 polyplexes to determine the more efficient delivery method for 
+the repair of rat critical size calvarial defects. To improve the functionality of stem cells 
+delivered to the defect site, there is a growing evidence that the delivery of gene-based 
+growth factors within the cell membrane can be beneficial for improved vascularization 
+[26] and mineralized bone tissue formation [ 37]. One of the greatest advantages of ex-situ 
+delivery mechanism is to target a specific cell population and load it into the bioink before 
+the delivery of gene activated matrices in vivo . In our study, ex-vivo transfection of rBMSCs 
+were achieved in a 2D culture and then transfected cells were loaded into the bioink before 
+the in-vivo delivery. This way, we could assume that the delivered stem cells had the ability 
+to commit to osteogenic differentiation producing desired bone matrix proteins in vivo 
+[17]. To the best of our knowledge, there has been no study demonstrating implantation 
+of constructs in vivo  using an ex-situ delivery method, specifically using stem cells that 
+are transfected with PEI-based gene carriers for osteogenesis inducing factors. It has been 
+previously reported that PEI-pDNA polyplexes transfected rBMSCs (1µg pDNA per 3×104 
+cells) resulted in around 2–10% of transfection efficiency depending on N/P ratios [ 38]. In 
+this study, we observed that transfection of rBMSCs with PEI-pBMP-2 polyplexes improved 
+bone regeneration significantly compared to non-transfected rBMSCs despite its potentially 
+low transfection efficiency in a 2D culture. On the other hand, the delivery of transfected Moncal et al. Page 11
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptrBMSCs into the defect site via IOB can also witness other challenges. For example, one 
+of the major clinical concerns for injured CMF defects is the disruption of blood vessels 
+surrounding the exposed defect site resulting in insufficient bone repair due to lack of 
+vascular network formation, which eventually causes osteonecrosis [ 39]. Bone regeneration 
+and repair depends on an effective vascular network of blood vessels to transport waste, 
+nutrients, and other essential molecules [ 40]. After the delivery of cells into the defect site 
+via IOB, damaged blood vessels surrounding the periphery of the defect might not have 
+enough support of oxygen and nutrients to sustain the viability of cells and support their 
+growth until newer blood vessels were formed. This could potentially lead to necrosis after 
+the delivery of cells into the defect side due to hypoxia and starvation [ 41]. Therefore, 
+vascularization will become a critical factor for the repair of larger CMF defects and the 
+preservation of the viability of delivered cells in vivo . In this regard, incorporation of 
+angiogenic pDNA encoding growth factors, such as vascular endothelial growth factor, 
+fibroblast growth factor or platelet-derived growth factor, can mediate vasculogenic response 
+to enhance vascularization during the bone remodeling process [ 42]. Additionally, the 
+incorporation of oxygen releasing micro-particles can be considered, which will enable 
+oxygenization of cells until vascularization takes place [ 43, 44].
+In this study, we used 5×106 rBMSCs per mL, where the cell encapsulation density for 
+hydrogels has been varied from 5 to 10 million cells/ml for bone tissue engineering [ 45]. 
+On the other hand, the delivery of high cell density within the bioink might prove to be yet 
+another reason for reduced bone formation. It has been previously shown that cell-to-cell 
+distance effects osteogenic gene expression during osteogenesis [ 46]. Increased osteogenic 
+gene markers, including ALP, OCN, Col1 and RUNX2, was noted on Days 8 and 14 when 
+the seeding density of human umbilical cord mesenchymal stem cells on calcium-phosphate 
+cement was 300k compared to 50k [ 47]. On the contrary, reduced osteogenic activities and 
+mineralization was reported on Day 14 when the cell density was 500k instead of 300k [ 47]. 
+In addition to the required optimal cell density, the localization of cells (for example, near 
+periosteum) on bone grafts also acts as yet another important factor to allow easier access 
+to oxygen and nutrient source for cells [ 48]. In calvarial defects, the areas which are rich 
+in blood vessels are the periphery of defect sites and periosteum. Therefore, bioprinting 
+cells on top of bone grafts (along with cell encapsulation) might improve bone formation 
+in vivo . In a nutshell, the potential reasons for lesser newly formed bone tissue for the 
+bioink+rBMSCs (no delivery) group might be associated with two reasons: i) degradation of 
+the bioink due to the growing number of rBMSCs inside, and ii) rBMSCs are not committed 
+osteogenically due to limited osteogenic ques (such as BMP-2); rather, they grow and 
+proliferate more. In this regard, as bone damage gets more extensive, multipotent nature 
+of rBMSCs can be a potential risk like developing granulated tissues unless an undesired 
+lineage progression can be completely avoided and controlled [ 49]. Moreover, the usage 
+of allogenic BMSCs is not yet a fully validated method due to possibility of inflammation 
+and immune rejection [ 50]. For these reasons, the transplantation of BMSCs can generate 
+unexpected or impaired in-vivo results.
+Despite several disadvantages including the possibility of unknown uptake of pDNAs from 
+a wide variety of cell types or non-specific cell targeting in vivo  [15], or the attachment 
+of released pDNA to HAp particles forming larger complexes resulting in lower uptake Moncal et al. Page 12
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptof PEI-pBMP-2 complexes by cells [ 51], the in-situ delivery of PEI-pBMP-2 resulted in 
+significant improvement in bone tissue repair and formation of mineralized bone tissue 
+compared to the ex-situ delivery group. The potential reasons for the in-situ delivery strategy 
+inducing improved bone regeneration could be due to the acellular form of the bioprinted 
+constructs resulting in slower degradation [ 20] and sustained release of the PEI-pBMP-2 
+polyplexes compared to the cellular constructs. In specific, the addition of cells into the 
+bioink (ex-situ or no delivery) could cause reduced bone formation by a series of effects 
+such as reduced hydrogel stiffness leading to accelerated degradation rate and physical 
+instability of bioprinted constructs. For instance, among collagen constructs seeded with 
+6 × 105, 3 × 106, 3 × 107, and 1 × 108 cells/mL, a scaffold with cell density above 3 
+× 106 cells/mL revealed a significant decrease in break force when tensile testing was 
+performed immediately after compression at Day 10 [ 52]. Further, cell-induced collagenase 
+activity expressed by matrix metallopeptidase 1 could be another factor resulting in a rapid 
+breakdown of collagen matrix [ 52]. Hence, owing to the improved physical stability of 
+bioprinted acellular constructs enabling the delivery of PEI-pDNA, we can conclude that the 
+in-situ delivery provided a more favorable microenvironment for bone formation.
+5. Conclusion
+In this study, we investigated the repair capability of ex-situ and in-situ delivery strategies 
+for bone therapeutic applications. The gene-activated matrices were loaded into a collagen-
+based bioink and delivered into critical-sized calvarial defects using the IOB technology, 
+which enabled direct bioink deposition into calvarial defects via an extrusion-based system. 
+The delivery of PEI-pBMP-2 loaded bioink resulted in higher bone regeneration compared 
+to the ex-situ delivery and no delivery groups. Overall, the in-situ delivery of gene-based 
+growth factors combined with IOB technology could be beneficial to promote accelerated 
+bone repair, which could be an effective and practical strategy.
+Acknowledgements
+This work was supported by the National Institute of Dental and Craniofacial Research Award # R01DE028614 
+(I.T.O.), National Science Foundation Award #1600118 (I.T.O.), Osteology Foundation Award # 15–042 (I.T.O.) 
+and International Team for Implantology Award # 1275_2017 (I.T.O.). The authors are also grateful to R&D 
+Systems for the generous support. The authors would like to thank Dante Deluca for his contributions to 
+cryosectioning of calvarial explants, Kevin Godzik for his assistance to with the preparation of the bioink, and 
+Dishary Banerjee for her assistance with preparing and transfecting cells. The authors are also thankful to The Huck 
+Institute of The Life Sciences at PSU for the generous facility support.
+Data availability statement
+All data that support the findings of this study are included within the article.
+References
+[1]. Betz VM, Betz OB, Harris MB, Vrahas MS and Evans CH 2008 Bone tissue engineering and 
+repair by gene therapy Front. Bioscience-Landmark 13 833–41
+[2]. Evans C 2011 Gene therapy for the regeneration of bone Injury 42 599–604 [PubMed: 21489526] 
+[3]. Khalil IA, Kogure K, Akita H and Harashima H 2006 Uptake pathways and subsequent 
+intracellular trafficking in nonviral gene delivery Pharmacological rev 58 32–45Moncal et al. Page 13
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript[4]. Cohen H, Levy R, Gao J, Fishbein I, Kousaev V , Sosnowski S, Slomkowski S and Golomb G 2000 
+Sustained delivery and expression of DNA encapsulated in polymeric nanoparticles Gene Ther 7 
+1896–905 [PubMed: 11127577] 
+[5]. Csaba N, Sanchez A and Alonso MJ 2006 PLGA: poloxamer and PLGA: poloxamine blend 
+nanostructures as carriers for nasal gene delivery J. Controlled Release 113 164–72
+[6]. Bhakta G, Mitra S and Maitra A 2005 DNA encapsulated magnesium and manganous phosphate 
+nanoparticles: potential non-viral vectors for gene delivery Biomaterials 26 2157–63 [PubMed: 
+15576191] 
+[7]. Densmore CL, Orson FM, Xu B, Kinsey BM, Waldrep JC, Hua P, Bhogal B and Knight V 2000 
+Aerosol delivery of robust polyethyleneimine–DNA complexes for gene therapy and genetic 
+immunization Mol. Ther 1 180–8 [PubMed: 10933929] 
+[8]. Liang W and Lam JK 2012 Endosomal escape pathways for non-viral nucleic acid delivery 
+systems Mol. Regul. Endocytosis 429–56
+[9]. Zhao Q-Q, Chen J-L, Lv T-F, He C-X, Tang G-P, Liang W-Q, Tabata Y and Gao J-Q 2009 N/P 
+ratio significantly influences the transfection efficiency and cytotoxicity of a polyethylenimine/
+chitosan/DNA complex Biol. Pharm. Bull 32 706–10 [PubMed: 19336909] 
+[10]. L Santos J, Pandita D, Rodrigues J, P Pego A, L Granja P and Tomás H 2011 Non-viral 
+gene delivery to mesenchymal stem cells: methods, strategies and application in bone tissue 
+engineering and regeneration Curr. Gene Ther 11 46–57 [PubMed: 21182464] 
+[11]. Blum JS, Barry MA, Mikos AG and Jansen JA 2003 In vivo evaluation of gene therapy vectors 
+in ex vivo-derived marrow stromal cells for bone regeneration in a rat critical-size calvarial defect 
+model Hum. Gene Ther 14 1689–701 [PubMed: 14670121] 
+[12]. Elangovan S, D’Mello SR, Hong L, Ross RD, Allamargot C, Dawson DV , Stanford CM, Johnson 
+GK, Sumner DR and Salem AK 2014 The enhancement of bone regeneration by gene activated 
+matrix encoding for platelet derived growth factor Biomaterials 35 737–47 [PubMed: 24161167] 
+[13]. Curtin CM, Tierney EG, McSorley K, Cryan SA, Duffy GP and O’Brien FJ 2015 Combinatorial 
+gene therapy accelerates bone regeneration: non ‐viral dual delivery of VEGF and BMP2 in a 
+collagen‐nanohydroxyapatite scaffold Adv. Healthcare Mater 4 223–7
+[14]. Plonka AB, Khorsand B, Yu N, Sugai JV , Salem AK, Giannobile WV and Elangovan S 2017 
+Effect of sustained PDGF nonviral gene delivery on repair of tooth-supporting bone defects Gene 
+Ther 24 31–9 [PubMed: 27824330] 
+[15]. D’Mello S, Atluri K, Geary SM, Hong L, Elangovan S and Salem AK 2017 Bone regeneration 
+using gene-activated matrices AAPS J 19 43–53 [PubMed: 27655418] 
+[16]. Bleich NK, Kallai I, Lieberman JR, Schwarz EM, Pelled G and Gazit D 2012 Gene therapy 
+approaches to regenerating bone Adv. Drug Delivery Rev 64 1320–30
+[17]. Paidikondala M, Kadekar S and Varghese OP 2018 Innovative strategy for 3D transfection 
+of primary human stem cells with BMP-2 expressing plasmid DNA: A clinically translatable 
+strategy for ex vivo gene therapy Int. J. Mol. Sci 20 56 [PubMed: 30583610] 
+[18]. Evans C 2012 Gene delivery to bone Adv. Drug Delivery Rev 64 1331–40
+[19]. Wu Y , Ravnic DJ and Ozbolat IT 2020 Intraoperative bioprinting: repairing tissues and organs in 
+a surgical setting Trends Biotechnol 38 594–605 [PubMed: 32407688] 
+[20]. Moncal KK, Gudapati H, Godzik KP, Heo DN, Kang Y , Rizk E, Ravnic DJ, Wee H, Pepley DF 
+and Ozbolat V 2021 Intra ‐operative bioprinting of hard, soft, and hard/soft composite tissues for 
+craniomaxillofacial reconstruction Adv. Funct. Mater 2010858 [PubMed: 34421475] 
+[21]. Acri TM, Laird NZ, Geary SM, Salem AK and Shin K 2019 Effects of calcium concentration 
+on nonviral gene delivery to bone marrow ‐derived stem cells J. Tissue Eng. Regener. Med 13 
+2256–65
+[22]. Intra J and Salem AK 2008 Characterization of the transgene expression generated by branched 
+and linear polyethylenimine-plasmid DNA nanoparticles in vitro and after intraperitoneal 
+injection in vivo J. Controlled Release 130 129–38
+[23]. D’Mello S, Salem AK, Hong L and Elangovan S 2016 Characterization and evaluation of 
+the efficacy of cationic complex mediated plasmid DNA delivery in human embryonic palatal 
+mesenchyme cells J. Tissue Eng. Regener. Med 10 927–37Moncal et al. Page 14
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript[24]. Atluri K, Seabold D, Hong L, Elangovan S and Salem AK 2015 Nanoplex-mediated codelivery 
+of fibroblast growth factor and bone morphogenetic protein genes promotes osteogenesis in 
+human adipocyte-derived mesenchymal stem cells Mol. Pharmaceutics 12 3032–42
+[25]. Moncal KK, Ozbolat V , Datta P, Heo DN and Ozbolat IT 2019 Thermally-controlled extrusion-
+based bioprinting of collagen J. Mater. Sci.: Mater. Med 30 1–14
+[26]. Khorsand B, Nicholson N, Do A-V , Femino JE, Martin JA, Petersen E, Guetschow B, Fredericks 
+DC and Salem AK 2017 Regeneration of bone using nanoplex delivery of FGF-2 and BMP-2 
+genes in diaphyseal long bone radial defects in a diabetic rabbit model J. Controlled Release 248 
+53–9
+[27]. Ozbolat IT, Chen H and Yu Y 2014 Development of ‘Multi-arm Bioprinter’for hybrid 
+biofabrication of tissue engineering constructs Rob. Comput. Integr. Manuf 30 295–304
+[28]. Moncal KK, Aydin RST, Abu-Laban M, Heo DN, Rizk E, Tucker SM, Lewis GS, Hayes D and 
+Ozbolat IT 2019 Collagen-infilled 3D printed scaffolds loaded with miR-148b-transfected bone 
+marrow stem cells improve calvarial bone regeneration in rats Mater. Sci. Eng. C 105 110128
+[29]. Foroozandeh P and Aziz AA 2018 Insight into cellular uptake and intracellular trafficking of 
+nanoparticles Nanoscale Res. Lett 13 1–12 [PubMed: 29299709] 
+[30]. Shang Q, Wang Z, Liu W, Shi Y , Cui L and Cao Y 2001 Tissue-engineered bone repair of sheep 
+cranial defects with autologous bone marrow stromal cells J. Craniofacial Surg 12 586–93
+[31]. Kim S, Nishimoto SK, Bumgardner JD, Haggard WO, Gaber MW and Yang Y 2010 A 
+chitosan/β-glycerophosphate thermo-sensitive gel for the delivery of ellagic acid for the treatment 
+of brain cancer Biomaterials 31 4157–66 [PubMed: 20185170] 
+[32]. Khorsand B, Elangovan S, Hong L, Dewerth A, Kormann MS and Salem AK 2017 A 
+comparative study of the bone regenerative effect of chemically modified RNA encoding BMP-2 
+or BMP-9 AAPS J 19 438–46 [PubMed: 28074350] 
+[33]. Sun H, Wang J, Deng F, Liu Y , Zhuang X, Xu J and Li L 2016 Co ‑delivery and controlled 
+release of stromal cell ‑derived factor ‑1α chemically conjugated on collagen scaffolds enhances 
+bone morphogenetic protein ‑2‑driven osteogenesis in rats Mol. Med. Rep 14 737–45 [PubMed: 
+27220358] 
+[34]. Keriquel V , Oliveira H, Rémy M, Ziane S, Delmond S, Rousseau B, Rey S, Catros S, Amédée 
+J and Guillemot F 2017 In situ printing of mesenchymal stromal cells, by laser-assisted 
+bioprinting, for in vivo bone regeneration applications Sci. Rep 7 1–10 [PubMed: 28127051] 
+[35]. Ozbolat IT, Moncal KK and Gudapati H 2017 Evaluation of bioprinter technologies Addit. 
+Manuf 13 179–200
+[36]. Datta P, Barui A, Wu Y , Ozbolat V , Moncal KK and Ozbolat IT 2018 Essential steps in 
+bioprinting: From pre-to post-bioprinting Biotechnol. Adv 36 1481–504 [PubMed: 29909085] 
+[37]. Bayer EA, Fedorchak MV and Little SR 2016 The influence of platelet-derived growth factor and 
+bone morphogenetic protein presentation on tubule organization by human umbilical vascular 
+endothelial cells and human mesenchymal stem cells in coculture Tissue Eng. Part A 22 1296–
+304 [PubMed: 27650131] 
+[38]. Ahn HH, Lee MS, Cho MH, Shin YN, Lee JH, Kim KS, Kim MS, Khang G, Hwang KC and Lee 
+IW 2008 DNA/PEI nano-particles for gene delivery of rat bone marrow stem cells Colloids Surf., 
+A 313 116–20
+[39]. Abdi SIH, Choi JY , Lau HC and Lim JO 2013 Controlled release of oxygen from PLGA-alginate 
+layered matrix and its in vitro characterization on the viability of muscle cells under hypoxic 
+environment Tissue Eng. Regener. Med 10 131–8
+[40]. Holmes B, Bulusu K, Plesniak M and Zhang LG 2016 A synergistic approach to the design, 
+fabrication and evaluation of 3D printed micro and nano featured scaffolds for vascularized bone 
+tissue repair Nanotechnology 27 064001 [PubMed: 26758780] 
+[41]. Lee H-Y , Kim H-W, Lee JH and Oh SH 2015 Controlling oxygen release from hollow 
+microparticles for prolonged cell survival under hypoxic environment Biomaterials 53 583–91 
+[PubMed: 25890754] 
+[42]. Yang Y-Q, Tan Y-Y , Wong R, Wenden A, Zhang L-K and Rabie ABM 2012 The role of vascular 
+endothelial growth factor in ossification Int. J. Oral Sci 4 64–8 [PubMed: 22722639] Moncal et al. Page 15
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript[43]. Willemen NG, Hassan S, Gurian M, Li J, Allijn IE, Shin SR and Leijten J 2021 Oxygen-releasing 
+biomaterials: current challenges and future applications Trends Biotechnol 39 1144–59 [PubMed: 
+33602609] 
+[44]. Farris AL, Rindone AN and Grayson WL 2016 Oxygen delivering biomaterials for tissue 
+engineering J. Mater. Chem. B 4 3422–32 [PubMed: 27453782] 
+[45]. Cidonio G, Glinka M, Dawson J and Oreffo R 2019 The cell in the ink: Improving biofabrication 
+by printing stem cells for skeletal regenerative medicine Biomaterials 209 10–24 [PubMed: 
+31022557] 
+[46]. Ma J, Both SK, Yang F, Cui F-Z, Pan J, Meijer GJ, Jansen JA and van den Beucken JJ 2014 
+Concise review: cell-based strategies in bone tissue engineering and regenerative medicine Stem 
+Cells Transl. Med 3 98–107 [PubMed: 24300556] 
+[47]. Zhou H, Weir MD and Xu HH 2011 Effect of cell seeding density on proliferation and 
+osteodifferentiation of umbilical cord stem cells on calcium phosphate cement-fiber scaffold 
+Tissue Eng. Part A 17 2603–13 [PubMed: 21745111] 
+[48]. Britannica E 2018 Available online: https://www.britannica.com/place Brazil  (accessed on  27 
+March 2018)
+[49]. Singer NG and Caplan AI 2011 Mesenchymal stem cells: mechanisms of inflammation Ann. Rev. 
+Pathol.: Mech. Dis 6 457–78
+[50]. Huang S, Xu L, Zhang Y , Sun Y and Li G 2015 Systemic and local administration of allogeneic 
+bone marrow-derived mesenchymal stem cells promotes fracture healing in rats Cell Transplant 
+24 2643–55 [PubMed: 25647659] 
+[51]. Chowdhury E and Akaike T 2007 High performance DNA nano-carriers of carbonate apatite: 
+Multiple factors in regulation of particle synthesis and transfection efficiency Int. J. Nanomed 2 
+101
+[52]. Bitar M, Brown RA, Salih V , Kidane AG, Knowles JC and Nazhat SN 2008 Effect of cell density 
+on osteoblastic differentiation and matrix degradation of biomimetic dense collagen scaffolds 
+Biomacromolecules 9 129–35 [PubMed: 18095652] Moncal et al. Page 16
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFigure 1. 
+(A) A schematic image of elucidating for ex-situ and in-situ delivery of PEI-pBMP-2 into 
+critical-sized rat calvarial defects via intraoperative bioprinting for bone tissue repair (this 
+figure was created using BioRender ( https://biorender.com ).Moncal et al. Page 17
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFigure 2. 
+(B) The particle size distribution and (C) zeta potential measurement of PEI-pBMP-2 
+complexes ( n=3). Error bars indicate mean ± s.e.m.Moncal et al. Page 18
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFigure 3. 
+(A) LIVE/DEAD images and (B) cell viability of hMSCs cultured in 2D and 3D at Days 1 
+and 7 ( n=3, ns indicates non-significant).Moncal et al. Page 19
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFigure 4. 
+(A) Immunofluorescent staining images demonstrating Hoechst, F-actin, RUNX2, and BSP 
+of hMSCs cultured on 2D substrates and in 3D bioprinted constructs. RT-PCR measurement 
+of osteogenic differentiation markers including (B) RUNX, (C) Col1, (D) OCN, and (E) BSP 
+(n=3, *p<0.05, **p<0.01).Moncal et al. Page 20
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFigure 5. 
+Intraoperative bioprinting of bone before, during and after bioprinting using an extrusion-
+based system, where the animal was positioned under the bioprinter after opening two 
+critical-sized calvarial defects. During the surgery, the periosteum was maintained intact. 
+Next, the animal head was stabled using the hooks to avoid instant head movements during 
+the IOB process. The bioprinting process initiated with the deposition of bioink after the 
+positioning the print head at the start point of the calvarial defect. The bioink was directly 
+extruded in a spiral pattern to deliver a 3D construct less than 1 min per defect. After filling 
+both defects, the periosteum was sutured and then the skin was closed back.Moncal et al. Page 21
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFigure 6. 
+(A) Determination of newly formed bone tissue in critical-sized rat calvarial defects using 
+μCT scanning six weeks post surgery. Quantifications of (B1) BV/TV (%), (B2) normalized 
+BMD (%) and (B3) bone coverage area (%) for empty ( n=3), no delivery ( n=6), ex-situ 
+delivery ( n=6) and in-situ delivery ( n=7) groups. Data were expressed as mean ± s.d., 
+p*<0.05, p**<0.01, and p***<0.001.Moncal et al. Page 22
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFigure 7. 
+Histomorphometric characterization of cryosectioned calvarial explants stained with H&E to 
+determine bone tissue formation (HB: host bone; RB: regenerated bone; ST: soft tissue).Moncal et al. Page 23
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFigure 8. 
+MTS of cryosectioned calvarial explants for determination of bone tissue formation (ST: soft 
+tissue; Triangle: mature bone; Star: immature bone).Moncal et al. Page 24
+Biofabrication . Author manuscript; available in PMC 2023 November 18.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptAuthor Manuscript Author Manuscript Author Manuscript Author ManuscriptMoncal et al. Page 25
+Table 1.
+Primers used for measuring osteogenic markers via RT-PCR.
+Gene Forward primer Reverse primer
+Col1 ATG ACT ATG AGT ATG GGG AAG CA TGG GTC CCT CTG TTA CAC TTT
+RUNX2 GGT TAA TCT CCG CAG GTC ACT CAC TGT GCT GAA GAG GCT GTT
+OCN TCA CAC TCC TCG CCC TAT TG TCG CTG CCC TCC TGC TTG
+BSP AAC GAA GAA AGC GAA GCA GAA TCT GCC TCT GTG CTG TTG GT
+GAPDH CAC ATG GCC TCC AAG GAG TA GTA CAT GAC AAG GTG CGG CT
+Biofabrication . Author manuscript; available in PMC 2023 November 18.

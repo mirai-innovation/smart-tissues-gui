@@ -1,0 +1,765 @@
+/gid00030/gid00035/gid00032/gid00030/gid00038/gid00001/gid00033/gid00042/gid00045 /gid00001
+/gid00048/gid00043/gid00031/gid00028/gid00047/gid00032/gid00046Citation: Piola, B.; Sabbatini, M.;
+Gino, S.; Invernizzi, M.; Renò, F. 3D
+Bioprinting of Gelatin–Xanthan Gum
+Composite Hydrogels for Growth of
+Human Skin Cells. Int. J. Mol. Sci.
+2022 ,23, 539. https://doi.org/
+10.3390/ijms23010539
+Academic Editor: Yi Cao
+Received: 4 November 2021
+Accepted: 30 December 2021
+Published: 4 January 2022
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright: © 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+ International Journal of  
+Molecular Sciences
+Article
+3D Bioprinting of Gelatin–Xanthan Gum Composite Hydrogels
+for Growth of Human Skin Cells
+Beatrice Piola1, Maurizio Sabbatini2
+, Sarah Gino1
+, Marco Invernizzi3,4
+and Filippo Ren ò1,*
+1Innovative Research Laboratory for Wound Healing, Health Sciences Department, Medical School,
+Universit àdel Piemonte Orientale, Via Solaroli 17, 28100 Novara, Italy; 20021634@studenti.uniupo.it (B.P .);
+sarah.gino@uniupo.it (S.G.)
+2Department of Sciences and Technological Innovation, Universit àdel Piemonte Orientale, Via T. Michel 11,
+15121 Alessandria, Italy; maurizio.sabbatini@uniupo.it
+3Health Science Department, Physical Medicine and Rehabilitation Division,
+Universit àdel Piemonte Orientale, Via Solaroli 17, 28100 Novara, Italy; marco.invernizzi@med.uniupo.it
+4Department of Integrated Research and Innovation, Translational Medicine Unit (DAIRI),
+Hospital “S.S. Antonio e Biagio e Cesare Arrigo”, 15121 Alessandria, Italy
+*Correspondence: ﬁlippo.reno@med.uniupo.it; Tel.: +39-0321660634
+Abstract: In recent years, bioprinting has attracted much attention as a potential tool for generating
+complex 3D biological constructs capable of mimicking the native tissue microenvironment and
+promoting physiologically relevant cell–cell and cell–matrix interactions. The aim of the present
+study was to develop a crosslinked 3D printable hydrogel based on biocompatible natural polymers,
+gelatin and xanthan gum at different percentages to be used both as a scaffold for cell growth and as a
+wound dressing. The CellInk Inkredible 3D printer was used for the 3D printing of hydrogels, and a
+glutaraldehyde solution was tested for the crosslinking process. We were able to obtain two kinds of
+printable hydrogels with different porosity, swelling and degradation time. Subsequently, the printed
+hydrogels were characterized from the point of view of biocompatibility. Our results showed that
+gelatin/xanthan-gum bioprinted hydrogels were biocompatible materials, as they allowed both
+human keratinocyte and ﬁbroblast in vitro growth for 14 days. These two bioprintable hydrogels
+could be also used as a helpful dressing material.
+Keywords: bioprinting; hydrogel; xanthan gum; gelatin; biocompatibility
+1. Introduction
+Hydrogels are crosslinked, insoluble and hydrophilic polymers that are capable of
+containing a large amount of water thanks to their porosity and three-dimensional network
+structure [ 1]. The hydrophilic capacity of hydrogels is due to the presence of hydrophilic
+groups along the polymer chain, while crosslinks can be built by electrostatic dipole–dipole
+interactions and covalent bonds [ 2]. In recent years, hydrogels have aroused a signiﬁcant
+interest in biomedical and clinical research due to their capacity to create a favorable
+microenvironment for cell growth and/or differentiation [ 3]. Certainly, they have several
+application domains, such as drug delivery [ 4,5], tissue engineering [ 2,6,7], regenerative
+medicine [ 8,9] and wound dressings [ 10–12]. In particular, hybrid composite hydrogels
+(made by gelatin, xanthan gum, glutaraldehyde and HPLC-grade water) have been shown
+to exhibit good wound-healing ability [13].
+Gelatin (Gel), which is produced by partial hydrolysis of collagen, displays good
+biocompatibility and biodegradability properties and is commonly used in medical areas,
+due to its great biological advantages and low cost [ 14]. Several studies have highlighted
+the beneﬁcial effects of Gel for migration, adhesion and growth of cells in tissue regen-
+eration processes [ 14–16]. Moreover, its biodegradability is the result of the presence of
+matrix metalloproteinase (MMP) cleavage sites, and it is an important characteristic for
+Int. J. Mol. Sci. 2022 ,23, 539. https://doi.org/10.3390/ijms23010539 https://www.mdpi.com/journal/ijmsInt. J. Mol. Sci. 2022 ,23, 539 2 of 16
+the development of in vivo implanted hydrogels, since scaffold degradation allows for the
+deposition and production of a new extracellular matrix [17].
+Xanthan gum (Xnt) is a microbial-derived high-molecular-weight heteropolysaccha-
+ride that is employed in medical ﬁeld and tissue engineering for its biocompatibility and
+gelling characteristics [ 18], as well as being available at a low cost and easy to process [ 19].
+For these important properties, it has been widely used in the pharmaceutic ﬁeld as a
+thickener, suspender and emulsiﬁer [ 20] and also in the manufacture of biodegradable
+hydrogels for skin scaffold [18,21].
+An important limit of gelatin and xanthan-gum hydrogels is their mechanical weak-
+ness and dissolution behavior in solvent [ 17]. It is known that, after immersion in water,
+they present a severe swelling rate, due to the absorption of the solvent. This is a dis-
+advantage for its employment as wound scaffold, because severe swelling will make the
+dressings unable to maintain the structure of the dressings and ﬁt the wound [ 14]. To solve
+this problem, hydrogels are stabilized by crosslinking to increase their material strength
+and hydrolysis resistance, and to keep their shape, avoiding swelling phenomena [ 22].
+Through crosslinking, it is possible to stabilize the chemistry of the polymer, extending the
+chains, with consequent modiﬁcations of the network structure [23].
+Crosslinking agents can be inserted into hydrogels through different methodologies,
+such as physical methods and the use of chemicals or enzymes [ 24]. Among the chemical
+methods, glutaraldehyde (GTA) [ 25,26] is one of the most used crosslinking agent in the
+biomedical sector, despite its cytotoxicity at certain concentrations [ 25]. Crosslinking of
+collagen derivatives with GTA includes the production of permanent junctions by reactions
+between free amine groups of lysine or hydroxylysine amino acid residues in polypeptide
+chains and aldehyde groups of glutaraldehyde [ 23,27]. Moreover, GTA is easily available
+at a low cost, and in aqueous solution, it allows crosslinking to be achieved in a relatively
+short time [27].
+Three-dimensional bioprinting is an early stage technology with important conse-
+quences and applications in the biomedical and tissue-engineering ﬁelds, as it allows the
+creation of 3D tissue constructs through programmed models and the distribution of the
+so-called bio-ink by means of the movement of a motorized stage [ 28,29]. Bio-inks have
+different compositions (biomaterials, biomolecules and cell) depending on their use; in fact,
+properties such as printability, biocompatibility and physical strength could affect the ﬁnal
+printed construct [ 30]. Then, the printed constructs could be crosslinked after bioprinting
+to stabilize its ﬁnal shape and structure. This technique allows for the standardization of
+the bioprinting process, with high reproducibility and precise control, potentially enabling
+high-throughput production [ 29]. However, current 3D bio-printing methods still have
+technical limitations to overcome, such as high-resolution cell deposition and controlled
+cell distribution [28].
+Considering this, the aim of present study was to develop a low-cost crosslinked 3D
+printable hydrogel based on biocompatible natural polymers (gelatin and xanthan gum)
+and characterize it as a cell-growth scaffold to use for both in vitro growth of tissues and
+wound dressing.
+2. Results
+2.1. Bioprinting and Crosslinking
+As reported in Table 1, different concentrations of Gel/Xnt were tested to achieve
+maximum printability. In the framework of extrusion bioprinting, hydrogel printability
+generally refers to the extrudability, ﬁlament formation and shape ﬁdelity. By modulating
+the process and 3D printer parameters, it was possible to obtain predictable structures, as
+were designed in the 3D printing software. The Slic3r program was used to modify the
+code for a tissue model in order to optimize ﬁll pattern, speed, density and extrusion [ 31]. A
+25-gauge (0.25 mm aperture) printer tip with pneumatic extrusion pressures below 21 kPa
+was used. Gelatin (2.5 w/v% and 3 w/v%), along with xanthan gum (1.2 w/v%), resultedInt. J. Mol. Sci. 2022 ,23, 539 3 of 16
+in being printable and showed the best resolution, intended as shape ﬁdelity, using a
+pressure range of 10 to 20 kPa.
+Table 1. Hydrogels compositions.
+LabelComposition (w/v%)Printability
+(Qualitative Evaluation) Gelatin (Gel) Xanthan Gum (Xnt)
+2.5Gel1 2.5 0.7  
+2.5Gel2 ” 1 +
+2.5Gel3 ” 1.2 ++
+3Gel1 3 0.3  
+3Gel2 ” 0.7  
+3Gel3 ” 1 +
+3Gel4 ” 1.2 ++
+After the printing process, three different concentrations (0.3, 0.5 and 1 v/v%) of
+glutaraldehyde and two different immersion times (1 and 3 h) were used for the hydrogel
+crosslinking test. The higher concentrations of glutaraldehyde, with a longer immersion
+time, led to greater resistance and permanence of the print shape, which could adversely
+affect the biodegradability of the printed hydrogels. Therefore, in order to reduce the
+excessive tribological qualities (durability) [ 25,32], and also to minimize its possible toxic-
+ity [24,25,32], the low concentration of glutaraldehyde was assessed. The 3Gel4 and 2.5Gel3
+hydrogels crosslinked with 0.3 v/v% GTA for 3 h resulted in the best stability in PBS and
+DMEM at 37C (Table 2), maintaining their shape for over 48 h, not disintegrating even
+after a week of immersion.
+Table 2. Different concentrations of glutaraldehyde and crosslinking times for 2.3Gel3 and 3Gel4.
+LabelComposition (w/v%)GTA Concentration
+(v/v%)Time (h) Stability in
+DMEM Gelatin (Gel)Xanthan
+Gum (Xnt)
+2.5Gel3 2.5 1.2 0.3 1  
+” ” ” ” 3 ++
+” ” ” 0.5 1  
+” ” ” ” 3  
+” ” ” 1 1  
+” ” ” ” 3  
+3Gel4 3 1.2 0.3 1  
+” ” ” ” 3 ++
+” ” ” 0.5 1  
+” ” ” ” 3  
+” ” ” 1 1  
+” ” ” ” 3  
+2.2. Characterization of 3D-Printed Hydrogel
+2.2.1. Morphology
+Figure 1 shows the images obtained by the morphological analysis of 1 cm2square
+shapes obtained by extrusion bioprinting. A comparison of the different hybrid compos-
+ites hydrogels showed that both 3Gel4 crosslinked and non-crosslinked have a deﬁned
+shape compared to 2.5Gel3, which appears to be less viscous. These results showed that
+xanthan gum is a good stabilizing agent, because the hydrogel with 3 w/v% of Gel without
+crosslinker is able to maintain its print shape, which even improves after the immersion
+in GTA.Int. J. Mol. Sci. 2022 ,23, 539 4 of 16
+Int. J. Mol. Sci. 2022 , 23, x FOR PEER REVIEW 4 of 17 
+ 
+ crosslinker is able to maintain its print sh ape, which even improves after the immersion 
+in GTA. 
+ 
+Figure 1. Morphological analysis of the 2.5Gel3 and 3Gel 4 hydrogels after printi ng (not crosslinked) 
+and after submersion for 1 and 3 h in the 0.3 v/ v% glutaraldehyde (crosslinked). Hydrogels were 
+printed in a 1 cm2 square shape. 
+2.2.2. Moisture 
+The evaluation of the water content of a hy drogel is required for many biomedical 
+applications. The percentages of water in the hydrogels were similar to each other, inde-
+pendently from the gelatin content (Figure 2). Moreover, the moisture values for both hy-
+drogels were above 90%, as reported in th e literature for other hydrogels [13,32]. 
+Figure 1. Morphological analysis of the 2.5Gel3 and 3Gel4 hydrogels after printing (not crosslinked)
+and after submersion for 1 and 3 h in the 0.3 v/v% glutaraldehyde (crosslinked). Hydrogels were
+printed in a 1 cm2square shape.
+2.2.2. Moisture
+The evaluation of the water content of a hydrogel is required for many biomedical
+applications. The percentages of water in the hydrogels were similar to each other, in-
+dependently from the gelatin content (Figure 2). Moreover, the moisture values for both
+hydrogels were above 90%, as reported in the literature for other hydrogels [13,32].
+Int. J. Mol. Sci. 2022 , 23, x FOR PEER REVIEW 5 of 17 
+ 
+  
+Figure 2. Moisture percentage of 2.5Gel 3 and 3Gel4 hybrid composite hydrogels after hydration and 
+drying process at 37 °C for 2 days. 
+2.2.3. Swelling Test 
+The swelling tests were carried out on 2.5Gel3 and 3Gel4 printed hydrogels cross-
+linked and non-crosslinked. These prints containing 2.5 w/v% and 3 w/v% of gelatin, after 
+one hour of submersion in deionized water, showed a swelling rate of 1110.25% ± 339 and 
+423.17% ± 47.34 respectively ( p-value 0.02543), increasing after three hours of submersion 
+until the sixth hour, where all the prints resu lted in being completely dissolved (Figure 
+3a). On the other hand, crosslinked prints using 0.3% glutaraldehyde immersion for 3 h 
+showed more stable and more resistant swelling in deionized water (Figure 3b). The swell-
+ing rate of the hydrogel with 2.5 w/v% of Gel was of 489.70 ± 168.57% compared to 30.27± 
+7.59% ( p-value 0.009199) of 3 w/v% Gel content. In Figure 3b, it is possible to observe that, 
+after 24 h, the 2.5Gel3 had achieved a much higher swelling rate than hydrogel 3Gel4. 
+Furthermore, the different crosslinked hydrogels were observed under the light micro-scope (Figure 4). The images reported in Figu re 4 confirm that the crosslinked prints con-
+taining 3 w/v% Gel are more resistant to swelling. 
+Figure 2. Moisture percentage of 2.5Gel3 and 3Gel4 hybrid composite hydrogels after hydration and
+drying process at 37C for 2 days.Int. J. Mol. Sci. 2022 ,23, 539 5 of 16
+2.2.3. Swelling Test
+The swelling tests were carried out on 2.5Gel3 and 3Gel4 printed hydrogels crosslinked
+and non-crosslinked. These prints containing 2.5 w/v% and 3 w/v% of gelatin, after one
+hour of submersion in deionized water, showed a swelling rate of 1110.25% 339 and
+423.17% 47.34 respectively ( p-value 0.02543), increasing after three hours of submersion
+until the sixth hour, where all the prints resulted in being completely dissolved (Figure 3a).
+On the other hand, crosslinked prints using 0.3% glutaraldehyde immersion for 3 h showed
+more stable and more resistant swelling in deionized water (Figure 3b). The swelling rate
+of the hydrogel with 2.5 w/v% of Gel was of 489.70 168.57% compared to 30.277.59%
+(p-value 0.009199) of 3 w/v% Gel content. In Figure 3b, it is possible to observe that,
+after 24 h, the 2.5Gel3 had achieved a much higher swelling rate than hydrogel 3Gel4.
+Furthermore, the different crosslinked hydrogels were observed under the light microscope
+(Figure 4). The images reported in Figure 4 conﬁrm that the crosslinked prints containing
+3 w/v% Gel are more resistant to swelling.
+Int. J. Mol. Sci. 2022 , 23, x FOR PEER REVIEW 6 of 17 
+ 
+  
+Figure 3. Swelling ratio of rehydrated 2.5Gel3 and 3Gel4 hydrogels by immersing them in deionized 
+water and weighed at different time points, from 0 to 24 h. ( a) Swelling rate of non-crosslinked 
+hydrogels and ( b) swelling rate of crosslinked; * p < 0.01. 
+ 
+Figure 4. Digital photos of the 2.5Gel3 and 3Gel4 hydr ogels crosslinked with 0.3 v/v% glutaralde-
+hyde during the swelling test at diff erent time points, from 0 to 24 h.  
+2.2.4. Hydrolysis 
+Hydrolysis values were obtained after 14 days of the printed hydrogels’ submersion, 
+which is probably not enough time to demons trate the full power of water lysis [24]. Alt-
+hough composed mainly of water, hydrogel s may undergo degradation by water, as 
+warm temperatures and prolonged periods of time can allow water molecules to interact with the hydrogel. The hydrolysis test was not performed on non-crosslinked prints, as 
+the high solubility of gelatin in warm water causes rapid disintegration. However, the 
+analysis of the crosslinked prints showed initial degradation for the 3Gel4 hydrogel after 10 days with a percentage of hydrolysis of 53.96 ± 18.01% ( p-value 0.007441) and after 14 
+days of 24.41 ± 28.16% ( p = 0.005756) in water at 37 °C (Figure 5), while crosslinked 2.5 
+w/v% gelatin hydrogel did not lose mass in warm water. 
+Figure 3. Swelling ratio of rehydrated 2.5Gel3 and 3Gel4 hydrogels by immersing them in deionized
+water and weighed at different time points, from 0 to 24 h. ( a) Swelling rate of non-crosslinked
+hydrogels and ( b) swelling rate of crosslinked; * p< 0.01.
+Int. J. Mol. Sci. 2022 , 23, x FOR PEER REVIEW 6 of 17 
+ 
+  
+Figure 3. Swelling ratio of rehydrated 2.5Gel3 and 3Gel4 hydrogels by immersing them in deionized 
+water and weighed at different time points, from 0 to 24 h. ( a) Swelling rate of non-crosslinked 
+hydrogels and ( b) swelling rate of crosslinked; * p < 0.01. 
+ 
+Figure 4. Digital photos of the 2.5Gel3 and 3Gel4 hydr ogels crosslinked with 0.3 v/v% glutaralde-
+hyde during the swelling test at diff erent time points, from 0 to 24 h.  
+2.2.4. Hydrolysis 
+Hydrolysis values were obtained after 14 days of the printed hydrogels’ submersion, 
+which is probably not enough time to demons trate the full power of water lysis [24]. Alt-
+hough composed mainly of water, hydrogel s may undergo degradation by water, as 
+warm temperatures and prolonged periods of time can allow water molecules to interact with the hydrogel. The hydrolysis test was not performed on non-crosslinked prints, as 
+the high solubility of gelatin in warm water causes rapid disintegration. However, the 
+analysis of the crosslinked prints showed initial degradation for the 3Gel4 hydrogel after 10 days with a percentage of hydrolysis of 53.96 ± 18.01% ( p-value 0.007441) and after 14 
+days of 24.41 ± 28.16% ( p = 0.005756) in water at 37 °C (Figure 5), while crosslinked 2.5 
+w/v% gelatin hydrogel did not lose mass in warm water. 
+Figure 4. Digital photos of the 2.5Gel3 and 3Gel4 hydrogels crosslinked with 0.3 v/v% glutaraldehyde
+during the swelling test at different time points, from 0 to 24 h.Int. J. Mol. Sci. 2022 ,23, 539 6 of 16
+2.2.4. Hydrolysis
+Hydrolysis values were obtained after 14 days of the printed hydrogels’ submersion,
+which is probably not enough time to demonstrate the full power of water lysis [ 24].
+Although composed mainly of water, hydrogels may undergo degradation by water, as
+warm temperatures and prolonged periods of time can allow water molecules to interact
+with the hydrogel. The hydrolysis test was not performed on non-crosslinked prints, as the
+high solubility of gelatin in warm water causes rapid disintegration. However, the analysis
+of the crosslinked prints showed initial degradation for the 3Gel4 hydrogel after 10 days
+with a percentage of hydrolysis of 53.96 18.01% ( p-value 0.007441) and after 14 days of
+24.4128.16% ( p= 0.005756) in water at 37C (Figure 5), while crosslinked 2.5 w/v%
+gelatin hydrogel did not lose mass in warm water.
+Int. J. Mol. Sci. 2022 , 23, x FOR PEER REVIEW 7 of 17 
+ 
+  
+Figure 5. Hydrolysis percentage of the 2.5Gel3 and 3Gel 4 after soaking in deionized water at 37 °C 
+from 4 to 14 days; * p < 0.01. 
+2.2.5. Porosity 
+An initial porosity analysis, using the liquid displacement method (Figure 6), showed 
+that the hydrogel containing 3 w/v% gelatin had a porosity of 30.82 ± 4.93%, while the 2.5 
+w/v% gelatin hydrogel showed a porosity value of 64.04 ± 16.68% ( p = 0.02974). These 
+results were compared with those obtained by morphological analysis of both hydrogels (Figure 7). Microscope images showed that the pore size in the 2.5Gel3 was greater than 
+that observed in 3Gel4 (Figure 7b). Therefore, the morphological analysis does not confirm 
+the results obtained by the liquid displaceme nt method (Figure 6), thus suggesting that 
+the 2.5 w/v% Gel appeared more porous, as  the amount of ethanol embedded was high 
+because of the larger pore size than in 3Gel 4 (Figure 7b). Moreover, the number of pores 
+within a hydrogel is an important feature for cell encapsulation (Figure 7c). Finally, the 
+morphological analysis showed that the 3Gel 4-printed hydrogel had a larger number of 
+pores with a smaller size compared to that of 2.5Gel3, indicating that it could be used for 
+cell encapsulation. 
+Figure 5. Hydrolysis percentage of the 2.5Gel3 and 3Gel4 after soaking in deionized water at 37C
+from 4 to 14 days; * p< 0.01.
+2.2.5. Porosity
+An initial porosity analysis, using the liquid displacement method (Figure 6), showed
+that the hydrogel containing 3 w/v% gelatin had a porosity of 30.82 4.93%, while the
+2.5 w/v% gelatin hydrogel showed a porosity value of 64.04 16.68% ( p= 0.02974). These
+results were compared with those obtained by morphological analysis of both hydrogels
+(Figure 7). Microscope images showed that the pore size in the 2.5Gel3 was greater than
+that observed in 3Gel4 (Figure 7b). Therefore, the morphological analysis does not conﬁrm
+the results obtained by the liquid displacement method (Figure 6), thus suggesting that
+the 2.5 w/v% Gel appeared more porous, as the amount of ethanol embedded was high
+because of the larger pore size than in 3Gel4 (Figure 7b). Moreover, the number of pores
+within a hydrogel is an important feature for cell encapsulation (Figure 7c). Finally, the
+morphological analysis showed that the 3Gel4-printed hydrogel had a larger number of
+pores with a smaller size compared to that of 2.5Gel3, indicating that it could be used for
+cell encapsulation.Int. J. Mol. Sci. 2022 ,23, 539 7 of 16
+Int. J. Mol. Sci. 2022 , 23, x FOR PEER REVIEW 8 of 17 
+ 
+  
+Figure 6. Porosity analysis of the 2.5Gel3 and 3Gel4 hy drogels carried out by liquid displacement 
+method; * p < 0.01. 
+ 
+Figure 7. (a) Optical microscope representative images of the 2.5Gel3 and 3Gel4 hydrogels for the 
+pores’ morphological analysis. Image area = 25 µm2, scale bar 1 µm; ( b) average pore size (µm) of 
+the 2.5Gel3 and 3Gel4 hydrogels and ( c) average pores number, as anal yzed by ImageJ software; * 
+p < 0.01. 
+Figure 6. Porosity analysis of the 2.5Gel3 and 3Gel4 hydrogels carried out by liquid displacement
+method; * p< 0.01.
+Int. J. Mol. Sci. 2022 , 23, x FOR PEER REVIEW 8 of 17 
+ 
+  
+Figure 6. Porosity analysis of the 2.5Gel3 and 3Gel4 hy drogels carried out by liquid displacement 
+method; * p < 0.01. 
+ 
+Figure 7. (a) Optical microscope representative images of the 2.5Gel3 and 3Gel4 hydrogels for the 
+pores’ morphological analysis. Image area = 25 µm2, scale bar 1 µm; ( b) average pore size (µm) of 
+the 2.5Gel3 and 3Gel4 hydrogels and ( c) average pores number, as anal yzed by ImageJ software; * 
+p < 0.01. 
+Figure 7. (a) Optical microscope representative images of the 2.5Gel3 and 3Gel4 hydrogels for the
+pores’ morphological analysis. Image area = 25 m2, scale bar 1m; (b) average pore size ( m) of
+the 2.5Gel3 and 3Gel4 hydrogels and ( c) average pores number, as analyzed by ImageJ software;
+*p< 0.01.Int. J. Mol. Sci. 2022 ,23, 539 8 of 16
+2.2.6. Enzymatic Degradation
+Collagenase I is a common mammalian enzyme which is often used at a concentration
+of 0.1% in cell analyses, including protein digestion and tissues separation [ 24]. Collagenase
+I was used for the enzymatic degradation test, and the data obtained suggested that
+degradation occurs after an initial period of partial swelling (after 1 h), followed by slow
+and steady degradation (Figure 8a). After 2 h, the residual mass of the 2.5Gel3-printed
+hydrogel was 93.47 6.21%, while the 3Gel4 hydrogel’s residual mass was 85.90 19.43%.
+The degradation continued slowly over time, with no signiﬁcant differences between the
+degradation rate of the 3Gel4 and 2.5Gel3 hydrogel (Figure 8b).
+Int. J. Mol. Sci. 2022 , 23, x FOR PEER REVIEW 9 of 17 
+ 
+ 2.2.6. Enzymatic Degradation 
+Collagenase I is a common mammalian enzyme which is often used at a concentra-
+tion of 0.1% in cell analyses, including protein digestion and tissues separation [24]. Col-
+lagenase I was used for the enzymatic degrad ation test, and the data obtained suggested 
+that degradation occurs after an initial period of partial swelling (after 1 h), followed by 
+slow and steady degradation (Figure 8a). After 2 h, the residual mass of the 2.5Gel3-
+printed hydrogel was 93.47 ± 6.21%, while th e 3Gel4 hydrogel’s residual mass was 85.90 
+± 19.43%. The degradation continued slowly over time, with no significant differences be-
+tween the degradation rate of the 3Gel4 and 2.5Gel3 hydrogel (Figure 8b). 
+ 
+Figure 8. (a) Digital photos of enzymatic degradation an alysis of the 2.5Gel3 and 3Gel4 hydrogels 
+with collagenase I from 0 to 4 h; ( b) enzymatic lysis rate of the 2. 5Gel3 and 3Gel4 hydrogels at dif-
+ferent time points, from 0 to 6 h. 
+2.2.7. Cell Culture 
+Figure 9a shows images of a skin-like structure that was obtained by printing 3Gel4 
+loaded with human keratinocytes to mimic epidermal layer (upper part) and 2.5Gel3 
+loaded with human fibroblast to mimic dermal layer (lower part). As shown in the images 
+obtained on day 1 after printing (T1), the cells displayed no signs of cell death, and, as indicated in Figure 9, they increased their nu mber after 7 (T7) and 14 (T14) days both in 
+3Gel4 and 2.5Gel3. 
+Figure 8. (a) Digital photos of enzymatic degradation analysis of the 2.5Gel3 and 3Gel4 hydrogels
+with collagenase I from 0 to 4 h; ( b) enzymatic lysis rate of the 2.5Gel3 and 3Gel4 hydrogels at
+different time points, from 0 to 6 h.
+2.2.7. Cell Culture
+Figure 9a shows images of a skin-like structure that was obtained by printing 3Gel4
+loaded with human keratinocytes to mimic epidermal layer (upper part) and 2.5Gel3
+loaded with human ﬁbroblast to mimic dermal layer (lower part). As shown in the images
+obtained on day 1 after printing (T1), the cells displayed no signs of cell death, and, as
+indicated in Figure 9, they increased their number after 7 (T7) and 14 (T14) days both in
+3Gel4 and 2.5Gel3.Int. J. Mol. Sci. 2022 ,23, 539 9 of 16
+Int. J. Mol. Sci. 2022 , 23, x FOR PEER REVIEW 10 of 17 
+ 
+  
+Figure 9. (a) Images obtained by Pannoramic Midi microscope slide digitizer of skin-like model with 
+cell laden 3Gel4 (upper part) and 2. 5Gel3 (lower part) after 1(T1), 7 (T7) and 14 (T14) incubation 
+days. Scale bar = 100 µm. ( b) Bar-graph showing cell numbers sc ored in 2.5Gel3 (white bar) and 
+3Gel4 (black bar) at different time points; *** p < 0.001 compared to T1. 
+3. Discussion 
+Three-dimensional bioprinting has drown a lot of attention in the field of modern 
+medicine for tissue engineering and wound healing. Currently, most in vitro studies have 
+been performed on 2D or 3D cell-culture models that are devoid of the structural com-
+plexity and function of the native tissues that can be produce by using bioprinting. In fact, 
+bioprinting offers a potential route to generate complex 3D biological constructs that are capable of mimicking the micr oenvironment of the native tissue and promoting physio-
+logically relevant cell–cell and cell–matrix interactions. 
+Shawan et al. [13] described the synthesis of Gel/Xnt hydrogels by using 3 w/v% or 5 
+w/v% of gelatin and 0.6 w/v% xanthan gum and glutaraldehyde (0.5 v/v%) used as cross-
+linker, and they tested Gel/Xnt hybrid composite hydrogels in experimental skin burn 
+wounds in rats as effective wound-dressing materials. However, the bioprintability prop-
+erties of the obtained hybrid composite hydrog els were not evaluated. In fact, the original 
+hydrogel could not be 3D-printed, possibly du e to the low concentration of the Xnt result-
+ing in low viscosity. 
+Therefore, to increase the viscosity of the new Gel/Xnt hydrogels (Table 1), the evap-
+oration of the solution was gradually induced,  instead of adding water during the synthe-
+sis, as reported by Shawan et al. [13], as well as lowering the processing temperature (from 
+85 °C to 60–70 °C). Furthermore, the print stability was achieved by adding glutaralde-hyde after printing. 
+Gelatin is widely used in wound-healing applications [33–36], but one of the limita-
+tions is its liquification at the normal temp erature (37 °C) for the human body [31]. To 
+overcome this drawback, it is possible to use stabilizers, thickeners and crosslinkers, as 
+well as xanthan gum. This is a stabilizer and a homogenizing agent [37], which, being a 
+powder, also influences the viscosity of the hydrogel, extending the surface area and con-
+tact points for the adhesion of water molecu les within the hydrated matrix. Thus, when 
+Figure 9. (a) Images obtained by Pannoramic Midi microscope slide digitizer of skin-like model with
+cell laden 3Gel4 (upper part) and 2.5Gel3 (lower part) after 1 (T1), 7 (T7) and 14 (T14) incubation days.
+Scale bar = 100 m. ( b) Bar-graph showing cell numbers scored in 2.5Gel3 (white bar) and 3Gel4
+(black bar) at different time points; *** p< 0.001 compared to T1.
+3. Discussion
+Three-dimensional bioprinting has drown a lot of attention in the ﬁeld of modern
+medicine for tissue engineering and wound healing. Currently, most in vitro studies
+have been performed on 2D or 3D cell-culture models that are devoid of the structural
+complexity and function of the native tissues that can be produce by using bioprinting.
+In fact, bioprinting offers a potential route to generate complex 3D biological constructs
+that are capable of mimicking the microenvironment of the native tissue and promoting
+physiologically relevant cell–cell and cell–matrix interactions.
+Shawan et al. [ 13] described the synthesis of Gel/Xnt hydrogels by using 3 w/v%
+or 5 w/v% of gelatin and 0.6 w/v% xanthan gum and glutaraldehyde (0.5 v/v%) used
+as crosslinker, and they tested Gel/Xnt hybrid composite hydrogels in experimental skin
+burn wounds in rats as effective wound-dressing materials. However, the bioprintability
+properties of the obtained hybrid composite hydrogels were not evaluated. In fact, the
+original hydrogel could not be 3D-printed, possibly due to the low concentration of the Xnt
+resulting in low viscosity.
+Therefore, to increase the viscosity of the new Gel/Xnt hydrogels (Table 1), the evapo-
+ration of the solution was gradually induced, instead of adding water during the synthesis,
+as reported by Shawan et al. [ 13], as well as lowering the processing temperature (from
+85Cto 60–70C). Furthermore, the print stability was achieved by adding glutaraldehyde
+after printing.
+Gelatin is widely used in wound-healing applications [ 33–36], but one of the limita-
+tions is its liquiﬁcation at the normal temperature (37C) for the human body [ 31]. To
+overcome this drawback, it is possible to use stabilizers, thickeners and crosslinkers, as
+well as xanthan gum. This is a stabilizer and a homogenizing agent [ 37], which, being
+a powder, also inﬂuences the viscosity of the hydrogel, extending the surface area and
+contact points for the adhesion of water molecules within the hydrated matrix. Thus, whenInt. J. Mol. Sci. 2022 ,23, 539 10 of 16
+lower amounts of xanthan gum or gelatin were used in hydrogels (Table 1), a decrease
+in print-shape retention was observed. On the contrary, higher amounts of gelatin and
+xanthan gum provided a higher shape retention, but, in addition to xanthan gum, glu-
+taraldehyde is also needed for the gelatin crosslinking process and to maintain the print
+shape (Table 2). Morphologic analysis demonstrated that the amount of the xanthan gum
+as glutaraldehyde is important for the stabilization of the hybrid composite hydrogel. Lii
+et al. [ 38] reported that Xnt and Gel interact by hydrogen-bonding, involving the -OH
+groups and -NH 2groups of xanthan gum and gelatin, respectively, forming many bridges
+to which water molecules can adhere within the matrix, thus increasing the contact surface
+for water. In this regard, probably the concentration of 1.2 w/v% Xnt is higher than that of
+a low amount of gelatin (2.5 w/v%). A greater number of bonds between hydroxyl groups
+of the excess xanthan gum, not linked to gelatin, and water molecules cause an increase of
+hydration during the synthesis of the hydrogel, and therefore a lower viscosity.
+Furthermore, observing the images obtained under the microscope and shown in
+Figure 1, we see that the non-crosslinked and crosslinked prints with glutaraldehyde
+respectively showed a color change from white to pale yellow, as is typically associated
+with the crosslinking reaction [39,40].
+The human body is known to be largely composed of water. The main goal of this
+work is the 3D printing of the cell-seeded hydrogel during therapies such as skin grafts [ 41]
+to repair one or more layer of tissue [ 42] or to accelerate the wound healing. In particular,
+hydrogel-like materials used for wound healing should have a high percentage of water, be-
+cause it could improve the interaction between cells and diffusion of molecules [ 13] without
+dehydration of the tissues. In both hydrogels, 2.5Gel3 and 3Gel4, the percentage of water is
+around 90%, suggesting that these materials could be used in biomedical applications.
+Furthermore, swelling is also an important property to evaluate. Swelling is the ability
+of a hydrogel to absorb water, gaining weight and volume [ 25]. Hydrogels with higher
+swelling values are more likely to change shape and break in hydrated environments. The
+results of the hydrogels swelling rate may depend on the concentration of gelatin and the
+presence of glutaraldehyde in their composition. The crosslinking of gelatin is due to the
+reaction of the aldehyde functional groups present in the glutaraldehyde molecule with free
+non-protonated "-amino groups (-NH 2) of lysine or hydroxylysine belonging to the gelatin.
+This leads to the formation of amide linkages [ 43,44]. The linkages between the crosslinker
+and the hydrogel matrix during the crosslinking reactions affect the water-retention ability
+of the hydrogel [ 25]. This process can be observed with 3 w/v% Gel. Probably, since the
+functional groups of the gelatin are involved in the bonds with all aldehyde groups of
+the crosslinker, the latter cannot be involved in the bonds with the water molecules, thus
+positively inﬂuencing the swelling rate. On the other hand, when the 2.5 w/v% of Gel and
+0.3 v/v% of GTA were used, the number of functional groups of Gel was not enough to bind
+all the aldehyde groups of the crosslinker, thus allowing a higher swelling. Comparing the
+swelling and hydrolysis results, we see that the crosslinked 3 w/v% gelatin hydrogel was
+resistant to swelling but sensible to the hydrolysis process. This could be due to a strong
+crosslinking of the 3Gel4 hydrogel with 0.3 v/v% GTA. For this reason, many aldehyde
+groups are linked to gelatin through an amide, bond and, therefore, they are less stable and
+more subject to the hydrolysis reaction compared to 2.5Gel3, thus allowing for a greater
+hydrogel degradation at high temperature by solvation and rapid disintegration of the
+gelatin [39,45].
+The size and number of pores, their connectivity and geometry are the main char-
+acteristics for the use of the hydrogels in biomedical applications. Indeed, the ability of
+cells to proliferate into a 3D structure is affected by the size of the pores, as well as is the
+biodegradability of the structure itself [ 46]. In particular, to allow for vascularization and
+tissue formation, pore sizes should be less than 500 m, as larger pore sizes could decrease
+cell–cell interaction and, thus, their proliferation [ 46,47]. The 3Gel4 has a greater number
+of smaller pores, probably due to the strong bond with the crosslinker that makes this
+material denser and, therefore, gives it a better porosity compared to 2.5Gel3.Int. J. Mol. Sci. 2022 ,23, 539 11 of 16
+The results of the enzymatic degradation and hydrolysis test showed the biodegrad-
+ability of the produced hydrogel. Although crosslinked gelatin hydrogels are soft materials,
+they are capable of causing irritation and reactions [ 24]. For this reason, the synthesized
+Gel/Xnt hydrogel does not need to be highly resistant to degradation, thus allowing host
+cells to gradually replace the hydrogel in wound healing and absorbing it completely.
+Finally, human ﬁbroblast and keratinocytes were mixed with 2.5Gel3 and 3Gel4 hy-
+drogels respectively, and a skin-like structure was printed to evaluate the biocompatibility
+of both materials. The images of the cell distribution and proliferation in the hydrogels
+collected after 1, 7 and 14 days in culture showed a good proliferation. These results are
+also due to the presence of numerous and small pores that induce greater cell prolifera-
+tion in a 3D structure [ 46] and to the good biodegradability of the material composing
+the hydrogels.
+4. Materials and Methods
+4.1. Hydrogel Preparation
+Shawan et al. [ 13] reported the preparation of the hydrogels by using different formula-
+tions of gelatin (Gel), namely 3 w/v% and 5 w/v%, and 0.6 w/v% of xanthan gum (Xnt) for
+heal ulcers. Based on this work, new compositions of Gel/Xnt hybrid composite hydrogels
+were designed, modifying the ratio between two components to obtain the best printable
+hydrogel. Bovine gelatin (Gel) (Sigma-Aldrich, St. Louis, MO, USA) was slowly added
+to deionized water at 70C, under magnetic stirring to avoid the formation of clumps.
+Afterward, xanthan gum (Xnt) (Sigma-Aldrich, St. Louis, MO, USA) was added into the
+gelatin solution, and the temperature was maintained between 60 and 70C until water
+evaporation. Hydrogel was then stored at 4C until use. The formulations used to produce
+the different hydrogels are reported in Table 1.
+4.2. Bioprinting
+Hydrogel Bioprinting
+CellInk Inkredible 3D printer (CellInk Inkredible 3-D printer, CellInk, Gothenburg,
+Sweden) was used for the hydrogel printing. Hydrogels were printed to obtain 1 cm2
+squares. After preparation, hydrogels were left at 4C from 3 to 10 days, and they were
+warmed to room temperature before printing. Bio-ink syringes (3 mL) were ﬁlled with
+the different hydrogels and then loaded into the 3D printer. Printability trials were run at
+different pressures (from 10 to 20 kPa), as reported in Table 1.
+4.3. Hydrogel Crosslinking
+Crosslinking trials were performed by using different concentrations of glutaraldehyde
+(GTA, 0.3, 0.5 and 1 v/v%,) obtained from a 25 v/v% stock solution. In addition, for
+each concentration, different submersion times in the glutaraldehyde solution (1 or 3 h)
+were tested. The crosslinking of a hydrogel structure occurs in the post-printing process.
+Crosslinked hydrogels were added to cell culture Dulbecco’s Modiﬁed Eagle’s medium
+(DMEM) to test their stability (Table 2).
+4.4. Characterization of 3D-Printed Hydrogel
+4.4.1. Morphology
+The macroscopic morphology of the hydrogel was observed by taking several photos,
+using a high-resolution digital camera (NIKON D5600). Optimal cutting temperature com-
+pound (OCT compound) was used to incorporate the hydrogels prior to frozen sectioning
+on a microtome cryostat, obtaining hydrogel micron slices. The optical reverse microscope
+(Motic AE2000, Motic Europe, Barcelona, Spain) was used to evaluate the microscopic
+morphology of the different printed hydrogels, both crosslinked and non-crosslinked.Int. J. Mol. Sci. 2022 ,23, 539 12 of 16
+4.4.2. Moisture
+The moisture percentage was measured as described by Shawan et al. [ 13]. On day 3
+of stabilization, hydrated prints were weighted ( WH), stored at 37C for 2 days to allow the
+drying process to be completed and then weighed again (WD). The percentage of moisture
+(water) in a printed hydrogel was calculated as follows (Equation (1)):
+Moisture (%) = [(WH WD)/WH]100 (1)
+where WHis original weight of the sample before drying, and WDis weight of the sample
+after drying. All the experiments were replicated three times, with at least three samples
+for each condition.
+4.4.3. Swelling Test
+Printed hydrogel, both non-crosslinked and crosslinked, were dried at 37C for 48 h
+to perform the swelling test [ 25]. Dried printed hydrogels were weighed, rehydrated by
+soaking in deionized water and weighed again after the water was removed, at different
+time points (time 0, 1, 3, 6 and 24 h). The residual water was eliminated, using ﬁlter
+paper, by capillary action. The swelling ratio (S) [ 25] was calculated by using the following
+equation (Equation (2)):
+S = [(WH WD)/WD]100. (2)
+where WHis sample hydrated weight, and WDis initial dehydrated weight.
+All the experiments were replicated three times, with at least three samples for
+each condition.
+4.4.4. Hydrolysis
+In order to evaluate the hydrolysis, crosslinked printed hydrogels were weighed
+(time 0 ) and immersed in deionized water at 37C. After the time point from 4 to 14 days,
+the weight of the crosslinked prints was taken by removing the deionized water and lightly
+dabbing the crosslinked prints with ﬁlter paper. The percentage of hydrolysis was obtained
+by using the following equation (Equation (3)):
+Hydrolysis (%) = [(WI WF)/WI]100 (3)
+where WIis the before soaking weight, and WFis the remaining weight after soaking and
+removing of the deionized water. All the experiments were replicated three times, with at
+least three samples for each condition.
+4.4.5. Porosity
+The porosity of the printed hydrogels was evaluated by using the liquid displacement
+method [ 24]. Absolute ethanol, which causes neither swelling nor shrinking of gelatin [ 24],
+was used for prints’ submersion. After 5 min of submersion in a known quantity of absolute
+ethanol, samples were weighed. The porosity of the hydrogel was calculated as follows
+(Equation (4)):
+Porosity (%) = [(W 1 W3)/(W 2 W3)]100 (4)
+where W 1is the initial weight of pure ethanol, W 2is the total weight that combines the
+weight of the hydrogel with the weight of the ethanol and W 3is the ending weight of
+ethanol without hydrogel [24].
+Furthermore, Greyscale 8-bit TIFF images of the 2.5Gel3 and 3Gel4 were processed by
+using ImageJ software. The ImageJ “particle analysis” function was then used to calculate
+the size and the numerosity of hydrogel pores. All the experiments were replicated three
+times, with at least three samples for each condition.Int. J. Mol. Sci. 2022 ,23, 539 13 of 16
+4.4.6. Enzymatic Degradation
+The biological stability of the hydrogels was evaluated by exposing them to 0.1% colla-
+genase type IA (>125 CDU/mg, Sigma-Aldrich, St. Louis, MO, USA) to assess degradation
+rates [ 24]. Printed hydrogels were dried at 37C for two days, and before the analysis,
+the dry prints were soaked in PBS for 1 h, and then they were exposed to the enzymatic
+solution (prepared in PBS 1X) at 0.1% collagenase type I for 6 h. Enzymatic degradation
+tests [ 24] were performed at 37C in a horizontal shaker. After different time points (1, 2, 3,
+4, 5 and 6 h), the excess water was removed from the printed hydrogels and then weighed.
+The biomaterial degradation was determined by calculating the percentage of remaining
+weight versus the original weight. All the experiments were replicated three times, with at
+least three samples for each condition.
+4.5. Cell Culture
+Primary human-derived-skin ﬁbroblasts and human keratnocytes spontaneously im-
+mortalized (HaCaTs) were used for testing printable hydrogels biocompatibility. HaCaTs
+were purchased from Cell Lines Service GmbH (Eppelheim, Germany), while human ﬁ-
+broblasts were a kind gift from Professor Marco De Andrea (University of Turin, Turin,
+Italy). Both cell types were grown in culture ﬂask in Dulbecco’s modiﬁed Eagle’s medium
+(DMEM) containing high glucose levels supplemented with 10% heat-inactivated fetal
+bovine serum (FBS) and 1% Penicillin–Streptomycin (all from Immunological Science,
+Rome, Italy) in a humidiﬁed atmosphere containing 5% CO 2at 37C. Two different cell
+populations (keratinocytes and ﬁbroblasts) inserted into the two hydrogels of different
+porosity were used for printing a simple 3D skin-like model with a surface layer that
+mimics the epidermis (high cell concentration for the epithelium) and a lower layer that
+mimics the dermis (low cellular concentration for the connective). The 2.5Gel3 and 3Gel4
+printable hydrogels were gently mixed with 0.5 106ﬁbroblasts/mL and 5 106HaCaT
+cells/mL, respectively, using two syringes connected under a sterile cap. Small cylinders
+(0.5 cm high, 1 cm wide) were printed by using cell-laden 2.5Gel3 for the lower layers and
+3Gel4 for the upper layers. The cylinders were crosslinked by using GTA as previously
+indicated. The cell-laden cylinders were washed three times with sterile PBS and incubated
+for 1, 7 and 14 days in DMEM 10% FBS at 37C in a 5% CO 2atmosphere. At the end of the
+incubation time, the culture medium was removed, and the hydrogels containing the cells
+were washed with phosphate buffered saline (PBS) 3 times, formalin ﬁxed and parafﬁn
+embedded. Samples were then cut in 5 slices and stained with hematoxylin/eosin; the
+cells grown in hydrogels were observed by using a digitizer Pannoramic Midi for micro-
+scope slides (Epredia, Palermo, Italy), and their number was evaluated by using the ImageJ
+software. All the experiments were replicated three times, with at least three samples for
+each condition.
+4.6. Statistical Analysis
+Data were presented as mean standard deviation (SD). Statistical analyses were
+performed by using GraphPad PRISM software. Kolmogorov–Smirnoff test was applied
+to verify the normal distribution of data. One-way ANOVA was employed for multiple
+comparison, the whereas t-test was used when a comparison between two group occurred.
+Thep-values < 0.05 were considered statistically signiﬁcant.
+5. Conclusions
+The hybrid composite hydrogels containing different percentages of gelatin and the
+same amount of xanthan gum were designed to obtain printable materials for in vitro
+and in vivo biomedical applications. Among all the hydrogel formulations modulating
+the process and the parameters of the 3D printer, the 2.5 w/v% and 3 w/v% of gelatin
+with 1.2 w/v% xanthan gum resulted in being printable, with a good resolution. The
+characterization results showed that 3Gel/4hydrogel crosslinked with 0.3 v/v% GTA
+presents optimal properties compared to the hydrogel with 2.5Gel3. In particular, the 3Gel4Int. J. Mol. Sci. 2022 ,23, 539 14 of 16
+hybrid composite hydrogel was able to maintain its print shape, to resist to the swelling
+and to degrade easily. Moreover, it shares a very good biocompatibility with the 2.5Gel3,
+and it could be used as a matrix for cell growth, for the development of in vitro tissues or
+also for wound dressing, allowing the host cells to gradually replace the hydrogel with a
+secreted matrix.
+Author Contributions: Conceptualization, F.R. and M.I.; methodology, F.R. and B.P .; validation, M.S.
+and S.G.; formal analysis, B.P . and F.R.; investigation, B.P . and F.R.; resources, M.I.; data curation, F.R.,
+B.P . and S.G.; writing—original draft preparation, M.S. and F.R.; writing—review and editing, M.S.
+and F.R.; supervision, F.R.; project administration, M.I.; funding acquisition, F.R., M.I. and S.G. All
+authors have read and agreed to the published version of the manuscript.
+Funding: This research was funded by Health Sciences Department research fund, Universit àdel
+Piemonte Orientale, grant number RIVinvernizzimRL16_BCRLrehab17_19. Department of Science
+and Technology Innovation, Universit àdel Piemonte Orientale, grant number: RIVsabbatinimFAR17_
+astrociti_19-21. The APC was funded by grant number RIVinvernizzimRL16_BCRLrehab17_19.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: The raw/processed data required to reproduce these ﬁndings cannot
+be shared at this time, as the data also form part of an ongoing study.
+Acknowledgments: Authors thanks Marco De Andrea from Department of Public Health and
+Pediatric Sciences, University of Turin, 10126 Turin, Italy, for the kind gift of human primary ﬁbroblast.
+The authors thank M.P . Fortunato for her precious help with the language.
+Conﬂicts of Interest: The authors declare no conﬂict of interest. The funders had no role in the design
+of the study; in the collection, analyses or interpretation of data; in the writing of the manuscript; or
+in the decision to publish the results.
+References
+1. Rithe, S.S.; Kadam, P .G.; Mhaske, S.T. Preparation and analysis of novel hydrogels prepared from the blend of guar gum and
+chitosan: Cross-linked with glutaraldehyde. Adv. Mater. Sci. Eng. 2014 ,2, 1–15.
+2. El-Sherbiny, I.M.; Yacoub, M.H. Hydrogel scaffolds for tissue engineering: Progress and challenges. Glob. Cardiol. Sci. Pract. 2013 ,
+2013 , 38. [CrossRef] [PubMed]
+3. Fan, L.; Tan, C.; Wang, L.; Pan, X.; Cao, M.; Wen, F.; Xie, W.; Nie, M. Preparation, characterization and the effect of carboxymethy-
+lated chitosan–cellulose derivatives hydrogels on wound healing. Appl. Polym. Sci. 2013 ,128, 2789–2796. [CrossRef]
+4. Narayanaswamy, R.; Torchilin, V .P . Hydrogels and their applications in targeted drug delivery. Molecules 2019 ,24, 603. [CrossRef]
+[PubMed]
+5. Dimatteo, R.; Darling, N.J.; Segura, T. In situ forming injectable hydrogels for drug delivery and wound repair. Adv. Drug Deliv. Rev.
+2018 ,127, 167–184. [CrossRef] [PubMed]
+6. Naahidi, S.; Jafari, M.; Logan, M.; Wang, Y.; Yuan, Y.; Bae, H.; Dixon, B.; Chen, P . Biocompatibility of hydrogel-based scaffolds for
+tissue engineering applications. Biotechnol. Adv. 2017 ,35, 530–544. [CrossRef]
+7. Xiao, S.; Zhao, T.; Wang, J.; Wang, C.; Du, J.; Ying, L.; Lin, J.; Zhang, C.; Hu, W.; Wang, L. Gelatin methacrylate (GelMA)-based
+hydrogels for cell transplantation: An effective strategy for tissue engineering. Stem. Cell Rev. 2019 ,15, 664–679. [CrossRef]
+[PubMed]
+8. Mahdavi, S.S.; Abdekhodaie, M.J.; Mashayekhan, S.; Baradaran-Raﬁi, A.; Djalilian, A.R. Bioengineering Approaches for Corneal
+Regenerative Medicine. In Tissue Engineering and Regenerative Medicine ; Springer: Berlin/Heidelberg, Germany, 2020; pp. 1–27.
+[CrossRef]
+9. Smoak, M.M.; Mikos, A.G. Advances in biomaterials for skeletal muscle engineering and obstacles still to overcome.
+Mater. Today Bio 2020 ,7, 100069. [CrossRef]
+10. El-Kased, R.F.; Amer, R.I.; Attia, D.; Elmazar, M. Honey-based hydrogel: In vitro and comparative In vivo evaluation for burn
+wound healing. Sci. Rep. 2017 ,7, 9692. [CrossRef]
+11. Francesko, A.; Petkova, P .; Tzanov, T. Hydrogel dressings for advanced wound management. Curr. Med. Chem. 2018 ,25,
+5782–5797. [CrossRef]
+12. Nour, S.; Baheiraei, N.; Imani, R.; Khodaei, M.; Alizadeh, A.; Rabiee, N.; Moazzeni, S.M. A review of accelerated wound healing
+approaches: Biomaterial-assisted tissue remodeling. J. Mater. Sci. Mater. 2019 ,30, 120. [CrossRef] [PubMed]Int. J. Mol. Sci. 2022 ,23, 539 15 of 16
+13. Shawan, M.M.A.K.; Islam, N.; Aziz, S.; Khatun, N.; Sarker, S.R.; Hossain, M.; Hossan, T.; Morshed, M.; Sarkar, M.; Shakil, M.S.
+Fabrication of Xanthan gum: Gelatin (Xnt: Gel) Hybrid Composite Hydrogels for Evaluating Skin Wound Healing Efﬁcacy.
+Mod. Appl. Sci. 2019 ,13. [CrossRef]
+14. Wu, S.; Deng, L.; Hsia, H.; Xu, K.; He, Y.; Huang, Q.; Peng, Y.; Zhou, Z.; Peng, C. Evaluation of gelatin-hyaluronic acid composite
+hydrogels for accelerating wound healing. J. Biomater. Appl. 2017 ,31, 1380–1390. [CrossRef] [PubMed]
+15. Li, D.; Sun, H.; Jiang, L.; Zhang, K.; Liu, W.; Zhu, Y.; Fangteng, J.; Shi, C.; Zhao, L.; Sun, H. Enhanced biocompatibility of PLGA
+nanoﬁbers with gelatin/nano-hydroxyapatite bone biomimetics incorporation. ACS Appl. Mater. Interfaces 2014 ,6, 9402–9410.
+[CrossRef] [PubMed]
+16. Pezeshki-Modaress, M.; Zandi, M.; Mirzadeh, H. Fabrication of gelatin/chitosan nanoﬁbrous scaffold: Process optimization and
+empirical modeling. Polym. Int. 2015 ,64, 571–580. [CrossRef]
+17. Camci-Unal, G.; Cuttica, D.; Annabi, N.; Demarchi, D.; Khademhosseini, A. Synthesis and characterization of hybrid hyaluronic
+acid-gelatin hydrogels. Biomacromolecules 2013 ,14, 1085–1092. [CrossRef] [PubMed]
+18. Petri, D.F. Xanthan gum: A versatile biopolymer for biomedical and technological applications. J. Appl. Polym. Sci. 2015 ,132,
+42035. [CrossRef]
+19. Kumar, A.; Rao, K.M.; Han, S.S. Application of xanthan gum as polysaccharide in tissue engineering: A review. Carbohydr. Polym.
+2018 ,180, 128–144. [CrossRef]
+20. Karada˘ g, E.; Ödemi¸ s, H.; Kundakçi, S.; Üzüm, Ö.B. Swelling characterization of acrylamide/zinc acrylate/xanthan gum/sepiolite
+hybrid hydrogels and its application in sorption of janus green b from aqueous solutions. Adv. Polym. Technol. 2016 ,35, 248–259.
+[CrossRef]
+21. Juris, S.; Mueller, A.; Smith, B.; Johnston, S.; Walker, R.; Kross, R. Biodegradable polysaccharide gels for skin scaffolds.
+J. Biomater. Nanobiotechnol. 2011 ,2, 216. [CrossRef]
+22. Ratanavaraporn, J.; Rangkupan, R.; Jeeratawatchai, H.; Kanokpanont, S.; Damrongsakkul, S. Inﬂuences of physical and chemical
+crosslinking techniques on electrospun type A and B gelatin ﬁber mats. Int. J. Biol. Macromol. 2010 ,47, 431–438. [CrossRef]
+[PubMed]
+23. Lu, L.; Yuan, S.; Wang, J.; Shen, Y.; Deng, S.; Xie, L.; Yang, Q. The formation mechanism of hydrogels. Curr. Stem Cell Res. Ther.
+2018 ,13, 490–496. [CrossRef] [PubMed]
+24. Yang, G.; Xiao, Z.; Long, H.; Ma, K.; Zhang, J.; Ren, X.; Zhang, J. Assessment of the characteristics and biocompatibility of gelatin
+sponge scaffolds prepared by various crosslinking methods. Sci. Rep. 2018 ,8, 1616. [CrossRef] [PubMed]
+25. Poursamar, S.A.; Lehner, A.N.; Azami, M.; Ebrahimi-Barough, S.; Samadikuchaksaraei, A.; Antunes, A.P .M. The effects of
+crosslinkers on physical, mechanical, and cytotoxic properties of gelatin sponge prepared via in-situ gas foaming method as a
+tissue engineering scaffold. Mater. Sci. Eng. C 2016 ,63, 1–9. [CrossRef]
+26. Sun, L.; Li, B.; Yao, D.; Song, W.; Hou, H. Effects of cross-linking on mechanical, biological properties and biodegradation behavior
+of Nile tilapia skin collagen sponge as a biomedical material. J. Mech. Behav. Biomed. Mater. 2018 ,80, 51–58. [CrossRef] [PubMed]
+27. Furuike, T.; Chaochai, T.; Okubo, T.; Mori, T.; Tamura, H. Fabrication of nonwoven fabrics consisting of gelatin nanoﬁbers
+cross-linked by glutaraldehyde or N-acetyl-d-glucosamine by aqueous method. Int. J. Biol. Macromol. 2016 ,93, 1530–1538.
+[CrossRef]
+28. Mandrycky, C.; Wang, Z.; Kim, K.; Kim, D.-H. 3D bioprinting for engineering complex tissues. Biotechnol. Adv. 2016 ,34, 422–434.
+[CrossRef]
+29. Gungor-Ozkerim, P .S.; Inci, I.; Zhang, Y.S.; Khademhosseini, A.; Dokmeci, M.R. Bioinks for 3D bioprinting: An overview.
+Biomater. Sci. 2018 ,6, 915–946. [CrossRef]
+30. Dzobo, K.; Motaung, K.S.C.M.; Adesida, A. Recent trends in decellularized extracellular matrix bioinks for 3D printing: An
+updated review. Int. J. Mol. Sci. 2019 ,20, 4628. [CrossRef]
+31. Li, H.; Tan, C.; Li, L. Review of 3D printable hydrogels and constructs. Mater. Des. 2018 ,159, 20–38. [CrossRef]
+32. Lai, J.-Y. Biocompatibility of chemically cross-linked gelatin hydrogels for ophthalmic use. J. Mater. Sci. Mater. 2010 ,21, 1899–1911.
+[CrossRef]
+33. Afjoul, H.; Shamloo, A.; Kamali, A. Freeze-gelled alginate/gelatin scaffolds for wound healing applications: An in vitro ,in vivo
+study. Mater. Sci. Eng. C 2020 ,113, 110957. [CrossRef]
+34. Etxabide, A.; Vairo, C.; Santos-Vizcaino, E.; Guerrero, P .; Pedraz, J.L.; Igartua, M.; de la Caba, K.; Hernandez, R.M. Ultra thin
+hydro-ﬁlms based on lactose-crosslinked ﬁsh gelatin for wound healing applications. Int. J. Pharm. 2017 ,530, 455–467. [CrossRef]
+35. Hivechi, A.; Bahrami, S.H.; Siegel, R.A.; Milan, P .B.; Amoupour, M. In vitro and in vivo studies of biaxially electrospun poly
+(caprolactone)/gelatin nanoﬁbers, reinforced with cellulose nanocrystals, for wound healing applications. Cellulose 2020 ,27,
+5179–5196. [CrossRef]
+36. Shamloo, A.; Aghababaie, Z.; Afjoul, H.; Jami, M.; Bidgoli, M.R.; Vossoughi, M.; Ramazani, A.; Kamyabhesari, K. Fabrication and
+evaluation of Chitosan/Gelatin/PVA hydrogel incorporating Honey for wound healing applications: An In Vitro, In Vivo Study.
+Int. J. Pharm. 2020 ,592, 120068. [CrossRef]
+37. Additives, E.P .o.F.; Food, N.S.a.t.; Mortensen, A.; Aguilar, F.; Crebelli, R.; Di Domenico, A.; Frutos, M.J.; Galtier, P .; Gott, D.;
+Gundert-Remy, U.; et al. Re-evaluation of xanthan gum (E 415) as a food additive. EFSA J. 2017 ,15, e04909. [CrossRef]
+38. Lii, C.-Y.; Liaw, S.; Lai, V .-F.; Tomasik, P . Xanthan gum–gelatin complexes. Eur. Polym. J. 2002 ,38, 1377–1381. [CrossRef]Int. J. Mol. Sci. 2022 ,23, 539 16 of 16
+39. Correia, D.M.; Padr ão, J.; Rodrigues, L.; Dourado, F.; Lanceros-M éndez, S.; Sencadas, V . Thermal and hydrolytic degradation of
+electrospun ﬁsh gelatin membranes. Polym. Test 2013 ,32, 995–1000. [CrossRef]
+40. Zhang, Y.; Venugopal, J.; Huang, Z.-M.; Lim, C.T.; Ramakrishna, S. Crosslinking of the electrospun gelatin nanoﬁbers. Polymer
+2006 ,47, 2911–2917. [CrossRef]
+41. Nilforoushzadeh, M.A.; Sisakht, M.M.; Amirkhani, M.A.; Seifalian, A.M.; Banafshe, H.R.; Verdi, J.; Nouradini, M. Engineered skin
+graft with stromal vascular fraction cells encapsulated in ﬁbrin–collagen hydrogel: A clinical study for diabetic wound healing.
+J. Tissue Eng. Regen. Med. 2020 ,14, 424–440. [CrossRef] [PubMed]
+42. Wu, Y.; Heikal, L.; Ferns, G.; Ghezzi, P .; Nokhodchi, A.; Maniruzzaman, M. 3D bioprinting of novel biocompatible scaffolds for
+endothelial cell repair. Polymers 2019 ,11, 1924. [CrossRef] [PubMed]
+43. Farris, S.; Song, J.; Huang, Q. Alternative reaction mechanism for the cross-linking of gelatin with glutaraldehyde.
+J. Agric. Food Chem. 2010 ,58, 998–1003. [CrossRef]
+44. Schrieber, R.; Gareis, H. Gelatine Handbook: Theory and Industrial Practice ; John Wiley & Sons: Hoboken, NJ, USA, 2007.
+45. Gorgieva, S.; Kokol, V . Collagen-vs. gelatine-based biomaterials and their biocompatibility: Review and perspectives.
+J. Biomater. Appl. 2011 ,2, 17–52.
+46. Bose, S.; Vahabzadeh, S.; Bandyopadhyay, A. Bone tissue engineering using 3D printing. Mater. Today 2013 ,16, 496–504. [CrossRef]
+47. An, J.; Teoh, J.E.M.; Suntornnond, R.; Chua, C.K. Design and 3D printing of scaffolds and tissues. Engineering 2015 ,1, 261–268.
+[CrossRef]

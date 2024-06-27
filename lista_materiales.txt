@@ -1,34 +1,89 @@
-Epithelial Tissue
-Simple Squamous Epithelium
-Simple Cuboidal Epithelium
-Simple Columnar Epithelium
-Stratified Squamous Epithelium
-Stratified Cuboidal Epithelium
-Stratified Columnar Epithelium
-Pseudostratified Columnar Epithelium
-Transitional Epithelium
-Connective Tissue
-Loose Connective Tissue
-Areolar Tissue
-Adipose Tissue
-Reticular Tissue
-Dense Connective Tissue
-Dense Regular Connective Tissue
-Dense Irregular Connective Tissue
-Elastic Tissue
-Cartilage
-Hyaline Cartilage
-Elastic Cartilage
-Fibrocartilage
-Bone
-Compact Bone
-Spongy Bone
-Blood
-Lymph
-Muscle Tissue
-Skeletal Muscle Tissue
-Cardiac Muscle Tissue
-Smooth Muscle Tissue
-Nervous Tissue
-Neurons
-Neuroglia (Glial Cells)
+Red Blood Cells (Erythrocytes)
+White Blood Cells (Leukocytes)
+Neutrophils
+Lymphocytes
+Monocytes
+Eosinophils
+Basophils
+Platelets (Thrombocytes)
+Muscle Cells (Myocytes)
+Skeletal Muscle Cells
+Cardiac Muscle Cells (Cardiomyocytes)
+Smooth Muscle Cells
+Nerve Cells (Neurons)
+Glial Cells
+Astrocytes
+Oligodendrocytes
+Microglia
+Schwann Cells
+Epithelial Cells
+Squamous Epithelial Cells
+Cuboidal Epithelial Cells
+Columnar Epithelial Cells
+Endothelial Cells
+Adipocytes (Fat Cells)
+Fibroblasts
+Chondrocytes (Cartilage Cells)
+Osteocytes (Bone Cells)
+Stem Cells
+Embryonic Stem Cells
+Adult Stem Cells
+Hematopoietic Stem Cells
+Mesenchymal Stem Cells
+Neural Stem Cells
+Epithelial Stem Cells
+Muscle Stem Cells (Satellite Cells)
+Cardiac Stem Cells
+Germ Cells
+Sperm Cells (Spermatozoa)
+Egg Cells (Oocytes)
+Pancreatic Cells
+Alpha Cells
+Beta Cells
+Delta Cells
+PP Cells
+Hepatocytes (Liver Cells)
+Keratinocytes (Skin Cells)
+Melanocytes (Pigment Cells)
+Parietal Cells (Stomach)
+Chief Cells (Stomach)
+Goblet Cells (Mucus-producing Cells)
+Ciliated Cells (Respiratory Tract)
+Microglia (Central Nervous System)
+Kupffer Cells (Liver)
+Langerhans Cells (Skin)
+Merkel Cells (Skin)
+Dendritic Cells (Immune System)
+Tissue-specific Stem Cells
+Intestinal Stem Cells
+Hair Follicle Stem Cells
+Endothelial Progenitor Cells
+Hepatic Stem Cells
+Pulmonary Stem Cells
+HUVEC
+Induced pluripotent stem cells
+iPS cells
+OPF polymer
+collagen
+gelated 
+alginate
+gelatin methacryloyl
+GelMA
+collagen 
+poly(ethylene glycol) 
+PEG
+Pluronic 
+alginate and decellularized extracellular matrix 
+ECM
+Fibrinogen
+Dextran
+Xhantan gum
+κ-carrageenan
+Gelatin
+Polylactic Acid 
+PLA
+Poly-glycolic acid 
+PGA 
+Hyaluronic acid 
+HA
+gelatinmethacryloyl,

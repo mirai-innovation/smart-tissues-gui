@@ -1,0 +1,11 @@
+
+ sntsplit:
+Immediate Cell Viability after Bioprinting To investigate the immediate cell viability after bioprinting, MC3T3 pre-osteoblast cells  were bioprinted at a density of 1 × 106 cells/mL of bioink.
+ sntsplit:
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript2.6 Bone Cell Proliferation To investigate the long-term cell viability and proliferation in the bioprinted hydrogel,  MC3T3 pre-osteoblast cells were bioprinted at a density of 10 × 106 cells/mL of bioink.
+ sntsplit:
+After reaching 80% confluency, PC12 cells were trypsinized and centrifuged at 3000  rpm for 10 min and mixed into bioink at a density of 10 × 106 cells/mL using the same  procedure as described in the MC3T3 cell mixing section.
+ sntsplit:
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptcollected by centrifugation and mixed with OPF/Gelatin slurry (1 × 106 cells/mL) to make  bioinks, as presented in Fig.
+ sntsplit:
+b) Microscopic images of the same printed scaffolds at different positions of  the scaffolds and c) enlarged microscopic images of the scaffolds containing cells (1 ×  106 cells/mL of bioink).

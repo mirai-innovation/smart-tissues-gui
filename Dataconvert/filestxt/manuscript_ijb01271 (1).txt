@@ -1,0 +1,1201 @@
+458
+RESEARCH ARTICLE
+Volume 10 Issue 2 (2024)International  
+Journal of Bioprinting
+doi. 10.36922/ijb.2057
+*Corresponding author:  
+Julie A. Semon  
+(semonja@mst.edu)
+Citation: Kolan KCR, Saxena A, 
+Bromet BA, et al . Bioprinting with 
+adipose stem cells and hydrogel 
+modified with bioactive glass.  
+Int J Bioprint . 2024;10(2):2057.  
+doi: 10.36922/ijb.2057
+Received: October 18, 2023
+Accepted: January 31, 2024
+Published Online: March 1, 2024
+Copyright: © 2024 Author(s). 
+This is an Open Access article 
+distributed under the terms of the 
+Creative Commons Attribution 
+License , permitting distribution, 
+and reproduction in any medium, 
+provided the original work is 
+properly cited.
+Publisher’s Note: AccScience 
+Publishing remains neutral with 
+regard to jurisdictional claims in 
+published maps and institutional 
+affiliations.Bioprinting with adipose stem cells and hydrogel 
+modified with bioactive glass 
+Krishna C.R. Kolan1, Apurv Saxena2, Bradley A. Bromet3, Lesa B. Steen4,  
+August T. Bindbeutel1, Julie A. Semon3*, Delbert E. Day4, and Ming C. Leu1
+1Department of Mechanical and Aerospace Engineering, Missouri University of Science and 
+Technology, Rolla, Missouri, United States of America
+2Department of Chemistry, Missouri University of Science and Technology, Rolla, Missouri, United 
+States of America  
+3Department of Biological Sciences, Missouri University of Science and Technology, Rolla, 
+Missouri, United States of America 
+4Department of Material Science and Engineering, Missouri University of Science and Technology, 
+Rolla, Missouri, United States of America 
+Abstract
+Bioprinting research is focused on utilizing growth factors and multiple cell types 
+to create clinically relevant three-dimensional (3D) tissue models using hydrogels. 
+Rheological and biological challenges are two main factors that limit the creation 
+of extrudable bioactive hydrogels. In this study, we investigate incorporation of fast 
+dissolving and bioactive borate glass in different weight to volume percentages 
+(0.075 to 0.6%) to alginate-gelatin (1:1) hydrogel to improve rheological properties 
+and enable bioprinting with bioactive glass. The addition of glass improved the 
+stiffness of the hydrogel. Human adipose-derived mesenchymal stem cells (ASCs) 
+were uniformly mixed in this bioink at 1 × 106 cells/mL concentration, and spheroid 
+specimens were cultured in both static and dynamic culture conditions. Grid-
+shaped scaffolds measuring ~18 × 18 × 1 mm3 were fabricated with the viable glass 
+concentrations, and ASC viability was evaluated using Live/Dead assay. Despite 
+immediate toxicity, an increased  viability after 7 days with 0.15 w/v % or less borate 
+glass content demonstrated the potential in utilizing highly resorbable calcium-
+releasing biomaterials such as bioactive glasses to modify hydrogels suitable for 
+bioprinting cellularized 3D structures.
+Keywords:  Bioink; Bioactive glass; Ceramics; Adipose stem cells; Alginate; Gelatin
+1. Introduction
+Extrusion-based bioprinting is gaining in popularity because its versatility enables 
+the fabrication of materials over a wide range of viscosities.1 A majority of the current 
+generation commercial bioprinters are all based on extrusion three-dimensional (3D) 
+printing techniques.2 The success of extrusion-based bioprinting depends largely on 
+the proper selection of an extrudable hydrogel precursor and the proper selection of 
+cell type. Hydrogels such as alginate, chitosan, hyaluronic acid, gelatin, collagen, fibrin, 
+Matrigel, Pluronic® F127, and polyethylene glycol are commonly used to encapsulate Bioprinting with ASCs and bioactive glass459
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of Bioprintingcells for extrusion-based bioprinting techniques.3 No one 
+material offers both the required rheological and biological 
+properties, and therefore, it is a common practice to create a 
+composite hydrogel to suit specific bioprinting application.
+Alginate has been extensively used as synthetic 
+extracellular matrix (ECM) that mimics native human 
+tissues for more than three decades.4,5 Alginate is derived 
+from algae that crosslinks in the presence of divalent 
+cations such as Ca2+ and Mg2+ and is suitable for bioprinting 
+applications.6 As alginate exhibits poor cell adhesion and 
+proliferation due to the lack of arginine-glycine-aspartate 
+(RGD) tripeptide sequences, it is functionalized to include 
+RGD peptide sequence in its molecular structure.7,8 An 
+alternative approach is to add gelatin to alginate to prepare 
+a composite hydrogel to enhance the hydrogel’s ability 
+to support cell adhesion and rheological properties for 
+extrusion-based bioprinting techniques.9-14 Despite being 
+unstable at physiological temperatures, gelatin improves 
+the printability of the composite alginate+gelatin (AG) 
+hydrogel at room temperature due to the thermoreversible 
+gel–sol transition behavior of gelatin.9 AG hydrogels have 
+been evaluated by researchers in different weight ratios to 
+improve rheological properties at room temperature to 
+facilitate printability without affecting the cell viability.10,14 
+Researchers have also pursued media ionic strength 
+modification and deposition at ~10°C, instead of room 
+temperature, to improve printability.13 Despite good 
+viability (~90%) with epidermal stem cells, sheep stem 
+cells, and aortic smooth muscle cells in the above studies, 
+the main challenges that remain for AG hydrogel are to 
+achieve: (i) printability at room temperature, (ii) controlled 
+degradation of alginate, and (iii) slower dissolution of 
+gelatin for improved viability over time. 
+Until the late 2000s, a material was considered 
+bioactive upon formation of a hydroxyapatite-like layer 
+on its surface to bond with hard tissue (bone) upon 
+implantation.15,16 Recently, the definition of “bioactive” 
+has expanded, and the bioactive glass dissolution products 
+have been increasingly investigated for vascularization, 
+wound healing, cardiac, lung, and nerve tissue engineering 
+applications in addition to traditional bone repair and 
+teeth applications.17 The research on bioactive glasses has 
+evolved to produce glass compositions that are highly 
+resorbable based on borate (B2O3) network instead of 
+traditional silicate (SiO2) network.18-20 The dissolution of 
+bioactive glasses depends not only on the durability of the 
+main glass-forming network (e.g., SiO2 or B2O3) and the 
+overall glass composition, but it also depends on several 
+other factors such as residual stresses during heat treatment 
+and surface roughness.21 It is known that borate glass 
+dissolves at a faster rate compared to Bioglass®, and the 
+calcium (Ca2+) ions released during glass dissolution could initiate the crosslinking of alginate-based hydrogels.22 
+Recently, investigators added copper or niobium to 
+bioactive glass and then printed with hydrogel in order 
+to fabricate a fast-recovering and printable construct.23,24 
+Other researchers used borate-based bioactive glass to 
+improve the printability of AG hydrogels by increasing the 
+stiffness of the printed construct.25 
+Previously, we investigated cell viability in a 
+3D-bioprinted AG-glass composite hydrogel, using a 
+recently FDA-approved borate-based bioactive glass (13-
+93B3 glass, referred to as B3) and human adipose stem 
+cells (ASCs).26 The B3 glass is particularly attractive due 
+to its high dissolution rate and angiogenic ability.27-29 This 
+specific glass composition has demonstrated an ability to 
+heal difficult-to-treat diabetic wounds, a capability thought 
+to stem from their angiogenic properties. However, the 
+exact reasons for their effectiveness and the underlying 
+mechanisms involved are still not entirely clear. One recent 
+study showed that an increased collagen III/collagen I 
+ratio for ASCs with B3 glass exposure could establish one 
+possible mechanism for wound-healing behavior with B3 
+glass.30 
+ASCs are extracted from the stromal vascular fraction 
+of subcutaneous fat, which is more accessible and 
+involving a less invasive procedure than acquiring their 
+bone marrow counterpart, the more commonly studied 
+bone-derived mesenchymal stem cells.31-33 Additionally, 
+they yield a greater number of cells after isolation than 
+bone-derived mesenchymal stem cells and have a higher 
+proliferative capacity. For these reasons, in addition to 
+their differentiation, angiogenic, and therapeutic abilities, 
+they are increasingly used in tissue engineering strategies.   
+In this study, we: (i) examined how the rheological 
+characteristics of AG hydrogel are enhanced by adding B3 
+microparticles, (ii) identified the optimal range of B3 glass 
+in bioprinting AG hydrogels and ASC viability, and (iii) 
+evaluated the stability of AG hydrogel and the dissolution 
+of gelatin under these conditions. 
+2. Materials and methods
+2.1. Cell culture
+Frozen vials of human ASCs were thawed and plated in 
+complete cell culture media (CCM) and incubated at 37°C 
+with 5% humidified CO2. To ensure that the findings were 
+universal and not unique to a single donor, ASCs from 
+three different unrelated donors (LaCell, New Orleans, LA, 
+USA) were tested in all experiments. More details about 
+the ASC culture conditions and media requirements can 
+be found in our previous work.34,35 CCM was prepared 
+with alpha minimum essential media (α-MEM) by adding 
+10% fetal bovine serum, 1% 100× L-glutamine, and Bioprinting with ASCs and bioactive glass460
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of Bioprinting1% 100× antibiotic/antimycotic. On the second day of 
+culture, ASCs were washed with phosphate-buffered saline 
+(PBS), viable ASCs were harvested with 0.25% trypsin/1 
+mM ethylenediaminetetraacetic acid (EDTA), and re-
+plated at a concentration of no more than 15,000 ASCs 
+per dish. ASCs that reached ≤70% confluency were lifted 
+between the second and sixth passages for suspension in 
+AG hydrogels for all experiments. ASCs from subsequent 
+passages were not utilized for experiments as they could 
+affect pluripotent properties of ASCs. 
+2.2. Bioink preparation
+Gelatin (Type B, Sigma-Aldrich, St. Louis, MO, USA) 
+in 3 w/v % (0.3 g in 10 mL) was dissolved in Dulbecco’s 
+Modified Eagle Medium (DMEM; Gibco, Thermo Fisher 
+Scientific, MA, USA) in a glass beaker at ~40°C while being 
+magnetically stirred at 150 rpm. After gelatin dissolution, 
+sodium alginate (Sigma-Aldrich, St. Louis, MO, USA) in 3 
+w/v % (0.3 g in 10 mL) was added to the gelatin solution 
+and mixed overnight to obtain the AG hydrogel. B3 glass 
+powder particles (less than 20 µm with ~3 µm d50 particle 
+size; chemical composition in wt.%: 53% B2O3, 20% CaO, 
+12% K2O, 6% Na2O, 5% MgO, 4% P2O5) were added to the 
+solution in four different weight ratios (0.075, 0.15, 0.3, and 
+0.6 w/v %) after gelatin dissolution and allowed to dissolve 
+for ~10 min before the addition of alginate powder. For 
+example, 0.075 w/v % B3 glass corresponds to 1.25% 
+of total combined weight of alginate and gelatin in the 
+solution. Therefore, AG hydrogels made with 0.075, 0.15, 
+0.3, and 0.6 w/v % B3 glass are referred as 1.25G, 2.5G, 5G, 
+and 10G, respectively, in this paper. All powders including 
+gelatin, sodium alginate, and B3 glass powder particles were 
+ultraviolet-sterilized before being added to the DMEM 
+solution. ASCs pellet (4 × 106) was re-suspended in 0.2 
+mL CCM and pipetted into AG hydrogel and magnetically 
+stirred for no more than 3 min to obtain a uniform cell 
+distribution and a final ASC concentration of 1.0 × 106 cells 
+per 1 mL of bioink. The bioink was transferred to 3 mL 
+Loctite® Henkel syringe barrel, centrifuged to remove air 
+bubbles, and attached with 22G (410 µm) or 25G (250 µm) 
+tips (SmoothFlow Tapered, Nordson EFD, Westlake, OH, 
+USA) for 3D bioprinting.
+2.3. Rheological characterization
+For rheological characterization, hydrogels were prepared 
+in deionized (DI) water with gelatin (3 w/v %), alginate 
+(3 w/v %), and AG (6 w/v %), and with the addition of 
+B3 glass in different weight concentrations. AG hydrogels 
+with and without B3 glass were tested for viscosity using 
+a Kinexus rheometer (Malvern Panalytical, Westborough, 
+MA, USA) with a parallel plate set-up. A gap of 0.5 mm was 
+set between plates, and the measurements were conducted 
+at room temperature. A fresh scoop of gel was loaded each time to test viscosity, recovery, yield strength, etc. Three 
+different tests were conducted on the gels: (i) viscosity 
+vs. shear rate (to measure viscosity with increasing shear 
+rate from 0.1 to 100 s-1), (ii) oscillation amplitude sweep, 
+and (iii) recovery tests (changing shear rate from steady 
+state to a predetermined rate for a certain amount of 
+time). In oscillation amplitude sweeps, percentage strain 
+was considered input, and machine output data of loss vs. 
+storage modulus components were plotted. Data points 
+below 0.1 s-1 shear rate were not reported because of the 
+instability at low shear rates. Although one set of data was 
+reported for each gel type, measurements were repeated 
+to confirm the validity of the data. Statistical analysis of 
+the rheological data was not performed because of the 
+significant differences between the samples prepared with 
+several orders of magnitudes difference in results.
+2.4. Scaffold fabrication
+A custom-modified tabletop cartesian 3D printer to 
+include syringes connected through digital syringe 
+dispenser (Loctite®, Rocky Hill, CT, USA) was used to 
+fabricate scaffolds. The 3D printer and printing schema 
+are illustrated in Figure 1a  and b, and the 3D printer is 
+shown in Figure 1c . Scaffold dimensions were set to 15 
+mm length, 15 mm width, and ~ 1 mm thickness (6 layers) 
+and printed with 0–90° filament orientation in alternate 
+layers. A customized software was written for G-code 
+generation and syringe dispenser control. Sterile practices 
+were followed for scaffold fabrication with ASCs, bioink 
+syringes were maintained at room temperature, and the 
+scaffolds were bioprinted in less than an hour inside the 
+laminar flow hood.
+2.5. Physical assessment
+Test specimens with overall dimensions of 40 × 20 × 5 
+mm3 were fabricated to have a 20 mm gauge length and 
+10 mm section width for tensile tests. Dense specimens 
+without any designed pores were used for these tests, and 
+specimens were crosslinked with 0.1 M CaCl2 solution 
+for 10 min before tensile tests. Specimens were tested on 
+Instron machine (Instron 5969, Norwood, MA, USA) at a 
+crosshead speed of 5 mm/min. The swelling properties of 
+the hydrogel were assessed on scaffolds with dimensions 
+of 15 × 15 × 1 mm3. Swelling percentage (S) was calculated 
+using the formula, S = [(St – Sc)/S] × 100, where St is scaffold 
+weight after 24 h soak in DI water, and Sc is scaffold weight 
+immediately after crosslinking. 
+2.6. Scanning electron microscopy
+Hydrogel in bulk (~2–3 mL in a centrifuge tube) was freeze-
+dried to porous foam-like pellets. The pellets were coated 
+with Au-Pd for about ~60 s by mounting the samples on 
+a rotating platform using a Hummer Sputter Coater. The Bioprinting with ASCs and bioactive glass461
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of Bioprintingsamples were observed under a field emission scanning 
+electron microscope (FE-SEM, S-4700, Hitachi, Japan) to 
+analyze the microstructure by capturing the images at 5 kV 
+accelerating voltage at various magnifications. 
+2.7. X-ray diffraction analysis
+X-ray diffraction (XRD) analysis (Philips X-Pert, 
+Westborough, MA, USA) was performed on the 
+powdered freeze-dried sample to test for any crystalline 
+hydroxyapatite-like formations in the material. Scans were 
+run from 2θ values ranging from 10° to 80° using Cu Kα 
+radiation (λ = 0.154056 nm).
+2.8. 1H-NMR spectroscopy analysis
+In this work, gelatin was physically blended with alginate to 
+form a composite gel and not chemically crosslinked. It was 
+expected that with time as bioprinted scaffold is incubated 
+at 37°C, gelatin present in the scaffold could potentially be 
+separated and leached into the media. In order to study the release of gelatin from the AG hydrogel used in this study, 
+AG, 1.25G, and 2.5G scaffolds measuring 15 × 15 × 1 mm3 
+were fabricated without cells, crosslinked with 0.1 M CaCl2 
+solution for 10 min, and washed twice with DI water. The 
+samples were soaked in DI water in airtight containers 
+under standard culture conditions for up to 7 days. The 
+surrounding DI water collected after 1 day and 7 days 
+including the CaCl2 solution used for crosslinking were 
+all analyzed for presence of gelatin using proton nuclear 
+magnetic resonance (1H-NMR) spectroscopy (Bruker 400 
+MHz Avance™ III HD, Billerica, MA, USA). First, known 
+quantities of gelatin were dissolved in DI water, and 0.2 mL 
+of gelatin solution was mixed with 0.6 mL of deuterium 
+oxide (99.9 atom %, Sigma Aldrich, St. Louis, MO, USA), 
+and the solution was transferred to NMR tube (Colorspec®, 
+Sigma Aldrich, St. Louis, MO, USA) and analyzed for 10 
+min. The area under a unique characteristic gelatin peak at 
+~1.9 ppm ( Figure 2a ) on the horizontal axis was calculated 
+Figure 1 . Extrusion-based 3D printing. (a) Schematic of printer used in this study; (b) the printing process and scaffold dimensions; (c) bioprinter in the 
+laminar flow hood with a syringe dispenser.
+Figure 2 . (a) NMR spectra of gelatin with characteristic peak at ~1.9 ppm (indicated by *) that was considered for area; (b) gelatin standard curve plotted 
+based on the area corresponding to the gelatin concentration.Bioprinting with ASCs and bioactive glass462
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of Bioprintingand averaged for known quantity of gelatin concentration 
+to obtain a gelatin standard curve as shown in Figure 2b . 
+2.9. Cell viability
+The ASC viability was evaluated using a Live/Dead 
+viability kit (ref. L3224, Carlsbad, CA, USA). Briefly, 20 
+µL of ethidium homodimer-1 and 5 µL of calcein were 
+pipetted into 10 mL of PBS to create the Live/Dead 
+reagent. At specific time points, scaffolds were washed 
+twice with PBS and soaked in 1 mL of reagent solution for 
+at least 30 min under dark conditions at room temperature 
+before imaging under a confocal microscope (Nikon 
+A1R-HD Eclipse Ti2, Melville, NY , USA). A random 5 × 
+5 mm2 area was imaged with a 40 µm step for each of the 
+three scaffolds at different time points. To quantify the 
+viability results, a maximum intensity projection image 
+was created with red, green, and blue channels using 
+ImageJ software. The red and green channels of the image 
+provided the dead cell and live cell counts. ASC viability 
+in percentage was calculated using this formula: [live 
+cells/(live cells + dead cells)] × 100%.
+2.10. Statistical analysis
+Six samples in each set were used for tensile tests, and 
+three samples in each set were used for cell viability 
+quantification. The results were reported as average ± 
+standard deviation. Minitab® software was used to analyze 
+the difference in means of different groups using one-way 
+analysis of variance (ANOV A). The means were considered 
+significantly different if the P-value is less than 0.05.3. Results and discussion
+3.1. Rheological assessment of hydrogels
+One of the objectives of the study was to evaluate the 
+extent of rheological modification of the AG hydrogel 
+with the addition of B3 glass. Hydrogel viscosity and its 
+shear-thinning behavior are crucial in extrusion-based 3D 
+printing processes as such behavior allows the material to 
+flow through the nozzle at low air pressure without causing 
+severe damage to cells. DI water was used to investigate 
+the rheological behavior of B3 glass-mixed gels instead of 
+complete culture media. The reason for this choice is to 
+analyze the true nature of the effect of the dissolved glass 
+and released ions (Ca2+, Mg2+, and others from the glass) 
+without having any interactions with other salts present 
+in the culture media. It was hypothesized that the effect 
+of B3 glass amount on rheological behavior would serve 
+as a realistic indicator while using gels made with culture 
+media. Despite the evidence in literature demonstrating a 
+significant difference in the swelling of gels made with DI 
+water compared to that of gels made with culture media, 
+the difference is insignificant for viscosity of gels made 
+with DI water or culture media with highly resorbable 
+B3 glass.36 It was noticed in our experiments that B3 glass 
+dissolves in a few minutes during the gel mixing process to 
+significantly affect gel viscosity irrespective of the media 
+(DI water or culture media). Figure 3  shows the change 
+in viscosity of all hydrogels considered in this study with 
+increasing shear rate. The viscosity of alginate (Alg), 
+Figure 3 . Hydrogel viscosity as a function of shear rate at room temperature before crosslinking with CaCl2. (a) Alginate, gelatin, and alginate+gelatin (AG) 
+without glass; (b) effect of B3 glass addition on AG hydrogels in different weight concentrations.Bioprinting with ASCs and bioactive glass463
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of Bioprintinggelatin (Gel), and alginate+gelatin (Alg+Gel or AG) is 
+shown in Figure 3a , and the viscosity of B3 glass-modified 
+AG hydrogels with 1.25 wt.% (1.25G), 2.5 wt.% (2.5G), 5 
+wt.% (5G), and 10 wt.% (10G) glass content is shown in 
+Figure 3b . The viscosity for all hydrogels was measured 
+at room temperature and before crosslinking with 0.1 M 
+CaCl2 solution. At higher shear rates, modified hydrogels 
+with B3 glass slipped out of the plates (especially, 5G and 
+10G) of the rheometer, and the test was stopped before the 
+programmed shear rate of 100 s-1. Overall, all AG hydrogels 
+irrespective of B3 glass addition showed a shear-thinning 
+behavior with decreased viscosity at increasing shear rates. 
+As B3 glass is a fast-dissolving bioactive glass, it quickly 
+starts to release Ca2+ and Mg2+ ions, which are divalent, 
+and other ions including K+, PO43-, Na+, and B3+ to the 
+surrounding aqueous media. As the divalent ions initiate 
+the crosslinking with alginate in the hydrogel, the viscosity 
+of hydrogels with B3 glass was significantly increased by 
+several orders of magnitude ( Figure 3b ). The addition of 2.5 
+wt.% B3 glass resulted in a significant and sharp increase 
+in hydrogel viscosity from 1.25 wt.% B3 glass addition 
+(from ~350 Pa·s to ~7000 Pa·s at 100 s-1). The differences in 
+viscosity at t = 0 s observed for 2.5G, 5G, and 10G hydrogels 
+(~7000 Pa·s, ~10,000 Pa·s, and ~11,000 Pa·s at 100 s-1, 
+respectively) were not as significant as viscosity differences 
+between 1.25G and 2.5G hydrogels. These findings suggest 
+the likelihood of an optimal B3 glass concentration, ranging 
+between 1.25 and 2.5 wt.%, for AG hydrogels composed of 3 
+w/v % alginate and 3 w/v % gelatin. 
+Amplitude sweep oscillatory tests were conducted 
+on all samples to determine the viscoelastic behavior 
+of AG hydrogels modified with B3 glass. Figure 4  shows 
+the variation of G’ and G’’ with strain percentage and 
+the linear viscoelastic region for each hydrogel. At low 
+concentrations of glass (1.25%), there is no significant 
+difference in the storage modulus (G’) in comparison to 
+AG hydrogel ( Figure 4b ), whereas with the increase in 
+glass concentration to 2.5% made a significant difference. 
+Figure 4c  shows the variation in loss modulus (G’’) for all 
+gels investigated in this study. The transition from G’’>G’ 
+to G’>G’’ was more prominent in 2.5G, 5G (shown in 
+Figure 4d  and e), and 10G hydrogels clearly showing a 
+viscoelastic solid-like behavior with a consistent behavior 
+of G’>G’’ , indicating the increased stiffness of the modified 
+AG hydrogels with B3 glass. This is observed with a clearly 
+defined yield point (cross-over point of G’ and G’’). The 
+shear stress values around the yield point for gels were 
+recorded as ~3400 Pa for 2.5G, ~3000 Pa for 5G, and ~1300 
+Pa for 10G. It is also observed that the yield point occurs 
+at lower strain for gels made with higher glass percentage. 
+This seems to be consistent with the lower shear stress 
+values. This could be because of the non-uniformity of the composite AG gels made with higher glass percentages. 
+Figure 4a  shows the physical behavior of gels prepared 
+with increasing glass content. It can be clearly seen that 
+gel made with the most glass content behaves like a large 
+piece of crosslinked gel. For example, extruding or manual 
+separation of 10G gel resulted in pockets of crosslinked 
+gel (pockets of gel chunks) being extruded or separated 
+from the hydrogel rather than a single continuous filament 
+extrusion. This non-uniformity is believed to arise during 
+the gel preparation process as pockets of alginate could 
+be crosslinked in a localized manner even before the 
+complete uniform mixing of hydrogel. As a result, during 
+the oscillatory sweep tests, chunks of gels were noticed to 
+break apart and come out of the plates at higher strain. 
+In addition to shear-thinning and solid-like behavior 
+of hydrogels, the viscosity recovery of the hydrogel after 
+removal of shear force is crucial in extrusion-based 3D 
+bioprinting applications. As hydrogel is extruded through 
+the nozzle, it suffers from higher shear stress and flows 
+through the tip because of a shear-thinning behavior. After 
+deposition of a filament, the hydrogel should recover its 
+molecular structure and viscosity to avoid spreading on the 
+substrate and withstand the weight of successive filaments 
+that would be deposited on top of the current filament. 
+To determine the recovery behavior of B3 glass-modified 
+AG hydrogels in a rheometer, hydrogels were initially 
+maintained under a steady-state shear rate of 0.1 s-1 to 
+obtain a stabilized viscosity value. After reaching a steady-
+state viscosity, the shear rate was increased to higher shear 
+rates (10 s-1 and 100 s-1) in two separate tests for a specific 
+amount of time (30 s and 10 s, respectively), immediately 
+followed by a cooling period of 0.1 s-1 shear rate. Viscosity 
+of hydrogels recorded at different shear rates with time is 
+shown in Figure 5 . The recovery data of two tests (at 10 s-1 
+and at 100 s-1 shear rates) were combined, and the time scale 
+was adjusted for a simplified representation. A significant 
+drop in viscosity for all hydrogels at increased shear rates 
+can be clearly observed in Figure 5 . Recovery time is defined 
+as the time taken for a hydrogel to attain its original steady-
+state viscosity value from the reduced values at higher 
+shear rates. The shear rate of 100 s-1 was used to mimic 
+the behavior of the hydrogel passing through the nozzle 
+tip during extrusion. The results indicated a “near-zero” 
+recovery time for 2.5G and 5G hydrogels after application 
+of 100 s-1 shear rate, which was evident from their step-
+function-like recovery to attain a constant viscosity at 
+160 s, as shown in Figure 5 . 1.25G and AG hydrogels 
+required 60 s and 90 s, respectively, to recover and attain a 
+constant viscosity, as can be observed from the curvature 
+indicated by arrows in Figure 5 . It was also observed that 
+hydrogels never truly recovered to 100% of their original 
+steady-state viscosity values (at t = 0 s) after the removal Bioprinting with ASCs and bioactive glass464
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of Bioprintingof 100 s-1 shear rate. For example, steady-state viscosity of 
+2.5G hydrogel at t = 0 s was ~7000 Pa·s, and its recovered 
+viscosity value between 160 and 220 s was at ~2000 Pa·s. 
+This behavior was noticed in hydrogels with high B3 glass 
+content (>2.5 wt.%) and believed to have occurred due to 
+the loss of material between plates during tests at shear rate 
+of 100 s-1. The recovery time results provided a satisfactory 
+representation of the recovery behavior as they confirmed 
+the printability of all hydrogels with and without B3 glass 
+addition. The recovery behavior of 10G hydrogel is not 
+shown in Figure 5  because of its inhomogeneity and high 
+material loss during recovery tests even at low shear rates.
+3.2. Fabrication, swelling, and mechanical 
+property assessment
+The determination of viscosity and material recovery 
+times enabled scaffold fabrication with AG, 1.25G, and 2.5G hydrogels. Six-layered scaffolds measuring 15 × 15 × 
+1 mm3 were fabricated. The printing parameters used to 
+fabricate scaffolds along with the printability matrix for 
+different hydrogels are shown in Table 1 . Hydrogels were 
+first tested for their extrudability through a syringe at 
+different air pressures with different nozzle tips. Although 
+all hydrogel types were extrudable using different tip sizes 
+ranging from internal diameter of 250 µm to 580 µm, 
+the extrusion of highly viscous 5G and 10G hydrogels 
+required high air pressures, extrudate was uneven, and 
+consistent filament formation was not feasible. In part, this 
+could be due to inhomogeneous mixture of alginate and 
+gelatin components in 5G and 10G hydrogels. Addition of 
+more glass meant availability of more Ca2+ ions to initiate 
+alginate crosslinking before achieving a homogeneous 
+composite hydrogel. Moreover, utilizing higher air 
+pressures would damage the cells in the hydrogel, and large 
+Figure 4 . Viscoelastic behavior of AG hydrogels. (a) The physical behavior of hydrogels immediately after overnight stirring in a beaker kept on a 40°C 
+hot plate. Flowability of hydrogels stopped with increased B3 glass content (at 2.5G). 2.5G, 5G, and 10G hydrogels exhibit a solid-like behavior. (b) Storage 
+modulus (G’) and (c) loss modulus (G’’) as a function of Strain percentage at room temperature before crosslinking with CaCl2 for alginate-gelatin gels 
+without glass and with different B3 glass weight percentages. (d) G’ and G’’ for 2.5G, and (e) G’ and G’’ for 5G.Bioprinting with ASCs and bioactive glass465
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of Bioprintingtip sizes would compromise the resolution of the fabricated 
+parts. Therefore, by considering the above, scaffolds were 
+fabricated only with AG, 1.25G, and 2.5G hydrogels. Both 
+22G (410 µm inner diameter) and 25G (250 µm inner 
+diameter) conical-shaped nozzle tips were considered for 
+printing the AG, 1.25G, and 2.5G hydrogels. Specifically, 
+25G tips were used for AG and 1.25G gels, whereas 22G tip 
+was used for 2.5G gels due to viscosity differences (orders 
+of magnitude different). Despite using a larger tip, the 
+air pressure required to extrude 2.5G gel was four times 
+that of 1.25G, and the extrudate was thinner than that of 
+1.25G gel. Therefore, the layer height had to be reduced 
+to 0.12 mm from 0.14 mm for AG and 1.25G gels. For AG 
+and 1.25 gels, the extrudate requires time to recover, and 
+therefore despite using a smaller nozzle tip (25G–250 µm), 
+the extrudate spreads immediately after printing and a ~1 mm extrudate was obtained. This spreading behavior is 
+expected based on the viscosity and poor recovery of the 
+AG and 1.25 gels as discussed in our rheological study. A 
+similar sized extrudate (~1 mm) width was obtained for 
+2.5G gel printed with a larger tip (22G–410 µm) and a 
+much higher air pressure. The recovery time determined 
+by recovery tests was implemented as dwell (wait) time 
+between successive layers during scaffold fabrication. 
+Figure 6  shows scaffolds fabricated before and after dwell 
+time implementation. Before dwell time implementation, 
+fabrication of a designed porous scaffold resulted in solid 
+part formation after six layers of deposition as shown in 
+Figure 6 . This happened as the initially deposited layers 
+merged on the substrate unable to recover and carry the 
+weight of successive layers that were deposited during part 
+fabrication. However, dwell time implementation allowed 
+Figure 5 . Effect of B3 glass addition on the recovery behavior of hydrogels. AG hydrogel and 1.25G required 90 s and 60 s, respectively, to recover to their 
+original viscosity values, whereas 2.5G and 5G show immediate recovery.
+Table 1. Scaffold fabrication parameters and printability matrix
+Fabrication parameters Printability matrix
+Hydrogel AG 1.25G 2.5G Hydrogel 3D part printability Filament formation
+P (psi) 4 5 20 AG  
+S (mm/s) 15 15 15 1.25G  
+h (mm) 0.14 0.14 0.12 2.5G  
+t (s) 90 60 0 5G  ~
+φ (µm) 250 250 410 10G  ~
+Abbreviations: P—air pressure; S—table speed; h—layer height; t—wait time between layers; φ—nozzle tip internal diameter; —feasible; —not 
+feasible; ~—irregular and inconsistent filament formation.Bioprinting with ASCs and bioactive glass466
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of Bioprintingthe filament recovery and thus enabled the designed 
+scaffold fabrication. This was further tested in a complex 
+3D structure with internal channels mimicking a vascular 
+network ( Figure 7 ).   
+Scaffolds were crosslinked with 0.1 M CaCl2 solution 
+for 10 min immediately after fabrication, washed, and soaked in DI water for 24 h to measure the swelling 
+percentage. Swelling of hydrogels indirectly represents 
+the capacity of the material to absorb media and allow 
+cell growth and proliferation. Swelling of AG hydrogel 
+was increased after 24 h with the addition of B3 glass. The 
+swelling of AG scaffolds was ~36%, whereas it increased 
+to ~44% for 1.25G scaffolds and further to ~51% for 2.5G 
+scaffolds. The release of Ca2+ and Mg2+ ions with B3 glass 
+dissolution initiates alginate crosslinking during hydrogel 
+preparation (overnight stirring), and the molecular 
+structure was further condensed after crosslinking with 
+CaCl2 solution. Therefore, 2.5G scaffolds have a highly 
+defined and consolidated molecular structure among the 
+three scaffolds, and this was evident from the shrinkage 
+of 2.5G scaffolds (~18%) after crosslinking. After scaffolds 
+were soaked in DI water, they relaxed and absorbed DI 
+water driven by the ionic concentration gradient with 
+high number of ions present inside the scaffold structure 
+(because of glass dissolution), and no ions present in the 
+soaked media (DI water). Hydrogel swelling depends on 
+the ionic concentration of the soaking solution and the 
+number of ionic groups present in the hydrogel. It was 
+reported that increased ionic groups in hydrogel increased 
+its swelling ratio because of the osmotic pressure created 
+by the increased counterions in the hydrogel.37 This could 
+be the reason for the high swelling percentage observed 
+for 2.5G scaffolds. Higher swelling ratio for AG hydrogels 
+prepared with high ionic strength PBS was also reported in 
+a recent work and was consistent with our results.13 
+In this study, small amounts of B3 glass (7.5 mg/10 
+mL of DI water for 1.25G and 15 mg/10 mL of DI water 
+Figure 6 . Scaffold fabrication with (a) AG, (b) 1.25G, (c) 2.5G, and (d) 5G hydrogels. Implementation of dwell time (t) between successive layer depositions 
+aided in hydrogel recovery and made it feasible to fabricate AG and 1.25G scaffolds. Increasing the B3 glass content reduced the dwell time from 90 s to 
+0 s as 2.5G hydrogel scaffold could be fabricated with no dwell time. Failure to fabricate parts (dog-bone like specimen) with 5G hydrogel is also shown.
+Figure 7 . A superior (top picture) and anterior (bottom picture) view of a 
+complex structure fabricated by 3D extrusion printing of AG hydrogel-B3 
+glass composite. A second nozzle was used to extrude red dye to view 
+the internal channel. This construct demonstrates our technique of 3D 
+printing with two different inks. Bioprinting with ASCs and bioactive glass467
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of Bioprintingfor 2.5G) were added to modify the AG hydrogel. The 
+dissolution rate of borate-based glasses including B3 
+glass in different forms such as glass microspheres, large 
+particles (>200 µm), and scaffolds in DI water, PBS, and 
+simulated body fluid (SBF) have been investigated in the 
+past.38-41 These studies reported that the majority of B3 
+glass dissolution occurred during the first 24-h soak period 
+after which the dissolution rate slowed due to the ionic 
+concentration gradient and other factors. In comparison, 
+the glass particles used in the current study are significantly 
+smaller with an average particle size of 3 µm (20 µm mesh 
+sieved) that could have dissolved within 24 h. Therefore, 
+it could be safely assumed that the rheological, swelling, 
+and mechanical properties of the modified AG hydrogels 
+are mostly dependent on the ionic dissolution products of 
+B3 glass and not the physical presence of glass particulates. 
+Figure 8a  shows the microstructure of the 2.5G hydrogel, 
+indicating a highly porous and honeycomb-like structure 
+with interconnected porosity. B3 glass particles were not 
+detected in the microstructure, and the characteristic 
+amorphous peaks of the glasses were also absent in the 
+XRD analysis of the 2.5G hydrogel.
+Figure 8b  shows the dog-bone-shaped specimens 
+utilized for evaluating the tensile strength of hydrogels 
+immediately after crosslinking. A typical load vs. deflection 
+curve for all three specimens is shown in Figure 8c , which 
+indicates the increase in scaffold stiffness with the addition 
+of B3 glass. The elastic modulus of AG, 1.25G, and 2.5G 
+specimens was 33 ± 17 kPa, 62 ± 7 kPa, and 73 ± 13 kPa, 
+respectively, and the ultimate tensile strength of specimens 
+was 26 ± 5 kPa, 21 ± 4 kPa, and 34 ± 9 kPa. 2.5G specimens 
+had highest ultimate tensile strength and were significantly 
+stiffer ( p < 0.05) in comparison to AG specimens. The 
+increased stiffness was in agreement with the rheological 
+data that showed increased viscosity, decreased recovery 
+time, and a viscoelastic solid-like behavior for 2.5G 
+hydrogels. As the added B3 glass dissolves, the dissolution ions crosslink more alginate polymer chains in the AG 
+hydrogel that causes increased stiffness. Researchers have 
+previously reported that human mesenchymal stem cells 
+(MSCs) encapsulated in ionically crosslinked alginate 
+hydrogels show adipogenic differentiation at moduli of 
+<10 kPa and show osteogenic differentiation at moduli 
+of 11–30 kPa.42,43 The authors also suggest that osteogenic 
+differentiation of MSCs could be enhanced in hydrogels 
+with faster stress relaxation. AG hydrogels modified with 
+B3 glass (2.5G and 1.25G) have elastic moduli in similar 
+range, and the stress relaxation occurs through breakage 
+and subsequent forming of ionic crosslinks. In addition, 
+stress relaxation could also occur because of the fast 
+swelling of B3 glass modified AG hydrogels (especially, 
+2.5G). Therefore, the addition of B3 glass to modify AG 
+hydrogels could be useful to tune the human stem cells 
+activity. 
+An important factor to consider is the retention of 
+scaffold mechanical properties (or scaffold integrity and 
+structure) in culture conditions with time. AG hydrogel 
+strength greatly depends on the w/v % of the alginate and 
+gelatin used in the preparation and the ionic strength of 
+the crosslinking solution. For example, Duan et al. used 6 
+w/v % of alginate and gelatin (compared to 3 w/v % used 
+in our study), and the crosslinked samples with 0.3 M 
+CaCl2 (compared to 0.1 M CaCl2 in our study) reported 
+improved mechanical properties that were able to sustain 
+for up to 7 days in culture conditions.14 Our attempts to 
+test specimens after soaking them in DMEM for 7 days 
+at culture conditions were not successful as specimens 
+were broken in the grips of the Instron machine, and 
+insignificant elastic modulus and strength values were 
+recorded. Our results indicated a rapid loss of modulus 
+and strength to a point where they were not suitable for 
+any load-bearing applications, which is in agreement with 
+results reported by Giuseppe et al.10 However, it must be 
+noted that 1.25G and 2.5G scaffolds had sufficient integrity 
+Figure 8 . (a) SEM image of 2.5G hydrogel with ~100 µm interconnected pores shown in the magnified inlet picture; b) dog-bone specimens used for tensile 
+tests; (c) typical load vs. extension graphs of AG, 1.25G, and 2.5G specimens.Bioprinting with ASCs and bioactive glass468
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of Bioprintingafter 14 days in culture to handle and perform biological 
+assays. In general, hydrogel degradation depends on the 
+soaking media composition and enzymes present in it. In 
+our study, DI water was utilized to prepare all hydrogels and 
+to investigate the scaffold swelling characteristics, which 
+are different from other studies where PBS or DMEM was 
+utilized. Nevertheless, samples used for mechanical tests 
+were stored in DMEM to mimic the in vitro  environment. 
+In addition, we also investigated the structural integrity of 
+2.5G scaffolds in the CCM at culture conditions without 
+crosslinking with CaCl2 solution. This test was performed 
+to examine if the divalent cations (Ca2+ and Mg2+) that are 
+released from B3 glass into the hydrogel, which helps initiate 
+the hydrogel crosslinking, would be sufficient to sustain the 
+scaffold structural integrity in culture conditions. Figure 9  
+shows a collapsed 2.5G scaffold that was not crosslinked 
+after a 2-h incubation in CCM at 37°C, whereas a scaffold 
+crosslinked with 0.1 M CaCl2 retained its structural fidelity 
+after 7 days in culture. This result demonstrates that despite 
+the improvement achieved with B3 glass addition in terms 
+of printability of AG hydrogel, rheological characteristics, 
+and initial mechanical properties, addition of glass alone 
+would not be sufficient to fabricate a 3D scaffold without 
+the chemical crosslinking using CaCl2 solution.
+3.3. Effect of B3 glass on ASCs viability
+One important objective of this study was to evaluate the 
+amount of B3 glass that is acceptable to add to the AG 
+hydrogel to provide viable human ASCs. As B3 glass dissolves 
+much faster than traditional silicate-based bioactive glasses 
+and faster than 45S5 glass, it was important to establish that 
+the resultant concentration of ionic dissolution products 
+has no toxic effects on ASCs in vitro . The toxicity could 
+be resulted due to pH increase as alkali ions are released 
+to CCM with B3 glass dissolution. Recently, B3 glass was 
+added to ASCs in two different approaches: directly being 
+added as particles during cell culture, and indirectly (glass 
+dissolution products) exposing cells to two-dimensional 
+(2D) cell culture environment at a B3 glass concentrations 
+that are less than 10 mg/mL.30,35 These studies reported 
+that a high concentration of B3 glass exposure (>10 mg/mL) could be toxic to ASCs, whereas low concentrations 
+alter ASC protein secretions that may regulate wound 
+healing. Several studies have investigated the toxicity of 
+silicate-based bioactive glasses toward stem cells in a 2D 
+environment, reporting that an optimum concentration 
+of ionic dissolution products could exist upon which the 
+treatment that could be toxic to cells was administered.44-46 
+To establish a baseline, we first investigated the B3 glass 
+toxicity to ASCs in 3D environment by adding glass in 
+different weight percentages to AG hydrogel. First, ASCs 
+were encapsulated in AG, 1.25G, 2.5G, 5G, and 10G 
+hydrogels, and 3D-bioprinted as spheroids. To investigate 
+the cell viability, spheroids were cultured in both static 
+(6-well plates under standard culture conditions) and 
+dynamic (6-well plates kept on a rocker) conditions. Figure 
+10 shows the live/dead assay images of the spheroids on 
+day 0 (2 to 4 h after extrusion and crosslinking), day 1, 
+and day 4 after culture. Spheroids made with 5G and 10G 
+spheroids were irregular in shape because of the high 
+viscosity, and difficulties were encountered to uniformly 
+mix ASCs in these hydrogels. Patches of the hydrogel with 
+empty pockets (without cells) and irregular shapes could be 
+observed in the live/dead images of 5G and 10G hydrogels 
+(Figure 10d , e, i, and n). Also, significant number of dead 
+cells (red spots) can be observed in the live/dead images of 
+5G and 10G spheroids at all time points which was not the 
+case with other spheroids, whereas more viable ASCs than 
+dead cells were noticed in AG, 1.25G, and 2.5G spheroids.
+Figure 11  shows the quantification of the live/dead 
+assay results. The results clearly indicate that increasing 
+the percentage of B3 glass could be toxic to ASCs in the 
+hydrogel. The viability of ASCs in AG spheroids without 
+B3 glass was significantly higher than ASC viability in 
+10G, 5G, and 2.5G spheroids immediately after extrusion 
+and crosslinking with CaCl2. ASC viability in spheroids 
+cultured under dynamic conditions was also higher in 
+comparison to viability in spheroids cultured under static 
+conditions after 24 h. This could be due to efficient nutrient 
+transfer to ASCs under dynamic conditions than static 
+conditions. In addition, for spheroids containing B3 glass, 
+Ca2+, B3+, and other ions released after glass dissolution in 
+the spheroid could diffuse more freely to the media under 
+dynamic conditions than static culture conditions. This 
+could cause the pH of the spheroid to go basic in static 
+conditions and negatively affect ASCs. Addition of B3 
+glass increased the pH of hydrogels from neutral for AG to 
+pH 8 for 1.25G, pH 8.5 for 2.5G, and up to pH 9 for 10G 
+hydrogel. This could be the reason for high toxicity of B3 
+glass to ASCs, especially in 2.5G, 5G, and 10G spheroids 
+on day 0, i.e., immediately after mixing ASCs. Though the 
+inside of spheroid maintained relatively high pH, the pH 
+of the surrounding CCM remained neutral during culture 
+Figure 9 . 2.5G scaffold in CCM at 37°C after 2 h (left) and after 7 days 
+(right). Bioprinting with ASCs and bioactive glass469
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of Bioprinting
+Figure 10 . Live/Dead assay images of AG, 1.25G, 2.5G, 5G, and 10G spheroids cultured in dynamic conditions for up to 7 days. (a–e) Viability on day 0 
+(within 2 to 4 h after extrusion), (f–j) viability after 24 h, (k–o) viability after 7 days. Scale bars: 1 mm. Green dots in images represent live cells, and red dots 
+represent dead cells. Undissolved borate glass particles could react with assay reagents and potentially cause green background fluorescence for samples 
+with higher percentage glass (5G and 10G).26 The background was ignored during cell quantification with ImageJ software.
+Figure 11 . ASCs viability in AG, 1.25G, 2.5G, 5G, and 10G spheroids cultured in both static (S; solid columns) and dynamic conditions (D; checkered 
+pattern columns). ASCs viability significantly decreased (p < 0.05) with increase in borate glass content (increasing dark shade represents increasing glass 
+content) in less than 4 h after glass addition. ASCs in borate glass-modified hydrogel, which were recovered with time, showed significantly higher viability 
+in hydrogel modified with lower glass percentages (p < 0.05).
+Bioprinting with ASCs and bioactive glass470
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of Bioprintingconditions. This could be attributed to two reasons: (i) the 
+increase in pH due to release of ions from B3 glass to a 
+larger extent could be limited to inside of the hydrogel 
+matrix, and (ii) the release of gelatin from hydrogel matrix 
+to surrounding media could neutralize the increase in pH 
+because of any ions released from B3 glass, thereby causing 
+the pH of the media to remain in the neutral range (7–
+7.6) for all gel types (1.25G to 10G). In any case, with the 
+regular change in media and presence of dynamic culture 
+conditions, pH of the spheroids and neutralized media 
+as well as ASC viability eventually improved after 7 days 
+in culture, and 2.5G spheroids had significantly higher 
+viability than AG spheroids.
+The ASC viability in spheroidal culture helped 
+determine the range of viable B3 glass percentages that 
+could be added to AG hydrogel (0.075 and 0.15 w/v % or 
+1.25G and 2.5G gels) and the suitable culture conditions 
+(dynamic better than static). Nonetheless, it is important to 
+validate the established B3 glass concentrations and culture 
+conditions with the 3D-printed constructs. Therefore, AG, 
+1.25G and 2.5G lattice structures containing ASCs and 
+measuring 15 × 15 × 1 mm3 were bioprinted and cultured for up to 7 days under dynamic conditions. Figure 12  
+shows the live/dead assay images of the scaffolds. A higher 
+percentage of viable ASCs (green spots) than dead cells 
+can be clearly seen in all images. A higher percentage of 
+dead cells in the edges of the pores, possibly caused by the 
+crosslinking with CaCl2 solution, is a notable observation. 
+Figure 13  shows the results of quantified live/dead assay 
+images of bioprinted scaffolds. The ASC viability in 
+scaffolds was similar to the viability of AG, 1.25G, and 
+2.5G spheroids, with ASC viability in AG scaffold being 
+significantly higher than 2.5G scaffold. However, after 7 
+days in culture, despite possessing a higher percentage of 
+viable ASC populations, both 1.25G and 2.5G scaffolds 
+were not significantly different than AG scaffolds in terms 
+of cell viability. In addition, a significant decline in ASC 
+viability in AG hydrogel was observed in both bioprinted 
+scaffolds and spheroids from day 1 to day 7 under culture 
+conditions. The decline in ASC viability could be attributed 
+to the release of gelatin from AG hydrogel scaffold. In 
+this study, gelatin was mainly added for cell adhesion 
+and proliferation as alginate alone does not contain the 
+necessary RGD tripeptide to support cell adhesion. In AG 
+Figure 12 . Live/Dead assay images of bioprinted AG, 1.25G, and 2.5G scaffolds cultured in dynamic conditions for up to 7 days. (a–c) viability on day 0 
+(within 2 to 4 h after bioprinting and crosslinking), (d–f) viability after 24 h, and (g–i) viability after 7 days. Scale bars: 1 mm. A higher percentage of dead 
+cells (red spots) were observed near pore edges in comparison with the scaffold interior, indicating cell death due to exposure to CaCl2 solution during 
+crosslinking and the overall presence of low cell numbers at edges.Bioprinting with ASCs and bioactive glass471
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of Bioprintinghydrogel preparation, gelatin and alginate hydrogels were 
+physically blended together to form a composite hydrogel. 
+In order to study the release of gelatin from the AG hydrogel 
+used in this study, AG, 1.25G and 2.5G scaffolds measuring 
+15 × 15 × 1 mm3 were fabricated without cells, crosslinked 
+with CaCl2 solution, and soaked in DI water under standard 
+culture conditions for up to 7 days. The surrounding DI 
+water was collected after 24 h and on day 7 and checked for 
+gelatin presence using proton nuclear magnetic resonance 
+(1H-NMR) spectroscopy ( Figure 2 ). The results indicated 
+that gelatin release started immediately after crosslinking 
+and continued as scaffolds incubated in DI water ( Figure 
+14). This loss of ~70% of gelatin from the scaffold could 
+possibly explain the decline in ASC viability after 7 days in 
+culture in AG scaffolds. The release of gelatin from 1.25G 
+and 2.5G scaffolds was ~40% and ~50%, respectively, which 
+could explain the modest improvement in cell viability 
+in these scaffolds in comparison to AG scaffolds after 7 
+days. A more appropriate possibility in future could be 
+to covalently crosslink the gelatin and alginate molecular 
+chains for prolonged culture conditions and slow down the 
+release of gelatin from the structure (limited to no more 
+than ~25% after 7 days) as proposed in one study.47
+Studies that have previously investigated the 
+hydrogel+bioactive glass composite focused on creating 
+a 3D porous matrix or scaffolds for cell seeding and 
+injectable matrix for bone repair, as well as applications mostly limited to bone tissue engineering.48-54 To date, very 
+few studies have investigated the addition of bioactive glass 
+to hydrogel to regulate hydrogel viscosity and incorporate 
+cells in the hydrogel+bioactive glass matrix for bioprinting 
+tissue models or 3D cell culture applications.55-58 Addition 
+of silicate-based bioactive glass nanoparticles to alginate 
+dialdehyde-gelatin promoted bone-like apatite layer 
+formation and showed no toxicity to the bioprinted human 
+osteosarcoma cells (MG-63).55 Results from experimenting 
+with human dental pulp stem cells (DPSCs) encapsulated 
+in a bioactive glass containing alginate/Matrigel composite 
+hydrogel indicated higher levels of osteogenic expression 
+by DPSCs in the presence of both Matrigel and bioactive 
+glass.57 Although bioactive glass composition was not 
+reported in the aforementioned study, the minimal effects 
+on mechanical properties of composite hydrogels could 
+perhaps indicate a slow dissolving silicate-based bioactive 
+glass. In another study, ionic dissolution products of a 
+silicate-based bioactive glass were used to prepare an 
+osteogenic media to culture and crosslink gellan gum or 
+collagen type I hydrogels containing ASCs. Another study 
+reported osteogenesis of ASCs in hydrogels modified 
+with bioactive glass.58 One common aspect in the above 
+studies is the use of silicate-based bioactive glass. The 
+dissolution rates of silicate-based glasses are several times 
+slower in comparison to borate-based glasses.15 Therefore, 
+nanoparticles of silicate-based glass are often used to fasten 
+Figure 13.  ASCs viability in AG, 1.25G, and 2.5G bioprinted scaffolds cultured in dynamic conditions. ASCs viability significantly decreased ( p < 0.05) 
+with the addition of 2.5 wt.% borate glass content in bioprinted scaffolds in less than 4 h after glass addition. After 7 days in culture, ASCs, which were 
+recovered in modified hydrogels, exhibited higher cell viability in scaffolds bioprinted with modified hydrogels in comparison with AG hydrogel, although 
+the difference was not statistically significant ( p < 0.05).Bioprinting with ASCs and bioactive glass472
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of Bioprintingthe glass particle dissolution and release ions to control 
+the hydrogel viscosity and establish a window of printable 
+time for the composite hydrogel.55 However, borate-based 
+bioactive glasses dissolve rapidly and supply the dissolution 
+products (including Ca2+ ions) to control the hydrogels 
+viscosity for 3D printing without affecting their shear-
+thinning behavior. The mechanisms that are currently 
+adopted during bioprinting with alginate-based hydrogels 
+include filament exposure to CaCl2 solution to initiate 
+crosslinking and fabrication under temperature-controlled 
+environment by modifying the solvent ionic strength.13,59 In 
+this study, we successfully demonstrated bioprinting with 
+borate glass-modified hydrogels at room temperature. This 
+study is the first to report the use of borate-based bioactive 
+glass to improve the extrudability of alginate-based 
+hydrogels with consideration of human ASC viability.
+4. Conclusion
+Our research showcased the capability of B3 glass to 
+facilitate printing using AG hydrogel at room temperature, 
+eliminating the requirement for a temperature-controlled 
+setting. This improvement was analyzed not just in terms 
+of the hydrogel’s printability at room temperature, but 
+also regarding its impact on cell viability. Rheological 
+properties of an AG hydrogel were modified with the 
+addition of 0.075 to 0.6 w/v % of highly resorbable B3 glass, 
+and scaffolds were successfully fabricated. The addition of 
+B3 glass (0.075 and 0.15 w/v %) increased the viscosity 
+(from 0.2 kPa·s to 7 kPa·s) and made the AG hydrogel exhibit a viscoelastic solid-like behavior (G’> G’’) that 
+improved the hydrogel recovery and enabled effortless 
+extrusion 3D printing of scaffolds. AG scaffold stiffness 
+increased with the addition of B3 (from 33 kPa to 73 kPa), 
+and the mechanical properties showed the potential of 
+the modified AG hydrogel to serve as a viable matrix for 
+human ASCs. Despite the toxicity of B3 to ASCs when 
+added in quantities higher than 0.3 w/v % to hydrogel 
+(<70% viable ASCs), lower quantities of B3 have increased 
+the viability in comparison to AG hydrogels without B3 
+after 7 days in culture (>80% viable ASCs). Overall, the 
+rheological modification of alginate-based hydrogels with 
+B3 glass showed the potential for future applications in 
+extrusion-based bioprinting with human ASCs.
+Acknowledgments
+The authors thank Austin Martin and Jeremy Watts for 
+their help with rheological assessment of hydrogels and 
+freeze-drying hydrogels. The glass used in this study was 
+provided by Mo-Sci Corporation, Rolla, MO, USA.
+Funding
+This research was funded by the Intelligent Systems Center 
+and the Center for Biomedical Research at the Missouri 
+University of Science and Technology.
+Conflict of interest
+The authors declare no conflicts of interest.
+Figure 14.  Gelatin release profiles from AG, 1.25G, and 2.5G scaffolds.Bioprinting with ASCs and bioactive glass473
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of BioprintingAuthor contributions
+Conceptualization:  Krishna C.R. Kolan, Julie A. Semon 
+Investigation:  Krishna C.R. Kolan, Lesa B. Steen, August T. 
+Bindbeutel, Apurv Saxena, Bradley A. Bromet
+Methodology: Krishna C.R. Kolan, Julie A. Semon, Apurv 
+Saxena 
+Formal analysis:  Krishna C.R. Kolan, Julie A. Semon 
+Writing – original draft:  Krishna C.R. Kolan 
+Writing – review & editing:  Apurv Saxena, Delbert E. Day, 
+Julie A. Semon, Ming C. Leu 
+Ethics approval and consent to participate 
+Not applicable.
+Consent for publication
+Not applicable.
+Availability of data
+The datasets generated during the current study are available 
+from the corresponding author upon reasonable request.
+References
+1.  Ozbolat IT, Hospodiuk M. Current advances and future 
+perspectives in extrusion-based bioprinting. Biomaterials . 
+2016;76:321-343.
+ doi: 10.1016/j.biomaterials.2015.10.076
+2.  Choudhury D, Anand S, Naing M. The arrival of commercial 
+bioprinters – towards 3D bioprinting revolution! Int J 
+Bioprint . 2018;4(2).
+ doi: 10.18063/IJB.v4i2.139
+3.  Gungor-Ozkerim PS, Inci I, Zhang YS, Khademhosseini 
+A, Dokmeci MR. Bioinks for 3D bioprinting: an overview. 
+Biomater Sci . 2018;6(5):915-946.
+ doi: 10.1039/c7bm00765e
+4.  Rowley JA, Madlambayan G, Mooney DJ. Alginate hydrogels 
+as synthetic extracellular matrix materials. Biomaterials . 
+1999;20(1):45-53.
+ doi: 10.1016/S0142-9612(98)00107-0
+5.  Smidsrød O, Skjåk-Braek G. Alginate as immobilization 
+matrix for cells. Trends Biotechnol . 1990;8(3):71-78.
+ doi: 10.1016/0167-7799(90)90139-O
+6.  Reakasame S, Boccaccini AR. Oxidized alginate-based 
+hydrogels for tissue engineering applications: a review. 
+Biomacromolecules . 2018;19(1):3-21.
+ doi: 10.1021/acs.biomac.7b01331
+7.  Jeon O, Alsberg E. Photofunctionalization of alginate 
+hydrogels to promote adhesion and proliferation of human 
+mesenchymal stem cells. Tissue Eng Part A . 2013;19(11-
+12):1424-1432.
+ doi: 10.1089/ten.TEA.2012.05818.  Alsberg E, Anderson KW , Albeiruti A, Franceschi RT, 
+Mooney DJ. Cell-interactive alginate hydrogels for bone 
+tissue engineering. J Dent Res . 2001;80(11):2025-2029.
+ doi: 10.1177/00220345010800111501
+9.  Rastogi P , Kandasubramanian B. Review of alginate-based 
+hydrogel bioprinting for application in tissue engineering. 
+Biofabrication . 2019;11(4):042001.
+ doi: 10.1088/1758-5090/ab331e
+10.  Giuseppe M Di, Law N, Webb B, et al. Mechanical behaviour 
+of alginate-gelatin hydrogels for 3D bioprinting. J Mech 
+Behav Biomed Mater . 2018;79:150-157.
+ doi: 10.1016/J.JMBBM.2017.12.018
+11.  Chung JHY , Naficy S, Yue Z, et al. Bio-ink properties and 
+printability for extrusion printing living cells. Biomater Sci . 
+2013;1(7):763.
+ doi: 10.1039/c3bm00012e
+12.  Jiang T, Munguia-Lopez J, Flores-Torres S, et al. Bioprintable 
+alginate/gelatin hydrogel 3D in vitro model systems induce 
+cell spheroid formation. J Vis Exp . 2018;(137):e57826.
+ doi: 10.3791/57826
+13.  Li Z, Huang S, Liu Y , et al. Tuning alginate-gelatin bioink 
+properties by varying solvent and their impact on stem cell 
+behavior. Sci Rep . 2018;8(1):8020.
+ doi: 10.1038/s41598-018-26407-3
+14.  Duan B, Hockaday LA, Kang KH, Butcher JT. 3D Bioprinting 
+of heterogeneous aortic valve conduits with alginate/gelatin 
+hydrogels. J Biomed Mater Res Part A . 2013;101A(5):  
+1255-1264.
+ doi: 10.1002/jbm.a.34420
+15.  Rahaman MN, Day DE, Sonny Bal B, et al. Bioactive glass in 
+tissue engineering. Acta Biomater . 2011;7(6):2355-2373.
+ doi: 10.1016/j.actbio.2011.03.016
+16.  Kokubo T, Takadama H. How useful is SBF in predicting 
+in vivo bone bioactivity? Biomaterials . 2006;27(15):  
+2907-2915.
+ doi: 10.1016/j.biomaterials.2006.01.017
+17.  Miguez-Pacheco V , Hench LL, Boccaccini AR. Bioactive 
+glasses beyond bone and teeth: emerging applications in 
+contact with soft tissues. Acta Biomater . 2015;13:1-15.
+ doi: 10.1016/J.ACTBIO.2014.11.004
+18.  Richard M. Bioactive Behavior of a Borate Glass . 
+Master’s Theses. Missouri University of Science and  
+Technology; 2000.
+19.  Jung S. Borate Based Bioactive Glass Scaffolds for Hard and 
+Soft Tissue Engineering . Dissertation. Missouri University of 
+Science and Technology; 2010.
+20.  George J. Dissolution of Borate Glasses and Precipitation of 
+Phosphate Compounds . Dissertation. Missouri University of 
+Science and Technology; 2015.
+21.  Nychka JA, Mazur SLR, Kashyap S, Li D, Y ang F. Dissolution 
+of bioactive glasses: the effects of crystallinity coupled with 
+stress. JOM . 2009;61(9):45-51.Bioprinting with ASCs and bioactive glass474
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of Bioprinting doi: 10.1007/s11837-009-0132-5
+22.  Liu X, Rahaman MN, Day DE. Conversion of melt-derived 
+microfibrous borate (13-93B3) and silicate (45S5) bioactive 
+glass in a simulated body fluid. J Mater Sci Mater Med . 
+2013;24(3):583-595.
+ doi: 10.1007/s10856-012-4831-z
+23.  Zhao F, Y ang Z, Xiong H, Y an Y , Chen X, Shao L. A bioactive 
+glass functional hydrogel enhances bone augmentation via 
+synergistic angiogenesis, self-swelling and osteogenesis. 
+Bioact Mater . 2023;22:201-210.
+ doi: 10.1016/j.bioactmat.2022.09.007
+24.  Zhu H, Monavari M, Zheng K, et al. 3D bioprinting 
+of multifunctional dynamic nanocomposite bioinks 
+incorporating Cu-doped mesoporous bioactive glass 
+nanoparticles for bone tissue engineering. Small . 
+2022;18(12):2104996.
+ doi: 10.1002/smll.202104996
+25.  Monavari M, Homaeigohar S, Medhekar R, et al. A 
+3D-printed wound-healing material composed of alginate 
+dialdehyde-gelatin incorporating astaxanthin and borate 
+bioactive glass microparticles. ACS Appl Mater Interfaces . 
+2023;15(44):50626-50637.
+ doi: 10.1021/acsami.2c23252
+26.  Kolan KCR, Semon JA, Bromet B, Day DE, Leu MC. 
+Bioprinting with human stem cells-laden alginate-gelatin 
+bioink and bioactive glass for tissue engineering. Int J 
+Bioprint . 2019;5(2.2):3.
+ doi: 10.18063/ijb.v5i2.2.204
+27.  Jung SB. Borate based bioactive glass scaffolds for hard and 
+soft tissue engineering. Zhurnal Eksp i Teor Fiz . 2010;389. 
+28.  Watters R, Brown R, Day D. Angiogenic effect of bioactive 
+borate glass microfibers and beads in the hairless mouse. 
+Bioact Glas . 2015;1(1).
+ doi: 10.1515/bglass-2015-0017
+29.  Lin Y , Brown RF, Jung SB, Day DE. Angiogenic effects of 
+borate glass microfibers in a rodent model. J Biomed Mater 
+Res Part A . 2014;102(12):4491-4499.
+ doi: 10.1002/jbm.a.35120
+30.  Thyparambil N, Gutgesell L, Bromet B, et al. Bioactive 
+borate glass triggers phenotypic changes in adipose stem 
+cells. J Mater Sci Mater Med . 2020;31(4):35.
+ doi: 10.1007/s10856-020-06366-w
+31.  Dykstra JA, Facile T, Patrick RJ, et al. Concise review: fat 
+and furious: harnessing the full potential of adipose-
+derived stromal vascular fraction. Stem Cells Transl Med . 
+2017;6(4):1096-1108.
+ doi: 10.1002/sctm.16-0337
+32.  Gimble JM, Guilak F, Bunnell BA. Clinical and preclinical 
+translation of cell-based therapies using adipose tissue-
+derived cells. Stem Cell Res Ther . 2010;1(2):19.
+ doi: 10.1186/scrt1933.  Bourin P , Bunnell BA, Casteilla L, et al. Stromal cells from 
+the adipose tissue-derived stromal vascular fraction and 
+culture expanded adipose tissue-derived stromal/stem cells: 
+a joint statement of  the International Federation for Adipose 
+Therapeutics and Science (IFATS) and the  International 
+Society for Cellular Therapy  (ISCT). Cytotherapy . 
+2013;15(6):641-648.
+ doi: 10.1016/j.jcyt.2013.02.006
+34.  Kolan KCR, Semon JA, Bindbeutel AT, Day DE, Leu MC. 
+Bioprinting with bioactive glass loaded polylactic acid 
+composite and human adipose stem cells. Bioprinting . 
+2020;18:e00075.
+ doi: 10.1016/j.bprint.2020.e00075
+35.  Thyparambil NJ, Gutgesell LC, Hurley CC, Flowers LE, Day 
+DE, Semon JA. Adult stem cell response to doped bioactive 
+borate glass. J Mater Sci Mater Med . 2020;31(2):1-8.
+ doi: 10.1007/s10856-019-6353-4
+36.  Suvarnapathaki S, Nguyen MA, Wu X, Nukavarapu 
+SP , Camci-Unal G. Synthesis and characterization of 
+photocrosslinkable hydrogels from bovine skin gelatin. RSC 
+Adv. 2019;9:13016-13025.
+ doi: 10.1039/c9ra00655a
+37.  Okay O. General Properties of Hydrogels . Berlin, Heidelberg: 
+Springer; 2009:1-14.
+ doi: 10.1007/978-3-540-75645-3_1
+38.  Jung S, Day D. Conversion kinetics of silicate, borosilicate, 
+and borate bioactive glasses to hydroxyapatite. Phys Chem 
+Glas . 2009;50(2):85-88.
+39.  Liu X, Pan H, Fu H, Fu Q, Rahaman MN, Huang W . 
+Conversion of borate-based glass scaffold to hydroxyapatite 
+in a dilute phosphate solution. Biomed Mater . 
+2010;5(1):015005.
+ doi: 10.1088/1748-6041/5/1/015005
+40.  George JL, Brow RK. In-situ characterization of borate glass 
+dissolution kinetics by μ-Raman spectroscopy. J Non Cryst 
+Solids . 2015;426:116-124.
+ doi: 10.1016/J.JNONCRYSOL.2015.07.003
+41.  Fu Q, Rahaman MN, Fu H, Liu X. Silicate, borosilicate, 
+and borate bioactive glass scaffolds with controllable 
+degradation rate for bone tissue engineering applications. I. 
+Preparation and in vitro degradation. J Biomed Mater Res 
+Part A . 2010;95A(1):164-171.
+ doi: 10.1002/jbm.a.32824
+42.  Huebsch N, Arany PR, Mao AS, et al. Harnessing traction-
+mediated manipulation of the cell/matrix interface to 
+control stem-cell fate. Nat Mater . 2010;9(6):518-526.
+ doi: 10.1038/nmat2732
+43.  Chaudhuri O, Gu L, Klumpers D, et al. Hydrogels with 
+tunable stress relaxation regulate stem cell fate and activity. 
+Nat Mater . 2016;15(3):326-334.
+ doi: 10.1038/nmat4489Bioprinting with ASCs and bioactive glass475
+Volume 10 Issue 2 (2024) doi. 10.36922/ijb.2057International Journal of Bioprinting44.  Qazi TH, Hafeez S, Schmidt J, Duda GN, Boccaccini AR, 
+Lippens E. Comparison of the effects of 45S5 and 1393 
+bioactive glass microparticles on hMSC behavior. J Biomed 
+Mater Res A . 2017;105(10):2772-2782.
+ doi: 10.1002/jbm.a.36131
+45.  Hoppe A, Boccaccini AR. Biological impact of bioactive 
+glasses and their dissolution products. Front Oral Biol . 
+2015;17:22-32.
+ doi: 10.1159/000381690
+46.  Wang X, Tolba E, Schröder HC, et al. Effect of bioglass on 
+growth and biomineralization of SaOS-2 cells in hydrogel 
+after 3D cell bioprinting. PLoS One . 2014;9(11):e112497.
+ doi: 10.1371/journal.pone.0112497
+47.  Sarker B, Singh R, Silva R, et al. Evaluation of fibroblasts 
+adhesion and proliferation on alginate-gelatin crosslinked 
+hydrogel. PLoS One . 2014;9(9):e107952.
+ doi: 10.1371/journal.pone.0107952
+48.  Couto DS, Hong Z, Mano JF. Development of bioactive and 
+biodegradable chitosan-based injectable systems containing 
+bioactive glass nanoparticles. Acta Biomater . 2009;5(1):  
+115-123.
+ doi: 10.1016/j.actbio.2008.08.006
+49.  Nikpour P , Salimi-Kenari H, Fahimipour F, et al. Dextran 
+hydrogels incorporated with bioactive glass-ceramic: 
+nanocomposite scaffolds for bone tissue engineering. 
+Carbohydr Polym . 2018;190:281-294.
+ doi: 10.1016/j.carbpol.2018.02.083
+50.  Killion JA, Kehoe S, Geever LM, et al. Hydrogel/bioactive 
+glass composites for bone regeneration applications: 
+synthesis and characterisation. Mater Sci Eng C . 
+2013;33(7):4203-4212.
+ doi: 10.1016/j.msec.2013.06.013
+51.  Moreira CDF, Carvalho SM, Sousa RG, Mansur HS, Pereira 
+MM. Nanostructured chitosan/gelatin/bioactive glass in 
+situ forming hydrogel composites as a potential injectable 
+matrix for bone tissue engineering. Mater Chem Phys . 
+2018;218:304-316.
+ doi: 10.1016/j.matchemphys.2018.07.039
+52.  Gantar A, Drnovšek N, Casuso P , et al. Injectable and 
+self-healing dynamic hydrogel containing bioactive glass nanoparticles as a potential biomaterial for bone 
+regeneration. RSC Adv . 2016;6(73):69156-69166.
+ doi: 10.1039/C6RA17327F
+53.  Zhu N, Chatzistavrou X, Papagerakis P , Ge L, Qin M, Wang 
+Y . Silver-doped bioactive glass/chitosan hydrogel with 
+potential application in dental pulp repair. ACS Biomater Sci 
+Eng. 2019;5(9):4624-4633.
+ doi: 10.1021/acsbiomaterials.9b00811
+54.  Washio A, Teshima H, Y okota K, Kitamura C, Tabata Y . 
+Preparation of gelatin hydrogel sponges incorporating 
+bioactive glasses capable for the controlled release of 
+fibroblast growth factor-2. J Biomater Sci Polym Ed . 
+2019;30(1):49-63.
+ doi: 10.1080/09205063.2018.1544474
+55.  Leite ÁJ, Sarker B, Zehnder T, Silva R, Mano JF, Boccaccini 
+AR. Bioplotting of a bioactive alginate dialdehyde-gelatin 
+composite hydrogel containing bioactive glass nanoparticles. 
+Biofabrication . 2016;8(3):035005.
+ doi: 10.1088/1758-5090/8/3/035005
+56.  Douglas TEL, Dziadek M, Gorodzha S, et al. Novel 
+injectable gellan gum hydrogel composites incorporating 
+Zn- and Sr-enriched bioactive glass microparticles: High-
+resolution X-ray microcomputed tomography, antibacterial 
+and in vitro testing. J Tissue Eng Regen Med . 2018;12(6):  
+1313-1326.
+ doi: 10.1002/term.2654
+57.  Sevari SP , Shahnazi F, Chen C, Mitchell JC, Ansari S, 
+Moshaverinia A. Bioactive glass‐containing hydrogel 
+delivery system for osteogenic differentiation of human 
+dental pulp stem cells. J Biomed Mater Res Part A . 
+2020;108(3):557-564.
+ doi: 10.1002/jbm.a.36836
+58.  Vuornos K, Ojansivu M, Koivisto JT, et al. Bioactive glass 
+ions induce efficient osteogenic differentiation of human 
+adipose stem cells encapsulated in gellan gum and collagen 
+type I hydrogels. Mater Sci Eng C . 2019;99:905-918.
+ doi: 10.1016/j.msec.2019.02.035
+59.  Sun W , Starly B, Daly AC, et al. The bioprinting roadmap. 
+Biofabrication . 2020;12(2):022002.
+ doi: 10.1088/1758-5090/ab5158

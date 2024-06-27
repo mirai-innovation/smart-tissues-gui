@@ -1,0 +1,580 @@
+3D Bioprinting of Oligo(Poly(Ethylene Glycol) Fumarate) for 
+Bone and Nerve Tissue Engineering
+Xifeng Liua,b, Bipin Gaihrea,b, Matthew N. Georgea,b, A. Lee Miller IIb, Haocheng Xua,b, Brian 
+E. Waletzkib, Lichun Lu*,a,b
+aDepartment of Physiology and Biomedical Engineering, Mayo Clinic, Rochester, MN 55905, USA
+bDepartment of Orthopedic Surgery, Mayo Clinic, Rochester, MN 55905, USA.
+Abstract
+3D bioprinting is a promising new tissue restoration technique that enables the precise deposition 
+of cells and growth factors in order to more closely mimic the structure and function of native 
+organs. In this study, we report the development of a new bioink using oligo(poly(ethylene 
+glycol) fumarate) (OPF), a photo-crosslinkable and biodegradable polymer, for 3D bioprinting. 
+In addition to OPF, a small portion of gelatin was also incorporated into the bioink with to 
+make it bio-printable. After immersion in the cell medium, gelatin was eluted away to create a 
+bioprinted scaffold of pure OPF. Excellent cell viability, spreading, and long-term proliferation 
+of encapsulated cells was observed using both bone and nerve cells as examples. These results 
+demonstrate that OPF bioink has great potential in future 3D bioprinting applications that aim to 
+replicate complex, layered tissues and/or organs.
+Keywords
+3D bioprinting; bioink; oligo(poly(ethylene glycol) fumarate); tissue engineering; hydrogel
+1. Introduction
+The 3D printing of biological materials, commonly named 3D bioprinting, provides a 
+promising substitute for future tissue and organ restoration by combining engineering 
+techniques and biological principles into one system.1–3 The biggest advantage of 3D 
+bioprinting is that it allows biomaterials, cells, growth factors, and other bioactive cues 
+to be precisely deposited in three-dimensional space, allowing for the close replication 
+of the complex architecture that is commonly found in native organs.4–6 Due to this 
+advantage, 3D bioprinting has gained extensive attention from many fields including 
+biomedical engineering, tissue engineering, organ engineering, regenerative medicine, 
+and cancer treatment.7–14 With intensified research efforts, 3D bioprinting has received 
+rapid technological development in instruments, biological inks, crosslinking methods, and 
+printing models in recent years.3,15–18
+*Corresponding Author: Lu.Lichun@mayo.edu. Tel.: 507-284-2267. Fax: 507-284-5075. 
+Conflict of Interests
+The authors declare no competing financial interest.
+HHS Public Access
+Author manuscript
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Published in final edited form as:
+J Biomed Mater Res A . 2021 January ; 109(1): 6–17. doi:10.1002/jbm.a.37002.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptThe most widely used 3D bioprinting modalities are inkjet bioprinting/droplet bioprinting, 
+laser-assisted bioprinting, and extrusion-based bioprinting.19–22 However, regardless of the 
+technique used, the technical bottleneck in these bioprinting systems is not due to the 
+printing technology itself but instead lies in the ideal formulation of bioink materials.23,24 
+An ideal bioink should combine numerous properties together into one formulation. These 
+properties include but are not limited to, 1) a favorable viscosity to prevent blocking the 
+print head, 2) a quick shear recovery rate to facilitate the immediate cessation of flow upon 
+deposition, 3) the ability to form covalent or ionic bonds among polymer chains (crosslink) 
+to maintain a printed shape after deposition, 4) good biocompatibility to maintain viable 
+cells, and 5) biodegradability to leave all space for tissue/organ formation.25–29
+Hydrogels, which are thoroughly hydrated polymers, proteins, or peptide networks that 
+able to retain large quantities of water,30,31 are one of the most favorable biomaterials 
+used for 3D bioprinting.16 Various natural or synthetic polymer was tried as bioinks 
+for tissue engineering, including alginate-based gels, gelatin methacryloyl (GelMA) gels, 
+and poly(ethylene glycol (PEG) gels.27 Oligo(poly(ethylene glycol) fumarate) (OPF) is a 
+biocompatible polymer made up of hydrophilic poly(ethylene glycol) (PEG) chains adorned 
+with double bonds that, when irradiated with ultraviolet radiation (UV), open and crosslink 
+with each other to form a soft hydrogel.32,33 The resulting crosslinked OPF hydrogel 
+is biodegradable in situ  through the hydrolysis of ester bonds,34 while also displaying 
+impressive biocompatibility in both in vitro  and in vivo  studies investigating bone and nerve 
+tissue regeneration.35–38
+In this study, we report the development of an OPF-based bioink for tissue engineering (Fig. 
+1a). The bioink consisted of a crosslinkable OPF polymer with a small portion of gelatin. 
+Prior to bioprinting, cells were first encapsulated within a sterilized OPF/gelatin solution, 
+resulting in a cell/ink slurry. This slurry was then quickly cooled to obtain a viscous bioink 
+gel taking advantage of the sol-gel transition of gelatin chains formed within the bioink 
+(Fig. 1b). The bioink was then printed using a gas-assisted extrusion bioprinter to form 
+the desired shape, inducing polymer crosslinking through UV light exposure to form a 
+stabilized hydrogel with cells encapsulated within (Fig. 1c). The bioprinted scaffold was 
+finally washed with pre-warmed cell culture medium to dissolve and elute the gelatin portion 
+(Fig. 1c).
+2. Materials and Methods
+2.1 Polymer Synthesis
+OPF was synthesized in accordance with our previous reports.39–41 In brief, 100 g of PEG 
+with a nominal number average molecular weight ( Mn) of 10,000 g mol−1 was added into a 
+three-neck flask purged with nitrogen gas. Then 800 mL CH 2Cl2 (dichloromethane, DCM) 
+solvent was added and stirred for 30 min to allow the full dissolution of the PEG polymer. 
+Excess K 2CO3 (40 g) was added as a proton scavenger for the following reaction (Fig. 2a). 
+The flask with PEG/DCM/K 2CO3 was then placed into an ice bath and 1.1 mL of fumaryl 
+chloride was added dropwise. The system was kept stirring at a 50°C for 24 hours under 
+reflux. To remove unreacted K 2CO3 particles, the mixture was transferred into a 50 mL 
+falcon tube and centrifuged at 3000 rpm for 10 min. The supernatant was collected and Liu et al. Page 2
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptthe synthesized OPF polymer was precipitated in diethyl ether and dried overnight under 
+vacuum. The structure of synthesized OPF was confirmed by 1H nuclear magnetic resonance 
+(NMR) using deuterated chloroform (CDCl 3) as the solvent.
+2.2 Bioink Evaluation
+Crosslinkability, gelation, and printability.— A series of inks with varied OPF 
+concentrations of 5, 10, 15, 20, and 25 wt% and gelatin percentages of 1, 2, 3, 4, 5, 6, 
+7, 8, 9, 10 wt% relative to the α-Minimum Essential Medium ( α-MEM) volume were 
+fabricated. The crosslinkability of bioinks was checked after UV irradiation for 2 minutes. 
+After immersing in deionized (DI) water overnight, the gels that maintained a cohesive 
+shape were marked as good. Others that had big cracks or broken into large pieces after a 
+soak in water overnight were marked as fair. Bioinks that broken into many small pieces in 
+water were marked poor crosslinkability.
+The gelation ability of bioink formulations after kept stable on table for 24 hours (~18–20 
+°C) was examined using the tube inversion method, as referred to previous reports.42 After 
+inversion, the bioinks that created full and homogeneous gels were recorded as good. The 
+ones with at least half gel formation were recorded as fair. Those with less than half gel 
+formations were recorded as poor gelation.
+The printability of these inks using a 0.25 mm diameter print head on a Bio-X 
+bioprinter (CELLINK, Gothenburg, Sweden) under a pressure range of 1–100 kPa was 
+also investigated and recorded. The goal shape of scaffolds is 10 mm × 10 mm width and 
+length, and 1 layer of 0.25 mm thickness, with 25% infill density. The bioinks that could be 
+printed into uniform and continuous shapes were recorded as good. The bioinks that could 
+be printed to shapes, however, unperfect or non-uniform, were recorded as fair. All other 
+situations where the inks formed non-continuous or incomplete shapes were recorded as 
+poor.
+Scanning electron microscopy (SEM).— Hydrogel samples were all dried by 
+lyophilization for 3 days. Dried samples were immersed in liquid nitrogen for 1 min to 
+freeze the structure and then broken open using forceps. The exposed broken surfaces 
+were sputter-coated with gold-palladium and examined on a scanning electron microscope 
+(S-4700, Hitachi Instruments, Tokyo, Japan) at 5 kV voltage.
+Cytotoxicity of leaching medium.— To evaluate whether the bioinks could release 
+cytotoxic substances to the surrounding cells, the crosslinked hydrogel specimens were 
+placed into transwell chambers (mesh size 3 μm). MC3T3-E1 pre-osteoblast cells were 
+seeded into six-well TCPS plates seeded at a density of 15,000 cells per well and cultured 
+using α-MEM media supplemented with 0.5% streptomycin/penicillin and 10% fetal bovine 
+serum. Cells were placed in a 37 °C cell culture hood for 6 hours to allow attachment to 
+the bottom of the plate. Then the transwell chambers with hydrogel specimens were inserted 
+into the six-well plates and the plates were placed back into 37 °C cell culture hood. Wells 
+without sample treatment was used as a positive control. At 1, 3, and 7 days co-culture, 
+the cell density in each well was determined with the MTS assay (CellTiter 96, Promega, 
+Madison, WI), reading absorbance on a UV-vis absorbance microplate reader (SpectraMax Liu et al. Page 3
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptPlus 384, Molecular Devices, Sunnyvale, CA) at a wavelength of 490 nm. Cell viability in 
+each well was calculated by normalizing absorbance to that of the positive control wells (set 
+as 100%).
+2.3 Bioprinting
+Gel preparation.— To prepare the gelated formulation, 15 wt% of OPF polymer and 
+5 wt% gelatin were added to 1 mL of α-MEM, with 30 μL of polyethylene glycol 
+diacrylate (PEGDA, Mn ~ 570 g/mol) added as a crosslinker, and 2.5 mg of Irgacure 2959 
+(Sigma-Aldrich Co., Milwaukee, WI) added as photo-initiator. The mixture was then kept 
+at 60°C for 30 min while protected from light to allow the full dissolution of OPF polymer 
+and gelatin. The dissolved mixture was then sterilized by filtering through a 0.45 μm 
+sterile syringe filter (Whatman, GE Healthcare Bio-Sciences, Pittsburgh, PA), as previously 
+reported.43 The filtered stock solution was kept at 4°C for 1 hour to allow gelation and 
+subsequently stored at 4°C before usage.
+Cell collection.— MC3T3 pre-osteoblast cells for bioprinting were first expanded in big 
+150 × 25 mm tissue culture dishes (Becton Dickenson, Franklin Lakes, NJ) using α-MEM 
+supplemented with 0.5% streptomycin/penicillin and 10% fetal bovine serum. After reaching 
+~ 80% confluency, the cells were trypsinized and counted. Cell suspensions with desired cell 
+numbers were centrifuged at 3000 rpm for 10 min and the supernatant was removed gently 
+to collect cells.
+Bioink preparation.— To prepare bioink, the gelled mixture was taken out of the 4°C 
+fridge and re-liquidized in a 37°C water bath. The melted gel was then added with the 
+collected cells and gently mixed under sterile conditions. The cell/gel mixture was then 
+placed on ice for 1 min to obtain the gelled bioink.
+Bioprinting and crosslinking.— The bioink with encapsulated cells was printed using 
+a 0.25 mm diameter print head on a Bio-X bioprinter (CELLINK, Gothenburg, Sweden). 
+Following bioprinting, scaffolds were immediately exposed to UV light for 2 min to allow 
+crosslinking. The crosslinked, bioprinted scaffolds were washed with prewarmed 37°C α-
+MEM three times, and immersed in excess α-MEM and cultured in a 37°C cell culture 
+incubator.
+2.5. Immediate Cell Viability after Bioprinting
+To investigate the immediate cell viability after bioprinting, MC3T3 pre-osteoblast cells 
+were bioprinted at a density of 1 × 106 cells/mL of bioink. Immediately after bioprinting, 
+gels were cross-linked through UV exposure for 2 minutes and cells were stained using 
+the LIVE/DEAD® Cell Imaging Kit (Thermo Fisher Scientific, Waltham, MA). The live 
+cells (green) and dead cells (red) embedded within the bioprinted scaffolds were viewed 
+using an inverted laser scanning confocal microscope (LSM 780, Carl Zeiss, Germany). The 
+morphological properties of the printed scaffolds were observed using an Axiovert 25 Zeiss 
+light microscope (Carl Zeiss, Germany).Liu et al. Page 4
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript2.6 Bone Cell Proliferation
+To investigate the long-term cell viability and proliferation in the bioprinted hydrogel, 
+MC3T3 pre-osteoblast cells were bioprinted at a density of 10 × 106 cells/mL of bioink. 
+The shape of the scaffolds printed is 10 mm × 10 mm width and length, and 1 layer 
+of 0.1 mm thickness. After bioprinting, scaffolds were immediately exposed to UV light 
+for 2 min for photo-crosslinking. Scaffolds with cells encapsulated within were washed 
+3 times with excess pre-warmed α-MEM to dissolve and wash away the gelatin coils. 
+The cell/scaffold constructs were then cultured in α-MEM at 37°C. At 1, 4, and 7 days 
+post-seeding, the constructs were stained with LIVE/DEAD® Cell Imaging Kit and viewed 
+with an inverted laser scanning confocal microscope as described above. The MC3T3 pre-
+osteoblast cell densities proliferated in the bioinks were determined using the MTS assay 
+(CellTiter 96, Promega, Madison, WI). The optical absorbances were read on a UV-vis 
+absorbance microplate reader (SpectraMax Plus 384, Molecular Devices, Sunnyvale, CA) 
+with wavelength at 490 nm. Average values and statistical analyses were calculated on four 
+independent tests.
+2.7 Nerve Cell Proliferation
+PC12 neuronal cells were purchased from American Type Culture Collection (ATCC) and 
+expanded in big 150 × 25 mm tissue culture dishes using Dulbecco’s Modified Eagle 
+Medium (DMEM) supplemented with 5% fetal bovine serum, 10% horse serum, and 0.5% 
+streptomycin/penicillin, and incubated at 37 °C with a 95% relative humidity and 5% 
+CO2. After reaching 80% confluency, PC12 cells were trypsinized and centrifuged at 3000 
+rpm for 10 min and mixed into bioink at a density of 10 × 106 cells/mL using the same 
+procedure as described in the MC3T3 cell mixing section. After bioprinting, scaffolds were 
+immediately exposed to UV light for 2 min for photocrosslinking. Crosslinked scaffolds 
+were then washed 3 times with excess pre-warmed DMEM to elute the gelatin coils and 
+the cell/scaffold constructs were cultured in DMEM in a 37 °C incubator. After 1, 4, and 
+7 days of culture, the constructs were stained with LIVE/DEAD® Cell Imaging Kit and 
+viewed with an inverted laser scanning confocal microscope as described above. The PC12 
+cell densities proliferated in the bioinks were determined using the MTS assay and read on 
+a UV-vis absorbance microplate reader at 490 nm, as described above. Average values and 
+statistical analyses were calculated on four independent tests.
+2.8 Statistical analysis
+The statistical difference among varied experimental groups was analyzed using a one-way 
+analysis of variance (ANOV A) with post hoc Tukey HSD test when necessary. Any two data 
+groups with p-value calculated lower than 0.05 were marked with a significant difference.
+3. Results
+3.1 Bioprinting Setup and Bioink Screen
+OPF was successfully synthesized and the structure was confirmed by 1H nuclear magnetic 
+resonance (NMR) using deuterated chloroform (CDCl 3) as solvent (Fig. 2a–b). To determine 
+the bioprintability and cell viabilities in printed scaffolds, MC3T3 pre-osteoblast cells were Liu et al. Page 5
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptcollected by centrifugation and mixed with OPF/Gelatin slurry (1 × 106 cells/mL) to make 
+bioinks, as presented in Fig. 3a. The bioinks were then printed using a CELLINK Bio-X 
+printer setup (Fig. 3b) followed by UV crosslinking for 2 min.
+For bioinks to be useful in tissue engineering applications, the crosslinkability, gelation 
+ability, and printability of the bioink formulations must be optimized to meet the challenges 
+of 3D printing as well as in vivo  implantation. In order to screen the best bioink, we 
+fabricated a series of inks with varied OPF concentrations and gelatin percentages. As 
+demonstrated in Fig. 3c, the crosslinking ability of inks was enhanced by the addition 
+of OPF but inhibited by the presence of gelatin. A higher OPF concentration aided in 
+the crosslinking process, while a higher gelatin concentration interfered with successful 
+crosslinking, particularly when the gelatin portion was higher than 6% and the OPF 
+concentration was lower than 10%.
+In addition to crosslinking ability, the gelation capability of a bioink is also critical. Gelation 
+in OPF/Gelatin originated from the formation of coils among gelatin polymer chains. As can 
+be noted in Fig. 3d, better gelation observed as the gelatin percentage increased. When OPF 
+is 5% in the formulation, good gelation was observed with the addition of ≥ 2% gelatin. 
+When OPF increased to 10 and 15%, good gelation was observed with ≥ 4% gelatin. When 
+OPF increased to 20 and 25%, gelation was observed only with higher gelatin fractions of ≥ 
+7% or even 9%.
+The printability of the bioinks was also investigated. Results showed that printability is 
+closely related to gelation. For inks with less than 3% gelatin, gelation was not successfully 
+achieved and the ink was similar to free-fluid, leading to poor printability. For inks 
+with more than 3% gelatin, gelation occurred and the inks were able to be printed 
+into different shapes by adjusting the printing parameters (Fig. 3e). However, inks with 
+extremely high gelatin concentration (9–10%) yet low OPF content (5–10%), the printability 
+performance was also inadequate. This result may be due to the high stiffness of inks at high 
+concentrations of gelatin, preventing effective and continuous extrusion of the material from 
+the printing head (Fig. 3e). Based on these results, a bioink with 15 wt% OPF and 5 wt% 
+gelatin was selected for further bioprinting analysis.
+Cell viability within gels was determined immediately after bioprinting and crosslinking 
+using LIVE/DEAD staining. Live and dead cells were counted and the proportion of each 
+was obtained by dividing by total cell number. For bioinks with weak crosslinkability or 
+printability, the obtained shapes were not perfect and cells were counted from the imperfect 
+pieces. As shown in Fig. 3f, when OPF content is as high as 20–25% in the bioink, cell 
+viability dropped drastically. However, bioinks with OPF content lower than 15% showed 
+most of the cells were alive with only a small portion of dead cells likely caused by the 
+extrusion pressure. An enlarged view of the live/dead cell imaging in 15% OPF and 5% 
+gelatin showed potential live cells within the bioink (Fig. 3g). These results indicate that cell 
+viability is closely related to the ratio of components within the ink. This result is consistent 
+with previous reports that display robust cell viabilities using hydrogels as bioinks.44–46Liu et al. Page 6
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript3.2 Bioprinted scaffold properties
+Based on the above bioink screen results, the bioink with 15 wt% OPF and 5 wt% gelatin 
+in cell medium has the favorable crosslinking ability, gelation, printability, and relatively 
+high cell viability, thus was selected for bioprinting of scaffolds. Various infill densities 
+could be achieved by adjusting the printing parameters, with example photographs shown 
+in Fig. 4a. Bioprinted scaffolds were examined under a microscope to determine the shape 
+integrity and continuity, as well as cell distribution. As can be seen from Fig. 4b, scaffolds 
+showed homogeneous ridges and cross-sections. Cells were also observed to distribute 
+homogeneously across the scaffolds, as noted from the enlarged view of these scaffolds (Fig. 
+4c).
+In addition to rectangular scaffolds, bioinks can also be printed into round shapes with 
+circular edges. A typical photograph of the bioprinted round scaffolds was presented in 
+Fig. 4d. The microscopic images showed that round scaffolds also had homogeneous cell 
+distribution and shape integrity and continuity, even at the edges (Fig. 4e).
+To evaluate the properties of the bioink, crosslinked OPF ink before and after washing were 
+fabricated into round shaped disks for gel properties evaluation. After lyophilization, the 
+micro-structures within the hydrogel were observed by SEM. As presented in Fig. 5a–b, 
+gels after washing showed porous structures within the hydrogel as compared with gels 
+before washing. This indicates that the gelatin can be washed away and leave microporous 
+structures within the gel. To evaluate whether the crosslinked OPF bioink gel produces 
+byproducts that are cytotoxic to the surrounding cells, hydrogels were placed into transwells 
+and cocultured with MC3T3 cells for 1, 3, and 7 days. As shown in Fig. 5c, no significant 
+cytotoxicity was observed for the bioink after coculturing with cells.
+3.3 Bioprinting and proliferation of bone cells
+The cell viability and densities of MC3T3 pre-osteoblast cells in bioprinted scaffolds were 
+investigated after culturing for 1, 4 and 7 days. As observed by confocal imaging in Fig. 
+6a, the bioprinted cells were homogeneously distributed within the bioprinted scaffolds and 
+showed a round shape after 1-day in culture. After 4 days, cell growth was observed to start 
+on the edge of the bioscaffolds, which may be because cells at these locations were exposed 
+to an abundance of oxygen and nutrients (Fig. 6b). After 7 days of culture, cell growth was 
+observed on the edge of the bioscaffolds as well as within bioscaffolds (Fig. 6c).
+A specific analysis of typical cell morphologies was further conducted. At day 1, cells 
+showed mainly round shape with limited filament outgrowth, as depicted by the schematic 
+demonstration of each cell (Fig. 6d). However, after 4 days of culture, cells in the bioprinted 
+scaffolds showed elongated shape with filament outgrowth (Fig. 6e). An enlarged view of 
+typical cells showed clear filament outgrowth, as illustrated in the schematic demonstration. 
+After 7 days of culture, a large population of cells was observed and cells were directly in 
+contact with one another, indicating that intercellular interactions were achieved between 
+encapsulated cells (Fig. 6f). These results indicate that bioprinted scaffolds could allow 
+nutrient penetration and support good cell growth within the scaffolds. The MC3T3 pre-
+osteoblast cells were quantified to be mostly alive in the scaffolds, as shown in Fig. 6g. Liu et al. Page 7
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptThe proliferation study showed significant cell growth after 7 days of culture (Fig. 6h). This 
+observation is consistent with other reports describing cell proliferation during 1 week of 
+culture after bioprinting.47
+3.4 Bioprinting and proliferation of nerve cells
+In addition to pre-osteoblasts, the viability and growth of PC12 nerve cells were also 
+investigated. As presented in Fig. 7a, PC12 cells showed excellent viability within the 
+bioprinted scaffolds after 1, 4 and 7 days’ culture. Similar to MC3T3 pre-osteoblasts, PC12 
+cells also showed round-shaped morphology at day 1 of culture (Fig. 7a–b), indicating 
+that OPF bioink was also biocompatible with PC12 nerve cells. After 4 and 7 days 
+of culture, proliferated cell groups were observed by confocal imaging (Fig. 7c–f). 3D 
+reconstruction of confocal images taken at randomly chosen areas in the bioink showed that 
+the cells proliferated both at the edges and within the bioprinted scaffolds (Fig. 7c–f). The 
+PC12 nerve cells were also determined to be mostly alive in the scaffolds (Fig. 7g). The 
+proliferation of cells was also observed, with significantly larger numbers of cells after 4 and 
+7 days of culture (Fig. 7h). These results demonstrated that OPF bioink could support the 
+excellent proliferation of PC12 nerve cells.
+Discussions
+OPF based hydrogels have received significant attention due to their use as cellular scaffolds 
+for cartilage, bone, and nerve tissue regeneration applications.33,35,37,48 A versatile system, 
+the presence of reactive fumarate double bonds makes OPF cross-linkable using either a 
+chemical or photo-crosslinking strategy, while the frequent ester bond repeats throughout the 
+network facilitate non-toxic biodegradation. Several studies have successfully demonstrated 
+that crosslinked OPF hydrogels are able to encapsulate the cells with minimal effect on their 
+metabolic activities.48,49 Furthermore, with certain biological cues, the encapsulated cells 
+have been shown to differentiate into the desired phenotype.50 These findings motivated 
+the current study wherein 3-D bioprinted OPF hydrogels with encapsulated-cells have 
+been developed. Here, we have proposed OPF-Gelatin as a bioink for further bioprinting 
+applications.
+Bioprinting techniques enable the spatial patterning of cells and other biological factors 
+within the polymer matrix,51 improving the timely and precise development of the 
+functional tissues. Hydrogel-based bioinks display a number of attractive properties that 
+support this application, motivating the development of a number printable hydrogels that 
+incorporate biological and synthetic compounds including gelatin methacryloyl (GelMA), 
+polyethylene glycol diacrylate (PEGDA), alginate, collagen, hyaluronic acid (HA), chitosan, 
+Pluronic, fibrin/fibrinogen, silk, agarose, and blends of these materials.27,28,52,53 Extrusion 
+based bioprinting is one of the most commonly applied printing technique. It provides 
+superior control over the cell deposition and distribution.51 One of the well-acknowledged 
+limitations of extrusion-bioprinting is the high possibility of cell apoptosis due to the 
+pressure exerted on the cells during extrusion through micro-nozzle. To ameliorate this 
+concern, the optimization of bioprinting parameters including material amount, applied 
+pressure, and temperature is vital for successful extrusion-bioprinting.54Liu et al. Page 8
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptIn this study, we successfully demonstrated OPF hydrogels can be developed into a bioink 
+for extrusion-based 3-D bioprinting. In its native form, the viscosity of the OPF solution 
+does not support extrusion-based printing. However, through the addition of a gelatin 
+fraction that doubles as a porogen after hydrogel crosslinking, our results show that OPF 
+bioinks can support uniform extrusion when the gelatin content is optimized. The gelatin 
+was added into OPF bioink formulations for two disparate reasons. First, during the 
+bioprinting process, the OPF itself is not bioprintable without the addition of high viscous 
+components. The inclusion of gelatin provides favorable rheological properties to the bioink, 
+facilitating the extrusion of the ink and the structural integrity of the printed structure (Fig. 
+1a). Second, after a 3D structure has been printed, gelatin can be eluted away through 
+immersion in warm cell medium, leaving porous structures within the hydrogel. These two 
+steps are based on the reversible gelation nature of the gelatin chains (Fig. 1b). The gelatin 
+solution exists as a liquid form at 37 °C but can transform into a soft viscous gel at a gelling 
+temperature (T Gel, close to room temperature ~21 °C) or even below.55,56 This transition 
+is realized by the formation of coil-helix with intermolecular bonds. This unique material 
+property is reversible when temperatures are increased above the T Gel threshold, resulting in 
+the destruction of gelatin coils solubilization of the gel network.
+At gelatin concentrations higher than 9% or lower than 3%, impaired printing was observed. 
+Our overall optimization work on gelation and extrusion showed that the bioink with 15 wt% 
+OPF and 5% gelatin was well suited for the printing. Furthermore, this composition was 
+found to support the viability of encapsulated MC3T3-E1 and PC12 cells. The encapsulated 
+cells not only maintained excellent viability but also showed a good proliferation over 
+a seven-day period. The porosity created by the eroding gelatin enabled the rapid and 
+continuous diffusion of nutrients into the hydrogel which might have contributed to the 
+excellent cell response. Furthermore, gelatin itself has cell-binding sites which can positively 
+influence the cell attachment and proliferation.57 Future studies will be focused on exploring 
+more on printing multiple cell types and incorporating suitable biological cues for functional 
+bone and nerve tissue regeneration.
+Conclusions
+In summary, we developed a ‘micro-structured’ hydrogel bioink with a network of pores 
+designed to enhance the flux of oxygen and nutrients to encapsulated cells. Using 
+a crosslinkable, biodegradable OPF polymer as the polymer backbone and gelatin as 
+a porogen, a series of bioinks with various compositions were fabricated, and their 
+crosslinkability, gelation ability, and printability were evaluated. Following bioprinting, 
+scaffolds were washed with cell culture medium to remove gelatin from the crosslinked 
+network and to create void volumes within the material. The OPF bioink formulations 
+comprised of 15 wt% OPF and 5 wt% gelatin were found to display superior printability, 
+gelation, and crosslinkability and were selected for evaluation using MC3T3 pre-osteoblast 
+cells. Live/dead cell staining showed that the cells had good viability after bioprinting, while 
+an excellent proliferation of cells was observed after culturing the bioprinted scaffolds in the 
+medium for one week. In addition to pre-osteoblasts, PC12 nerve cells were also bioprinted 
+and showed excellent cell proliferation within the scaffolds. These results demonstrate that Liu et al. Page 9
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptthe OPF bioink is a promising choice for future 3D bioprinting systems aiming at tissue and 
+organ engineering.
+Acknowledgments
+This work was supported by the National Institutes of Health grant R01 AR56212.
+References
+1. Mandrycky C, Wang Z, Kim K, Kim D-H. 3D bioprinting for engineering complex tissues. 
+Biotechnology advances 2016;34(4):422–434. [PubMed: 26724184] 
+2. Kang H-W, Lee SJ, Ko IK, Kengla C, Yoo JJ, Atala A. A 3D bioprinting system to produce 
+human-scale tissue constructs with structural integrity. Nature biotechnology 2016;34(3):312.
+3. Murphy SV , Atala A. 3D bioprinting of tissues and organs. Nature biotechnology 2014;32(8):773.
+4. Kolesky DB, Truby RL, Gladman AS, Busbee TA, Homan KA, Lewis JA. 3D bioprinting of 
+vascularized, heterogeneous cell-laden tissue constructs. Advanced materials 2014;26(19):3124–
+3130. [PubMed: 24550124] 
+5. Markstedt K, Mantas A, Tournier I, Martínez Ávila Hc, Hägg D, Gatenholm P. 3D 
+bioprinting human chondrocytes with nanocellulose–alginate bioink for cartilage tissue engineering 
+applications. Biomacromolecules 2015;16(5):1489–1496. [PubMed: 25806996] 
+6. Duan B, Hockaday LA, Kang KH, Butcher JT. 3D bioprinting of heterogeneous aortic 
+valve conduits with alginate/gelatin hydrogels. Journal of biomedical materials research Part A 
+2013;101(5):1255–1264. [PubMed: 23015540] 
+7. Albritton JL, Miller JS. 3D bioprinting: improving in vitro models of metastasis with heterogeneous 
+tumor microenvironments. Disease models & mechanisms 2017;10(1):3–14. [PubMed: 28067628] 
+8. Stanton M, Samitier J, Sanchez S. Bioprinting of 3D hydrogels. Lab on a Chip 2015;15(15):3111–
+3115. [PubMed: 26066320] 
+9. Zhang YS, Yue K, Aleman J, Mollazadeh-Moghaddam K, Bakht SM, Yang J, Jia W, Dell’Erba 
+V , Assawes P, Shin SR. 3D bioprinting for tissue and organ fabrication. Annals of biomedical 
+engineering 2017;45(1):148–163. [PubMed: 27126775] 
+10. Ozbolat IT, Peng W, Ozbolat V . Application areas of 3D bioprinting. Drug discovery today 
+2016;21(8):1257–1271. [PubMed: 27086009] 
+11. Gao G, Cui X. Three-dimensional bioprinting in tissue engineering and regenerative medicine. 
+Biotechnology letters 2016;38(2):203–211. [PubMed: 26466597] 
+12. Bishop ES, Mostafa S, Pakvasa M, Luu HH, Lee MJ, Wolf JM, Ameer GA, He T-C, Reid RR. 
+3-D bioprinting technologies in tissue engineering and regenerative medicine: Current and future 
+trends. Genes & diseases 2017;4(4):185–195. [PubMed: 29911158] 
+13. Wu W, DeConinck A, Lewis JA. Omnidirectional printing of 3D microvascular networks. 
+Advanced materials 2011;23(24):H178–H183. [PubMed: 21438034] 
+14. Lee VK, Kim DY , Ngo H, Lee Y , Seo L, Yoo S-S, Vincent PA, Dai G. Creating perfused 
+functional vascular channels using 3D bio-printing technology. Biomaterials 2014;35(28):8092–
+8102. [PubMed: 24965886] 
+15. Włodarczyk-Biegun MK, del Campo A. 3D bioprinting of structural proteins. Biomaterials 
+2017;134:180–201. [PubMed: 28477541] 
+16. Hinton TJ, Jallerat Q, Palchesko RN, Park JH, Grodzicki MS, Shue H-J, Ramadan MH, Hudson 
+AR, Feinberg AW. Three-dimensional printing of complex biological structures by freeform 
+reversible embedding of suspended hydrogels. Science advances 2015;1(9):e1500758. [PubMed: 
+26601312] 
+17. Li J, Chen M, Fan X, Zhou H. Recent advances in bioprinting techniques: approaches, applications 
+and future prospects. Journal of translational medicine 2016;14(1):271. [PubMed: 27645770] 
+18. Lee VK, Dai G. Printing of three-dimensional tissue analogs for regenerative medicine. Annals of 
+biomedical engineering 2017;45(1):115–131. [PubMed: 27066784] Liu et al. Page 10
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript19. Wüst S, Müller R, Hofmann S. Controlled positioning of cells in biomaterials—approaches 
+towards 3D tissue printing. Journal of functional biomaterials 2011;2(3):119–154. [PubMed: 
+24956301] 
+20. Dababneh AB, Ozbolat IT. Bioprinting technology: a current state-of-the-art review. Journal of 
+Manufacturing Science and Engineering 2014;136(6):061016.
+21. Wang Z, Abdulla R, Parker B, Samanipour R, Ghosh S, Kim K. A simple and high-
+resolution stereolithography-based 3D bioprinting system using visible light crosslinkable bioinks. 
+Biofabrication 2015;7(4):045009. [PubMed: 26696527] 
+22. Feinberg AW, Miller JS. Progress in three-dimensional bioprinting. MRS Bulletin 2017;42(8):557–
+562.
+23. Ozbolat IT, Yu Y . Bioprinting toward organ fabrication: challenges and future trends. IEEE 
+Transactions on Biomedical Engineering 2013;60(3):691–699. [PubMed: 23372076] 
+24. Jose RR, Rodriguez MJ, Dixon TA, Omenetto F, Kaplan DL. Evolution of bioinks and 
+additive manufacturing technologies for 3D bioprinting. ACS Biomaterials Science & Engineering 
+2016;2(10):1662–1678.
+25. Hölzl K, Lin S, Tytgat L, Van Vlierberghe S, Gu L, Ovsianikov A. Bioink properties before, during 
+and after 3D bioprinting. Biofabrication 2016;8(3):032002. [PubMed: 27658612] 
+26. Billiet T, Gevaert E, De Schryver T, Cornelissen M, Dubruel P. The 3D printing of gelatin 
+methacrylamide cell-laden tissue-engineered constructs with high cell viability. Biomaterials 
+2014;35(1):49–62. [PubMed: 24112804] 
+27. Gungor-Ozkerim PS, Inci I, Zhang YS, Khademhosseini A, Dokmeci MR. Bioinks for 3D 
+bioprinting: an overview. Biomaterials science 2018;6(5):915–946. [PubMed: 29492503] 
+28. Hospodiuk M, Dey M, Sosnoski D, Ozbolat IT. The bioink: a comprehensive review on 
+bioprintable materials. Biotechnology advances 2017;35(2):217–239. [PubMed: 28057483] 
+29. Chimene D, Lennox KK, Kaunas RR, Gaharwar AK. Advanced bioinks for 3D printing: 
+a materials science perspective. Annals of biomedical engineering 2016;44(6):2090–2102. 
+[PubMed: 27184494] 
+30. Peppas NA, Hilt JZ, Khademhosseini A, Langer R. Hydrogels in biology and medicine: from 
+molecular principles to bionanotechnology. Advanced materials 2006;18(11):1345–1360.
+31. Zou Y , Zhang L, Yang L, Zhu F, Ding M, Lin F, Wang Z, Li Y . “Click” chemistry in polymeric 
+scaffolds: Bioactive materials for tissue engineering. Journal of controlled release 2018;273:160–
+179. [PubMed: 29382547] 
+32. Liu X, Paulsen A, Giambini H, Guo J, Miller AL, Lin P-C, Yaszemski MJ, Lu L. A New 
+Vertebral Body Replacement Strategy Using Expandable Polymeric Cages. Tissue Engineering 
+Part A 2016;23(5–6):223–232. [PubMed: 27835935] 
+33. Liu X, Miller AL, Park S, Waletzki BE, Zhou Z, Terzic A, Lu L. Functionalized Carbon 
+Nanotube and Graphene Oxide Embedded Electrically Conductive Hydrogel Synergistically 
+Stimulates Nerve Cell Differentiation. ACS Applied Materials & Interfaces 2017;9(17):14677–
+14690. [PubMed: 28406608] 
+34. Qiu Y , Lim JJ, Scott L, Adams RC, Bui HT, Temenoff JS. PEG-based hydrogels with tunable 
+degradation characteristics to control delivery of marrow stromal cells for tendon overuse injuries. 
+Acta biomaterialia 2011;7(3):959–966. [PubMed: 21056127] 
+35. Olthof MG, Tryfonidou MA, Liu X, Pouran B, Meij BP, Dhert WJ, Yaszemski MJ, Lu L, Alblas 
+J, Kempen DH. Phosphate Functional Groups Improve Oligo [(Polyethylene Glycol) Fumarate] 
+Osteoconduction and BMP-2 Osteoinductive Efficacy. Tissue Engineering Part A 2018;24(9–
+10):819–829. [PubMed: 29065776] 
+36. Liu X, Fundora KA, Zhou Z, Miller AL, Lu L. Composite Hydrogel Embedded with Porous 
+Microspheres for Long-Term pH-Sensitive Drug Delivery. Tissue Engineering Part A 2018.
+37. Olthof MG, Kempen DH, Liu X, Dadsetan M, Tryfonidou MA, Yaszemski MJ, Dhert WJ, Lu 
+L. Bone morphogenetic protein-2 release profile modulates bone formation in phosphorylated 
+hydrogel. Journal of tissue engineering and regenerative medicine 2018;12(6):1339–1351. 
+[PubMed: 29603878] Liu et al. Page 11
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript38. Liu X, Kim JC, Miller AL, Waletzki BE, Lu L. Electrically conductive nanocomposite hydrogels 
+embedded with functionalized carbon nanotubes for spinal cord injury. New Journal of Chemistry 
+2018;42(21):17671–17681.
+39. Kinard LA, Kasper FK, Mikos AG. Synthesis of oligo(poly(ethylene glycol) fumarate). Nature 
+Protocols 2012;7(6):1219–1227. [PubMed: 22653160] 
+40. Liu X, Miller II AL, Park S, Waletzki BE, Terzic A, Yaszemski MJ, Lu L. Covalent crosslinking 
+of graphene oxide and carbon nanotube into hydrogels enhances nerve cell responses. Journal of 
+Materials Chemistry B 2016;4(43):6930–6941. [PubMed: 32263560] 
+41. Dadsetan M, Hefferan TE, Szatkowski JP, Mishra PK, Macura SI, Lu L, Yaszemski MJ. Effect of 
+hydrogel porosity on marrow stromal cell phenotypic expression. Biomaterials 2008;29(14):2193–
+2202. [PubMed: 18262642] 
+42. Shi K, Wang Y-L, Qu Y , Liao J-F, Chu B-Y , Zhang H-P, Luo F, Qian Z-Y . Synthesis, 
+characterization, and application of reversible PDLLA-PEG-PDLLA copolymer thermogels in 
+vitro and in vivo. Scientific reports 2016;6:19077. [PubMed: 26752008] 
+43. Müller M, Becher J, Schnabelrauch M, Zenobi-Wong M. Nanostructured Pluronic hydrogels as 
+bioinks for 3D bioprinting. Biofabrication 2015;7(3):035006. [PubMed: 26260872] 
+44. Bertassoni LE, Cardoso JC, Manoharan V , Cristino AL, Bhise NS, Araujo WA, Zorlutuna P, 
+Vrana NE, Ghaemmaghami AM, Dokmeci MR and others. Direct-write bioprinting of cell-laden 
+methacrylated gelatin hydrogels. Biofabrication 2014;6(2).
+45. Dubbin K, Tabet A, Heilshorn SC. Quantitative criteria to benchmark new and existing bio-inks for 
+cell compatibility. Biofabrication 2017;9(4):044102. [PubMed: 28812982] 
+46. Bertassoni LE, Cecconi M, Manoharan V , Nikkhah M, Hjortnaes J, Cristino AL, Barabaschi G, 
+Demarchi D, Dokmeci MR, Yang YZ and others. Hydrogel bioprinted microchannel networks for 
+vascularization of tissue engineering constructs. Lab on a Chip 2014;14(13):2202–2211. [PubMed: 
+24860845] 
+47. Yin J, Yan M, Wang Y , Fu J, Suo H. 3D bioprinting of low-concentration cell-laden gelatin 
+methacrylate (GelMA) bioinks with a two-step cross-linking strategy. ACS applied materials & 
+interfaces 2018;10(8):6849–6857. [PubMed: 29405059] 
+48. Guo X, Park H, Liu G, Liu W, Cao Y , Tabata Y , Kasper FK, Mikos AG. In vitro generation 
+of an osteochondral construct using injectable hydrogel composites encapsulating rabbit marrow 
+mesenchymal stem cells. Biomaterials 2009;30(14):2741–2752. [PubMed: 19232711] 
+49. Lam J, Lu S, Meretoja VV , Tabata Y , Mikos AG, Kasper FK. Generation of osteochondral 
+tissue constructs with chondrogenically and osteogenically predifferentiated mesenchymal stem 
+cells encapsulated in bilayered hydrogels. Acta Biomaterialia 2014;10(3):1112–1123. [PubMed: 
+24300948] 
+50. Park H, Temenoff JS, Tabata Y , Caplan AI, Raphael RM, Jansen JA, Mikos AG. Effect of dual 
+growth factor delivery on chondrogenic differentiation of rabbit marrow mesenchymal stem cells 
+encapsulated in injectable hydrogel composites. Journal of Biomedical Materials Research Part A 
+2009;88A(4):889–897.
+51. Ozbolat IT, Hospodiuk M. Current advances and future perspectives in extrusion-based bioprinting. 
+Biomaterials 2016;76:321–343. [PubMed: 26561931] 
+52. Shanjani Y , Pan C, Elomaa L, Yang Y . A novel bioprinting method and system for forming hybrid 
+tissue engineering constructs. Biofabrication 2015;7(4):045008. [PubMed: 26685102] 
+53. Zhu W, Cui H, Boualam B, Masood F, Flynn E, Rao RD, Zhang Z-Y , Zhang LG. 3D 
+bioprinting mesenchymal stem cell-laden construct with core–shell nanospheres for cartilage tissue 
+engineering. Nanotechnology 2018;29(18):185101. [PubMed: 29446757] 
+54. Rider P, Kačarević ŽP, Alkildani S, Retnasingh S, Barbeck M. Bioprinting of tissue engineering 
+scaffolds. Journal of tissue engineering 2018;9:2041731418802090–2041731418802090.
+55. Liu W, Heinrich MA, Zhou Y , Akpek A, Hu N, Liu X, Guan X, Zhong Z, Jin X, Khademhosseini 
+A. Extrusion bioprinting of shear-thinning gelatin methacryloyl bioinks. Advanced healthcare 
+materials 2017;6(12):1601451.
+56. Djabourov M, Leblond J, Papon P. Gelation of aqueous gelatin solutions. I. Structural investigation. 
+Journal de physique 1988;49(2):319–332.Liu et al. Page 12
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript57. Sarker B, Singh R, Silva R, Roether JA, Kaschta J, Detsch R, Schubert DW, Cicha I, Boccaccini 
+AR. Evaluation of Fibroblasts Adhesion and Proliferation on Alginate-Gelatin Crosslinked 
+Hydrogel. PLOS ONE 2014;9(9):e107952. [PubMed: 25268892] Liu et al. Page 13
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFig. 1. 
+a) The schematic demonstration of the bioprinting process using photo-crosslinkable OPF 
+polymer and gelatin chains with cells. b) Mechanism of thermos-responsive gelatin chains 
+to form coils with reversible triple-helix. c) After bioprinting, the scaffolds were crosslinked 
+under UV irradiation followed by the production of micro-pores through the dissolution of 
+gelatin coils by washing in media at 37 °C.Liu et al. Page 14
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFig. 2. 
+a) The synthesis route for the OPF polymer using poly(ethylene glycol) and fumaryl 
+chloride in the presence of excess K 2CO3 as a proton scavenger. b) The 1H NMR spectra of 
+the synthesized OPF polymer.Liu et al. Page 15
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFig. 3. 
+a) The collection of MC3T3 pre-osteoblast cells from the culture medium and mix with 
+liquidized gels to obtain the bioink. b) Photographs of the bioprinting apparatus set-up 
+using a CELLINK Bio-X printer in a sterilized cell culture hood. The c) crosslinking 
+ability, d) gelation performance and e) printability of bioinks with varied OPF and gelatin 
+concentrations. f) Cell viabilities of bioinks with varied OPF and gelatin concentrations. g) 
+Confocal imaging of LIVE/DEAD stained cells encapsulated within the bioprinted scaffolds: 
+live cells (green) and dead cells (red). Cell density: 1 × 106 cells/mL medium.Liu et al. Page 16
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFig. 4. 
+Bioprinted scaffolds morphology. a) Rectangular scaffolds printed with different infill 
+densities. b) Microscopic images of the same printed scaffolds at different positions of 
+the scaffolds and c) enlarged microscopic images of the scaffolds containing cells (1 × 
+106 cells/mL of bioink). d) Photographs of the bioprinted circular scaffolds. e) Microscopic 
+images at different locations along the bioprinted circular scaffolds.Liu et al. Page 17
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFig. 5. 
+Bioink properties. SEM images of crosslinked OPF ink a) before and b) after washing. 
+c) The MC3T3 cell viability under exposure to the leaching medium from the bioprinted 
+scaffolds (No-Gel control was set as 100%).Liu et al. Page 18
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFig. 6. 
+Confocal imaging. 3D imaging of the distribution of MC3T3 pre-osteoblast cells 
+encapsulated in the bioprinted scaffolds at a) day 1, b) day 4 and c) day 7 of culture in 
+α-MEM. 2D cell morphological features with enlarged view of single cell from the above 
+confocal images and schematic demonstration of cell projections within the bioink at d) day 
+1, e) day 4 and f) day 7 of culture. g) The MC3T3 live cell and dead cell ratios. h) MC3T3 
+cell number changes at day 1, 4, 7 days of culture (*: p < 0.05).Liu et al. Page 19
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFig. 7. 
+Confocal images and 3D-reconstruction images showing proliferation and morphological 
+features of PC12 nerve cells encapsulated in bioprinted OPF scaffolds at a-b) day 1, c-d) 
+day 4 and e-f) day 7 post-printing. g) The PC12 live cell and dead cell ratios. h) PC12 cell 
+number changes at day 1, 4, 7 days of culture (*: p < 0.05).Liu et al. Page 20
+J Biomed Mater Res A . Author manuscript; available in PMC 2022 March 23.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript

@@ -1,0 +1,884 @@
+Engineering a chemically defined hydrogel bioink for direct 
+bioprinting of microvasculature
+Ryan W. Barrsa,b,‡, Jia Jiaa,‡,•, Michael Warda, Dylan J. Richardsa,†, Hai Yaoa, Michael J. 
+Yostb,c, Ying Meia,c,*
+aDepartment of Bioengineering, Clemson University, USA
+bDepartment of Surgery, Medical University of South Carolina, USA
+cDepartment of Regenerative Medicine and Cell Biology, Medical University of South Carolina, 
+USA
+Abstract
+Vascularizing printed tissues is a critical challenge in bioprinting. While protein-based hydrogel 
+bioinks have been successfully used to bioprint microvasculature, their compositions are ill-
+defined and subject to batch variation. Few studies have focused on engineering proangiogenic 
+bioinks with defined properties to direct endogenous microvascular network formation after 
+printing. Here, a peptide-functionalized alginate hydrogel bioink with defined mechanical, 
+rheological, and biochemical properties is developed for direct bioprinting of microvascularized 
+tissues. An integrin-binding peptide (RGD) and a vascular endothelial growth factor (VEGF)-
+mimetic peptide with a protease-sensitive linker (MMPQK) are conjugated onto biodegradable 
+alginate to synergistically promote vascular morphogenesis and capillary-scale endothelial tube 
+formation. Partial ionic crosslinking before printing converts the otherwise unprintable hydrogel 
+into a viscoelastic bioink with excellent printability and cytocompatibility. We use the bioink to 
+fabricate a compartmentalized vascularized tissue construct, wherein we observe pericyte-
+endothelial cell colocalization and angiogenic sprouting across a tissue interface, accompanied by 
+deposition of fibronectin and collagen in vascular and tissue components, respectively. This study 
+provides a tunable and translational “off-the-shelf” hydrogel bioink with defined composition for 
+vascularized bioprinting.
+Graphical Abstract
+*Corresponding Author : mei@clemson.edu. Phone: 843-876-2548.†Present Addresses  Immunology Translational Sciences, Janssen Research and Development, LLC, Spring House, PA, USA•School of Life Sciences, Shanghai University, Shanghai 200444, P. R. China‡Author Contributions
+These authors contributed equally to this manuscript. All authors have given approval to the final version of the manuscript.
+The authors declare no conflict of interest.
+Supporting Information
+The following files are available free of charge.
+• Binarized SEM images, additional rheological measurements, vascular morphogenesis and bioprinting images (PDF)
+• Video clip of drop-on-demand bioprinting process (WMV)
+HHS Public Access
+Author manuscript
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Published in final edited form as:
+Biomacromolecules . 2021 February 08; 22(2): 275–288. doi:10.1021/acs.biomac.0c00947.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptKeywords
+alginate; bioink; bioprinting; angiogenesis; vascularization
+INTRODUCTION
+Three-dimensional bioprinting provides a powerful platform to fabricate prevascularized 
+tissues and organs.1–4 Microvessels, such as arterioles, venules, and capillaries, primarily 
+regulate local blood-tissue nutrient exchange5 and play an essential role in supporting the 
+viability of bioprinted constructs.6 Printable biomaterials, or bioinks, are the “raw materials” 
+of bioprinting and have been used to print microvascular networks through direct and 
+indirect approaches. Significant progress has been made in the past decade to develop 
+sacrificial biomaterials and printing techniques for indirectly patterning vascular networks 
+within bioprinted constructs.7–9 However, networks made by indirect methods are often 
+>100 microns in diameter, making the approach less suitable for printing complex capillary 
+networks that range from 3 to 10 μm in diameter.10 Furthermore, the post-printing process 
+associated with removing fugitive materials and endothelializing the hollow networks is 
+complex and time-consuming.10–13 Direct bioprinting provides a powerful alternative 
+approach to fabricating microvasculature whereby cell-instructive bioinks are used to 
+promote endogenous self-assembly of endothelial cells into capillary networks.10 However, 
+this approach is currently limited by the low availability of bioinks tailored to promote 
+vasculogenesis while satisfying rheological and printability criteria.11, 13
+Hydrogels are excellent bioink candidates as they can mimic the biophysical and 
+biochemical properties of the extracellular matrix (ECM).14–17 Naturally derived hydrogels 
+such as fibrin18, collagen19, gelatin20, 21, and decellularized extracellular matrix (dECM)22 
+have been widely used for vascularized bioprinting due to their innate bioactivity. However, 
+the complex matrix characteristics of protein-derived biomaterials complicates fine-tuning of 
+their proangiogenic properties and makes their compositions subject to batch variation.
+13, 15, 23–26 Alternatively, synthetic and semisynthetic hydrogels can be chemically modified 
+with bioactive sites like ECM-mimetic peptides, immobilized signaling peptides, and 
+protease-sensitive crosslinkers for defined control over material properties and 
+microengineering of cell-material interactions.27–30 Alginate, a naturally derived Barrs et al. Page 2
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptpolysaccharide, is a popular synthetic ECM-mimetic biomaterial used in bioink formulations 
+due to its biocompatibility, low cost, and rapid gelation kinetics.31, 32 Native alginate is 
+bioinert, but can be modified with cell-adhesive peptides to tailor its bioactivity with 
+excellent precision and control.33 Furthermore, the biodegradability of alginates can be 
+controlled through partial oxidation of uronic acids in the polymer chain.34 Various other 
+physical and chemical modifications can be made to fine-tune the chemical and physical 
+properties of alginate hydrogels.35 These features make alginate an ideal canvas material for 
+developing chemically defined bioinks with requisite printability and cytocompatibility.
+Here, we developed an alginate-based hydrogel bioink for the direct fabrication of 
+microvascularized tissue constructs (Figure 1). To promote vascular morphogenesis, the 
+alginate was modified with RGD, an integrin-binding peptide for cell adhesion, and a 
+vascular endothelial growth factor (VEGF) mimetic peptide with a matrix metalloproteinase-
+cleavable linker (MMPQK) for on-demand sequestration by migratory cells. In a coculture 
+of human umbilical vein endothelial cells (HUVECs) and human adipose derived stem cells 
+(hADSCs), the alginates functionalized with both RGD and MMPQK significantly enhanced 
+vascular morphogenesis at day 7 compared to hydrogels with RGD or MMPQK alone. 
+Importantly, removing soluble VEGF from the culture media did not have a significant effect 
+on the observed vascular morphogenesis in RGD+MMPQK hydrogels, verifying the VEGF-
+mimetic nature of the MMPQK peptide. Remarkably, lumenized capillary-like networks 
+formed after 14 days of culture without laminar flow. To convert the alginates into a 
+printable bioink, a partial ionic crosslinking approach was employed, and the rheological 
+and printability properties of the partially crosslinked hydrogels were evaluated. As a proof-
+of-concept, the bioink was applied to fabricate a compartmentalized vascularized tissue unit 
+(VTU), which contained a vascular component (bioink with HUVECs and hADSCs) 
+surrounding avascular tissue components (bioink with human dermal fibroblasts).
+EXPERIMENTAL SECTION
+Materials.
+Sodium alginate was purchased from FMC BioPolymer (Philadelphia, PA). Amino acids and 
+resins were purchased from Protein Technologies, Inc. (Tucson, AZ). Ethylene glycol was 
+purchased from Fisher Scientific (Hamtpon, NH). Hexafluorophosphate Benzotriazole 
+Tetramethyl Uronium (HBTU) was purchased from Oakwood Chemical (Estill, SC). All 
+other materials were purchased from Sigma-Aldrich (St. Louis, MO) unless stated 
+otherwise.
+Oxidized alginate preparation.
+Oxidized alginate was prepared as described by Bouhadir and others.34 One gram of sodium 
+alginate powder was dissolved in 100 mL of distilled, deionized water. Sodium periodate 
+was added at room temperature to achieve a theoretical oxidation of 1% of uronic acid units. 
+The solution was stirred in the dark for 24 hours before being terminated with addition of 
+ethylene glycol. Sodium chloride (3g) was then dissolved in the solution. Oxidized alginate 
+was precipitated with addition of excess ethyl alcohol and centrifuged into a pellet. The Barrs et al. Page 3
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptsupernatant was discarded, and the precipitation was repeated. The oxidized alginate pellets 
+were frozen at −80°C overnight then lyophilized and stored at −20°C until use.
+Peptide synthesis and conjugation to oxidized alginate.
+Alkynyl-modified RGD peptides (Alkynyl-modified G 4RGDSP, M.W. = 895.89 kDa, 
+MOLDI-TOF = 896.33 kDa) and Alkynyl-modified MMPQK peptides (Alkynyl-modified 
+GPQGIAGKLTWQELYQLKYKGI, M.W. = 2628.04 kDa, half peak = 1315.00 kDa) were 
+synthesized through solid phase peptide synthesis (SPPS), purified through flash column, 
+and synthesis verified through liquid chromatography–mass spectrometry (LC-MS) on a 
+Thermo Fisher LCQ Fleet Ion Trap Mass Spectrometer. Later, the peptides were covalently 
+conjugated to oxidized alginate using orthogonal “click” chemistry. The degree of peptide 
+functionalization was examined by 1H-NMR on Bruker A V500-III spectrometers. The 
+characteristic peak of the proton on alginate backbone and the proton on the triazole were 
+compared to determine the degree of peptide conjugation. Peptide conjugation to alginate at 
+0.135 mmol/g (peptide/alginate powder) for RGDSP and 0.148 mmol/g (peptide/alginate 
+powder) for MMPQK were utilized for the rest of the experiments unless otherwise stated.
+Preparation of alkynyl-functionalized peptides.
+The peptides were prepared SPPS conducted using the standard procedure described in the 
+Novabiochem peptide synthesis manual. N-terminal unmodified peptides were cleaved from 
+resin right after the deprotection once reaching the designed sequences. Alkynyl 
+functionalization of peptides was carried out similarly to Zhang and Killian 36. Briefly, the 
+mixture of 1-ethyl-3-(3-dimethylaminopropyl)carbodiimide (EDC) (0.3 mmol), N-
+hydroxysuccinimide (NHS) (0.3 mmol) and 4-Oxo-4-(2-propynyloxy)butanoic acid (Matrix 
+Scientific, Columbia, SC) (0.3 mmol dissolved in DMF) was used to form the active NHS 
+ester to react with the terminal amine group of the peptide chain (0.1 mmol) before they 
+were cleaved from the resin. All the peptides were purified by flash column and 
+characterized by LC-MS.
+Preparation of azide-functionalized alginate.
+198 mg of oxidized alginate was dissolved in 50 mL DI water. The mixture of EDC (19.2 
+mg), NHS (11.5 mg) and 11-Azido-3,6,9-trioxaundecan-1-amine (21.8 mg) was added into 
+the alginate solution and the reaction was performed for 24 hours. After that, the alginate 
+was purified through ethanol precipitation. The alginate powder was obtained through 
+lyophilization for later usage.
+Conjugation of alkynyl-functionalized peptides onto alginate.
+Copper(I)-assisted alkyne-azide cycloaddition (CuAAC) “click” chemistry was conducted as 
+follows. 198 mg of azide-functionalized alginate was dissolved in 50 mL DI water. The 
+mixture of CuSO 4 (16 mg), ascorbic acid (88 mg), Tris(3-
+hydroxypropyltriazolylmethyl)amine (THPTA) (265 mg) and peptides (0.1 mmol) was 
+added into the alginate solution and the reaction was performed for 24 hours. After that, the 
+alginate was purified through ethanol precipitation and alginate powder was obtained 
+through lyophilization for later usage.Barrs et al. Page 4
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptHydrogel preparation and SEM analysis.
+Functionalized alginate hydrogels were prepared for scanning electron microscopy (SEM) 
+imaging through freeze drying, as described previously.37 Briefly, 60 μL of peptide-
+functionalized, 2% (w/v) alginate solution was pipetted onto 100 mM Ca2+-containing 
+gelatin substrates in a 24-well plate for crosslinking overnight at 4 °C. The calcium-gelatin 
+substrate was then melted in a 37 °C incubator for 15 minutes before being aspirated, and 
+the hydrogels were then frozen at −20 °C for 3 hours, followed by −80 °C for 24 hours, and 
+then lyophilized for at least 24 hours. The freeze-dried hydrogels were then gold sputter-
+coated at 20 milliamps for 20 seconds (Denton Vacuum Desk V) and microstructures were 
+observed in a scanning electron microscope (Hitachi S-3700N). SEM images at 200x 
+magnification were analyzed using ImageJ software38 with the DiameterJ plugin39. The 
+percentage of porosity of the hydrogels was quantified from three independent regions of 
+interest in each of three individual hydrogels. First, the images were binarized using a 
+statistical region-merging algorithm40, then the percentage of porosity was calculated from 
+the areas of black (pores) and white (scaffold) pixels within the binary images.
+Cell culture.
+RFP expressing human umbilical vein endothelial cells (RFP-HUVECs) (Angio-Proteomie, 
+Boston, MA) were maintained in complete Endothelial Cell Growth Medium 2 (EGM-2) 
+(PromoCell, Heidelberg, Germany) with 10% (v/v) Fetal Bovine Serum (FBS) and 1% 
+Penicillin-Streptomycin. hADSCs (Lonza, Walkersville, MD) were maintained in complete 
+ADSC Growth Medium (ADSCGM) (Lonza) with 10% (v/v) FBS and 1% gentamicin 
+sulfate. GFP expressing adult human dermal fibroblasts (GFP-hDFs) (Angio-Proteomie) 
+were maintained in complete Fibroblast Growth Medium 2 (FGM-2) (PromoCell) with 2% 
+FBS. All cells used were between passages 3–6.
+Hydrogel cell behavior studies and image analysis.
+Oxidized alginates functionalized with either RGD only, MMPQK only, or both RGD and 
+MMPQK were dissolved in culture medium (2:1 EGM-2:ADSCGM) at a concentration of 
+2% (w/v) alginate. Peptide concentration was 5% (w/w) of the alginate for each peptide. 
+RFP-HUVECs were either suspended alone or with hADSCs at a 2:1 ratio for a total cell 
+density of 5 million cells/mL in each alginate solution. Alginate solutions were pipetted as 
+hydrogel “dots” into the wells of a 96-well plate containing calcium-gelatin substrate for 30 
+minutes to allow for complete gelation. The plate was then placed in the incubator for 15 
+minutes to melt the gelatin substrate. The melted substrate was aspirated, the hydrogel was 
+rinsed with PBS, and fresh medium was added to the wells before returning the plate to the 
+incubator. Media was changed every 2–3 days until the hydrogels were taken for imaging. 
+For imaging, the hydrogels were placed onto glass slides in PBS to stay hydrated and RFP-
+HUVEC morphology was analyzed using a Leica TCS SP5 Confocal microscope or a Zeiss 
+Axiovert A1 Inverted Microscope and Zen 2011 software (Zeiss). Three hydrogel replicates 
+per group were imaged at random and processed with AngioTool41 as described in their 
+online manual to quantify vessel percentage area, average vessel length, and junction 
+density. For analyzing invasion depth in the Vascularized Tissue Unit after 7 days, sprouting 
+microvascular networks at the tissue bud interface were imaged using confocal microscopy. Barrs et al. Page 5
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptA Zeiss Axiovert A1 Inverted Microscope and Zen 2011 software (Zeiss) was used to image 
+vascular invasion at Day 14. The lengths of at least 3 sprouting networks were measured in 3 
+separate VTUs at Day 7 or 14 using ImageJ. For CD31 and NG2 cell imaging, structures 
+were fixed and stained with anti-CD31 (BD Pharmingen, 550389) and anti-NG2 antibody 
+(Abcam, ab129051) following the manufacturer’s protocol and imaged via confocal 
+microscopy. For ECM staining, the samples were fixed and stained with anti-fibronectin 
+(Abcam, ab45688) or anti-collagen I antibody (Abcam, ab34710) following the 
+manufacture’s protocol and imaged via confocal microscopy. The relative quantities of 
+secreted fibronectin and collagen were quantified and compared by measuring background-
+subtracted integrated density (n≥4) in the vascular and tissue components, respectively.
+Partial crosslinking of alginate.
+To prepare partially crosslinked alginates, stock solutions of calcium chloride dihydrate 
+dissolved in water were prepared at concentrations of 0, 5, 10, and 20, and 30 mM. The 
+stock solutions were slowly added to a 4% (w/v) alginate solution at a volume ratio of 1:1, 
+yielding 2% (w/v) alginate solutions containing 0, 5, 10, and 15 mM CaCl 2. The solutions 
+were vortexed for one minute and left in the refrigerator overnight to ensure homogenous 
+mixing.
+Rheological studies.
+Rheological measurements were performed using an AR-G2 rheometer (TA Instruments). 
+For characterization of peptide-functionalized hydrogels, an 8 mm standard steel parallel 
+plate geometry with a measurement gap of 1 mm was used. A dynamic oscillatory frequency 
+sweep from 0.5 to 100 rad/s at 1% strain was used to compare storage and loss modulus 
+between hydrogel groups. A solvent trap was used to keep gels hydrated during testing. For 
+characterization of partially crosslinked RGD and MMPQK-functionalized alginate 
+precursors, a 25 mm standard steel parallel plate geometry with a measurement gap of 500 
+μm was used. A shear rate ramp from 0.001 to 1000 (1/s) was used to evaluate the flow of 
+the solutions and find yield stress. A dynamic oscillatory frequency sweep from 0.1 to 10 Hz 
+at 1% strain was used to measure storage and loss modulus. All measurements were taken at 
+room temperature and a two-minute equilibration step was performed before each run.
+Printability studies.
+The capability of partially crosslinked alginate to successfully print a computer-designed 
+lattice structure was evaluated using a point-to-point fabrication method (detailed next 
+section). Alginate solutions were dyed with red food coloring for visualization. Cell 
+sedimentation in the partially crosslinked alginate was evaluated using glass pipette tips with 
+an agarose plug at the end. HUVECs and hADSCs were stained with Calcein-AM before 
+being suspended 2:1 in partially crosslinked alginate at a total density of 3 million cells/mL 
+and pipetted into the glass tips. The tips were left upright at room temperature for 3 hours 
+before being visualized with fluorescent microscopy. Cell viability was assessed in 
+hydrogels immediately post-printing using a LIVE/DEAD cell viability assay according to 
+the manufacturer’s instructions (Cat.# L3224, Thermofisher). To evaluate bioprinting 
+consistency, lattice structures were sequentially bioprinted (n = 4) with 15 mM partially 
+crosslinked bioink and the images of the structures were captured. The length (x-axis) and Barrs et al. Page 6
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptwidth (y-axis) at three different sections of each construct, as well as pore diameter, were 
+measured and compared among all the constructs to determine the repeatability and 
+consistency of printing using the partially crosslinked bioink. To evaluate printing accuracy 
+compared to a CAD model, a lattice structure was designed through Visual PathBuilder 
+software (Ratioserv). The printing was performed to fabricate the structures based on the 
+CAD design and after printing, the length (x-axis), width (y-axis) and pore diameter of the 
+printed structures were measured (n≥3) and compared to the original CAD design to 
+determine the relative percent accuracy according to the following equation: Percent 
+accuracy = 1- |( DCAD−Dprint)/DCAD|⋅100%, where DCAD and Dprint are the dimensions of 
+the CAD-designed construct and actual printed construct, respectively.
+Bioprinting process.
+All bioprinting in this study was performed on the Palmetto Printer - a fully automated, 
+piston-driven bioprinter at the Medical University of South Carolina. The Palmetto Printer 
+has three interchangeable dispensers, a temperature-controlled printing surface, and HEPA 
+filtration system. The bioprinter was sealed under positive pressure and sterilized with UV 
+light for at least 10 minutes before printing syringes were loaded. To fabricate a vascularized 
+tissue unit, two dispensers were used – one containing our vasculogenic bioink (vascular 
+component) and the other a fibroblast-containing bioink (tissue component). The 
+vasculogenic bioink contained alginate functionalized with 5% (w/w) RGD and MMPQK 
+peptides. The fibroblast-containing bioink was alginate functionalized with 5% (w/w) RGD 
+only. The bioinks were dissolved in cell culture media at 2% (w/v) concentration and 
+partially crosslinked as described in a previous section. To fabricate a heterogenous VTU, 
+RFP-HUVECs and hADSCs were suspended in the vasculogenic bioink in a 2:1 ratio (RFP-
+HUVEC:ADSC) at a total cell density of 5 million cells/mL. To fabricate a mixed VTU, 
+RFP-HUVECs, hADSCs, and GFP-hDFs were suspended in the vasculogenic bioink in a 
+2:1:1 ratio (RFP-HUVEC:ADSC:GFP-hDF) at a total cell density of 5 million cells/mL. For 
+both heterogenous and mixed VTUs, GFP-hDFs were loaded at a density of 2 million 
+cells/mL in the fibroblast-containing bioink. The cell-laden bioinks were loaded into sterile, 
+printer-compatible syringes with 20 ga. dispensing tips before being transported to the 
+bioprinter. Printing speed was 10 μL/sec and droplet volume was 230 nL A CaCl 2-
+containing substrate was maintained at 4°C on the printing plate to prevent the gelatin from 
+melting. A point-to-point method was used to print the Vascularized Tissue Unit construct. 
+First, the vasculogenic bioink was printed into a single-layer lattice construct by depositing 
+an outline of dots separated by 600 μm and then printing dots between the gaps of the 
+outline, allowing the dots to combine and make a cohesive structure. Fibroblasts were then 
+printed into the voids of the lattice with a second dispenser to form the tissue component 
+(~1.2 mm diameter). After printing was completed, the constructs were left to fully crosslink 
+on the CaCl 2-containing substrate for 15 minutes. Then, 4 mL of culture media was added, 
+and the petri dish was incubated at 37°C for 10 minutes to allow the gelatin substrate to 
+melt. The constructs were removed from the dish and individually placed into wells of a 12-
+well plate. The constructs were cultured in media containing 50% EGM-2, 25% ADSC-GM, 
+25% FGM-2, and 1% Penicillin Streptomycin (Pen Strep). Media was changed every other 
+day.Barrs et al. Page 7
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptCaCl2-containing gelatin substrate preparation for bioprinting.
+Porcine gelatin (3% wt.), sodium chloride (0.9% wt.), calcium chloride (100 mM), and 
+titanium dioxide (2% wt.) were added to distilled, deionized water, and boiled to dissolve the 
+gelatin. For cell behavior studies, the substrate was distributed into the wells of a 96-well 
+plate. For bioprinting, 5 mL aliquots were pipetted into standard petri dishes and left to 
+solidify overnight at 4°C. Addition of titanium dioxide increased the substrate’s opacity so 
+that position sensing lasers on the bioprinter could detect the printing surface.
+Statistical analysis.
+All variables were expressed as means ± standard deviations (S.D.). One-way ANOV A with 
+Tukey’s multiple comparisons test was used to compare percent porosity of functionalized 
+alginate hydrogels, vascular morphogenesis parameters between RGD+MMPQK, RGD 
+only, and MMPQK only hydrogels, yield stress and zero shear viscosity among partially 
+crosslinked alginate solutions, and construct dimensions among sequentially printed lattices. 
+A Student’s t-test was used to compare vascular morphogenesis with or without VEGF, 
+angiogenic sprouting from the strut and junction regions in the printed VTU, and ECM 
+deposition in the vascular and tissue components. Two-way ANOV A with Tukey’s multiple 
+comparisons test was used to compare storage and loss modulus among peptide-
+functionalized alginates. For all analyses, a value of p < 0.05 was considered statistically 
+significant.
+RESULTS AND DISCUSSION
+Vasculogenic hydrogel matrix design and synthesis.
+Native alginate is bioinert and non-degradable. In our previous work, we developed 
+strategies to engineer alginate as a cytocompatible, biodegradable bioink through cell-
+adhesive peptide modification and partial oxidization.42 To ensure a high conjugation 
+efficiency between the alginate and peptides, we utilized CuAAC “click” chemistry-
+mediated bioconjugation in this study (Figure 1A).
+In addition to RGDSP, which targets multiple integrins (e.g. αvβ3) involved in angiogenesis 
+and vascular development43, MMPQK peptides were used to further promote vascular 
+morphogenesis44–47 through cell-demanded release from the alginate matrix and binding of 
+VEGF receptors48–52 (Figure 1B, C). The inclusion of MMPQK was intended to mimic the 
+sequestration of matrix-bound VEGF via MMPs released from migratory endothelial cells, 
+which is essential for vascular patterning.53, 54 Together, these two peptide ligands were 
+selected for vasculogenic bioink development as the cross-activation between integrins (i.e. 
+αvβ3) and VEGF receptors in endothelial cells has been reported to synergistically induce 
+angiogenic signaling.55–57
+Chemical and physical characterization of peptide-functionalized alginate hydrogels.
+The success of conjugation between alginates and peptides was monitored by LC-MS. 
+Notably, there was no detectable peptide in the liquid residual after reaction, indicating the 
+completion of the conjugating reaction (Figure 2A). We further validated the degree of 
+peptide functionalization using 1H-NMR (Figure S1, Supporting Information), and found Barrs et al. Page 8
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptthat RGD and MMPQK peptides were successfully conjugated to alginate at 0.135 mmol/g 
+(peptide/alginate powder) and 0.148 mmol/g, respectively. As mechanical properties (e.g., 
+elasticity) of hydrogels have been shown to significantly affect vascular morphogenesis58, 59, 
+we examined the storage and loss modulus of 2% (w/v) peptide-functionalized alginates. We 
+found similar values across all conditions (Figure 2B), indicating the similar physical macro-
+environment of these hydrogels. Further, the microstructures of the peptide-functionalized 
+alginate hydrogels showed similar pore structures and porosity percentage values (Figure 
+2C) as calculated from binarized SEM images (Figure S2, Supporting Information). 
+Together, these data indicated that peptides were successfully conjugated to the alginate 
+matrices and that the hydrogels had similar mechanical and microstructural properties, 
+providing a controlled environment to study peptide effects on vascular morphology in 
+subsequent analyses.
+Vascular morphogenesis in functionalized alginate hydrogels.
+To examine the effects of RGD and MMPQK peptides on microvascular network formation, 
+RFP-expressing HUVECs and hADSCs were encapsulated in 2% (w/v) peptide-
+functionalized alginate hydrogels and cultured for 7 days. Vascular morphogenesis was 
+quantified by HUVEC fractional area, average vessels length, and junctions/mm2 (Figure 
+3A, B). All three metrics were significantly improved in the hydrogels functionalized with 
+both RGD and MMPQK peptides compared to hydrogels functionalized with either peptide 
+alone. These results support previous findings that coactivation of integrins and VEGF 
+receptors results in synergistic signaling that enhances vascular morphogenesis.55, 60–62 To 
+study the potential vasculogenic effects of soluble VEGF63 in the culture media, we 
+removed the VEGF supplement from the media. We found that removing VEGF from the 
+media led to insignificant changes in vascular morphogenesis in the RGD+MMPQK 
+hydrogels (Figure 3C, D). This suggests that the observed vascular network formation did 
+not rely on the soluble VEGF present in the culture media.
+Importantly, coculture with hADSCs was required for the formation of endothelial cord-like 
+networks (Figure 3A). Without hADSCs, vascular morphogenesis was severely limited and 
+HUVECs retained a round morphology after 7 days. These results agreed with previously 
+observed cooperation between hADSCs and endothelial cells during vasculogenesis.64, 65 
+Colocalization of HUVECs and hADSCs was observed at day 7 in co-culture (Figure S3, 
+Supporting Information), further indicating that hADSCs directly interacted with 
+microvascular networks.
+To analyze the maturation of microvascular networks formed in the 2% (w/v) RGD
++MMPQK functionalized alginate hydrogels, we extended the culture period. At day 14, 
+extensive microvascularization was observed within the hydrogels and HUVECs had 
+assembled into lumenized networks (Figure 3E). This was a significant observation given the 
+defined composition of the hydrogels and the static culture conditions. Hollow lumens were 
+found within these networks as evidenced by 3D reconstruction and, notably, the lumens had 
+a diameter of approximately 9 μm (Figure 3F), which falls within the range of capillaries.66 
+While some laser-based bioprinting techniques can fabricate channels of this scale, 
+endogenous capillary network formation facilitated by vasculogenic biomaterials is a more Barrs et al. Page 9
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptfacile, biomimetic approach for direct capillarization. We reason that in our alginate matrix, 
+HUVECs form lumenized networks by simultaneously binding to RGD peptides via αvβ3 
+integrins, and proteolytically demanding the release of MMPQK peptides throughout 
+migration as the hydrogel degrades through hydrolysis during culture. Interestingly, previous 
+literature has also highlighted similar required factors (integrin and VEGFR activation) for 
+vascular network formation in an engineered MMP-labile crosslinker composed hyaluronic 
+acid matrix.67
+Processing peptide-functionalized hydrogel precursors into a viscoelastic bioink via 
+partial crosslinking.
+The rheological properties of a bioink are directly correlated with its printability.17, 68–73 
+The 2% (w/v) alginate solution was initially not suitable for high fidelity bioprinting because 
+of its low viscosity (<1 Pa·s).42 Increasing the polymer concentration to raise the viscosity 
+was not appropriate as a concentration of only 4% (w/v) alginate inhibited network 
+formation (Figure S4, Supporting Information) and was still not viscous enough to print. To 
+improve the printability of the low-concentration alginate bioink, we employed a partial 
+ionic crosslinking approach to increase the viscosity of the alginate solutions. Gradually 
+adding aqueous calcium chloride (CaCl 2) to 4% (w/v) peptide-functionalized alginate at a 
+1:1 (v/v) ratio progressively crosslinked the alginate hydrogel precursor into a more viscous 
+solution, but not a fully solidified hydrogel (Figure 4A).
+We then used the partial crosslinking strategy to modify the rheological properties of the 
+peptide-functionalized alginate solutions, as these attributes (i.e. yield stress, shear thinning, 
+viscoelasticity) directly influence printability.73–75 Alginate solutions containing 0 mM or 5 
+mM CaCl 2 exhibited exceptionally low yield stress (<0.01 Pa) while the 10 mM and 15 mM 
+CaCl 2 crosslinked solutions exhibited non-linear pseudoplastic fluid behavior with 
+significantly higher yield stresses (Figure 4B, C). Since alginate exhibits non-Newtonian 
+fluid behavior, the Herschel-Bulkley model was used to calculate the yield stress of partially 
+crosslinked alginate solutions76 (Figure S5, Supporting Information). The 10 mM solution 
+had a yield stress of 1.7 ± 0.3 Pa, while the 15 mM solution was significantly higher at 5.3 ± 
+0.3 Pa (Figure 4C). The viscosity of the 15 mM solutions declined rapidly in a shear rate 
+sweep, exhibiting highly shear thinning behavior (Figure 4D). Based on the Cross model77, 
+the zero shear viscosity of the 15 mM solution (471.8 ± 43.73 Pa.s) was over an order of 
+magnitude greater than that of the 10 mM solution (15.63 ± 9.75 Pa.s) and more than two 
+orders of magnitude greater than that of the 0 and 5 mM solutions (both <1 Pa.s) (Figure 4E 
+and Figure S6, Supporting Information). Therefore, the viscosity of the 15 mM solution was 
+most suitable for bioprinting. The 15 mM CaCl 2 solution demonstrated stable viscoelastic 
+properties, as the storage modulus (G’) was larger than the loss modulus (G”) during a 
+frequency sweep from 0.1 to 10 Hz (Figure 4F). The 20 mM CaCl 2 crosslinked alginate was 
+not evaluated as it could not be loaded into a printing syringe due to complete gelation and, 
+therefore, would be incompatible with bioprinting. By partially crosslinking the alginate 
+hydrogel precursor with an optimal concentration of crosslinker before printing, we were 
+able to meet several major rheological criteria for printable bioinks without increasing 
+polymer concentration. Through the above optimization, we successfully formulated 
+alginate into a viscoelastic fluid which meets several major rheological criteria for printable Barrs et al. Page 10
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptbioinks without increasing polymer concentration. These results agree with previous reports 
+that have used partial crosslinking to improve the printability of low-concentration alginate 
+bioinks for tissue engineering.23, 78 However, we have reformed this strategy to improve the 
+printability of a proangiogenic hydrogel bioink for direct vascularized bioprinting.
+Printability of the partially crosslinked vasculogenic hydrogel bioink.
+Since the 2% (w/v) vasculogenic alginate solution partially crosslinked with 15 mM CaCl 2 
+was the most suitable candidate for bioprinting, we next evaluated its printability according 
+to several benchmarks. Since bioprinting complex tissues and organs may require hours-long 
+printing times, we firstly performed a sedimentation test with HUVECs and hADSCs to 
+evaluate the ability of the bioink candidate to keep these cells homogenously suspended for 
+a prolonged printing time (3 hours). Most of the cells in the non-partially crosslinked 
+alginate sank to the bottom of the reservoir after 3 hours, while cells remained 
+homogenously suspended in the partially crosslinked alginate (15 mM CaCl 2) (Figure 5A). 
+This demonstrated the capacity of the bioink to prevent sedimentation of encapsulated cells 
+over a 3-hour printing period, which is important since sedimentation during printing would 
+result in inhomogeneous cell deposition in the final construct. Importantly, most of the cells 
+were still viable after 3 hours, as indicated by the live-cell Calcein-AM staining used to label 
+the cells in the reservoir.
+When utilized to print a lattice structure in a drop-on-demand approach (Video S1, 
+Supporting Information), the partially crosslinked alginate (15 mM CaCl 2) successfully 
+printed a cohesive lattice, whereas a disconnected lattice was printed when using the non-
+partially crosslinked alginate (Figure 5B), which could be attributed to partially crosslinked 
+strategy significantly improving printing resolution (Figure 5C). A homogenous distribution 
+of cells was observed in the printed lattice structure using partially crosslinked alginate (15 
+mM CaCl 2) (Figure S7, Supporting Information), consistent with the results of the 
+sedimentation test. We further evaluated the printing consistency and accuracy of the 
+partially crosslinked bioink by sequentially printing lattice constructs and comparing their 
+dimensions amongst themselves as well as to the original CAD design. The mean print 
+accuracy was >90% for all construct dimensions (i.e. length, width, and pore size) compared 
+to the original CAD design (Figure 5D) and there was no significant difference in construct 
+dimensions among sequentially printed constructs (Figure 5E). Therefore, the partially 
+crosslinked bioink printed constructs with excellent repeatability and accuracy. In addition, 
+most cells (>90%) remained viable after printing (Figure 5F). This could be attributed to the 
+shear thinning properties of alginate-based hydrogels79, wherein the physically crosslinked 
+matrix undergoes a reversible gel-sol transition during extrusion, shielding suspended cells 
+from shear stresses at the nozzle orifice.80
+Combined with the outcomes of rheological tests, these results demonstrated that partially 
+crosslinking alginate hydrogel precursor provides an effective strategy to process low-
+viscosity vasculogenic hydrogels into printable bioinks for bioprinting microvascularized 
+tissues.Barrs et al. Page 11
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFabricating heterogenous vascularized tissue with the vasculogenic bioink.
+To validate the capacity of our bioink for direct printing of microvascularized tissues, we 
+fabricated a VTU, which is a heterogenous soft tissue construct composed of vascular and 
+tissue-specific components to mimic stromal and parenchymal elements of soft tissues.81, 82 
+Using a multi-nozzle bioprinter, the vascular component was printed first with our 
+vasculogenic bioink in a lattice structure. A second nozzle was then used to print tissue-
+specific “buds” within the voids of the lattice. For the tissue component, we used an RGD-
+functionalized bioink containing GFP-hDFs (Figure 6A). Dermal fibroblasts were used as a 
+proof-of-concept for the tissue component as they maintain the ECM in the dermis layer of 
+the skin and modulate wound healing.83
+After printing, the vascular and tissue components could be distinguished in a cohesive 
+structure under bright-field microscopy and cells appeared homogenously distributed in both 
+components (Figure 6B). After 7 days in culture, the vascular component contained 
+extensive microvascular networks in the strut and junction regions that sprouted into the 
+tissue component (Figure 6C, D). Importantly, the RGD+MMQPK bioink promoted greater 
+CD31+ fractional area coverage and average vessels length by RFP-HUVECs within the 
+vascular component compared to the RGD only bioink (Figure S8, Supporting Information), 
+indicating that the RGD+MMPQK bioink significantly promotes a vascular-specific 
+phenotype and function of endothelial cells compared to RGD-functionalized alginate, 
+which is a state-of-the-art peptide-functionalized alginate bioink for vascularized 
+bioprinting. The average invasion depth of microvasculature from the vascular component 
+(either from the junction part of the structure or from the strut part of the structure) into the 
+tissue component was around 200 μm at day 7 (Figure S9, Supporting Information). 
+Interestingly, NG2+ mural cells were found tightly colocalized with RFP-HUVECs in the 
+vascular component, indicating a pericyte-like functional role of hADSCs for vascular 
+development in the construct, consistent with previous literature84, 85 (Figure 6E).
+After extended culture for 14 days, average invasion depth from the vascular component into 
+the tissue component had tripled to around 650 μm (Figure S10, Supporting Information). 
+Remarkably, vascular invasion into the tissue component was only observed in a 
+heterogenous VTU construct, wherein dermal fibroblasts were printed only in the tissue 
+component and not in the vascular component. When dermal fibroblasts were printed in the 
+vascular component along with RFP-HUVECs and hADSCs (“mixed” VTU), we observed 
+no invasion into the tissue component (Figure S10, Supporting Information). This validated 
+the biomimetic design of the VTU with compartmentalized vascular components and tissue 
+components. This is also in agreement with a recent study that demonstrated enhanced 
+vascularization in a heterogenous, compartmentalized muscle tissue construct compared to a 
+homogenous, mixed construct.22 These results show that the RGD+MMPQK bioink can 
+effectively promote vascular network invasion at a heterogenous tissue interface.
+Additionally, we observed endogenous deposition of fibronectin, a key ECM protein 
+involved in blood vessel formation86, 87, in the vascular component of the VTU (Figure 7A). 
+Compared to the tissue component, there was significantly greater fibronectin deposition in 
+the vascular component (Figure 7B), indicating promotion of vascular-specific matrix 
+assembly by the RGD and MMPQK peptides. Compared to the deposition of fibronectin in Barrs et al. Page 12
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptthe vascular component, significantly more type I collagen was observed in tissue 
+components, indicating normal function of fibroblasts (Figure S11, Supporting Information).
+Collectively, these results not only provided in situ evidence of the ability of our bioink to 
+support vascular morphogenesis, but they also demonstrate the feasibility of designing 
+peptide-functionalized bioinks for direct fabrication of heterogenous microvascularized 
+tissue components. The bioink developed in this study could be applied in other multi-
+material or multi-nozzle techniques to print a variety of complex vascularized tissue-specific 
+constructs. The presently described VTU could have immediate applications in wound 
+healing or as a modular in vitro vascularized test bed for drug toxicity assays.88 However, 
+the bioink used to print the tissue component of the VTU needs to be further optimized to 
+accelerate vascular invasion from the vascular component, as portions of the tissue 
+component were still not vascularized at Days 7 and 14. Future studies could also explore 
+the feasibility of fabricating VTUs containing other parenchymal cell types in the tissue 
+component (ex. cardiomyocytes, hepatocytes, neurons, etc.) for vascularized organ-on-chip 
+models. For example, Hooper and others proposed using vascular-specific and neural-
+specific hydrogel bioinks to fabricate a neurovascular unit (NVU) that could be used to study 
+neurovascular function and dysfunction in vitro.89 The modularity of the VTU makes it a 
+conceivable platform for bottom-up manufacturing of vascularized soft tissues for various 
+tissue engineering applications, though in vivo studies are necessary to determine the 
+capacity of the VTU to anastomose with host vasculature.
+CONCLUSIONS
+In summary, a vasculogenic alginate hydrogel bioink with defined chemistry was developed 
+to recapitulate functional cues of the natural ECM and promote microvascular network 
+formation in bioprinted tissue constructs. Chemical modification with RGDSP and MMPQK 
+peptides provided a defined, tunable matrix for directly promoting endogenous 
+microvascularization and established a foundational biomaterial for subsequent processing 
+into an animal origin-free bioink engineered for bioprinting microvasculature.
+While the hydrogel precursor was initially not printable, converting the low-viscosity 
+solution into a printable bioink was accomplished with a partial crosslinking strategy, 
+avoiding the need to increase polymer concentration, which would impede vascular 
+morphogenesis. Furthermore, this strategy circumvented the need for blending with 
+chemically undefined biomaterials like gelatin or collagen, preserving the defined chemical 
+nature of our bioink matrix. By thoroughly characterizing rheological properties governing 
+bioprintability, we demonstrated that partial crosslinking of alginate hydrogels is a facile 
+approach to significantly improving the printability of low viscosity alginate bioinks. While 
+bio-inert partially crosslinked alginate has been used previously by Tabriz and others to print 
+alginate hydrogel structures with cells to demonstrate biocompatibility of the partial 
+crosslinking strategy78, this is, to the best of our knowledge, the first time partial 
+crosslinking has been employed to develop a bioactive, peptide-functionalized alginate 
+hydrogel bioink for printing heterogenous, vascularized soft tissue while satisfying 
+rheological and printability for bioprinting. Our bioink would be amenable to other robotic 
+dispensing methods, such as freeform reversible embedding of suspended hydrogels Barrs et al. Page 13
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript(FRESH)90 and coaxial extrusion for 3D fabrication of vascularized tissues. Furthermore, 
+our bioink could complement sacrificial bioprinting approaches to promote direct 
+capillarization of constructs with larger, perfusable macrovasculature.
+Future work will seek to optimize the tissue-specific bioink formulation, design of the VTU, 
+and bioprinting technique to achieve complete prevascularization of the bioprinted 
+constructs. These studies could also focus on using other peptides targeting multiple types of 
+integrin/growth factor receptors or combinatorial crosslinking strategies (e.g. physical and 
+chemical crosslinking strategies) to further tune the bioactivities of the alginate and reinforce 
+its mechanical properties, respectively. It is also feasible to design and fabricate VTUs 
+containing other tissue-specific cell types (e.g. cardiomyocytes, hepatocytes, neurons, etc.) 
+to recapitulate heterogenous vascularized tissue/organ components (e.g. heart, liver, brain, 
+etc.). The bioink developed here expands the availability of printable, chemically defined 
+proangiogenic bioink alternatives to protein-based hydrogels like collagen, gelatin, Matrigel, 
+etc. for vascularized bioprinting. The defined nature of the reported vasculogenic bioink 
+matrix makes it a promising, translational “off-the-shelf” bioink platform for robust 
+fabrication of microvasculature and direct microvascularization of bioprinted tissues.
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+ACKNOWLEDGEMENTS
+The authors would like to thank Sarah Grace Dennis Little for helping operate the bioprinter, Peng Chen for helping 
+with rheological characterization, and Aarti Shenoy for assistance with SEM imaging and analysis.
+Funding Sources
+This work was supported in part by the South Carolina Research Alliance (SCRA) grant “South Carolina National 
+Resource Center in Biomanufacturing”. It was also supported in part by the National Science Foundation EPSCoR 
+Program under NSF Award # OIA-1655740 and the National Institutes of Health (R01 HL133308, 8P20 
+GM103444). Any opinions, findings and conclusions or recommendations expressed in this material are those of 
+the author(s) and do not necessarily reflect those of the National Science Foundation.
+REFERENCES
+1. Richards D; Jia J; Yost M; Markwald R; Mei Y , 3D Bioprinting for Vascularized Tissue Fabrication. 
+Ann. Biomed. Eng 2017, 45, (1), 132–147. [PubMed: 27230253] 
+2. Datta P; Ayan B; Ozbolat IT, Bioprinting for vascular and vascularized tissue biofabrication. Acta 
+Biomater. 2017, 51, 1–20. [PubMed: 28087487] 
+3. Ozbolat IT, Bioprinting scale-up tissue and organ constructs for transplantation. Trends Biotechnol. 
+2015, 33, (7), 395–400. [PubMed: 25978871] 
+4. Murphy SV; Atala A, 3D bioprinting of tissues and organs. Nat. Biotechnol 2014, 32, (8), 773–85. 
+[PubMed: 25093879] 
+5. Segal SS, Regulation of blood flow in the microcirculation. Microcirculation 2005, 12, (1), 33–45. 
+[PubMed: 15804972] 
+6. Visconti RP; Kasyanov V; Gentile C; Zhang J; Markwald RR; Mironov V , Towards organ printing: 
+engineering an intra-organ branched vascular tree. Expert Opin. Biol. Ther 2010, 10, (3), 409–20. 
+[PubMed: 20132061] 
+7. Wu W; DeConinck A; Lewis JA, Omnidirectional Printing of 3D Microvascular Networks. Adv. 
+Mater 2011, 23, (24), H178–H183. [PubMed: 21438034] Barrs et al. Page 14
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript8. Miller JS; Stevens KR; Yang MT; Baker BM; Nguyen DH; Cohen DM; Toro E; Chen AA; Galie PA; 
+Yu X; Chaturvedi R; Bhatia SN; Chen CS, Rapid casting of patterned vascular networks for 
+perfusable engineered three-dimensional tissues. Nat. Mat 2012, 11, (9), 768–74.
+9. Kolesky DB; Homan KA; Skylar-Scott MA; Lewis JA, Three-dimensional bioprinting of thick 
+vascularized tissues. Proc. Natl. Acad. Sci. USA 2016, 113, (12), 3179–84. [PubMed: 26951646] 
+10. Ke D; Murphy SV , Current Challenges of Bioprinted Tissues Toward Clinical Translation. Tissue 
+Eng., Part B 2019, 25, (1), 1–13.
+11. Gungor-Ozkerim PS; Inci I; Zhang YS; Khademhosseini A; Dokmeci MR, Bioinks for 3D 
+bioprinting: an overview. Biomater. Sci 2018, 6, (5), 915–946. [PubMed: 29492503] 
+12. Ouyang L; Armstrong JPK; Chen Q; Lin Y; Stevens MM, V oid-Free 3D Bioprinting for In Situ 
+Endothelialization and Microfluidic Perfusion. Adv. Funct. Mater 2020, 30, (1), 1908349. 
+[PubMed: 33071714] 
+13. Barrs RW; Jia J; Silver SE; Yost M; Mei Y , Biomaterials for Bioprinting Microvasculature. Chem 
+Rev 2020, 120, (19), 10887–10949. [PubMed: 32867470] 
+14. Drury JL; Mooney DJ, Hydrogels for tissue engineering: scaffold design variables and 
+applications. Biomaterials 2003, 24, (24), 4337–51. [PubMed: 12922147] 
+15. Lutolf MP; Hubbell JA, Synthetic biomaterials as instructive extracellular microenvironments for 
+morphogenesis in tissue engineering. Nat. Biotechnol 2005, 23, (1), 47–55. [PubMed: 15637621] 
+16. Brandl F; Sommer F; Goepferich A, Rational design of hydrogels for tissue engineering: impact of 
+physical factors on cell behavior. Biomaterials 2007, 28, (2), 134–46. [PubMed: 17011028] 
+17. Malda J; Visser J; Melchels FP; Jungst T; Hennink WE; Dhert WJ; Groll J; Hutmacher DW, 25th 
+anniversary article: Engineering hydrogels for biofabrication. Adv. Mater 2013, 25, (36), 5011–28. 
+[PubMed: 24038336] 
+18. Cui X; Boland T, Human microvasculature fabrication using thermal inkjet printing technology. 
+Biomaterials 2009, 30, (31), 6221–7. [PubMed: 19695697] 
+19. Lee VK; Lanzi AM; Haygan N; Yoo SS; Vincent PA; Dai G, Generation of Multi-Scale Vascular 
+Network System within 3D Hydrogel using 3D Bio-Printing Technology. Cell Mol. Bioeng 2014, 
+7, (3), 460–472. [PubMed: 25484989] 
+20. Colosi C; Shin SR; Manoharan V; Massa S; Costantini M; Barbetta A; Dokmeci MR; Dentini M; 
+Khademhosseini A, Microfluidic Bioprinting of Heterogeneous 3D Tissue Constructs Using Low-
+Viscosity Bioink. Adv. Mater 2016, 28, (4), 677–84. [PubMed: 26606883] 
+21. Jia W; Gungor-Ozkerim PS; Zhang YS; Yue K; Zhu K; Liu W; Pi Q; Byambaa B; Dokmeci MR; 
+Shin SR; Khademhosseini A, Direct 3D bioprinting of perfusable vascular constructs using a blend 
+bioink. Biomaterials 2016, 106, 58–68. [PubMed: 27552316] 
+22. Choi YJ; Jun YJ; Kim DY; Yi HG; Chae SH; Kang J; Lee J; Gao G; Kong JS; Jang J; Chung WK; 
+Rhie JW; Cho DW, A 3D cell printed muscle construct with tissue-derived bioink for the treatment 
+of volumetric muscle loss. Biomaterials 2019, 206, 160–169. [PubMed: 30939408] 
+23. Pereira RF; Sousa A; Barrias CC; Bártolo PJ; Granja PL, A single-component hydrogel bioink for 
+bioprinting of bioengineered 3D constructs for dermal tissue engineering. Mater. Horiz 2018, 5, 
+(6), 1100–1111.
+24. Rosales AM; Anseth KS, The design of reversible hydrogels to capture extracellular matrix 
+dynamics. Nat. Rev. Mat 2016, 1, (2), 1–15.
+25. Jia J; Jeon EJ; Li M; Richards DJ; Lee S; Jung Y; Barrs RW; Coyle R; Li X; Chou JC; Yost MJ; 
+Gerecht S; Cho S-W; Mei Y , Evolutionarily conserved sequence motif analysis guides 
+development of chemically defined hydrogels for therapeutic vascularization. Sci. Adv 2020, 6, 
+(28), eaaz5894. [PubMed: 32923589] 
+26. Aisenbrey EA; Murphy WL, Synthetic alternatives to Matrigel. Nat. Rev. Mater 2020, 5, (7), 539–
+551. [PubMed: 32953138] 
+27. Unal AZ; West JL, Synthetic ECM: Bioactive Synthetic Hydrogels for 3D Tissue Engineering. 
+Bioconjug. Chem 2020, 31, (10), 2253–2271. [PubMed: 32786365] 
+28. Nicolas J; Magli S; Rabbachin L; Sampaolesi S; Nicotra F; Russo L, 3D Extracellular Matrix 
+Mimics: Fundamental Concepts and Role of Materials Chemistry to Influence Stem Cell Fate. 
+Biomacromolecules 2020, 21, (6), 1968–1994. [PubMed: 32227919] Barrs et al. Page 15
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript29. Teixeira SP; Domingues RM; Shevchuk M; Gomes ME; Peppas NA; Reis RL, Biomaterials for 
+sequestration of growth factors and modulation of cell behavior. Adv. Funct. Mater 2020, 30, 
+1909011.
+30. Lavrador P; Gaspar VM; Mano JF, Mechanochemical Patternable ECM ‐Mimetic Hydrogels for 
+Programmed Cell Orientation. Adv. Healthc. Mater 2020, 9, (10), 1901860.
+31. Rowley JA; Madlambayan G; Mooney DJ, Alginate hydrogels as synthetic extracellular matrix 
+materials. Biomaterials 1999, 20, (1), 45–53. [PubMed: 9916770] 
+32. Axpe E; Oyen ML, Applications of Alginate-Based Bioinks in 3D Bioprinting. Int. J. Mol. Sci 
+2016, 17, (12), 1976.
+33. Massia SP; Hubbell JA, Covalent surface immobilization of Arg-Gly-Asp- and Tyr-Ile-Gly-Ser-
+Arg-containing peptides to obtain well-defined cell-adhesive substrates. Anal. Biochem 1990, 187, 
+(2), 292–301. [PubMed: 2382830] 
+34. Bouhadir KH; Lee KY; Alsberg E; Damm KL; Anderson KW; Mooney DJ, Degradation of 
+partially oxidized alginate and its potential application for tissue engineering. Biotechnol. Prog 
+2001, 17, (5), 945–50. [PubMed: 11587588] 
+35. Augst AD; Kong HJ; Mooney DJ, Alginate hydrogels as biomaterials. Macromol. Biosci 2006, 6, 
+(8), 623–33. [PubMed: 16881042] 
+36. Zhang D; Kilian KA, Peptide microarrays for the discovery of bioactive surfaces that guide cellular 
+processes: a single step azide–alkyne “click” chemistry approach. J. Mater. Chem. B 2014, 2, (27), 
+4280–4288. [PubMed: 32261566] 
+37. Santana BP; Nedel F; Perelló Ferrúa C; Marques e Silva R; da Silva AF; Demarco FF; Lenin 
+Villarreal Carreño N, Comparing different methods to fix and to dehydrate cells on alginate 
+hydrogel scaffolds using scanning electron microscopy. Microsc. Res. Tech 2015, 78, (7), 553–61. 
+[PubMed: 25871651] 
+38. Schneider CA; Rasband WS; Eliceiri KW, NIH Image to ImageJ: 25 years of image analysis. Nat. 
+Methods 2012, 9, (7), 671–675. [PubMed: 22930834] 
+39. Hotaling NA; Bharti K; Kriel H; Simon CG Jr., DiameterJ: A validated open source nanofiber 
+diameter measurement tool. Biomaterials 2015, 61, 327–338. [PubMed: 26043061] 
+40. Nock R; Nielsen F, Statistical Region Merging. IEEE Trans. Pattern Anal. Mach. Intell 2004, 26, 
+(11), 1452–1458. [PubMed: 15521493] 
+41. Zudaire E; Gambardella L; Kurcz C; Vermeren S, A Computational Tool for Quantitative Analysis 
+of Vascular Networks. PLoS One 2011, 6, (11), e27385. [PubMed: 22110636] 
+42. Jia J; Richards DJ; Pollard S; Tan Y; Rodriguez J; Visconti RP; Trusk TC; Yost MJ; Yao H; 
+Markwald RR; Mei Y , Engineering alginate as bioink for bioprinting. Acta Biomater. 2014, 10, 
+(10), 4323–31. [PubMed: 24998183] 
+43. Brooks PC; Clark RA; Cheresh DA, Requirement of vascular integrin alpha v beta 3 for 
+angiogenesis. Science 1994, 264, (5158), 569–71. [PubMed: 7512751] 
+44. Wang L; Zhao M; Li S; Erasquin UJ; Wang H; Ren L; Chen C; Wang Y; Cai C, “Click” 
+immobilization of a VEGF-mimetic peptide on decellularized endothelial extracellular matrix to 
+enhance angiogenesis. ACS Appl. Mater. Interfaces 2014, 6, (11), 8401–6. [PubMed: 24749832] 
+45. Van Hove AH; Antonienko E; Burke K; Brown E 3rd; Benoit DS, Temporally tunable, 
+enzymatically responsive delivery of proangiogenic peptides from poly(ethylene glycol) 
+hydrogels. Adv. Healthc. Mater 2015, 4, (13), 2002–11. [PubMed: 26149620] 
+46. Su J; Satchell SC; Wertheim JA; Shah RN, Poly(ethylene glycol)-crosslinked gelatin hydrogel 
+substrates with conjugated bioactive peptides influence endothelial cell behavior. Biomaterials 
+2019, 201, 99–112. [PubMed: 30807988] 
+47. Leslie-Barbick JE; Saik JE; Gould DJ; Dickinson ME; West JL, The promotion of 
+microvasculature formation in poly(ethylene glycol) diacrylate hydrogels by an immobilized 
+VEGF-mimetic peptide. Biomaterials 2011, 32, (25), 5782–9. [PubMed: 21612821] 
+48. Ziaco B; Diana D; Capasso D; Palumbo R; Celentano V; Di Stasi R; Fattorusso R; D’Andrea LD, 
+C-terminal truncation of Vascular Endothelial Growth Factor mimetic helical peptide preserves 
+structural and receptor binding properties. Biochem. Biophys. Res. Commun 2012, 424, (2), 290–
+4. [PubMed: 22749999] Barrs et al. Page 16
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript49. D’Andrea LD; Iaccarino G; Fattorusso R; Sorriento D; Carannante C; Capasso D; Trimarco B; 
+Pedone C, Targeting angiogenesis: structural characterization and biological properties of a de 
+novo engineered VEGF mimicking peptide. Proc. Natl. Acad. Sci. USA 2005, 102, (40), 14215–
+20. [PubMed: 16186493] 
+50. Santulli G; Ciccarelli M; Palumbo G; Campanile A; Galasso G; Ziaco B; Altobelli GG; Cimini V; 
+Piscione F; D’Andrea LD; Pedone C; Trimarco B; Iaccarino G, In vivo properties of the 
+proangiogenic peptide QK. J Transl. Med 2009, 7, 41. [PubMed: 19505323] 
+51. Finetti F; Basile A; Capasso D; Di Gaetano S; Di Stasi R; Pascale M; Turco CM; Ziche M; 
+Morbidelli L; D’Andrea LD, Functional and pharmacological characterization of a VEGF mimetic 
+peptide on reparative angiogenesis. Biochem. Pharmacol 2012, 84, (3), 303–11. [PubMed: 
+22554565] 
+52. Di Stasi R; Diana D; Capasso D; Di Gaetano S; De Rosa L; Celentano V; Isernia C; Fattorusso R; 
+D’Andrea LD, VEGFR Recognition Interface of a Proangiogenic VEGF-Mimetic Peptide 
+Determined In Vitro and in the Presence of Endothelial Cells by NMR Spectroscopy. Chemistry 
+2018, 24, (44), 11461–11466. [PubMed: 29799174] 
+53. Lee S; Jilani SM; Nikolova GV; Carpizo D; Iruela-Arispe ML, Processing of VEGF-A by matrix 
+metalloproteinases regulates bioavailability and vascular patterning in tumors. J. Cell Biol 2005, 
+169, (4), 681–91. [PubMed: 15911882] 
+54. Mott JD; Werb Z, Regulation of matrix biology by matrix metalloproteinases. Curr. Opin. Cell Biol 
+2004, 16, (5), 558–64. [PubMed: 15363807] 
+55. Martino MM; Tortelli F; Mochizuki M; Traub S; Ben-David D; Kuhn GA; Müller R; Livne E; 
+Eming SA; Hubbell JA, Engineering the growth factor microenvironment with fibronectin domains 
+to promote wound and bone tissue healing. Sci. Transl. Med 2011, 3, (100), 100ra89–100ra89.
+56. Cai L; Dinh CB; Heilshorn SC, One-pot Synthesis of Elastin-like Polypeptide Hydrogels with 
+Grafted VEGF-Mimetic Peptides. Biomater. Sci 2014, 2, (5), 757–765. [PubMed: 24729868] 
+57. Moulisova V; Gonzalez-Garcia C; Cantini M; Rodrigo-Navarro A; Weaver J; Costell M; Sabater 
+ISR; Dalby MJ; Garcia AJ; Salmeron-Sanchez M, Engineered microenvironments for synergistic 
+VEGF - Integrin signalling during vascularization. Biomaterials 2017, 126, 61–74. [PubMed: 
+28279265] 
+58. Davis GE; Camarillo CW, Regulation of endothelial cell morphogenesis by integrins, mechanical 
+forces, and matrix guidance pathways. Exp. Cell. Res 1995, 216, (1), 113–23. [PubMed: 7813611] 
+59. Davis GE; Senger DR, Endothelial extracellular matrix: biosynthesis, remodeling, and functions 
+during vascular morphogenesis and neovessel stabilization. Circ. Res 2005, 97, (11), 1093–107. 
+[PubMed: 16306453] 
+60. Masson-Gadais B; Houle F; Laferriere J; Huot J, Integrin alphavbeta3, requirement for VEGFR2-
+mediated activation of SAPK2/p38 and for Hsp90-dependent phosphorylation of focal adhesion 
+kinase in endothelial cells activated by VEGF. Cell Stress Chaperones 2003, 8, (1), 37–52. 
+[PubMed: 12820653] 
+61. Mahabeleshwar GH; Feng W; Reddy K; Plow EF; Byzova TV , Mechanisms of integrin-vascular 
+endothelial growth factor receptor cross-activation in angiogenesis. Circ. Res 2007, 101, (6), 570–
+80. [PubMed: 17641225] 
+62. Somanath PR; Malinin NL; Byzova TV , Cooperation between integrin alphavbeta3 and VEGFR2 
+in angiogenesis. Angiogenesis 2009, 12, (2), 177–85. [PubMed: 19267251] 
+63. Ferrara N, The role of VEGF in the regulation of physiological and pathological angiogenesis In 
+Mechanisms of Angiogenesis, Clauss M; Breier G, Eds. Birkhäuser Basel: Basel, 2005; pp 209–
+231.
+64. Rohringer S; Hofbauer P; Schneider KH; Husa AM; Feichtinger G; Peterbauer-Scherb A; Redl H; 
+Holnthoner W, Mechanisms of vasculogenesis in 3D fibrin matrices mediated by the interaction of 
+adipose-derived stem cells and endothelial cells. Angiogenesis 2014, 17, (4), 921–33. [PubMed: 
+25086616] 
+65. Traktuev DO; Prater DN; Merfeld-Clauss S; Sanjeevaiah AR; Saadatzadeh MR; Murphy M; 
+Johnstone BH; Ingram DA; March KL, Robust functional vascular network formation in vivo by 
+cooperation of adipose progenitor and endothelial cells. Circ. Res 2009, 104, (12), 1410–20. 
+[PubMed: 19443841] Barrs et al. Page 17
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript66. Potter RF; Groom AC, Capillary diameter and geometry in cardiac and skeletal muscle studied by 
+means of corrosion casts. Microvasc. Res 1983, 25, (1), 68–84. [PubMed: 6835100] 
+67. Hanjaya-Putra D; Bose V; Shen YI; Yee J; Khetan S; Fox-Talbot K; Steenbergen C; Burdick JA; 
+Gerecht S, Controlled activation of morphogenesis to generate a functional human 
+microvasculature in a synthetic matrix. Blood 2011, 118, (3), 804–15. [PubMed: 21527523] 
+68. Zhao Y; Li Y; Mao S; Sun W; Yao R, The influence of printing parameters on cell survival rate and 
+printability in microextrusion-based 3D cell printing technology. Biofabrication 2015, 7, (4), 
+045002. [PubMed: 26523399] 
+69. Paxton N; Smolan W; Bock T; Melchels F; Groll J; Jungst T, Proposal to assess printability of 
+bioinks for extrusion-based bioprinting and evaluation of rheological properties governing 
+bioprintability. Biofabrication 2017, 9, (4), 044107. [PubMed: 28930091] 
+70. Dubbin K; Tabet A; Heilshorn SC, Quantitative criteria to benchmark new and existing bio-inks for 
+cell compatibility. Biofabrication 2017, 9, (4), 044102. [PubMed: 28812982] 
+71. Diamantides N; Wang L; Pruiksma T; Siemiatkoski J; Dugopolski C; Shortkroff S; Kennedy S; 
+Bonassar LJ, Correlating rheological properties and printability of collagen bioinks: the effects of 
+riboflavin photocrosslinking and pH. Biofabrication 2017, 9, (3), 034102. [PubMed: 28677597] 
+72. Gao T; Gillispie GJ; Copus JS; Pr AK; Seol YJ; Atala A; Yoo JJ; Lee SJ, Optimization of gelatin-
+alginate composite bioink printability using rheological parameters: a systematic approach. 
+Biofabrication 2018, 10, (3), 034106. [PubMed: 29923501] 
+73. Jungst T; Smolan W; Schacht K; Scheibel T; Groll J, Strategies and Molecular Design Criteria for 
+3D Printable Hydrogels. Chem. Rev 2016, 116, (3), 1496–539. [PubMed: 26492834] 
+74. Schwab A; Levato R; D’Este M; Piluso S; Eglin D; Malda J, Printability and Shape Fidelity of 
+Bioinks in 3D Bioprinting. Chem. Rev 2020, 120, (19), 11028–11055. [PubMed: 32856892] 
+75. Lee SC; Gillispie G; Prim P; Lee SJ, Physical and Chemical Factors Influencing the Printability of 
+Hydrogel-based Extrusion Bioinks. Chem. Rev 2020, 120, (19), 10834–10886. [PubMed: 
+32815369] 
+76. Sarker MA; Chen X, Modeling the Flow Behavior and Flow Rate of Medium Viscosity Alginate 
+for Scaffold Fabrication With a Three-Dimensional Bioplotter. J Manuf. Sci. Eng 2017, 139, (8), 
+081002.
+77. Cross MM, Rheology of non-Newtonian fluids: a new flow equation for pseudoplastic systems. J. 
+Colloid Interface Sci 1965, 20, (5), 417–437.
+78. Tabriz AG; Hermida MA; Leslie NR; Shu W, Three-dimensional bioprinting of complex cell laden 
+alginate hydrogel structures. Biofabrication 2015, 7, (4), 045012. [PubMed: 26689257] 
+79. Lee KY; Mooney DJ, Alginate: properties and biomedical applications. Prog. Polym. Sci 2012, 37, 
+(1), 106–126. [PubMed: 22125349] 
+80. Guvendiren M; Lu HD; Burdick JA, Shear-thinning hydrogels for biomedical applications. Soft 
+Matter 2012, 8, (2), 260–272.
+81. Scadden DT, Rethinking stroma: lessons from the blood. Cell Stem Cell 2012, 10, (6), 648–649. 
+[PubMed: 22704500] 
+82. Barros da Silva P; Coelho M; Bidarra SJ; Neves SC; Barrias CC, Reshaping in vitro Models of 
+Breast Tissue: Integration of Stromal and Parenchymal Compartments in 3D Printed Hydrogels. 
+Front. Bioeng. Biotech 2020, 8, 494.
+83. Stunova A; Vistejnova L, Dermal fibroblasts-A heterogeneous population with regulatory function 
+in wound healing. Cytokine Growth Factor Rev. 2018, 39, 137–150. [PubMed: 29395658] 
+84. Mendez JJ; Ghaedi M; Sivarapatna A; Dimitrievska S; Shao Z; Osuji CO; Steinbacher DM; Leffell 
+DJ; Niklason LE, Mesenchymal stromal cells form vascular tubes when placed in fibrin sealant 
+and accelerate wound healing in vivo. Biomaterials 2015, 40, 61–71. [PubMed: 25433608] 
+85. Sun Y; Chen S; Zhang X; Pei M, Significance of Cellular Cross-Talk in Stromal Vascular Fraction 
+of Adipose Tissue in Neovascularization. Arterioscler. Thromb. Vasc. Biol 2019, 39, (6), 1034–
+1044. [PubMed: 31018663] 
+86. Hielscher A; Ellis K; Qiu C; Porterfield J; Gerecht S, Fibronectin Deposition Participates in 
+Extracellular Matrix Assembly and Vascular Morphogenesis. PLoS One 2016, 11, (1), e0147600. 
+[PubMed: 26811931] Barrs et al. Page 18
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript87. Hynes RO, Cell-matrix adhesion in vascular development. J. Thromb. Haemost 2007, 5 Suppl 1, 
+32–40. [PubMed: 17635706] 
+88. Massa S; Sakr MA; Seo J; Bandaru P; Arneri A; Bersini S; Zare-Eelanjegh E; Jalilian E; Cha BH; 
+Antona S; Enrico A; Gao Y; Hassan S; Acevedo JP; Dokmeci MR; Zhang YS; Khademhosseini A; 
+Shin SR, Bioprinted 3D vascularized tissue model for drug toxicity analysis. Biomicrofluidics 
+2017, 11, (4), 044109. [PubMed: 28852429] 
+89. Potjewyd G; Moxon S; Wang T; Domingos M; Hooper NM, Tissue Engineering 3D Neurovascular 
+Units: A Biomaterials and Bioprinting Perspective. Trends Biotechnol. 2018, 36, (4), 457–472. 
+[PubMed: 29422410] 
+90. Hinton TJ; Jallerat Q; Palchesko RN; Park JH; Grodzicki MS; Shue HJ; Ramadan MH; Hudson 
+AR; Feinberg AW, Three-dimensional printing of complex biological structures by freeform 
+reversible embedding of suspended hydrogels. Sci. Adv 2015, 1, (9), e1500758. [PubMed: 
+26601312] Barrs et al. Page 19
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFigure 1. 
+Vasculogenic hydrogel matrix design. (A) Chemical schematic of functionalized alginate 
+synthesis via CuAAC chemistry. (B) Schematic illustration of functionalized alginate 
+synthesis with click-able integrin-binding and protease-sensitive VEGF receptor binding 
+peptides. (C) Schematic illustration of cell-matrix interactions and endogenous 
+vascularization within the alginate matrix.Barrs et al. Page 20
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFigure 2. 
+Characterization of peptide-functionalized alginate hydrogels. (A) LC and MS spectrum of 
+RGDSP peptide and CuAAC catalytic complex before and after Click conjugation to 
+alginate. Blue arrow indicates the corresponding peaks of THPTA (M.W.=434.25 kDa, 
+copper coordinating compound). Red arrow indicates the corresponding peaks of RGDSP 
+peptide (M.W.=896.36 kDa). (B) Storage and loss modulus of peptide-functionalized (2% 
+w/v) alginates measured by oscillatory frequency sweep from 0.1 to 10 Hz at 1% strain; n≥4 
+for each group; n.s. no significant difference. (C) Representative SEM images of peptide-Barrs et al. Page 21
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptfunctionalized alginate hydrogel microstructures and quantification of scaffold percent 
+porosity. Scale bars = 200 μm.Barrs et al. Page 22
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFigure 3. 
+Vascular morphogenesis in peptide-functionalized alginate hydrogels. (A) Representative 
+day 7 images of RFP-HUVECs cultured with or without ADSCs in 2% (w/v) peptide-
+functionalized alginates. (B) The quantification of vascular morphogenesis at day 7, n≥4 for 
+each group (* p <0.05, ** p <0.01, n.s. not significant). (C) Representative day 7 images of 
+microvascular networks in RGD+MMPQK hydrogels (2:1 HUVEC:ADSC coculture) with 
+or without VEGF in the culture media. (D) Quantification of vascular morphogenesis with or 
+without VEGF, n≥4 for each group. (E) Microvascularization at day 14 in 2% (w/v) alginates Barrs et al. Page 23
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptfunctionalized with RGD and MMPQK. (F) 3D reconstruction and ortho-slices showing a 
+lumenized (*) endothelial tube.Barrs et al. Page 24
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFigure 4. 
+Tuning the rheological properties of alginate hydrogel precursors via partial ionic 
+crosslinking. (A) Increasing concentrations of CaCl 2 (0–20 mM) were added to 2% (w/v) 
+alginate hydrogel precursors to yield progressively crosslinked solutions. (B) Flow curves 
+for shear stress as a function of shear rate for partially crosslinked alginate solutions, n≥3 for 
+each group. (C) Yield stress measurements of the partially crosslinked alginate solutions as 
+determined using the Herschel-Bulkley model. (D) Flow curves for viscosity as a function of 
+shear rate for partially crosslinked alginate solutions, n≥3 for each group. (E) Zero shear 
+viscosity measurements of the partially crosslinked alginate solutions as determined using 
+the Cross model. (F) Oscillatory rheological behavior of 15 mM solution, n≥3 for each 
+group (**** p <0.0001, significant difference from all groups).Barrs et al. Page 25
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFigure 5. 
+Printability of the partially crosslinked RGD+MMPQK alginate bioink. (A) Cell 
+sedimentation test in 2% (w/v) alginates that were or were not partially crosslinked with 15 
+mM CaCl 2. Scale bar = 200 micrometers. (B) Lattice constructs printed with functionalized 
+alginate bioink using a point-to-point fabrication method with or without partial 
+crosslinking. (C) Resolution of printed hydrogel dots, n = 25 for each group (*** p<0.001). 
+(D) Relative print accuracy of construct dimensions compared to the original dimensions of 
+the CAD design. (E) Representative image of a printed construct and quantification of print 
+consistency in four consecutively printed lattices. n.s. not significant. (F) Live/Dead assay 
+immediately post-print and quantification of live cells in printed constructs. Cell viability in 
+three regions of interest (ROIs) in each of three printed constructs was evaluated.Barrs et al. Page 26
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFigure 6. 
+Fabricating a vascularized Tissue Unit (VTU) with partially crosslinked RGD+MMPQK 
+alginate bioink. (A) Conceptual design of the Vascularized Tissue Unit (VTU). (B) 
+Brightfield image of a bioprinted VTU (V , vascular components; T, tissue components). 
+Scale bars = 100 μm. (C) Representative images of edge region of the VTU at day 7: V , 
+vascular components; T, tissue components. Scale bars = 200 micrometers. (D) 
+Representative images of middle region of the VTU at day 7. Scale bars = 200 micrometers. 
+(E) Slices from a confocal z-stack show RFP-HUVECs colocalized with NG2+ cells in the 
+printed VTU after 7 days. At z=0 um, the nuclei of RFP-HUVECs (red arrows) can be seen. 
+At z=5 um and z=10 um, the nuclei are obscured by NG2+ cells, and the nuclei of NG2+ 
+cells can be seen with clarity at z=15 um (yellow arrow). Scale bars = 50 micrometers.Barrs et al. Page 27
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFigure 7. 
+ECM deposition in the vascular component of the printed VTU. (A) Fibronectin deposition 
+in the printed VTU after 7 days. (B) Relative fluorescence of fibronectin in vascular and 
+tissue components (** p< 0.01). Scale bars = 200 micrometers.Barrs et al. Page 28
+Biomacromolecules . Author manuscript; available in PMC 2022 February 08.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript

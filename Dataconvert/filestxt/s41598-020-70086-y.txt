@@ -1,0 +1,131 @@
+1
+Vol.:(0123456789) Scientific RepoRtS  |        (2020) 10:14023  | https://doi.org/10.1038/s41598-020-70086-y
+www.nature.com/scientificreports3D bioprinting of cells, tissues 
+and organs
+Madhuri Dey 1,2 & Ibrahim T. Ozbolat2,3,4,5*
+3D bioprinting has emerged as a promising new approach for fabricating complex biological 
+constructs in the field of tissue engineering and regenerative medicine. It aims to alleviate the hurdles of conventional tissue engineering methods by precise and controlled layer-by-layer assembly of 
+biomaterials in a desired 3D pattern. The 3D bioprinting of cells, tissues, and organs Collection 
+at Scientific Reports  brings together a myriad of studies portraying the capabilities of different 
+bioprinting modalities. This Collection amalgamates research aimed at 3D bioprinting organs for fulfilling demands of organ shortage, cell patterning for better tissue fabrication, and building better 
+disease models.
+The discovery of a 3D printer dates back to early 1980s when Charles Hull, an American engineer, built 
+the 1st 3D printer, capable of creating solid objects by following a computer-aided design (CAD). The printer deposited successive layers of an acrylic-based photopolymer which was then simultaneously 
+crosslinked by UV light, thus creating a solid 3D object. This simple technology, called stereolithography (SLA), revolutionized the additive manufacturing industry. Gradually, by the late 1990s, 3D printing made its appear -
+ance in healthcare where surgeons began 3D printing dental implants, custom prosthetics, and kidney bladders. Subsequently the term ‘3D bioprinting’ emerged where the material being printed, called ‘bioink’
+1, consisted of 
+living cells, biomaterials, or active biomolecules. Analogous to additive manufacturing, 3D bioprinting involves layer-by-layer deposition of bioink to create 3D structures, such as tissues and  organs
+2.
+3D bioprinting can be broadly categorized as either  extrusion3,  droplet4, or laser-based bioprinting. Extru-
+sion based bioprinting employs mechanical, pneumatic or solenoid dispenser systems to deposit bioinks in a continuous form of filaments, while droplet based bioprinting relies on the generation of bioink droplets by thermal, acoustic or electrical stimulation. Laser based bioprinting utilizes laser power to 3D print structures such as in SLA by a photopolymerization principle. It can also be used for precise positioning of cells such as 
+in laser direct-write and Laser Induced Forward Transfer (LIFT). The selection of “bioinks” for each of these 
+different bioprinting modalities usually varies based on the ink’s rheology, viscosity, crosslinking chemistry, and biocompatibility. Extrusion based bioprinting primarily requires shear thinning bioinks while droplet or inkjet bioprinting needs materials with low viscosity. Over the past few years, the design and synthesis of bioinks has evolved to meet the increasing needs of new bioprintable materials. Significant advancements have also been made to integrate secondary techniques accompanying the above-mentioned modalities of bioprinting. For exam-ple, creating 3D structures with low viscosity bioinks has always been a challenge. To overcome this issue, such bioinks can now be extruded in a granular support bath containing yield stress hydrogels which solidify around the extruded structure and prevent it from  collapsing
+5. Apart from organ printing, bioprinting is also being used 
+to fabricate in-vitro tissue models for drug screening, disease modelling, and several other in-vitro applications.
+The 3D bioprinting of cells, tissues and organs Collection at Scientific Reports  is dedicated to this field of 
+research. This collection clearly portrays the diverse applications of different bioprinting modalities and how they could be utilized for improving various aspects of healthcare. Kim et al. 3D printed a novel two-layered poly-
+caprolactone (PCL) -based tubular tracheal  graft
+6. This tracheal graft, seeded with induced pluripotent stem cell 
+(iPSC) -derived mesenchymal (MSCs) and chondrocyte stem cells supported the regeneration of tracheal mucosa 
+and cartilage in a rabbit model of a segmental tracheal defect. Galarraga et al. used a norbornene-modified hya-luronic acid (NorHA) macromer as a representative bioink for cartilage tissue  engineering
+7. Printed structures 
+containing MSCs, on long term culture, not only led to an increase in compressive moduli, but also expressed open
+EDITORIAL
+1Department of Chemistry, Penn State University, University Park, PA 16802, USA. 2The Huck Institutes of the 
+Life Sciences, Penn State University, University Park, PA 16802, USA. 3Engineering Science and Mechanics 
+Department, Penn State University, University Park, PA 16802, USA. 4Biomedical Engineering Department, Penn 
+State University, University Park, PA 16802, USA. 5Materials Research Institute, Penn State University, University 
+Park, PA 16802, USA. *email: ito1@psu.edu2
+Vol:.(1234567890) Scientific RepoRtS  |        (2020) 10:14023  | https://doi.org/10.1038/s41598-020-70086-y
+www.nature.com/scientificreports/biochemical content similar to native cartilage tissue. Vidal et al. used 3D printed customized calcium phosphate 
+scaffolds with and without a vascular pedicle to treat large bone defects in  sheep8. They used CT angioscan to 
+scan the entire defect site and subsequently 3D print a personalized scaffold to anatomically fit the defect site. A bioink comprising decellularized matrix from mucosal and muscular layers of native esophageal tissues was used by Nam et al. to mimic the microenvironment of native  esophagus
+9. Leucht et al. used gelatin based bioinks to 
+study vasculogenesis in a bone-like  microenvironment10. Kilian et al. used a calcium phosphate cement (CPC) 
+and an alginate-methylcellulose based bioink containing primary chondrocytes to mimic the different layers of osteochondral  tissue
+11.
+This special issue also contains three notable research articles on the patterning of cells—two utilizing acous-
+tics, and one, magnetism. Even though bioprinting enables the homogenous distribution of cells representing the macro-architectural properties, it lacks control of the tissue micro-architecture such as orientation of cells within the bioprinted constructs. Chansoria and Shirwaiker delved deep into the physics of ultrasound-assisted 
+bioprinting (UAB) that utilizes the acoustophoresis principle to align MG63 cells within single and multi-layered 
+extrusion-bioprinted alginate  constructs
+12. Cells were aligned both orthogonally and in parallel to the printed 
+filaments, thus mimicking cellular anisotropy in tissues such as ligaments, tendons, and cardiac muscle. Similarly, Sriphutkiat et al. used acoustic excitation to align skeletal myoblast cells (C2C12) and human umbilical vein endothelial cells (HUVECs) encapsulated in methacrylated gelatin (GelMA)  bioink
+13. Goranov et al. magneti -
+cally labelled MSCs and HUVECs, and aligned them in a magnetic scaffold to mimic vascularization of bone  constructs
+14.
+It is important to note that the applications of 3D bioprinting are not limited to organ printing. It also holds 
+great promise in less explored avenues, such as using scaffolds for drug delivery, studying disease mechanisms, or creating personalized medicines. In this Collection, Lee et al. 3D printed a rifampicin loaded PCL scaffold for possible treatment of  osteomyelitis
+15. Xu and coworkers 3D printed paracetamol containing PV A tablets 
+with three different geometries, each demonstrating different release profiles which could be tailored based on the patient’s  needs
+16. Further, Foresti et al. applied 5D additive manufacturing techniques to create personalized 
+models of patients’  pathology17. Ding, Illsley and Chang 3D bioprinted GelMA-based models to investigate the 
+trophoblast cell invasion phenomenon, enabling studies of key placental  functions18.
+Additionally, there are other notable articles in this Collection enumerating different aspects of bioprinting. 
+Afghah et al. used a Pluronic-nanoclay based composite support bath to bioprint representative structures, for 
+complex and hollow tissues, using cell laden alginate  hydrogel19. Zhao et al. developed a 3D printed hanging 
+drop dripper system for analyzing tumor spheroids in-situ20. Yumoto et al. performed RNA-seq analysis on 
+inkjet-printed cells to analyze the effect of bioprinting on gene  expression21. We would like to extend our utmost 
+gratitude and thank all the authors and reviewers who devoted their time and effort towards this 3D bioprinting 
+collection.
+Even though 3D bioprinting is advancing at a commendable rate with researchers trying to develop new 
+printing modalities as well as improve existing modalities, there still remains a multitude of challenges that need 
+to be overcome. Currently, a limited number of bioinks exist which are both bioprintable and which accurately 
+represent the tissue architecture needed to restore organ function post-printing. While bioinks made from natu -
+rally derived hydrogels are conducive to cell growth, synthetic hydrogels are mechanically robust. Thus, hybrid bioinks should be designed to amalgamate all these aspects. Moreover, the bioprinting process itself needs to be more cell-friendly. Shear stress applied to the cells during the printing process are detrimental to cell growth and might even alter the gene expression profiles. Stem cells, such as iPSCs, are sensitive to such physical forces and usually do not survive the printing process. As stem cell studies have mostly been performed on 2D environ-ments, there exists a lot of unknowns for a 3D stem cell culture. Effective techniques need to be developed for high throughput generation and bioprinting of  organoids
+22 for personalized drug testing and predictive disease 
+models. Additionally, vascularization of bioprinted constructs for proper nutrient exchange, as well as integra -
+tion of printed vasculature with host vasculature post organ implantation, is another major obstacle. Overall, 3D bioprinting is a rapidly evolving field of research with immense challenges, but tremendous potential to revolutionize modern medicine and healthcare.
+References
+ 1. Hospodiuk, M., Dey, M., Sosnoski, D. & Ozbolat, I. T. The bioink: a comprehensive review on bioprintable materials. Biotechnol. 
+Adv.  35, 217–239 (2017).
+ 2. Ozbolat, I. T. 3D Bioprinting: Fundamentals, Principles and Applications (Elsevier Inc., Amsterdam, 2016).
+ 3. Ozbolat, I. T. & Hospodiuk, M. Current advances and future perspectives in extrusion-based bioprinting. Biomaterials  76, 321–343 
+(2016).
+ 4. Gudapati, H., Dey, M. & Ozbolat, I. A comprehensive review on droplet-based bioprinting: past, present and future. Biomaterials  
+102, 20–42 (2016).
+ 5. Heo, D. N. et al. 3D bioprinting of carbohydrazide-modified gelatin into microparticle-suspended oxidized alginate for the fabrica-
+tion of complex-shaped tissue constructs. ACS Appl. Mater. Interfaces  12, 20295–20306 (2020).
+ 6. Kim, I. G. et al.  Transplantation of a 3D-printed tracheal graft combined with iPS cell-derived MSCs and chondrocytes. Sci. Rep.  
+10, 1–14 (2020).
+ 7. Galarraga, J. H., Kwon, M. Y . & Burdick, J. A. 3D bioprinting via an in situ crosslinking technique towards engineering cartilage 
+tissue. Sci. Rep. 9, 1–12 (2019).
+ 8. Vidal, L. et al. Regeneration of segmental defects in metatarsus of sheep with vascularized and customized 3D-printed calcium 
+phosphate scaffolds. Sci. Rep. 10, 1–11 (2020).3
+Vol.:(0123456789) Scientific RepoRtS  |        (2020) 10:14023  | https://doi.org/10.1038/s41598-020-70086-y
+www.nature.com/scientificreports/ 9. Nam, H. et al. Multi-layered free-form 3D cell-printed tubular construct with decellularized inner and outer esophageal tissue-
+derived bioinks. Sci. Rep. 10, 1–14 (2020).
+ 10. Leucht, A., Volz, A. C., Rogal, J., Borchers, K. & Kluger, P . J. Advanced gelatin-based vascularization bioinks for extrusion-based bioprinting of vascularized bone equivalents. Sci. Rep. 10, 1–15 (2020).
+ 11. Kilian, D. et al. 3D Bioprinting of osteochondral tissue substitutes-in vitro-chondrogenesis in multi-layered mineralized constructs. 
+Sci. Rep. https ://doi.org/10.1038/s4159  8-020-65050  -9 (2020).
+ 12. Chansoria, P . & Shirwaiker, R. Characterizing the process physics of ultrasound-assisted bioprinting. Sci. Rep https ://doi.
+org/10.1038/s4159  8-019-50449  -w (2019).
+ 13. Sriphutkiat, Y ., Kasetsirikul, S., Ketpun, D. & Zhou, Y . Cell alignment and accumulation using acoustic nozzle for bioprinting. Sci. Rep. 9, 1–12 (2019).
+ 14. Goranov, V . et al. 3D patterning of cells+in magnetic scaffolds for tissue engineering. Sci. Rep. https ://doi.org/10.1038/s4159 8-020-
+58738 -5  (2020).
+ 15. Lee, J. H. et al. Development of a heat labile antibiotic eluting 3D printed scaffold for the treatment of osteomyelitis. Sci. Rep.  10, 
+1–8 (2020).
+ 16. Xu, X., Zhao, J., Wang, M., Wang, L. & Y ang, J. 3D printed polyvinyl alcohol tablets with multiple release profiles. Sci. Rep.  https  
+://doi.org/10.1038/s4159  8-019-48921  -8 (2019).
+ 17. Foresti, R. et al. In-vivo vascular application via ultra-fast bioprinting for future 5D personalised nanomedicine. Sci. Rep. 10, 3205 
+(2020).
+ 18. Ding, H., Illsley, N. P . & Chang, R. C. 3D bioprinted GelMA based models for the study of trophoblast cell invasion. Sci. Rep. 9, 
+1–13 (2019).
+ 19. Afghah, F., Altunbek, M., Dikyol, C. & Koc, B. Preparation and characterization of nanoclay-hydrogel composite support-bath for bioprinting of complex structures. Sci. Rep.  10, 1–13 (2020).
+ 20. Zhao, L. et al. A 3D printed hanging drop dripper for tumor spheroids analysis without recovery. Sci. Rep. 9, 1–14 (2019).
+ 21. Yumoto, M. et al. Evaluation of the effects of cell-dispensing using an inkjet-based bioprinter on cell integrity by RNA-seq analysis. 
+Sci. Rep. 10, 1–10 (2020).
+ 22. Ayan, B. et al. Aspiration-assisted bioprinting for precise positioning of biologics. Sci. Adv.  6, eaaw5111 (2020).
+Author contributions
+M.D. wrote the manuscript. I.T.O. reviewed and edited the manuscript.
+Competing interests  
+The authors declare no competing interests.
+Correspondence and requests for materials should be addressed to I.T.O.
+Reprints and permissions information is available at www.nature.com/reprints.Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.
+Open Access  This article is licensed under a Creative Commons Attribution 4.0 International 
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or 
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the 
+Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons license and your intended use is not 
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creat  iveco  mmons .org/licen  ses/by/4.0/.
+© The Author(s) 2020

@@ -1,0 +1,681 @@
+Received: 7 November 2021 |Revised: 20 January 2022 |Accepted: 26 February 2022
+DOI: 10.1002/bit.28075
+ARTICLE
+Bioprinting small ‐diameter vascular vessel with endothelium
+and smooth muscle by the approach of two ‐step crosslinking
+process
+Qianheng Jin1,2|Guangzhe Jin2|Jihui Ju2|Lei Xu1,2|Linfeng Tang2|
+Yi Fu3|Ruixing Hou2|Anthony Atala1|Weixin Zhao1
+1Wake Forest Institute for Regenerative
+Medicine, Wake Forest University School of
+Medicine, Winston ‐Salem, North
+Carolina, USA
+2Department of Hand Surgery, Ruihua
+Affiliated Hospital of Soochow University,
+Suzhou, China
+3Department of Human Anatomy, Histology
+and Embryology, School of Biology and Basic
+Medical Sciences, Soochow University,
+Suzhou, China
+Correspondence
+Ruixing Hou, Department of Hand Surgery,
+Ruihua Affiliated Hospital of Soochow
+University, 215104 Suzhou, China.Email: hrx2020@suda.edu.cn
+Anthony Atala and Weixin Zhao, Wake Forest
+Institute for Regenerative Medicine, Wake
+Forest University School of Medicine,Winston ‐Salem, NC 27157, USA.
+Email: aatala@wakehealth.edu and
+wezhao@wakehealth.edu
+Funding information
+the National Natural Science Foundation of
+China, Grant/Award Number: 31900969;
+Suzhou Municipal Science and TechnologyBureau, Grant/Award Number: SYS2020071;
+Suzhou Science and Education for Healthy,
+Grant/Award Number: KJXW2019073; theGusu HealthTalent Training Project of Suzhou,
+Grant/Award Number: GSWS2019088Abstract
+Three ‐dimensional bioprinting shows great potential for autologous vascular grafts
+due to its simplicity, accuracy, and flexibility. The 6 ‐mm‐diameter vascular grafts are
+used in clinic. However, producing small ‐diameter vascular grafts are still an
+enormous challenge. Normally, sacrificial hydrogels are used as temporary lumen
+support to mold tubular structure which will affect the stability of the fabricated
+structure. In this study, we have developed a new bioprinting approach to fabricatingsmall ‐diameter vessel using two ‐step crosslinking process. The ¼ lumen wall of
+bioprinted gelatin mechacrylate (GelMA) flat structure was exposed to ultraviolet
+(UV) light briefly for gaining certain strength, while ¾ lumen wall showed as concave
+structure which remained uncrosslinked. Precrosslinked flat structure was merged
+towards the uncrosslinked concave structure. Two individual structures were
+combined tightly into an intact tubular structure after receiving more UV exposure
+time. Complicated tubular structures were constructed by these method. Notably,the GelMA ‐based bioink loaded with smooth muscle cells are bioprinted to form the
+outer layer of the tubular structure and human umbilical vein endothelial cells were
+seeded onto the inner surface of the tubular structure. A bionic vascular vessel with
+dual layers was fabricated successfully, and kept good viability and functionality.
+This study may provide a novel idea for fabricating biomimetic vascular network orother more complicated organs.
+KEYWORDS
+3D bioprinting, GelMA, small ‐diameter vascular vessel, tissue engineering, two ‐step
+crosslinking
+Biotechnol Bioeng . 2022;119:1673 –1684. wileyonlinelibrary.com/journal/bit |1673
+This is an open access article under the terms of the Creative Commons Attribution ‐NonCommercial License, which permits use, distribution and reproduction in any
+medium, provided the original work is properly cited and is not used for commercial purposes.
+© 2022 The Authors. Biotechnology and Bioengineering published by Wiley Periodicals LLC.Qianheng Jin and Guangzhe Jin contributed equally to this study.1|INTRODUCTION
+Cardiovascular diseases (CVDs) are considered the major cause of
+death world widely (Zoghbi et al., 2014 ). The main treatment
+methods include medical therapy, endovascular intervention, andsurgical transplantation (Buchanan et al., 2014 ). Autologous blood
+vascular transplantation remains to be the gold standard for surgical
+transplantation (Rodriguez et al., 2016 ). Although surgical technique
+continues to be improved, the success rate of autologous bloodvascular transplantation is only around 50% (de Vries et al., 2016 ).
+The reason for failure is the embolization of vessels due to the
+difference of diameter and mechanical properties between grafts andcardiovascular (Y. Zhang et al., 2017 ). Tissue ‐engineered vascular
+grafts (TEVGs) have been explored as potential candidate for the
+treatment of CVDs. TEVGs, larger than 6 mm, have been widely usedin cardiovascular surgery. However, due to the limitation of
+manufacturing technology, the construction of small ‐diameter blood
+vessels (SDBVs) grafts is still a challenge (Yamanaka et al., 2018 ).
+Most of the vessels are composed of three concentric layers:
+intima, media, and adventitia (Elliott & Gerecht, 2016 ; Nemeno ‐
+Guanzon et al., 2012 ). Intima is the innermost layer of vessels, which
+is consisted of a monolayer of endothe lial cells. It directly contacts the
+blood and is a barrier to prevent blood infiltration and thrombosis. The
+middle layer is composed of collagen I, c ollagen II, proteoglycan, elastin,
+and smooth muscle cells (SMCs). Smooth muscle and collagen arealigned in a spiral pattern which is conducive to maintaining the
+elasticity and structural support. The adventitia is composed of
+fibroblasts and a loose collagen structure, which can keep the vascularstructure intact and prevent tearing (Lesman et al., 2016 ;T o m a s i n a
+et al., 2019 ). There are many methods for making TEVGs, including
+electrospinning, phase separation, dissolution casting, and so on (Jinget al., 2015 ; Miller et al., 2012 ; Pattanaik et al., 2019 ;W a n ge ta l . , 2018 ).
+Those processes simulate blood vessels mostly in mechanical properties,
+which are still insufficien t in biological properties.
+Three ‐dimensional (3D) bioprinting, a newly developed technol-
+ogy that integrates digital modeling, electromechanical control,
+information control, biomaterials, and chemistry, can accurately
+locate the cells and biomaterials into the complex multiscale structureand simulate the complex tissue (Kolesky et al., 2016 ; Murphy &
+Atala, 2014 ). In the past decade, 3D bioprinting has been widely used
+in the field of vascular regenerative medicine (Hong et al., 2020 ;
+Kolesky et al., 2014 ). Rotary bioprinting is a convenient method.
+Fibrin ‐based vascular structures are fabricated through a new self ‐
+designed rotary 3D bioprinter. During 2 months of the cultures,mechanical strength and collagen deposition are observed and theburst pressure of the structure reaches 52% of human saphenous
+vein (Freeman et al., 2019 ). Yet, the structure constructed in this way
+is relatively immature, which cannot meet the complexity of naturalvessels. A heterogeneous bilayer bionic blood vessels with 2 cm
+length and 4 mm lumen diameter are bioprinted by vertical stacking
+method in one step. The dense inner layer containing humanumbilical vein endothelial cells (HUVECs) and the loose outer layer
+containing SMCs are formed by using the two separateconcentrations of gelatin methacrylate (GelMA) in different layers
+(Xu et al., 2020 ). The above research provides a theoretical possibility
+for us to create small ‐diameter vessels. However, there is also an
+obvious deficiency in this study. The construct is easy to collapse
+during the printing process due to the gravity of hydrogels, thus thelength and inner diameter of vessels are limited. Therefore, a new
+approach needs to be developed to overcome those shortcomings.
+Sacrificial hydrogels, such as agaro s e ,g e l a t i n ,a n dp l u r o n i cF 1 2 7a r e
+usually used to create complex tubular structure. Pluronic F127
+containing HUVECs and Ca2+is used as the coaxial inner layer, and
+catechol ‐functionalized, gelatin methac rylate (GelMA/C) containing
+SMCs is used as the coaxial outer layer. The GelMA/C undergoes rapidoxidative crosslinking in situ when touching the Ca
+2+during the printing
+process and a vascular structure with high tissue affinity, perfusability,
+and permeability is formed (Cui et al., 2019 ) .A g a r o s ei sa p p l i e da st h e
+temporary support of the scaffold and various vascular cell types are
+successfully self ‐assembled by a rapid prototyping bioprinting method
+to form a vessel construct with controllable diameter (Norotteet al., 2009 ). Although sacrificial hydro gels can be used as a support
+in the bioprinting process, each sacrifice hydrogel has its own
+disadvantages. Agarose has a melting point of 60 –70°C which will lead
+the cell destruction in the process of removal (Miller et al., 2012 ).
+Gelatin has poor mechanical property and cannot fulfill the support of
+complex structure. Due to good quality in printing and wonderful
+support property, pluronic F127 is used commonly. However, theconcentration of pluronic F127 used in the bioprinting needs to reach
+30% –40% which will lead the water moving out of the low
+concentration bioink due to osmotic pressure. Thus, the accuracy ofthe structures and the cell viabilities will be affected (Wu et al., 2011 ).
+We have developed a novel two ‐step crosslinking method for the
+fabrication of bilayer small ‐diameter vascular vessels, which could avoid
+the deficiency of sacrificial hydrogel and improve the accuracy of theprinting process. To achieve this p urpose, ¼ lumen wall of bioprinted
+GelMA ‐based flat structure was bioprinted and underwent a short ‐time
+UV light curing to obtain a certain str ength. Then, the flat structure can
+be turned to cover the concave structure made by uncrosslinked GelMA
+to build a tubular structure. The tubular structure was treated with long ‐
+time UV curing to make sure that the two independent parts could becombined firmly in the format. First, we studied the properties of
+GelMA bioink with different crossl inking time, and then evaluated the
+connectivity of the two ‐step crosslinking structure. Furthermore, we
+fabricated complex small ‐diameter vascular vessels with HUVECs and
+SMCs by the two ‐step crosslinking method. To the best of our
+knowledge, this study represents a new methodology for constructingcomplicated bionic vascular vessel.
+2|MATERIALS AND METHODS
+2.1 |Synthesis and identification of GelMA
+The GelMA was synthesized by the following procedure (Xu
+et al., 2020 ). The 8 g gelatin (type A, 300 bloom from porcine skin;1674 |
+JIN ET AL.Sigma ‐Aldrich) was dissolved in 50 ml 0.25 M carbonate ‐
+bicarbonate buffer with pH 9.2 for 1 h, and then 0.8 ml ofmethacrylic anhydride (MA) (Sigma ‐Aldrich) was slowly added into
+the gelatin solution. The mixture was allowed to react for 3 h under
+700 rpm stirring at 55°C. The reaction was terminated by theaddition of 80 ml Dulbecco's phosphate ‐buffered saline (DPBS),
+and the resulting solution was dialyzed in deionized (DI) water with
+12–14 kDa cutoff dialysis tubes at 37°C for 7 days. The DI water
+was changed every 12 h. The solution was filtered and cooled at−20°C for 1 h, −80°C for 2 h, lyophilized for 5 days, and stored at
+−20°C freezer until use.
+2.2 |1H‐nuclear magnetic resonance analysis
+GelMA was confirmed by1H‐nuclear magnetic resonance (1H‐NMR).
+The 30 mg/ml GelMA was dissolved in deuterium oxide (D 2O)
+(Sigma ‐Aldrich) at 40°C.1H‐NMR spectra were obtained by NMR
+spectroscopy with a single axis gradient at 400 MHz (1H‐NMR;
+Bruker). Gelatin was used as a control.
+2.3 |Determination of 2,4,6 ‐
+trinitrobenzenesulfonic acid
+The methacrylation degree of GelMA was measured by 2,4,6 ‐
+trinitrobenzenesulfonic acid (TNBS) (Sigma ‐Aldrich) assay. GelMA
+was dissolved in sodium bicarbonate solution (pH = 8.5, 0.1 M) toobtain a concentration of 200 μg/ml. The 250 μl of 0.01% (wt/vol)
+TNBS reaction solution was added to the sample solution and the
+reaction lasted for 2 h at 37°C. The reaction was terminated with250μl 10% sodium dodecyl sulfate and 125 μl 1 N hydrochloric
+acid (HCl). The 100 ml mixture was added into 96 ‐well plate
+and optical density (OD) was obtained by microplate reader
+(SpectraMax M5; Molecular) at 335 mm. Gelatin was used as a
+control.
+Degree of the methacrylation = (1 −OD of GelMA/OD of Gela-
+tin) × 100 (%).
+2.4 |Fourier ‐transform infrared spectroscopy
+analysis
+GelMA was dissolved in DPBS at a concentration of 50 mg/ml for 2 h
+at 37°C. After GelMA was completely dissolved, 1 m/v 2 ‐hydroxy ‐4ʹ‐
+(2‐hydroxyethoxy) −2‐methylpropiophenone (irgacure 2959; Sigma ‐
+Aldrich) was added. The mixture was crosslinked for 5, 10, 20, 40, 60,
+80, and 100 s with the wavelength of 365 mm and the intensity of200 mV/cm
+2in the individual samples. The samples were lyophilized
+and analyzed by Fourier ‐transform infrared spectroscopy (FTIR) ‐
+attenuated total reflectance spectroscopy (Frontier; PerkinElmer). Allsamples were scanned five times at 400 –4000 cm
+−1with a resolution
+of 4 cm−1. Gelatin was used as a control.2.5 |Preparation sample of GelMA solutions
+GelMA solutions consisted of 50 mg/ml GelMA, 30 mg/ml gelatin,
+3.5 mg/ml sodium hyaluronate (hyaluronic acid [HA]), 10% vol/vol
+glycerol, and 1% m/v Irgacure 2959 in DPBS water. Gelatin andglycerol could increase the printability and HA could increase the
+biocompatibility of GelMA hydrogel (Xu et al., 2020 ). The 500 µl
+mixture was cast in a mold and crosslinked for 5, 10, 20, 40, 60, 80,and 100 s under the UV light with a wavelength of 365 nm and theintensity of 200 mV/cm
+2to make a sample with 1.8 cm in diameter
+and 2 mm in thickness in the individual samples.
+2.6 |Rheological measurements
+The mechanical properties of GelMA with different crosslinking times
+were analyzed by using a discovery hybrid thermometer dhr ‐2 (TA
+Instruments). Frequency scanning was performed from 1 to 100 Hzwith 1% constant strain. Strain scanning was performed from 0.01%
+to 3% rad/s at an oscillation frequency of 1 Hz.
+2.7 |Swelling ratio and residual mass test
+GelMA samples with different crosslinking times were weighed as
+(Wo) and gently shaken in DPBS and DI water at 37°C for 2 days to
+remove the uncrosslinked GelMA. The swelling mass was recorded as
+(Ws) and the expanded samples were lyophilized to obtain themass (Wr)
+Swelling ratio = (Ws −Wr)/Wr × 100%,
+Residual ratio = Wr/(500 × 5%) × 100%.
+2.8 |Scanning electron microscopy
+The samples were placed in DI water at 37°C for 2 days, cooled at
+−80°C for 2 h, and then lyophilized. The cross section of the structure
+was sputter coated with gold at 15 mA for 2 min (EM Ace600; Leica)and observed under a scanning electron microscope (SEM; Flex
+SEM1000; Hitachi) at 10 kV. The diameters of different samples were
+analyzed using Image J.
+The 3D bionics vascular structure was fixed with 2.5% glutar-
+aldehyde (Sigma ‐Aldrich) at 4°C for 4 h after 7 days of culture. The
+structure was dehydrated with 30%, 50%, 70%, 80%, 90%, 95%, and100% ethanol for 20 min each. After replacing the ethanol with Co
+2
+by a critical point dryer (Leica; EM CPD 300) and coating with gold,
+the samples were observed by SEM.
+2.9 |Combination of two step crosslinking
+GelMA solution was added to one side of the mold (Figure 3a). After
+crosslinked for 10 s, the solution was added to the other side andJIN ET AL.
+ |1675crosslinked for 100 s to form a two ‐step crosslinked sample. GelMA
+solution was added to both sides of the mold and directly crosslinkedfor 100 s was used as one ‐step crosslinked sample as a control.
+Two‐step crosslinked and one ‐step crosslinked samples were
+loaded in Instron mechanical tester (Model 5533; Instron Corpora-tion), and tensile tests were conducted with a maximum value of 10 N
+load cell.
+Two ‐step crosslinked samples were observed by SEM to analyze
+the pore size and the integrity of connections.
+2.10 |Cell culture
+HUVECs (Lonza) were cultured in endothelial cell growth medium 2
+(EGM ‐2) (Lonza) and SMCs (Lonza) were cultured in SMC growth
+medium 2 (Promocell). Both media were added with 1% vol/vol
+penicillin and streptomycin and the cells were cultured at 37°C, 5%
+CO 2, and 95% relative humidity. The EGM ‐2 and SMC growth
+medium were mixed at 1:1 ratio for culturing the printed vascular
+structure, and the mixed medium was changed every 2 days. HUVECs
+and SMCs used in all experiments were in 4 –8 generations.
+2.11 |3D bioprinting of vascular structure
+3D bioprinting was conducted with a custom ‐made integrated tissue
+and organ printing. In brief, the printer had a X‐,Y‐, and Z‐stage
+controllers, a distributing pneumatic pressure control system foraccurately dispensing several materials within a single print. The
+bioprinter sat in a closed chamber under control temperature and
+humidity. It could deposit cell ‐laden hydrogels together with
+synthetic polymers and overcome the limitations on the size, shape,and structural integrity of single hydrogel prints and create
+customizable tissue.
+For printing our constructs, we added 5% GelMA solution into the
+syringe with the nozzle of 300 μm (Izumi). The flat structure and the
+concave structure were printed with the pressure of 100 kPa and the
+feed rate of 60 mm/min. We crosslinked the flat structure under UV lightfor 10 s to increase mechanical strength, then placed it on top of concave
+structure, and this integrated structure was crosslinked for 100 s to make
+the two individual structures combined unitedly (Figure 3e).
+The 10 × 10
+6SMCs were mixed into 5% GelMA solution, and then
+the cell ‐landen GelMA was bioprinted to fabricate the bionic vascular
+structure as described above. Before the seeding process, 50 μg/ml
+fibronectin (Invitrogen) solution was injected into the channel of thetubular construct to improve cell adhesion. The HUVECs suspension
+( 3 0×1 0
+6cell/ml) was slowly injected into the lumen by 10 µl
+mircropipet to ensure that the cell su spension fills the entire space of
+the lumen. Then, the structures were incubated at 37°C for 2 h and
+were flipped every 30 min to permit cell attachment on all sides of the
+lumen. Nonadherent cells were gently removed out of the lumen andthe structures were washed with DPBS for three times to maintain the
+patency of the lumen. A bionic sma ll blood vessel with a monolayer ofHUVECs and SMCs layer was completed after cultivation in the mixed
+medium for 7 days. (Freeman et al., 2019 ).
+2.12 |Cell viability and proliferation
+The cell viability was assessed using a LIVE/DEAD and Viability/
+cytotoxicity Kit (Invitrogen). Briefly, the vascular structure waswashed three times with DPBS, and then incubated at 0.5 μl/ml
+Calcein AM and 2 μl/ml ethidium homodimer for 45 min. Laser
+confocal microscopy (LSI; Leica) was used to observe the living and
+dead cells in the structure. Six random views were selected toevaluate the cell viability using Image J.
+Cell Counting Kit ‐8 (CCK ‐8; Sigma ‐Aldrich) was used to detect
+the cell proliferation in the vascular structure. These vascularstructures were transferred into a 24 ‐well plate. The 900 μl fresh
+medium and 100 μl CCK ‐8 solution were added. After incubated at
+37°C for 3 h, 100 μl solution was transferred into 96 ‐well plate and
+the ODs were read by spectramax M5 at 460 nm.
+2.13 |Histological and immunofluorescence
+analysis
+The vascular structures were fixed with 4% vol/vol para-
+formaldehyde after culture for 7 days and cut into 15 μm section
+with a cryostat (CM1950; Leica) at −20°C. Slices were stained with
+hematoxylin and eosin (H&E) and Masson's trichrome methods.Images were collected by light microscopy (DM4000b; Leica).
+For immunofluorescence staining , HUVECs were labeled with mouse
+anti‐human CD31 (1:50; Abcam) and SMCs were labeled with rabbit anti ‐
+human α‐s m o o t hm u s c l ea c t i n( α‐SMA) (1:200; Abcam). Alexa Fluor 488
+goat anti ‐mouse (1:500; Abcam) and Alexa Fluor 594 Donkey anti ‐rabbit
+(1:500; Abcam) were used as secondary antibodies. All the sections were
+counterstained with 4 ′,6‐diamidino ‐2‐phenylindole. Fluorescence images
+were obtained with a fluorescent microscope (Leica; DM8000). The
+sections without primary antibody staining were used as control.
+2.14 |Statistical analysis
+Data were processed by calculating means ± standard deviation.
+T‐test was used to assess the differences between groups. p< 0.05
+means significant difference (* p< 0.05; ** p< 0.01; *** p< 0.001; NS,
+not significant)
+3|RESULTS
+3.1 |Synthesis and identification of GelMA
+The amino groups on gelatin were partly replaced by methacrylic acid
+to form GelMA with crosslinking ability (Bahcecioglu et al., 2019 ). The1676 |
+JIN ET AL.synthetic GelMA was identified by1H‐NMR (Figure S1). The
+characteristic resonance peak of the methacrylic acid group(5.5–6 ppm) appeared in GelMA, which is missing in the control.
+The substitution degree of GelMA was assessed to be 79.3% ± 2.7%
+by TNBS (Figure 1).
+3.2 |The effect of crosslinking time on GelMA
+properties
+The number of double bonds in GelMA increased with increasing
+crosslinking time (Chen et al., 2012 ) (Figure 2a). Treated with
+different crosslinking time, GelMA showed different physical states.
+While the GelMA with only 5 s crosslinking time was changed from
+liquid to preliminary solid, which cannot maintain its shape for alonger time. However, samples with 10, 20, and 40 s crosslinking time
+maintained good shape (Figure 2b) lasting for a longer time.
+FTIR was used to identify the correlation peaks in GelMA with
+different crosslinking times. A peak at 1525 cm
+−1corresponded to
+C–N stretching and N –H bending; 1640 cm−1to O –H bonding;
+2922 cm−1to C –H stretching; and 3300 cm−1to O –H stretching.
+GelMA with different crosslinking times showed different peaks atthese positions (Dursun Usal et al., 2019 ). We evaluated the FTIR of
+gelatin, uncrosslinked GelMA, and GelMA with different crosslinking
+times. The peaks of the two amino groups at 1540 and 1640 cm
+−1in
+uncrosslinked GelMA were significantly increased compare with
+gelatin, which indicated that the amino groups in gelatin were
+successfully replaced by methacrylic acid. After UV irradiation fordifferent times, the two peaks gradually decreased. In addition, the
+–OH stretching vibrations at 3300 cm
+−1also decreased, which was
+related to the decrease of total –OH caused by UV curing (Figure 2c).GelMA with different crosslinking time was shaken in DI water at
+37°C for 2 days. The uncrosslinked GelMA was removed, and theremaining GelMA in the structure expanded which led to the pore
+size increasing (Figure 2d). The average pore sizes were
+292.2 ± 25.00 (5 s), 308.9 ± 23.53 (10 s), 175.8 ± 15.66 (20 s),85.06 ± 8.977 (40 s), and 82.07 ± 9.089 (100 s) (Figure 2e). Gelatin,
+glycerin, and HA contained in crosslinked GelMA bioink will not
+affect the pore sizes of the constructs (Figure S2).
+To characterize the physical properties of GelMA bioink with
+different crosslinking times, oscill atory rheological measurements were
+used. The storage modulus (G ʹ) and viscosity coefficient of GelMA bioink
+increased with the crosslinking time, while it kept steady when thecrosslinking time reached 40 s (Figure 2f,g). In a certain range, the storage
+modulus remained stable with changing of frequencies and strains, which
+indicated the structure of crosslinked GelMA was stable under the shearforce (Figure 2h,i). In addition, the storage modulus of GelMA bioink at
+each crosslinking time was much greater than the loss modulus which
+i n d i c a t e dt h a tc r o s s l i n k e dG e l M Aw a si nas o l i ds t a t e( F i g u r e 2j).
+GelMA bioink with different crosslinking times showed different
+swelling ratios in DPBS and DI water. GelMA's swelling ratio was
+23 times in DPBS with 5 and 10 s crosslinking times. With increasingof crosslinking time, the swelling ratio decreased. The swelling ratiowas 17.5 times with 20 s crosslinking time, and it was 15 times with
+40 s at which point it stabilized (Figure 2k). The swelling ratio was
+more remarkable in DI water. The swelling ratio was 400 times in 5and 10 s, 200 times with 20 s, and closed to 100 times with 40 s
+(Figure 2l). This trend indicated that an increased number of double
+bonds result in a more stable framework.
+The residual mass indicated the amount of residual GelMA in
+structure. With the increased of crosslinking time, residual mass
+increased gradually. The average residual masses obtained were
+FIGURE 1 Schematic showing the novel printing method to create a small ‐diameter tubular construct and the process of bioprinting a bionic
+vascular. GelMA, gelatin mechacrylate; HA, hyaluronic acid; HUVEC, human umbilical vein endothelial cellJIN ET AL.
+ |167768.47% ± 3.85% (5 s), 78.32% ± 1.72% (10 s), 85.77% ± 2.11% (20 s),
+88.90% ± 0.80% (40 s), 88.77% ± 2.22% (60 s), 80 s is 89.13% ± 0.09%
+(80 s), and 88.49% ± 1.58% (100 s) (Figure 2m).
+3.3 |Combination of two ‐step crosslinking
+approach
+Two‐step crosslinking resulted in substantial cohesion. Figure 3a
+showed that 10 s precrosslinked GelMA can be recrosslinked with the
+uncrosslinked GelMA bioink and for med a united combination. There
+was no sign of splitting at the combining site under the SEM observation(Figure 3b). In tensile loading, there was no significant difference in
+Young's modulus and tensile strain between structures formed by one ‐
+step and two ‐step crosslinking methods ( p> 0.05) (Figure 3c–e).
+3.4 |Fabrication of complicated tubular structures
+We used the two ‐step crosslinking approach to fabricating a tubular
+structure of GelMA. The method of two ‐step crosslinking toconstruct tubular structure was showed in Figure 3f. Figure 3g
+showed the tubular construct with different diameters (0.08 –0.2 mm
+in lumen diameter and 0.6 mm in wall thickness). A 6 mm long tubularconstruct was showed in Figure 3h. SEM showed that the tubular
+structure has good bonding properties (Figure 3i).
+Complicated designs demonstrated the advantages of two ‐step
+crosslinking method. We printed multiple curved tubular structure,
+branched tubular structure, circular tubular structure with single
+inlet/outlet, and several letters (Figure 4). Red inks were injected into
+these structures to show the connected channels within each
+structure and to demonstrate their integrity of fluid flow.
+3.5 |Cellular vessel structures
+The GelMA mixed with SMCs was used as the bioink for building
+vascular wall, while HUVECs were perfused into the inner vascular
+cavity to form a bionic barrier between the blood flow and
+vascular wall.
+The viabilities of SMCs and HUVECs in the vascular structure
+were analyzed by live/dead staining. The fluorescence images of 1, 4,
+FIGURE 2 The analysis of GelMA hydrogel with different crosslinking times. (a) Schematics of GelMA polymer structure connections with
+different crosslinking times. (b) Gross images of GelMA with different crosslinking time. (c) FTIR of GelMA, long ‐time crosslinking GelMA, and
+short ‐time crosslinking GelMA. (d) The SEM of the GelMA samples at 5, 10, 20, 40, and 60 s crosslinking time. (e) Pore size assessment of the
+GelMA samples at 5, 10, 20, 40, and 60 s crosslinking time (*** p< 0.001). Scale bar = 150 μm. (f, g) Storage modulus and complex viscosity of the
+GelMA samples at different crosslinking times. (h, i) The storage modulus of the GelMA samples at different crosslinking times varying withangular frequency and strain. (j) The comparison of storage modulus and loss modulus of the GelMA samples at 5, 10, 20, and 40 s crosslinkingtime. (k, l) The swelling ratio of the GelMA samples at different crosslinking times in DPBS and DI water. (m) The residual mass of the GelMAsamples at different crosslinking times ( n= 6). DI, deionized; DPBS, Dulbecco's phosphate ‐buffered saline; FTIR, Fourier ‐transform infrared
+spectroscopy; GelMA, gelatin mechacrylate; NS, not significant; SEM, scanning electron microscope1678 |
+JIN ET AL.and 7 days were obtained by confocal microscope. The cells were in
+granular state at the first day after printing. On the fourth day, thenumber of cells began to increase, and some cells began to expand in
+their shape. Most cells expanded and SMCs showed the long spindle
+shape in 7 days (Figure 5a). The cell survival rates were 93.64 ± 1.455
+(Day 1), 91.62 ± 2.070 (Day 4), and 95.62 ± 1.312 (Day 7). All the
+survival rates in the structures were more than 90% (Figure 5b). CCK ‐
+8 was used to analyze cell proliferation. The CCK ‐8 absorption values
+of HUVECs and SMCs on Days 0, 1, 4, and 7 were 0.110 ± 0.0138,0.110 ± 0.0068, 0.209 ± 0.0121, and 0.315 ± 0.0179, respectively
+(Figure 5c). Cells significantly proliferated in the vascular structures.
+H&E and Masson's trichrome staining were used for morpho-
+logical detection, and immunofluorescence was used for functional
+assessment. After 1 week of culture, spreading out SMCs were well
+distributed in the outer layer. HUVECs formed a monolayer cellcoverage on the inner lumen surface (Figure 5d,e). CD31 and
+α‐SMA immunofluorescence confirmed an inner endothelial layerand the outer smooth muscle layer from the vascular structure
+(Figure 6a).
+The morphology of the outer, middle, and inner layers of GelMA
+vascular construct were further observed by SEM. Interestingly, the
+SMCs in the outer layer and middle layer were spreading out andarranged linearly along the vertical direction of printing. The HUVECs
+in the inner layers attached tightly to the GelMA lumen surface and
+expanded to form a tight barrier evenly (Figure 6b).
+4|DISCUSSION
+Scientists have been rapidly developing tissue ‐engineered artificial
+blood vessels in the past decade, and used multiple ways to construct
+them (Morin et al., 2013 ). 3D bioprinting has become a research
+hotspot because of precision spatial control and uniform cell
+distribution (Hong et al., 2020 ). 3D bioprinting is a rapid prototyping
+FIGURE 3 The combining site of the samples with two ‐step crosslinking method and the appearance of tubular structure. (a) Gross image of
+the construct made by two ‐step crosslinking. Scale bar = 2 mm. (b) The SEM of the construct made by two ‐step crosslinking (the red arrow refers
+to the combining site). Scale bar = 200 μm. (c) The stress –strain curves of one ‐step crosslinking structure and two ‐step crosslinking structure.
+(n= 6). (d, e) The tensile strain and Young's modulus of one ‐step crosslinking structure and two ‐step crosslinking structure. ( n= 6). (f) The process
+of constructing a tubular structure. Scale bar = 2 mm. (g) The tubular structures with different diameter. (h) 6 cm length tubular structure. (i) SEMof tubular structure (the red arrow refers to the combining site). Scale bar = 200 μm. NS, not significant; SEM, scanning electron microscopeJIN ET AL.
+ |1679and additive manufacturing technology, which considers various
+design aspects such as imaging, modeling, printer selection, bioinkselection, culture conditions, and 3D structure (Murphy &
+Atala, 2014 ; Y. S. Zhang et al., 2018 ). However, there are still
+difficulties in the fabrication of complicated SDBVs. The medicalapplication of 3D printing technology is still limited, especially due to
+that available bioinks are not suitable for the most targeted
+applications. Printable materials with good biocompatibility tend tohave poor mechanical properties. During the printing process, the
+collapse of structure due to gravity is one of the common causes that
+lead to fabrication failure (Ozbolat & Hospodiuk, 2016 ).
+Normally, sacrificial hydrogels offer a temporary support in the
+fabrication of small ‐diameter vessels. But all sacrificial hydrogels have
+disadvantages (Bertassoni et al., 2014 ; Tocchio et al., 2015 ). There-
+fore, we developed a two ‐step crosslinking method to fabricate
+tunable structures. This method avoids the use of sacrificial hydrogels
+and produces a vessel structure with using single photocurable
+hydrogel —GelMA without using sacrificial hydrogels.
+Hydrogel, as a material for loading cells and supporting
+structures, is particularly important in 3D bioprinting (Hoelzl
+et al., 2016 ). An ideal hydrogel needs to have biological and
+mechanical properties close to its intended tissue and should be
+adaptable to the printing process. In addition, hydrogel structuresneed to facilitate cell proliferation and differentiation after bioprint-
+ing. Naturally derived hydrogels, including agarose, alginate, collagen,fibrin, gelatin, and HA, provide an effective growth environment for
+cells (Cui et al., 2017 ). However, these hydrogels lack sufficient
+mechanical strength to create the complicated 3D tubular structure.GelMA as a biocompatible polymer is produced by modified gelatin
+with MA, and is able to be crosslinked with UV light to obtain higher
+physical strength (Liu & Chan ‐Park, 2010 ). Our preliminary experi-
+ments showed that crosslinked GelMA hydrogel can be stacked up to
+20 printed layers. In this study, 5% (m/v) GelMA was used to
+fabricate the tubular structure. The pore size at this concentrationcould hold SMCs in the spot of 3D space, and was beneficial to the
+proliferation of the cells (Jeong et al., 2007 ). We compared the
+properties of GelMA solution with different curing time. AlthoughGelMA with 5 s crosslinking time could get semisolid immediately, itcould not keep its shape for a longer time. The MA group in GelMA
+will open continuously and form connectivity during the extension of
+crosslinking time. The storage modulus, viscosity coefficient, andresidual mass of GelMA will be increased, while the expansion radio
+will be decreased due to the process of crosslinking. With the
+crosslinking agent that we used in the study, 5% GelMA can achievecomplete crosslinked state basically under 40 s UV light with a
+wavelength of 365 nm and the intensity of 200 mV/cm
+2, and then it
+FIGURE 4 Three ‐dimensional complex tubular structure made by two ‐step crosslinking method. (a –c) Multiple curved, branched, and
+circular tubular structure with single inlet/outlet. (d) Printed letter with tubular structure. All structures were injected with a red ink for theapproval of good sealing and patency. Scale bar = 2 mm1680 |
+JIN ET AL.remains in a stable state with the extension of crosslinking time. The
+10 s crosslinking time for GelMA was chosen at the first crosslinkingstep to ensure the stability of the transfer structure, open the leastdouble bonds, and then lay a proper foundation for the second
+crosslinking step. In our results, two independent structures can be
+well connected with the 10 s as the first crosslinking step. Thecomparison of the structures fabricated by one ‐step and two ‐step
+method indicates that there is no obvious difference in micro-
+structure and mechanical properties. Moreover, the water absorptioncapacity of GelMA with 5 s and 10 s crosslinking time could reach
+400 times of its own mass in DI water, and its volume also expandsaccordingly. Therefore, the low degree of crosslinked GelMA was
+also a good swelling material to be applied in the research field oftissue engineering.
+Precrosslinking can enhance the physical property of photocur-
+able hydrogel. In the process of vertical bioprinting, the printed
+bottom GelMA bioink was partly crosslinked by continuous UV lightto avoid cell leakage and structure collapse (Xu et al., 2020 ). A user ‐
+defined, complexity cell ‐laden channel was fabricated by a sequential
+printing approach. The photocurable hydrogels were briefly exposedlayer ‐by‐layer to increase support performance. The sacrificial
+hydrogels were printed into the desired layer and fully crosslinked.
+FIGURE 5 Cell viability, proliferation, and histology of bionic vascular vessel. (a) Live/dead staining of bionic vascular vessel (Day 1, Day 4,
+and Day 7). Scale bar = 200 μm. (b) Cell viability of bionic vascular. (c) Cell proliferation by CCK ‐8 assay ( n=4 ,* * p< 0.01; *** p< 0.001). (d, e) The
+H&E staining and Masson staining. CCK ‐8, Cell Counting Kit ‐8; H&E, hematoxylin and eosin; NS, not significantJIN ET AL.
+ |1681With the removal of sacrificial hydrogels, precise and complex
+channels could be constructed (Ji et al., 2019 ). In our study, GelMA
+was made semisolid after first ‐step crosslinking process. The
+semisolid GelMA with required physical strength could be bonded
+tightly with uncrosslinked GelMA. The combination was receivedsecond ‐step crosslinking process which produced a longer UV
+exposure time. A bionic vascular vessel with small diameter was
+built successfully with using the two ‐step crosslinking method, which
+maintains consecutive tubular structure. The cross ‐section of printed
+tubular structure was quadrate. In our subsequent investigation, we
+will assemble two semicircle structures into a circular tubular
+structure by this method and construct bionic blood vessels thatare more in line with vascular anatomy and dynamics.Furthermore, this method might be not only suitable for vessels,
+but also for other complicated structures, such as hepatic sinusoid,nephron, and pulmonary alveoli. The hydrogel can be partly cured,
+and the two ‐step curing can integrate two independent parts into a
+whole. The two ‐step crosslinking method may be suitable to
+photocurable hydrogel with better mechanical properties and makestructures that are difficult to be formed by one ‐step crosslinking
+method. In addition, different kinds of photocuring materials
+containing double bonds may also be used with this two ‐step
+crosslinking method. In this way, we could make the connection
+between different tissues in bioprinting, such as the superior vena
+cava bioprinted by one photocuring material connects with the heartwhich is bioprinted by another photocuring material.
+FIGURE 6 Immunofluorescence and SEM of bionic vascular vessel. (a) Immunofluorescence of bionic vascular vessel (CD31, green;
+α‐SMA, red; DAPI, blue). (b) SEM of bionic vascular vessel. HUVECs attached on the intraluminal surface, and SMCs were distributed linearly
+within the wall of the structure. DAPI, 4 ′,6‐diamidino ‐2‐phenylindole; HUVEC, human umbilical vein endothelial cell; SEM, scanning electron
+microscope; SMC, smooth muscle cell; α‐SMA, α‐smooth muscle actin1682 |
+JIN ET AL.Human blood vascular vessel have three distinct layers: intima
+(endothelial cells), media (SMCs), and externa (fibroblasts) (Tomasinaet al., 2019 ). We created a small ‐diameter vascular structure ( Ø<6m m )
+with the spatial distribution of two different cells, which include
+bioprinted SMCs within bioink and subsequent perfusion of HUVECsinto the lumen space. SMCs could aggregate, spread out, and proliferate
+to form outer layer of the construct, and rich collagen area was found in
+that area. Perfused HUVECs formed the connected inner layer thatcovers entire intralumenal surface with dense junctions. The SMCs werelined longitudinally along the structure which may be caused by axial
+traction during printing. During the culture of bioprinted vessel
+structure, the previous inner square shape turned to smooth gradually,that has been reported in previously publication (Esch et al., 2011 ).
+Through this two ‐step crosslinking method, we have successfully
+bioprinted multiple complicated tubular structures and bionicsvessels with inner monolayer endothelium surrounded by outer layer
+SMCs. This new fabrication method for tissue engineering of small ‐
+diameter vessel might be applied in developing small blood vessel forclinical application. In addition, two ‐step crosslinking method could
+be adopted to create more complex structures that are implantable
+and functional for the alternative therapies.
+5|CONCLUSION
+We proposed a new approach to making small ‐diameter vessels with
+complicated patterns and spatial cell distribution. The two ‐step cross-
+linking method created a continuous connection between differentprinted parts and resulted an intact tubular structure with biological and
+mechanical advantages. We accomplished this method through the
+investigation of GelMA properties altered by crosslinking time and
+optimized by crosslinking process. We fabricated a small vessel thatpossesses printed outer layer of SMCs and perfused inner layer of
+HUVECs by using GelMA bioink and two ‐step crosslinking method. We
+also observed that the SMCs and HUVECs were proliferated, andfunctionalized during postprinting culture. Our study might provide a
+new fabrication method for the construction of small ‐diameter vessel
+with clinically relevant size and characteristics.
+ACKNOWLEDGMENTS
+This study was mainly supported by the translation grant from theState of North Carolina, USA, the National Natural Science
+Foundation of China (31900969), Suzhou Municipal Science and
+Technology Bureau (SYS2020071), Suzhou Science and Education forHealthy (KJXW2019073), and the Gusu Health Talent TrainingProject of Suzhou (GSWS2019088).
+CONFLICT OF INTERESTS
+The authors declare no conflict of interest.
+AUTHOR CONTRIBUTIONS
+Weixin Zhao and Anthony Atala con ceived and supervised the study.
+Weixin Zhao and Ruixin Hou design ed experiments. Qianheng Jinperformed experiments. Qianheng Jin and Guangzhe Jin wrote the
+manuscript. Weixin Zhao revised the manuscript. Guangzhe Jin, Jihui Ju,Lei Xu, Linfeng Tang, and Yi Fu ana lyzed data, and commented on the
+manuscript.
+DATA AVAILABILITY STATEMENT
+The data that support the findings of this study are available from the
+corresponding author upon reasonable request.
+ORCID
+Qianheng Jin
+http://orcid.org/0000-0001-5108-7992
+REFERENCES
+Bahcecioglu, G., Hasirci, N., Bilgen, B., & Hasirci, V. (2019). A 3D printed
+PCL/hydrogel construct with zone ‐specific biochemical composition
+mimicking that of the meniscus. Biofabrication ,11(2):025002.
+https://doi.org/10.1088/1758-5090/aaf707
+Bertassoni, L. E., Cecconi, M., Manoharan, V., Nikkhah, M., Hjortnaes, J.,
+Cristino, A. L., Barabaschi, G., Demarchi, D., Dokmeci, M. R., Yang, Y.,
+& Khademhosseini, A. (2014). Hydrogel bioprinted microchannel
+networks for vascularization of tissue engineering constructs. Lab on
+a Chip ,14(13), 2202 –2211. https://doi.org/10.1039/c4lc00030g
+Buchanan, G. L., Chieffo, A., Meliga, E., Mehran, R., Park, S. J., Onuma, Y.,
+Capranzano, P., Valgimigli, M., Narbute, I., Makkar, R. R.,
+Palacios, I. F., Kim, Y. H., Buszman, P. P., Chakravarty, T.,
+Sheiban, I., Naber, C., Margey, R., Agnihotri, A., Marra, S., …
+Colombo, A. (2014). Comparison of percutaneous coronaryintervention (with drug ‐eluting stents) versus coronary artery
+bypass grafting in women with severe narrowing of the left main
+coronary artery (from the Women ‐Drug ‐Eluting stent for LefT main
+coronary Artery disease Registry). American Journal of Cardiology ,
+113(8), 1348 –1355. https://doi.org/10.1016/j.amjcard.2014.01.409
+Chen, Y. C., Lin, R. Z., Qi, H., Yang, Y., Bae, H., Melero ‐Martin, J. M., &
+Khademhosseini, A. (2012). Functional human vascular network
+generated in photocrosslinkable gelatin methacrylate hydrogels.
+Advanced Functional Materials ,22(10), 2027 –2039. https://doi.org/
+10.1002/adfm.201101662
+Cui, H., Nowicki, M., Fisher, J. P., & Zhang, L. G. (2017). 3D bioprinting for
+organ regeneration. Advanced Healthcare Materials ,6(1):1601118.
+https://doi.org/10.1002/adhm.201601118
+Cui, H., Zhu, W., Huang, Y., Liu, C., Yu, Z. X., Nowicki, M., Miao, S.,
+Cheng, Y., Zhou, X., Lee, S. J., Zhou, Y., Wang, S., Mohiuddin, M.,Horvath, K., & Zhang, L. G. (2019). In vitro and in vivo evaluation of
+3D bioprinted small ‐diameter vasculature with smooth muscle and
+endothelium. Biofabrication ,12(1):015004. https://doi.org/10.1088/
+1758-5090/ab402c
+Dursun Usal, T., Yucel, D., & Hasirci, V. (2019). A novel GelMA ‐pHEMA
+hydrogel nerve guide for the treatment of peripheral nerve damages.
+International Journal of Biological Macromolecules ,121, 699 –706.
+https://doi.org/10.1016/j.ijbiomac.2018.10.060
+Elliott, M. B., & Gerecht, S. (2016). Three ‐dimensional culture of small ‐
+diameter vascular grafts. Journal of Materials Chemistry B: Materials for
+Biology and Medicine ,4(20), 3443 –3453. https://doi.org/10.1039/
+c6tb00024j
+Esch, M. B., Post, D. J., Shuler, M. L., & Stokol, T. (2011). Characterization
+of in vitro endothelial linings grown within microfluidic channels.Tissue Engineering. Part A ,17(23–24), 2965 –2971. https://doi.org/
+10.1089/ten.tea.2010.0371
+F r e e m a n ,S . ,R a m o s ,R . ,A l e x i sC h a n d o ,P . ,Z h o u ,L . ,R e e s e r ,K . ,J i n ,S . ,
+Soman, P., & Ye, K. (2019). A bioink blend for rotary 3D bioprintingtissue engineered small ‐diameter vascular constructs. Acta Biomaterialia ,
+95,1 5 2 –164. https://doi.org/10.1016/j.actbio.2019.06.052JIN ET AL.
+ |1683Hoelzl, K., Lin, S., Tytgat, L., Van Vlierb erghe, S., Gu, L., & Ovsianikov, A. (2016).
+Bioink properties before, during and after 3D bioprinting. Biofabrication ,
+8(3):032002. https://doi.org/10.1088/1758-5090/8/3/032002
+Hong, H., Seo, Y. B., Kim, D. Y., Lee, J. S., Lee, Y. J., Lee, H., Ajiteru, O.,
+Sultan, M. T., Lee, O. J., Kim, S. H., & Park, C. H. (2020). Digital light
+processing 3D printed silk fibroin hydrogel for cartilage tissueengineering. Biomaterials ,232, 119679. https://doi.org/10.1016/j.
+biomaterials.2019.119679
+Jeong, S. I., Kim, S. Y., Cho, S. K., Chong, M. S., Kim, K. S., Kim, H.,
+Lee, S. B., & Lee, Y. M. (2007). Tissue ‐engineered vascular grafts
+composed of marine collagen and PLGA fibers using pulsatileperfusion bioreactors. Biomaterials ,28(6), 1115 –1122. https://doi.
+org/10.1016/j.biomaterials.2006.10.025
+Ji, S., Almeida, E., & Guvendiren, M. (2019). 3D bioprinting of complex
+channels within cell ‐laden hydrogels. Acta Biomaterialia ,95,
+214–224. https://doi.org/10.1016/j.actbio.2019.02.038
+Jing, X., Mi, H. Y., Salick, M. R., Cordie, T. M., Peng, X. F., & Turng, L. S.
+(2015). Electrospinning thermoplastic polyurethane/graphene oxidescaffolds for small diameter vascular graft applications. Materials
+Science and Engineering C: Materials for Biological Applications ,49,
+40–50.https://doi.org/10.1016/j.msec.2014.12.060
+Kolesky, D. B., Homan, K. A., Skylar ‐Scott, M. A., & Lewis, J. A. (2016). Three ‐
+dimensional bioprinting of thick vascularized tissues. Proceedings of the
+National Academy of Sciences of the United States of America ,113(12),
+3179 –3184. https://doi.org/10.1073/pnas.1521342113
+Kolesky, D. B., Truby, R. L., Gladman, A. S., Busbee, T. A., Homan, K. A., &
+Lewis, J. A. (2014). 3D bioprinting of vascularized, heterogeneouscell‐laden tissue constructs. Advanced Materials ,26(19), 3124 –3130.
+https://doi.org/10.1002/adma.201305506
+Lesman, A., Rosenfeld, D., Landau, S., & Levenberg, S. (2016). Mechanical
+regulation of vascular network formation in engineered matrices.Advanced Drug Delivery Reviews ,96, 176 –182. https://doi.org/10.
+1016/j.addr.2015.07.005
+Liu, Y., & Chan ‐Park, M. B. (2010). A biomimetic hydrogel based on
+methacrylated dextran ‐graft ‐lysine and gelatin for 3D smooth
+muscle cell culture. Biomaterials ,31(6), 1158 –
+1170. https://doi.
+org/10.1016/j.biomaterials.2009.10.040
+Miller, J. S., Stevens, K. R., Yang, M. T., Baker, B. M., Nguyen, D. H.,
+C o h e n ,D .M . ,T o r o ,E . ,C h e n ,A .A . ,G a l i e ,P .A . ,Y u ,X . ,C h a t u r v e d i ,R . ,
+Bhatia, S. N., & Chen, C. S. (2012). Rapid casting of patterned vascularnetworks for perfusable engineered three ‐dimensional tissues. Nature
+Materials ,11(9), 768 –774. https://doi.org/10.1038/nmat3357
+Morin, K. T., Smith, A. O., Davis, G. E., & Tranquillo, R. T. (2013). Aligned
+human microvessels formed in 3D fibrin gel by constraint of gelcontraction. Microvascular Research ,90,1 2–22.https://doi.org/10.
+1016/j.mvr.2013.07.010
+Murphy, S. V., & Atala, A. (2014). 3D bioprinting of tissues and organs. Nature
+Biotechnology ,32(8), 773 –785. https://doi.org/10.1038/nbt.2958
+Nemeno ‐Guanzon, J. G., Lee, S., Berg, J. R., Jo, Y. H., Yeo, J. E., Nam, B. M.,
+Koh, Y. G., & Lee, J. I. (2012). Trends in tissue engineering for bloodvessels. Journal of Biomedicine and Biotechnology ,2012 , 956345.
+https://doi.org/10.1155/2012/956345
+Norotte, C., Marga, F. S., Niklason , L. E., & Forgacs, G. (2009). Scaffold ‐free
+vascular tissue engineering using bioprinting. Biomaterials ,30(30),
+5910 –5917. https://doi.org/10.1016/j. biomaterials.2009.06.034
+Ozbolat, I. T., & Hospodiuk, M. (2016). Current advances and future
+perspectives in extrusion ‐based bioprinting. Biomaterials ,76,
+321–343. https://doi.org/10.1016/j.biomaterials.2015.10.076
+Pattanaik, S., Arbra, C., Bainbridge, H., Dennis, S. G., Fann, S. A., &
+Yost, M. J. (2019). Vascular tissue engineering using scaffold ‐free
+prevascular endothelial ‐fibroblast constructs. BioResearch Open
+Access ,8(1), 1 –15.https://doi.org/10.1089/biores.2018.0039
+Rodriguez, A. E., Pavlovsky, H., & Del Pozo, J. F. (2016). Understanding the
+outcome of randomized trials with drug ‐eluting stents and coronary
+artery bypass graft in patients with multivessel disease: A review of a25‐year journey. Clinical Medicine Insights. Cardiology ,10, 195 –199.
+https://doi.org/10.4137/CMC.S40645
+Tocchio, A., Tamplenizza, M., Martello, F., Gerges, I., Rossi, E.,
+Argentiere, S., Rodighiero, S., Zhao, W., Milani, P., & Lenardi, C.
+(2015). Versatile fabrication of vascularizable scaffolds for large
+tissue engineering in bioreactor. Biomaterials ,45, 124 –131. https://
+doi.org/10.1016/j.biomaterials.2014.12.031
+Tomasina, C., Bodet, T., Mota, C., Moroni, L., & Camarero ‐Espinosa, S.
+(2019). Bioprinting vasculature: Materials, cells and emergent
+techniques. Materials (Basel) ,12(17):2701. https://doi.org/10.
+3390/ma12172701
+de Vries, M. R., Simons, K. H., Jukema, J. W., Braun, J., & Quax, P. H.
+(2016). Vein graft failure: From pathophysiology to clinicaloutcomes. Nature Reviews Cardiology ,13(8), 451 –470. https://doi.
+org/10.1038/nrcardio.2016.76
+Wang, W., Nie, W., Zhou, X., Feng, W., Chen, L., Zhang, Q., You, Z., Shi, Q.,
+Peng, C., & He, C. (2018). Fabrication of heterogeneous porousbilayered nanofibrous vascular grafts by two ‐step phase separation
+technique. Acta Biomaterialia ,79, 168 –181. https://doi.org/10.
+1016/j.actbio.2018.08.014
+Wu, W., DeConinck, A., & Lewis, J. A. (2011). Omnidirectional printing of
+3D microvascular networks. Advanced Materials ,23(24),
+H178 –H183. https://doi.org/10.1002/adma.201004625
+Xu, L., Varkey, M., Jorgensen, A., Ju, J., Jin, Q., Park, J. H., Fu, Y., Zhang, G.,
+Ke, D., Zhao, W., Hou, R., & Atala, A. (2020). Bioprinting smalldiameter blood vessel constructs with an endothelial and smoothmuscle cell bilayer in a single step. Biofabrication ,12(4):045012.
+https://doi.org/10.1088/1758-5090/aba2b6
+Yamanaka, H., Yamaoka, T., Mahara, A., Morimoto, N., & Suzuki, S. (2018).
+Tissue ‐engineered submillimeter ‐diameter vascular grafts for free
+flap survival in rat model. Biomaterials ,179, 156 –163. https://doi.
+org/10.1016/j.biomaterials.2018.06.022
+Zhang, Y., Li, X. S., Guex, A. G., Liu, S. S., Müller, E., Malini, R. I., Zhao, H. J.,
+Rottmar, M., Maniura ‐Weber, K., Rossi, R. M., & Spano, F. (2017). A
+compliant and biomimetic three ‐layered vascular graft for small
+blood vessels. Biofabrication ,9(2):025010. https://doi.org/10.1088/
+1758-5090/aa6bae
+Zhang, Y. S., Oklu, R., Dokmeci, M. R., & Khademhosseini, A. (2018).
+Three ‐dimensional bioprinting strategies for tissue engineering. Cold
+Spring Harbor Perspectives in Medicine ,8(2):a025718. https://doi.
+org/10.1101/cshperspect.a025718
+Zoghbi, W. A., Duncan, T., Antman, E., Barbosa, M., Champagne, B., Chen, D.,
+Gamra, H., Harold, J. G., Josephson, S., Komajda, M., Logstrup, S.,
+M a y o s i ,B .M . ,M w a n g i ,J . ,R a l s t o n ,J . ,S a c c o ,R .L . ,S i m ,K .H . ,Smith Jr., S. C., Vardas, P. E., & Wood, D. A. (2014). Sustainabledevelopment goals and the future of cardiovascular health: A statementfrom the Global Cardiovascular Disease Taskforce. Global Heart ,9(3),
+273–274. https://doi.org/10.1016/j.gheart.2014.09.003
+SUPPORTING INFORMATION
+Additional supporting information may be found in the online version
+of the article at the publisher ’s website.
+How to cite this article: Jin, Q., Jin, G., Ju, J., Xu, L., Tang, L.,
+Fu, Y., Hou, R., Atala, A., & Zhao, W. (2022). Bioprinting small ‐
+diameter vascular vessel with endothelium and smoothmuscle by the approach of two ‐step crosslinking process.
+Biotechnology and Bioengineering , 119, 1673 –1684.
+https://doi.org/10.1002/bit.280751684 |
+JIN ET AL.

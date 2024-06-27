@@ -1,0 +1,60 @@
+import requests
+import xml.etree.ElementTree as ET
+
+def search_pubmed(query, max_results=100):
+    base_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+    params = {
+        "db": "pubmed",
+        "term": query,
+        "retmax": max_results,
+        "usehistory": "y"
+    }
+    response = requests.get(base_url, params=params)
+    response.raise_for_status()
+    return response.text
+
+def fetch_details(id_list):
+    base_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
+    ids = ",".join(id_list)
+    params = {
+        "db": "pubmed",
+        "id": ids,
+        "retmode": "xml"
+    }
+    response = requests.get(base_url, params=params)
+    response.raise_for_status()
+    return response.text
+
+def parse_ids(xml_response):
+    root = ET.fromstring(xml_response)
+    id_list = [id_tag.text for id_tag in root.findall(".//Id")]
+    return id_list
+
+def parse_dois(xml_response):
+    root = ET.fromstring(xml_response)
+    dois = []
+    for docsum in root.findall(".//DocSum"):
+        doi = None
+        for item in docsum.findall("Item"):
+            if item.get("Name") == "DOI":
+                doi = item.text
+                break
+        if doi:
+            dois.append(doi)
+    return dois
+
+# Buscar artículos relacionados con bioprinting
+query = "bioprinting"
+search_results = search_pubmed(query)
+id_list = parse_ids(search_results)
+
+# Obtener detalles de los artículos
+details = fetch_details(id_list)
+dois = parse_dois(details)
+
+# Guardar DOIs en un archivo
+with open("dois.txt", "w") as f:
+    for doi in dois:
+        f.write(f"{doi}\n")
+
+print("DOIs saved to dois.txt")

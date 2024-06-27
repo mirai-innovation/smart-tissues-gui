@@ -1,0 +1,7 @@
+
+ sntsplit:
+A cell-laden hydrogel was prepared by  gently mixing cells in a concentration of 500,000 cells/ml into the 37 •C  warm hydrogel.
+ sntsplit:
+Immortalized mesenchymal stem cells (iMSCs) were encapsulated in a  hydrogel of 2% alginate and 8% gelatin in a concentration of 500,000  cells/ml.
+ sntsplit:
+The hydrogel contained 500,000 cells/ml and the samples  were incubated in vitro for up to 28 days.

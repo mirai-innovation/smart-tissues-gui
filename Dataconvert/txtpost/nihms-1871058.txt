@@ -1,0 +1,11 @@
+
+ sntsplit:
+The constructs were 3D bioprinted (using transfected or  non-transfected hMSCs at 5 million cells/mL loaded into the bioink) at a bioprinting  speed of 60 mm/min, a nozzle diameter of 410 μm and pneumatic pressure of 80 kPa.
+ sntsplit:
+The experiment was designed to include four major groups: i) negative control ( n=3), ii)  bioink+rBMSCs (5 million cells/ml) ( n=6), iii) bioink+rBMSCs(tPEI-pBMP-2) ( n=6) for  ex-situ delivery, and iv) bioink+PEI-pBMP-2 ( n=7) for in-situ delivery of plasmid particles.
+ sntsplit:
+For in-vitro evaluation, hMSCs were used at a  density of 5 million cells/mL in the bioink.
+ sntsplit:
+In this study, we used 5×106 rBMSCs per mL, where the cell encapsulation density for  hydrogels has been varied from 5 to 10 million cells/ml for bone tissue engineering [ 45].
+ sntsplit:
+For instance, among collagen constructs seeded with  6 × 105, 3 × 106, 3 × 107, and 1 × 108 cells/mL, a scaffold with cell density above 3  × 106 cells/mL revealed a significant decrease in break force when tensile testing was  performed immediately after compression at Day 10 [ 52].

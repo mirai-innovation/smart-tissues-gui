@@ -1,6 +1,13 @@
 import os
 import PyPDF2
 
+
+# Ruta de la carpeta que contiene los PDFs
+carpeta_pdf = 'Dataconvert\\DataPDF'
+
+# Ruta de la carpeta donde se guardarán los archivos TXT
+carpeta_txt = 'Dataconvert\\filestxt'
+
 def pdf_a_txt(pdf_path, txt_path):
     try:
         with open(pdf_path, 'rb') as pdf_file:
@@ -27,10 +34,5 @@ def convertir_pdfs_en_carpeta(carpeta_pdf, carpeta_txt):
             ruta_txt = os.path.join(carpeta_txt, nombre_txt)
             pdf_a_txt(ruta_pdf, ruta_txt)
 
-# Ruta de la carpeta que contiene los PDFs
-carpeta_pdf = 'Dataconvert\\DataPDF'
-
-# Ruta de la carpeta donde se guardarán los archivos TXT
-carpeta_txt = 'Dataconvert\\filestxt'
 
 convertir_pdfs_en_carpeta(carpeta_pdf, carpeta_txt)

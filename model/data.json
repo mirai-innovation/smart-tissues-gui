@@ -1,0 +1,1354 @@
+[
+      [
+         "\r\nBioink \r\nThe hydrogel was prepared by dissolving 4 w/v% alginate A1112- \r\n100G and 16 w/v% gelatin 39465-500G both from Sigma-Aldrich (St. \r\nLouis, United States) in PBS each.\r\n ",
+         {
+            "entities":[
+               [
+                  51,
+                  57,
+                  "QUANTITY1"
+               ],
+               [
+                  58,
+                  66,
+                  "COMPONENT 1"
+               ],
+               [
+                  85,
+                  92,
+                  "QUANTITY2"
+               ],
+               [
+                  93,
+                  100,
+                  "COMPONENT 2"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nBoth \r\nstock solutions were mixed 1:1 to result in a hydrogel with 2 w/v% \r\nalginate and 8 w/v% gelatin.\r\n ",
+         {
+            "entities":[
+               [
+                  69,
+                  75,
+                  "QUANTITY1"
+               ],
+               [
+                  78,
+                  86,
+                  "COMPONENT 1"
+               ],
+               [
+                  91,
+                  97,
+                  "QUANTITY2"
+               ],
+               [
+                  98,
+                  105,
+                  "COMPONENT 2"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nA cell-laden hydrogel was prepared by \r\ngently mixing cells in a concentration of 500,000 cells/ml into the 37 •C \r\nwarm hydrogel.\r\n ",
+         {
+            "entities":[
+               [
+                  84,
+                  100,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nImmortalized mesenchymal stem cells (iMSCs) were encapsulated in a \r\nhydrogel of 2% alginate and 8% gelatin in a concentration of 500,000 \r\ncells/ml.\r\n ",
+         {
+            "entities":[
+               [
+                  2,
+                  37,
+                  "TYPECELLS"
+               ],
+               [
+                  39,
+                  44,
+                  "TYPECELLS"
+               ],
+               [
+                  83,
+                  85,
+                  "QUANTITY1"
+               ],
+               [
+                  86,
+                  94,
+                  "COMPONENT 1"
+               ],
+               [
+                  99,
+                  101,
+                  "QUANTITY2"
+               ],
+               [
+                  102,
+                  109,
+                  "COMPONENT 2"
+               ],
+               [
+                  132,
+                  151,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nThe hydrogel contained 500,000 cells/ml and the samples \r\nwere incubated in vitro for up to 28 days.\r\n ",
+         {
+            "entities":[
+               [
+                  25,
+                  41,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nAfter printing four layers ofthe scaffold (0.35 mm thickness), the bioink (25 lL;\r\n1/C210\r\n6cells mL/C01encapsulated in alginate, 2% w/v)\r\nwas injected into the scaffold in the selected points\r\n(speed: 8 lL/s; 21 G nozzle).\r\n ",
+         {
+            "entities":[
+               [
+                  85,
+                  118,
+                  "CELLPERMILLION"
+               ],
+               [
+                  122,
+                  130,
+                  "COMPONENT 1"
+               ],
+               [
+                  132,
+                  134,
+                  "QUANTITY1"
+               ],
+               [
+                  135,
+                  138,
+                  "UNIT"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nHHSs were subject to a static condition without mechanical stimulation within 4 s in cell suspension (1 × 106cells/mL), or a cycle of compressionrecovery within 4 s at 80% strain in hBMSCs cell suspension (1 × 106cells/mL) under\r\na dynamic condition.\r\n ",
+         {
+            "entities":[
+               [
+                  106,
+                  119,
+                  "CELLPERMILLION"
+               ],
+               [
+                  184,
+                  195,
+                  "TYPECELLS"
+               ],
+               [
+                  210,
+                  223,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\ncSchematic diagram ( i),ﬂuorescence images ( ii) and quantitative analysis\r\n(iii) of cell loading into HHSs in hBMSCs cell suspension (1 × 10\r\n6cells/mL), which\r\nwere controlled by various compression strains (20%, 40%, 60% and 80%), n=5 ,\r\n*P= 0.0446 (20% and 40%), *** P=0 .\r\n ",
+         {
+            "entities":[
+               [
+                  113,
+                  124,
+                  "TYPECELLS"
+               ],
+               [
+                  137,
+                  154,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\ndSchematic diagram ( i),ﬂuorescence images ( ii)\r\nand quantitative analysis ( iii) of cell loading into HHSs in hBMSCs cell suspension(5 × 106cells/mL), which were controlled by number of cycles (1, 3, 5, and 10), n=8 ,\r\n***P< 0.001.\r\n ",
+         {
+            "entities":[
+               [
+                  114,
+                  120,
+                  "TYPECELLS"
+               ],
+               [
+                  137,
+                  152,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nThen, gelatin methacryloyl, Laponite nanoclay (BYK, Wesel),and N-acryloyl glycinamide (BD1188660, Bidepharm, China) were dis-solved in deionized water and adequately mixed at ﬁnal concentrations (w/v) of 12% gelatin methacryloyl, 10% Laponite nanocaly and 0%,4%, 8%, 12% N-acryloyl glycinamide to prepare the GLN0, GLN4, GLN8,and GLN12 hybrid inks, respectively.\r\n ",
+         {
+            "entities":[
+               [
+                  198,
+                  201,
+                  "UNIT"
+               ],
+               [
+                  206,
+                  209,
+                  "QUANTITY1"
+               ],
+               [
+                  210,
+                  230,
+                  "COMPONENT 1"
+               ],
+               [
+                  232,
+                  235,
+                  "QUANTITY2"
+               ],
+               [
+                  236,
+                  253,
+                  "COMPONENT 2"
+               ],
+               [
+                  258,
+                  272,
+                  "QUANTITY3"
+               ],
+               [
+                  273,
+                  295,
+                  "COMPONENT 3"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nSubsequently, the photoinitiator,\r\nphenyl-2,4,6-trimethylbenzoyl phosphate lithium (TCI, L0290) was\r\nadded to a ﬁnal concentration of 0.1% (w/v).\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nFirstly, two approaches were used: The ﬁrst one was\r\ndirect immersion of HHSs in hBMSCs cell suspension (1 × 106cells/mL)\r\nfor 4 s under a static condition; while the second one utilized acompression-recovery cycle in hBMSCs cell suspension under 80%\r\nstrain within 4 s ( V\r\n1-mechanical response).\r\n ",
+         {
+            "entities":[
+               [
+                  107,
+                  122,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nThe number of cells loaded into HHSs were quanti ﬁed by\r\nImageJ. Subsequently, the in ﬂuence of compression displacement\r\n(20%, 40%, 60%, and 80%) in hBMSCs cell suspension (1 × 10\r\n6cells/mL)\r\nand cycle times (1, 3, 5, and 10) under 40% compression displacementin hBMSCs cell suspension (5 × 10\r\n5cells/mL) on cell loading of HHSs\r\nwere also evaluated respectively.\r\n ",
+         {
+            "entities":[
+               [
+                  152,
+                  163,
+                  "TYPECELLS"
+               ],
+               [
+                  176,
+                  193,
+                  "CELLPERMILLION"
+               ],
+               [
+                  267,
+                  273,
+                  "TYPECELLS"
+               ],
+               [
+                  291,
+                  308,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nAlginate was dissolved into deionized water at the concentration of 3% (w/v) and placed in ultrasonic water bath at 37 °C for 12 h to get the sodium alginate sol solutions.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nGelatin (5% w/v, \r\nSigma-Aldrich) was added into alginate (Alginate/Gelatin, A/G) to improve the microenvironment of sol solutions for better cell survival\r\n16.\r\n ",
+         {
+            "entities":[
+               [
+                  2,
+                  9,
+                  "COMPONENT 1"
+               ],
+               [
+                  11,
+                  13,
+                  "QUANTITY1"
+               ],
+               [
+                  14,
+                  17,
+                  "UNIT"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nCalcium chloride (CaCl2, Sigma-Aldrich, Shanghai, China) was dissolved into deionized water at a final concentration of 3% (w/v) (Supplemental Fig.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nThe print head contains two nozzles arranged in concentric circles and con-nected to different pumps, one to A/G hydrogel, and the other to high density cell suspension (1 × 10\r\n7/ml) in 3% \r\nfibrinogen (w/v) (CoF group).\r\n ",
+         {
+            "entities":[
+               [
+                  172,
+                  184,
+                  "CELLPERMILLION"
+               ],
+               [
+                  189,
+                  191,
+                  "QUANTITY1"
+               ],
+               [
+                  194,
+                  204,
+                  "COMPONENT 1"
+               ],
+               [
+                  206,
+                  209,
+                  "UNIT"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\n180947, Sigma-Aldrich, St. Louis, MO, USA) was prepared at 2% w/vby\r\nreconstituting in distilled water and sterilized using a 0.2 \u0016m syringe ﬁlter.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nThe ﬁnal concentration in the bioink\r\nfor ﬁbrinogen, sodium alginate, and genipin was 20 mg/mL, 0.5% w/v, and 0.3 mg/mL,\r\nrespectively.\r\n ",
+         {
+            "entities":[
+               [
+                  44,
+                  53,
+                  "COMPONENT 1"
+               ],
+               [
+                  55,
+                  70,
+                  "COMPONENT 2"
+               ],
+               [
+                  76,
+                  83,
+                  "COMPONENT 3"
+               ],
+               [
+                  88,
+                  96,
+                  "QUANTITY1"
+               ],
+               [
+                  98,
+                  102,
+                  "QUANTITY2"
+               ],
+               [
+                  103,
+                  106,
+                  "UNIT"
+               ],
+               [
+                  112,
+                  121,
+                  "QUANTITY3"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nT7009, Sigma-Aldrich, St. Louis, MO, USA), and chitosan at\r\n0.075% w/v(Cat.\r\n ",
+         {
+            "entities":[
+               [
+                  49,
+                  57,
+                  "COMPONENT 1"
+               ],
+               [
+                  62,
+                  68,
+                  "QUANTITY1"
+               ],
+               [
+                  69,
+                  72,
+                  "UNIT"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nThe lyophilized GelMA (15% w/v),\r\nBGM (5% w/v) and PI 2959 (0.5% w/v) were dissolved in deionized water to obtain a\r\nhomogenous ink.\r\n ",
+         {
+            "entities":[
+               [
+                  6,
+                  23,
+                  "COMPONENT 1"
+               ],
+               [
+                  25,
+                  28,
+                  "QUANTITY1"
+               ],
+               [
+                  29,
+                  32,
+                  "UNIT"
+               ],
+               [
+                  36,
+                  39,
+                  "COMPONENT 2"
+               ],
+               [
+                  41,
+                  43,
+                  "QUANTITY2"
+               ],
+               [
+                  44,
+                  47,
+                  "UNIT"
+               ],
+               [
+                  53,
+                  60,
+                  "COMPONENT 3"
+               ],
+               [
+                  62,
+                  66,
+                  "QUANTITY3"
+               ],
+               [
+                  67,
+                  70,
+                  "UNIT"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nA certain amount of SA (10% w/v) solution was added to the above\r\nink to improve its printability.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nAfter the scaffolds were incubated in the cell\r\nincubator for 30 min, the cell suspension (1 mL, 1 \u0002106cells/mL) was added on each\r\nscaffold and incubated at 37\u000eC in 5% CO 2.\r\n ",
+         {
+            "entities":[
+               [
+                  99,
+                  113,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nThe quantitative analysis of ARS staining at day 21 was performed by adding 10% w/v\r\ncetylpyridinium chloride (Sigma-Aldrich, Saint Louis, MO, USA), and the absorbance of\r\neach well was detected at 562 nm.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nThe cell density in bio-inks was 1 \u0002107cells/mL. In order to improve the\r\nbiological activity of the scaffold, BMP-2 and PDGF were added into the bio-inks with a\r\nﬁnal concentration of 5 ug/mL and 100 ng/mL, respectively.\r\n ",
+         {
+            "entities":[
+               [
+                  35,
+                  50,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nPreparation of cell-laden bioink\r\nTo prepare the cell-laden bioink, 20 mg/mL alginate and 30 mg/mL\r\nPEO (A2P3) were dissolved in triple-distilled water and magnetically\r\nstirred for 2 days at 4/C14C. Then, 1 /C2107cells/mL MSCs or SMCs were\r\nadded to the A2P3 solution.\r\n ",
+         {
+            "entities":[
+               [
+                  70,
+                  78,
+                  "QUANTITY1"
+               ],
+               [
+                  79,
+                  87,
+                  "COMPONENT 1"
+               ],
+               [
+                  92,
+                  100,
+                  "QUANTITY2"
+               ],
+               [
+                  102,
+                  112,
+                  "QUANTITY2"
+               ],
+               [
+                  208,
+                  224,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nThe bioink was prepared by mixing a 2% alginate and 3% PEO\r\n(A2P3) solution with MSCs and SMCs at 1 /C2107cells/mL. Alginate is a\r\nbiocompatible, non-toxic, and versatile polymer that enables rapid\r\ngelation of the microstructure through the addition of cations [ 40].\r\n ",
+         {
+            "entities":[
+               [
+                  38,
+                  40,
+                  "QUANTITY1"
+               ],
+               [
+                  41,
+                  49,
+                  "COMPONENT 1"
+               ],
+               [
+                  54,
+                  56,
+                  "QUANTITY1"
+               ],
+               [
+                  57,
+                  68,
+                  "COMPONENT 2"
+               ],
+               [
+                  100,
+                  117,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\n13] reported the preparation of the hydrogels by using different formulations of gelatin (Gel), namely 3 w/v% and 5 w/v%, and 0.6 w/v% of xanthan gum (Xnt) for\r\nheal ulcers.\r\n ",
+         {
+            "entities":[
+               [
+                  83,
+                  96,
+                  "COMPONENT 1"
+               ],
+               [
+                  105,
+                  111,
+                  "QUANTITY1"
+               ],
+               [
+                  128,
+                  136,
+                  "QUANTITY2"
+               ],
+               [
+                  140,
+                  151,
+                  "COMPONENT 2"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nThe 2.5Gel3 and 3Gel4\r\nprintable hydrogels were gently mixed with 0.5 \u0002106ﬁbroblasts/mL and 5 \u0002106HaCaT\r\ncells/mL, respectively, using two syringes connected under a sterile cap.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nAmong all the hydrogel formulations modulating\r\nthe process and the parameters of the 3D printer, the 2.5 w/v% and 3 w/v% of gelatin\r\nwith 1.2 w/v% xanthan gum resulted in being printable, with a good resolution.\r\n ",
+         {
+            "entities":[
+               [
+                  104,
+                  112,
+                  "QUANTITY1"
+               ],
+               [
+                  127,
+                  134,
+                  "COMPONENT 1"
+               ],
+               [
+                  141,
+                  149,
+                  "QUANTITY2"
+               ],
+               [
+                  150,
+                  161,
+                  "COMPONENT 2"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nThe dermis \r\nwas cut into small pieces in a 35 mm petri dish, \r\ntreated with 0.35% (w/v) Dispase II, and incubated \r\nfor 60 min at 37°C.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\n2.2 Preparation of bio-link\r\nBio-ink used in this study was formulated as \r\na mixture of 5% (w/v) gelatin (Sigma-Aldrich), \r\n1% alginate (Sigma-Aldrich), and 2 mg/ml fibrino gen (Sigma-Aldrich).\r\n ",
+         {
+            "entities":[
+               [
+                  91,
+                  93,
+                  "QUANTITY1"
+               ],
+               [
+                  95,
+                  98,
+                  "COMPONENT 3"
+               ],
+               [
+                  100,
+                  107,
+                  "COMPONENT 1"
+               ],
+               [
+                  127,
+                  129,
+                  "QUANTITY2"
+               ],
+               [
+                  130,
+                  138,
+                  "COMPONENT 2"
+               ],
+               [
+                  160,
+                  167,
+                  "QUANTITY3"
+               ],
+               [
+                  168,
+                  179,
+                  "COMPONENT 3"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nAfter the dermal layer constructs were printed, \r\nthey were crosslinked by sterile 2% (w/v) CaCl 2.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nIn light of such results, \r\nthe bio-ink consisting of 5% (w/v) gelatin, 1% \r\nalginate, and 2 mg/ml fibrinogen was chosen for \r\nsubsequent bioprinting experiments.\r\n ",
+         {
+            "entities":[
+               [
+                  56,
+                  58,
+                  "QUANTITY1"
+               ],
+               [
+                  60,
+                  63,
+                  "UNIT"
+               ],
+               [
+                  65,
+                  72,
+                  "COMPONENT 1"
+               ],
+               [
+                  74,
+                  76,
+                  "QUANTITY2"
+               ],
+               [
+                  79,
+                  87,
+                  "COMPONENT 2"
+               ],
+               [
+                  93,
+                  100,
+                  "QUANTITY3"
+               ],
+               [
+                  101,
+                  111,
+                  "COMPONENT 3"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nIn this work, based \r\non these previous reports and in consideration of \r\nthe desirable properties, a brand-new bio-ink that \r\ncontains 5% (w/v) gelatin, 1% alginate, and 2 mg/ \r\nml fibrinogen was selected through a great number \r\nof tests.\r\n ",
+         {
+            "entities":[
+               [
+                  138,
+                  140,
+                  "QUANTITY1"
+               ],
+               [
+                  142,
+                  145,
+                  "UNIT"
+               ],
+               [
+                  147,
+                  154,
+                  "COMPONENT 1"
+               ],
+               [
+                  156,
+                  158,
+                  "QUANTITY2"
+               ],
+               [
+                  159,
+                  167,
+                  "COMPONENT 2"
+               ],
+               [
+                  173,
+                  183,
+                  "QUANTITY3"
+               ],
+               [
+                  184,
+                  194,
+                  "COMPONENT 3"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nHuman adipose-derived mesenchymal stem cells (ASCs) \r\nwere uniformly mixed in this bioink at 1 × 106 cells/mL concentration, and spheroid \r\nspecimens were cultured in both static and dynamic culture conditions.\r\n ",
+         {
+            "entities":[
+               [
+                  2,
+                  52,
+                  "TYPECELLS"
+               ],
+               [
+                  95,
+                  111,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nBioink preparation\r\nGelatin (Type B, Sigma-Aldrich, St. Louis, MO, USA) \r\nin 3 w/v % (0.3 g in 10 mL) was dissolved in Dulbecco’s \r\nModified Eagle Medium (DMEM; Gibco, Thermo Fisher \r\nScientific, MA, USA) in a glass beaker at ~40°C while being \r\nmagnetically stirred at 150 rpm.\r\n ",
+         {
+            "entities":[
+               [
+                  22,
+                  29,
+                  "COMPONENT 1"
+               ],
+               [
+                  79,
+                  86,
+                  "QUANTITY1"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nAfter gelatin dissolution, \r\nsodium alginate (Sigma-Aldrich, St. Louis, MO, USA) in 3 \r\nw/v % (0.3 g in 10 mL) was added to the gelatin solution \r\nand mixed overnight to obtain the AG hydrogel.\r\n ",
+         {
+            "entities":[
+               [
+                  31,
+                  46,
+                  "COMPONENT 1"
+               ],
+               [
+                  86,
+                  95,
+                  "QUANTITY1"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nB3 glass \r\npowder particles (less than 20 µm with ~3 µm d50 particle \r\nsize; chemical composition in wt.%: 53% B2O3, 20% CaO, \r\n12% K2O, 6% Na2O, 5% MgO, 4% P2O5) were added to the \r\nsolution in four different weight ratios (0.075, 0.15, 0.3, and \r\n0.6 w/v %) after gelatin dissolution and allowed to dissolve \r\nfor ~10 min before the addition of alginate powder.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nFor \r\nexample, 0.075 w/v % B3 glass corresponds to 1.25% \r\nof total combined weight of alginate and gelatin in the \r\nsolution.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nTherefore, AG hydrogels made with 0.075, 0.15, \r\n0.3, and 0.6 w/v % B3 glass are referred as 1.25G, 2.5G, 5G, \r\nand 10G, respectively, in this paper.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nRheological characterization\r\nFor rheological characterization, hydrogels were prepared \r\nin deionized (DI) water with gelatin (3 w/v %), alginate \r\n(3 w/v %), and AG (6 w/v %), and with the addition of \r\nB3 glass in different weight concentrations.\r\n ",
+         {
+            "entities":[
+               [
+                  110,
+                  128,
+                  "COMPONENT 1"
+               ],
+               [
+                  130,
+                  137,
+                  "QUANTITY1"
+               ],
+               [
+                  140,
+                  148,
+                  "COMPONENT 2"
+               ],
+               [
+                  152,
+                  159,
+                  "QUANTITY2"
+               ],
+               [
+                  166,
+                  168,
+                  "COMPONENT 3"
+               ],
+               [
+                  170,
+                  177,
+                  "QUANTITY3"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nThese findings suggest \r\nthe likelihood of an optimal B3 glass concentration, ranging \r\nbetween 1.25 and 2.5 wt.%, for AG hydrogels composed of 3 \r\nw/v % alginate and 3 w/v % gelatin.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nAG hydrogel \r\nstrength greatly depends on the w/v % of the alginate and \r\ngelatin used in the preparation and the ionic strength of \r\nthe crosslinking solution.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nused 6 \r\nw/v % of alginate and gelatin (compared to 3 w/v % used \r\nin our study), and the crosslinked samples with 0.3 M \r\nCaCl2 (compared to 0.1 M CaCl2 in our study) reported \r\nimproved mechanical properties that were able to sustain \r\nfor up to 7 days in culture conditions.14 Our attempts to \r\ntest specimens after soaking them in DMEM for 7 days \r\nat culture conditions were not successful as specimens \r\nwere broken in the grips of the Instron machine, and \r\ninsignificant elastic modulus and strength values were \r\nrecorded.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nThe ASC viability in spheroidal culture helped \r\ndetermine the range of viable B3 glass percentages that \r\ncould be added to AG hydrogel (0.075 and 0.15 w/v % or \r\n1.25G and 2.5G gels) and the suitable culture conditions \r\n(dynamic better than static).\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nRheological \r\nproperties of an AG hydrogel were modified with the \r\naddition of 0.075 to 0.6 w/v % of highly resorbable B3 glass, \r\nand scaffolds were successfully fabricated.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nThe addition of \r\nB3 glass (0.075 and 0.15 w/v %) increased the viscosity \r\n(from 0.2 kPa·s to 7 kPa·s) and made the AG hydrogel exhibit a viscoelastic solid-like behavior (G’> G’’) that \r\nimproved the hydrogel recovery and enabled effortless \r\nextrusion 3D printing of scaffolds.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nDespite the toxicity of B3 to ASCs when \r\nadded in quantities higher than 0.3 w/v % to hydrogel \r\n(<70% viable ASCs), lower quantities of B3 have increased \r\nthe viability in comparison to AG hydrogels without B3 \r\nafter 7 days in culture (>80% viable ASCs).\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nIn the first place, 10 mg of PI was dissolved in 1 mL of 0.1M \r\nHEPES buffer solution in order to gain a solid content with 1% (w/v) concentration.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nThen, \r\n200 mg GelMA foam was added to this solution to get 20% (w/v) GelMA stock solution.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nThe heart \r\npieces were then digested in a solution of 0.06% (w/v) trypsin (Sigma-Aldrich) in HBSS \r\novernight (4°C).\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nO 2 releasing bioinks were produced using 10% \r\nGelMA, containing CPO in varying concentrations (w/v) of 0.1% (0.1 CPO), 0.5% (0.5 \r\nCPO), 1% (1.0 CPO), or 0% (0 CPO) with HEPES-HCl buffer, according to the protocol \r\npresented in Table 1 [ 29].\r\n ",
+         {
+            "entities":[
+               [
+                  44,
+                  47,
+                  "QUANTITY1"
+               ],
+               [
+                  50,
+                  55,
+                  "COMPONENT 1"
+               ],
+               [
+                  68,
+                  71,
+                  "COMPONENT 2"
+               ],
+               [
+                  99,
+                  102,
+                  "UNIT"
+               ],
+               [
+                  107,
+                  111,
+                  "QUANTITY2"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nRFP-HUVECs were either suspended alone or with hADSCs at a 2:1 ratio for a total cell \r\ndensity of 5 million cells/mL in each alginate solution.\r\n ",
+         {
+            "entities":[
+               [
+                  2,
+                  12,
+                  "TYPECELLS"
+               ],
+               [
+                  101,
+                  119,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nHUVECs and hADSCs were stained with Calcein-AM before \r\nbeing suspended 2:1 in partially crosslinked alginate at a total density of 3 million cells/mL \r\nand pipetted into the glass tips.\r\n ",
+         {
+            "entities":[
+               [
+                  2,
+                  8,
+                  "TYPECELLS"
+               ],
+               [
+                  13,
+                  19,
+                  "TYPECELLS"
+               ],
+               [
+                  134,
+                  152,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nTo fabricate a heterogenous VTU, \r\nRFP-HUVECs and hADSCs were suspended in the vasculogenic bioink in a 2:1 ratio (RFPHUVEC:ADSC) at a total cell density of 5 million cells/mL. To fabricate a mixed VTU, \r\nRFP-HUVECs, hADSCs, and GFP-hDFs were suspended in the vasculogenic bioink in a \r\n2:1:1 ratio (RFP-HUVEC:ADSC:GFP-hDF) at a total cell density of 5 million cells/mL. For \r\nboth heterogenous and mixed VTUs, GFP-hDFs were loaded at a density of 2 million \r\ncells/mL in the fibroblast-containing bioink.\r\n ",
+         {
+            "entities":[
+               [
+                  117,
+                  130,
+                  "TYPECELLS"
+               ],
+               [
+                  159,
+                  178,
+                  "CELLPERMILLION"
+               ],
+               [
+                  302,
+                  311,
+                  "TYPECELLS"
+               ],
+               [
+                  312,
+                  316,
+                  "TYPECELLS"
+               ],
+               [
+                  317,
+                  324,
+                  "TYPECELLS"
+               ],
+               [
+                  353,
+                  372,
+                  "CELLPERMILLION"
+               ],
+               [
+                  450,
+                  470,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nB) Storage and loss modulus of peptide-functionalized (2% \r\nw/v) alginates measured by oscillatory frequency sweep from 0.1 to 10 Hz at 1% strain; n≥4 \r\nfor each group; n.s.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nA) Representative \r\nday 7 images of RFP-HUVECs cultured with or without ADSCs in 2% (w/v) peptidefunctionalized alginates. (\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nE) Microvascularization at day 14 in 2% (w/v) alginates Barrs et al.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nA) Increasing concentrations of CaCl 2 (0–20 mM) were added to 2% (w/v) \r\nalginate hydrogel precursors to yield progressively crosslinked solutions. (\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nA) Cell \r\nsedimentation test in 2% (w/v) alginates that were or were not partially crosslinked with 15 \r\nmM CaCl 2.\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nImmediate Cell Viability after Bioprinting\r\nTo investigate the immediate cell viability after bioprinting, MC3T3 pre-osteoblast cells \r\nwere bioprinted at a density of 1 × 106 cells/mL of bioink.\r\n ",
+         {
+            "entities":[
+               [
+                  2,
+                  26,
+                  "TYPECELLS"
+               ],
+               [
+                  170,
+                  196,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nAuthor Manuscript Author Manuscript Author Manuscript Author Manuscript2.6 Bone Cell Proliferation\r\nTo investigate the long-term cell viability and proliferation in the bioprinted hydrogel, \r\nMC3T3 pre-osteoblast cells were bioprinted at a density of 10 × 106 cells/mL of bioink.\r\n ",
+         {
+            "entities":[
+               [
+                  253,
+                  270,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nAfter reaching 80% confluency, PC12 cells were trypsinized and centrifuged at 3000 \r\nrpm for 10 min and mixed into bioink at a density of 10 × 106 cells/mL using the same \r\nprocedure as described in the MC3T3 cell mixing section.\r\n ",
+         {
+            "entities":[
+               [
+                  33,
+                  43,
+                  "TYPECELLS"
+               ],
+               [
+                  140,
+                  157,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nAuthor Manuscript Author Manuscript Author Manuscript Author Manuscriptcollected by centrifugation and mixed with OPF/Gelatin slurry (1 × 106 cells/mL) to make \r\nbioinks, as presented in Fig.\r\n ",
+         {
+            "entities":[
+               [
+                  116,
+                  127,
+                  "TYPECELLS"
+               ],
+               [
+                  136,
+                  152,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nb) Microscopic images of the same printed scaffolds at different positions of \r\nthe scaffolds and c) enlarged microscopic images of the scaffolds containing cells (1 × \r\n106 cells/mL of bioink).\r\n ",
+         {
+            "entities":[
+               
+            ]
+         }
+      ],
+      [
+         "\r\nBriefly, 56% (w/v) βglycerophosphate ( βGP, Sigma-Aldrich) combined with 2% (w/v) chitosan solution (CS, \r\nSigma-Aldrich, cat.\r\n ",
+         {
+            "entities":[
+               [
+                  11,
+                  14,
+                  "QUANTITY1"
+               ],
+               [
+                  16,
+                  19,
+                  "UNIT"
+               ],
+               [
+                  21,
+                  38,
+                  "COMPONENT 1"
+               ],
+               [
+                  75,
+                  77,
+                  "QUANTITY2"
+               ],
+               [
+                  79,
+                  82,
+                  "UNIT"
+               ],
+               [
+                  84,
+                  92,
+                  "COMPONENT 2"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nThe constructs were 3D bioprinted (using transfected or \r\nnon-transfected hMSCs at 5 million cells/mL loaded into the bioink) at a bioprinting \r\nspeed of 60 mm/min, a nozzle diameter of 410 μm and pneumatic pressure of 80 kPa.\r\n ",
+         {
+            "entities":[
+               [
+                  76,
+                  81,
+                  "TYPECELLS"
+               ],
+               [
+                  85,
+                  103,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nThe experiment was designed to include four major groups: i) negative control ( n=3), ii) \r\nbioink+rBMSCs (5 million cells/ml) ( n=6), iii) bioink+rBMSCs(tPEI-pBMP-2) ( n=6) for \r\nex-situ delivery, and iv) bioink+PEI-pBMP-2 ( n=7) for in-situ delivery of plasmid particles.\r\n ",
+         {
+            "entities":[
+               [
+                  94,
+                  107,
+                  "TYPECELLS"
+               ],
+               [
+                  109,
+                  127,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nFor in-vitro evaluation, hMSCs were used at a \r\ndensity of 5 million cells/mL in the bioink.\r\n ",
+         {
+            "entities":[
+               [
+                  27,
+                  32,
+                  "TYPECELLS"
+               ],
+               [
+                  61,
+                  79,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nIn this study, we used 5×106 rBMSCs per mL, where the cell encapsulation density for \r\nhydrogels has been varied from 5 to 10 million cells/ml for bone tissue engineering [ 45].\r\n ",
+         {
+            "entities":[
+               [
+                  25,
+                  30,
+                  "CELLPERMILLION"
+               ],
+               [
+                  31,
+                  37,
+                  "TYPECELLS"
+               ],
+               [
+                  120,
+                  144,
+                  "CELLPERMILLION"
+               ],
+               [
+                  149,
+                  160,
+                  "TYPECELLS"
+               ]
+            ]
+         }
+      ],
+      [
+         "\r\nFor instance, among collagen constructs seeded with \r\n6 × 105, 3 × 106, 3 × 107, and 1 × 108 cells/mL, a scaffold with cell density above 3 \r\n× 106 cells/mL revealed a significant decrease in break force when tensile testing was \r\nperformed immediately after compression at Day 10 [ 52].",
+         {
+            "entities":[
+               [
+                  56,
+                  63,
+                  "CELLPERMILLION"
+               ],
+               [
+                  65,
+                  72,
+                  "CELLPERMILLION"
+               ],
+               [
+                  74,
+                  81,
+                  "CELLPERMILLION"
+               ],
+               [
+                  87,
+                  103,
+                  "CELLPERMILLION"
+               ],
+               [
+                  140,
+                  158,
+                  "CELLPERMILLION"
+               ]
+            ]
+         }
+      ]
+   ]

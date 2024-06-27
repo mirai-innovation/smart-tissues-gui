@@ -1,0 +1,1032 @@
+Article https://doi.org/10.1038/s41467-024-48023-8
+A mechanical-assisted post-bioprinting
+strategy for challenging bone defects repair
+Jirong Yang1,2, Zhigang Chen1,2, Chongjian Gao1,J u a nL i u1,K a i z h e n gL i u1,
+Xiao Wang1,3, Xiaoling Pan1,3,G u o c h e n gW a n g1,2, Hongxun Sang3,
+Haobo Pan1,2,4,W e n g u a n gL i u5& Changshun Ruan1,2,4
+Bioprinting that can synchronously dep osit cells and biomaterials has lent
+fresh impetus to the ﬁeld of tissue regeneration. However, the unavoidable
+occurrence of cell damage during fabri cation process and intrinsically poor
+mechanical stability of bioprinted cell-laden scaffolds severely restrict theirutilization. As such, on basis of heart-in spired hollow hydrogel-based scaffolds
+(HHSs), a mechanical-assisted post-bi oprinting strategy is proposed to load
+cells into HHSs in a rapid, uniform, precise and friendly manner. HHSs showmechanical responsiveness to load cell s within 4 s, a 13-fold increase in cell
+number, and partiti oned loading of two types of cells compared with those
+under static conditions. As a proof of concept, HHSs with the loading cellsshow an enhanced regenerative capabilit y in repair of the critical-sized seg-
+mental and osteoporotic bone defec ts in vivo. We expect that this post-
+bioprinting strategy can provide a universal, ef ﬁcient, and promising way to
+promote cell-based regenerative therapy.
+Reconstruction of challenging bone defects that cannot sponta-
+neously heal, e.g., large-sized segmental and osteoporotic bonedefects
+1,2, remains a thorny problem in clinic. The dif ﬁculty is mainly
+attributed to the limited migration or weak regenerative potential ofresident cells
+3,4. Notably, multiple cell types such as mesenchymal
+stem cells (MSCs) and endothelial cells (ECs), are involved in speci ﬁc
+regenerative biofunctions e.g., osteogenesis and angiogenesis,
+playing vital roles in bone regeneration5–8. Regarding large-sized
+segmental bone defects, severely damaged surrounding tissuescause a lack of key cells to migrate and reside in the defect site,leading to no bridging and nonunion
+9. Osteoporosis is a typical
+metabolic bone disease, in which cells are senescent with weakregenerative potential. Once osteoporotic bone defects occur, it ishard for the senescent cells to support self-healing of bonetissues
+10,11. Whereas direct injection of related cells into the defect
+site results in suboptimal therapeutic outcomes12, tissue-engineered
+bone substitutes consisted of biomaterial-based scaffolds andhealthy cells bring a promising avenue for repair of challenging bone
+defects1,13.
+Despite tremendous progress in bone tissue engineering in the
+past decades, there are still limitations to be concerned. For instance,cells are conventionally seeded on the surface of scaffolds and thencultured in vitro until they migrate entirely inside scaffolds. Obviously,it is extremely time-consuming, and dif ﬁcult to control cell
+distribution
+14,15. The emergence of three-dimensional (3D) bioprinting
+technology that can directly customize cell-laden constructs via mix-ing cells and biomaterials as bioinks provides new possibilities
+16,17.D u e
+to its cost-effectiveness and ease of operation, extrusion bioprintinghas become the most popular modality for fabrication of cell-ladenconstructs, followed by inkjet and light-based bioprinting
+18,19. Recently,
+several reports from our team and others have demonstratedextrusion-bioprinted cell-laden constructs with an enhanced effect onrepair of bone defects
+15,20–23. However, in order to ensure fabrication of
+cell-laden constructs for bone repair, bioinks (essentially hydrogels24)Received: 26 July 2023
+Accepted: 17 April 2024
+Check for updates
+1Research Center for Human Tissue and Organ Degeneration, Institute of Bio medicine and Biotechnology, Shenzhen Institute of Advanced Technology,
+Chinese Academy of Sciences, Shenzhen 518055, China.2University of Chinese Academy of Sciences, Beijing 100049, China.3Shenzhen Hospital, Southern
+Medical University, Shenzhen 518000, China.4The Key Laboratory of Biomedical Imaging Science and System, Chinese Academy of Sciences, Shenzhen
+518055, China.5School of Materials Science and Engineering, Tianjin Key Laboratory of Composite and Functional Materials, Tianjin University, Tianjin
+300350, China. e-mail: cs.ruan@siat.ac.cn
+Nature Communications |         (2024) 15:3565 11234567890():,;
+1234567890():,;must ful ﬁll a number of “reasonable ”requirements besides bio-
+compatibility and bioactivity, which severely restrict the utilization ofextrusion bioprinting for repair of challenging bone defects. Forinstance, a relatively reasonable viscosity of hydrogel precursor is
+required for extrusion: a high viscosity supports maintenance of
+homogeneous cell suspension in the printhead before printing; con-versely, a low viscosity minimizes shear stress-driven cell damage fromthe nozzle during extrusion. Meanwhile, a relatively reasonablemechanical strength of hydrogels is also demanded: a high mechanicalstrength endows constructs with excellent self-supporting properties,bene ﬁcial for shape ﬁdelity and large-sized fabrication; conversely, a
+low mechanical strength supports proliferation and migration of theembedded cells
+25–27.
+Herein, we propose a post-bioprinting strategy that cells are
+immediately loaded after scaffolds fabrication through a mechanical
+assistance (Fig. 1a). A type of heart-inspired hollow hydrogel-based
+scaffold (HHS) that can reversibly respond to external mechanicalstimulations are used for active cell loading with minimal damage,similar to that the cardiac impulse attributes to systole and diastole. Onbasis of a customized combination of gelatin methacryloyl, Laponitenanoclay, and N-acryloyl glycinamide
+28, HHSs were ﬁrst fabricated by
+one-step coaxial printing without any supporting materials. Takenadvantage of this hybrid ink, high- ﬁdelity, and large-sized HHSs with
+uniform and intact hollow ﬁlament structures could be readily
+achieved and the structure was highly tunable. Interestingly, owing tothe hollow structure, HHSs displayed attractive resilience, rapid shaperecovery, and exceptional fatigue resistance, which endowed them
+with an excellent mechanical responsiveness to load cells in a rapid,uniform, and precise manner. In addition, we veri ﬁed the cell-laden
+HHSs for repair of critical-sized segmental and osteoporotic bone
+defects in rats, and the results demonstrated that the cell-laden HHSs
+exhibited a satisfying ability to heal the challenging bone defects. In all,this work offers a robust method for functional assembly of cells andbiomaterials for tissue engineering.
+Results
+Fabrication of large-sized and sophisticated HHSs
+HHSs were fabricated directly via extrusion printing using a coaxialneedle without any supporting materials (Fig. 1a), which is convenient
+for building large-sized constructs with complicated shapes for tissueengineering (Fig. 1b). See Supplementary Movie 1 for the actual pro-
+cess of printing bone-shaped construct. After solidi ﬁcation by UV
+irradiation, stable HHSs were obtained with high shape ﬁdelity and
+could suspend in water. The empty channels were clearly observed(Fig. 1c), indicating the feasibility of hollow structures in HHSs. To
+fabricate HHSs, hydrogel inks with excellent printability, appropriatemechanical behaviors as well as biocompatibility were indispensable.According to our previous report
+28, the hybrid inks of gelatin metha-
+cryloyl/laponite nanoclay/N-acryloyl glycinamide (SupplementaryFig. 2) demonstrated excellent printability and suf ﬁcient mechanical
+properties for coaxial printing of microtubes for regeneration of tub-ular tissue. In this study, to adapt the requirements for bone tissue
+Fig. 1 | Fabrication of large-sized and sophisticated HHSs. a Schematic illustra-
+tion of the mechanical-assisted post-bioprinting strategy and its application for
+repair of critical-sized segmental and osteoporotic bone defects. HHSs were fab-ricated by one-step coaxial printing without any supporting materials, HHSs couldreversibly respond to an appropriate mechanical stimulation to rapidly, uniformly
+and precisely load cells without damage. bPhotograph of the large-sized and bone-
+shaped HHSs with high shape ﬁdelity. cPhotograph of a HHS that suspended in
+water, the empty channels of the HHS were clearly observed.Article https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 2engineering, variable mass ratios of N-acryloyl glycinamide (0, 4%, 8%,
+and 12%) hybrid hydrogel inks were primarily investigated, and notedas GLNx, (namely x= 0 ,4 ,8 ,a n d1 2 ,r e s p e c t i v e l y ) ,w h i l et h eo t h e r
+components were kept constant (gelatin methacryloyl, 12% w/v;
+Laponite nanoclay, 10% w/v). N-acryloyl glycinamide possessed mul-
+tiple hydrogen bonding reinforcements and played a key role inupregulating the printability of GLN inks and mechanical properties ofGLN hydrogels (Supplementary Fig. 3). As shown in SEM images(Supplementary Fig. 4), gelatin methacryloyl with relatively highmolecular weights formed tailed bridges between nanoclay structures;while N-acryloyl glycinamide with low molecular weights could bephysically adsorbed onto nanoclay surface, leading to a decrease ofviscosity of GLN inks. Notably, compression modulus and strength ofGLN12 could reach to 989 ± 49 KPa and 1200 ± 78 KPa, respectively(Supplementary Fig. 5a, b). Moreover, relaxation of stress occurred in
+all samples of GLN hydrogels (Supplementary Fig. 5c, d), suggesting
+the presence of abundant sacri ﬁcial bonds (primarily electrostatic
+interactions and multiple hydrogen bonds). Supplementary Fig. 5e, fd i s p l a y e dt h a tG L N 8a n dG L N 1 2b a r e l ys h r u n ka n de x h i b i t e ds l o wdegradation, could maintain their initial shape in PBS solution at 37 °C,which is very important for their corresponding HHSs to keep stablemechanical properties. Therefore, in light of its printability andmechanical outcomes, GLN12 should be the most suitable compositionfor fabrication of large-sized and sophisticated HHSs and was thuschosen as the basic ink for further assessments in this study.
+Tunable hollow structures and grids of HHSs
+As presented in Fig. 2a, the inner and outer diameters ( dand D,
+respectively), the closest distance between two hollow ﬁlaments in a
+layer ( L), the volume of hollow space of ﬁlaments in HHS ( V1), and the
+volume inside the grids ( V2), were de ﬁned. In an HHS, the substantial
+part was ﬁlled with the GLN hydrogel, while V1and V2could be
+representative for the space in between. As shown in Fig. 2b, c and
+Supplementary Fig. 6, the smooth and uniform hollow ﬁlaments, the
+integrity of hollow structure as well as the high ﬁdelity of distinct grids
+could be clearly observed, and their L,Danddwere tunable for reg-
+ulation of HHS capability. Lx(xranging from 0.2 to 0.8 mm) could be
+easily tuned by the mold design in the GeSiM Robotics Software, while
+Dy(yranging from 0.4 to 0.8 mm), dz(zranging from 0 to 0.6 mm), and
+the wall thickness Dy-dz(ranging from 0 to 0.4 mm) of hollow ﬁla-
+ments could be regulated by adjusting the external and internal needlesize of coaxial nozzles. Additionally, HHSs with different combinationsof parameters were further displayed in Fig. 2c and their detailed
+analysis was summarized in Fig. 2d, suggesting that our printed HHSs
+possessed excellent designability.
+The compressibility, resilience, shape recovery, and fatigue
+resistance of HHSs
+The effects of din hollow ﬁlaments on mechanical behaviors of HHSs
+(LDd z) were comprehensively investigated by compression and cyclic
+compression tests. As shown in Fig. 3a(i) and Supplementary Fig. 7, the
+compression strength of HHSs improved with increase of d, whereas
+their compression modulus decreased; HHS ( L0.4D0.6d0.3) and HHS
+(L0.4D0.6d0.4) could tolerate the compression up to 80% strain without
+fracture but HHS ( L0.4D0.6d0)a n dH H S( L0.4D0.6d0.2)w e r ef r a c t u r e da t
+~47% and 65% strain, respectively. The resilience of HHSs ( L0.4D0.6d0.3
+andL0.4D0.6d0.4) was further demonstrated in Fig. 3a(ii) and Supple-
+mentary Movie 2 and these HHSs with large dcould recover to their
+initial states and remain intact with no damage even after 80% strain.Moreover, the resilient speed of HHS was visualized by luminescence
+in Fig. 3b and Supplementary Movie 3. The HHS ( L
+0.4D0.6d0.3) exhibited
+as i g n i ﬁcant deformation by a slight press, and immediately recovered
+to the original shape, meanwhile absorbing the luminescent liquidthoroughly after removal of press. In particular, it merely needed 4 sfor one cycle of manual compression and shape recovery and the fastrecovery took place within only 1 s, similar with the cardiac impulse
+owing to systole and diastole. Subsequently, reusability and resistanceto fatigue of HHSs were determined by a cyclic compression-recoverytest at a strain of 40% (Fig. 3c, d). Results showed that stress was
+negatively correlated with d. Once undergoing 10
+2cycles, the hyster-
+esis area was dramatically reduced, indicating that severe damagesoccurred in the HHS ( L
+0.4D0.6d0); whereas the hysteresis area of the
+HHS ( L0.4D0.6d0.4) showed no signi ﬁcant decrease, and the HHSs
+(L0.4D0.6d0.3and L0.4D0.6d0.4) could recover to its initial state and
+remain intact after even 104cycles. The results revealed that the anti-
+fatigue performance of HHSs could be enhanced by increasing d,
+especially the HHSs ( L0.4D0.6d0.3andL0.4D0.6d0.4)w i t ha ne x c e p t i o n a l
+fatigue resistance (Fig. 3e). Taken together, owing to its hollow struc-
+ture, HHS, possesses attractive compressibility and resilience, rapidshape self-recovery as well as exceptional fatigue resistance.
+Mechanical responsiveness of HHSs
+On account of its particular mechanical features, HHS is suitable as atissue-engineered scaffold for active uptake of bioactive substances(e.g., growth factors, cells) via an appropriate mechanical stimulation.In order to further explore their mech anical responsiveness, HHSs with
+tunable d
+z(L0.4D0.6dz,z= 0, 0.2, 0.3, 0.4) and Lx(LxD0.6d0.4,x= 0.2, 0.4,
+0.6) were elaborately fabricated. The mechanical responsiveness ofHHSs was evaluated by immersing them in water with or without amechanical stimulation. As shown in Fig. 4a, b, without mechanical
+stimulation, HHSs displayed a similar tendency to absorb water: the
+water uptake ratio of HHSs sharply raised within the initial 5 min and
+subsequently kept constant over time, showing a positive correlationwith Lbut remaining constant with d. In the absence of mechanical
+stimulation, the GLN hydrogel hardly took water over time, while thetendency of water uptake in HHS ( LDd
+0) was similar to other HHSs
+above with hollow structure, suggest ing that their water uptake ability
+depends on the grids but not the swelling of GLN hydrogels or thehollow structure of HHSs (Fig. 4c). Water uptake ratios of HHSs were
+summarized in Supplementary Table 1, matching approximately thetheoretical volume ratio of V
+2. Taking HHS ( L0.2D0.6d0.4)a sa ne x a m p l e ,
+V2(27.7 ± 5.4%) was close to the ratio of water uptake (27.6 ± 0.5%).
+Thus, it can be concluded that the space of V2is the main contributor
+to the water uptake in HHSs under a static condition.
+Further, as shown in Fig. 4d–f, the mechanical-responsive ability
+of HHSs was determined under a dynamic condition. The water uptakeratio of HHSs exhibited a signi ﬁcantly increasing tendency with strain
+and number of cycles. In contrast, the water uptake ratio of HHS thathad no V
+1kept constant with compressive strain. In addition, Landdof
+HHSs could also remarkably in ﬂuence the water uptake: the water
+uptake ratio of LxHHSs tended to increase and then decrease with L,
+while the water uptake ratio of dzHHSs exhibited an increasing ten-
+dency with d. Theoretically, as Lincreased, total number of the hollow
+ﬁlaments should be lowered resulting in a decrease of theoretical
+volume of V1(Supplementary Table 1), and thus the theoretical volume
+ratio of V1inL0.6HHS (18.3 ± 2.8%) was the smallest. Despite the biggest
+theoretical volume ratio of V1inL0.2HHS (28.7 ± 2.5%), the theoretical
+volume ratio of V2inL0.2HHS (only 27.7 ± 5.3%), smaller than that of V1,
+could not provide enough space to support the deformation of V1,
+resulting in a restraint of water uptake in L0.2HHS. Thus, the results
+reasonably displayed that the water uptake ratio in L0.4HHS was higher
+than those of L0.2andL0.6HHSs (Fig. 4d). In addition, the water uptake
+ratio of dzHHSs exhibited an increasing tendency with d(Fig. 4e). In
+particular, by comparing water uptake ratios and theoretical volumeratios of V
+1indzHHSs, it was found that V1of HHSs could be com-
+pletely full with water at a strain of 80%. For example, the water uptake
+ratio in d0.4HHS reached to 23.3 ± 6.8%, very close to the theoretical
+volume ratio of V1ind0.4HHSs (22.1 ± 3.3%) (Fig. 4e and Supplementary
+Table 1). In light of the water uptake ability, a HHS ( L0.4D0.6d0.4)w a s
+chosen for further assessment of multicyclic strain loading (Fig. 4f) andArticle https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 3the results showed that the water uptake ratio signi ﬁcantly elevated
+with loading cycles under both 20% and 40% strain. Thus, it can beconcluded that V
+1contributes to the improvement of water uptake in
+the HHSs under a dynamic condition, providing HHSs with excellentmechanical-responsive ability.To further visualize the mechanical responsiveness, HHSs
+(L
+0.4D0.6dz,z=0 ,0 . 2 ,0 . 4 ,0 . 6 )w e r ei m m e r s e di na ﬂuorescent micro-
+sphere solution. Single cycles with multiple strains (0, 20%, 40%, 60%,and 80%) and multi-cycles (from 0 to 10) at 20% or 40% strain on theHHSs were demonstrated. The ﬂuorescence images were acquired via
+Fig. 2 | Tunable hollow structures and grids of HHSs. a Illustration of the critical
+parameters of HHSs. bGross morphology of the ﬁlaments and grids of HHSs.
+cFluorescent images of the hollow structures of HHSs. Tunable hollow structures
+and grids were controlled by L,D,andd.dQuantitative analysis of the HHSs with
+different combinations of parameters: same LandDbut different d, same Landdbut different D, same Danddbut different L,a n ds a m e LandD-dbut different D
+andd.n= 10 samples. Data are presented as mean ± s.d, statistical signi ﬁcance was
+calculated using two-way ANOVA method with Tukey ’s multiple comparisons tests,
+ns represents no signi ﬁcant difference ( P> 0.05). Source data are provided as a
+Source Data ﬁle.Article https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 4Fig. 3 | Mechanical properties of HHSs ( L0.4D0.6dz). aCompression test of HHSs.
+(i) Compression-recovery curve with 80% strain of HHSs; ( ii) Photograph of HHSs
+after removal of compression with 80% strain. HHSs ( L0.4D0.6d0andL0.4D0.6d0.2)
+were fractured with 80% compression strain, while HHSs ( L0.4D0.6d0.3and
+L0.4D0.6d0.4) could recover to their initial state and remain intact without fracture.
+bPhotographs of the process of an HHS ( L0.4D0.6d0.3) absorbing luminescent
+solution from deformation to recovery, which was similar with the systole anddiastole. Cyclic stress-strain curves of HHSs ( c), and gross morphology and hollow
+structures of HHSs after 0, 102,1 03,a n d1 04cycles ( d)a tas t r a i no f4 0 % . eIllustration
+of mechanism of HHSs for resistance to fatigue. The sacri ﬁcial bonds in the back-
+bone of HHSs, including electrostatic interactions and multiple hydrogen bonds,
+were mostly reversible, and ruptured to dissipate energy during deformation andrecovered after relaxation. Source data are provided as a Source Data ﬁle.Article https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 5Fig. 4 | Mechanical responsiveness of HHSs. Water uptake of HHSs with various L
+(LxD0.6d0.4,x= 0.2, 0.4, 0.6), n=4 ,* * P=0 . 0 0 6 ,* * * P= 0.002, **** P<0 . 0 0 0 1 ,n s
+represents no signi ﬁcant difference ( P> 0.9999) ( a)a n d d(L0.4D0.6dz,z= 0.2, 0.3,
+0.4), n=3 ,P=0 . 8 3 0 2( d0.2andd0.3),P= 0.997 ( d0.2andd0.4),P=0 . 9 9 9 9( d0.3and
+d0.4) at 240 min, P> 0.9999 at 5 min and 240 min of d0.2,d0.2,a n d d0.3(b), and GLN
+hydrogel and the HHS ( L0.4D0.6d0),n=3 ,* * * * P< 0.0001, ns represe nts no signi ﬁcant
+difference ( P> 0.9999) ( c) over time without mechanical stimulation under a static
+condition. Water uptake of HHSs with various L ( LxD0.6d0.4,x= 0.2, 0.4, 0.6), n=4 ,
+****P<0 . 0 0 0 1( d)a ndd(L0.4D0.6dz,z=0 ,0 . 2 ,0 . 3 ,0 . 4 ) , n=3 ,* * P=0 . 0 0 9 8 ,
+***P=0 . 0 0 0 3( e) with increased compression stains (20%, 40%, 60%, and 80%)
+under a dynamic condition. fWater uptake of the HHS ( L0.4D0.6d0.4) subject toincremental numbers of cycles of compression-recovery (1, 3, 5, and 10) with 20%
+and 40% compression strains, n=3 ,* * * P= 0.0004. Visual ﬂuorescence images
+acquired via an IVIS systems ( g) and quantitative analysis of ﬂuorescence intensity
+of the HHS ( L0.4D0.6dz,z= 0, 0.2, 0.3, 0.4) subject to different strains from 0 to 80%
+at one cycle, n=3(h) and cycles from 0 to 10 at 20% or 40% strain, n=3 ,
+***P=0 . 0 0 0 3( i)t ol o a dt h e ﬂuorescence microspheres. Colors here represent
+gradients in ﬂuorescence intensity (red: low, blue: high), Ex = 605 nm, Em = 680 nm.
+Data are presented as mean ± s.d, statistical signi ﬁcance was calculated using two-
+way ANOVA method with Tukey ’s multiple comparisons tests. Source data are
+provided as a Source Data ﬁle.Article https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 6an IVIS system as shown in Fig. 4g. The ﬂuorescent intensity was
+depicted by color gradients (red: low, blue: high), and the results from
+ﬂuorescent intensity in the HHSs were consistent with those of
+described in Fig. 4b, e, f, further con ﬁrming that HHSs can rapidly
+respond to external mechanical stimulation and their mechanical-responsive ability can be enhanced with an increase in d, strain as well
+as number of cycles.Rapid, uniform, and precise cell loading capability of HHSs
+In this study, a mechanical-assisted post-bioprinting strategy was
+developed to realize rapid, uniform, and precise cell loading on basis
+of the rapid compression-recovery ability and excellent mechanicalresponsiveness of HHSs. Human bone marrow mesenchymal stemcells (hBMSCs) are used as the cell model for these evaluations and thecell-laden constructs will be abbreviated to HHSs-cells in the following
+Article https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 7context and As shown in Fig. 5a, b, compared with static conditions,
+cell numbers in HHSs under a cycle of compression-recovery within 4 s
+at 80% strain signi ﬁcantly improved about 13 folds, suggesting the
+activeness and effectiveness of our proposed strategy via the V1-
+mechanical response. After 3 days of culture, the loaded cells in HHSsexhibited uniform deposition and obvious proliferation. Meanwhile,the number of loaded cells in HHSs increased with compression strains(Fig. 5c) or number of cycles (Fig. 5d), suggesting the controllability of
+our proposed strategy. In addition, the larger size of HHSs(15 × 15 × 10 mm and 20 × 10 × 10 mm) could also rapidly load cellsunder a cycle of compression-recovery within 4 s at 80% strain (Sup-plementary Fig. 9). Furthermore, mitochondrial membrane potential,
+reactive oxygen species (ROS) and proliferation of the cells were
+examined after mechanical stimulation (80% strain or 10 cycles ofcompression-recovery, respectively), the results proved that themechanical stimulation has no negative in ﬂuences on viability of cells
+(Supplementary Fig. 10). Accordingly, this post-bioprinting strategyfor loading cells into HHSs was cell-friendly and convenient.
+Partitioned introduction of multiple cell types into scaffolds is
+often required but still unmet in traditional tissue engineering. Inthis study, taking advantage of different mechanical responsivenessbetween V
+1andV2, two types of cells (hBMSCs and human umbilical
+vein endothelial cells (HUVECs)) were precisely loaded into V1orV2,
+respectively. As shown in Fig. 5e(i), a simple approach of V2-
+mechanical response was further developed to remove medium onlyinV
+2,subsequently seeding hBMSCs suspension, thereby regulating
+cell number and uniformity. After 4 h of culture, hBMSCs couldadhere in the HHS owing to good adhesive properties of GLNhydrogel (Supplementary Fig. 8). It was clearly observed thathBMSCs distributed uniformly in the whole V
+2of HHSs (surface-
+middle-bottom) (Fig. 5e(ii), e(iii)) and the number of hBMSCs loaded
+inV2of HHSs could be improved about 200% (Fig. 5e(iv)) via the V2-
+mechanical response compared with direct cell seeding, suggestingthe availability of V
+2in HHSs. The processes of direct cell seeding and
+V2-mechanical response approaches were displayed in Supplemen-
+tary Movie 4. As shown in Fig. 5f and Supplementary Movie 5, by
+successive processes of loading HUVECs-RFP via V1-mechanical
+response and seeding hBMSCs-GFP through V2-mechanical response
+(V1+V2-mechanical response), HUVECs-RFP and hBMSCs-GFP were
+distributed in V1and V2, respectively. Furthermore, immuno-
+ﬂuorescence staining of CD31 and VWF proved that the endothelial
+phenotype could be maintained and intercellular junctions betweenHUVECs preliminarily formed
+29in HHSs after 14 days of culture
+(Fig. 5g). Additionally, HHSs loaded with hBMSCs were cultured in
+osteogenic differentiation media. Together with enhancements inproliferation, osteogenic protein secretion, and gene expression of
+hBMSCs in GLN hydrogels (Supplementary Fig. 11), signi ﬁcant cal-
+cium deposition was also observed in HHSs at 21 days of culture(Fig. 5h). The results indicated that this post-bioprinting strategy
+could realize precisely partitioned loading of multiple cells andHHSs could promote osteogenesis and angiogenesis in vitro.In vivo repair of challenging bone defects by HHSs-cells
+The capability of HHS-cells for bone defect repair was assessed incritical-sized segmental and osteoporotic bone defect models in rats.
+Firstly, in ﬂammation and foreign body response of HHS-M (HHS with
+rBMSCs) were evaluated through subcutaneous implantation in rats. Incomparison to HHS without cells, the results of indicated that HHS-Mdid not display excessive in ﬂammation and foreign body response
+(Supplementary Fig. 12). Bioluminescence images and a quantitativeanalysis of HHS-M with luciferase-overexpressed rBMSCs in vivo(Supplementary Fig. 13), showed that the majority of cells seeded in theHHS could survive, although a portion of the seeded cells died. Theschematic diagram of the experiments was shown in Fig. 6aa n dt h e
+surgical procedure was demonstrated in Supplementary Fig. 14 From
+X-ray images in Fig. 6b, no bridging was observed in Blank, HHS, HHS-
+M (HHS with rBMSCs), and HHS-ME (HHS with rBMSCs and rECs)groups at 6 weeks, while a complete bridging in HHS-M and HHS-MEwas observed at 12 weeks. As shown in Fig. 6c, the morphological
+characteristics of newly formed vessels and bones were visually mir-rored by 3D reconstruction from µCT images. At 6 weeks post-
+operatively, the results from micro ﬁl perfusion showed that there were
+more newly and orderly formed vessels in the HHS-cells (especially inthe HHS-ME) than those of HHSs and Blank (local magni ﬁcations in
+Supplementary Fig. 15). At 12 weeks postoperatively, HHS-M and HHS-
+ME groups exhibited plenty of new bone formation, and tubular and
+rod-like structures were clearly observed to bridge the proximal anddistal of femoral defect, indicating that new bone can form inside HHS-M and HHS-ME (Fig. 6c). Quanti ﬁcation of bone volume (BV), bone
+trabeculae thickness (Tb.Th) and bone trabeculae number (Tb.N)within the defect from the reconstructed μCT images were summar-
+ized in Fig. 6d. The signi ﬁcant increase of BV (Fig. 6d) in 4 groups from
+6 to 12 weeks was seen. At 12 weeks, compared to Blank and HHS, bothHHS-M and HHS-ME supported statistically greater levels of BV, andthe BVs of HHS-M and HHS-ME groups were 2.1- and 2.5-fold higherthan that of the HHS group, respectively. A signi ﬁcant increase of
+Tb.Th was also found in both HHS-M and HHS-ME groups compared to
+Blank and HHS. There was no difference in Tb.N between 4 groups. Asshown in Fig. 6e, Hematoxylin and eosin (H&E) and Masson ’s trichrome
+staining further con ﬁrmed that the HHSs-cells (HHS-M and HHS-ME)
+signiﬁcantly improved the reconstruction of new bone, and HHS-ME
+seemed to be slightly better than HHS-M in promoting boneregeneration.
+As shown in Supplementary Fig. 16a, b, ratosteoporotic model
+was established successfully. More importantly, cellular senescence-associated βgalactosidase (SA βgal) activity and senescence-related
+gene expression of p16 both increased in BMSCs derived from osteo-porotic rats(OVX-BMSCs) compared to BMSCs derived from healthy
+and young rats(Supplementary Fig. 16c, d). In contrast, the prolifera-
+tion behavior decreased in OVX-BMSCs (Supplementary Fig. 16e).Additionally, the ability of osteogenic differentiation in OVX-BMSCssigniﬁcantly diminished (Supplementary Fig. 16f, g). The results con-
+ﬁrmed that the OVX-BMSCs in the osteoporotic ratswere senescent.Fig. 5 | Cell loading to HHSs with mechanical responsiveness. Fluorescence
+images ( a) and quantitative analysis ( b) of loaded cells in HHSs ( L0.4D0.6d0.4),n=5 ,
+****P< 0.0001. HHSs were subject to a static condition without mechanical stimu-
+lation within 4 s in cell suspension (1 × 106cells/mL), or a cycle of compression-
+recovery within 4 s at 80% strain in hBMSCs cell suspension (1 × 106cells/mL) under
+a dynamic condition. Fluorescence images of ﬂuorescein diacetate staining and
+quantitative analysis were acquired at 1 and 3 days after HHS-cells culture inmedium. cSchematic diagram ( i),ﬂuorescence images ( ii) and quantitative analysis
+(iii) of cell loading into HHSs in hBMSCs cell suspension (1 × 10
+6cells/mL), which
+were controlled by various compression strains (20%, 40%, 60% and 80%), n=5 ,
+*P= 0.0446 (20% and 40%), *** P=0 . 0 0 0 3( 2 0 %a n d6 0 % ) ,* * * P=0 . 0 0 0 5( 4 0 %a n d
+80%), * P= 0.0156 (60% and 80%). dSchematic diagram ( i),ﬂuorescence images ( ii)
+and quantitative analysis ( iii) of cell loading into HHSs in hBMSCs cell suspension(5 × 106cells/mL), which were controlled by number of cycles (1, 3, 5, and 10), n=8 ,
+***P< 0.001. eSchematic diagram ( i),ﬂuorescence images ( ii), and quantitative
+analysis of cell distribution ( iii) and cell numbers ( iv) by direct seeding and V2-
+mechanical response, respectively, n= 5, **** P<0 . 0 0 0 1 . fFluorescence images of
+HUVECs-RFP (red) and hBMSC-GFP (green) that were precisely partitioned in the
+hollow ﬁlaments and the grids of HHSs by successive combination of V1+V2-
+mechanical response. gProtein secretion of CD31 (green) and VWF (red) of HUVECs
+in an HHS after culturing for 14 days. hAlizarin Red S staining (ARS) in an HHS with
+hBMSCs at day 21. Each experiment in ( f–h) was repeated three times indepen-
+dently with similar results. Dates are presented as means ± s.d, statistical sig-niﬁcance was calculated using Student ’sttests ( b,e(iv)) and one-way ANOVA
+method with Tukey ’s multiple comparisons tests ( c(iii),d(iii)). Source data are
+provided as a Source Data ﬁle.Article https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 8To further investigate the bone regenerative ability of HHS-cells under
+osteoporotic conditions, cylindrically shaped scaffolds were implan-
+ted into metaphyseal defects in osteoporotic rat femurs (Supplemen-tary Fig. 17) and the schematic diagram was shown in Fig. 7a. After 4
+and 8 weeks of surgery, most new bone formation was observed inHHS-M group, and the Blank group exhibited the worst effects judgingfrom the visibly empty area inside even at 8 weeks (Fig. 7b, d). New
+bone formation after 4 and 8 weeks of surgery were further visualized
+byμCT, as shown in Fig. 7b. Notably, a large amount of new bone
+f o r m a t i o nc o u l db es e e na tt h er e g i o no fc a n c e l l o u sb o n ed e f e c ti nt h eHHS-M group, while in the Blank group almost no signal of new bonewas revealed even at 8 weeks postoperatively. Quanti ﬁcation of ratio of
+Fig. 6 | Reconstruction of large-sized segmental bone defects in ratsby Blank,
+pure HHS, and HHS-cells (HHS-M and HHS-ME). a Schematic diagram of the
+experiments. bRadiography (X-ray) assessment at week 6 and 12 after surgery.
+cMicrocomputed tomography ( μCT) reconstruction images of bone at week 6 and
+12, and blood vessels (red) at week 6 after surgery. dQuantitative analysis of bone
+volume (BV), trabecular number (Tb.N), and trabecular thickness (Tb.Th) from the
+reconstructed μCT images at week 6 and 12. Data are presented as means ± s.d, n=4
+per group, statistical signi ﬁcance was calculated using one-way ANOVA method
+with Tukey ’s multiple comparisons tests, BV *** P= 0.0008 and **** P<0 . 0 0 0 1 ,n srepresents no signi ﬁcant difference (P å 0.05), Tb. Th * P= 0.0103 and *** P=0 . 0 0 0 8
+at week 6 and * P= 0.0271 at week 12, Tb. N * P=0 . 0 1 2 1 . eHistological staining (H&E
+and Masson ’s trichrome) at week 12. A visible defect gap in the Blank and pure HHS
+groups, positive staining of new bone in the HHS-M and HHS-ME groups, wereobserved according to H&E (pink) and Masson ’s trichrome (deep blue) staining,
+each experiment was repeated four times independently with similar results.
+Magni ﬁed images are in the dotted boxes. Green rhombus, black hollow ﬁve-
+pointed star, and blue solid ﬁve-pointed star represent ﬁbrous, muscle, and new
+bone tissues, respectively, Source data are provided as a Source Data ﬁle.Article https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 9Fig. 7 | Regeneration of osteoporotic bone defects in rats by Blank, pure HHS
+and HHS-cells (HHS-M). a Schematic diagram of the experiments of bone healing
+in the distal femoral metaphyseal critical-size defects of osteoporotic rats.bμCT
+reconstruction images showing overall views of the bone specimens, cross-section
+views and new bone views in the defective region at week 4 and 8 after surgery.cQuantitative analysis of ratio of bone volume to the total defect volume (BV/TV),
+bone trabeculae number (Tb.N), and trabecular separation (Tb.Sp) from the
+reconstructed μCT images at week 4 and 8. Data are presented as means ± s.d, n=3
+for Blank groups, n= 4 for HHS and HHS-M, statistical signi ﬁcance was calculated
+using two-way ANOVA method with Tukey ’s multiple comparisons tests, BV/TV ofBlank and HHS-M ** P= 0.006 (week 4) and **** P< 0.0001 (week 8), BV/TV of HHS
+and HHS-M ** P= 0.0018 (week 4) and ** P= 0.003 (week 8), Tb.N of Blank and HHS-
+M* *P= 0.0036 (week 4) and **** P< 0.0001 (week 8), Tb.N ** P= 0.0072 (HHS and
+HHS-M at week 4) and ** P= 0.0011 (Blank and HHS at week 8), Tb.Sp at week 4
+***P= 0.0005 (Blank and HHS-M) and * P= 0.0209 (HHS and HHS-M), Tb.Sp at week
+8* * * * P<0 . 0 0 0 1 . dH&E and Masson ’s trichrome staining at week 4 and 8, each
+experiment was repeated four times independently with similar results. Magni ﬁed
+images are in the dotted boxes. A visibly empty area was spotted in Blank group
+even at week 8, obvious new bone formation was seen in HHS-M groups at week 4and 8. Source data are provided as a Source Data ﬁle.Article https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 10bone volume to the total defect vol ume (BV/TV), Tb.N and trabecular
+separation (Tb.Sp) within the defect from the reconstructed μCT
+images were summarized in Fig. 7c. The results from BV/TV and Tb.N
+revealed that the levels of HHS-M group were always higher than those
+of HHS and Blank group at all time points, with an order of HHS-
+M > HHS > Blank at 8 weeks. A signi ﬁcant decrease of Tb.Sp was found
+in HHS and HHS-M group, among which Tb.Sp in the HHS-M group wasthe lowest. The results from H&E and Masson ’s trichrome staining
+(Fig. 7d) showed that HHS-M groups showed the most new bone for-
+mation at both 4 and 8 weeks, which is consistent with the results fromμCT images. Although the GLN hydrogels demonstrated certain
+bioactivity to promote blood vessels ingrowth and bone regeneration(Supplementary Figs. 11, 18), th ew e a ke f f e c t so fp u r eH H S so nb o n e
+formation were observed under osteoporotic condition. In contrast,massive new bone was detected on the inner and outer walls of the
+hollow tubes in the HHS-M group, suggesting the necessity of loading
+healthy cells in osteoporotic bone defects. Accordingly, it can beconcluded that MSCs-laden HHSs can accelerate bone repair, offeringa promising strategy to treat osteoporotic defects.
+Discussion
+The bioprinting technology has revolutionized bone tissue engineer-ing to become more time-saving and effective, e.g., it could realizereadily a desired level of cell deposition and distribution inscaffolds
+16,17,21,22. However, it remains challenge to maintain cell viability
+during the bioprinting process and ameliorate mechanical stability of
+bioprinted cell-laden constructs, which is a requirement for bone
+regeneration24–27. Especially for extrusion bioprinting, cells are partially
+damaged by shear stress during extrusion and complex structuresoften fail due to unsatisfying printability and poor self-supportingability of bioinks
+26, which severely hinders the application for chal-
+lenging bone defect repair30,31. Therefore, it encourages us to present a
+post-bioprinting strategy based on the rapid compression-recovery.Compared to other cell loading methods previously reported
+7,16,23,32–34
+in terms of time, uniformity, condition, designability, and size (Sup-
+plementary Fig. 19), excellent mechanical responsiveness of HHSs canrealize rapid, uniform, friendly, and precise cell loading for fabrication
+of large-scale cell-laden constructs, strengthening the tissue-
+engineered therapy for repair of large-sized segmental and osteo-porotic bone defects.
+For this post-bioprinting strategy, 3D printing of constructs
+with hollow structures cannot be overemphasized. Sacri ﬁcial tem-
+plates are commonly used in combination with 3D printing to fab-ricate constructs with hollow structures, and disposal of thesupporting material is usually necessary
+35,36. Besides, low con-
+centrations of hydrogel bioink in extrusion bioprinting often lead toinsuf ﬁcient mechanical stability and printability, making it dif ﬁcult
+to bio-print constructs with hollow structures with an adequate
+structural integrity
+23. Herein, for the ﬁrst time, large-sized HHSs were
+precisely fabricated through a simple and one-step process ofcoaxial printing technique without any supporting materials.Remarkably, HHSs with a 6 cm height were successfully obtained,almost reaching the critical size for human segmental bone defect
+37.
+The superior printability, rapid shape-recovery behaviors, andexcellent self-supporting ability of GLN hydrogel inks are the criticalprerequisite for successful fabrication of HHSs, attributable to theirabundant physically interpenetrated networks. On one hand, theanisotropic charge distribution on the nanoclay (positive edges,negative faces) results in formation of a “house-of-cards ”structure,
+contributing to the shear-thinning properties of nanoclay-polymer
+solutions
+38. Besides, backbones of gelatin methacryloyl and
+N-acryloyl glycinamide interact with charged surface/edge of nano-clay via electrostatic interactions. gelatin methacryloyl with rela-tively high molecular weights, tails as a bridge between multiplenanoclay resulting in the formation of a physically crosslinkednetwork and sharply increase the viscosity of the hybrid inks. The
+N-acryloyl glycinamide also affects the interaction between gelatinmethacryloyl and nanoclay, causing a reduction in the viscosity ofGLN inks. One the other hand, reversible multiple hydrogen bonding
+also occurs among N-acryloyl glycinamide molecules
+30,31. Speci ﬁ-
+cally, the electrostatic interactions and multiple hydrogen bonds willbreak and reform reversibly once applying mechanical stress andrelaxation to the system
+38. Besides printability and self-supporting of
+GLN inks, structural stability and suf ﬁcient mechanical strength
+under physiological conditions39are also critical for achievement of
+the tunable HHSs with high ﬁdelity. Structure stability of HHS is
+affected by solidi ﬁcation processes and swelling properties of GLN
+hydrogels25. The covalent bonds formed in HHSs by photo-
+crosslinking can maintain the stability and integrity of HHSs underphysiological conditions without collapse. Besides, the introduction
+of N-acryloyl glycinamide contents can improve hydrogen bonds
+and increase covalent crosslinks between N-acryloyl glycinamideand gelatin methacryloyl chains, restricting the diffusion of watermolecules into or out of the GLN hydrogel network, thus offeringsufﬁcient mechanical strength.
+Owing to the tunable hollow structure of GLN hydrogels, HHSs
+with attractive resilience, rapid shape recovery, and exceptionalfatigue resistance are thoroughly demonstrated, which are the keysto success of this mechanical-assisted post-bioprinting strategy forloading cells. The substantial part of GLN hydrogel, and space partsofV
+1and V2, together regulate the mechanical properties of the
+HHSs. Materials with excellent resilience can perform a large overall
+deformation with little energy dissipation40. However, as hydrogels
+are viscoelastic, large deformation can generally convert into pro-nounced energy dissipation. In this study, low hysteresis and largedeformation were achieved attributing to the existence of V
+1in the
+HHSs. V1provided the space to signi ﬁcantly deform (80% strain) for
+the backbone (GLN hydrogel) of HHSs. Besides, the air in V1could be
+expelled when compression occurred, resulting in lower pressure.Subsequently, the pressure difference between the inside and out-side of HHSs endowed them with rapid recover ability under onecycle of compression-recovery process within 4 s, demonstrating
+that V
+1caused the aforementioned mechanical responsiveness. The
+compression-recovery process of HHS is similar with the systole-diastole of heart. The dissipated energy in the compression-recoverycycles was linked to the rupture of the physical crosslinks
+41. The
+sacriﬁcial bonds, such as “house-of-cards ”structure of nanoclay38,
+electrostatic interactions among nanoclay-polymer chains (gelatinmethacryloyl or NAGAN-acryloyl glycinamide)
+30,38, and multiple
+hydrogen bonding among NAGAN-acryloyl glycinamide molecules31,
+responsible for energy dissipation, existed in the backbone (GLNhydrogel) of HHSs. Notably, as depicted in Fig. 3e, sacri ﬁcial bonds in
+the HHSs were mostly reversible, and ruptured to dissipate energy
+during material deformation and recovered after relaxation
+42.I n
+detail, however, they would begin to irreversibly break with largedeformation that dissipated excessive energy. Minimization ofenergy dissipation was essential for achieving high performance ofthe HHSs where repetitive actions were required. The solid contentof HHSs would decrease with an V
+1, resulting in production of rela-
+tively lower stress on the HHSs ( L0.4D0.6d0.3andL0.4D0.6d0.4) under a
+same deformation. Thus, after 104cycles, only slightly irreversible
+damage of sacri ﬁcial bonds occurred in the HHSs ( L0.4D0.6d0.3and
+L0.4D0.6d0.4), demonstrating their exceptional fatigue resistances.
+However, continuously high stress would cause irreversible damageof sacri ﬁcial bonds in the HHSs ( L
+0.4D0.6d0). The energy dissipation
+in the HHSs ( L0.4D0.6d0) without V1was insuf ﬁcient to resist cycles of
+continuously high stress, and caused irreversible damage of sacri ﬁ-
+cial bonds, leading to severe damage of the HHSs after 102cycles. In
+short, the existence of V1signiﬁcantly elevated the reusability and
+resistance to fatigue of HHSs.Article https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 11More importantly, by means of this post-bioprinting strategy,
+HHSs-cells are successfully achieved, attributing to distinctmechanical responsiveness between V
+1and V2. HHSs with V1pre-
+sented attractive resilience, could undergo rapid compression-
+recovery within 4 s under a dynamic condition. During recovery
+after compression, the pressure difference between the inside andoutside of HHSs actively drove the cell suspension into their V
+1and
+V2, similar with diastole of heart. Subsequently, hollow channels of V1
+entrapped the cells so that they would not be removed by rinsing7;
+while cells in V2could be easily removed by rinsing. Besides, the
+compression stains and cycles of compression-recovery controlledthe pressure difference between the inside and outside of HHSs, andthus further regulating the number of loaded cells. Thus, V
+1of HHSs
+responded to mechanical stimulation with high tailorability, realiz-ing a rapid, uniform, and precise manner to load cells without any
+negative effects. In general, HHSs needed to be immersed in a
+medium to reach the swelling equilibrium under a static conditionbefore cell loading, causing V
+2full of medium. When cells were
+directly seeded on the HHSs, it would be relatively dif ﬁcult for them
+to enter V2, causing insuf ﬁcient cell deposition and ununiform dis-
+tribution in HHSs after a period of culture, which was consistent withthe results from a previous report
+43.B y V2-mechanical response,
+medium could be drained out from V2, differential pressure inside
+and outside drove the uniform ﬁlling of the V2with cell suspension,
+subsequently the cells could adhere in the frame of V2after a period
+of culture, contributing to a uniform distribution and high loading
+efﬁciency of cells in HHSs. Thus, on basis of the post-bioprinting
+strategy, combination of utilization of V1+V2-mechanical response
+can realize the precisely partitioned loading of multiple cell types,bypassing the harsh requirements for bioinks in extrusion bio-printing. Notably, the post-bioprinting strategy for cell loading canbe extended to larger sizes of HHSs by increasing compression strainand cycles.
+Compared with the HHSs, better osteogenesis was achieved in
+HHSs-cells in evaluation of results in vivo, demonstrating the effec-tiveness of HHSs-cells for treatment of challenging bone defects. Onone hand, HHSs-cells could provide abundant crucial cells for osteo-
+genesis, thus promoting the new bone formation
+6,44,45,w h i l ed i dn o t
+exhibit excessive in ﬂammation/foreign body response. Notably, it was
+veriﬁed that vascularization could accelerate bone formation in chal-
+lenging bone defects8,46,47. BMSCs could not only differentiate into
+osteoblasts, but also upregulate the vascularization48.I ns e g m e n t a l
+bone defects, HHS-M and HHS-ME could signi ﬁcantly facilitate blood
+vessels formation in an early stage. Moreover, HHS-ME seemed toperform better than HHS-M in this study, which was in line with pre-vious ﬁndings that co-culturing of BMSCs and ECs facilitated osteo-
+genesis and angiogenesis compared to BMSCs only
+7,48,49.W h e r e a s ,i n
+contrast to other cell-free constructs, such as 3D printed scaffolds,
+porous scaffolds, and hydrogels, H HS-cells also exhibit a comparable
+repair effect in rats segmental bone defects3,50–52. In addition, compared
+to the senescent BMSCs in osteoporotic bone, healthy BMSCs not onlysupported differentiation into osteoblasts, but also inhibited osteoclastactivation, thus rebalancing bone formation and resorption in osteo-porotic bone defects
+53. On the other hand, compared to the blank
+group, the cell-free HHSs exhibited an improved ability for boneregeneration, suggesting pure HHSs also provided favorable micro-environments for enhanced osteogenesis. It has long been a consensusthat the cell fate commitment of BMSCs is uncertain aftertransplantation
+53. In order to maximize the function of BMSCs, material
+design is also necessary in bone tissue engineering1. Bioactive ingre-
+dients have been commonly integrated into materials to enhance
+osteogenesis and angiogenesis21,22,50,54. GLN-based HHSs containing the
+bioactive Mg and Si could facilitate osteogenesis and angiogenesis15,55,56.
+Moreover, the hollow structures of HHSs could also promote masstransfer of nutrient and oxygen, as well as the ingrowth of blood vesselsto accelerate bone formation
+57. Together, in the study, this post-
+bioprinting strategy combines the bene ﬁts of loaded cells and bioactive
+substances to reconstruct challenging bone defects successfully.
+The proposed post-bioprinting strategy has the potential to be
+developed as a universal approach for tissue-engineered therapy
+repairing other tissues, such as cartilage, muscle, nerve, etc. Moreover,it can be also developed to deliver bioactive factors or drugs for cell-free therapy. Nonetheless, it is still in its infancy and lots of challengesshould be further investigated to widen the range of its applications.First, the biological mechanism of bone repair by HHS-cells in thestudy is still unclear, and in-depth and longer-term studies are needed.Second, this post-bioprinting strategy is limited to a certain extent dueto the choice of biomaterial inks, which remains questionable whetherit is suitable for other tissues. In addition, only two types of cells werepartitioned in HHSs in this work, and precise loading of more cells type
+by this post-bioprinting strate gy should be further developed.
+In conclusion, a series of large-sized and sophisticated HHSs with
+tunable hollow structures were successfully fabricated through a sim-ple approach of one-step coaxial printing without supporting materi-als. The obtained HHSs exhibited excellent mechanical outcomes:attractive resilience, rapid shape recovery, and exceptional fatigue
+resistance, revealing their drastic mechanical responsiveness. Thisunique responsiveness was further utilized to realize cell loading intoHHSs in a rapid, uniform, precise and friendly manner. Additionally,cell-laden HHSs could effectively repair the critical-sized segmental andosteoporotic bone defects in vivo. Therefore, this mechanical-assisted
+post-bioprinting strategy offers a universal, ef ﬁcient, and promising
+approach to perform cell-based regenerative therapies.
+Methods
+Preparation and characteriza tion of gelatin methacryloyl/
+Laponite nanoclay/N-acryloyl glycinamide hybrid inks andhydrogels
+A series of GLN hybrid inks with variable mass ratios of gelatin
+methacryloyl/Laponite nanoclay/N-acryloyl glycinamide were pre-pared. Gelatin methacryloyl was synthesized as described below. Inbrief, type A porcine skin gelatin (V900863, Sigma-Aldrich, USA) was
+dissolved in phosphate buffered saline at 50 °C. Subsequently,
+methacrylic anhydride was slowly added to the gelatin solution andreacted at 50 °C for 3 h. The solutions were dialyzed against distilledwater by using 8 –14 kDa cutoff (Solarbio, China) dialysis tubing at
+40 °C for 3 days and lyophilized for 4 days to obtain gelatin metha-cryloyl. Then, gelatin methacryloyl, Laponite nanoclay (BYK, Wesel),and N-acryloyl glycinamide (BD1188660, Bidepharm, China) were dis-solved in deionized water and adequately mixed at ﬁnal concentra-
+tions (w/v) of 12% gelatin methacryloyl, 10% Laponite nanocaly and 0%,4%, 8%, 12% N-acryloyl glycinamide to prepare the GLN0, GLN4, GLN8,and GLN12 hybrid inks, respectively. Subsequently, the photoinitiator,
+phenyl-2,4,6-trimethylbenzoyl phosphate lithium (TCI, L0290) was
+added to a ﬁnal concentration of 0.1% (w/v). Finally, the GLN hydrogels
+were obtained by exposure of GLN hybrid inks in a UV crosslinker for40 min (Spectronics Corporation, USA). gelatin methacryloyl andN-acryloyl glycinamide were characterized by NMR (Supplemen-tary Fig. 1).
+Rheological test of GLN hybrid inks
+The rheological properties of GLN hybrid inks were conducted usinga shear rheometer (MCR 302, Anton Paar, Austria). To assess shearthinning properties, viscosity was measured as a function of shearrate 0.1 –10 s
+−1at 25 °C. Shear recovery was assessed by applying
+shear rate sweeps at three stages with shear rate 0.1 s−1(60 s) −1o r1 0
+or 50 s−1(5 s) −0.1 s−1(60 s), T= 25 °C. Strain-yielding behavior was
+assessed using a strain sweeps test, and the shear strain was changedsuccessively from strain 1% (90 s) to strain 50%, 100%, 150% (90 s),with f = 1 Hz and T= 25 °C.Article https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 12Morphology observation of GLN hydrogels
+The GLN hydrogels were sharply frozen in liquid nitrogen and lyo-
+philized immediately. The cross sections of the freeze-dried samples(n= 3) were observed under a ﬁeld emission scanning electron
+microscopy (SEM, Hitachi S-4800, Japan). In addition, the elemental
+analysis (Si and Mg) of the GLN hydrogels were detected using anenergy dispersive spectrophotometer (EDS, Hitachi, Japan).
+Mechanical properties of GLN hydrogels
+All the GLN hydrogels were immersed in PBS to reach swelling equili-brium before the test. The compression modulus and strength of GLNhydrogels ( φ8m m×h 1 0m m , n= 4) were determined using a
+mechanical analyzer (Care, IBTC-300SL, China) at room temperatureand the crosshead speed at 0.05 mm/s. The modulus of GLN hydrogelswas obtained by the initial (straight line) linear slope of the stress-strain
+curve. The compressive strength was the peak of stress from the stress-
+strain curve. The stress relaxation was measured under 20% strain, andthe relaxation time was de ﬁned as the time that the stress reduces to
+half of the initial stress.
+Water absorption of GLN hydrogels
+The water adsorption of GLN hydrogels was measured by incubatingthe hydrogels ( φ10 mm × h 0.5 mm, n=4 )i nP B Sa t3 7° Cf o r1 2ht o
+reach swelling equilibrium. Wet weight ( W) was recorded at preset
+time points. The rate of water adsorption was de ﬁned as ( W-W
+0)/
+W0× 100%, where W 0was the initial wet weight of the samples.
+Besides, the gross morphology was imaged with a digital camera.
+Degradation of GLN hydrogels
+The degradation of GLN hydrogels was measured by incubating the
+hydrogels ( φ10 mm × h 0.5 mm, n= 4) in PBS at 37 °C. Wet weight ( W)
+was recorded at preset time points. The degradation rate of wasdeﬁned as ( W
+0-W)/W0× 100%, where W0was the initial wet weight of
+the samples.
+Water contact angles test of GLN hydrogels
+The water contact angle of the GLN hydrogels was examined with an
+automatic video micro contact angle-measuring instrument. The
+deionized water falling on top surfaces of samples ( n= 4) had a
+volume of 5 μL and a velocity of 1 μLs−1, then images of droplets were
+recorded by microscope lens and a camera. Analysis and processingsoftware was used to calculate the contact angle of the GLNhydrogels.
+Cell viability, spreading, proliferation, and osteogenic differ-
+entiation of cells on GLN hydrogels
+Human bone marrow mesenchymal stem cells (hBMSCs) (Cyagen,
+HUXMF-01001, Guangzhou) were cultured in a-MEM containing 10%
+fetal bovine serum (FBS, Gibco) and 100 U/mL penicillin/streptomycin
+in a humidi ﬁed atmosphere with 5% CO 2at 37 °C. hBMSCs at passage 6
+(P6) were used for further experiments. The hBMSCs were seeded ontothe sterilized GLN hydrogels ( φ10 mm × h 0.5 mm) placed in 24-well
+cell culture plates (Corning) at a seeding density of 2 × 10
+4cells/well.
+Live/dead viability was used for determining cell viability. The samplescultured for 1 day were stained with 5 µg/mL ﬂuorescein diacetate
+(FDA, Sigma) and 5 µg/ml propidium iodide (PI, Sigma), after washing
+the samples with PBS, cell viability in the hydrogels was observedvisually with a confocal laser scanning microscopy (CLSM, Leica SP8,Germany). The samples cultured for 1 day were ﬁxed in 4% paraf-
+ormaldehyde for 10 min at 4 °C. After cell permeabilization and
+blocking with 0.1% Triton-X and 10% goat serum, respectively. Then,
+the samples were incubated with an anti-vinculin antibody (Abcam,ab129002) at 1:100 dilution in 1% BSA-containing PBS solution at 4 °Covernight. Subsequently, the samples were washed 5 times by ﬂowing
+PBS and treated with the goat anti-rabbit IgG Alexa Fluor 488conjugate secondary antibody (Abcam, ab150077) at 1:500 dilution for
+1 h at room temperature. Meanwhile, to visualize cell spreading, thesamples were incubated in 5 U/mL Alexa Fluor-594 phalloidin (Invi-trogen, A12381) for 45 min at room temperature, and cell nuclei were
+stained with Hoechst 33342. Finally, the stained samples were exam-
+ined under a CLSM. For quantitative analysis of cell proliferation, thesamples were incubated in a serum-free medium containing 10% CCK8(Dojindo, Japan) and measured using a multi-detection microplatereader (Bio-Rad 550). Cell proliferation was analyzed on 1, 3, and5 days. The activity of alkaline phosphatase was detected with a BCIP/NBT staining kit (Beyotime, C3206) according to the manufacturer ’s
+protocol. Brie ﬂy, the samples cultured for 7 days were ﬁxed in 4%
+paraformaldehyde for 10 min at 4 °C and incubated with BCIP/NBTworking solution at 4 °C overnight. Then, the samples were washedthree times with deionized water. The images were acquired by an
+optical microscope. The samples cultured for 14 days were harvested
+for detecting collagen I (Col I). Immuno ﬂuorescence staining was
+performed as described above. The primary antibody and secondaryantibody were anti-Col I at dilution 1:200 (Abcam, ab34710) and goatanti-rabbit IgG Alexa Fluor 488 at 1:500 dilution (Abcam, ab150077),respectively. Osteogenic gene expression (ALP and COLI) was assessedby qRT-PCR. At 7 days, the samples ( n= 3) were collected. Total RNA
+was extracted according to the manufacturer ’s instructions for the
+RNeasy Mini Kit (Qiagen, 74904). And then, the extracted RNA wasreverse-transcribed into cDNA using the RevertAid First Strand cDNASynthesis Kit (Invitrogen, K1622). Quantitative real-time PCR was per-
+formed using the CFX96TM real-time PCR detection system (Bio-Rad,
+USA) with RealStar Fast SYBR qPCR Mix (Genstar, A301). The cyclingconditions for qRT-PCR are 95 °C for 2 min, followed by 40 cycles of9 5° Cf o r1 5s ,6 0° Cf o r1 5s ,a n d7 2° Cf o r3 0s .A n dt h eg e n ee x p r e s s i o nlevel of each targeted gene was determined by the △△ Ct method,
+and GAPDH was used as a housekeeping gene to normalize the results.The sequences of the primers are given in Supplementary Table 2.
+Fabrication of HHSs
+The HHSs were one-step printed through a coaxial needle using a 3Dprinter (BioScaffolder 3.1, GeSiM, Germany) at room temperature. The
+prepared GLN ink was loaded into a printhead and connected to the
+external nozzle of a coaxial needle, while the internal nozzle wasconnected to an empty printhead. During the printing process, theGLN ink was directly extruded from the coaxial nozzle to form hollowﬁlaments with an air pressure of 300-500 KPa, and then constructs
+were fabricated at a printing speed of 6 mm/s. Hollow ﬁlaments with
+tunable inner and outer diameters were controlled by the size ofcoaxial needles. To further fabricate the constructs with complicatedand irregular shapes, bone-shape constructs were generated by a 3Dmodeling software (3D Studio Max). Subsequently, the 3D modelswere uploaded onto GeSiM Robotics Software, which generated 2D
+and 3D views of structures and G-codes to print. A digital camera
+(Nikon, Japan) was used to acquire images of the printed constructs.Finally, the HHSs were exposed in a UV crosslinker for 80 min withglycerin moisturizing.
+Characterization of HHSs
+The morphologies of ﬁl a m e n t sa n dg r i d so fH H S sw e r eo b s e r v e db ya
+stereo-zoom microscope (Hirox RH-2000, USA). Hollow structureswere displayed by immersing the HHSs in water, and the images werecaptured using a digital camera. For further characterization of theinternal structures of HHSs, samples were sliced to ~200 –300 µmi n
+thickness and labeled with Rhodamine B. After staining for 1 min, slices
+were triply washed by deionized water and imaged with an inverted
+ﬂuorescence microscope (Nikon, Japan). The average size of inner and
+outer diameters of one ﬁlament, and distances between two ﬁlaments
+in a layer were de ﬁned as d,D,andLrespectively. Quanti ﬁcation was
+performed in ImageJ.Article https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 13Mechanical properties of HHSs
+The HHSs (10 × 10 × 10 mm) were immersed in PBS for 1 h to reach a
+swelling equilibrium before tests. Compression resilience of HHSs withvarious inner diameters ( L
+0.4D0.6dz,z= 0 ,0 . 2 ,0 . 3 ,0 . 4 , n=3 ) w e r e
+determined using a mechanical testing instrument (Care, China) with a
+crosshead speed at 0.1 mm/s at room temperature. A strain of 80% wasset for the compression-recovery tests, and the whole process wasrecorded by a digital camera. The compression modulus of HHSs wasdetermined from the linear slope of the stress-strain curve at a strain of5%. For characterization of resilient speed of HHS, luminous ﬂuid was
+added onto the HHSs ( L
+0.4D0.6d0.4) to visualize the compression-
+recovery process, which was recorded by a digital camera.
+F a t i g u er e s i s t a n c eo fH H S sw a sa s s e s s e db yac y c l i cc o m p r e s s i o n
+test. The HHSs with tunable inner diameters L0.4D0.6dz(z= 0, 0.2, 0.3,
+0.4,n=3 )w e r es u b j e c tt o1 04cycles at a frequency of 0.05 Hz with 40%
+compression strain. The HHSs were ﬁxed in a water bath at room
+temperature during the test to avoid the in ﬂuence of moisture eva-
+poration from hydrogels. The test would be aborted if the HHSs wereobviously fractured. The morphologies of HHSs before and aftertesting were respectively captured by a digital camera and stereozoom microscope.
+Tests of mechanical responsiveness
+The mechanical responsiveness of HHSs (10 ×10 × 10 mm) to a solutionwas assessed as below. HHSs with tunable inner diameters ( L
+0.4D0.6dz,
+z= 0, 0.2, 0.3, 0.4) were used and distances between two hollow ﬁla-
+ments in same layer were also varied ( LxD 0.6d0.4,x= 0 . 2 ,0 . 4 ,0 . 6 ) .
+Firstly, the HHSs were immersed in water at 37 °C for 8 h to reach astable state under a static condition. Wet weight (W) was recorded atpreset time points. The water uptake ratio was de ﬁned as ( W-W
+0)/ρ/
+(l×w×h)×1 0 0 % ,w h e r e W0was the initial wet weight of the samples, ρ
+was the value of water density, and l,w,andhwere length, width, and
+height of the HHS respectively. Sub sequently, HHSs were handled with
+mechanical stimulation in a dynamic condition, and compression withdifferent displacements (20%, 40%, 60%, and 80%) were performed onthe HHSs. The wet weight ( W′) was recorded after the shape recovery
+of HHSs to the initial state. In addition, the HHS ( L
+0.4D0.6d0.4)w a s
+further subject to incrementally numbers of cycles of compression-
+recovery (1, 3, 5, and 10) with 20% and 40% compression strains. Thewater uptake ratio was de ﬁned as ( W′-W)/ρ/(l×w×h)× 1 0 0 % .A l l
+experiments were performed in triplicate to obtain the average data.
+To further visualize the mechanical responsiveness of HHSs, HHSs
+with tunable inner diameter ( L
+0.4D0.6dz,z=0 ,0 . 2 ,0 . 4 ,0 . 6 )w e r ec h o -
+sen. After immersing HHSs in a solution containing 0.5 mg/mL ﬂuor-
+escent microspheres (Aladdin, M122063, China) for 5 min, HHSs weresubsequently transferred to an IVIS imaging system (Caliper Life Sci-ences, USA), and the images before or after immersing were acquiredat Ex = 605 nm, Em = 680 nm. Next, HHSs were transferred back to the
+solution and subject to incremental compression displacements (20%,
+40%, 60%, and 80%) and number of cycles of compression-recovery(1, 3, 5, and 10) with 20% and 40% compression displacement. Theimages of HHSs were also captured using an IVIS imaging systems aftereach process of compression-recovery. All experiments were per-formed in triplicate to obtain the average data.
+Cell loading to HHSs
+Cell culture .Human bone marrow mesenchymal stem cells (hBMSCs,
+HUXMF-01001, Cyagen), hBMSCs-GFP (HUXMA-01101, Cyagen), andratbone marrow mesenchymal stem cells (rBMSCs, were cultured in α-
+MEM (Hyclone)) containing 10% fetal bovine serum (FBS, Gibco) and
+100 U/mL penicillin/streptomycin. Human umbilical vein endothelial
+cells (HUVECs, e005, iCell), HUVECs-RFP (h111, iCell) and ratumbilical
+vein endothelial cells (rECs, e004, iCell) were cultured in a specialculture medium supplied from the iCell. All cells were cultured in ahumidi ﬁed atmosphere with 5% CO
+2at 37 °C. rBMSCs were extractedfrom long bones of limbs of rats. Brie ﬂy, alpha-modi ﬁed Eagle ’sm e d -
+ium (α-MEM, HyClone) containing 20% fetal bovine serum (FBS, Gibco)
+and 100 U/mL penicillin/streptomycin (Hyclone) was injected usingsyringes to ﬂush cells out of marrow cavities. After 24 h, the medium
+was replaced with fresh culture medium to remove nonadherent cells.
+The cells were sub-cultured in α-MEM containing 10% FBS and
+100 U/mL penicillin/streptomycin. The sterilized HHSs (L
+0.4D0.6d0.4,
+length 10 mm, width 10 mm, height 10 mm) were immersed in α-MEM
+medium for 1 h at 37 °C before cell loading.
+Rapid Loading . Cell loading into HHSs by mechanical assistance was
+investigated. Firstly, two approaches were used: The ﬁrst one was
+direct immersion of HHSs in hBMSCs cell suspension (1 × 106cells/mL)
+for 4 s under a static condition; while the second one utilized acompression-recovery cycle in hBMSCs cell suspension under 80%
+strain within 4 s ( V
+1-mechanical response). The subsequent HHSs were
+immediately transferred from the cell suspension and further culturedin medium. After 4 h of culture, the samples were stained with 5 µg/mL
+ﬂuorescein diacetate (FDA, Sigma), triply washed with PBS, and then
+visualized by confocal laser scanning microscopy (CLSM, Nikon C2,Japan). The number of cells loaded into HHSs were quanti ﬁed by
+ImageJ. Subsequently, the in ﬂuence of compression displacement
+(20%, 40%, 60%, and 80%) in hBMSCs cell suspension (1 × 10
+6cells/mL)
+and cycle times (1, 3, 5, and 10) under 40% compression displacementin hBMSCs cell suspension (5 × 10
+5cells/mL) on cell loading of HHSs
+were also evaluated respectively. All experiments were performed in
+triplicate at least.
+Uniform distribution of cell loading . The cell loading into HHSs were
+handled in other two distinct means: One was directly seeding of0.5 mL cell suspension (hBMSCs, 1 × 10
+6cells per mL) onto the HHSs;
+the other was removal of the medium in V2under 80% compression
+displacement, and subsequent seeding of 0.5 mL hBMSCs cell sus-pension onto the HHSs ( V
+2-mechanical response). After 4 h of culture,
+same characterization of cells was performed as above. Besides, thecells in the surface, middle, and bottom sections of HHSs were alsoquanti ﬁed. All experiments were performed with ﬁve parallel samples.
+Partitioned loading of multiple cell types . To achieve partitioned
+loading of multiple cell types into HHSs, V
+1and V2of HHSs were
+manipulated by combination of V1+V2-mechanical response simulta-
+neously. Firstly, HHSs were subject to a process of compression-recovery under 80% compression displacement in a HUVECs-RFP cellsuspension within 4 s. Subsequently, samples were taken out and thegrids were triply ﬂushed ( V
+2)w i t h α-MEM medium. After culture for
+4h ,t h ep r o c e s so f V2-mechanical response was similarly performed as
+described above, except that the hBMSCs-GFP were used instead ofhBMSCs. The loading and distribution of HUVECs-RFP and hBMSCs-
+GFP in HHSs after 24 h of culture were visualized by CLSM.
+Cell viability under mechanical stimulation
+Cell damage is typically associated with a decrease in cell mitochon-
+drial membrane potential and an increase in ROS generation besides areduction in cell proliferation. To assess whether mechanical stimu-lation have negative in ﬂuence on cell viability. Mitochondrial mem-
+brane potential, ROS and prolifera tion of the cells were examined.
+After a process of compression-recovery with 80% compression dis-placement and 10 cycles with 40% compression displacement in cellsuspension, cells loaded in HHSs were collected by compression with80% compression displacement again. Subsequently, the collected
+cells were seeded on 24-well cell culture plates at a density of 2 × 10
+4
+cells/well, and cells that did not undergo mechanical stimulation were
+used as control. The following measurements were performed :Mito-
+chondrial membrane potential of cells cultured for 4 h and 24 h wasdetected by double ﬂuorescence staining of mitochondria using JC-1Article https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 14(C2006, Beyotime) according to the manufacturer ’s instructions,
+either as green ﬂuorescent J-monomers or as red ﬂuorescent
+J-aggregates. ROS generated by cells was detected via a ﬂuorescence
+probe DCFH-DA (35845, Sigma), and cells cultured with 200 μMH 2O2
+were used as positive control. After 4 h of culture, the cells were
+incubated in a 10 μM DCFH-DA solution at 37 °C for 30 min, and triply
+washed by PBS, and then stained with Hoechst 33342. Images of cellsl a b e l e db yJ C - 1a n dD C F H - D Aw e r ec a p t u r e du s i n gaC L S M ,a n dt h eintensity of red and green ﬂuorescence was quanti ﬁed by a gray value
+analysis in ImageJ. Cell proliferation was determined using a CCK8assay (Dojindo, Japan) according to the manufacturer ’s instructions,
+and analyzed on day 1, 3, and 5 ( n=3 ) .
+In vitro functional examination
+A f t e r1 4d a y so fc u l t u r e ,t h es a m p l e sl o a d e dw i t hH U V E C sw e r eh a r -
+vested to evaluate the maintenance of functions of HUVECs in HHSs for
+detecting CD31 and VWF immuno ﬂuorescence. Samples were triply
+washed with PBS and then ﬁxed in 4% paraformaldehyde at 4 °C
+overnight. All samples were dehydrated, embedded in OCT, and sec-tioned at a thickness of 5 μm. The slices were permeabilized and
+blocked with 0.1% Triton-X and 10% goat serum, respectively. Then, theslices were incubated with the anti-CD31 antibody (ab28364, Abcam)and the anti-VWF antibody (SC-365712, Santa) at 1:100 dilution in 1%BSA-containing PBS solution at 4 °C ov ernight. Subsequently, the slices
+were washed 5 times by PBS and treated with a mixture of goat-anti-rabbit IgG Alexa Fluor 488 (ab150077, Abcam) and goat-anti-mouse IgG
+Alexa Fluor 647 (ab150115, Abcam) conjugated secondary antibody at
+1:400 dilution for 1 h at room temperature, and washed 5 times by PBS.Finally, samples were counterstained with Hoechst 33342 and triplywashed with PBS. Fluorescence images were captured via a CLSM.
+Samples loaded with hBMSCs were cultured in osteogenic dif-
+ferentiation media. After 21 days of culture, the samples were har-vested for alizarin red S (ARS) staining to evaluate the ability ofcalciﬁcation. The samples were handled as described above to
+acquired slices. Then, the slices were stained with ARS solution at aconcentration of 1% (pH = 4.2 –4.3) for 5 min, and triply washed by
+deionized water. The images were acquired by an optical microscope.
+Establishment of challenging bone defect models
+To assess the concept of HHS-cells for repair of the challenging bonedefects, two typical challenging bone defect models were established:theratfemoral segmental and ratosteoporotic bone defects. The
+animal experiments were approved by the Institutional Animal Careand Use Committee of Shenzhen Institute of Advanced Technology,Chinese Academy of Science. HHS-cells samples were cultured for3 days in vitro before implantation.
+The ratfemoral segmental defect model
+32 male Sprague Dawley (SD) rats(12 weeks old) were divided into 4
+groups randomly: Blank (no samples), HHS, HHS-M (HHS loadedwith rBMSCs), and HHS-ME (HHS loaded with rBMSCs and rECs). A5 mm critical-sized femoral segmental defect was created accordingto a previously published procedure
+51. Brie ﬂy, anesthesia was per-
+formed with 5% iso ﬂurane and O 2. Animals were placed in lateral
+position on a 37 °C warm heating pad, iso ﬂurane was lowered to 2 to
+2.5% to maintain anesthesia during the entire surgery. The hindlimbof the ratwas shaved and disinfected (half of each left and right), and
+an ~2-cm-long longitudinal skin incision was made, and super ﬁcial
+fascia, biceps femoris and vastus lateralis muscles were separated,exposing the lateral aspect of the femoral bone. After thoroughly
+cleaning the soft tissue on femur, a seven-hole ﬁxation plate (31 mm
+in length, 3.5 mm in width, 1.2 mm in thickness, titanium alloy;Baiortho, China) was applied to the lateral aspect of the femur andheld in place using forceps and a clamp. At this point, the plate waspermanently ﬁxed to the bone using three proximal and three distalscrews (screws, φ= 1.1 mm; outer screws, 8 mm in length; inner
+screws, 7 mm in length; Baiortho). Screw holes were created in thefemur using drill sleeves and a drill bit ( φ= 1 mm, Baiortho). A 5 mm
+critical-sized segmental defect was created using a reciprocating saw
+(Baiortho). Saline was continuously applied during the piercings and
+osteotomy, and pieces of bone were carefully removed with saline. Adefect of ~5 mm was achieved in all animals. All samples used herewere designed as cylinders ( φ5.5 mm × h 5 mm). The cylindrical
+samples were push- ﬁtted, and then muscle, fascia and skin were
+successively closed with sutures. After wound closure, animals wereinjected with 8 U/mL penicillin and transferred back into their cage.To relieve the pain, all ratswere orally administrated with ibuprofen
+(10 mg/kg, PHR1004, Merck) in drinking water for 24 h after surgery.
+6 weeks after the defect surgery, randomly selected rats(a total of
+16,n= 4 for each group) were anesthetized. Abdominal cavity was
+opened, and abdominal aorta and vein were exposed. Then a 1.2 mm
+angio-catheter was inserted in the aorta and a 1.6 mm angio-catheterwas inserted in the vein. 100 mL of heparinized saline (1000 U/ml),100 ml of 4% paraformaldehyde, and 15 ml of Micro ﬁl (Flow Tech, MV-
+120, USA) were perfused in turn. After being kept for 24 h at 4 °C, thefemurs were collected from the rats, and imaged with microcomputedtomography ( μCT, SCANCO MEDICAL μCT100, Switzerland) to
+observe formation of blood vessels.
+6 and 12 weeks after the defect surgery, animals were euthanasia
+using CO
+2, and the femurs from each group ( n= 4) were collected and
+ﬁxed in 4% paraformaldehyde for 48 h. Bone healing in 4 groups were
+preliminary evaluated by X-ray. Subsequently, ﬁxation plates and
+screws were removed from the femur before μCT examinations.
+The ratosteoporotic bone defect model
+A total of 12 female SD rats(3 months old) were all subject to ovar-
+iectomy surgeries and then raised for another 12 weeks to obtainosteoporotic rats. The osteoporotic ratswere divided into 3 groups
+at random: Blank, HHS, and HHS-M. All samples used here weredesigned as cylinders ( φ3 mm × h 4 mm). A part of surgical proce-
+dures was described above. Two distal femoral metaphyseal critical-size defects ( φ3 mm × h 4 mm) were established using a drill in left
+and right of an osteoporotic rat. The eight samples in each group
+were implanted in the femoral defects. 4 and 8 weeks after of thedefect surgery, animals were sacri ﬁced and the distal femurs from
+each group ( n= 4) were collected and ﬁxed in 4% paraformaldehyde.
+BMSCs and OVX-BMSCs were respectively isolated from long bonesof limbs of healthy and osteogenic rats. Then, alpha-modi ﬁed Eagle ’s
+medium ( α-MEM, HyClone) containing 20% fetal bovine serum (FBS,
+Gibco) and 100 U/mL penicillin/streptomycin (Hyclone) was injectedusing syringes to ﬂush cells out of marrow cavities. The cells were
+cultured in a humidi ﬁed atmosphere with 5% CO
+2at 37 °C. After 24 h,
+the medium was replaced with fresh culture medium to remove
+nonadherent cells. The cells were sub-cultured in α-MEM containing
+10% FBS and 100 U/mL penicillin/streptomycin until passage 2 (P2).The P2 cells were then harvested for further study. BMSCs and OVX-BMSCs were respectively seeded on the 24-well plates at a celldensity of 2 × 10
+4/well. Cell senescence was assessed by the senes-
+cence βgalactosidase (SA βgal) staining kit (Beyotime) and qRT-PCR
+forp16gene expression. Cell proliferation was analyzed on 1 and
+3 days by CCK8. In addition, the ability of osteogenic differentiationwas evaluated by ALP staining on 4 and 7 days and alizarin red (ARS)staining on 14 and 21 days, and qRT-PCR for Runx2 ,Alp,Bmp2 ,Bsp,
+Col 1a1 , and Ocn genes expression on 7 days.
+The rat subcutaneous implantation and repair of distal femoral
+metaphyseal defect
+To evaluate in ﬂammation and foreign body response in vivo experi-
+ments, three groups: sham, HHSs (length 8 mm, width 8 mm, height4 mm), and HHSs-M were subcutaneously implanted on the backs ofArticle https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 15rats (12 weeks old) under aseptic and anesthetic conditions. Anesthesia
+was performed with 5% iso ﬂurane and O 2. Animals were placed on a
+37 °C warm heating pad, iso ﬂurane was lowered to 2 –2.5% to maintain
+a n e s t h e s i ad u r i n gt h ee n t i r es u r g e r y .A f t e r7d a y so fs u r g e r y ,a n i m a l s
+were sacri ﬁced using CO 2, and all specimens were collected, ﬁxed in 4%
+paraformaldehyde, embedded in paraf ﬁn, sectioned at 5 μm thickness.
+The related assessments were conducted including complete bloodcount, blood biochemistry analysis (liver and kidney function indica-tors), and histology staining of the heart, liver, spleen, and kidney, aswell as immunohistochemical staining of in ﬂammation-related mar-
+kers IL-6 and TNF- α, and macrophage phenotype related markers
+CD80 and CD 206. The procedure for immunohistochemical stainingwas the same as mentioned above. The slices were respectively incu-bated with an anti-IL6 antibody (bs-6309r) at anti-TNF- αantibody (bs-
+10802r), anti-CD80 antibody (A001961) and anti-CD206 antibody
+(AB64693) at 1:200 dilution in 1% BSA-containing PBS solution at 4 °C
+overnight.
+To assess the survival of seeded cells in the HHSs implantation,
+HHSs-M (length 8 mm, width 8 mm, height 4 mm) with luciferase-overexpressed rBMSCs were subcutaneously implanted in rats. Sub-sequently, bioluminescence images were captured in rats and aquantitative analysis of bioluminescence was conducted at 1, 4, 7, and10 days. The images of HHSs were also captured using an IVIS imagingsystems.
+To assess the hollow structures of HHSs in promoting blood
+vessel growth and bone formation, two groups of HHSs ( L
+0.4D0.6d0and
+L0.4D0.6d0.4) were used. Subcutaneous implantation and a distal
+femoral metaphyseal defect model were established. All animals were3 months old in the experiments. For subcutaneous implantation, twosubcutaneous pockets for implantation of the HHSs (length 8 mm,width 8 mm, height 4 mm) were made on the backs of rats underaseptic and anesthetic conditions. Two groups were respectivelytransplanted into the left and right ( n= 4 for each group). After 2 weeks
+of surgery, animals were sacri ﬁced, and all specimens were collected,
+ﬁxed in 4% paraformaldehyde, embedded in paraf ﬁn, sectioned at
+5μm thickness, and stained with H&E. The surgical procedure for distal
+femoral metaphyseal defect was the same as the rat osteoporotic bone
+defect model. A distal femoral metaphyseal critical-size defect
+(φ3 mm × h 4 mm) was established in normal rats. Two groups were
+respectively transplanted into the left and right of the rat ’sd e f e c t sa t
+random ( n= 3 for each group). All samples used here were designed as
+a cylinder ( φ3 mm × h 4 mm). After 8 weeks of surgery, all animals
+were sacri ﬁced and the distal femurs for each group were collected,
+andﬁxed in 4% paraformaldehyde for 48 h. All samples were scanned
+using a μCT, then decalci ﬁed with EDTA, embedded in paraf ﬁn, sec-
+tioned at 5 μm thickness, and processed according to standard histo-
+logical staining procedures. The sections were stained with H&E andMasson ’s trichrome.
+μCT analysis
+All samples harvested from animals were scanned using a μCT with
+18μm resolution and a maximum voltage of 70 KV, to evaluate new
+bone formation within the defect region. The obtained grayscaleimages were further reconstructed and analyzed using the Scancosoftware. During the reconstruction, a global threshold was used tosegment the newly formed bone from each implant. The bone volume(BV), bone volume fractions (BV/TV), trabecular number (Tb.N), tra-becular thickness (Tb.Th), and trabecular separation (Tb.Sp) wereanalyzed to evaluate the formation of new bone.
+Histological staining
+After the μCT imaging, all samples were decalci ﬁed with EDTA,
+embedded in paraf ﬁn, sectioned at 5 μm thickness, and processed
+according to standard histological staining procedures. The sectionswere then stained with haemotoxylin and eosin (H&E) to assess generaltissue morphology, and Masson ’s trichrome to observe collagen ﬁbers
+and visualize bone formation.
+Statistical analysis
+All data are expressed as the means ± standard deviation. Statisticalanalyses were performed using GraphPad Prism 8 software. Statisti-cally signi ﬁcant differences between two experimental groups were
+assessed using Student ’sttests and comparisons among more than
+two groups were assessed using a Two-way ANOVA. Differences wereconsidered statistically signi ﬁcant when * p< 0.05. ** p<0 . 0 1 ,
+***p< 0.001, and **** p< 0.0001 were considered highly signi ﬁcant, ns
+referred to no signi ﬁcant difference.
+Reporting summary
+Further information on research design is available in the Nature
+Portfolio Reporting Summary linked to this article.
+Data availability
+All the data supporting the results in this study are available within the
+paper and its Supplementary Information ﬁles. Any additional requests
+for information can be directed to, and will be ful ﬁlled by, the corre-
+sponding authors. Source data are provided with this paper.
+References
+1. Koons, G. L. et al. Materials design for bone-tissue engineering. Nat.
+Rev. Mater. 5,5 8 4 –603 (2020).
+2. Sparks, D. S. et al. A preclinical large-animal model for the assess-
+ment of critical-size load-bearing bone defect reconstruction. Nat.
+Protoc. 15,8 7 7 –924 (2020).
+3 . D eL aV e g a ,R .E .e ta l .E f ﬁcient healing of large osseous segmental
+defects using optimized chemically modi ﬁed messenger RNA
+encoding BMP-2. Sci. Adv. 8, eabl6242 (2022).
+4. Yuan, B. et al. A biomimetically hierarchical poly-
+etherketoneketone scaffold for osteoporotic bone repair. Sci.
+Adv. 6, eabc4704 (2020).
+5. Salhotra, A. et al. Mechanisms of bone development and repair. Nat.
+Rev. Mol. Cell Biol. 21, 696 –711 (2020).
+6. Dupont, K. M. et al. Human stem cell delivery for treatment of large
+segmental bone defects. Proc. Natl Acad. Sci. USA 107,
+3305 –3310 (2010).
+7. Zhang, M. et al. 3D printing of Haversian bone –mimicking scaffolds
+for multicellular delive ry in bone regeneration. Sci. Adv. 6,
+eaaz6725 (2020).
+8. Marrella, A. et al. Engineering vascularized and innervated bone
+biomaterials for improved skeletal tissue regeneration. Mater.
+Today 21,3 6 2 –376 (2018).
+9. Bolander, J. et al. Bioinspired development of an in vitro engineered
+fracture callus for the treatment of critical long bone defects. Adv.
+Funct. Mater. 31, 2104159 (2021).
+10. Brunet, A. et al. Ageing and reju venation of tissue stem cells and
+their niches. Nat. Rev. Mol. Cell Biol. 24,4 5 –62 (2023).
+11. Khosla, S. et al. The role of cellular senescence in ageing and
+endocrine disease. Nat. Rev. Endocrinol. 16,2 6 3 –275 (2020).
+12. Cao, Y. et al. Bead-jet printing enabled sparse mesenchymal stem
+cell patterning augments skeletal muscle and hair follicle regen-eration. Nat. Commun. 13, 7463 (2022).
+13. Gaharwar, A. K. et al. Engineered biomaterials for in situ tissue
+regeneration. Nat. Rev. Mater. 5,6 8 6 –705 (2020).
+14. Lee, J. et al. 3D printed micro-chambers carrying stem cell spher-
+oids and pro-proliferative growth factors for bone tissue regen-
+eration. Biofabrication
+13, 015011 (2020).
+15. Zhai, X. et al. 3D-bioprinted osteoblast-laden nanocomposite
+hydrogel constructs with induced microenvironments promote cellviability, differentiation, and ost eogenesis both in vitro and in vivo.
+Adv. Sci. 5,1 7 0 0 5 5 0( 2 0 1 8 ) .Article https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 1616. Lee, A. et al. 3D bioprinting of c ollagen to rebuild components of
+the human heart. Science 365,4 8 2 –487 (2019).
+17. Grigoryan, B. et al. Multivascular networks and functional intra-
+vascular topologies within biocompatible hydrogels. Science 364,
+458 –464 (2019).
+18. Zhang, Y. S. et al. 3D extrusion bioprinting. Nat. Rev. Methods Pri-
+mers 1, 75 (2021).
+19. Moroni, L. et al. Biofabrication strategies for 3D in vitro models and
+regenerative medicine. Nat. Rev. Mater. 3,2 1 –37 (2018).
+20. Xie, M. et al. In situ 3D bioprinting with bioconcrete bioink. Nat.
+Commun. 13, 3597 (2022).
+21. Li, W. et al. Bioprinted constructs that mimic the ossi ﬁcation center
+microenvironment for targeted innervation in bone regeneration.Adv. Funct. Mater. 32, 2109871 (2021).
+22. Sun, X. et al. Three-dimensional bioprinting of multicell-laden
+scaffolds containing bone morp hogenic protein-4 for promoting
+M2 macrophage polarization and accelerating bone defect repair indiabetes mellitus. Bioact. Mater. 6,7 5 7 –769 (2021).
+23. Kang, H. W. et al. A 3D bioprinting system to produce human-scale
+tissue constructs with structural integrity. Nat. Biotechnol. 34,
+312 –319 (2016).
+24. Ouyang, L. Pushing the rheological and mechanical boundaries of
+extrusion-based 3D bioprinting. Trends Biotechnol. 40,
+891 –902 (2022).
+25. Lee, S. C. et al. Physical and chemical factors in ﬂuencing the
+printability of hydrogel-based extrusion bioinks. Chem. Rev. 120,
+10834 –10886 (2020).
+26. Daly, A. C. et al. Bioprinting for the biologist. Cell184,1 8 –32 (2021).
+27. Qazi, T. H. et al. Programming hydrogels to probe spatiotemporal
+cell biology. Cell Stem Cell 29,6 7 8 –691 (2022).
+28. Liang, Q. et al. Coaxial scale ‐up printing of diameter ‐tunable bio-
+hybrid hydrogel microtubes with high strength, perfusability, andendothelialization. Adv. Funct. Mater. 30, 2001485 (2020).
+29. Hauser, S. et al. Human endothelial cell models in biomaterial
+research. Trends Biotechnol. 35
+,2 6 5 –277 (2017).
+30. Gao, F. et al. Direct 3D printing of high strength biohybrid gradient
+hydrogel scaffolds for ef ﬁcient repair of osteochondral defect. Adv.
+Funct. Mater. 28, 1706644 (2018).
+31. Dai, X. et al. A mechanically strong, highly stable, thermoplastic,
+and self-healable supramol ecular polymer hydrogel. Adv. Mater.
+27,3 5 6 6 –3571 (2015).
+32. Xu, C. et al. Bioinspired mechano ‐sensitive macroporous ceramic
+sponge for logical drug and cell delivery. Adv. Sci. 4,
+1600410 (2017).
+33. Kinstlinger, I. S. et al. Perfusion and endothelialization of engi-
+neered tissues with patterned vascular networks. Nat. Protoc. 16,
+3089 –3113 (2021).
+3 4 . Q i u ,C .e ta l .A3 D ‐printed dual driving forces scaffold with self ‐
+promoted cell absorption for spinal cord injury repair. Adv. Sci. 10,
+2301639 (2023).
+35. Kinstlinger, I. S. et al. Generation of model tissues with dendritic
+vascular networks via sacri ﬁcial laser-sintered carbohydrate tem-
+plates. Nat. Biomed. Eng. 4,9 1 6 –932 (2020).
+36. Huang, S. et al. A perfusable, multifunctional epicardial device
+improves cardiac function and tissue repair. Nat. Med 27,
+480 –490 (2021).
+37. Reichert, J. C. et al. The challenge of establishing preclinical models
+for segmental bone defect research. Biomaterials 30,
+2149 –2163 (2009).
+38. Gaharwar, A. K. et al. 2D nanoclay for biomedical applications:
+regenerative medicine, therape utic delivery, and additive manu-
+facturing. Adv. Mater. 31, e1900332 (2019).
+39. GhavamiNejad, A. et al. Crosslinki ng strategies for 3D bioprinting of
+polymeric hydrogels. Small 16, e2002931 (2020).40. Meng, X. et al. Hysteresis-free nanoparticle-reinforced hydrogels.
+Adv. Mater. 34, e2108243 (2022).
+41. Sun, W. et al. Molecular engineer ing of metal coordination inter-
+actions for strong, tough, and fast-recovery hydrogels. Sci. Adv. 6,
+eaaz9531 (2020).
+42. Hua, M. et al. Strong tough hydrogels via the synergy of freeze-
+casting and salting out. Nature 590,5 9 4 –599 (2021).
+43. Valot, L. et al. Chemical insights into bioinks for 3D printing. Chem.
+Soc. Rev. 48,4 0 4 9 –4086 (2019).
+44. Johannes, C. et al. A tissue engineering solution for segmental
+defect regeneration in lo ad-bearing long bones. Sci. Transl. Med 4,
+1–10 (2012).
+45. Wu, J. et al. Stem cell-laden inj ectable hydrogel microspheres for
+cancellous bone regeneration. C h e m .E n g .J . 393, 124715 (2020).
+46. Stegen, S. et al. Bringing new life to damaged bone: the importance
+of angiogenesis in bone repair and regeneration. Bone 70,
+19–27 (2015).
+47. Gu, J. et al. Construction of nano ﬁbrous scaffolds with inter-
+connected perfusable microchanne l networks for engineering of
+vascularized bone tissue. Bioact. Mater. 6,3 2 5 4 –3268 (2021).
+48. Grellier, M. et al. Cell-to-cell c ommunication between osteogenic
+and endothelial lineages: implications for tissue engineering.Trends Biotechnol. 27,5 6 2 –571 (2009).
+49. Piard, C. et al. 3D printed HUVECs/MSCs cocultures impact cellular
+interactions and angiogenesis d epending on cell-cell distance.
+Biomaterials 222, 119423 (2019).
+5 0 . C h r i s t o p h e r ,T .J .e ta l .L y s o s t a p h i na n dB M P - 2c o - d e l i v e r yr e d u c e s
+S. aureus infection and regenerate s critical-sized segmental bone
+defects. Sci. Adv. 5,1–13 (2019).
+51. Raina, D. B. et al. A facile one-stage treatment of critical bone
+defects using a calcium sulfate/hydroxyapatite biomaterials pro-viding spatiotemporal delivery of bone morphogenic protein –2a n d
+zoledronic acid. Sci. Adv. 6, eabc1779 (2020).
+52. Zhang, Z. Z. et al. 3D printed poly( ε‑caprolactone) scaffolds func-
+tion with simvastatin ‑loaded poly(lactic ‑co‑glycolic acid) micro-
+spheres to repair load ‑bearing segmental bone defects. Exp. Ther.
+Med. 17,7 9 –90 (2018).
+53. Jiang, Y. et al. Advances in mesenchymal stem cell transplanta-
+tion for the treatment of osteoporosis. Cell Prolif. 54,
+e12956 (2021).
+54. Zhu, H. et al. 3D bioprinting of multifunctional dynamic nano-
+composite bioinks incorporatin g Cu-doped mesoporous bioactive
+glass nanoparticles for bone tissue engineering.
+Small 18,
+e2104996 (2022).
+55. Lin, S. et al. A magnesium-enriched 3D culture system that mimics
+the bone development microenvironment for vascularized boneregeneration. Adv. Sci. 6, 1900209 (2019).
+56. Li, H. et al. Silicate bioceramics enhanced vascularization and
+osteogenesis through stimulating interactions between endothelia
+cells and bone marrow stromal cells. Biomaterials 35,
+3803 –3818 (2014).
+57. Zhang, W. et al. 3D-printed scaffolds with synergistic effect of
+hollow-pipe structure and bioactive ions for vascularized boneregeneration. Biomaterials 135,8 5 –95 (2017).
+Acknowledgements
+The authors gratefully acknowledge the support for this work from the
+National Key R&D Program [Grant No. 2022YFB3804403 and2018YFA0703100]; the National Natural Science Foundation of China[Grant Nos. 32122046, 82072082, 32000959, and 32201097]; the
+Shenzhen Medical Research Fund [Grant Nos. A2303016]; and the
+Shenzhen Fundamental Research Foundation [Grant Nos.JCYJ20200109114006014, JCYJ20210324115814040 andJCYJ20210324113001005].Article https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 17Author contributions
+J.Y. and C.R. conceived and designe d the study. J.Y, Z.C, X.P, X.W. and
+H.S. performed in vivo experiments. J.Y. performed the chemicalsynthesis. J.Y., Z.C., C.G. and J.L. performed in vitro characterization and
+cell experiments. J.Y. and C.R. analyzed the data. J.Y., K.L., G.W., W.L.,
+and C.R. drafted the manuscript. H.P. and C.R. supervised the entireproject. All authors discussed the results and commented on themanuscript.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary information The online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-024-48023-8 .
+Correspondence and requests for materials should be addressed to
+Changshun Ruan.
+Peer review information Nature Communications thanks Kristopher
+Kilian, and the other, anonymous, reviewer(s) for their contribution to thepeer review of this work. A peer review ﬁle is available.Reprints and permissions information is available at
+http://www.nature.com/reprints
+Publisher ’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional af ﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,adaptation, distribution and reproduction in any medium or format, aslong as you give appropriate credit to the original author(s) and thesource, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article ’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is notincluded in the article ’s Creative Commons licence and your intended
+use is not permitted by statutory re gulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyrightholder. To view a copy of this licence, visit http://creativecommons.org/
+licenses/by/4.0/ .
+© The Author(s) 2024Article https://doi.org/10.1038/s41467-024-48023-8
+Nature Communications |         (2024) 15:3565 18

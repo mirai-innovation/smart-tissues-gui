@@ -1,0 +1,5 @@
+
+ sntsplit:
+After the scaffolds were incubated in the cell incubator for 30 min, the cell suspension (1 mL, 1 106cells/mL) was added on each scaffold and incubated at 37C in 5% CO 2.
+ sntsplit:
+The cell density in bio-inks was 1 107cells/mL. In order to improve the biological activity of the scaffold, BMP-2 and PDGF were added into the bio-inks with a ﬁnal concentration of 5 ug/mL and 100 ng/mL, respectively.

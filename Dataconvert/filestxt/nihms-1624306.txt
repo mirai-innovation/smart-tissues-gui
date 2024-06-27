@@ -1,0 +1,625 @@
+Three Dimensional Bioprinting of Oxygenated Cell-Laden Gelatin 
+Methacryloyl Constructs
+Ahmet Erdem1,2,3,4,#, Mohammad Ali Darabi1,2,5,#, Rohollah Nasiri1,2,6, Sivakoti 
+Sangabathuni1,2, Yavuz Nuri Ertas2,7,8, Halima Alem1,2,9, Vahid Hosseini1,2,5, Amir 
+Shamloo6, Ali S. Nasr10, Samad Ahadian1,2,5, Mehmet R. Dokmeci1,2,5,11, Ali 
+Khademhosseini1,2,5,11,12,*, Nureddin Ashammakhi1,2,11,*
+1Center for Minimally Invasive Therapeutics (C-MIT), University of California, Los Angeles, 
+California, USA
+2Department of Bioengineering, University of California, Los Angeles, California, USA
+3Department of Chemistry, Kocaeli University, Umuttepe Campus, 41380, Kocaeli, Turkey
+4Department of Biomedical Engineering, Kocaeli University, Umuttepe Campus, 41380, Kocaeli, 
+Turkey
+5Terasaki Institute for Biomedical Innovation, Los Angeles, California, USA
+6Department of Mechanical Engineering, Sharif University of Technology, Tehran, 11365-11155, 
+Iran
+7Department of Biomedical Engineering, Erciyes University, 38039, Kayseri/Turkey
+8Nanotechnology Research Center (ERNAM), Erciyes University, 38039 Kayseri, Turkey
+9Université de Lorraine, CNRS, IJL, F-54000 Nancy, France
+10Division of Cardiothoracic Surgery, Department of Surgery, University of Iowa Hospitals and 
+Clinics, Carver College of Medicine, University of Iowa, Iowa City, Iowa 52242, USA
+11Department of Radiological Sciences, David Geffen School of Medicine, University of California, 
+Los Angeles, California, USA
+12Department of Chemical and Biomolecular Engineering, University of California, Los Angeles, 
+California, USA
+Abstract
+(*)Corresponding authors California NanoSystems Institute (CNSI), University of California – Los Angeles, 570 Westwood Plaza, 
+Building 114, Room 4523, Los Angeles CA 90095, USA, Tel. +1 310 794 5845, n.ashammakhi@ucla.edu, khademh@terasaki.org.
+Author Information
+Contributions
+A.E. and M.A.D. designed the project, wrote the manuscript and conducted experiments. R.N. and S.K. wrote the manuscript and 
+conducted experiments. Y .N.E. conducted statistics and revised the manuscript. V .H., H.A., A.S.N. M.R.D. and S.A. revised the 
+manuscript. N.A. and A.K. designed the experiments, wrote, edited and corresponded this manuscript. All authors reviewed the 
+manuscript.(#)First authors
+Additional Information
+Competing interests
+The authors declare no competing interests.
+HHS Public Access
+Author manuscript
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Published in final edited form as:
+Adv Healthc Mater . 2020 August ; 9(15): e1901794. doi:10.1002/adhm.201901794.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptCell survival during the early stages of transplantation and before new blood vessels formation is a 
+major challenge in translational applications of three-dimensional (3D) bioprinted tissues. 
+Supplementing oxygen (O 2) to transplanted cells via an O 2 generating source such as calcium 
+peroxide (CPO) is an attractive approach to ensure cell viability. Calcium peroxide also produces 
+calcium hydroxide which reduces the viscosity of bioinks, which is a limiting factor for 
+bioprinting. Therefore, adapting this solution into 3D bioprinting is of significant challenge. In this 
+study, we developed a gelatin methacryloyl (GelMA) bioink that was optimized in terms of pH and 
+viscosity. The improved rheological properties led to the production of a robust bioink suitable for 
+3D bioprinting and controlled O 2 release. In addition, we characterized O 2 release, bioprinting 
+conditions and mechanical performance of hydrogels having different CPO concentrations. As a 
+proof of concept study, fibroblasts and cardiomyocytes were bioprinted using GelMA bioink 
+containing CPO. Viability and metabolic activity of printed cells were checked after seven days of 
+culture under hypoxic condition. The results showed that the addition of CPO improves the 
+metabolic activity and viability of cells in bioprinted constructs under hypoxic condition.
+Keywords
+3D bioprinting; bioink; calcium peroxide; cardiomyocytes; hypoxia; oxygen
+1. INTRODUCTION
+Cell-based therapy has shown potential for tissue regeneration, but many attempts have 
+failed to show the repopulation of damaged tissue due to poor survival of the transplanted 
+cells [ 1, 2]. A major limitation for successful cell therapy can be attributed to hypoxia due to 
+vascular injury [ 3]. For transplanted cells to survive, there should be sufficient nutrients and 
+oxygen (O 2) supply. Cells can rely on diffusion of O 2 to a limited distance of ~ 200 microns 
+[4]. Several days to weeks are needed for angiogenesis to develop in vivo  [5], and during 
+this critical time, most of transplanted cells will die while having no alternative supply of 
+O2. Thus, by providing O 2 to transplants, cells may survive through this critical period after 
+delivery [ 6], leading to improved regeneration capacity. Furthermore, in conditions such as 
+myocardial infarction (MI), loss of cardiomyocytes occurs due to the lack of blood supply. 
+In such situation, externally delivered O 2 may also help vulnerable endogenous 
+cardiomyocytes to withstand the harsh post-MI hypoxic conditions [ 7]. It was found that O 2 
+release is associated with increased angiogenesis in the heart in post-MI period in rats, 
+which is probably due to enhanced survival of endothelial cells [ 8].
+Recently, O 2 generating biomaterials have gained attention. Various O 2 materials have been 
+explored as source of O 2, including sodium percarbonate ((Na 2CO3)2.3H2O2) [9], calcium 
+peroxide (CPO) [ 10], magnesium peroxide and hydrogen peroxide (H 2O2) [8, 11]. Among 
+these sources, CPO was found to be one of the best peroxides to provide prolonged O 2 
+release, without needing encapsulation, and it has been thus used more frequently in O 2 
+generating biomaterials [ 6]. CPO dissociates first to H 2O2 and Ca(OH) 2, which increases the 
+pH in the O 2 generating biomaterial. Then, H 2O2 is converted to water and O 2. Oxygen 
+release kinetics from peroxide compounds is influenced by different factors such as 
+temperature [ 12], pH [ 13], and the use of catalase [ 13, 14]. To reduce the risk of the Erdem et al. Page 2
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptgeneration of hydroxyl free radicals, a catalase is being used in the preparation of O 2 
+releasing biomaterials. The use of higher concentrations of O 2 can be toxic to cells [ 15]. 
+Alemdar et al.  tested CPO with cardiomyocyte-laden gelatin methacryloyl (GelMA) discs 
+(prepared by using two glass slides) in vitro,  and they found that cells survival and 
+proliferation were enhanced for over five days [ 16, 17].
+Three-dimensional bioprinting has been increasingly recognized as an advanced technology 
+that can address many problems seen with conventional methods of tissue engineering, 
+especially engineered tissue survival, integration and angiogenesis [ 18]. It is known that 3D 
+bioprinting can be used for producing personalized therapeutic patches by using patient 
+specific biologics. Robust 3D bioprinted constructs can further be used with the use of 
+minimally invasive procedures [ 19, 20]. In a combinatorial approach, cell and an O 2 source-
+containing bioinks can be used to fabricate patches using 3D bioprinting. It was therefore, 
+envisioned that developing such an approach can help loaded cells and possibly 
+compromised cells in the injured area, which can be of great benefit in future. GelMA has 
+been investigated extensively for various tissue bioprinting applications, and it was found to 
+enhance cellular adhesion [ 21, 22], and it was selected as bioink biomaterial of choice in our 
+study. It is hypothesized that by supplying O 2 in the bioink, cell survival and function during 
+and after the process of bioprinting can be improved which can also be reflected on the 
+subsequent function of the resulting 3D printed constructs.
+In this study, O 2 releasing 3D bioprinted constructs were developed by the addition of CPO 
+as an O 2 source to the GelMA bioinks. One of the important parameters that should be 
+considered in extrusion-based 3D bioprinting is the viscosity of the bioinks. It is known that 
+viscosity affects both printing quality and processing as well as cell viability. We discovered 
+that using CPO in 3D bioprinting demands a trade-off between amount of CPO being used, 
+pH of the solution, and viscosity of bioink. The use of CPO as an O 2 source leads to the 
+release of Ca(OH) 2 ions which affects the viscosity of bioink by the changing pH. The 
+elimination of CPO side effect in the bioink composition was achieved using a buffer 
+solution. Therefore, O 2 releasing bioink reported in the current study may change the 
+paradigm in engineering and application of tissue constructs in 3D modelling and for 
+regenerative therapy.
+2. MATERIALS AND METHODS
+Gelatin (Type A, 300 bloom from porcine skin), methacrylic anhydride (MA), calcium 
+peroxide (CPO), catalase (obtained from bovine liver, 2000 – 5000 units mg−1 protein), 2-
+hydroxy-4’-(2-hydroxyethoxy)-2-methyl propiophenone (photoinitiator, PI), phosphate-
+buffered saline (PBS) and Alizarin red S were obtained from Sigma-Aldrich (St. Louis, MO, 
+USA). Dulbecco’s phosphate buffered saline (DPBS), trypsin-EDTA, and penicillin
+−streptomycin were purchased from Fisher Scientific. Alpha-modified Eagle’s medium 
+(Gibco 11965–092, Invitrogen Co., USA was supplied by Invitrogen (Grand Island, NY , 
+USA). FBS and precleaned microscope slides were obtained from Fisher Scientific 
+(Waltham, MA, USA). The live/dead viability/cytotoxicity kit was obtained from Invitrogen 
+(Grand Island, NY , USA). All reagents were used without further purification.Erdem et al. Page 3
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript2.1. Gelatin Methacryloyl (GelMA) Synthesis
+GelMA synthesis was performed using an earlier described technique [ 23]. Briefly, 10 g of 
+porcine skin gelatin was completely dissolved at 60 °C in 100 mL of PBS for 60 min. Then, 
+8 mL of MA was added drop by drop to the gelatin mixture and permitted to react at 50 °C 
+for 3 h. The blend was mixed with double volume of distilled water to prevent the reaction. 
+The GelMA solution was dialyzed with 12–14 kDa dialysis tube for one week against 
+distilled water. Then, the dialyzed product was freeze-dried and preserved for further use at 
+−80 °C.
+2.2. Preparation of the O 2 Releasing Bioink
+For the preparation of O 2 releasing bioink (CPO containing GelMA solution), three different 
+stock solutions were prepared. In the first place, 10 mg of PI was dissolved in 1 mL of 0.1M 
+HEPES buffer solution in order to gain a solid content with 1% (w/v) concentration. Then, 
+200 mg GelMA foam was added to this solution to get 20% (w/v) GelMA stock solution. 
+For the 2% CPO stock solution, 48 °L hydrochloric acid (HCl, 37%) was added to 1mL of 
+0.1 M HEPES, before the addition of 20mg CPO. These two stock solutions were used with 
+third stock solution (0.1 M HEPES) with different ratios to obtain 10% GelMA, 0.5% PI and 
+different CPO containing oxygenated bioinks (Table 1).
+2.3. Three-Dimensional Bioprinting
+Four bioink groups were produced, containing 10% GelMA with 0%, 0.1%, 0.5% and 1% 
+CPO (Fig. 1A). In addition, 5 × 106 mL−1 of 3T3 fibroblast (NIH 3T3) cells (ATCC, 
+Manassas, Virginia, USA) or 8 × 106 mL−1 of rat derived cardiomyocytes were added into 
+bioinks. For cardiomyocyte isolation and suspension, we used a protocol published by our 
+team earlier [ 24]. In brief, the heart of 1–2 day old neonatal Sprague-Dawley rats (Charles 
+River, USA) was isolated and suspended in Ca2+,Mg2+ free Hank’s balanced salt solution 
+(HBSS, Gibco). The aorta and vena cava sections were then removed from the hearts. 
+Subsequently, the hearts were cut into quarters and rinsed twice in cold HBSS. The heart 
+pieces were then digested in a solution of 0.06% (w/v) trypsin (Sigma-Aldrich) in HBSS 
+overnight (4°C). The tissues were then digested in collagenase II (200 U mL−1, Worthington 
+Biochemical Corp., USA) in HBSS (37°C) in five supplementary digestions of 4–8 min. 
+Following digestion, cells were pre-plated for 45 min and non-adherent cells were collected 
+for use as the rat cardiomyocyte population. Rat cardiomyocytes were cultured in 
+Dulbecco’s modified Eagle’s medium (Gibco) containing glucose (4.5 g L−1), 10% (v/v) 
+fetal bovine serum (FBS, Gibco), 1% (v/v) HEPES (100 U mL−1, Gibco), and 1% (v/v) 
+penicillin-streptomycin (100 mg mL−1, Gibco).
+A commercial 3D bioprinter (Cellink BioX 3D BioPrinter, Cellink AB, Gothenburg, 
+Sweden) was used to print constructs, employing 23G needle, 80 kPa pressure, 20 mm s−1 
+speed, while the substrate temperature was kept at 4 °C. Before printing, the 3D bioprinter 
+chamber was sterilized using ultraviolet (UV) irradiation for 10 min. After printing, printed 
+constructs were moved into UV chamber to crosslink by applying UV irradiation (Omnicure 
+S2000, Excelitas Technologies, Salem, MA, USA) with 4 W cm−2 intensity for 40 s [ 25]. 
+Light irradiation was applied at a distance of 8 cm from samples. Printability of each bioink Erdem et al. Page 4
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscripttype was evaluated according to the filament spreading ratio, which was calculated by 
+dividing the width of the printed filament by the needle diameter (23G needle: 337 μm) [ 26].
+2.4. Characterization of Morphology and Morphological Changes
+2.4.1 Scanning electron microscopy (SEM)— The microstructure of 3D printed 
+GelMA hydrogels having different CPO concentrations was characterized by using scanning 
+electron microscopy (SEM, Gemini column Zeiss Supra 40VP Field Emission Scanning 
+Electron Microscope). To prepare samples for SEM, hydrogels without cells were UV cross-
+linked, kept in −80 ºC for 3 h, freeze-dried overnight and iridium coated. Microstructure and 
+porosity of the hydrogels were analysed using the nearest distances plugin from ImageJ 
+software and SEM images which were recorded using the SEM equipment. Also, energy 
+disperse X-ray (EDX) spectroscopy was used to determine different element in the 
+hydrogels .
+2.4.2 Swelling of O 2 releasing bioinks— For each bioink type, the swelling ratio of 
+three samples (8mm diameter and 1.5mm thickness) was determined. Acellular hydrogels 
+were weighed and placed into DPBS solution and kept at 37 °C for 24h. The weight of 
+swollen hydrogels was defined after removing excess water from the surface. The swelling 
+ratio of hydrogels was calculated according to the formula: ( Wt – W0)/W0; where, Wt and 
+W0 represent the weight values of fully swollen and blot-dried hydrogels, respectively.
+2.5 Mechanical Characterisation
+2.5.1 Rheological behaviour— Rheological studies were performed using MCR-302 
+rheometer (Anton Paar Ltd., Graz, Austria) with a 25 mm diameter parallel plate geometry 
+with a gap distance of 0.5 mm, for bioinks, and an 8 mm diameter parallel plate geometry 
+with a gap distance of 1.0 mm for hydrogels. A solvent trap was used to prevent 
+dehydration. The temperature dependence of G’ and G” was obtained using temperature 
+sweep (oscillation) by decreasing the temperature from 24 °C to 4 °C at a cooling rate of 1 
+°C min−1. Then, the viscosity of bioinks was recorded at 4 °C from 0.1 to 100 shear rate.
+2.5.2. Semi-Quantification of Bioink Printability— Printing quantification was 
+performed following the procedure described by Liliang et al. [27], who introduced 
+printability parameter (Pr), intended to quantify similarity with the nature of square-formed 
+prints. This calculation was based on the circularity of enclosed area which is defined as C= 
+4πAL−2 in where L is perimeter and A represents area. The highest circularity is at the C = 
+1 condition. When the C value is closer to the 1, the shape is close to the circle. The 
+circularity for squared shapes is equal to α/4 rather than circles and the Pr defined as Pr= πC
+−1/4 = L2A−1/16. According to this equation, for an optimal printability, obtained Pr must be 
+1, when the connected channel forms a complete square shape at ideal viscosity of bioink. 
+While higher Pr is obtained with the higher viscosity, the lower Pr is obtained with lower 
+viscosity. In the Image-J program, optical images of printed constructs were analyzed in 
+order to determine the perimeter and region of the interconnected channels to calculate the 
+Pr of each printed construct (n= 3).Erdem et al. Page 5
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript2.5.3 Compression— The mechanical properties of O 2 releasing hydrogels were tested 
+using unconfined compressive test. The bioinks having different CPO concentrations were 
+casted in PDMS molds (8mm diameter and 1 mm height) and exposed to the UV light (4 W 
+cm−2) for 40 s for crosslinking. The compression strength of hydrogels was evaluated at a 
+cross speed of 0.5 mm s−1 and up to 60% strain, using a mechanical testing machine (Instron 
+Model 5542, Norwood, MA, USA). The Young’s modulus was determined based on the 
+slope of the initial linear region, corresponding to 10% strain.
+2.6. Oxygen Release Kinetics
+To determine O 2 release kinetics from the hydrogels, samples having varying CPO content 
+were separately placed in wells of a 12-well plate, each containing 1.5mL media and 
+catalase (100 u mL−1). Released O 2 in the media was measured using O 2-sensitive electrode 
+(World Precision Instruments, ISO-OXY meter, TBR 1025 free-radical analyser, Sarasota, 
+Fl, USA) while having hydrogels under hypoxic condition (1% O 2, 5% CO 2 and 94% N 2 
+incubator at 37 °C). Oxygen release was monitored daily for seven days.
+2.7. Biological Assessment
+To investigate the effect of having O 2 in 3D bioprinted constructs, NIH 3T3 fibroblasts-laden 
+were used in bioinks having CPO in different concentrations ranging from 0.1% to 1% and 
+cultured for 7 days in hypoxic conditions.
+2.7.1. In vitro cell culture— Fibroblasts were cultured in T175 flasks with Dulbecco’s 
+modified eagle’s medium containing 10% bovine serum and 1% penicillin-streptomycin 
+(Pen Strep, Pen Strep 15140, Fisher Scientific, Waltham, MA, USA). Trypsin (0.5%) was 
+used to remove adherent cells from the surface of Petri dish. During the experiments, 100 u 
+mL−1 catalase was added into the media (1.5 mL per well) while performing the 
+experiments. Cell-laden CPO-GelMA bioinks were incubated in either normoxic (21% O 2, 
+5% CO 2 and 74% N 2) or hypoxic (1% O 2, 5% CO 2 and 94% N 2) condition for seven days.
+2.7.2. Cell viability— To further understand the effect of O 2 release, live/dead assay 
+(Invitrogen, Carlsbad, CA, USA) was performed for NIH 3T3 fibroblasts and 
+cardiomyocytes in the 3D printed constructs having CPO microparticles in different 
+concentrations and incubated under hypoxic condition. Constructs having no CPO 
+microparticles and constructs kept in normoxic condition were used as controls. Before 
+adding live/dead reagents, constructs were washed three times with DPBS. Live/ dead 
+reagents were added to wells as 0.5 °L calcein AM and 2 °L ethidium homodimer in 1 mL 
+PBS and incubated for 30 min. After 30 min, the reagent was removed, followed by washing 
+the constructs thoroughly with DPBS. Finally, fresh DPBS was added to the constructs to 
+observe the fluorescence emitted by the cells upon excitation of cells at two wavelengths of 
+494 nm and 528 nm using florescent microscope (Zeiss Axio Observer, Walpole, MA). Live 
+and dead cells were identified according to the color of the stains with red indicates dead and 
+green live cells. We used ImageJ software for stained cell quantification in three different 
+representative sections of each sample.Erdem et al. Page 6
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript2.7.3. Cell metabolic activity in oxygen releasing bioink— The effect of O 2 on 
+cellular metabolic activity was measured using colorimetric cell counting kit (CCK-8 assay, 
+Dojindo Molecular Technologies, Rockville, MD, USA). Briefly, 3D printed constructs 
+containing 5×106 3T3 cells mL−1 or 8×106 cardiomyocytes mL−1 were cultured in 12 well-
+plates for 7 days in DMEM with bovine serum and Pen Strep as supplements under hypoxic 
+condition. Three-dimensional constructs were washed with DPBS for three times after each 
+time intervals. Then, 10% CCK-8 reagent in plain medium was added to 3D constructs and 
+incubated for 2h at 37 °C, and changes in color of media from pink to violet were noted. 
+Subsequently, 100 μL of media in each well was transferred into 96 well plates and the 
+absorption of media at 450 nm was measured using the microplate reader (Synergy™ HTX 
+Multi-Mode Microplate Reader, BioTek Winooski, Vermont, USA).
+2.8. Statistics
+Statistical variations were evaluated using one-way ANOV A in OriginPro software. 
+Bonferroni post-hoc test was used as a comparison test to determine whether there were 
+significant differences. Differences were considered to be statistically significant whenever p 
+was < 0.05, and < 0.01. The mean ± standard deviation (SD) was calculated from 5 
+replicates of experiments.
+3. RESULTS AND DISCUSSION
+3.1. Physical Properties of Bioprinted Constructs
+In the current study, high degree of functionalization of GelMA (high methacrylated gelatin) 
+was used for the preparation O 2 releasing bioink. Different degrees of methacrylation in 
+GelMA (low, medium, high and very high) can be used in the preparation of bioinks. We did 
+not use very high GelMA, because modification rate decreases the viscosity of bioinks 
+which affects adversely printability [ 28]. In addition, the presence of CPO can negatively 
+affect the photopolymerization of the bioink. Because of these reasons, we did not consider 
+low and medium GelMA in our study. O 2 releasing bioinks were produced using 10% 
+GelMA, containing CPO in varying concentrations (w/v) of 0.1% (0.1 CPO), 0.5% (0.5 
+CPO), 1% (1.0 CPO), or 0% (0 CPO) with HEPES-HCl buffer, according to the protocol 
+presented in Table 1 [ 29]. CPO has a basic pH characteristic; hence, its addition leads to 
+increased pH. To avoid any harmful effect of basic environment, HEPES-HCl buffer was 
+used to adjust pH to 7.0, 7.8 and 8.2 for 0.1, 0.5 and 1% CPO groups of bioinks, 
+respectively, according to the Newland et al. [29] (Fig. S1). It should be noted that low pH 
+will enhance O 2 release by increasing H 2O2 generation rate; accordingly, any excess amount 
+of HCl, that can decrease the pH to lower than 5, should be avoided. It is worth mentioning 
+that the pH values of prepared bioinks were in the range of 6.5–8.5, which are not harmful to 
+cells considering the short printing time (30 min). After printing, constructs were incubated 
+in DMEM cell culture media having pH value of 7.4, which subsequently stabilizes the pH 
+of constructs.
+Bioinks were prepared and printed at 4 °C. The effect of CPO on the physical properties of 
+bioinks was evaluated via studying microscopic images of printed constructs, and changes in 
+the spreading ratio of printed fibers were investigated (Fig. 2). The rheological properties Erdem et al. Page 7
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript(viscosity measurements) corresponding to different changes in temperature and shear rates 
+were also determined (Fig. 2B). The lowest spreading ratios were obtained from bioinks 
+having 0.5 CPO, as it can be seen in Fig. 2A. This can be explained by the effect of reaching 
+highest viscosity of GelMA bioink at its iso-electric point of 7.8 [ 30] (Fig. S2). When CPO 
+is added, pH goes up and viscosity increases until reaching the iso-electric point of the 
+GelMA. After passing this point, the viscosity of GelMA goes down. It was noted that 
+bioinks with 0.5% CPO corresponds to the iso-electric point of GelMA. However, with 
+increasing the CPO concentration to 1.0%, the viscosity goes down while pH continues to 
+rise. Accordingly, 0.5 CPO has shown highest viscosity and resulted in the formation of 
+thinner printed fibers (Fig. 2Bi), and on the other hand, 1.0% CPO ink was associated with 
+lowest viscosity and resulted in the formation of the highest spreading fibers (Fig. 2Bi).
+Figure 2Bii shows the relationship between bioink viscosity and changes in temperature. It is 
+seen that viscosity significantly decreases with increasing temperatures up to ~20 °C, after 
+which it does not tend to change in the studied range up to 25 °C. Fig. 2Biii shows how the 
+viscosity of bioinks changes with the increasing shear rates. As discussed above, the 
+viscosity significantly affects the printability (Pr) of hydrogels [ 27]. When the Pr value is 
+close to 1, it shows that bioink can be easily printed. It was found that 0.5 CPO is associated 
+with the highest viscosity, with 0.97±0.01 Pr value which is the closest value to the 1 and 
+accordingly better printing quality and 1 CPO was associated with the lowest viscosity 
+values and with 0.84±0.03 Pr values, which are the farthest from Pr value of 1.
+3.2. Morphological Changes and Swelling of 3D Printed O 2 Releasing Constructs
+Porosity is one of the most significant characteristics of a biomaterial that needed to be 
+evaluated as it is linked to its swellability. The results of SEM studies that were performed to 
+monitor the effect of incorporated CPO on the morphology and porosity of constructs are 
+shown in Fig. 3. With increased concentration of CPO in the constructs, pore size was 
+increased, which is probably due to released O 2. Furthermore, UV irradiation can be 
+hindered by CPO, and this may result in weaker crosslinking and larger pore size (Fig. 3A). 
+EDX analysis was performed to evaluate the percentage of contained elements (Fig. 3B and 
+S4) and CPO particle dispersion in the printed constructs. As it is seen, with increasing 
+CPO, peaks related to calcium and chloride become larger corresponding to the release 
+Ca(OH) 2 and the addition of HCl, respectively.
+The effect of CPO on the swelling ratio of O 2 releasing bioinks is presented in Fig. 3C. High 
+O2 amounts released from 0.5 CPO bioinks indirectly affect the swelling ratio of constructs 
+by inhibiting the photo crosslinking, leading to higher swelling ratios [ 22, 31]. The swelling 
+ratio of O 2 releasing hydrogels was measured as 10.38 ± 0.29, 11.36± 0.39, 13.68 ± 0.74 and 
+12.39± 0.64, for 0 CPO, 0.1 CPO, 0.5 CPO and 1.0 CPO, respectively. It was found that the 
+1% CPO constructs have lower swelling ratio and pore size compared to 0.5% CPO 
+constructs, which corresponds to the highest O 2 releasing rate associated with 0.5 CPO 
+constructs during the first 30 min of bioink preparation, printing and curing (Fig. S3).Erdem et al. Page 8
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript3.3. Mechanical Properties of 3D Printed O 2 Releasing Hydrogels
+The effect of CPO concentration on the mechanical properties of crosslinked O 2 releasing 
+hydrogels was examined by obtaining stress-strain curve and Young’s modulus from the 
+unconfined compression testing at room temperature. Young’s modulus of O 2 releasing gels 
+varied with CPO content as shown in Fig. 4. It is seen that increasing CPO content leads to 
+decreased compression modulus of hydrogels. However, O 2 release influences the modulus 
+of the hydrogels. While the highest value of the modulus was obtained from 0% CPO 
+hydrogels, the lowest one was obtained from 0.5 CPO hydrogels. Similar trend was observed 
+with the compression stress and CPO containing hydrogels.
+Fig. 4C, shows storage and loss moduli of the hydrogels. Note that angular frequency 
+increases from 0.1 to 10. It can also be seen that storage modulus for all hydrogels is higher 
+than loss modulus, demonstrating elastic behavior of the hydrogels, which enables them to 
+have self-support and preserve their mechanical integrity. Hydrogels without CPO had the 
+highest storage moduli, and this is expected to decrease with the addition of CPO to the 
+hydrogels. The difference between loss and storage moduli decreases with increased CPO 
+content, which demonstrates less elasticity and more stiffness. However, 0.5 CPO hydrogels 
+have higher loss modulus compared to 1.0 CPO hydrogels. Since high amount of CPO is 
+associated with an increase in pH, this will ultimately decrease the storage modulus. 
+Although 0.5 CPO shows lower Young’s modulus, 3D bioprinted constructs with 1cm x 1cm 
+dimensions cultured for seven days were mechanically stable and capable of preserving their 
+mechanical and biological integrity. Fig. 1B–E shows a 3D bioprinted construct that 
+preserved its mechanical stability after being passed through pipette tip (Fig. 1B–E) Fig. 1B 
+shows a 5mm x 5mm 3D bioprinted construct. These constructs are mechanically stable 
+even after multiple injections (Fig. 1C–E) (Video 1,2 in supplementary material).
+3.4. Oxygen Release Kinetics From CPO-GelMA Hydrogels
+The decomposition of CPO to O 2 occurs in two steps. Fist, CPO reacts with water to 
+produce H 2O2 and Ca(OH) 2 leading to increased pH. Secondly, H 2O2 decomposes to water 
+and O 2 (Eq. 1). Increased pH will affect the H 2O2 production rate in the hydrogel [ 32]. 
+Because H 2O2 can be toxic to cells, catalase was added to make H 2O2 decomposes to O 2 
+[33]. As it is seen in Fig. 5, O 2 content of constructs having no CPO is ~0%, while CPO 
+containing printed constructs provided sustained O 2 release for seven days.
+CaO 2(s) + 2H 2O Ca(OH) 2(s) + H 2O2
+2H2O2O2+ 2H 2O(Eq. 1)
+At the CPO concentration of 0.5%, pH is lower than CPO with 1% (more CPO is associated 
+with higher pH upon its dissociation). It was previously shown that CPO degrades faster at 
+lower pH, leading to increased amount of released O 2 [34] (Fig. S3). This highest releasing 
+rate increases the porosity while decrease the mechanical properties of 3D printed 
+constructs, as it was discussed in previous sections. Although CPO containing constructs are 
+associated with burst release of O 2, 1 CPO printed constructs release ∼30% of O 2 at day 1, 
+∼9% at day 5, and ∼4% at day 7 post-printing. In addition, 0.5 CPO and 0.1 CPO constructs 
+release O 2 around 3% and 1% after seven days, respectively. This release profile can be Erdem et al. Page 9
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptexplained by the fact that CPO rapid reaction rates leads to rapid consumption of loaded 
+CPO capable of generating O 2. Nevertheless, CPO containing printed constructs were able 
+to provide an oxygenated microenvironment for at least seven days.
+3.5. Biological Function of The Resulting 3D Constructs
+3.5.1. Cell viability— CPO concentrations of 0, 0.1, 0.5 and 1% in GelMA constructs 
+were tested for the assessment of cell viability at four and seven days post-printing. As it can 
+be seen in Fig. 6, increasing the concentration of CPO to 1% had a negative impact on 
+fibroblast viability which might be due to the toxicity resulting from the use of excessive 
+amount of CPO . The addition of CPO up to 0.5 % was found to enhance cell viability both 
+at day 4 and day 7 in hypoxia, which was comparable to that seen normoxia levels. This 
+means that the harmful effects of a hypoxic microenvironment can be prevented by using 
+CPO in GelMA bioink. According to quantification data in Fig. 6b, the difference between 
+the number of live cells in 0.5 CPO and 0 CPO constructs was statistically significant 
+(p<0.05 and p<0.01).
+According to the findings of the present study, the addition of CPO to bioinks can improve 
+cell viability in printed constructs incubated under hypoxic conditions, which can be useful 
+for application in the treatment of ischemic conditions, e.g., following myocardial infarction 
+[8]. This effect on cell viability was observed not only with 3T3 fibroblasts but also with 
+cardiomyocytes. Fig. 7, shows live/dead staining and related cell viability quantification of 
+cardiomyocyte-laden GelMA constructs having either 0% or 0.5% CPO that were incubated 
+under either hypoxic or normoxic conditions for days 3, 5 and 7. Homogenous distribution 
+of living cells in the constructs can be seen throughout the printed structure having 0.5% 
+CPO. There was significantly higher number of living cells in CPO containing constructs as 
+compared to constructs having no CPO, at different time points of 3, 5 and 7 days of 
+incubation. This preservation of cell viability over seven days by using CPO can be related 
+to reduced levels of lactate dehydrogenase levels resulting from decreased number of dead 
+cells [ 16]. The oxygen-generating properties of CPO-GelMA would not only enhance cell 
+survival by reducing hypoxic stress, but also by reducing necrosis-induced injury to both 
+cells and tissues.
+3.5.2. Cell metabolic activity— To assess the metabolic activity of cells, CCK-8 assay 
+was used. However, it should be noted that CCK-8 which is regularly used to assess cellular 
+metabolism, shows only glycolytic nicotinamide adenine dinucleotide (NADH) production, 
+one facet of cell metabolic activity [ 35]. According to CCK-8 assay, it was found that 
+metabolic activity of 3T3 fibroblasts in 3D bioprinted constructs having no CPO was 
+significantly decreased in hypoxia compared to normoxia (Fig. 8). Upon increasing the CPO 
+concentration in the constructs, cell metabolic activity increased at days 4 and 7. The 
+metabolic activity of cells in constructs having 0.5% CPO in hypoxia was similar to that of 
+cells cultured under normoxic condition. The deference in metabolic activity between 
+constructs having no CPO and those having 0.1 or 0.5 CPO was statistically significant 
+(p<0.05 and p<0.01, respectively). However, similar to live/dead results, fibroblasts in 3D 
+constructs having 1% CPO had the lowest metabolic activity. These results suggested that 
+CPO in the bioink can provide O 2 rich environment within printed constructs that can help Erdem et al. Page 10
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptcells in overcoming ischemic challenge. Similar observation was made with improved 
+metabolic activity of cardiomyocytes in CPO containing 3D printed constructs. The addition 
+of CPO significantly enhanced cardiomyocytes proliferation (Fig. 9), suggesting that CPO 
+can help in improving cell viability and proliferation even when constructs are kept under 
+hypoxic conditions. The incorporation of CPO into the GelMA bioink can eliminate the 
+adverse effects of hypoxic microenvironment for seven days.
+Accordingly, the addition of CPO to bioinks and printing of cellular constructs may be a 
+viable option for regenerative therapeutics that ensures the supply of O 2 required for 
+metabolically demanding cells such as cardiomyocytes, especially when oxygen supply is 
+interrupted. Video 3 in supplementary material shows the contractile activity of 
+cardiomyocytes in the 3D printed constructs having 0.5% CPO at day 7 of incubation.
+4. CONCLUSIONS
+The results of this study demonstrate that 3D bioprinting can be used to develop oxygenated 
+tissue constructs by using calcium peroxide as an O 2 source in the bioink. Optimal 
+concentration of O 2 was found to be associated with the use of 0.5% CPO, since with higher 
+concentrations, cell viability appears to be compromised. Catalase was used to achieve safe 
+conversion of CPO into O 2 and avoiding the release of H 2O2. With the use of such optimal 
+CPO concentration in fibroblast or cardiomyocyte-laden GelMA printed constructs, cell 
+viability and function can be significantly enhanced when cultured in hypoxic conditions. 
+This study suggests that oxygenated bioinks can be a viable solution to solve current 
+challenges of tissue engineering and tissue regeneration by supplying cells in tissue implants 
+with O 2 before angiogenesis takes place. Oxygen releasing 3D bioprinted constructs 
+developed in this study can significantly benefit regenerative therapeutics. Further in vivo 
+results can be useful to demonstrate the effectiveness of such bioprinted constructs using 
+minimally invasive procedures and help the translation of such oxygenated constructs to the 
+clinic.
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Acknowledgements
+The authors also acknowledge funding from the National Institutes of Health (1R01EB021857 and 
+R01GM126571), American Heart Association Transformational Project Award (18TPA34230036) and 
+TUBITAK-2219 (1059B191700093). V .H. acknowledges Swiss National Foundation Postdoctoral Fellowship 
+(P2EZP2_187980).
+References
+[1]. Ashammakhi N, Ahadian S, Darabi MA, El Tahchi M, Lee J, Suthiwanich K, Sheikhi A, Dokmeci 
+MR, Oklu R, Khademhosseini A, Minimally Invasive and Regenerative Therapeutics, Advanced 
+Materials, 31 (2019) 1804041.
+[2]. Cambria E, Pasqualini FS, Wolint P, Günter J, Steiger J, Bopp A, Hoerstrup SP, Emmert MY , 
+Translational cardiac stem cell therapy: advancing from first-generation to next-generation cell 
+types, npj Regenerative Medicine, 2 (2017) 17. [PubMed: 29302353] Erdem et al. Page 11
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript[3]. Kalogeris T, Baines CP, Krenz M, Korthuis RJ, Cell biology of ischemia/reperfusion injury, 
+International review of cell and molecular biology, Elsevier 2012, pp. 229–317.
+[4]. Jain RK, Au P, Tam J, Duda DG, Fukumura D, Engineering vascularized tissue, Nat. Biotechnol, 
+23 (2005) 821–823. [PubMed: 16003365] 
+[5]. Butt OI, Carruth R, Kutala VK, Kuppusamy P, Moldovan NI, Stimulation of Peri-Implant 
+Vascularization with Bone Marrow-Derived Progenitor Cells: Monitoring by In Vivo EPR 
+Oximetry, Tissue Engineering, 13 (2007) 2053–2061. [PubMed: 17518714] 
+[6]. Ashammakhi N, Darabi MA, Kehr NS, Erdem A, Hu S.-k., Dokmeci MR, Nasr AS, 
+Khademhosseini A, Advances in Controlled Oxygen Generating Biomaterials for Tissue 
+Engineering and Regenerative Therapy, Biomacromolecules, (2019).
+[7]. Hu X, Yu SP, Fraser JL, Lu Z, Ogle ME, Wang J-A, Wei L, Transplantation of hypoxia-
+preconditioned mesenchymal stem cells improves infarcted heart function via enhanced survival 
+of implanted cells and angiogenesis, The Journal of thoracic and cardiovascular surgery, 135 
+(2008) 799–808. [PubMed: 18374759] 
+[8]. Fan Z, Xu Z, Niu H, Gao N, Guan Y , Li C, Dang Y , Cui X, Liu XL, Duan Y , Li H, Zhou X, Lin 
+PH, Ma J, Guan J, An Injectable Oxygen Release System to Augment Cell Survival and Promote 
+Cardiac Repair Following Myocardial Infarction, Sci Rep, 8 (2018) 1371. [PubMed: 29358595] 
+[9]. Ward CL, Corona BT, Yoo JJ, Harrison BS, Christ G.J.J.P.o., Oxygen generating biomaterials 
+preserve skeletal muscle homeostasis under hypoxic and ischemic conditions, 8 (2013) e72485.
+[10]. Steg H, Buizer AT, Woudstra W, Veldhuizen AG, Bulstra SK, Grijpma DW, Kuijer 
+R.J.J.o.M.S.M.i.M., Control of oxygen release from peroxides using polymers, 26 (2015) 207.
+[11]. Mallepally RR, Parrish CC, Mc Hugh MA, Ward K.R.J.I.j.o.p., Hydrogen peroxide filled poly 
+(methyl methacrylate) microcapsules: potential oxygen delivery materials, 475 (2014) 130–137.
+[12]. Chang CJ, The Effect of Pulse-Released Nerve Growth Factor from Genipin-Crosslinked Gelatin 
+in Schwann Cell-Seeded Polycaprolactone Conduits on Large-Gap Peripheral Nerve 
+Regeneration, Tissue Engineering Part A, 15 (2009) 547–557. [PubMed: 18925830] 
+[13]. Northup A, Cassidy D, Calcium peroxide (CaO2)for use in modified Fenton chemistry, Journal of 
+Hazardous Materials, 152 (2008) 1164–1170. [PubMed: 17804164] 
+[14]. Schmidtke T, White D, Woolard C, Oxygen release kinetics from solid phase oxygen in Arctic 
+Alaska, J Hazard Mater, 64 (1999) 157–165. [PubMed: 10337396] 
+[15]. Clark JM, The toxicity of oxygen, American Review of Respiratory Disease, 110 (1974) 40–50. 
+[PubMed: 4613232] 
+[16]. Alemdar N, Leijten J, Camci-Unal G, Hjortnaes J, Ribas J, Paul A, Mostafalu P, Gaharwar AK, 
+Qiu YL, Sonkusale S, Liao RL, Khademhosseini A, Oxygen-Generating Photo-Cross-Linkable 
+Hydrogels Support Cardiac Progenitor Cell Survival by Reducing Hypoxia-Induced Necrosis, 
+Acs Biomaterials Science & Engineering, 3 (2017) 1964–1971.
+[17]. Alemdar N, Oxygen-Generating Photocrosslinkable Hydrogel, Cell-Based Microarrays, Springer 
+2018, pp. 241–250.
+[18]. Zhang YS, Pi Q, van Genderen AM, Microfluidic bioprinting for engineering vascularized tissues 
+and organoids, JoVE (Journal of Visualized Experiments), (2017) e55957.
+[19]. Montgomery M, Ahadian S, Davenport Huyer L, Lo Rito M, Civitarese RA, Vanderlaan RD, Wu 
+J, Reis LA, Momen A, Akbari S, Pahnke A, Li R-K, Caldarone CA, Radisic M, Flexible shape-
+memory scaffold for minimally invasive delivery of functional tissues, Nature Materials, 16 
+(2017) 1038. [PubMed: 28805824] 
+[20]. Wang L, Jiang J, Hua W, Darabi A, Song X, Song C, Zhong W, Xing MMQ, Qiu X, Mussel-
+Inspired Conductive Cryogel as Cardiac Tissue Patch to Repair Myocardial Infarction by 
+Migration of Conductive Nanoparticles, Advanced Functional Materials, 26 (2016) 4293–4305.
+[21]. Shin SR, Zihlmann C, Akbari M, Assawes P, Cheung L, Zhang KZ, Manoharan V , Zhang YS, 
+Yuksekkaya M, Wan KT, Nikkhah M, Dokmeci MR, Tang XW, Khademhosseini A, Reduced 
+Graphene Oxide-GelMA Hybrid Hydrogels as Scaffolds for Cardiac Tissue Engineering, Small, 
+12 (2016) 3677–3689. [PubMed: 27254107] 
+[22]. Alemdar N, Leijten J, Camci-Unal G, Hjortnaes J, Ribas J, Paul A, Mostafalu P, Gaharwar AK, 
+Qiu Y , Sonkusale S, Liao R, Khademhosseini A, Oxygen-Generating Photo-Cross-Linkable Erdem et al. Page 12
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptHydrogels Support Cardiac Progenitor Cell Survival by Reducing Hypoxia-Induced Necrosis, 
+ACS Biomaterials Science & Engineering, 3 (2017) 1964–1971.
+[23]. Yue K, Trujillo-de Santiago G, Alvarez MM, Tamayol A, Annabi N, Khademhosseini A, 
+Synthesis, properties, and biomedical applications of gelatin methacryloyl (GelMA) hydrogels, 
+Biomaterials, 73 (2015) 254–271. [PubMed: 26414409] 
+[24]. Ahadian S, Davenport Huyer L, Estili M, Yee B, Smith N, Xu Z, Sun Y , Radisic M, Moldable 
+elastomeric polyester-carbon nanotube scaffolds for cardiac tissue engineering, Acta 
+biomaterialia, 52 (2017) 81–91. [PubMed: 27940161] 
+[25]. Jia WT, Gungor-Ozkerim PS, Zhang YS, Yue K, Zhu K, Liu WJ, Pi Q, Byambaa B, Dokmeci 
+MR, Shin SR, Khademhosseini A, Direct 3D bioprinting of perfusable vascular constructs using 
+a blend bioink, Biomaterials, 106 (2016) 58–68. [PubMed: 27552316] 
+[26]. Daly AC, Critchley SE, Rencsok EM, Kelly DJ, A comparison of different bioinks for 3D 
+bioprinting of fibrocartilage and hyaline cartilage, Biofabrication, 8 (2016) 045002.
+[27]. Ouyang L, Yao R, Zhao Y , Sun W, Effect of bioink properties on printability and cell viability for 
+3D bioplotting of embryonic stem cells, Biofabrication, 8 (2016) 035020.
+[28]. Lee BH, Lum N, Seow LY , Lim PQ, Tan LP, Synthesis and characterization of types a and b 
+gelatin methacryloyl for bioink applications, Materials, 9 (2016) 797.
+[29]. Newland B, Baeger M, Eigel D, Newland H, Werner C, Oxygen-Producing Gellan Gum 
+Hydrogels for Dual Delivery of Either Oxygen or Peroxide with Doxorubicin, ACS Biomaterials 
+Science & Engineering, 3 (2017) 787–792.
+[30]. Liang GG, Hawkett BS, Tanner RI, The determination of the isoelectric point from measurements 
+of dispersion viscosity as a function of pH, Journal of dispersion science and technology, 26 
+(2005) 469–472.
+[31]. Hwang CM, Sant S, Masaeli M, Kachouie NN, Zamanian B, Lee S-H, Khademhosseini A, 
+Fabrication of three-dimensional porous cell-laden hydrogel for tissue engineering, 
+Biofabrication, 2 (2010) 035003.
+[32]. Nasef A, Ashammakhi N, Fouillard L, Immunomodulatory stromal cells: possible effect of 
+mesenchymal mechanisms, Regen Med, 3 (2008) 531–546. [PubMed: 18588475] 
+[33]. Abdi SIH, Ng SM, Lim JO, An enzyme-modulated oxygen-producing micro-system for 
+regenerative therapeutics, International journal of pharmaceutics, 409 (2011) 203–205. [PubMed: 
+21356297] 
+[34]. https://www.solvay.us/en/binaries/IXPER_Calcium_Peroxide_for_Soil_Amendment-236818.pdf
+[35]. Chamchoy K, Pakotiprapha D, Pumirat P, Leartsakulpanich U, Application of WST-8 based 
+colorimetric NAD (P) H detection for quantitative dehydrogenase assays, BMC biochemistry, 20 
+(2019) 1–14. [PubMed: 30665347] Erdem et al. Page 13
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFig. 1. 
+Illustration of a 3D bioprinting nozzle, showing cell-laden O 2-releasing bioink and the 
+chemical reaction leading to the formation of O 2. B) Optical image of a 3D bioprinted 
+construct with 0.5 CPO. C) Optical illustration of cardiomyocyte-laden printed construct 
+cultured for 7 days and ready for delivery by injection (orifice diameter: 2.5mm). D) Image 
+of printed construct shown in C after multiple suction and release by injection, which 
+demonstrated its mechanical stability. E) Live/dead staining florescent microscopic image of 
+the printed construct at day 7 after incubation and after injection, demonstrating that 
+cardiomyocytes can survive in the construct even after multiple injection process (Green 
+shows live cells and red shows dead cells) (Scale bars for (B), (C), (D): 2mm; (E): 200 μm).Erdem et al. Page 14
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFig. 2. 
+A) Images of printed GelMA constructs containing CPO in different concentrations of (i) 
+0%, (ii) 0.1%, (iii) 0.5% and (iv) 1% with bioink printability values. The second row of 
+microscopic images are magnified locations, that show more closely the morphology of 
+printed meshes. It appears that 0.5% O 2 containing mesh is thinner than others because 
+viscosity is highest among printed constructs. B) Physical properties of printed constructs 
+with varying CPO contents. (i) Effect of viscosity on printed fiber spreading ratio (*, p<0.05, 
+significant difference; **, p<0.01, significant difference). (ii) Effect of temperature changes 
+on viscosity. (iii) Relation between viscosity and shear rate.Erdem et al. Page 15
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFig. 3. 
+Ai-iv) SEM images of GelMA hydrogels containing either 0%, 0.1%, 0.5% or 1% CPO. 
+Note the porous structure of the gels and pore size ranging from 30 to 138 μm. B) (i-iv) 
+EDX evaluation showing the atomic percentage of various elements in the hydrogels. C) 
+Swelling ratio of constructs having different CPO concentrations. D) Semi-quantification of 
+the porosity of hydrogels based on the analysis of SEM images. There was a significant 
+increase in the porosity of gels from 10.2 ± 0.3 % to 13.6 ± 0.7 % when CPO content was 
+increased from 0% CPO to 0.5% (*, p<0.05; **, p<0.01).Erdem et al. Page 16
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFig. 4. 
+Mechanical Properties of GelMA hydrogels containing either 0%, 0.1%, 0.5% or 1% CPO. 
+A) Relation of compressive strength to strain for GelMA hydrogels having different CPO 
+concentrations. B) Young’s modulus obtained from compression test (statistically significant 
+difference between samples with and without CPO microparticles can observed, p<0.05) C) 
+The storage (G’) and loss (G”) moduli as a function of frequency (Differences were 
+statistically significant, *, p<0.05; **, p<0.01).Erdem et al. Page 17
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFig. 5. 
+O2 release form CPO laden hydrogels measured daily for seven days, in hypoxic chamber 
+having 1% O 2, 5% CO 2 and 94% N 2. The duration of release continued for seven days 
+(Differences were significant, *, p<0.05; **, p<0.01).Erdem et al. Page 18
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFig. 6. 
+A) Live (green)/dead (red) staining of 3T3 fibroblasts printed in GelMA bioinks having 
+different CPO concentrations (0%, 0.1%, 0.5% or 1%). The 3D printed constructs were 
+cultured for seven days either under normoxic (N) (atmospheric oxygen), or hypoxic (H) 
+conditions (1% O 2, 5% CO 2 and 94% N 2). Scale bar denotes 500 °m. B) Quantification of 
+cell viability (statistically significant differences between different constructs was observed, 
+*, p<0.05; **, p<0.01).Erdem et al. Page 19
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFig. 7. 
+A) Live/dead staining of 3D printed cardiomyocyte-laden GelMA constructs having 0% and 
+0.5% CPO, that were cultured under hypoxic conditions and 0% CPO that were cultured 
+under normoxic condition for three, five and seven days. Scale bar is 200 μm. B) 
+Quantification of cell viability showing significant difference between constructs (*, p<0.05; 
+**, p<0.01).Erdem et al. Page 20
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFig. 8. 
+Metabolic activity of fibroblasts in 3D printed constructs that contain CPO in different 
+concentrations of 0.1, 0.5 and 1.0%, compared to those that had no CPO, and tested under 
+either hypoxic or normoxic conditions (Statistically significant differences were observed, *, 
+p<0.05; **, p<0.01).Erdem et al. Page 21
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptFig. 9. 
+Metabolic activity of cardiomyocytes in 3D printed constructs that contain CPO in different 
+concentrations of 0.1, 0.5 and 1.0%, compared to those that had no CPO, and tested under 
+either hypoxic or normoxic conditions (Differences were statistically significant, *, p<0.05; 
+**, p<0.01).Erdem et al. Page 22
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.
+Author Manuscript Author Manuscript Author Manuscript Author ManuscriptAuthor Manuscript Author Manuscript Author Manuscript Author ManuscriptErdem et al. Page 23
+Table 1.
+Production of O 2 generating bioinks with varying CPO content.
+BioinksGelMA solution volume (20% GelMA + 1% PI in 
+HEPES)CPO solution volume (2% CPO in HEPES+ 
+HCL)HEPES volume
+0 CPO 0.5 mL - 0.5 mL
+0.1 CPO 0.5 mL 0.05 mL 0.45 mL
+0.5 CPO 0.5 mL 0.25 mL 0.25 mL
+1.0 CPO 0.5 mL 0.5 mL -
+Adv Healthc Mater . Author manuscript; available in PMC 2021 August 01.

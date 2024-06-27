@@ -1,0 +1,5 @@
+
+ sntsplit:
+Preparation of cell-laden bioink To prepare the cell-laden bioink, 20 mg/mL alginate and 30 mg/mL PEO (A2P3) were dissolved in triple-distilled water and magnetically stirred for 2 days at 4/C14C. Then, 1 /C2107cells/mL MSCs or SMCs were added to the A2P3 solution.
+ sntsplit:
+The bioink was prepared by mixing a 2% alginate and 3% PEO (A2P3) solution with MSCs and SMCs at 1 /C2107cells/mL. Alginate is a biocompatible, non-toxic, and versatile polymer that enables rapid gelation of the microstructure through the addition of cations [ 40].

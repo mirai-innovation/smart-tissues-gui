@@ -1,0 +1,55 @@
+
+ sntsplit:
+A cell-laden hydrogel was prepared by  gently mixing cells in a concentration of 500,000 cells/ml into the 37 •C  warm hydrogel.
+ sntsplit:
+Immortalized mesenchymal stem cells (iMSCs) were encapsulated in a  hydrogel of 2% alginate and 8% gelatin in a concentration of 500,000  cells/ml.
+ sntsplit:
+The hydrogel contained 500,000 cells/ml and the samples  were incubated in vitro for up to 28 days.
+ sntsplit:
+HHSs were subject to a static condition without mechanical stimu- lation within 4 s in cell suspension (1 × 106cells/mL), or a cycle of compression- recovery within 4 s at 80% strain in hBMSCs cell suspension (1 × 106cells/mL) under a dynamic condition.
+ sntsplit:
+cSchematic diagram ( i),ﬂuorescence images ( ii) and quantitative analysis (iii) of cell loading into HHSs in hBMSCs cell suspension (1 × 10 6cells/mL), which were controlled by various compression strains (20%, 40%, 60% and 80%), n=5 , *P= 0.0446 (20% and 40%), *** P=0 .
+ sntsplit:
+dSchematic diagram ( i),ﬂuorescence images ( ii) and quantitative analysis ( iii) of cell loading into HHSs in hBMSCs cell suspension(5 × 106cells/mL), which were controlled by number of cycles (1, 3, 5, and 10), n=8 , ***P< 0.001.
+ sntsplit:
+Firstly, two approaches were used: The ﬁrst one was direct immersion of HHSs in hBMSCs cell suspension (1 × 106cells/mL) for 4 s under a static condition; while the second one utilized acompression-recovery cycle in hBMSCs cell suspension under 80% strain within 4 s ( V 1-mechanical response).
+ sntsplit:
+The number of cells loaded into HHSs were quanti ﬁed by ImageJ. Subsequently, the in ﬂuence of compression displacement (20%, 40%, 60%, and 80%) in hBMSCs cell suspension (1 × 10 6cells/mL) and cycle times (1, 3, 5, and 10) under 40% compression displacementin hBMSCs cell suspension (5 × 10 5cells/mL) on cell loading of HHSs were also evaluated respectively.
+ sntsplit:
+After the scaffolds were incubated in the cell incubator for 30 min, the cell suspension (1 mL, 1 106cells/mL) was added on each scaffold and incubated at 37C in 5% CO 2.
+ sntsplit:
+The cell density in bio-inks was 1 107cells/mL. In order to improve the biological activity of the scaffold, BMP-2 and PDGF were added into the bio-inks with a ﬁnal concentration of 5 ug/mL and 100 ng/mL, respectively.
+ sntsplit:
+Preparation of cell-laden bioink To prepare the cell-laden bioink, 20 mg/mL alginate and 30 mg/mL PEO (A2P3) were dissolved in triple-distilled water and magnetically stirred for 2 days at 4/C14C. Then, 1 /C2107cells/mL MSCs or SMCs were added to the A2P3 solution.
+ sntsplit:
+The bioink was prepared by mixing a 2% alginate and 3% PEO (A2P3) solution with MSCs and SMCs at 1 /C2107cells/mL. Alginate is a biocompatible, non-toxic, and versatile polymer that enables rapid gelation of the microstructure through the addition of cations [ 40].
+ sntsplit:
+The 2.5Gel3 and 3Gel4 printable hydrogels were gently mixed with 0.5 106ﬁbroblasts/mL and 5 106HaCaT cells/mL, respectively, using two syringes connected under a sterile cap.
+ sntsplit:
+Human adipose-derived mesenchymal stem cells (ASCs)  were uniformly mixed in this bioink at 1 × 106 cells/mL concentration, and spheroid  specimens were cultured in both static and dynamic culture conditions.
+ sntsplit:
+RFP-HUVECs were either suspended alone or with hADSCs at a 2:1 ratio for a total cell  density of 5 million cells/mL in each alginate solution.
+ sntsplit:
+HUVECs and hADSCs were stained with Calcein-AM before  being suspended 2:1 in partially crosslinked alginate at a total density of 3 million cells/mL  and pipetted into the glass tips.
+ sntsplit:
+To fabricate a heterogenous VTU,  RFP-HUVECs and hADSCs were suspended in the vasculogenic bioink in a 2:1 ratio (RFP- HUVEC:ADSC) at a total cell density of 5 million cells/mL. To fabricate a mixed VTU,  RFP-HUVECs, hADSCs, and GFP-hDFs were suspended in the vasculogenic bioink in a  2:1:1 ratio (RFP-HUVEC:ADSC:GFP-hDF) at a total cell density of 5 million cells/mL. For  both heterogenous and mixed VTUs, GFP-hDFs were loaded at a density of 2 million  cells/mL in the fibroblast-containing bioink.
+ sntsplit:
+Immediate Cell Viability after Bioprinting To investigate the immediate cell viability after bioprinting, MC3T3 pre-osteoblast cells  were bioprinted at a density of 1 × 106 cells/mL of bioink.
+ sntsplit:
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript2.6 Bone Cell Proliferation To investigate the long-term cell viability and proliferation in the bioprinted hydrogel,  MC3T3 pre-osteoblast cells were bioprinted at a density of 10 × 106 cells/mL of bioink.
+ sntsplit:
+After reaching 80% confluency, PC12 cells were trypsinized and centrifuged at 3000  rpm for 10 min and mixed into bioink at a density of 10 × 106 cells/mL using the same  procedure as described in the MC3T3 cell mixing section.
+ sntsplit:
+Author Manuscript Author Manuscript Author Manuscript Author Manuscriptcollected by centrifugation and mixed with OPF/Gelatin slurry (1 × 106 cells/mL) to make  bioinks, as presented in Fig.
+ sntsplit:
+b) Microscopic images of the same printed scaffolds at different positions of  the scaffolds and c) enlarged microscopic images of the scaffolds containing cells (1 ×  106 cells/mL of bioink).
+ sntsplit:
+The constructs were 3D bioprinted (using transfected or  non-transfected hMSCs at 5 million cells/mL loaded into the bioink) at a bioprinting  speed of 60 mm/min, a nozzle diameter of 410 μm and pneumatic pressure of 80 kPa.
+ sntsplit:
+The experiment was designed to include four major groups: i) negative control ( n=3), ii)  bioink+rBMSCs (5 million cells/ml) ( n=6), iii) bioink+rBMSCs(tPEI-pBMP-2) ( n=6) for  ex-situ delivery, and iv) bioink+PEI-pBMP-2 ( n=7) for in-situ delivery of plasmid particles.
+ sntsplit:
+For in-vitro evaluation, hMSCs were used at a  density of 5 million cells/mL in the bioink.
+ sntsplit:
+In this study, we used 5×106 rBMSCs per mL, where the cell encapsulation density for  hydrogels has been varied from 5 to 10 million cells/ml for bone tissue engineering [ 45].
+ sntsplit:
+For instance, among collagen constructs seeded with  6 × 105, 3 × 106, 3 × 107, and 1 × 108 cells/mL, a scaffold with cell density above 3  × 106 cells/mL revealed a significant decrease in break force when tensile testing was  performed immediately after compression at Day 10 [ 52].

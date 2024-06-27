@@ -1,0 +1,1047 @@
+Esophageal wound healing by aligned smooth muscle cell-laden
+nanoﬁbrous patch
+Miji Yeoa,b,1, Jung Won Yoonc,1, Gyu Tae Parkc, Sung-Chan Shine, Young-Cheol Songc,
+Yong-Il Cheone, Byung-Joo Leee, Geun Hyung Kima,d,*, Jae Ho Kimc,**
+aDepartment of Biomechatronic Engineering, College of Biotechnology and Bioengineering, Sungkyunkwan University (SKKU), Suwon 16419, Republic o f Korea
+bDepartment of Engineering Science and Mechanics, Penn State University, University Park, PA 16802, USA
+cDepartment of Physiology, School of Medicine, Pusan National University, Yangsan 50612, Republic of Korea
+dBiomedical Institute for Convergence at SKKU (BICS), Sungkyunkwan University, Suwon 16419, Republic of Korea
+eDepartment of Otorhinolaryngology-Head and Neck Surgery, College of Medicine, Pusan National University and Medical Research Institute, Pusan Na tional University
+Hospital, Busan 49241, Republic of Korea
+ARTICLE INFO
+Keywords:
+Cell electrospinning
+Smooth muscle cellsEsophageal reconstructionABSTRACT
+The esophagus exhibits peristalsis via contraction of circularly and longitudinally aligned smooth muscles, and
+esophageal replacement is required if there is a critical-sized wound. In this study, we proposed to reconstruct
+esophageal tissues using cell electrospinning (CE), an advanced technique for encapsulating living cells into ﬁbers
+that allows control of the direction of ﬁber deposition. After treatment with transforming growth factor- β,
+mesenchymal stem cell-derived smooth muscle cells (SMCs) were utilized for cell electrospinning or three-
+dimensional bioprinting to compare the effects of aligned micropatterns on cell morphology. CE resulted in
+SMCs with uniaxially arranged and elongated cell morphology with upregulated expression levels of SMC-speci ﬁc
+markers, including connexin 43, smooth muscle protein 22 alpha (SM22 α), desmin, and smoothelin. When SMC-
+laden nano ﬁbrous patches were transplanted into a rat esophageal defect model, the SMC patch promoted
+regeneration of esophageal wounds with an increased number of newly formed blood vessels and enhanced the
+SMC-speci ﬁc markers of SM22 αand vimentin. Taken together, CE with its advantages, such as guidance of highly
+elongated, aligned cell morphology and accelerated SMC differentiation, can be an ef ﬁcient strategy to recon-
+struct smooth muscle tissues and treat esophageal perforation.
+1. Introduction
+The esophagus is a tubular organ that extends from the epiglottis in
+the pharynx to the stomach. This organ is composed of thin, elongated
+smooth muscle cells (SMCs) aligned in a parallel manner for contractile
+function. When food is swallowed, the esophagus pushes the ingested
+food bolus toward the stomach via peristalsis, which is mediated by the
+contraction of circular and longitudinal esophageal muscles [ 1]. Esoph-
+ageal diseases, such as congenital defects and esophageal cancer, cause
+circumferential, full-thickness, and extended segment loss of the esoph-
+agus. Gastric pull-up conduits or colon interpositions are usually used totreat esophageal perforations. However, esophageal substitutes have
+shown limited success [ 2]. Therefore, esophageal tissue engineering has
+attracted attention as a promising strategy for regenerating damaged
+native esophagus [ 3]. However, to the best of our knowledge, no evi-
+dence has shown that an engineered esophageal substitute can success-
+fully mimic the structural and functional characteristics of the smooth
+muscles in the esophagus. Recently, stem cell-based tissue engineering
+has emerged as a potential method to improve the therapeutic ef ﬁcacy of
+engineered substitutes composed of endogenous cells.
+Mesenchymal stem cells (MSCs) can differentiate into multiple cell
+lineages, including adipocytes, osteoblasts, chondrocytes, skeletal
+* Corresponding author. Department of Biomechatronic Engineering, College of Biotechnology and Bioengineering, Sungkyunkwan University (SKKU) , Suwon,
+16419, Republic of Korea.
+** Corresponding author.
+E-mail addresses: takapy_@naver.com (M. Yeo), wjddnjssky@nate.com (J.W. Yoon), daramzuy2@naver.com (G.T. Park), cha-nwi@daum.net (S.-C. Shin),
+dudcjf1114@naver.com (Y.-C. Song), skydragonone@naver.com (Y.-I. Cheon), voicelee@pusan.ac.kr (B.-J. Lee), gkimbme@skku.edu (G.H. Kim), jhkimst@pusan.
+ac.kr (J.H. Kim).
+1These authors contributed equally to this work.
+Contents lists available at ScienceDirect
+Materials Today Bio
+journal homepage: www.journals.elsevier.com/materials-today-bio
+https://doi.org/10.1016/j.mtbio.2023.100564
+Received 17 November 2022; Received in revised form 22 January 2023; Accepted 24 January 2023
+Available online 26 January 20232590-0064/ ©2023 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/by-
+nc-nd/4.0/ ).Materials Today Bio 19 (2023) 100564myocytes, and SMCs [ 4–6]. Transforming growth factor- β1 (TGF- β1) is a
+potent inducer of MSC-to-SMC differentiation via activation of the
+TGF- β–SMAD signaling cascade [ 7,8]. Some studies have shown that
+TGF- β1 treatment increases the expression of SMC-speci ﬁc ion channels
+in human adipose-derived MSCs [ 9]. In addition to extracellular stimuli,
+cell alignment through micropatterning has been reported to increase the
+expression levels of F-actin and alpha smooth muscle actin ( α-SMA) in
+SMCs and promote the contractile phenotype [ 10,11]. Because direct
+transplantation of SMCs into damaged tissues does not support cell
+alignment and contractile function in smooth muscle tissues, several
+strategies, including the use of aligned substrates and electrospun ﬁbers,
+have been developed to guide cell alignment [ 12,13]. However, devel-
+oping an implantable substitute with an aligned pattern, mechanical
+strength, and bioactive cues to promote cellular activities in three di-
+mensions (3D) remains a challenge.
+Surface topography has been reported to regulate cell adhesion,
+cytoskeletal organization, and cell-cell interactions and plays a key role
+in the lineage speci ﬁcation of stem cells [ 14,15]. Cells sense surface
+patterns and nanoscale biochemical and biophysical stimuli [ 16]; sub-
+micron topography regulates various stem cell responses, including
+proliferation, migration, and differentiation [ 17] by changing the focal
+adhesion assembly, which causes variations in cytoskeletal organization
+and cell mechanical properties [ 18]. Therefore, topographical features,
+such as anisotropic patterning, nanostructures, and ﬁbrillar structures,
+could play a signi ﬁcant role in spatial organization during myogenesis
+[19–21]. Microgrooved topography with stiff substrates has been shown
+to stimulate differentiation of MSCs into SMCs [ 22]. Moreover, micro-
+grooved topography and TGF- β1 treatment synergistically stimulate the
+expression of SMC-speci ﬁc contractile proteins in MSCs [ 23]. However,
+topographic modulation in esophageal tissue engineering using MSCs has
+not yet been studied.
+3D cell printing (CP) is an emerging technique for fabricating tissue
+substitutes that can mimic tissues or organs, but generating a 3D
+construct with tissue-speci ﬁc cells and desired topographic features has
+been challenging [ 24,25]. Electrospinning is a prevailing technique
+generating micro/nano ﬁbers using both synthetic and natural polymers.
+Allowing reconstruction of desired topographic features, electrospinning
+has been utilized for various applications, including smart materials (i.e.,
+stimuli-responsive mats, superhydrophilic or superhydrophobic mats,
+and sensors), environmentally friendly materials (i.e., membranes for
+water and air ﬁltration), soft electronics (i.e., ﬂexible and stretchable
+materials and personal devices), and biomedical applications (i.e.,
+nanoﬁber-based scaffolds with biophysical and biochemical cues) [ 26,
+27]. Cell electrospinning (CE) has great potential in biomedical appli-
+cations due to its ability to encapsulate living cells directly into micro/-
+nanoﬁbers while allowing the control of micropattern formation. This
+process improves nutritional accessibility and cell distribution at
+different scales of the scaffold, which can overcome the limitations of
+conventional electrospinning and 3D bioprinting techniques [ 28]. Owing
+to CE advantages, various cell types, such as neuroblastoma cells, cardiac
+myocytes, osteoblasts, and adipose stem cells, have been utilized in CE
+[28–31]. In addition, we previously demonstrated that myoblasts and
+human umbilical vein endothelial cells could be successfully remodeled
+into an aligned topography using the CE process [ 32,33]. Hence, in this
+study, CE was utilized to build an anisotropically arranged smooth
+muscle substitute to mimic native esophageal tissues.
+As of now, there have been several attempts to develop engineered
+esophageal substitutes. For instance, electrospinning was utilized using
+the mixture of decellularized esophagus extracellular matrix (ECM) and
+polyamide-6 (PA-6) [ 34]. Human adipose- and bone marrow-derived
+mesenchymal stromal cells were cultured on randomly orientedECM/PA-6 ﬁbers, in which some cell proliferation was revealed with
+25% of scaffold cell coverage. On the other hand, electro-hydrodynamic
+jetting was carried out using the blend of polycaprolactone (PCL) and
+Pluronic F127 (PF127) to develop scaffolds in 90
+/C14grid patterns [ 35].
+PCL/PF127 scaffolds showed an enhanced ultimate tensile strength (1.2MPa) by PCL and better wettability by PF127. Further, when human
+esophageal ﬁbroblasts were cultured on the PCL/PF127 scaffold, cell
+growth direction was guided in vitro by the orientation of scaffolds in two
+perpendicular directions. These studies have shown potential of in vitro
+engineered esophageal scaffolds, but acellular fabrication techniques
+eventually cause inhomogeneous cell distribution by cell seeding and
+include multiple fabrication steps increasing risks of external contami-
+nation factors prior to implantation. Also, differentiation to esophageal
+smooth muscle cells and in vivo study should be more thoroughly
+investigated to further verify healing capacity as esophageal substitutes.
+In this study, several main driving factors of SMC regeneration were
+investigated to validate the CE process. Brie ﬂy, MSCs and TGF- β1-treated
+MSCs (referred to as SMCs) were compared using SMC-speci ﬁc markers
+to estimate the ef ﬁciency of MSC-to-SMC differentiation. Followed by
+TGF- β1 treatment, MSCs and SMCs were cultured on a 2D substrate with
+and without aligned electrospun ﬁbers to estimate the effects on cell
+alignment and SMC differentiation. Finally, MSCs and SMCs were uti-
+lized to develop a cell-laden 3D substitute fabricated via CE and CP and
+examined for various cellular activities. To assess the applicability of CE
+in clinical use, we developed an aligned SMC-laden ﬁbrous patch and
+examined its therapeutic effects using a rat esophageal wound model.
+2. Materials &methods
+2.1. Materials
+α-Minimum Essential Medium ( α-MEM), Hank's balanced salt solu-
+tion (HBSS), fetal bovine serum (FBS), and trypsin-EDTA were purchased
+from Invitrogen (Carlsbad, CA, USA). TGF- β1 was purchased from
+PeproTech (Cranbury, NJ, USA). Smooth muscle growth medium-2
+(SmGM™-2) was purchased from Lonza (Bazel, Switzerland). Poly-
+caprolactone (PCL; molecular weight (M w)¼45,000 Da), calcium chlo-
+ride (CaCl 2), and polyethylene oxide (PEO; M w¼900,000) were
+purchased from Sigma-Aldrich (St. Louis, MO, USA). Sodium alginate
+with 0.42 mannuronic acid to guluronic acid (M/G) ratio (LF10/60; FMC
+Biopolymer, Drammen, Norway) was kindly provided by Pharmaline
+(Suwon, South Korea). 40,6-diamidino-2-phenylindole (DAPI) was pur-
+chased from Merck (Darmstadt, Germany). The antibodies used in this
+study are listed in Table S1 .
+2.2. Culture of MSCs and differentiation to SMCs
+After obtaining informed consent from patients, human palatine
+tonsil tissues were isolated from patients undergoing tonsillectomy for
+chronic tonsillar hypertrophy and chronic tonsillitis in the Department of
+Otorhinolaryngology-Head and Neck Surgery, Pusan National University
+Hospital [ 36,37]. To isolate tonsil-derived MSCs, tonsil tissues were
+washed with phosphate-buffered saline (PBS) and digested at 37/C14C for
+30 min with 0.075% type I collagenase. The enzyme activity was
+neutralized with α-MEM supplemented with 10% FBS and 10% pen-
+icillin –streptomycin. The dissociated cells were ﬁltered through a sterile
+70μm cell strainer and cultured in 5% CO 2at 37/C14C. When the cell
+conﬂuency reached 70 –80%, the cells were washed twice with HBSS,
+treated with 0.05% trypsin-EDTA, and incubated in 5% CO 2at 37/C14C for
+3–5 min. The suspended cells were harvested in medium containing FBS
+and centrifuged at 500 /C2gfor 4 min. MSCs were subcultured at a split
+ratio of 1:3 or 1:4, and cells at passage 7 –9 were used for experiments. To
+differentiate MSCs into SMCs, MSCs were serum-starved in α-MEM basal
+medium for 24 h, treated with 2 ng/mL TGF- β1 for 4 days, and then
+maintained in SmGM ™-2 medium. The expression of SMC markers was
+determined by western blotting and ﬂow cytometric analysis.
+2.3. Western blotting
+To extract total proteins, cells were treated with lysis buffer (20 mM
+Tris-HCl, 1 mM EGTA, 1 mM EDTA, 10 mM NaCl, 0.1 mMM. Yeo et al. Materials Today Bio 19 (2023) 100564
+2phenylmethylsulfonyl ﬂuoride, 1 mM Na 3VO4, 30 mM sodium pyro-
+phosphate, 25 mM β-glycerol phosphate, and 1% Triton X-100, pH 7.4),
+followed by sonication and centrifugation at 12,000 rpm at 4/C14C for 10
+min. Lysates were resolved using sodium dodecyl sulfate-polyacrylamide
+gel electrophoresis and transferred onto nitrocellulose membranes. The
+membranes were blocked with 5% skim milk buffer for 2 h and incubated
+overnight with primary antibodies. For visualization with chem-
+iluminescence, the membranes were incubated with horseradish
+peroxidase-conjugated secondary antibodies for 1 h, and the signal was
+detected using an ECL kit (Cytiva, Mariborough, MA, USA). The mem-
+brane was washed four times for 20 min with 1 /C2Tris-buffered saline
+with Tween 20.
+2.4. Flow cytometric analysis
+MSCs and MSC-derived SMCs were ﬁxed with 4% paraformaldehyde
+(PFA) for 1 h at 4/C14C, and washed with PBS three times. The cells were
+permeabilized with 0.1% triton X-100 for 30 min and blocked with 0.5%
+BSA for 1 h. Primary antibodies were incubated with cells at 4/C14C for 1 h,
+and the cells were treated with secondary antibodies conjugated with
+Alexa Fluor 647 (Invitrogen) at 4/C14C for 30 min. Cells labeled with
+ﬂuorescent antibodies were washed with PBS three times and analyzed
+by Attune NxT Flow cytometer (Thermo ﬁsher, USA). Obtained ﬂuores-
+cence signals were analyzed using the FlowJo (ver 10, Tree Star Inc.).
+2.5. Cell growth on two-dimensional (2D) surface with or without aligned
+ﬁbers
+A rectangular glass (10 /C210 mm) was used as the non- ﬁbrous surface.
+Aligned alginate ﬁbers were deposited by electrospinning onto the glass
+under a 10.5 kV high-voltage power source, 140 mm nozzle-to-electrode
+(NtE) distance, 0.25 mL/h ﬂow rate, and 3 min of electrospinning time.
+Theﬁbers were aligned using rectangular copper electrodes (75 /C225
+mm) and a metal nozzle (180 μm inner diameter). MSCs and SMCs were
+diluted to 62,500 cells/droplet and the equivalent number of cells laden
+on the CE scaffold were seeded onto the glass with or without aligned
+ﬁbers.
+2.6. Preparation of cell-laden bioink
+To prepare the cell-laden bioink, 20 mg/mL alginate and 30 mg/mL
+PEO (A2P3) were dissolved in triple-distilled water and magnetically
+stirred for 2 days at 4/C14C. Then, 1 /C2107cells/mL MSCs or SMCs were
+added to the A2P3 solution.
+2.7. Fabrication of cell-printed and cell-electrospun scaffolds using MSCs
+and SMCs
+A 3D printer (DTR3-2210-T-SG, DASA Robot, Bucheon, South Korea)
+was used to fabricate the PCL strut (300 μm in diameter and 30 mm in
+length). Pneumatic pressure (340 kPa) was applied to the heated metal
+barrel containing PCL at 100/C14C, and the melted PCL was extruded
+through a metal nozzle (350 μm inner diameter) at 10 mm/s. Subse-
+quently, CP was performed on the printed PCL struts. The cell-laden
+bioink was printed through a nozzle (180 μm inner diameter) using a
+pneumatic pressure of 120 kPa and nozzle moving speed of 10 mm/s.
+For CE, a high-voltage power source (SHV300RD-50K, Convertech,
+Gwangmyeong, South Korea) and syringe pump (KDS 230, NanoNC, Inc.,
+Seoul, South Korea) were prepared. The cell-laden bioink was supplied at
+0.25 mL/h, and electrospun under a 10.5 kV high voltage direct current
+(HVDC) and 140 mm NtE distance. Electrospun ﬁbers were deposited on
+the PCL strut, which was ﬁxed between parallel cylindrical electrodes at a
+distance of 30 mm.
+To fabricate the PCL ﬁbrous mat, electrospinning was performed
+using 10% PCL dissolved in methylene chloride and dimethylformamide
+at a ratio of 4:1. The PCL ﬁbers were collected on a grounded rotatingdrum at 1500 rpm using 0.20 mL/h ﬂow rate and 0.1 kV/mm electric
+ﬁeld (12 kV HVDC and 120 mm NtE distance) for 4 h.
+2.8. In vitro characterization
+Optical images were captured using a BX FM-32 optical microscope
+(Olympus, Japan) to observe the surface topography of the constructs. To
+obtain microscale images, the samples were placed on double-sided
+carbon tape and sputter-coated with gold, and their images were
+captured using a scanning electron microscope (SEM; SNE-3000 M; SEC
+Inc., Suwon, South Korea).
+Stress-strain curves were obtained using a microtensile tester (Top-
+tech 2000; Chemilab, Suwon, South Korea) under uniaxial stretching at
+0.2 mm/s. The samples were vertically ﬁxed between two grips with a 10
+mm gap and stretched upward until failure.
+2.9. Analysis of cell viability and differentiation on cell-laden scaffolds
+Cell viability at various time points during culturing (days 0, 7, 14,
+and 21) was measured using a Live/Dead Viability/Cytotoxicity Kit
+(Invitrogen). The samples were immersed in a solution containing 0.15
+mM calcein AM and 2 mM ethidium homodimer-1 for 30 min, and im-
+ages were captured using a light microscope. Cell viability was calculated
+as the ratio of the number of live cells to the total cell number using Fiji
+software.
+Cell nuclei and F-actin were visualized by DAPI (blue) and phalloidin
+(green) staining, respectively. The samples were ﬁxed in formaldehyde
+solution (3.7% in Tris-buffered saline [TBS]) for 12 h at 4/C14C and treated
+with 0.3% Triton X-100 in TBS for 10 min at 25/C14C. The samples were
+then treated for 1 h at 37/C14C with a solution of phalloidin (15 U/mL;
+Invitrogen) and DAPI (5 μM; Invitrogen). Fluorescence images were
+captured using a confocal microscope (LSM 700; Carl Zeiss, Germany)
+and analyzed using Fiji software.
+Differentiation of MSCs and SMCs was observed using immuno ﬂuo-
+rescence staining. The samples were ﬁxed and permeabilized prior to
+phalloidin and DAPI staining. The samples were then immersed in 1%
+bovine serum albumin in TBS for 1 h at room temperature. Primary an-
+tibodies against α-SMA, ﬁbronectin, calponin, collagen I, and collagen IV
+at a 1:200 dilution in TBS were added to the samples and incubated
+overnight at 4/C14C. The samples were subsequently stained with secondary
+antibodies conjugated with Alexa Fluor 488 or 594 (Invitrogen). Images
+were captured using confocal microscopy and analyzed using Fiji
+software.
+2.10. Reverse transcription-quantitative polymerase chain reaction (RT-
+qPCR)
+The expression levels of connexin 43 ( CX43 ), smooth muscle protein
+22 alpha ( SM22 α), desmin, and smoothelin ( SMTN ) were analyzed by RT-
+qPCR. Brie ﬂy, total RNA was isolated using TRI reagent (Sigma-Aldrich),
+according to the manufacturer's instructions. The purity and concentra-
+tion of the isolated RNA were determined using a spectrophotometer
+(FLX800T; Biotek, VT, USA). cDNA synthesis was performed using 500
+ng RNase-free, DNase-treated, total RNA using a reverse transcription
+system (FSQ-201; Toyobo, Osaka, Japan). Gene expression levels were
+measured by the comparative C tmethod using the StepOne Plus RT-PCR
+system (Applied Biosystems, Foster City, CA, USA). GAPDH expression
+was used as an internal control. The primers used in this study are listed
+inTable S2 .
+2.11. Repair of esophageal wounds using SMC-laden patch
+Six-month-old Sprague-Dawley rats (Central Lab Animal Inc., Seoul,
+Korea), weighing approximately 680 –700 g, were used in this study. The
+rats were divided into three groups (n ¼3 per group) and anesthetized
+with iso ﬂurane (Baxter International Inc., USA). Two independentM. Yeo et al. Materials Today Bio 19 (2023) 100564
+3animal experiments were repeated for statistical analysis of histological
+and immunostaining results. Anesthesia delivery equipment was used to
+administer a gas mixture of iso ﬂurane and O 2via inhalation into the rat's
+respiratory system. Before anesthesia, iso ﬂurane was evaporated in a
+vaporizer (Harvard Apparatus, USA), and the concentration was set to
+5% and adjusted to 2% during the operation. The gas ﬂow rate of O 2was
+maintained at 0.5 –1 L/min.
+To create the esophageal wound model, the center of the ventral neck
+was shaved, an incision of approximately 2 cm was made, and the
+esophagus was located in the tracheoesophageal structure. To equalize
+the size of the esophageal wound, a 2 mm diameter biopsy punch (Miltex,
+KAI Industries, Japan) was used to completely puncture the muscle and
+mucosal layer of the esophagus. The patches were cut with a 4 mm
+diameter biopsy punch and placed over the esophageal wound, and the
+punctured section of the esophagus was sutured with a 9 –0 nylon suture
+(AILEE Co., Korea). The incised skin was sutured using a 7 –0 nylon su-
+ture. All surgical procedures were performed using sterile instruments
+and disinfection procedures. The mice were fasted for the ﬁrst 3 days,
+sterilized water was provided after 4 days, and food was provided after 6
+days, postoperatively. During the fasting period, the water consumption
+was considered as evidence of esophageal restoration. Two weeks after
+surgery, the rats were sacri ﬁced by CO 2euthanasia. All animal experi-
+ments were reviewed and approved by the Institutional Review Board of
+the Pusan National University Hospital (PNUH-2021-188).
+2.12. Histological analysis
+For histological analysis of esophageal regeneration, esophageal tis-
+sues were excised along with tracheal tissue to support the esophagus.
+For routine staining, tissues were ﬁxed with cooled acetone. To obtain
+cryosections, the tissue was perfused with sucrose solution, embedded in
+optimal cutting temperature compound, and frozen at /C080/C14C. Tissue
+sections were then stained with hematoxylin and eosin (H &E) and
+Masson's trichrome stain. Stained sections were scanned using an Axio
+Scan.Z1 (Carl Zeiss Microscopy).
+For immunohistochemical analysis, the tissue samples were ﬁxed in
+4% PFAPFA overnight and embedded in paraf ﬁn. To detect smooth
+muscle regeneration and vascularization, the esophageal tissue sections
+were stained with anti-SM22 α, anti-IL-B4, anti-vimentin, and anti-
+desmin antibodies. Epithelium of esophageal tissues were stained with
+anti-cytokeratin 14, and Macrophages were stained with anti-CD68
+antibody. The secondary antibodies used were goat anti-mouse anti-
+body conjugated with Alexa Fluor 488 or 568 and streptavidin conju-
+gated to Alexa Fluor 488, and DAPI was used to stain the nuclei. The
+stained sections were visualized under a laser confocal microscope
+(Olympus FluoView FV1000) and an Axio Scan.Z1 (Carl Zeiss Micro-
+scopy). The ﬂuorescence levels were quanti ﬁed in a high-power ﬁeld
+using ImageJ software.
+2.13. Statistical analysis
+The data are presented as the mean /C6standard deviation and were
+analyzed using SPSS 18 software (SPSS, Inc., Chicago, IL, USA). Differ-
+ences among multiple groups were compared by one-way ANOVA with
+post-hoc Bonferroni tests, and statistical signi ﬁcance was represented as
+*p<0.05, **p<0.01, and ***p<0.001.
+3. Results
+3.1. MSC-to-SMC differentiation via TGF- β1 treatment and surface
+topography
+Prior to applying CE or CP, differentiation of MSCs into SMCs in vitro
+was induced by treating MSCs with TGF- β1, and its ef ﬁcacy was analyzed
+using western blotting. TGF- β1 treatment increased the expression levels
+of several SMC markers, including calponin, α-SMA, SM22 α, vimentin,desmin, and SMTN, indicating that MSCs had successfully differentiated
+into SMCs ( Fig. S1 ). To con ﬁrm the TGF- β1-induced differentiation of
+MSCs to SMCs, the expression of SMC markers, such as α-SMA and
+SM22 α, were measured by ﬂow cytometric analysis. The expression
+levels of α-SMA and SM22 αwere greatly increased in SMCs compared
+with MSCs, and the percentages of α-SMA- and SM22 α-positive cells in
+SMCs were 93.4% and 84.6%, respectively ( Fig. S1b ). In addition,
+phosphorylation levels of Smad2, which is a key transcription factor
+involved in TGF- βsignaling, was elevated in SMCs than MSCs ( Fig. S1c ),
+indicating pivotal role of Smad2 in the TGF- β1-induced differentiation of
+MSCs to SMCs.
+The effects of the aligned topography on SMC differentiation were
+examined in 2D cultures. It has been reported that cell elongation pro-
+motes the differentiation of MSCs into SMCs [ 12,38], and cell morphol-
+ogies affect the phenotypic modulation of SMCs [ 39]. MSCs and SMCs
+were seeded after electrospinning the aligned ﬁbers on a 2D substrate
+(Fig. S2a ). A plain 2D substrate was used as a control. Compared to the
+cells cultured on the plain surface, the MSCs and SMCs cultured on the
+aligned ﬁbers exhibited higher degrees of cell elongation and cell
+alignment as well as increased expression levels of SMC markers ( α-SMA
+and calponin) and SMC-related extracellular matrix (ECM) markers
+(collagen I, collagen IV, and ﬁbronectin) ( Figs. S2b –d). These results
+suggest that the differentiation of MSCs into SMCs was promoted by cell
+alignment and elongation in 2D. Thus, MSCs and SMCs were used in CE
+to obtain aligned ﬁbers and develop a smooth muscle regenerative
+scaffold.
+3.2. CP and CE of MSCs and SMCs
+Next, we compared the effects of CE and CP in the presence of cell
+alignment. The bioink was prepared by mixing a 2% alginate and 3% PEO
+(A2P3) solution with MSCs and SMCs at 1 /C2107cells/mL. Alginate is a
+biocompatible, non-toxic, and versatile polymer that enables rapid
+gelation of the microstructure through the addition of cations [ 40]. PEO
+was added as a processing material to optimize the surface tension,
+conductivity, and molecular entanglement for electrospinning [ 41]. The
+composition of the A2P3 solution was based on a previous study thatshowed stable ﬁber formation and alignment [ 32]. As shown in Fig. 1 a,
+CP and CE were performed with SMC-laden A2P3, according to the
+schematic illustration. In the optical images, a cell-electrospun scaffold
+had an aligned ﬁbrous structure, whereas the cell-printed scaffold had a
+plain bulk structure. The morphology of SMCs was observed by phal-
+loidin/DAPI staining after 7 days of culture. The cells of the CP scaffold
+had a round shape similar to that on day 0, whereas the cells of the CE
+scaffold exhibited an elongated morphology. These results clearly
+showed different degrees of cell alignment and elongation, depending on
+the presence of aligned micropatterns in a 3D environment. However,
+these scaffolds, which can be easily bent and deformed, are unsuitable for
+long-term culture because of their low mechanical strength.
+To supplement the low mechanical strength of the electrospun or
+bioprinted structures, a PCL strut was applied as a mechanical support for
+the CP and CE processes. To generate PCL struts, PCL pellets were melted
+at a high temperature of 100
+/C14C and then 3D printed using 340 kPa of
+pneumatic pressure and 10 mm/s nozzle moving speed, yielding a 300
+μm PCL strut ( Fig. 1 b (i)). Then, using CP, MSCs and SMCs were printed
+onto the PCL strut using 120 kPa of pneumatic pressure and 10 mm/s
+nozzle moving speed, which are referred to as CP-MSC and CP-SMC,
+respectively ( Fig. 1 b (ii)). In the meantime, CE using MSCs and SMCs
+was performed on the PCL strut with fabricating parameters of 140 mm
+NtE distance, 0.075 kV/mm electric ﬁeld, and 0.25 mL/h ﬂow rate
+(Fig. 1 b (iii)). The scaffolds created by CE using MSCs and SMCs are
+referred to as CE-MSC and CE-SMC, respectively.
+The topographical features of the scaffolds fabricated using CP and CE
+were captured using optical and SEM imaging. The CP scaffolds exhibited
+plain surfaces, whereas the CE ﬁbers exhibited aligned micropatterns
+(Fig. 1 c and d). When MSCs were utilized for both CP and CE process,M. Yeo et al. Materials Today Bio 19 (2023) 100564
+4MSC-laden scaffolds in the absence of TGF- β1 treatment show the effects
+of aligned micropatterns on SMC differentiation. To evaluate the
+biocompatibility of the CP and CE processes, the viability of the MSCs
+and SMCs on each scaffold was measured. The results showed high initialcell viability ( >90%) for MSC- and SMC-laden scaffolds ( Fig. 1 e), indi-
+cating that both CP and CE structures provided a biocompatible micro-
+environment for MSCs and SMCs.3.3. Cell compatibility of cell-printed and cell-electrospun scaffolds
+Fig. 2 a shows the cell viability after the CP and CE processes, in which
+live (green) and dead (red) cells were captured after 7, 14, and 21 days ofculturing. High cell viability over 90% was maintained for 21 days for the
+MSCs and SMCs, indicating that both the CP and CE processes provided
+the cells with a biocompatible microenvironment to support cellular
+activities ( Fig. 2 b). Next, the number of cells on day 21 was counted from
+Fig. 1. Microstructures of cell printing (CP) and cell
+electrospinning (CE) with mesenchymal stem cells
+(MSCs) and stem cell-derived smooth muscle cells
+(SMCs). (a) Schematic illustration of CP and CE pro-cess without the supplement of a polycaprolactone
+(PCL) strut. The fabrication procedures for CE and CP
+are shown in the upper panels, and the optical andﬂuorescent images (phalloidin/DAPI double staining)
+were captured on days 0 and 7. (b) A schematic
+illustration of the PCL printing, CP, and CE processes.The fabricated scaffolds (CP-MSC, CP-SMC, CE-MSC,and CE-SMC) are represented as (c) optical, (d) SEM,
+and (e) live/dead cell images on day 0.M. Yeo et al. Materials Today Bio 19 (2023) 100564
+5the images of the Live/Dead assay ( Fig. 2 c). CE-SMC showed the highest
+cell numbers compared to the other groups, suggesting that cell prolif-
+eration was promoted by the synergistic effects of TGF- β[42] and the
+submicron structure that are favorable for cell migration and nutrient
+exchange.
+3.4. Effects of CP and CE on SMC differentiation
+Fig. 3 a shows DAPI/phalloidin staining of MSCs and SMCs on the CP
+and CE scaffolds. The CP scaffolds (CP-MSC and CP-SMC) contained cells
+with multipolar morphology, while the CE scaffolds (CE-MSC and CE-
+SMC) had anisotropically aligned, spindle-shaped cells. These features
+were quantitatively analyzed using the F-actin aspect ratio and orienta-
+tion ( Fig. 3 b and c). The non-elongated and randomly oriented
+morphology of cells on the CP scaffolds had lower F-actin aspect ratios
+and orientation factor, while these factors were greatly increased in cells
+on the CE scaffolds. Furthermore, ECM components, such as ﬁbronectin,
+collagen I, and collagen IV, were shown to form cytoskeletal structures
+(Fig. 3 d). Fibronectin has been reported to enhance cell migration [ 43],
+and collagen has been shown to enhance mechanical strength and pre-
+vent physical failure of tissues [ 44]. CE-SMCs showed enhanced
+expression of all three ECM components ( ﬁbronectin, collagen I, and
+collagen IV) ( Fig. 3 e).
+α-SMA is an actin isoform developed to contribute to cell-generated
+mechanical tension and can be used as a marker of early stage SMC
+differentiation [ 45]. Despite having a well-developed cytoskeletal
+structure, CP-MSCs and CE-MSCs showed very low expression of α-SMA
+(Fig. 4 a). The expression levels and aspect ratio of α-SMA in CP-SMCs and
+CE-SMCs were upregulated 3-fold compared to those in MSCs ( Fig. 4 b).
+Additionally, the α-SMA orientation factor was signi ﬁcantly higher inCP-MSCs and CE-MSCs owing to the cell arrangement along the aligned
+topographical cues ( Fig. 4 c). Calponin, a smooth muscle-speci ﬁc protein
+expressed during the later stages of differentiation, was used to measure
+the degree of SMC differentiation. Signi ﬁcantly higher calponin expres-
+sion was observed in SMCs than that in MSCs ( Fig. 4 d), suggesting that
+cells treated with TGF- β(SMC-laden scaffolds) could successfully initiate
+SMC differentiation, while cells without TGF- βtreatment (MSC-laden
+scaffolds) may not fully differentiate into SMCs. Then, the levels of
+smooth muscle-speci ﬁc genes were evaluated by qPCR analysis ( Fig. 4 e).
+The expression levels of CX43 ,SM22 α, desmin, and SMTN were highest
+in CE-SMCs compared to those in the other groups, suggesting that
+CE-SMCs exhibited more mature SMC phenotypes.
+3.5. Development of a cell-laden patch using PCL ﬁbrous mat for
+transplantation
+Prior to in vivo application, a solid PCL strut was used as a mechanical
+support for the in vitro study; however, this solid structure would not be
+suitable for transplantation onto the curved surface of the esophagus.
+Therefore, the PCL strut was substituted with acellular, ﬂexible PCL ﬁ-
+bers fabricated via electrospinning ( Fig. S3a ). Here, PCL ﬁbers were
+deposited in aligned patterns, and random patterns were not considered
+for comparison. Indeed, CP scaffold is rational as a control group to be
+consistent with in vitro test. However, SMCs on CP scaffold will get more
+affected by micropattern of PCL ﬁbrous mat instead of bulky, non-
+patterned printed structure, so the experimental groups were opted to
+show effects of aligned micropattern and electrospun SMCs. Further-
+more, since PCL provides high biocompatibility, strong mechanical
+integrity, and slow degradation rate suitable for in vivo tests [ 46], it was
+selected to fabricate a ﬁbrous mat. Moreover, alginate nano ﬁbers (0.7 /C6
+0.3μm), speci ﬁcally less than 1 μm diameter, may not provide surface
+area suf ﬁcient for cell proliferation, but PCL micro ﬁbers (1.1 /C60.2μm)
+can support cell adhesion, viability, and proliferation [ 47,48]. In the
+meantime, PCL ﬁber density was found to not affect cell proliferation rate
+signiﬁcantly [ 46]. The PCL ﬁbers were then compared with PCL struts
+and alginate ﬁbers, which exhibited much stiffer mechanical properties,
+as shown in the stress –strain curves ( Fig. S3b ). In addition, Young's
+modulus values (1.7 /C60.2 and 2.0 /C60.1 MPa) and maximum strength
+(8.6/C62.5 and 9.2 /C61.7 MPa) were similar between PCL ﬁbers and PCL
+struts ( Fig. S3c ). Owing to its ﬂexible shape and appropriate mechanical
+properties, a PCL ﬁbrous mat was used to develop a cell-laden structure
+forin vivo testing.
+3.6. Regeneration of esophageal wound using electrospun SMC patch in
+vivo
+Esophageal replacement is often required by patients with esophageal
+diseases; therefore, engineered esophageal substitutes must be veri ﬁed
+for their feasibility and regenerative effects [ 49]. Among the different
+methods investigated in vitro , CE-SMC exhibited more mature SMC-like
+phenotypes; therefore, it was selected to study the therapeutic effects
+in an in vivo esophageal wound model. An acellular PCL patch was used as
+a control.
+The esophagus is composed of inner and outer muscle layers, ar-
+ranged in circular and longitudinal orientations, respectively. To fabri-
+cate a patch for esophageal transplantation, PCL was ﬁrst electrospun
+onto a drum collector to produce a PCL ﬁbrous mat ( Fig. 5 a). To mimic
+the structure of the esophagus, SMCs were electrospun in ﬁve layers in
+the horizontal and vertical directions and cultured for 4 weeks prior to
+transplantation. For transplantation, the fabricated patch was shaped
+with a 4 mm diameter biopsy punch ( Fig. 5 b(ⅰ)). To generate the rat
+esophageal wound model, the esophageal tissue was punctured with a 2
+mm biopsy punch ( Fig. 5 b(ⅱ)), and the muscles around the esophagus
+and the inner mucosal layer were completely removed ( Fig. 5 b(ⅲ), (ⅳ)).
+Subsequently, the punctured section of the esophagus was covered with
+the fabricated patch and sutured ( Fig. 5 b(ⅴ)). Two weeks after surgery,
+Fig. 2. Biocompatibility of cell printing (CP) and cell electrospinning (CE)
+represented by cell viability and the number of cells. (a) Live/Dead images of
+CP-mesenchymal stem cell (MSC), CP-stem cell-derived smooth muscle cell(SMC), CE-MSC, and CE-SMC on days 7, 14, and 21. Quanti ﬁcation of the Live/
+Dead images with respect to (b) cell viability and (c) cell numbers. Data indicate
+mean /C6SD (n ¼5).M. Yeo et al. Materials Today Bio 19 (2023) 100564
+6the tracheoesophageal tissue was dissected in the transverse direction
+(Fig. 5 b(ⅵ); left arrow, trachea; right arrow, esophagus).
+Histological analysis of the esophageal tissues was performed using
+H&E and Masson's trichrome staining. Thick ﬁbrotic tissues and
+increased in ﬁltration of immune cells were observed in tissues trans-
+planted with the control patch ( Fig. 5 c). In contrast, the esophagus
+transplanted with the CE-SMC patch exhibited a thick muscle layer and
+granulation tissue ( Fig. 5 d). To determine whether the transplanted
+patch promoted esophageal tissue regeneration, a detailed analysis was
+performed after immunostaining for vascular and smooth muscle
+markers ( Fig. 6 a, c). The number of ILB4þ-SM22 αþblood vessels was
+higher in rats treated with the CE-SMC patch than in those treated with
+the control patch ( Fig. 6 e). Furthermore, the CE-SMC patch group
+exhibited abundant newly formed blood vessels, indicating that vascu-
+larization was promoted by the CE-SMC patch. Consequently, CE-SMC
+patch transplantation signi ﬁcantly increased the levels of SM22 αand
+vimentin relative to those in the control group ( Fig. 6 b, d). These data
+indicate higher esophageal muscle regeneration in the SMC-patch group
+than that in the control patch group. To con ﬁrm complete regeneration of
+esophageal epithelial cells, the esophageal specimens were stained with
+antibody against cytokeratin 14, a marker of squamous epithelial cells in
+the esophagus. The cytokeratin 14-positive esophageal epithelial cells
+covered the esophageal wounds of both control and SMC-patch groups(Fig. S4 ), suggesting epithelial cell recruitment during wound healing.
+To assess the effects of the CE-SMC patch on macrophage in ﬁltration
+at the transplantation site, we performed CD68 immunostaining to
+identify macrophages ( Fig. 7 a). The number of macrophages in the
+transplanted tissue was signi ﬁcantly increased in rats with the control
+patch and decreased by 50% in the CE-SMC patch group ( Fig. 7 b). These
+results suggest that the CE-SMC patch attenuated the immune response
+during esophageal reconstruction.
+4. Discussion
+Cell alignment is critical for remodeling smooth muscle tissues,
+including the structure of the vasculature wall, intestinal tissue, and
+esophagus [ 50–52]; however, esophageal reconstruction by inducing
+SMC alignment has not been reported [ 53]. In this study, CE was pro-
+posed to guide cell alignment and elongation by generating aligned
+cell-laden micro/nano ﬁbers. After CE, the electrospun MSCs and SMCs
+exhibited high cell viability, alignment, and elongation along the elec-
+trospun ﬁbers. Moreover, CE induced uniaxially arranged F-actin and
+upregulated the expression levels of extracellular matrix proteins in
+MSCs and SMCs compared to 3D bioprinting. These results suggest that
+CE is a promising technique for manipulating cell elongation and align-
+ment to mimic the anisotropic architecture of native tissues [ 54,55]. For
+Fig. 3. Effects of cell printing (CP) and cell electrospinning (CE) on the arrangement of mesenchymal stem cells (MSCs) and stem cell-derived smooth muscle c ells
+(SMCs). (a) Phalloidin/DAPI staining on day 21 and quanti ﬁcation of the (b) F-actin aspect ratio and (c) F-actin orientation factor. (d) Fluorescence images of
+ﬁbronectin, collagen I, and collagen IV on day 21 and (e) quanti ﬁcation of area. Data indicate mean /C6SD (n ¼3).M. Yeo et al. Materials Today Bio 19 (2023) 100564
+7instance, when an “artiﬁcial wound ”was covered with acellular elec-
+trospun ﬁbers, SMCs successfully migrated to most of the wound area
+along the direction of the ﬁbers [ 50]. These results suggest that a uni-
+directional microenvironment is favorable for developing an engineered
+smooth muscle patch that encourages ef ﬁcient cell-cell interactions and
+an elongated morphology.
+In addition, increased cytoskeletal and nuclear aspect ratios have
+been reported as critical factors in facilitating MSC-to-SMC differentia-
+tion, although the underlying mechanism by which biophysical micro-
+environments affect SMC differentiation is not clearly understood [ 56].
+Cell elongation in parallel or perpendicular direction is important to
+SMCs in response to esophageal cycles for alleviating stress and prevent
+cellular damages [ 57]. This typical perpendicular direction of SMCs to
+strain was observed in esophageal tissues and named as hill-valley
+pattern in a number of studies [ 58–61]. Because of similarity to native
+esophageal structure and structural bene ﬁts, aligned nano ﬁbrous scaf-
+folds have usually shown superior cell alignment and proliferation than
+random nano ﬁbrous scaffolds [ 62]. In this study, aligned nano ﬁbrous
+layers were deposited in ﬁve layers in the horizontal and vertical di-
+rections, in which 10 cell layers (~300 μm) will give similar thickness to
+native esophageal thickness (~270 μm) [ 63]. However, SMCdifferentiation was derived from various factors and veri ﬁed from
+different aspects. Park et al. implanted randomly oriented PCL nano-
+ﬁbrous and 3D printed patches with and without seeding MSCs in rat
+esophagus [ 64]. Despite of preseeding MSCs, PCL nano ﬁbrous patches
+revealed signi ﬁcantly increased esophagus thickness compared to 3D
+printed patches owing to the presence of topographic guidance. Hou et al.
+casted poly (ester urethane) scaffold using the silicon wafer with pattern
+prototype 1 (PU1; 200 μm width and 30 μm wide with 30 μm depth wall)
+and 2 (PU2; 100 μm width and discontinuous wall in 30 μm gap for each
+100 μm channel with 30 μm depth) [ 65]. Then, for implantation into
+rabbit esophagus, the scaffold was designed with PU1 on the exterior and
+PU2 on the interior to mimic endocircular and exolongitunial architec-
+ture. Primary SMCs showed higher growth and differentiation rate
+compared to those on non-patterned scaffolds. Also, Kuppan et al. per-
+formed electrospinning for generating random and aligned ﬁbrous scaf-
+folds using PCL and PCL-gelatin blend. When SMCs were cultured on
+each scaffold, PCL-gelatin-aligned ﬁbrous scaffolds revealed the highest
+cell proliferation and functional gene expression level. Here, cell prolif-eration was dependent on alignment, but gene expression levels were
+affected more by mechanical properties and chemical composition of
+scaffolds [ 66]. These former studies well support the ﬁndings of this
+Fig. 4. Cell electrospinning (CE) promotes a higher degree of maturation of stem cell-derived smooth muscle cells (SMCs) than cell printing (CP). (a) α-SMA/DAPI
+staining on day 21 and quanti ﬁcation of the (b) alpha smooth muscle actin ( α-SMA) aspect ratio and (c) α-SMA orientation factor. (d) Calponin/DAPI staining on day
+21 and (e) analysis of relative smooth muscle-speci ﬁc gene expression. GAPDH was used to normalize gene expression. Data indicate mean /C6SD (n ¼3).M. Yeo et al. Materials Today Bio 19 (2023) 100564
+8Fig. 5. Fabrication process and transplantation of a stem cell-derived smooth muscle cell (SMC)-patch to repair esophageal wound in a rat model. (a) Schemat ic
+illustration of polycaprolactone (PCL)-electrospinning and SMC-laden electrospinning for developing a cell electrospinning (CE)-SMC patch. (b ) Representative images
+of the surgical procedure in which the CE-SMC patch was transplanted into the esophageal wound rat model. Images of (c) H &E staining and (d) Masson's trichrome
+staining of the defective esophagus at 2 weeks after transplantation of either an SMC or cell-free patch and normal esophagus. Representative data fr om two inde-
+pendent experiments are shown. (Normal, without surgery; Control-Patch, cell-free construct; SMC-Patch, SMC-laden construct).M. Yeo et al. Materials Today Bio 19 (2023) 100564
+9study that the combination of aligned topography and TGF- βtreatment
+signiﬁcantly enhanced cell proliferation and SMC-speci ﬁc gene
+expression.
+In another aspect of SMC differentiation, MSCs have shown a greatertendency to differentiate into SMCs on stiff substrates (90 –1500 kPa)
+[67]. Hence, MSCs cultured on stiff substrates demonstrated increased
+calponin expression levels compared to MSCs cultured on soft substrates
+[43]. Additionally, the synergistic effects of a stiff surface and aligned
+Fig. 6. Neovascularization and regeneration of esophageal smooth muscles after patch transplantation in an esophageal wound model. Representative image s of (a)
+vimentin, (c) ILB4 and SM22 αimmunostaining in an esophageal wound model at 2 weeks after transplantation of either a stem cell-derived smooth muscle cell (SMC)
+or cell-free patch and normal esophagus. Quanti ﬁcation of (b) vimentin and (d) SM22 αexpression as measured by the ﬂuorescence levels. (e) Quanti ﬁcation of the
+number of ILB4 and SM22 αdouble-positive cells. Data indicate mean /C6SD (n ¼6). (Normal, without surgery; Control-Patch, cell-free construct; SMC-Patch, SMC-
+laden construct).
+Fig. 7. Regulation of in ﬂammation in esophageal
+tissues after stem cell-derived smooth muscle cell
+(SMC)-patch transplantation in an esophageal woundmodel. (a) Representative images of CD68 immuno-
+staining in an esophageal wound model at 2 weeks
+after transplantation of either an SMC or cell-freepatch and normal esophagus. (b) Quanti ﬁcation of
+macrophage in ﬁltration in esophageal tissues by
+counting the number of DAPI and CD68 double-
+positive cells. Data indicate mean /C6SD (n ¼6).
+(Normal, without surgery; Control-Patch, cell-free
+construct; SMC-Patch, SMC-laden construct).M. Yeo et al. Materials Today Bio 19 (2023) 100564
+10topographical cues can alter mechanical deformations (nuclear and
+cytoskeletal elongation) in cellular biochemical responses [ 68], which, in
+turn, can affect cellular functions and transcriptional activities [ 69]. In
+this study, alginate ﬁbers exhibited a Young's modulus of 116 /C63 kPa
+and a maximum strength of 3.5 /C60.5 MPa. These results suggest that
+cells seeded on electrospun ﬁbers preferentially differentiate into SMCs,
+owing to the appropriate mechanical properties and anisotropic cues.
+Moreover, CE-SMC exhibited an increased number of cells compared
+with the other groups. Although the molecular mechanisms involved in
+the increased proliferation of CE-SMC remain unclear, it is likely that
+aligned topographic cues may promote the proliferation of CE-SMCs.
+TGF- βhas been widely used to induce differentiation of MSCs into
+SMCs [ 70]. TGF- β-treated MSCs exhibit SMC-like phenotypes but may
+also become myoblast, adipogenic, or osteogenic cells depending on
+environmental factors [ 70,71]. Both α-SMA and calponin are key markers
+of an SMC-like population because α-SMA is expressed early in SMC
+development, whereas calponin is expressed exclusively in smooth
+muscle cells at the later stages of MSC-to-SMC differentiation. We found
+thatα-SMA and calponin expression was dispersed in CP-SMC, but not all
+cells became SMCs. However, these proteins were highly expressed in
+CE-SMCs. In addition, the expression levels of contractile markers ( CX43 ,
+SM22 α, desmin, and SMTN ) were signi ﬁcantly increased in CE-SMCs in
+response to TGF- β, indicating that these cells were in the later stages of
+SMC differentiation [ 43,44].
+As the esophageal tissue structure enables peristalsis, the contractile
+phenotype is a critical factor in assessing the potential to restorecontraction and relaxation following esophageal injury. Our results
+indicate that a ﬁbrous structure can serve not only as a mechanical
+support but also provide biophysical and biochemical cues. Esophageal
+injury can be caused by various factors, such as in ﬂammation, ulcers,
+stenosis, cancer, or physical impact [ 72]. and in severe cases, an injury
+can cause esophageal wounds. Small defects, perforation, and rupture of
+the esophagus are treated with sutures; however, if the defect is large,
+tissue transplantation is required. However, a practical method for
+effectively treating and regenerating the esophagus through tissue
+transplantation has not yet been developed. Consequently, many re-
+searchers have studied esophageal reconstruction through trans-
+plantation of tissue scaffolds made from MSCs [ 73–75]. In this study, we
+transplanted the CE-SMC patch into an esophageal wound model to
+evaluate its clinical applicability. Although the SMC scaffold was not
+transplanted into the esophagus in the form of a tube, but as a patch on a
+small wound area created by punching, we suggest an SMC-laden
+construct fabricated using CE as a useful method for esophageal recon-
+struction. In addition, PCL has long-term stability against biodegradation
+by hydrolysis, and it takes more than 2 years to completely degrade [ 76],
+implying the usefulness of PCL in CE-mediated tissue engineering. In
+H&E staining and cytokeratin 14 immunostaining, the esophagus has an
+inner mucosal layer and an outer muscular layer that are mainly
+composed of epithelium, suggesting recruitment of esophageal epithelial
+cells into the wounds. Although epithelial cells were not used for elec-
+trospinning in this study, the tissue transplantation and regenerative
+potential of the CE-SMC scaffolds were demonstrated. In future studies,
+we will aim to fabricate CE scaffolds using SMCs and epithelial cells for
+transplantation into small and large esophageal wounds to con ﬁrm
+functional tissue repair, potentially expanding the therapeutic and clin-
+ical signi ﬁcance of SMCs.
+5. Conclusions
+This study presents a novel approach to cell alignment and MSC-to-
+SMC differentiation via CE. Prior to CE, MSCs were treated with TGF- β
+as a regulatory factor of SMC differentiation, which ef ﬁciently yielded
+MSC-derived SMCs, as indicated by the enhanced expression levels of
+SMC-speci ﬁc markers (calponin,
+αSMA, SM22 α, vimentin, desmin, and
+SMTN). Then, CE was performed using either MSCs or SMCs, and both
+cell types showed high cell viability ( >90%). CP using MSCs or SMCs wascompared as a control; speci ﬁcally, electrospun SMCs (CE-SMCs)
+exhibited signi ﬁcantly elongated and aligned cytoskeletal structures
+represented by F-actin, ﬁbronectin, collagen I, and collagen IV, which
+grew along the uniaxially deposited ﬁber direction. Additionally, the
+expression levels of SMC-speci ﬁc markers ( CX43 ,SM22 α, desmin, and
+SMTN ) were signi ﬁcantly increased in CE-SMCs. When the CE-SMC
+scaffold was applied as a patch on a defective rat esophagus, an
+improved regenerative process was observed in terms of increased newly
+formed blood vessels and SM22 αand vimentin expression levels. These
+results suggest the potential of CE as a therapeutic approach for the
+regeneration of smooth muscle tissues.
+Consent for publication
+All authors have read and agreed to publish this manuscript.
+Ethics approval and consent to participate
+All animal experiments were reviewed and approved by the Institu-
+tional Review Board of the Pusan National University Hospital (PNUH-
+2021-188). Human palatine tonsil tissues were isolated from the patients
+after obtaining written informed consent. The study was approved by the
+Institutional Review Board of Pusan National University Hospital (1801-
+033-062).
+Funding
+This study was supported by the MRC program (NRF-
+2022R1A5A2027161) and grants from the National Research Foundation
+of Korea (NRF) funded by the Ministry of Science and ICT for the Bio-
+inspired Innovation Technology Development Project (NRF-
+2018M3C1B7021997) and the Korean Fund for Regenerative Medi-
+cine(KFRM) grant funded by the Ministry of Science and ICT, the Min-
+istry of Health &Welfare (RS-2022-00070304), Republic of Korea.
+Credit author statement
+Miji Yeo: Conceptualization, Methodology, Investigation, Writing –
+original draft. Jung Won Yoon: Data curation, Formal analysis, Meth-
+odology, Writing –original draft. Gyu Tae Park: Data curation, Formal
+analysis, Methodology. Sung-Chan Shin: Formal analysis, Investigation,
+Methodology. Young-Cheol Song: Formal analysis, Investigation, Meth-
+odology. Yong-Il Cheon: Formal analysis, Investigation, Methodology.
+Byung-Joo Lee: Data curation, Formal analysis, Investigation. Geun
+Hyung Kim: Conceptualization, Funding acquisition, Methodology,
+Writing –review &editing, Supervision. Jae Ho Kim: Conceptualization,
+Funding acquisition, Methodology, Writing –review &editing,
+Supervision.
+Declaration of competing interest
+The authors declare that they have no known competing ﬁnancial
+interests or personal relationships that could have appeared to in ﬂuence
+the work reported in this paper.
+Data availability
+Data will be made available on request.
+Acknowledgements
+We would like to thank Yoon Ji Jung for technical assistance and Prof.
+Suck Won Hong (Pusan National University) for discussions that greatly
+improved the manuscript.M. Yeo et al. Materials Today Bio 19 (2023) 100564
+11Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://
+doi.org/10.1016/j.mtbio.2023.100564 .
+Abbreviations
+α-SMA Alpha-smooth muscle actin
+CE Cell electrospinning
+CP Cell printing
+DAPI 40,6-Diamidino-2-phenylindole
+ECM Extracellular matrix
+MSCs Mesenchymal stem cells
+SMCs Smooth muscle cells
+TGF- β1 Transforming growth factor- β1
+References
+[1] F. Schlottmann, M.G. Patti, Primary esophageal motility disorders: beyond
+achalasia, Int. J. Mol. Sci. 18 (7) (2017) 1399, https://doi.org/10.3390/
+ijms18071399 .
+[2] R. Londono, S.F. Badylak, Regenerative medicine strategies for esophageal repair,
+Tissue Eng. B Rev. 21 (4) (2015) 393 –410, https://doi.org/10.1089/
+ten.teb.2015.0014 .
+[3] L. Arakelian, N. Kanai, K. Dua, M. Durand, P. Cattan, T. Ohki, Esophageal tissue
+engineering: from bench to bedside, Ann. N. Y. Acad. Sci. 1434 (1) (2018) 156 –163,
+https://doi.org/10.1111/nyas.13951 .
+[4] M.F. Pittenger, D.E. Discher, B.M. P /C19eault, D.G. Phinney, J.M. Hare, A.I. Caplan,
+Mesenchymal stem cell perspective: cell biology to clinical progress, NPJ Regen.Med. 4 (1) (2019) 1 –15,https://doi.org/10.1038/s41536-019-0083-6 .
+[5] M.F. Pittenger, A.M. Mackay, S.C. Beck, R.K. Jaiswal, R. Douglas, J.D. Mosca,
+M.A. Moorman, D.W. Simonetti, S. Craig, D.R. Marshak, Multilineage potential of
+adult human mesenchymal stem cells, Science 284 (5411) (1999) 143 –147, https://
+doi.org/10.1126/science.284.5411.143 .
+[6] B. Ohlstein, T. Kai, E. Decotto, A. Spradling, The stem cell niche: theme and
+variations, Curr. Opin. Cell Biol. 16 (6) (2004) 693 –699, https://doi.org/10.1016/
+j.ceb.2004.09.003 .
+[7] K. Kurpinski, H. Lam, J. Chu, A. Wang, A. Kim, E. Tsay, S. Agrawal, D.V. Schaffer,
+S. Li, Transforming growth factor-beta and notch signaling mediate stem cell
+differentiation into smooth muscle cells, Stem Cell. 28 (4) (2010) 734 –742, https://
+doi.org/10.1002/stem.319 .
+[8] S. Chen, R.J. Lechleider, Transforming growth factor-beta-induced differentiation of
+smooth muscle from a neural crest stem cell line, Circ. Res. 94 (9) (2004)
+1195 –1202, https://doi.org/10.1161/01.RES.0000126897.41658.81 .
+[9] W.S. Park, S.C. Heo, E.S. Jeon, D.H. Hong, Y.K. Son, J.H. Ko, H.K. Kim, S.Y. Lee,
+J.H. Kim, J. Han, Functional expression of smooth muscle-speci ﬁc ion channels in
+TGF-beta(1)-treated human adipose-derived mesenchymal stem cells, Am. J.
+Physiol. Cell Physiol. 305 (4) (2013) C377 –C391, https://doi.org/10.1152/
+ajpcell.00404.2012 .
+[10] C.Y. Tay, Y.L. Wu, P. Cai, N.S. Tan, S.S. Venkatraman, X. Chen, L.P. Tan, Bio-
+inspired micropatterned hydrogel to direct and deconstruct hierarchical processing
+of geometry-force signals by human mesenchymal stem cells during smooth muscle
+cell differentiation, NPG Asia Mater. 7 (7) (2015), https://doi.org/10.1038/
+am.2015.66 e199-e199.
+[11] A. Tijore, J.M. Behr, S.A. Irvine, V. Baisane, S. Venkatraman, Bioprinted gelatin
+hydrogel platform promotes smooth muscle cell contractile phenotype
+maintenance, Biomed. Microdevices 20 (2) (2018) 1 –10,https://doi.org/10.1007/
+s10544-018-0274-8 .
+[12] Q. Zhou, J. Xie, M. Bao, H. Yuan, Z. Ye, X. Lou, Y. Zhang, Engineering aligned
+electrospun PLLA micro ﬁbers with nano-porous surface nanotopography for
+modulating the responses of vascular smooth muscle cells, J. Mater. Chem. B (2015)
+4439 –4450. https://10.1039/C5TB00051C .
+[13] A. Jiao, N.E. Trosper, H.S. Yang, J. Kim, J.H. Tsui, S.D. Frankel, C.E. Murry,
+D.H. Kim, Thermoresponsive nanofabricated substratum for the engineering of
+three-dimensional tissues with layer-by-layer architectural control, ACS Nano 8 (5)(2014) 4430 –4439, https://doi.org/10.1021/nn4063962 .
+[14] S.J. Kim, H.R. Cho, K.W. Cho, S. Qiao, J.S. Rhim, M. Soh, T. Kim, M.K. Choi,
+C. Choi, I. Park, N.S. Hwang, Multifunctional cell-culture platform for aligned cell
+sheet monitoring, transfer printing, and therapy, ACS Nano 9 (3) (2015)2677 –2688, https://doi.org/10.1021/nn5064634 .
+[15] E. Ngandu Mpoyi, M. Cantini, P.M. Reynolds, N. Gadegaard, M.J. Dalby,
+M. Salmer /C19on-S /C19anchez, Protein adsorption as a key mediator in the
+nanotopographical control of cell behavior, ACS Nano 10 (7) (2016) 6638 –6647,
+https://doi.org/10.1021/acsnano.6b01649 .
+[16] A. Agrawal, B.H. Lee, S.A. Irvine, J. An, R. Bhuthalingam, V. Singh, K.Y. Low,
+C.K. Chua, S.S. Venkatraman, Smooth muscle cell alignment and phenotype control
+by melt spun polycaprolactone ﬁbers for seeding of tissue engineered blood vessels,
+Int. J. Biomater. 2015 (2015), https://doi.org/10.1155/2015/434876 .
+[17] J. Huang, Y. Chen, C. Tang, Y. Fei, H. Wu, D. Ruan, M.E. Paul, X. Chen, Z. Yin,
+B.C. Heng, W. Chen, The relationship between substrate topography and stem celldifferentiation in the musculoskeletal system, Cell. Mol. Life Sci. 76 (3) (2019)
+505–521, https://doi.org/10.1007/s00018-018-2945-2 .
+[18] B.K.K. Teo, S.T. Wong, C.K. Lim, T.Y. Kung, C.H. Yap, Y. Ramagopal, L.H. Romer,
+E.K. Yim, Nanotopography modulates mechanotransduction of stem cells and
+induces differentiation through focal adhesion kinase, ACS Nano 7 (6) (2013)
+4785 –4798, https://doi.org/10.1021/nn304966z .
+[19] S. Jana, S.K. Levengood, M. Zhang, Anisotropic materials for skeletal-muscle-tissue
+engineering, Adv. Mater. 28 (48) (2016) 10588 –10612, https://doi.org/10.1002/
+adma.201600240 .
+[20] S.H. Cha, H.J. Lee, W.G. Koh, Study of myoblast differentiation using multi-
+dimensional scaffolds consisting of nano and micropatterns, Biomater. Res. 21 (1)(2017) 1 –9,https://doi.org/10.1186/s40824-016-0087-x .
+[21] E.K. Yim, R.M. Reano, S.W. Pang, A.F. Yee, C.S. Chen, K.W. Leong, Nanopattern-
+induced changes in morphology and motility of smooth muscle cells, Biomaterials
+26 (26) (2005) 5405 –5413, https://doi.org/10.1016/j.biomaterials.2005.01.058 .
+[22] A. Parandakh, A. Anbarlou, M. Tafazzoli-Shadpour, A. Ardeshirylajimi, M.M. Khani,
+Substrate topography interacts with substrate stiffness and culture time to regulate
+mechanical properties and smooth muscle differentiation of mesenchymal stemcells, Colloids Surf. B Biointerfaces 173 (2019) 194 –201, https://doi.org/10.1016/
+j.colsurfb.2018.09.066 .
+[23] S. Abolhasani, M. Rajabibazl, M.M. Khani, A. Parandakh, R. Hoseinpoor, The
+cooperative effects of micro-grooved topography and TGF-beta1 on the vascular
+smooth muscle cell contractile protein expression of the mesenchymal stem cells,Differentiation 115 (2020) 22 –29,https://doi.org/10.1016/j.diff.2020.06.003 .
+[24] X. Zhou, M. Nowicki, H. Sun, S.Y. Hann, H. Cui, T. Esworthy, J.D. Lee, M. Plesniak,
+L.G. Zhang, 3D Bioprinting-tunable small-diameter blood vessels with biomimetic
+biphasic cell layers, ACS Appl. Mater. Interfaces 12 (41) (2020) 45904 –45915,
+https://doi.org/10.1021/acsami.0c14871 .
+[25] H. Cui, W. Zhu, Y. Huang, C. Liu, Z.X. Yu, M. Nowicki, S. Miao, Y. Cheng, X. Zhou,
+S.J. Lee, Y. Zhou, In vitro and in vivo evaluation of 3D bioprinted small-diametervasculature with smooth muscle and endothelium, Biofabrication 12 (1) (2019),
+015004, https://doi.org/10.1088/1758-5090/ab402c .
+[26] J. Xue, T. Wu, Y. Dai, Y. Xia, Electrospinning and electrospun nano ﬁbers: methods,
+materials, and applications, Chem. Rev. 119 (8) (2019) 5298 –5415, https://
+doi.org/10.1021/acs.chemrev.8b00593 .
+[27] C. Norioka, Y. Inamoto, C. Hajime, A. Kawamura, T. Miyata, A universal method to
+easily design tough and stretchable hydrogels, NPG Asia Mater. 13 (1) (2021) 1 –10,
+https://doi.org/10.1038/s41427-021-00302-2
+.
+[28] S.L. Sampson, L. Saraiva, K. Gustafsson, S.N. Jayasinghe, B.D. Robertson, Cell
+electrospinning: an in vitro and in vivo study, Small 10 (1) (2014) 78 –82,https://
+doi.org/10.1002/smll.201300804 .
+[29] E. Ehler, S.N. Jayasinghe, Cell electrospinning cardiac patches for tissue
+engineering the heart, Analyst 139 (18) (2014) 4449 –4452. https://10.1039/C
+4AN00766B .
+[30] M. Yeo, G. Kim, Fabrication of cell-laden electrospun hybrid scaffolds of alginate-
+based bioink and PCL microstructures for tissue regeneration, Chem. Eng. J. 275
+(2015) 27 –35,https://doi.org/10.1016/j.cej.2015.04.038 .
+[31] H. Chen, Y. Liu, Q. Hu, A novel bioactive membrane by cell electrospinning, Exp.
+Cell Res. 338 (2) (2015) 261 –266, https://doi.org/10.1016/j.yexcr.2015.08.007 .
+[32] M. Yeo, G.H. Kim, Anisotropically aligned cell-laden nano ﬁbrous bundle fabricated
+via cell electrospinning to regenerate skeletal muscle tissue, Small 14 (48) (2018),
+1803491, https://doi.org/10.1002/smll.201803491 .
+[33] M. Yeo, G. Kim, Micro/nano-hierarchical scaffold fabricated using a cell
+electrospinning/3D printing process for co-culturing myoblasts and HUVECs toinduce myoblast alignment and differentiation, Acta Biomater. 107 (2020)
+102–114, https://doi.org/10.1016/j.actbio.2020.02.042 .
+[34] M. Zhuravleva, Z. Gilazieva, T.E. Grigoriev, A.D. Shepelev, T. Kh Tenchurin,
+R. Kamyshinsky, S.V. Krasheninnikov, S. Orlov, G. Caralogli, S. Archipova,
+M.J. Holterman, In vitro assessment of electrospun polyamide-6 scaffolds foresophageal tissue engineering, J. Biomed. Mater. Res. Part B Appl. Biomater. 107
+(2) (2019) 253 –268, https://doi.org/10.1002/jbm.b.34116 .
+[35] B. Wu, N. Takeshita, Y. Wu, S. Vijayavenkataraman, K.Y. Ho, W.F. Lu, J.Y.H. Fuh,
+Pluronic F127 blended polycaprolactone scaffolds via e-jetting for esophageal tissue
+engineering, J. Mater. Sci. Mater. Med. 29 (9) (2018) 1 –12,https://doi.org/
+10.1007/s10856-018-6148-z .
+[36] S.C. Shin, Y. Seo, H.Y. Park, D.W. Jung, T.H. Shin, H. Son, Y.K. Kim, J.C. Lee,
+E.S. Sung, J.Y. Jang, H.S. Kim, Regenerative potential of tonsil mesenchymal stem
+cells on surgical cutaneous defect, Cell Death Dis. 9 (2) (2018) 1 –12,https://
+doi.org/10.1038/s41419-017-0248-4 .
+[37] G.C. Park, J.S. Song, H.Y. Park, S.C. Shin, J.Y. Jang, J.C. Lee, S.G. Wang, B.J. Lee,
+J.S. Jung, Role of ﬁbroblast growth factor-5 on the proliferation of human tonsil-
+derived mesenchymal stem cells, Stem Cell. Dev. 25 (15) (2016) 1149 –1160,
+https://doi.org/10.1089/scd.2016.0061 .
+[38] J. Brun, K.A. Lutz, K.M. Neumayer, G. Klein, T. Seeger, T. Uynuk-Ool, K. W €org€otter,
+S. Schmid, U. Kraushaar, E. Guenther, B. Rolauffs, Smooth muscle-like cells
+generated from human mesenchymal stromal cells display marker gene expressionand electrophysiological competence comparable to bladder smooth muscle cells,
+PLoS One 10 (12) (2015), e0145153, https://doi.org/10.1371/
+journal.pone.0145153 .
+[39] S. Chang, S. Song, J. Lee, J. Yoon, J. Park, S. Choi, J.K. Park, K. Choi, C. Choi,
+Phenotypic modulation of primary vascular smooth muscle cells by short-term
+culture on micropatterned substrate, PLoS One 9 (2) (2014), e88089, https://
+doi.org/10.1371/journal.pone.0088089 .
+[40] G. Kim, K.E. Park, Alginate-nano ﬁbers fabricated by an electrohydrodynamic
+process, Polym. Eng. Sci. 49 (11) (2009) 2242 –2248, https://doi.org/10.1002/
+pen.21472 .M. Yeo et al. Materials Today Bio 19 (2023) 100564
+12[41] C.A. Bonino, M.D. Krebs, C.D. Saquing, S.I. Jeong, K.L. Shearer, E. Alsberg,
+S.A. Khan, Electrospinning alginate-based nano ﬁbers: from blends to crosslinked
+low molecular weight alginate-only systems, Carbohydr. Polym. 85 (1) (2011)
+111–119, https://doi.org/10.1016/j.carbpol.2011.02.002 .
+[42] S. Huang, P. Chen, X. Shui, Y. He, H. Wang, J. Zheng, L. Zhang, J. Li, Y. Xue,
+C. Chen, W. Lei, Baicalin attenuates transforming growth factor- β1-induced human
+pulmonary artery smooth muscle cell proliferation and phenotypic switch by
+inhibiting hypoxia inducible factor-1 αand aryl hydrocarbon receptor expression,
+J. Pharm. Pharmacol. 66 (10) (2014) 1469 –1477, https://doi.org/10.1111/
+jphp.12273 .
+[43] A.P. Rickel, H.J. Sanyour, N.A. Leyda, Z. Hong, Extracellular matrix proteins and
+substrate stiffness synergistically regulate vascular smooth muscle cell migration
+and cortical cytoskeleton organization, ACS Appl. Bio Mater. 3 (4) (2020)
+2360 –2369, https://doi.org/10.1021/acsabm.0c00100 .
+[44] J.S. Weinbaum, J. Qi, R.T. Tranquillo, Monitoring collagen transcription by vascular
+smooth muscle cells in ﬁbrin-based tissue constructs, Tissue Eng. C Methods 16 (3)
+(2010) 459 –467, https://doi.org/10.1089/ten.tec.2009.0112 .
+[45] J. Wang, R. Zohar, C.A. McCulloch, Multiple roles of α-smooth muscle actin in
+mechanotransduction, Exp. Cell Res. 312 (3) (2006) 205 –214, https://doi.org/
+10.1016/j.yexcr.2005.11.004 .
+[46] S. Soliman, S. Sant, J.W. Nichol, M. Khabiry, E. Traversa, A. Khademhosseini,
+Controlling the porosity of ﬁbrous scaffolds by modulating the ﬁber diameter and
+packing density, J. Biomed. Mater. Res., Part A 96 (3) (2011) 566 –574, https://
+doi.org/10.1002/jbm.a.33010 .
+[47] L. Moroni, R. Licht, J. de Boer, J.R. de Wijn, C.A. van Blitterswijk, Fiber diameter
+and texture of electrospun PEOT/PBT scaffolds in ﬂuence human mesenchymal stem
+cell proliferation and morphology, and the release of incorporated compounds,
+Biomaterials 27 (28) (2006) 4911 –4922, https://doi.org/10.1016/
+j.biomaterials.2006.05.027 .
+[48] C.A. Bashur, L.A. Dahlgren, A.S. Goldstein, Effect of ﬁber diameter and orientation
+onﬁbroblast morphology and proliferation on electrospun poly (D, L-lactic-co-
+glycolic acid) meshes, Biomaterials 27 (33) (2006) 5681 –5688, https://doi.org/
+10.1016/j.biomaterials.2006.07.005 .
+[49] P. Maghsoudlou, S. Eaton, P. De Coppi, Tissue engineering of the esophagus, in:
+Seminars in Pediatric Surgery, Elsevier, Philadelphia, 2014, pp. 127 –134.
+[50] B. Yi, Y. Shen, H. Tang, X. Wang, B. Li, Y. Zhang, Stiffness of aligned ﬁbers regulates
+the phenotypic expression of vascular smooth muscle cells, ACS Appl. Mater.
+Interfaces (7) (2019) 6867 –6880, https://doi.org/10.1021/acsami.9b00293 .
+[51] Y. Chen, C. Guo, E. Manousiouthakis, X. Wang, D.M. Cairns, T.T. Roh, C. Du,
+D.L. Kaplan, Bi-layered tubular micro ﬁber scaffolds as functional templates for
+engineering human intestinal smooth muscle tissue, Adv. Funct. Mater. 30 (17)
+(2020), 2000543, https://doi.org/10.1002/adfm.202000543 .
+[52] E.J. Chung, H.W. Ju, Y.K. Yeon, J.S. Lee, Y.J. Lee, Y.B. Seo, P. Chan Hum,
+Development of an omentum-cultured oesophageal scaffold reinforced by a 3D-
+printed ring: feasibility of an in vivo bioreactor, Artif. Cell Nanomed. Biotechnol. 46
+(sup1) (2018) 885 –895, https://doi.org/10.1080/21691401.2018.1439039 .
+[53] S.Y. Park, J.W. Choi, J.K. Park, E.H. Song, S.A. Park, Y.S. Kim, Y.S. Shin, C.H. Kim,
+Tissue-engineered arti ﬁcial oesophagus patch using three-dimensionally printed
+polycaprolactone with mesenchymal stem cells: a preliminary report, Interact.
+Cardiovasc. Thorac. Surg. 22 (6) (2016) 712 –717, https://doi.org/10.1093/icvts/
+ivw048 .
+[54] R.G. Thakar, Q. Cheng, S. Patel, J. Chu, M. Nasir, D. Liepmann, K. Komvopoulos,
+S. Li, Cell-shape regulation of smooth muscle cell proliferation, Biophys. J. 96 (8)
+(2009) 3423 –3432, https://doi.org/10.1016/j.bpj.2008.11.074 .
+[55] E.K. Yim, R.M. Reano, S.W. Pang, A.F. Yee, C.S. Chen, K.W. Leong, Nanopattern-
+induced changes in morphology and motility of smooth muscle cells, Biomaterials
+26 (26) (2005) 5405 –5413, https://doi.org/10.1016/j.biomaterials.2005.01.058 .
+[56] Y.T. Yeh, J. Wei, S. Thorossian, K. Nguyen, C. Hoffman, J.C. Del /C19Alamo, R. Serrano,
+Y.S.J. Li, K.C. Wang, S. Chien, MiR-145 mediates cell morphology-regulated
+mesenchymal stem cell differentiation to smooth muscle cells, Biomaterials 204
+(2019) 59 –69,https://doi.org/10.1016/j.biomaterials.2019.03.003 .
+[57] A.C. Ritchie, S. Wijaya, W.F. Ong, S.P. Zhong, K.S. Chian, Dependence of alignment
+direction on magnitude of strain in esophageal smooth muscle cells, Biotechnol,
+Bioeng 102 (6) (2009) 1703 –1711, https://doi.org/10.1002/bit.22190 .
+[58] J.M. Cha, S.N. Park, S.H. Noh, H. Suh, Time-dependent modulation of alignment
+and differentiation of smooth muscle cells seeded on a porous substrate undergoingcyclic mechanical strain, Artif. Organs 30 (4) (2006) 250 –258, https://doi.org/
+10.1111/j.1525-1594.2006.00212.x .
+[59] J.H. Haga, Y.-S.J. Li, S. Chien, Molecular basis of the effects of mechanical stretch
+on vascular smooth muscle cells, J. Biomech. 40 (5) (2007) 947 –960, https://
+doi.org/10.1016/j.jbiomech.2006.04.011 .
+[60] K. Hayakawa, N. Sato, T. Obinata, Dynamic reorientation of cultured cells and stress
+ﬁbers under mechanical stress from periodic stretching, Exp. Cell Res. 268 (1)
+(2001) 104 –114.
+[61] K. Kanda, T. Matsuda, T. Oka, Mechanical stress induced cellular orientation and
+phenotypic modulation of 3-D cultured smooth muscle cells, Am. Soc. Artif. Intern.
+Organs J. 39 (3) (1993) M686 –M690 .
+[62] A. Subramanian, U.M. Krishnan, S. Sethuraman, Fabrication, characterization and
+in vitro evaluation of aligned PLGA –PCL nano ﬁbers for neural regeneration, Ann.
+Biomed. Eng. 40 (10) (2012) 2098 –2110, https://doi.org/10.1007/s10439-012-
+0592-6 .
+[63] B.E. Bouma, G.J. Tearney, C.C. Compton, N.S. Nishioka, High-resolution imaging of
+the human esophagus and stomach in vivo using optical coherence tomography,
+Gastrointest. Endosc. 51 (4) (2000) 467 –474, https://doi.org/10.1016/S0016-
+5107(00)70449-4 .
+[64] H. Park, I.G. Kim, Y. Wu, H. Cho, J.W. Shin, S.A. Park, E.J. Chung, Experimental
+investigation of esophageal reconstruction with electrospun polyurethane nano ﬁber
+and 3D printing polycaprolactone scaffolds using a rat model, Head Neck 43 (3)
+(2021) 833 –848, https://doi.org/10.1002/hed.26540 .
+[65] L. Hou, C. Gong, Y. Zhu, In vitro construction and in vivo regeneration of
+esophageal bilamellar muscle tissue, J. Biomater. Appl. 30 (9) (2016) 1373 –1384,
+https://doi.org/10.1177/0885328215627585 .
+[66] P. Kuppan, S. Sethuraman, U.M. Krishnan, Interaction of human smooth muscle
+cells with nano ﬁbrous scaffolds: effect of ﬁber orientation on cell adhesion,
+proliferation, and functional gene expression, J. Biomed. Mater. Res., Part A 103 (7)
+(2015) 2236 –2250, https://doi.org/10.1002/jbm.a.35360 .
+[67] J.S. Park, J.S. Chu, A.D. Tsou, R. Diop, Z. Tang, A. Wang, S. Li, The effect of matrix
+stiffness on the differentiation of mesenchymal stem cells in response to TGF- β,
+Biomaterials 32 (16) (2011) 3921 –3930, https://doi.org/10.1016/
+j.biomaterials.2011.02.019 .
+[68] D.E. Ingber, Tensegrity: the architectural basis of cellular mechanotransduction,
+Annu. Rev. Physiol. 59 (1) (1997) 575 –599. https://10.1146/annurev.physiol.59.1.
+575.
+[69] N. Wang, J.D. Tytell, D.E. Ingber, Mechanotransduction at a distance: mechanically
+coupling the extracellular matrix with the nucleus, Nat. Rev. Mol. Cell Biol. 10 (1)
+(2009) 75 –82,https://doi.org/10.1038/nrm2594 .
+[70] Y. Liu, B. Deng, Y. Zhao, S. Xie, R. Nie, Differentiated markers in undifferentiated
+cells: expression of smooth muscle contractile proteins in multipotent bone marrowmesenchymal stem cells, Dev. Growth Differ. 55 (5) (2013) 591 –605, https://
+doi.org/10.1111/dgd.12052 .
+[71] N.P. Talele, J. Fradette, J.E. Davies, A. Kapus, B. Hinz, Expression of
+α-smooth
+muscle actin determines the fate of mesenchymal stromal cells, Stem Cell Rep. 4 (6)
+(2015) 1016 –1030 .
+[72] J.B. Zwischenberger, C. Savage, A. Bidani, Surgical aspects of esophageal disease:
+perforation and caustic injury, Am. J. Respir. Crit. Care Med. 165 (8) (2002)
+1037 –1040, https://doi.org/10.1016/j.stemcr.2015.05.004 .
+[73] J. Catry, M. Luong-Nguyen, L. Arakelian, T. Poghosyan, P. Bruneval, T. Domet,
+L. Michaud, R. Sfeir, F. Gottrand, J. Larghero, V. Vanneaux, Circumferential
+esophageal replacement by a tissue-engineered substitute using mesenchymal stem
+cells: an experimental study in mini pigs, Cell Transplant. 26 (12) (2017)1831 –1839, https://doi.org/10.1177/0963689717741498 .
+[74] H. Park, I.G. Kim, Y. Wu, H. Cho, J.W. Shin, S.A. Park, E.J. Chung, Experimental
+investigation of esophageal reconstruction with electrospun polyurethane nano ﬁber
+and 3D printing polycaprolactone scaffolds using a rat model, Head Neck 43 (3)
+(2021) 833 –848, https://doi.org/10.1002/hed.26540 .
+[75] I.G. Kim, Y. Wu, S.A. Park, H. Cho, J.J. Choi, S.K. Kwon, J.W. Shin, E.J. Chung,
+Tissue-engineered esophagus via bioreactor cultivation for circumferential
+esophageal reconstruction, Tissue Eng. 25 (21 –22) (2019) 1478 –1492, https://
+doi.org/10.1089/ten.tea.2018.0277 .
+[76] S. Sanchez-Gonzalez, N. Diban, A. Urtiaga, Hydrolytic degradation and mechanical
+stability of poly(epsilon-caprolactone)/reduced graphene oxide membranes as
+scaffolds for in vitro neural tissue regeneration, Membranes 8 (1) (2018) 12,
+https://doi.org/10.3390/membranes8010012 .M. Yeo et al. Materials Today Bio 19 (2023) 100564
+13

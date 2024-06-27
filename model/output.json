@@ -1,0 +1,537 @@
+[
+    [
+        "a cell-laden hydrogel was prepared by  gently mixing cells in a concentration of 500,000 cells/ml into the 37 •c  warm hydrogel.",
+        {
+            "entities": [
+                [
+                    81,
+                    97,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "immortalized mesenchymal stem cells (imscs) were encapsulated in a  hydrogel of 2% alginate and 8% gelatin in a concentration of 500,000  cells/ml.",
+        {
+            "entities": [
+                [
+                    0,
+                    35,
+                    "TYPECELLS"
+                ],
+                [
+                    37,
+                    42,
+                    "TYPECELLS"
+                ],
+                [
+                    80,
+                    82,
+                    "QUANTITY1"
+                ],
+                [
+                    83,
+                    91,
+                    "COMPONENT 1"
+                ],
+                [
+                    96,
+                    98,
+                    "QUANTITY2"
+                ],
+                [
+                    99,
+                    106,
+                    "COMPONENT 2"
+                ],
+                [
+                    129,
+                    147,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "the hydrogel contained 500,000 cells/ml and the samples  were incubated in vitro for up to 28 days.",
+        {
+            "entities": [
+                [
+                    23,
+                    39,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "hhss were subject to a static condition without mechanical stimu- lation within 4 s in cell suspension (1 × 106cells/ml), or a cycle of compression- recovery within 4 s at 80% strain in hbmscs cell suspension (1 × 106cells/ml) under a dynamic condition.",
+        {
+            "entities": [
+                [
+                    104,
+                    119,
+                    "CELLPERMILLION"
+                ],
+                [
+                    186,
+                    197,
+                    "TYPECELLS"
+                ],
+                [
+                    210,
+                    225,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "cschematic diagram ( i),ﬂuorescence images ( ii) and quantitative analysis (iii) of cell loading into hhss in hbmscs cell suspension (1 × 10 6cells/ml), which were controlled by various compression strains (20%, 40%, 60% and 80%), n=5 , *p= 0.0446 (20% and 40%), *** p=0 .",
+        {
+            "entities": [
+                [
+                    110,
+                    121,
+                    "TYPECELLS"
+                ],
+                [
+                    134,
+                    150,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "dschematic diagram ( i),ﬂuorescence images ( ii) and quantitative analysis ( iii) of cell loading into hhss in hbmscs cell suspension(5 × 106cells/ml), which were controlled by number of cycles (1, 3, 5, and 10), n=8 , ***p< 0.001.",
+        {
+            "entities": [
+                [
+                    111,
+                    122,
+                    "TYPECELLS"
+                ],
+                [
+                    123,
+                    149,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "firstly, two approaches were used: the ﬁrst one was direct immersion of hhss in hbmscs cell suspension (1 × 106cells/ml) for 4 s under a static condition; while the second one utilized acompression-recovery cycle in hbmscs cell suspension under 80% strain within 4 s ( v 1-mechanical response).",
+        {
+            "entities": [
+                [
+                    104,
+                    119,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "the number of cells loaded into hhss were quanti ﬁed by imagej. subsequently, the in ﬂuence of compression displacement (20%, 40%, 60%, and 80%) in hbmscs cell suspension (1 × 10 6cells/ml) and cycle times (1, 3, 5, and 10) under 40% compression displacementin hbmscs cell suspension (5 × 10 5cells/ml) on cell loading of hhss were also evaluated respectively.",
+        {
+            "entities": [
+                [
+                    148,
+                    159,
+                    "TYPECELLS"
+                ],
+                [
+                    172,
+                    188,
+                    "CELLPERMILLION"
+                ],
+                [
+                    261,
+                    267,
+                    "TYPECELLS"
+                ],
+                [
+                    285,
+                    301,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "after the scaffolds were incubated in the cell incubator for 30 min, the cell suspension (1 ml, 1 \u0002106cells/ml) was added on each scaffold and incubated at 37\u000ec in 5% co 2.",
+        {
+            "entities": [
+                [
+                    96,
+                    110,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "the cell density in bio-inks was 1 \u0002107cells/ml. in order to improve the biological activity of the scaffold, bmp-2 and pdgf were added into the bio-inks with a ﬁnal concentration of 5 ug/ml and 100 ng/ml, respectively.",
+        {
+            "entities": [
+                [
+                    33,
+                    47,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "preparation of cell-laden bioink to prepare the cell-laden bioink, 20 mg/ml alginate and 30 mg/ml peo (a2p3) were dissolved in triple-distilled water and magnetically stirred for 2 days at 4/c14c. then, 1 /c2107cells/ml mscs or smcs were added to the a2p3 solution.",
+        {
+            "entities": [
+                [
+                    67,
+                    75,
+                    "QUANTITY1"
+                ],
+                [
+                    76,
+                    84,
+                    "COMPONENT 1"
+                ],
+                [
+                    89,
+                    97,
+                    "QUANTITY2"
+                ],
+                [
+                    203,
+                    219,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "the bioink was prepared by mixing a 2% alginate and 3% peo (a2p3) solution with mscs and smcs at 1 /c2107cells/ml. alginate is a biocompatible, non-toxic, and versatile polymer that enables rapid gelation of the microstructure through the addition of cations [ 40].",
+        {
+            "entities": [
+                [
+                    36,
+                    38,
+                    "QUANTITY1"
+                ],
+                [
+                    39,
+                    47,
+                    "COMPONENT 1"
+                ],
+                [
+                    55,
+                    65,
+                    "COMPONENT 2"
+                ],
+                [
+                    97,
+                    113,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "/gid00030/gid00035/gid00032/gid00030/gid00038/gid00001/gid00033/gid00042/gid00045 /gid00001 /gid00048/gid00043/gid00031/gid00028/gid00047/gid00032/gid00046citation: piola, b.; sabbatini, m.; gino, s.; invernizzi, m.; renò, f. 3d bioprinting of gelatin–xanthan gum composite hydrogels for growth of human skin cells.",
+        {
+            "entities": [
+                [
+                    191,
+                    195,
+                    "COMPONENT 2"
+                ],
+                [
+                    252,
+                    263,
+                    "COMPONENT 2"
+                ],
+                [
+                    298,
+                    315,
+                    "TYPECELLS"
+                ]
+            ]
+        }
+    ],
+    [
+        "the 2.5gel3 and 3gel4 printable hydrogels were gently mixed with 0.5 \u0002106ﬁbroblasts/ml and 5 \u0002106hacat cells/ml, respectively, using two syringes connected under a sterile cap.",
+        {
+            "entities": [
+                [
+                    91,
+                    111,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "human adipose-derived mesenchymal stem cells (ascs)  were uniformly mixed in this bioink at 1 × 106 cells/ml concentration, and spheroid  specimens were cultured in both static and dynamic culture conditions.",
+        {
+            "entities": [
+                [
+                    0,
+                    50,
+                    "TYPECELLS"
+                ],
+                [
+                    92,
+                    108,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "rfp-huvecs were either suspended alone or with hadscs at a 2:1 ratio for a total cell  density of 5 million cells/ml in each alginate solution.",
+        {
+            "entities": [
+                [
+                    98,
+                    116,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "huvecs and hadscs were stained with calcein-am before  being suspended 2:1 in partially crosslinked alginate at a total density of 3 million cells/ml  and pipetted into the glass tips.",
+        {
+            "entities": [
+                [
+                    131,
+                    149,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "to fabricate a heterogenous vtu,  rfp-huvecs and hadscs were suspended in the vasculogenic bioink in a 2:1 ratio (rfp- huvec:adsc) at a total cell density of 5 million cells/ml. to fabricate a mixed vtu,  rfp-huvecs, hadscs, and gfp-hdfs were suspended in the vasculogenic bioink in a  2:1:1 ratio (rfp-huvec:adsc:gfp-hdf) at a total cell density of 5 million cells/ml. for  both heterogenous and mixed vtus, gfp-hdfs were loaded at a density of 2 million  cells/ml in the fibroblast-containing bioink.",
+        {
+            "entities": [
+                [
+                    119,
+                    124,
+                    "TYPECELLS"
+                ],
+                [
+                    158,
+                    176,
+                    "CELLPERMILLION"
+                ],
+                [
+                    309,
+                    317,
+                    "TYPECELLS"
+                ],
+                [
+                    350,
+                    368,
+                    "CELLPERMILLION"
+                ],
+                [
+                    446,
+                    465,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "immediate cell viability after bioprinting to investigate the immediate cell viability after bioprinting, mc3t3 pre-osteoblast cells  were bioprinted at a density of 1 × 106 cells/ml of bioink.",
+        {
+            "entities": [
+                [
+                    0,
+                    24,
+                    "TYPECELLS"
+                ],
+                [
+                    166,
+                    192,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "author manuscript author manuscript author manuscript author manuscript2.6 bone cell proliferation to investigate the long-term cell viability and proliferation in the bioprinted hydrogel,  mc3t3 pre-osteoblast cells were bioprinted at a density of 10 × 106 cells/ml of bioink.",
+        {
+            "entities": [
+                [
+                    249,
+                    266,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "after reaching 80% confluency, pc12 cells were trypsinized and centrifuged at 3000  rpm for 10 min and mixed into bioink at a density of 10 × 106 cells/ml using the same  procedure as described in the mc3t3 cell mixing section.",
+        {
+            "entities": [
+                [
+                    31,
+                    41,
+                    "TYPECELLS"
+                ],
+                [
+                    137,
+                    154,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "author manuscript author manuscript author manuscript author manuscriptcollected by centrifugation and mixed with opf/gelatin slurry (1 × 106 cells/ml) to make  bioinks, as presented in fig.",
+        {
+            "entities": [
+                [
+                    134,
+                    150,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "b) microscopic images of the same printed scaffolds at different positions of  the scaffolds and c) enlarged microscopic images of the scaffolds containing cells (1 ×  106 cells/ml of bioink).",
+        {
+            "entities": [
+                [
+                    163,
+                    180,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "comparison of in-situ versus ex-situ delivery of  polyethylenimine-bmp-2 polyplexes for rat calvarial defect  repair via intraoperative bioprinting kazim k. moncal1,2,3,#, miji yeo1,2,#, nazmiye celik1,2, timothy m. acri4, elias rizk5,  hwabok wee1,6, gregory s. lewis1,6, aliasger k. salem4,7, ibrahim t. ozbolat1,2,5,8,9,10,* 1engineering science and mechanics, pennsylvania state university, university park, pa, usa 2huck institutes of the life sciences, pennsylvania state university, university park, pa, usa 3molecular imaging program at stanford (mips), department of radiology, stanford university,  stanford, ca, usa 4division of pharmaceutics and translational therapeutics, collage of pharmacy, university of  iowa, iowa city, ia, usa 5department of neurosurgery, penn state university, college of medicine, hershey, pa, usa 6department of orthopedics and rehabilitation, penn state university, college of medicine,  hershey, pa, usa 7department of chemical and biochemical engineering, college of engineering, university of  iowa, iowa city, ia, usa 8biomedical engineering, pennsylvania state university, university park, pa, usa 9materials research institute, pennsylvania state university, university park, pa, usa 10department of medical oncology, cukurova university, adana, turkey abstract gene therapeutic applications combined with bio- and nano-materials have been used to address  current shortcomings in bone tissue engineering due to their feasibility, safety and potential  capability for clinical translation.",
+        {
+            "entities": [
+                [
+                    1428,
+                    1439,
+                    "TYPECELLS"
+                ]
+            ]
+        }
+    ],
+    [
+        "the constructs were 3d bioprinted (using transfected or  non-transfected hmscs at 5 million cells/ml loaded into the bioink) at a bioprinting  speed of 60 mm/min, a nozzle diameter of 410 μm and pneumatic pressure of 80 kpa.",
+        {
+            "entities": [
+                [
+                    82,
+                    100,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "the experiment was designed to include four major groups: i) negative control ( n=3), ii)  bioink+rbmscs (5 million cells/ml) ( n=6), iii) bioink+rbmscs(tpei-pbmp-2) ( n=6) for  ex-situ delivery, and iv) bioink+pei-pbmp-2 ( n=7) for in-situ delivery of plasmid particles.",
+        {
+            "entities": [
+                [
+                    106,
+                    124,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "for in-vitro evaluation, hmscs were used at a  density of 5 million cells/ml in the bioink.",
+        {
+            "entities": [
+                [
+                    58,
+                    76,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "in this study, we used 5×106 rbmscs per ml, where the cell encapsulation density for  hydrogels has been varied from 5 to 10 million cells/ml for bone tissue engineering [ 45].",
+        {
+            "entities": [
+                [
+                    23,
+                    28,
+                    "CELLPERMILLION"
+                ],
+                [
+                    29,
+                    35,
+                    "TYPECELLS"
+                ],
+                [
+                    117,
+                    141,
+                    "CELLPERMILLION"
+                ],
+                [
+                    146,
+                    157,
+                    "TYPECELLS"
+                ]
+            ]
+        }
+    ],
+    [
+        "for instance, among collagen constructs seeded with  6 × 105, 3 × 106, 3 × 107, and 1 × 108 cells/ml, a scaffold with cell density above 3  × 106 cells/ml revealed a significant decrease in break force when tensile testing was  performed immediately after compression at day 10 [ 52].",
+        {
+            "entities": [
+                [
+                    53,
+                    60,
+                    "CELLPERMILLION"
+                ],
+                [
+                    62,
+                    69,
+                    "CELLPERMILLION"
+                ],
+                [
+                    71,
+                    78,
+                    "CELLPERMILLION"
+                ],
+                [
+                    84,
+                    100,
+                    "CELLPERMILLION"
+                ],
+                [
+                    137,
+                    154,
+                    "CELLPERMILLION"
+                ]
+            ]
+        }
+    ],
+    [
+        "bioprinting 23 (2021) e00148 available online 13 may 2021 2405-8866/© 2021 elsevier b.v. all rights reserved.",
+        {
+            "entities": [
+                [
+                    12,
+                    21,
+                    "QUANTITY1"
+                ]
+            ]
+        }
+    ]
+]

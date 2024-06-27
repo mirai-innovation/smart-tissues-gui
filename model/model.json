@@ -1,0 +1,60 @@
+[
+    {
+        "text": "Gelatin (Type B, Sigma-Aldrich, St. Louis, MO, USA) in 3 w/v % (0.3 g in 10 mL) was dissolved in DMEM.",
+        "labels": [
+            
+            {"start": 0, "end": 7, "entity": "Cell Type"},
+            {"start": 51, "end": 57, "entity": "QUANTITY"}
+        ]
+    },
+    {
+        "text": "Sodium alginate in 3 w/v % (0.3 g in 10 mL) was added.",
+        "labels": [
+            {"start": 0, "end": 7, "entity": "COMPONENT 1"},
+            {"start": 0, "end": 7, "entity": "COMPONENT 2"},
+            {"start": 0, "end": 7, "entity": "COMPONENT 3"},
+            {"start": 0, "end": 7, "entity": "COMPONENT 4"},
+            {"start": 51, "end": 57, "entity": "QUANTITY"}
+        ]
+    },
+    {
+        "text": "Sodium alginate in 3 w/v % (0.3 g in 10 mL) was added.",
+        "labels": [
+            {"start": 0, "end": 7, "entity": "COMPONENT 1"},
+            {"start": 0, "end": 7, "entity": "COMPONENT 2"},
+            {"start": 0, "end": 7, "entity": "COMPONENT 3"},
+            {"start": 0, "end": 7, "entity": "COMPONENT 4"},
+            {"start": 51, "end": 57, "entity": "QUANTITY"}
+        ]
+    },
+    {
+        "text": "Sodium alginate in 3 w/v % (0.3 g in 10 mL) was added.",
+        "labels": [
+            {"start": 0, "end": 7, "entity": "COMPONENT 1"},
+            {"start": 0, "end": 7, "entity": "COMPONENT 2"},
+            {"start": 0, "end": 7, "entity": "COMPONENT 3"},
+            {"start": 0, "end": 7, "entity": "COMPONENT 4"},
+            {"start": 51, "end": 57, "entity": "QUANTITY"}
+            ]
+    },
+    {
+        "text": "Sodium alginate in 3 w/v % (0.3 g in 10 mL) was added.",
+        "labels": [
+            {"start": 0, "end": 7, "entity": "COMPONENT 1"},
+            {"start": 0, "end": 7, "entity": "COMPONENT 2"},
+            {"start": 0, "end": 7, "entity": "COMPONENT 3"},
+            {"start": 0, "end": 7, "entity": "COMPONENT 4"},
+            {"start": 51, "end": 57, "entity": "QUANTITY"}
+        ]
+    },
+    {
+        "text": "Sodium alginate in 3 w/v % (0.3 g in 10 mL) was added.",
+        "labels": [ 
+            {"start": 0, "end": 7, "entity": "COMPONENT 1"},
+            {"start": 0, "end": 7, "entity": "COMPONENT 2"},
+            {"start": 0, "end": 7, "entity": "COMPONENT 3"},
+            {"start": 0, "end": 7, "entity": "COMPONENT 4"},
+            {"start": 51, "end": 57, "entity": "QUANTITY"}
+        ]
+    }
+]
